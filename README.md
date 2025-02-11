@@ -6,7 +6,7 @@
 
 Coordinator and lead, contact: Simon Worthington, [simon.worthington@tib.eu](mailto:simon.worthington@tib.eu). 2025-02-11
 
-The project is to build a *‘*publishing’ knowledge graph for the UN [IPCC Assessment Reports](https://www.ipcc.ch/report/sixth-assessment-report-cycle/). The knowledge graph would be used for frictionless dissemination of the reports, and include:
+The project is to build a ‘publishing’ knowledge graph for the UN [IPCC Assessment Reports](https://www.ipcc.ch/report/sixth-assessment-report-cycle/). The knowledge graph would be used for frictionless dissemination of the reports, and include:
 
 * cataloguing the literature corpora;   
 * word search;   
