@@ -6,7 +6,7 @@
 
 ### A software development project
 
-Wiki | Knowledge Graph Design Working Paper | Discussion | Literature collection | WIP | Issues
+[Wiki](https://github.com/TIBHannover/climate-knowledge-graph/wiki) | [Knowledge Graph Design Working Paper - 2025](https://github.com/TIBHannover/climate-knowledge-graph/wiki/ClimateKG-Design-%E2%80%90-Working-Paper) | [Discussion](https://github.com/orgs/semanticClimate/discussions/24) | [Literature collection](https://www.zotero.org/groups/2437020/semanticclimate/collections/IXBQXNLH) | WIP demo - TBC | [Issues](https://github.com/TIBHannover/climate-knowledge-graph/issues)
 
 Coordinator and lead, contact: Simon Worthington, [simon.worthington@tib.eu](mailto:simon.worthington@tib.eu). 2025-02-11
 
