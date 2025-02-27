@@ -6,7 +6,7 @@
 
 ### A software development project
 
-Wiki | Knowledge Graph Design Working Paper | Discussion | Literature collection | WIP
+Wiki | Knowledge Graph Design Working Paper | Discussion | Literature collection | WIP | Issues
 
 Coordinator and lead, contact: Simon Worthington, [simon.worthington@tib.eu](mailto:simon.worthington@tib.eu). 2025-02-11
 
