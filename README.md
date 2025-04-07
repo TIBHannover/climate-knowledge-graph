@@ -4,40 +4,64 @@
 
 ## A publishing knowledge graph for UN IPCC reports
 
-### A software development project
+Climate Knowledge Graph an R\&D project hosted at TIB – Leibniz Information Centre for Science and Technology and organised partnership with \#semanticClimate.
 
-[Wiki](https://github.com/TIBHannover/climate-knowledge-graph/wiki) | [Knowledge Graph Design Working Paper - 2025](https://github.com/TIBHannover/climate-knowledge-graph/wiki/ClimateKG-Design-%E2%80%90-Working-Paper) | [Discussion](https://github.com/orgs/semanticClimate/discussions/24) | [Literature collection](https://www.zotero.org/groups/2437020/semanticclimate/collections/IXBQXNLH) | WIP demo - TBC | [Issues](https://github.com/TIBHannover/climate-knowledge-graph/issues)
+Git repository: [https://github.com/TIBHannover/climate-knowledge-graph](https://github.com/TIBHannover/climate-knowledge-graph)
 
-Coordinator and lead, contact: Simon Worthington, [simon.worthington@tib.eu](mailto:simon.worthington@tib.eu). 2025-02-11
+Project lead: Simon Worthington, Open Science Lab, TIB, Hanover – e-mail: [simon.worthington@tib.eu](mailto:simon.worthington@tib.eu) | Mastodon: [https://openbiblio.social/@mrchristian](https://openbiblio.social/@mrchristian)
 
-The project is to build a ‘publishing’ knowledge graph for the UN [IPCC Assessment Reports](https://www.ipcc.ch/report/sixth-assessment-report-cycle/). The knowledge graph would be used for frictionless dissemination of the reports, and include:
+Project status: 12 month development phase to start in May 2025 supported by TIB.
 
-* cataloguing the literature corpora;   
-* word search;   
-* content publishing and reuse, and   
-* address the needs of the IPCC. 
+Climate Knowledge Graph (ClimateKG) mission is to support the dissemination of the IPCC Reports.
 
-The technology used is Wikibase, Jupyter Notebooks, \#semanticClimate software, and TIB services: Wikibase4Reseach, Computational Publishing Services, Terminology Services (Antelope), Open Research Knowledge Graph (ORKG), Renate, and PID and Metadata services.
+The IPCC is the Intergovernmental Panel on Climate Change and is a body of the United Nations. The IPCC Reports are one of the definitive climate change science and policy knowledge sources – which map out pathways into a future where the harmful effects of climate are potentially mitigated.
 
-The IPCC reports are the gold standard of climate science, but the publishing is not machine readable, only being released as PDF and some HTML. The solution to this issue is to semantically structure the content as many semi-structured pre-existing parts just need connecting — authors, data, citations, and glossaries, etc.
+Currently IPCC Reports are published as PDF and, with some reports available as webpages.
 
-The goal would be to have the UN IPCC Assessment Report 6 (AR6) available for public use. The *‘*publishing’ knowledge graph allows for queries that can collated and exported publications. See prototypes: [IPCC Glossary](https://tibhannover.github.io/semantic-glossar/ipcc-terms.html) and [City Climate Change Plans: Open Climate Reader](https://semanticclimate.github.io/city-open-climate-reader/).
+The ClimateKG project will create a knowledge graph of the reports, initially with the open access parts of *IPCC Sixth Assessment Report (AR6)*, to provide two open web resources for others to use: firstly, a modern open web index for searching IPCC Reports, and: secondly a publishing engine that can package search results. A knowledge graph is a database that precisely describes entities and relationships, enabling search and logical reasoning, for example if the following question was asked:
 
-The project is based on a cooperation with [‘\#semanticClimate’](https://docs.google.com/document/d/1ihhso6gfldWFdR1o8pP0W7Orbk7j2zcMCwyfv-qN1wY/edit) an open research community and TIB Wikibase4Reseach services run by the Consortium for Research Data on Material and Immaterial Cultural Heritage (NFDI4Culture) team at the Open Science Lab — TIB, in cooperation with Lab Knowledge Infrastructures — TIB. Partners are National Institute of Plant Genome Research (NIPGR), Delhi, India.
+‘How to design a city climate action plan to mitigate against extreme weather such as floods and fires — what are the mitigation policy options — and where are the authoring scientists geographically based?’.
 
-The following has been prepared for semantification of the UN IPCC Assessment Report 6: TDM conversion to HTML of all [70 chapters](https://github.com/semanticClimate/ipcc/tree/main/cleaned_content), [2000 climate terms aligned with Wikidata](https://github.com/petermr/semanticClimate/blob/main/ipcc/ar6/test/total_glossary/glossaries/total/acronyms_wiki.csv), and extraction of the [Glossary of 600 terms](https://vivliostyle.vercel.app/#src=https://raw.githubusercontent.com/semanticClimate/glossary-demo/main/ipccglossary.jsonld) by team \#semanticClimate.
+ClimateKG would be able to return a search result that gives links to all the related IPCC Report chapters, but also provide a list of authors, their global locations, the related research paper citations used in the report — all as neat search results and as a full text publication package. The derivative publications would be automatically typeset, available multi-format, and as semantically marked up outputs.
 
-The project is guided by the [UNESCO Recommendation on Open Science](https://unesdoc.unesco.org/ark:/48223/pf0000379949.locale=en) principles and values: quality and integrity, collective benefit, equity and fairness, and diversity and inclusiveness.
+ClimateKG specialised in semantic and linked open data enrichment of large scale fixed scientific corpora using RDF/Semantic Web design models and Wikibase/data technology to create model open science based indexing and cataloguing.
 
-Goals and outcomes
+## Roadmap
 
-* Create a sustainable service to support the IPCC in their work  
-* Import all of IPCC Assessment Report 6 (AR6) into Wikibase with a granular LOD data model.  
-* Co-create prototypes with IPCC that address their core needs and challenges.  
-* Connect the Jupyter Notebooks publishing pipeline to Wikibase for search and republishing with CSS Paged Media styles.  
-* Demonstrate the importance of digital capability — upskilling — for knowledge organisation and access to address Climate Change.  
-* Explore the cost and benefit financials of ‘Opportunity Cost’ where semantification is of use for a legacy corpora to create increased access for industry, policy, and public use.  
-* Focus TIB services Wikibase4Reseach to use the Wikibase LOD resource being created to demonstrate use value.    
-* Using trustable AI. Machine learning forms the foundation of many tools used in the semantification space and Open Science based AI will be explored in the project. 
+| Task area | Status | Link | Q1 | Q2 | Q3 | Q4 |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| 1\. AR6 report as semantified HTML w/IDs | Alpha | [Git](https://github.com/petermr/amilib/tree/pmr_aug/test/resources/ipcc/cleaned_content) | X |  |  |  |
+| 2\. Table of contents of AR6 60 chapters | Alpha | [Git](https://github.com/semanticClimate/internship_sC/tree/MEBIN/TOC) | X |  |  |  |
+| 3\. IPCC Glossary (800 terms) to Wikibase (WB) | Done | [WB](https://climatekg.semanticclimate.net/index.php?title=IPCC_Begriffe) | X |  |  |  |
+| 4\. Data relationship model | Pre-alpha | [WB](https://kg-ipclimatec-reports.wikibase.cloud/wiki/Main_Page) | X | X |  |  |
+| 5\. Infrastructure | Done | NA |  |  |  |  |
+| 6\. Publishing pipeline | Production | [Git](https://nfdi4culture.de/services/details/computational-publishing-service.html) |  | X |  |  |
+| 7\. ClimateKG \- Index Service (dev) | Prototype (PoC) | [WB](https://kg-ipclimatec-reports.wikibase.cloud/wiki/Main_Page) |  | X | X |  |
+| 8\. ClimateKG \- Publishing Service (dev) | Prototype (PoC) | [Git](https://semanticclimate.github.io/city-open-climate-reader/) |  |  | X | X |
+| 9\. Software: Dictionaries, machine learning, etc | Production | [JN](https://colab.research.google.com/github/semanticClimate/sC-tools-demo/blob/main/TTWW_demo_sC_tools.ipynb) |  | X |  |  |
 
+## Background
 
+ClimateKG comes directly out of the five year old \#semanticClimate (\#sC) open research group founded by Dr Gitanjali Yadav of the National Institute of Plant Genome Research (NIPGR), Delhi, Dr Peter Murray-Rust of Cambridge University, and Simon Worthington which works on software tool development for semantic enrichment. \#semanticClimate is active on a daily basis as a community and NIPGR supports an India wide internship programme, hackathon series, and youth outreach programme. Additionally \#sC presents globally from Beijing, Montevideo, to Berlin.
+
+Web: [https://semanticclimate.github.io/](https://semanticclimate.github.io/)
+
+Journal Article: Worthington, Simon, Gitanjali Yadav, Shweata Hegde, Renu Kumari, Neeraj Kumari, and Peter Murray-Rust. 2024\. ‘The \#SemanticClimate Community: Making Open-Source Software for Knowledge Liberation’. *Annals of Library and Information Studies* 71 (4): 480–95. [https://doi.org/10.56042/alis.v71i4.14285](https://doi.org/10.56042/alis.v71i4.14285).
+
+TIB is a global hub for knowledge graph R\&D, service development, and infrastructure provision — especially the [Open Research Knowledge Graph](https://orkg.org/) (ORKG). ClimateKG partners with and is supported in knowledge graph expertise by Lab Knowledge Infrastructures led by Dr Markus Stocker. At TIB ClimateKG is based in the Open Science Lab and makes use of expertise from the NFDI4Culture (cultural heritage consortium of the larger German National Research Data Infrastructure Consortium) projects: Wikibase4Research, Computational Publishing Service, and Antelope (terminology service).
+
+* [Open Research Knowledge Graph](https://orkg.org/) (ORKG)
+
+* Lab Knowledge Infrastructures
+
+* Open Science Lab
+
+* NFDI4Culture (cultural heritage consortium of the larger German National Research Data Infrastructure Consortium)
+
+* Wikibase4Research
+
+* Computational Publishing Service
+
+* Antelope (terminology service)
+
+Thank you for support and contributions to TIB colleagues and \#semanticClimate members, interns, and hackathon participants.
