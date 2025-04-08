@@ -1,8 +1,8 @@
 # Climate Knowledge Graph
 
-\#ClimateKG 🌏🌍🌎
-
 ## A publishing knowledge graph for UN IPCC reports
+
+\#ClimateKG 🌏🌍🌎
 
 Climate Knowledge Graph an R\&D project hosted at TIB – Leibniz Information Centre for Science and Technology and organised partnership with \#semanticClimate.
 
@@ -45,24 +45,17 @@ ClimateKG specialised in semantic and linked open data enrichment of large scale
 
 ClimateKG comes directly out of the five year old \#semanticClimate (\#sC) open research group founded by Dr Gitanjali Yadav of the National Institute of Plant Genome Research (NIPGR), Delhi, Dr Peter Murray-Rust of Cambridge University, and Simon Worthington which works on software tool development for semantic enrichment. \#semanticClimate is active on a daily basis as a community and NIPGR supports an India wide internship programme, hackathon series, and youth outreach programme. Additionally \#sC presents globally from Beijing, Montevideo, to Berlin.
 
-Web: [https://semanticclimate.github.io/](https://semanticclimate.github.io/)
-
-Journal Article: Worthington, Simon, Gitanjali Yadav, Shweata Hegde, Renu Kumari, Neeraj Kumari, and Peter Murray-Rust. 2024\. ‘The \#SemanticClimate Community: Making Open-Source Software for Knowledge Liberation’. *Annals of Library and Information Studies* 71 (4): 480–95. [https://doi.org/10.56042/alis.v71i4.14285](https://doi.org/10.56042/alis.v71i4.14285).
+* Web: [https://semanticclimate.github.io/](https://semanticclimate.github.io/)  
+* Journal Article: Worthington, Simon, Gitanjali Yadav, Shweata Hegde, Renu Kumari, Neeraj Kumari, and Peter Murray-Rust. 2024\. ‘The \#SemanticClimate Community: Making Open-Source Software for Knowledge Liberation’. *Annals of Library and Information Studies* 71 (4): 480–95. [https://doi.org/10.56042/alis.v71i4.14285](https://doi.org/10.56042/alis.v71i4.14285).
 
 TIB is a global hub for knowledge graph R\&D, service development, and infrastructure provision — especially the [Open Research Knowledge Graph](https://orkg.org/) (ORKG). ClimateKG partners with and is supported in knowledge graph expertise by Lab Knowledge Infrastructures led by Dr Markus Stocker. At TIB ClimateKG is based in the Open Science Lab and makes use of expertise from the NFDI4Culture (cultural heritage consortium of the larger German National Research Data Infrastructure Consortium) projects: Wikibase4Research, Computational Publishing Service, and Antelope (terminology service).
 
-* [Open Research Knowledge Graph](https://orkg.org/) (ORKG)
-
-* [Lab Knowledge Infrastructures](https://www.tib.eu/en/research-development/research-groups-and-labs/knowledge-infrastructures)
-
-* [Open Science Lab](https://www.tib.eu/en/research-development/research-groups-and-labs/open-science)
-
-* [NFDI4Culture](https://nfdi4culture.de/) (cultural heritage consortium of the larger German National Research Data Infrastructure Consortium)
-
-* [Wikibase4Research](https://nfdi4culture.de/services/details/wikibase4research.html)
-
-* [Computational Publishing Service](https://nfdi4culture.de/de/dienste/details/computational-publishing-service.html)
-
+* [Open Research Knowledge Graph](https://orkg.org/) (ORKG)  
+* [Lab Knowledge Infrastructures](https://www.tib.eu/en/research-development/research-groups-and-labs/knowledge-infrastructures)  
+* [Open Science Lab](https://www.tib.eu/en/research-development/research-groups-and-labs/open-science)  
+* [NFDI4Culture](https://nfdi4culture.de/) (cultural heritage consortium of the larger German National Research Data Infrastructure Consortium)  
+* [Wikibase4Research](https://nfdi4culture.de/services/details/wikibase4research.html)  
+* [Computational Publishing Service](https://nfdi4culture.de/de/dienste/details/computational-publishing-service.html)  
 * [Antelope](https://service.tib.eu/annotation/) (terminology service)
 
 Thank you for support and contributions to TIB colleagues and \#semanticClimate members, interns, and hackathon participants.
