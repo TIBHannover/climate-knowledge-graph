@@ -39,6 +39,7 @@ ClimateKG specialised in semantic and linked open data enrichment of large scale
 | 7\. ClimateKG \- Index Service (dev) | Prototype (PoC) | [WB](https://kg-ipclimatec-reports.wikibase.cloud/wiki/Main_Page) |  | X | X |  |
 | 8\. ClimateKG \- Publishing Service (dev) | Prototype (PoC) | [Git](https://semanticclimate.github.io/city-open-climate-reader/) |  |  | X | X |
 | 9\. Software: Dictionaries, machine learning, etc | Production | [JN](https://colab.research.google.com/github/semanticClimate/sC-tools-demo/blob/main/TTWW_demo_sC_tools.ipynb) |  | X |  |  |
+| 10\. PDF/Web to HTML Corpus Transformer | Prod./Custom | [Git](https://github.com/semanticClimate) |  |  |  |  |
 
 ## Background
 
@@ -52,16 +53,16 @@ TIB is a global hub for knowledge graph R\&D, service development, and infrastru
 
 * [Open Research Knowledge Graph](https://orkg.org/) (ORKG)
 
-* Lab Knowledge Infrastructures
+* [Lab Knowledge Infrastructures](https://www.tib.eu/en/research-development/research-groups-and-labs/knowledge-infrastructures)
 
-* Open Science Lab
+* [Open Science Lab](https://www.tib.eu/en/research-development/research-groups-and-labs/open-science)
 
-* NFDI4Culture (cultural heritage consortium of the larger German National Research Data Infrastructure Consortium)
+* [NFDI4Culture](https://nfdi4culture.de/) (cultural heritage consortium of the larger German National Research Data Infrastructure Consortium)
 
-* Wikibase4Research
+* [Wikibase4Research](https://nfdi4culture.de/services/details/wikibase4research.html)
 
-* Computational Publishing Service
+* [Computational Publishing Service](https://nfdi4culture.de/de/dienste/details/computational-publishing-service.html)
 
-* Antelope (terminology service)
+* [Antelope](https://service.tib.eu/annotation/) (terminology service)
 
 Thank you for support and contributions to TIB colleagues and \#semanticClimate members, interns, and hackathon participants.
