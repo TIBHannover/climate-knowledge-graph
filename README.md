@@ -4,7 +4,7 @@
 
 \#ClimateKG 🌏🌍🌎
 
-Climate Knowledge Graph an R\&D project hosted at TIB – Leibniz Information Centre for Science and Technology and organised partnership with \#semanticClimate.
+Climate Knowledge Graph is an R\&D project hosted at TIB – Leibniz Information Centre for Science and Technology and organised partnership with \#semanticClimate.
 
 Git repository: [https://github.com/TIBHannover/climate-knowledge-graph](https://github.com/TIBHannover/climate-knowledge-graph)
 
@@ -39,11 +39,11 @@ ClimateKG specialised in semantic and linked open data enrichment of large scale
 | 7\. ClimateKG \- Index Service (dev) | Prototype (PoC) | [WB](https://kg-ipclimatec-reports.wikibase.cloud/wiki/Main_Page) |  | X | X |  |
 | 8\. ClimateKG \- Publishing Service (dev) | Prototype (PoC) | [Git](https://semanticclimate.github.io/city-open-climate-reader/) |  |  | X | X |
 | 9\. Software: Dictionaries, machine learning, etc | Production | [JN](https://colab.research.google.com/github/semanticClimate/sC-tools-demo/blob/main/TTWW_demo_sC_tools.ipynb) |  | X |  |  |
-| 10\. PDF/Web to HTML Corpus Transformer | Prod./Custom | [Git](https://github.com/semanticClimate) |  |  |  |  |
+| 10\. PDF/Web to HTML Corpus Transformer | Prod./Custom | [Git](https://github.com/petermr/amilib) |  |  |  |  |
 
 ## Background
 
-ClimateKG comes directly out of the five year old \#semanticClimate (\#sC) open research group founded by Dr Gitanjali Yadav of the National Institute of Plant Genome Research (NIPGR), Delhi, Dr Peter Murray-Rust of Cambridge University, and Simon Worthington which works on software tool development for semantic enrichment. \#semanticClimate is active on a daily basis as a community and NIPGR supports an India wide internship programme, hackathon series, and youth outreach programme. Additionally \#sC presents globally from Beijing, Montevideo, to Berlin.
+ClimateKG comes directly out of the five year old \#semanticClimate (\#sC) open research group founded by Dr. Gitanjali Yadav of the National Institute of Plant Genome Research (NIPGR), Delhi, Dr Peter Murray-Rust of Cambridge University, and Simon Worthington which works on software tool development for semantic enrichment. \#semanticClimate is active on a daily basis as a community and NIPGR supports an India wide internship programme, hackathon series, and youth outreach programme. Additionally \#sC presents globally from Beijing, Montevideo, to Berlin.
 
 * Web: [https://semanticclimate.github.io/](https://semanticclimate.github.io/)  
 * Journal Article: Worthington, Simon, Gitanjali Yadav, Shweata Hegde, Renu Kumari, Neeraj Kumari, and Peter Murray-Rust. 2024\. ‘The \#SemanticClimate Community: Making Open-Source Software for Knowledge Liberation’. *Annals of Library and Information Studies* 71 (4): 480–95. [https://doi.org/10.56042/alis.v71i4.14285](https://doi.org/10.56042/alis.v71i4.14285).
