@@ -31,7 +31,7 @@ ClimateKG specialised in semantic and linked open data enrichment of large scale
 | Task area | Status | Link | Q1 | Q2 | Q3 | Q4 |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | 1\. AR6 report as semantified HTML w/IDs | Alpha | [Git](https://github.com/petermr/amilib/tree/pmr_aug/test/resources/ipcc/cleaned_content) | X |  |  |  |
-| 2\. Table of contents of AR6 60 chapters | Alpha | [Git](https://github.com/semanticClimate/internship_sC/tree/MEBIN/TOC) | X |  |  |  |
+| 2\. Table of contents of AR6 70 chapters | Alpha | [Git](https://github.com/semanticClimate/internship_sC/tree/MEBIN/TOC) | X |  |  |  |
 | 3\. IPCC Glossary (800 terms) to Wikibase (WB) | Done | [WB](https://climatekg.semanticclimate.net/index.php?title=IPCC_Begriffe) | X |  |  |  |
 | 4\. Data relationship model | Pre-alpha | [WB](https://kg-ipclimatec-reports.wikibase.cloud/wiki/Main_Page) | X | X |  |  |
 | 5\. Infrastructure | Done | NA |  |  |  |  |
