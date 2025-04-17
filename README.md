@@ -6,7 +6,7 @@ Climate Knowledge Graph is a service for structuring large climate change corpor
 
 \#ClimateKG 🌏🌍🌎
 
-Climaten Climate Knowledge Graph is an R\&D project hosted at [TIB](https://www.tib.eu/en) – Leibniz Information Centre for Science and Technology and organised partnership with [\#semanticClimate](https://semanticclimate.github.io/p/en/).
+Climate Knowledge Graph is an R\&D project hosted at [TIB](https://www.tib.eu/en) – Leibniz Information Centre for Science and Technology and organised partnership with [\#semanticClimate](https://semanticclimate.github.io/p/en/).
 
 Git repository: [https://github.com/TIBHannover/climate-knowledge-graph](https://github.com/TIBHannover/climate-knowledge-graph)
 
@@ -67,5 +67,3 @@ TIB is one of the largest science libraries in the world and is a global hub for
 * [Antelope](https://service.tib.eu/annotation/) (terminology service)
 
 Thank you for support and contributions to TIB colleagues and \#semanticClimate members, volunteers, interns, and hackathon participants.
-
-
