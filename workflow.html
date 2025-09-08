@@ -170,10 +170,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>The workflow represents the stages that go from harvesting unstructured document corpora, web or PDF, to structuring the content. Wikibase is used for storage, supporting community annotation, search for outputting publication ready documents - including via LLMs, and providing knowledge graph data services.</p>
+<p>The goals are to enable easier use knowledge from complex corpora by enabling: 1. Publishing of search resuts, and 2. Providing structured linked open data from a knwoledge graph.</p>
 <ul>
 <li>Report sources</li>
 <li>IPCC web scrape report texts (harvest)</li>
-<li>Generate initial graph data model</li>
+<li>Generate initial graph data model (iteratively developed)</li>
 <li>Wikibase report import</li>
 <li>Wikibase to Mediawiki report navigation mapping for report browsing</li>
 <li>Harvest data:
@@ -189,22 +191,23 @@ ul.task-list li input[type="checkbox"] {
 <li>Community annotation: #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.</li>
 <li>Wikibase to Wikidata data mapping</li>
 <li>Wikibase data visualisations</li>
-<li>Publishing (CPS_Impress - python module): Computational Publishing Service (CPS) publishing engine, Wikibase to HTML and Jupyter Notebooks/Quarto - using Jinja templating as MVC Design Pattern. Paged Media CSS style templates. Web CSS styles.
+<li>Publications available as:
 <ul>
 <li>REST API</li>
-<li>Command line /Jupyter Noteooks</li>
-<li>Python CMS (Jackdaw)</li>
-<li>Graph RAG LLM</li>
+<li>Command line</li>
+<li>Jupyter Noteooks</li>
+<li>Python CMS (e.g., Jackdaw)</li>
+<li>Graph RAG LLM All of the above using the following for publishing. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating using an Model View Controller architecture. Paged Media CSS style are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.</li>
 </ul></li>
 <li>Knowledge Graph and semantic outputs
 <ul>
-<li>Wikibase
+<li>From Wikibase:
 <ul>
 <li>REST API</li>
 <li>RDF export</li>
 <li>Dokeli RDFa</li>
-</ul></li>
 <li>Wikidata export</li>
+</ul></li>
 </ul></li>
 </ul>
 
