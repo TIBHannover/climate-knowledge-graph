@@ -24,7 +24,27 @@
     "href": "workflow.html",
     "title": "2  Workflow",
     "section": "",
-    "text": "The workflow represents the stages that go from harvesting unstructured document corpora, web or PDF, to structuring the content. Wikibase is used for storage, supporting community annotation, search for outputting publication ready documents - including via LLMs, and providing knowledge graph data services.\nThe goals are to enable easier use knowledge from complex corpora by enabling: 1. Publishing of search resuts, and 2. Providing structured linked open data from a knwoledge graph.\n\nReport sources\nIPCC web scrape report texts (harvest)\nGenerate initial graph data model (iteratively developed)\nWikibase report import\nWikibase to Mediawiki report navigation mapping for report browsing\nHarvest data:\n\nAuthors\nGlossary\nAcronyms list\nReferences\nBibliographic\n\nImport data to Wikibase\nAnnotate report using data\nCommunity annotation: #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.\nWikibase to Wikidata data mapping\nWikibase data visualisations\nPublications available as:\n\nREST API\nCommand line\nJupyter Noteooks\nPython CMS (e.g., Jackdaw)\nGraph RAG LLM All of the above using the following for publishing. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating using an Model View Controller architecture. Paged Media CSS style are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.\n\nKnowledge Graph and semantic outputs\n\nFrom Wikibase:\n\nREST API\nRDF export\nDokeli RDFa\nWikidata export",
+    "text": "2.1 Goals\nThe goals are to enable easier use knowledge from complex corpora by enabling:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "workflow.html#goals",
+    "href": "workflow.html#goals",
+    "title": "2  Workflow",
+    "section": "",
+    "text": "Publishing of search results, and\nProviding FAIR structured linked open data from a knwoledge graph.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "workflow.html#workflow-steps",
+    "href": "workflow.html#workflow-steps",
+    "title": "2  Workflow",
+    "section": "2.2 Workflow steps",
+    "text": "2.2 Workflow steps\nThe workflow represents the stages that go from harvesting unstructured document corpora, web or PDF, to structuring the content. Wikibase is used for storage and supports: community annotation, search for outputting ‘publication ready documents’ - including via LLMs, and for providing knowledge graph data services.\n\nReport sources\nIPCC web scrape report texts (harvest)\nGenerate initial graph data model (iteratively developed)\nWikibase report import\nWikibase to Mediawiki report navigation mapping for report browsing\nHarvest data:\n\nAuthors\nGlossary\nAcronyms list\nReferences\nBibliographic\n\nImport data to Wikibase\nAnnotate report using data\nCommunity annotation: #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.\nWikibase to Wikidata data mapping\nWikibase data visualisations\nPublications available as:\n\nREST API\nCommand line\nJupyter Noteooks\nPython CMS (e.g., Jackdaw)\nGraph RAG LLM All of the above using the following for publishing. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating using an Model View Controller architecture. Paged Media CSS style are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.\n\nKnowledge Graph and semantic outputs\n\nFrom Wikibase:\n\nREST API\nRDF export\nDokeli RDFa\nWikidata export",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Workflow</span>"
     ]
