@@ -2,31 +2,41 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Climate Knowledge Graph",
+    "title": "Documentation: Climate Knowledge Graph",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "About",
     "crumbs": [
-      "Preface"
+      "About"
     ]
   },
   {
     "objectID": "roadmap.html",
     "href": "roadmap.html",
-    "title": "1  Summary",
+    "title": "1  Roadmap",
     "section": "",
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
     ]
   },
   {
     "objectID": "workflow.html",
     "href": "workflow.html",
-    "title": "2  Introduction",
+    "title": "2  Workflow",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Report sources\nIPCC web scrape report texts (harvest)\nGenerate initial graph data model\nWikibase report import\nWikibase to Mediawiki report navigation mapping for report browsing\nHarvest data:\n\nAuthors\nGlossary\nAcronyms list\nReferences\nBibliographic\n\nImport data to Wikibase\nAnnotate report using data\nCommunity annotation: #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.\nWikibase to Wikidata data mapping\nWikibase data visualisations\nPublishing (CPS_Impress - python module): Computational Publishing Service (CPS) publishing engine, Wikibase to HTML and Jupyter Notebooks/Quarto - using Jinja templating as MVC Design Pattern. Paged Media CSS style templates. Web CSS styles.\n\nREST API\nCommand line /Jupyter Noteooks\nPython CMS (Jackdaw)\nGraph RAG LLM\n\nKnowledge Graph and semantic outputs\n\nWikibase\n\nREST API\nRDF export\nDokeli RDFa\n\nWikidata export",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "styles.html",
+    "href": "styles.html",
+    "title": "3  Styles",
+    "section": "",
+    "text": "https://github.com/TIBHannover/climate-knowledge-graph/issues/26",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Styles</span>"
     ]
   },
   {
@@ -37,16 +47,6 @@
     "text": "https://github.com/TIBHannover/climate-knowledge-graph/issues/18",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>IPCC Reports</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "References"
     ]
   }
 ]
