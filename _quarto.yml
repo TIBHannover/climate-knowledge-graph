@@ -1,0 +1,28 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Climate Knowledge Graph"
+  author: 
+  -  name: Simon Worthington
+     orcid: 0000-0002-8579-9717
+     email: simon.worthington@tib.eu
+  -  name: Laura Oldenbourg
+  date: today
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
