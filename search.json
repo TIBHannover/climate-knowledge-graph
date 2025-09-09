@@ -44,7 +44,47 @@
     "href": "roadmap.html",
     "title": "1  Roadmap",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.",
+    "text": "Key\nAR6 - IPCC Sixth Assement Report\nCPS - Computational Publishing Service\n#semanticClimate - project partner - open research group building software tools for climate knowledge",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
+    ]
+  },
+  {
+    "objectID": "roadmap.html#done",
+    "href": "roadmap.html#done",
+    "title": "1  Roadmap",
+    "section": "1.1 Done",
+    "text": "1.1 Done\n\nConvert AR6 report corpora web source to normalised HTML (web scrape) - v1.0 Ready\nLocate supporting resources located: Authors, glossary, acronmys, figures, data, bibliographic, licence, published canonical sources, references - v1.0 Ready\nKnowledge graph data model - Alpha\nLLM RAG workflow tests - Alpha\nPublishing pipeline from Wikibase - Beta 1.0 Ready - See python module: https://pypi.org/project/cps-impress/\nAR6 Report quantification - v1.0 Ready (repeat using TIB Grobi https://projects.tib.eu/grobi )",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
+    ]
+  },
+  {
+    "objectID": "roadmap.html#work-in-progress-wip",
+    "href": "roadmap.html#work-in-progress-wip",
+    "title": "1  Roadmap",
+    "section": "1.2 Work in progress (WIP)",
+    "text": "1.2 Work in progress (WIP)\n\nWikibase infrastructure - WIP\nAR6 Report publication sytactic, semantic, and typesetting data stucture analysis - WIP\nAR6 Report publication CSS Paged Media style - WIP\nDefining workflow and tech stack - WIP\nWikibase maintenance and sysadmin - WIP",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
+    ]
+  },
+  {
+    "objectID": "roadmap.html#next",
+    "href": "roadmap.html#next",
+    "title": "1  Roadmap",
+    "section": "1.3 Next",
+    "text": "1.3 Next\n\nAR6 WG1 section trial import into Wikibase for the purpose of Wikibase troubleshooting\nWikibase text import module - A python module needs writing importing text using Wikibase and a storage method - Renate or/and Mediawiki. This would extend https://pypi.org/project/cps-wb/\nRefector AR6 web scrape - A python module needs extending. This module was made by CPS for an art collection https://pypi.org/project/cps-deckenmalerei/\nImport AR6 into Wikibase\nHarvest data: Python module needed. This would extend https://pypi.org/project/cps-wb/\n\nAuthors\nGlossary\nAcronyms list\nReferences\nBibliographic\n\nImport above data to Wikibase. Python module needed. This would extend https://pypi.org/project/cps-wb/\nAnnotate report using above data\nWikibase to Mediawiki report navigation mapping for report browsing",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
+    ]
+  },
+  {
+    "objectID": "roadmap.html#to-do",
+    "href": "roadmap.html#to-do",
+    "title": "1  Roadmap",
+    "section": "1.4 To do",
+    "text": "1.4 To do\n\nDefine workflows and review processes for adding data to KG.\nLLM RAG proof of concept demo - using HTML corpora and Streamlit. This is meant as a throw away demonstration as the workflow has been tried out with #semanticClimate\nCommunity annotation (integrate #semanticClimate tooling): #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.\nWikibase to Wikidata data mapping\nWikibase data analysis and visualisations - using built in Wikidata tools\nPublications available as:\n\n\nREST API\nCommand line\nJupyter Noteooks\nPython CMS (e.g., Wagtail)\nGraph RAG LLM\n\nAll of the above publishing channels use the following framework. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating in a ‘Model View Controller’ architecture. Paged Media CSS styles are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.\n\n\n\nSaving publications data back to the knowledge graph\nMaking Renate DOI deposits of publications\nKnowledge Graph - FAIR linked open data, and semantic outputs from Wikibase:\n\n\nREST API\nRDF export\nDokieli RDFa\nWikidata export",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
     ]
@@ -74,7 +114,7 @@
     "href": "workflow.html#workflow",
     "title": "2  Workflow",
     "section": "2.2 Workflow",
-    "text": "2.2 Workflow\nThe workflow represents the stages that go from harvesting an unstructured document corpus, web or PDF, and converting it to structured data.\nWikibase is used for storage and knowledge graph creation to support the following features:\n\ncommunity annotation,\nsearch for outputting ‘publication ready documents’ including via LLMs, and for\nproviding knowledge graph data services.\n\n\n\n2.2.1 Workflow steps\n\nReport sources\nIPCC web scrape report texts (harvest)\nGenerate initial knowledge graph data model (iterativ development)\nWikibase report import\nWikibase to Mediawiki report navigation mapping for report browsing\nHarvest data:\n\nAuthors\nGlossary\nAcronyms list\nReferences\nBibliographic\n\nImport above data to Wikibase\nAnnotate report using above data\nCommunity annotation: #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.\nWikibase to Wikidata data mapping\nWikibase data visualisations\nPublications available as:\n\n\nREST API\nCommand line\nJupyter Noteooks\nPython CMS (e.g., Wagtail)\nGraph RAG LLM\n\nAll of the above publishing channels use the following framework. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating in a ‘Model View Controller’ architecture. Paged Media CSS styles are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.\n\n\n\nKnowledge Graph - FAIR linked open data, and semantic outputs from Wikibase:\n\n\nREST API\nRDF export\nDokieli RDFa\nWikidata export",
+    "text": "2.2 Workflow\nThe workflow represents the stages that go from harvesting an unstructured document corpus, web or PDF, and converting it to structured data.\nWikibase is used for storage and knowledge graph creation to support the following features:\n\ncommunity annotation,\nsearch for outputting ‘publication ready documents’ including via LLMs, and for\nproviding knowledge graph data services.\n\n\n\n2.2.1 Workflow steps\n\nReport sources\nIPCC web scrape report texts (corpus harvest)\nGenerate initial knowledge graph data model (iterativ development)\nWikibase report import\nWikibase to Mediawiki report navigation mapping for report browsing\nHarvest data:\n\nAuthors\nGlossary\nAcronyms list\nReferences\nBibliographic\n\nImport above data to Wikibase\nAnnotate report using above data\nCommunity annotation: #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.\nWikibase to Wikidata data mapping\nWikibase data analysis and visualisations\nPublications available as:\n\n\nREST API\nCommand line\nJupyter Noteooks\nPython CMS (e.g., Wagtail)\nGraph RAG LLM\n\nAll of the above publishing channels use the following framework. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating in a ‘Model View Controller’ architecture. Paged Media CSS styles are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.\n\n\n\nKnowledge Graph - FAIR linked open data, and semantic outputs from Wikibase:\n\n\nREST API\nRDF export\nDokieli RDFa\nWikidata export",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Workflow</span>"
     ]
