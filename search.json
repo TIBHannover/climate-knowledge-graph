@@ -4,7 +4,37 @@
     "href": "index.html",
     "title": "Documentation: Climate Knowledge Graph",
     "section": "",
-    "text": "About",
+    "text": "About\nThe Climate Knowledge Graph (CKG) is a project to make a knowledge graph of the open access parts of the 10,000 page IPCC Sixth Assessment Report (AR6) corpus.",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "index.html#goal",
+    "href": "index.html#goal",
+    "title": "Documentation: Climate Knowledge Graph",
+    "section": "Goal",
+    "text": "Goal\nThe goal is to enable easier knowledge use from complex document corpus by:\n\nMaking corpus search results available as multi-format publications, and\nenabling corpus data analysis by providing FAIR linked open data resources.\n\nCKG uses open-source software and can be used on any document corpus.\n\n\n\n\n\n\n\nCKG\n\n\n\nAR6\n\nAR6\n\n\n\nKG\n\nKG\n\n\n\nAR6--KG\n\n\n\n\nPublishing\n\nPublishing\n\n\n\nKG--Publishing\n\n\n\n\nData_Analysis\n\nData_Analysis\n\n\n\nKG--Data_Analysis\n\n\n\n\nCLI\n\nCLI\n\n\n\nPublishing--CLI\n\n\n\n\nCMS\n\nCMS\n\n\n\nPublishing--CMS\n\n\n\n\nLLM\n\nLLM\n\n\n\nPublishing--LLM",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "index.html#about-us",
+    "href": "index.html#about-us",
+    "title": "Documentation: Climate Knowledge Graph",
+    "section": "About us",
+    "text": "About us\nProject team: Lead - Simon Worthington, e-mail: simon.worthington@tib.eu and; publishing specialist - Laura Oldebourg.\nCKG is an R&D project hosted at TIB – Leibniz Information Centre for Science and Technology and organised partnership with #semanticClimate and National Institute of Plant Genome Research (NIPGR) - India.\nCKG is funded by TIB Innovationsfond.",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "index.html#licensing",
+    "href": "index.html#licensing",
+    "title": "Documentation: Climate Knowledge Graph",
+    "section": "Licensing",
+    "text": "Licensing\nSofware: All software is OSI open-source licence compliant. Copyright the Authors.\nIPCC reports. This content is Open Access and distributed under the terms of the Creative Commons Attribution licence CC-BY-NC-ND 4.0 https://creativecommons.org/creativelicenses. Copyright Intergovernmental Panel on Climate Change.",
     "crumbs": [
       "About"
     ]

@@ -151,7 +151,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
+  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a>
+  <ul class="collapse">
+  <li><a href="#goal" id="toc-goal" class="nav-link" data-scroll-target="#goal">Goal</a></li>
+  <li><a href="#about-us" id="toc-about-us" class="nav-link" data-scroll-target="#about-us">About us</a></li>
+  <li><a href="#licensing" id="toc-licensing" class="nav-link" data-scroll-target="#licensing">Licensing</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -192,8 +197,117 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="about" class="level1 unnumbered">
 <h1 class="unnumbered">About</h1>
+<p>The Climate Knowledge Graph (CKG) is a project to make a <em>knowledge graph</em> of the open access parts of the 10,000 page <a href="https://www.ipcc.ch/assessment-report/ar6/"><em>IPCC Sixth Assessment Report (AR6)</em></a> corpus.</p>
+<section id="goal" class="level2">
+<h2 class="anchored" data-anchor-id="goal">Goal</h2>
+<p>The goal is to enable easier knowledge use from complex document corpus by:</p>
+<ol type="1">
+<li>Making corpus search results available as multi-format publications, and</li>
+<li>enabling corpus data analysis by providing FAIR linked open data resources.</li>
+</ol>
+<p>CKG uses open-source software and can be used on any document corpus.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<svg width="672" height="480" viewbox="0.00 0.00 427.22 152.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 148)">
+<title>CKG</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-148 423.22,-148 423.22,4 -4,4"></polygon>
+<!-- AR6 -->
+<g id="node1" class="node">
+<title>AR6</title>
+<ellipse fill="none" stroke="black" cx="29.28" cy="-45" rx="29.06" ry="18"></ellipse>
+<text text-anchor="middle" x="29.28" y="-40.8" font-family="Times,serif" font-size="14.00">AR6</text>
+</g>
+<!-- KG -->
+<g id="node2" class="node">
+<title>KG</title>
+<ellipse fill="none" stroke="black" cx="121.56" cy="-45" rx="27" ry="18"></ellipse>
+<text text-anchor="middle" x="121.56" y="-40.8" font-family="Times,serif" font-size="14.00">KG</text>
+</g>
+<!-- AR6&#45;&#45;KG -->
+<g id="edge1" class="edge">
+<title>AR6--KG</title>
+<path fill="none" stroke="black" d="M58.85,-45C70.21,-45 83.2,-45 94.33,-45"></path>
+</g>
+<!-- Publishing -->
+<g id="node3" class="node">
+<title>Publishing</title>
+<ellipse fill="none" stroke="black" cx="252.45" cy="-72" rx="52.21" ry="18"></ellipse>
+<text text-anchor="middle" x="252.45" y="-67.8" font-family="Times,serif" font-size="14.00">Publishing</text>
+</g>
+<!-- KG&#45;&#45;Publishing -->
+<g id="edge2" class="edge">
+<title>KG--Publishing</title>
+<path fill="none" stroke="black" d="M147.41,-50.21C164.38,-53.76 187.34,-58.57 207.37,-62.76"></path>
+</g>
+<!-- Data_Analysis -->
+<g id="node7" class="node">
+<title>Data_Analysis</title>
+<ellipse fill="none" stroke="black" cx="252.45" cy="-18" rx="67.79" ry="18"></ellipse>
+<text text-anchor="middle" x="252.45" y="-13.8" font-family="Times,serif" font-size="14.00">Data_Analysis</text>
+</g>
+<!-- KG&#45;&#45;Data_Analysis -->
+<g id="edge6" class="edge">
+<title>KG--Data_Analysis</title>
+<path fill="none" stroke="black" d="M147.41,-39.79C161.97,-36.74 180.93,-32.77 198.67,-29.06"></path>
+</g>
+<!-- CLI -->
+<g id="node4" class="node">
+<title>CLI</title>
+<ellipse fill="none" stroke="black" cx="387.78" cy="-126" rx="27" ry="18"></ellipse>
+<text text-anchor="middle" x="387.78" y="-121.8" font-family="Times,serif" font-size="14.00">CLI</text>
+</g>
+<!-- Publishing&#45;&#45;CLI -->
+<g id="edge3" class="edge">
+<title>Publishing--CLI</title>
+<path fill="none" stroke="black" d="M287.1,-85.63C311.17,-95.37 342.92,-108.23 364.05,-116.79"></path>
+</g>
+<!-- CMS -->
+<g id="node5" class="node">
+<title>CMS</title>
+<ellipse fill="none" stroke="black" cx="387.78" cy="-72" rx="31.37" ry="18"></ellipse>
+<text text-anchor="middle" x="387.78" y="-67.8" font-family="Times,serif" font-size="14.00">CMS</text>
+</g>
+<!-- Publishing&#45;&#45;CMS -->
+<g id="edge4" class="edge">
+<title>Publishing--CMS</title>
+<path fill="none" stroke="black" d="M305,-72C322.3,-72 341.02,-72 356.19,-72"></path>
+</g>
+<!-- LLM -->
+<g id="node6" class="node">
+<title>LLM</title>
+<ellipse fill="none" stroke="black" cx="387.78" cy="-18" rx="31.34" ry="18"></ellipse>
+<text text-anchor="middle" x="387.78" y="-13.8" font-family="Times,serif" font-size="14.00">LLM</text>
+</g>
+<!-- Publishing&#45;&#45;LLM -->
+<g id="edge5" class="edge">
+<title>Publishing--LLM</title>
+<path fill="none" stroke="black" d="M287.15,-58.42C297.77,-54.13 309.55,-49.37 320.35,-45 333.96,-39.49 349.14,-33.32 361.55,-28.27"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="about-us" class="level2">
+<h2 class="anchored" data-anchor-id="about-us">About us</h2>
+<p>Project team: Lead - Simon Worthington, e-mail: <a href="mailto:simon.worthington@tib.eu">simon.worthington@tib.eu</a> and; publishing specialist - Laura Oldebourg.</p>
+<p>CKG is an R&amp;D project hosted at <a href="https://www.tib.eu/en">TIB</a> – Leibniz Information Centre for Science and Technology and organised partnership with <a href="https://semanticclimate.github.io/p/en/">#semanticClimate</a> and National Institute of Plant Genome Research (NIPGR) - India.</p>
+<p>CKG is funded by <a href="https://www.tib.eu/en">TIB</a> Innovationsfond.</p>
+</section>
+<section id="licensing" class="level2">
+<h2 class="anchored" data-anchor-id="licensing">Licensing</h2>
+<p>Sofware: All software is OSI open-source licence compliant. Copyright the Authors.</p>
+<p>IPCC reports. This content is Open Access and distributed under the terms of the Creative Commons Attribution licence CC-BY-NC-ND 4.0 https://creativecommons.org/creativelicenses. Copyright Intergovernmental Panel on Climate Change.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
