@@ -24,27 +24,27 @@
     "href": "workflow.html",
     "title": "2  Workflow",
     "section": "",
-    "text": "2.1 Goals\nThe goals are to enable easier use knowledge from complex corpora by enabling:",
+    "text": "2.1 Goal\nThe goal is to enable easier knowledge use of complex document corpus by using a knowledge graph to enable the following:",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Workflow</span>"
     ]
   },
   {
-    "objectID": "workflow.html#goals",
-    "href": "workflow.html#goals",
+    "objectID": "workflow.html#goal",
+    "href": "workflow.html#goal",
     "title": "2  Workflow",
     "section": "",
-    "text": "Publishing of search results, and\nProviding FAIR structured linked open data from a knwoledge graph.",
+    "text": "Publishing of search results as multi-format publication, and\nenable data analysis by providing FAIR linked open data.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Workflow</span>"
     ]
   },
   {
-    "objectID": "workflow.html#workflow-steps",
-    "href": "workflow.html#workflow-steps",
+    "objectID": "workflow.html#workflow",
+    "href": "workflow.html#workflow",
     "title": "2  Workflow",
-    "section": "2.2 Workflow steps",
-    "text": "2.2 Workflow steps\nThe workflow represents the stages that go from harvesting an unstructured document corpora, web or PDF, to structuring the content.\nWikibase is used for storage and knowledge graph creation and in supporting: community annotation, search for outputting ‘publication ready documents’ - including via LLMs, and for providing knowledge graph data services.\n\nReport sources\nIPCC web scrape report texts (harvest)\nGenerate initial graph data model (iteratively developed)\nWikibase report import\nWikibase to Mediawiki report navigation mapping for report browsing\nHarvest data:\n\nAuthors\nGlossary\nAcronyms list\nReferences\nBibliographic\n\nImport data to Wikibase\nAnnotate report using data\nCommunity annotation: #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.\nWikibase to Wikidata data mapping\nWikibase data visualisations\nPublications available as:\n\nREST API\nCommand line\nJupyter Noteooks\nPython CMS (e.g., Jackdaw)\nGraph RAG LLM\n\nAll of the above using the following for publishing. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating using an Model View Controller architecture. Paged Media CSS style are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.\n\n\nKnowledge Graph and semantic outputs\n\nFrom Wikibase:\n\nREST API\nRDF export\nDokeli RDFa\nWikidata export",
+    "section": "2.2 Workflow",
+    "text": "2.2 Workflow\nThe workflow represents the stages that go from harvesting an unstructured document corpus, web or PDF, and converting it to structured data.\nWikibase is used for storage and knowledge graph creation to support the following features:\n\ncommunity annotation,\nsearch for outputting ‘publication ready documents’ including via LLMs, and for\nproviding knowledge graph data services.\n\n\n\n2.2.1 Workflow steps\n\nReport sources\nIPCC web scrape report texts (harvest)\nGenerate initial knowledge graph data model (iterativ development)\nWikibase report import\nWikibase to Mediawiki report navigation mapping for report browsing\nHarvest data:\n\nAuthors\nGlossary\nAcronyms list\nReferences\nBibliographic\n\nImport above data to Wikibase\nAnnotate report using above data\nCommunity annotation: #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.\nWikibase to Wikidata data mapping\nWikibase data visualisations\nPublications available as:\n\n\nREST API\nCommand line\nJupyter Noteooks\nPython CMS (e.g., Wagtail)\nGraph RAG LLM\n\nAll of the above publishing channels use the following framework. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating in a ‘Model View Controller’ architecture. Paged Media CSS styles are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.\n\n\n\nKnowledge Graph - FAIR linked open data, and semantic outputs from Wikibase:\n\n\nREST API\nRDF export\nDokieli RDFa\nWikidata export",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Workflow</span>"
     ]

@@ -99,7 +99,6 @@ ul.task-list li input[type="checkbox"] {
       <a href="./">Documentation: Climate Knowledge Graph</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/TIBHannover/climate-knowledge-graph" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./Documentation--Climate-Knowledge-Graph.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -150,8 +149,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#goals" id="toc-goals" class="nav-link active" data-scroll-target="#goals"><span class="header-section-number">2.1</span> Goals</a></li>
-  <li><a href="#workflow-steps" id="toc-workflow-steps" class="nav-link" data-scroll-target="#workflow-steps"><span class="header-section-number">2.2</span> Workflow steps</a></li>
+  <li><a href="#goal" id="toc-goal" class="nav-link active" data-scroll-target="#goal"><span class="header-section-number">2.1</span> Goal</a></li>
+  <li><a href="#workflow" id="toc-workflow" class="nav-link" data-scroll-target="#workflow"><span class="header-section-number">2.2</span> Workflow</a>
+  <ul class="collapse">
+  <li><a href="#workflow-steps" id="toc-workflow-steps" class="nav-link" data-scroll-target="#workflow-steps"><span class="header-section-number">2.2.1</span> Workflow steps</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -177,22 +179,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="goals" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="goals"><span class="header-section-number">2.1</span> Goals</h2>
-<p>The goals are to enable easier use knowledge from complex corpora by enabling:</p>
+<section id="goal" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="goal"><span class="header-section-number">2.1</span> Goal</h2>
+<p>The goal is to enable easier knowledge use of complex document corpus by using a knowledge graph to enable the following:</p>
 <ol type="1">
-<li>Publishing of search results, and</li>
-<li>Providing FAIR structured linked open data from a knwoledge graph.</li>
+<li>Publishing of search results as multi-format publication, and</li>
+<li>enable data analysis by providing FAIR linked open data.</li>
 </ol>
 </section>
-<section id="workflow-steps" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="workflow-steps"><span class="header-section-number">2.2</span> Workflow steps</h2>
-<p>The workflow represents the stages that go from harvesting an unstructured document corpora, web or PDF, to structuring the content.</p>
-<p>Wikibase is used for storage and knowledge graph creation and in supporting: community annotation, search for outputting ‘publication ready documents’ - including via LLMs, and for providing knowledge graph data services.</p>
+<section id="workflow" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="workflow"><span class="header-section-number">2.2</span> Workflow</h2>
+<p>The workflow represents the stages that go from harvesting an unstructured document corpus, web or PDF, and converting it to structured data.</p>
+<p>Wikibase is used for storage and knowledge graph creation to support the following features:</p>
 <ul>
+<li>community annotation,</li>
+<li>search for outputting ‘publication ready documents’ including via LLMs, and for</li>
+<li>providing knowledge graph data services.</li>
+</ul>
+<hr>
+<section id="workflow-steps" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="workflow-steps"><span class="header-section-number">2.2.1</span> Workflow steps</h3>
+<ol type="1">
 <li>Report sources</li>
 <li>IPCC web scrape report texts (harvest)</li>
-<li>Generate initial graph data model (iteratively developed)</li>
+<li>Generate initial knowledge graph data model (iterativ development)</li>
 <li>Wikibase report import</li>
 <li>Wikibase to Mediawiki report navigation mapping for report browsing</li>
 <li>Harvest data:
@@ -203,35 +213,35 @@ ul.task-list li input[type="checkbox"] {
 <li>References</li>
 <li>Bibliographic</li>
 </ul></li>
-<li>Import data to Wikibase</li>
-<li>Annotate report using data</li>
+<li>Import above data to Wikibase</li>
+<li>Annotate report using above data</li>
 <li>Community annotation: #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.</li>
 <li>Wikibase to Wikidata data mapping</li>
 <li>Wikibase data visualisations</li>
-<li>Publications available as:
+<li>Publications available as:</li>
+</ol>
 <ul>
 <li>REST API</li>
 <li>Command line</li>
 <li>Jupyter Noteooks</li>
-<li>Python CMS (e.g., Jackdaw)</li>
+<li>Python CMS (e.g., Wagtail)</li>
 <li>Graph RAG LLM
 <ul>
-<li>All of the above using the following for publishing. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating using an Model View Controller architecture. Paged Media CSS style are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.</li>
+<li>All of the above publishing channels use the following framework. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating in a ‘Model View Controller’ architecture. Paged Media CSS styles are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.</li>
 </ul></li>
-</ul></li>
-<li>Knowledge Graph and semantic outputs
-<ul>
-<li>From Wikibase:
+</ul>
+<ol start="13" type="1">
+<li>Knowledge Graph - FAIR linked open data, and semantic outputs from Wikibase:</li>
+</ol>
 <ul>
 <li>REST API</li>
 <li>RDF export</li>
-<li>Dokeli RDFa</li>
+<li>Dokieli RDFa</li>
 <li>Wikidata export</li>
-</ul></li>
-</ul></li>
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
