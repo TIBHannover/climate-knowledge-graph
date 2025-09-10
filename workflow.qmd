@@ -1,0 +1,54 @@
+# Workflow
+
+## Goal
+
+The goal is to enable easier knowledge use of complex document corpus by using a knowledge graph to enable the following: 
+
+1. Publishing of search results as multi-format publication, and 
+2. enable data analysis by providing FAIR linked open data.
+
+## Workflow
+
+The workflow represents the stages that go from harvesting an unstructured document corpus, web or PDF, and converting it to structured data. 
+
+Wikibase is used for storage and knowledge graph creation to support the following features: 
+
+ - community annotation, 
+ - search for outputting 'publication ready documents' including via LLMs, and for 
+ - providing knowledge graph data services.
+
+---
+
+### Workflow steps
+
+1. Report sources
+1. IPCC web scrape report texts (corpus harvest)
+1. Generate initial knowledge graph data model (iterativ development)
+1. Wikibase report import
+1. Wikibase to Mediawiki report navigation mapping for report browsing
+1. Harvest data:
+   - Authors
+   - Glossary
+   - Acronyms list
+   - References
+   - Bibliographic
+1. Import above data to Wikibase
+1. Annotate report using above data
+1. Community annotation: #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.
+1. Wikibase to Wikidata data mapping
+1. Wikibase data analysis and visualisations
+1. Publications available as:
+  - REST API
+  - Command line 
+  - Jupyter Noteooks
+  - Python CMS (e.g., Wagtail)
+  - Graph RAG LLM 
+      - All of the above publishing channels use the following framework. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating in a 'Model View Controller' architecture. Paged Media CSS styles are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.
+
+13. Knowledge Graph - FAIR linked open data, and semantic outputs from Wikibase:
+  - REST API
+  - RDF export
+  - Dokieli RDFa
+  - Wikidata export
+
+

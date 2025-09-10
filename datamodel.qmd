@@ -1,0 +1,33 @@
+# Data model
+
+Data model for knowledge graph.
+
+## AR6 report sources
+```{dot}
+graph CKG_data_model {
+  layout=dot
+  AR6 -- Reports;
+  Reports -- Publishers;
+  Reports -- IPCC_website;
+  IPCC_website -- Report_PDFs;
+  Publishers -- Report_PDFs;
+  IPCC_website -- Report_HTML;
+  IPCC_website -- Report_translations;
+  Publishers -- Crossref_DOIs;
+  Publishers -- License_info;
+  Crossref_DOIs -- Bibliographic_info;
+  UN_Library -- Bibliographic_info;
+  NASA_Library -- Bibliographic_info;
+  UN_Library -- Data;
+  GitHub -- Data;
+  IPCC_website -- Figures;
+  GitHub -- Figures;
+  UN_Library -- Figures;
+  IPCC_website -- References;
+  IPCC_website -- Glossary;
+  IPCC_website -- Authors;
+  Report_PDFs -- Indexes;
+  Report_PDFs -- Acronyms;
+  Report_PDFs -- Page_numbers;
+}
+```

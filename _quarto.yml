@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: "Climate Knowledge Graph"
+  title: "Documentation: Climate Knowledge Graph"
   author: 
   -  name: Simon Worthington
      orcid: 0000-0002-8579-9717
@@ -12,17 +12,18 @@ book:
   date: today
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - roadmap.qmd
+    - workflow.qmd
+    - reports.qmd
+    - datamodel.qmd
+    - styles.qmd
 
-bibliography: references.bib
+  repo-url: https://github.com/TIBHannover/climate-knowledge-graph
+  repo-actions: [issue]
 
 format:
   html:
     theme: cosmo
-  pdf:
-    documentclass: scrreprt
 
 
 
