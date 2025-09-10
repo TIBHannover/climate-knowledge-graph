@@ -1,0 +1,68 @@
+# Roadmap
+
+Stages in the roadmap are often iterative and will be repeated, revisited, refactored as appropriate.
+
+## Key {.unnumbered}
+
+AR6 - IPCC Sixth Assement Report 
+
+CPS - Computational Publishing Service
+
+#semanticClimate - project partner - open research group building software tools for climate knowledge liberation
+
+---
+
+## Done
+
+1. Convert AR6 report corpora web source to normalised HTML (web scrape) - v1.0 Ready
+1. Locate supporting resources located: Authors, glossary, acronmys, figures, data, bibliographic, licence, published canonical sources, references - v1.0 Ready
+1. Knowledge graph data model - Alpha 
+1. LLM RAG workflow tests - Alpha
+1. Publishing pipeline from Wikibase - Beta 1.0 Ready - See python module: https://pypi.org/project/cps-impress/
+1. AR6 Report quantification - v1.0 Ready (repeat using TIB Grobi https://projects.tib.eu/grobi )
+
+## Work in progress (WIP)
+
+1. Wikibase infrastructure - WIP
+1. AR6 Report publication sytactic, semantic, and typesetting data stucture analysis - WIP
+1. AR6 Report publication CSS Paged Media style - WIP
+1. Defining workflow and tech stack - WIP
+1. Wikibase maintenance and sysadmin - WIP
+
+## Next
+
+1. AR6 WG1 section trial import into Wikibase for the purpose of Wikibase troubleshooting
+1. Wikibase text import module - A python module needs writing importing text using Wikibase and a storage method - Renate or/and Mediawiki. This would extend https://pypi.org/project/cps-wb/
+1. Refector AR6 web scrape - A python module needs extending. This module was made by CPS for an art collection https://pypi.org/project/cps-deckenmalerei/
+1. Import AR6 into Wikibase
+1. Harvest data: Python module needed. This would extend https://pypi.org/project/cps-wb/
+   - Authors
+   - Glossary
+   - Acronyms list
+   - References
+   - Bibliographic
+1. Import above data to Wikibase. Python module needed. This would extend https://pypi.org/project/cps-wb/
+1. Annotate report using above data
+1. Wikibase to Mediawiki report navigation mapping for report browsing
+
+## To do
+
+1. Define workflows and review processes for adding data to KG.
+1. LLM RAG proof of concept demo - using HTML corpora and Streamlit. This is meant as a throw away demonstration as the workflow has been tried out with #semanticClimate
+1. Community annotation (integrate #semanticClimate tooling): #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.
+1. Wikibase to Wikidata data mapping
+1. Wikibase data analysis and visualisations - using built in Wikidata tools
+1. Publications available as:
+  - REST API
+  - Command line 
+  - Jupyter Noteooks
+  - Python CMS (e.g., Wagtail)
+  - Graph RAG LLM 
+      - All of the above publishing channels use the following framework. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating in a 'Model View Controller' architecture. Paged Media CSS styles are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.
+7. Saving publications data back to the knowledge graph
+8. Making Renate DOI deposits of publications
+9. Knowledge Graph - FAIR linked open data, and semantic outputs from Wikibase:
+  - REST API
+  - RDF export
+  - Dokieli RDFa
+  - Wikidata export
