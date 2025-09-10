@@ -67,3 +67,5 @@ TIB is one of the largest science libraries in the world and is a global hub for
 * [Antelope](https://service.tib.eu/annotation/) (terminology service)
 
 Thank you for support and contributions to TIB colleagues and \#semanticClimate members, volunteers, interns, and hackathon participants.
+
+X
