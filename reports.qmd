@@ -55,6 +55,7 @@ Open access license | 6 | Definitive
 Report DOIs | 7 | Definitive
 Page count | 10,047 | Approx.
 Word count | 8,047,000 | Approx.
+Authors | 1,106 | Definitive
 References | 48,400 | Approx.
 Figures | 1672 | Approx.
 Data | 66,834 | Approx.
