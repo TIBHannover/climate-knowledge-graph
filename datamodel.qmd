@@ -1,6 +1,6 @@
 # Data model
 
-Data model for knowledge graph.
+CKG and Knowledge graph data model.
 
 ## AR6 report sources
 ```{dot}
