@@ -57,7 +57,7 @@ Page count | 10,047 | Approx.
 Word count | 8,047,000 | Approx.
 Authors | 1,106 | Definitive
 References | 48,400 | Approx.
-Figures | 1672 | Approx.
+Figures | 1,672 | Approx.
 Data | 66,834 | Approx.
 Glossary terms | 925 | Definitive
 Acronyms | - | To be confirmed
