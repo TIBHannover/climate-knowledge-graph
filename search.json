@@ -14,7 +14,7 @@
     "href": "index.html#goal",
     "title": "Documentation: Climate Knowledge Graph",
     "section": "Goal",
-    "text": "Goal\nThe goal is to enable easier knowledge use from complex document corpus by:\n\nMaking corpus search results available as multi-format publications, and\nenabling corpus data analysis by providing FAIR linked open data resources.\n\nCKG uses open-source software and can be used on any document corpus.\n\n\n\n\n\n\n\nCKG\n\n\n\nAR6\n\nAR6\n\n\n\nKG\n\nKG\n\n\n\nAR6--KG\n\n\n\n\nPublishing\n\nPublishing\n\n\n\nKG--Publishing\n\n\n\n\nData_Analysis\n\nData_Analysis\n\n\n\nKG--Data_Analysis\n\n\n\n\nCLI\n\nCLI\n\n\n\nPublishing--CLI\n\n\n\n\nCMS\n\nCMS\n\n\n\nPublishing--CMS\n\n\n\n\nLLM\n\nLLM\n\n\n\nPublishing--LLM",
+    "text": "Goal\nThe goal is to enable easier knowledge use from complex document corpus by:\n\nMaking corpus search results available as multi-format publications, and\nenabling corpus data analysis by providing FAIR linked open data resources.\n\nCKG uses open-source software and can be used on any document corpus.\n\n\n\n\n\n\nCKG\n\n\n\nAR6\n\nAR6\n\n\n\nKG\n\nKG\n\n\n\nAR6--KG\n\n\n\n\nPublishing\n\nPublishing\n\n\n\nKG--Publishing\n\n\n\n\nData_Analysis\n\nData_Analysis\n\n\n\nKG--Data_Analysis\n\n\n\n\nCLI\n\nCLI\n\n\n\nPublishing--CLI\n\n\n\n\nCMS\n\nCMS\n\n\n\nPublishing--CMS\n\n\n\n\nLLM\n\nLLM\n\n\n\nPublishing--LLM\n\n\n\n\n\nClimate Knowledge Graph system",
     "crumbs": [
       "About"
     ]
