@@ -22,6 +22,8 @@ graph CKG {
   Publishing -- LLM;
   KG -- Data_Analysis;
 }
+//| label: ckg-system
+//| fig-cap: "Climate Knowledge Graph system"
 ```
 
 ## About us 
