@@ -40,6 +40,9 @@
   }
 }
 
+/* Set value for page header */
+h2.stylesheet { string-set: Chapter content(); }
+
 /* Targets all blank pages */
 @page :blank {
   @top-right {content: none;}
@@ -54,8 +57,6 @@
   @bottom-right {content: none;}
   @right-middle {content: none;}
 }
-
-h2.stylesheet { string-set: Chapter content(); }
 
 /* Page sides with chapter titles */
 @page :left {

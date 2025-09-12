@@ -170,3 +170,24 @@ display:block;
   color: var(--col-darkblue);
   font-weight: bold;
 }
+
+
+
+.h1-container {
+            background: #ffffff;
+            border: solid red 2px;
+            padding: 5px;
+            margin: 5px;
+}
+.h2-container {
+            background: #ffffff;
+            border: solid red 1.3px;
+            padding: 5px;
+            margin: 5px;
+}
+ .h3-container {
+            background: #ffffff;
+            border: solid red 0.8px;
+            padding: 5px;
+            margin: 5px;
+}
