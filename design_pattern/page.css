@@ -41,7 +41,7 @@
 }
 
 /* Set value for page header */
-h2.stylesheet { string-set: Chapter content(); }
+h2.stylesheet, header h1 { string-set: Chapter content(); }
 
 /* Targets all blank pages */
 @page :blank {
