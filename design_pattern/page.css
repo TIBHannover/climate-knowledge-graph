@@ -119,7 +119,3 @@ section.chapter h2 {
   line-height: 48px;
   text-align: right;
 }
-
-@page {
-  marks: crop;
-}
