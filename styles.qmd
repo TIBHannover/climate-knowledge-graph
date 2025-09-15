@@ -8,9 +8,65 @@ To recreate the design of the PDFs, the structural elements in the PDF are first
 
 ### Assess document header structure
 - **PDF templates**: After a superficial examination of the syntactic logic of the PDF, 5 levels of headings were found.
-- **HTML source**: `<h1>` to `<h5>`
+- **HTML sources**: `<h1>` to `<h5>`
 
 ### Assess document design elements
+Inventory of which elements can be detected by leafing through the 7 reports:
+
+#### Page layout and specs
+- Page dimensions: Pages of the report PDFs are approx. 8,5 inches x 11 inches.
+- Margins: tbc
+- Fonts: There are many font family used in the PDF, some free, some proprietary.
+
+#### Colours
+- Chapter colours
+- Sub-chapter colours
+- Font colours
+- Background colours
+
+#### Table of contents
+- Toc styles
+
+#### Page decoration
+- Page header (with section title)
+- Page sides (with section title)
+- Page footer (with page numbers)
+
+#### Headers
+- h1 - h5 (possibly h6)
+
+#### Text styles
+- Paragraph (1 column, 2 columns)
+- Statement paragraph (1 column, 2 columns)
+- Highlighted statement paragraph
+- Technical summary statement paragraph
+- Technical Summary Section Summary
+- References
+- Confidence level reference
+- Chapter references
+- Footnotes
+
+#### Box styles
+- Box (grey, yellow, blue)
+- 50%-Box
+
+#### Annex styles
+- Glossary term and description
+- Glossary sub-term
+- Acronyms
+- Publications
+- People
+- Index entries
+
+#### Figures and tables
+- Figure
+- Table
+- Figcaption
+
+#### Section openers
+- Title
+- Authors
+- Citation suggestion
 
 ## Build design pattern
 
