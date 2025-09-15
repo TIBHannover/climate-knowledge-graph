@@ -10,6 +10,8 @@
 
 ## Build design pattern
 
-## Document CSS and CSS paged media
+### Design patterrn HTML and CSS
+
+### Document CSS and CSS paged media
 
 ## Apply design pattern to scraped HTML
