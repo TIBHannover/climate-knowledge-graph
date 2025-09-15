@@ -61,8 +61,8 @@ SYR Notes | - | To be confirmed
 Figures | 1,672 | Approx.
 Data | 66,834 | Approx.
 Glossary terms | 925 | Definitive
-Acronyms | - | To be confirmed
-Index terms | - | To be confirmed
+Acronyms | 3041 | Approx., needs to be consolidated
+Index terms | 5463 | Approx., needs to be consolidated
 Translations | See other table |  
 Wikidata entries (report top level) | 13 | Approx.
 Wikidata entries - data types | - | To be confirmed
