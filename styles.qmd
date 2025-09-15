@@ -1,3 +1,11 @@
 # Styles
 
-https://github.com/TIBHannover/climate-knowledge-graph/issues/26
+## Synopsis
+
+## Define document styles
+
+## Assess document header structure
+
+## Build design pattern
+
+## Apply design pattern to scraped HTML
