@@ -44,7 +44,7 @@
     "href": "roadmap.html",
     "title": "1  Roadmap",
     "section": "",
-    "text": "Key\nAR6 - IPCC Sixth Assement Report\nCPS - Computational Publishing Service\n#semanticClimate - project partner - open research group building software tools for climate knowledge liberation",
+    "text": "Key\nStages in the roadmap are often iterative and will be repeated, revisited, refactored as appropriate.\nAR6 - IPCC Sixth Assement Report\nCPS - Computational Publishing Service\n#semanticClimate - project partner - open research group building software tools for climate knowledge liberation",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
     ]
@@ -124,7 +124,7 @@
     "href": "reports.html",
     "title": "3  AR6 Quantification",
     "section": "",
-    "text": "3.1 Report quantification - version 1.0 manual count (work in progress)\nData, full stats, and methods.\nA scoping literature review shows no comprehensive AR6 or IPCC Assement Reports quantification.\nWe believe what has been collected is the first attempt at such measurement.\nAn automated count will be carried out using TIB Grobi software https://projects.tib.eu/grobi in Q4 2025.",
+    "text": "3.1 Report quantification - version 1.0 manual count (work in progress)\nIPCC Sixth Assement Report (AR6)\nData, full stats, and methods.\nA scoping literature review shows no comprehensive AR6 or IPCC Assement Reports quantification.\nWe believe what has been collected is the first attempt at such measurement.\nAn automated count will be carried out using TIB Grobi software https://projects.tib.eu/grobi in Q4 2025.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>AR6 Quantification</span>"
     ]
@@ -154,7 +154,7 @@
     "href": "datamodel.html",
     "title": "4  Data model",
     "section": "",
-    "text": "4.1 AR6 report sources\nCKG_data_model\n\n\n\nAR6_Organization\n\nAR6_Organization\n\n\n\nAR6\n\nAR6\n\n\n\nAR6_Organization--AR6\n\n\n\n\nReports\n\nReports\n\n\n\nAR6--Reports\n\n\n\n\nIPCC_website\n\nIPCC_website\n\n\n\nReport_translations\n\nReport_translations\n\n\n\nIPCC_website--Report_translations\n\n\n\n\nReport_PDFs\n\nReport_PDFs\n\n\n\nIPCC_website--Report_PDFs\n\n\n\n\nReport_HTML\n\nReport_HTML\n\n\n\nIPCC_website--Report_HTML\n\n\n\n\nFigures\n\nFigures\n\n\n\nIPCC_website--Figures\n\n\n\n\nReferences\n\nReferences\n\n\n\nIPCC_website--References\n\n\n\n\nGlossary\n\nGlossary\n\n\n\nIPCC_website--Glossary\n\n\n\n\nAuthors\n\nAuthors\n\n\n\nIPCC_website--Authors\n\n\n\n\nPublishers\n\nPublishers\n\n\n\nLicense_info\n\nLicense_info\n\n\n\nPublishers--License_info\n\n\n\n\nPublishers--Report_PDFs\n\n\n\n\nCrossref_DOIs\n\nCrossref_DOIs\n\n\n\nPublishers--Crossref_DOIs\n\n\n\n\nIndexes\n\nIndexes\n\n\n\nReport_PDFs--Indexes\n\n\n\n\nAcronyms\n\nAcronyms\n\n\n\nReport_PDFs--Acronyms\n\n\n\n\nNotes\n\nNotes\n\n\n\nReport_PDFs--Notes\n\n\n\n\nPage_numbers\n\nPage_numbers\n\n\n\nReport_PDFs--Page_numbers\n\n\n\n\nBibliographic_info\n\nBibliographic_info\n\n\n\nCrossref_DOIs--Bibliographic_info\n\n\n\n\nUN_Library\n\nUN_Library\n\n\n\nUN_Library--Bibliographic_info\n\n\n\n\nData\n\nData\n\n\n\nUN_Library--Data\n\n\n\n\nUN_Library--Figures\n\n\n\n\nNASA_Library\n\nNASA_Library\n\n\n\nNASA_Library--Bibliographic_info\n\n\n\n\nGitHub\n\nGitHub\n\n\n\nGitHub--Data\n\n\n\n\nGitHub--Figures\n\n\n\n\nReports--IPCC_website\n\n\n\n\nReports--Publishers",
+    "text": "4.1 AR6 report sources\nCKG and Knowledge graph data model.\nCKG_data_model\n\n\n\nAR6_Organization\n\nAR6_Organization\n\n\n\nAR6\n\nAR6\n\n\n\nAR6_Organization--AR6\n\n\n\n\nReports\n\nReports\n\n\n\nAR6--Reports\n\n\n\n\nIPCC_website\n\nIPCC_website\n\n\n\nReport_translations\n\nReport_translations\n\n\n\nIPCC_website--Report_translations\n\n\n\n\nReport_PDFs\n\nReport_PDFs\n\n\n\nIPCC_website--Report_PDFs\n\n\n\n\nReport_HTML\n\nReport_HTML\n\n\n\nIPCC_website--Report_HTML\n\n\n\n\nFigures\n\nFigures\n\n\n\nIPCC_website--Figures\n\n\n\n\nReferences\n\nReferences\n\n\n\nIPCC_website--References\n\n\n\n\nGlossary\n\nGlossary\n\n\n\nIPCC_website--Glossary\n\n\n\n\nAuthors\n\nAuthors\n\n\n\nIPCC_website--Authors\n\n\n\n\nPublishers\n\nPublishers\n\n\n\nLicense_info\n\nLicense_info\n\n\n\nPublishers--License_info\n\n\n\n\nPublishers--Report_PDFs\n\n\n\n\nCrossref_DOIs\n\nCrossref_DOIs\n\n\n\nPublishers--Crossref_DOIs\n\n\n\n\nIndexes\n\nIndexes\n\n\n\nReport_PDFs--Indexes\n\n\n\n\nAcronyms\n\nAcronyms\n\n\n\nReport_PDFs--Acronyms\n\n\n\n\nNotes\n\nNotes\n\n\n\nReport_PDFs--Notes\n\n\n\n\nPage_numbers\n\nPage_numbers\n\n\n\nReport_PDFs--Page_numbers\n\n\n\n\nBibliographic_info\n\nBibliographic_info\n\n\n\nCrossref_DOIs--Bibliographic_info\n\n\n\n\nUN_Library\n\nUN_Library\n\n\n\nUN_Library--Bibliographic_info\n\n\n\n\nData\n\nData\n\n\n\nUN_Library--Data\n\n\n\n\nUN_Library--Figures\n\n\n\n\nNASA_Library\n\nNASA_Library\n\n\n\nNASA_Library--Bibliographic_info\n\n\n\n\nGitHub\n\nGitHub\n\n\n\nGitHub--Data\n\n\n\n\nGitHub--Figures\n\n\n\n\nReports--IPCC_website\n\n\n\n\nReports--Publishers",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data model</span>"
     ]
@@ -164,7 +164,7 @@
     "href": "styles.html",
     "title": "5  Styles",
     "section": "",
-    "text": "https://github.com/TIBHannover/climate-knowledge-graph/issues/26",
+    "text": "https://github.com/TIBHannover/climate-knowledge-graph/issues/26\nTest",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Styles</span>"
     ]
