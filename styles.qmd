@@ -13,29 +13,35 @@ To recreate the design of the PDFs, the structural elements in the PDF are first
 ### Assess document design elements
 Inventory of which elements can be detected by leafing through the 7 reports:
 
-#### Page layout and specs
+**Page layout and specs**
+
 - Page dimensions: Pages of the report PDFs are approx. 8,5 inches x 11 inches.
 - Margins: tbc
 - Fonts: There are many font family used in the PDF, some free, some proprietary.
 
-#### Colours
+**Colours**
+
 - Chapter colours
 - Sub-chapter colours
 - Font colours
 - Background colours
 
-#### Table of contents
+**Table of contents**
+
 - Toc styles
 
-#### Page decoration
+**Page decoration**
+
 - Page header (with section title)
 - Page sides (with section title)
 - Page footer (with page numbers)
 
-#### Headers
+**Headers**
+
 - h1 - h5 (possibly h6)
 
-#### Text styles
+**Text styles**
+
 - Paragraph (1 column, 2 columns)
 - Statement paragraph (1 column, 2 columns)
 - Highlighted statement paragraph
@@ -46,11 +52,13 @@ Inventory of which elements can be detected by leafing through the 7 reports:
 - Chapter references
 - Footnotes
 
-#### Box styles
+**Box styles**
+
 - Box (grey, yellow, blue)
 - 50%-Box
 
-#### Annex styles
+**Annex styles**
+
 - Glossary term and description
 - Glossary sub-term
 - Acronyms
@@ -58,12 +66,14 @@ Inventory of which elements can be detected by leafing through the 7 reports:
 - People
 - Index entries
 
-#### Figures and tables
+**Figures and tables**
+
 - Figure
 - Table
 - Figcaption
 
-#### Section openers
+**Section openers**
+
 - Title
 - Authors
 - Citation suggestion
@@ -83,3 +93,5 @@ Document the parts of CSS and the CSS paged media moduule that are used and chec
 
 ## Apply design pattern to scraped HTML
 Repository for scraped HTML: <https://github.com/petermr/amilib/tree/main/test/resources/ipcc/cleaned_content>
+
+Tests with applying the style guide to the HTML: tba
