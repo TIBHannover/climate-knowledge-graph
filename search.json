@@ -164,7 +164,47 @@
     "href": "styles.html",
     "title": "5  Styles",
     "section": "",
-    "text": "https://github.com/TIBHannover/climate-knowledge-graph/issues/26",
+    "text": "5.1 Synopsis",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Styles</span>"
+    ]
+  },
+  {
+    "objectID": "styles.html#define-document-styles",
+    "href": "styles.html#define-document-styles",
+    "title": "5  Styles",
+    "section": "5.2 Define document styles",
+    "text": "5.2 Define document styles",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Styles</span>"
+    ]
+  },
+  {
+    "objectID": "styles.html#assess-document-header-structure",
+    "href": "styles.html#assess-document-header-structure",
+    "title": "5  Styles",
+    "section": "5.3 Assess document header structure",
+    "text": "5.3 Assess document header structure",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Styles</span>"
+    ]
+  },
+  {
+    "objectID": "styles.html#build-design-pattern",
+    "href": "styles.html#build-design-pattern",
+    "title": "5  Styles",
+    "section": "5.4 Build design pattern",
+    "text": "5.4 Build design pattern",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Styles</span>"
+    ]
+  },
+  {
+    "objectID": "styles.html#apply-design-pattern-to-scraped-html",
+    "href": "styles.html#apply-design-pattern-to-scraped-html",
+    "title": "5  Styles",
+    "section": "5.5 Apply design pattern to scraped HTML",
+    "text": "5.5 Apply design pattern to scraped HTML",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Styles</span>"
     ]
