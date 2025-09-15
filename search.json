@@ -164,7 +164,7 @@
     "href": "styles.html",
     "title": "5  Styles",
     "section": "",
-    "text": "5.1 Synopsis",
+    "text": "5.1 Synopsis\nThe goal is to create a facsimile of the AR6 reports using HTML and CSS / CSS paged media.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Styles</span>"
     ]
