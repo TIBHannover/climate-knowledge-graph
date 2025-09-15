@@ -12,6 +12,8 @@ The goal is to enable easier knowledge use from complex document corpus by:
 CKG uses open-source software and can be used on any document corpus.
 
 ```{dot}
+//| label: ckg-system
+//| fig-cap: "Climate Knowledge Graph system"
 graph CKG {
   layout=dot
   rankdir="LR"
@@ -22,8 +24,6 @@ graph CKG {
   Publishing -- LLM;
   KG -- Data_Analysis;
 }
-//| label: ckg-system
-//| fig-cap: "Climate Knowledge Graph system"
 ```
 
 ## About us 
