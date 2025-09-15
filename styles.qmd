@@ -1,6 +1,7 @@
 # Styles
 
 ## Synopsis
+The goal is to create a facsimile of the AR6 reports using HTML and CSS / CSS paged media.
 
 ## Document styles
 
