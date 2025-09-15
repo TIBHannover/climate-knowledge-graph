@@ -174,7 +174,7 @@
     "href": "styles.html#document-styles",
     "title": "5  Styles",
     "section": "5.2 Document styles",
-    "text": "5.2 Document styles\n\n5.2.1 Assess document header structure\n\n\n5.2.2 Assess document design elements",
+    "text": "5.2 Document styles\nTo recreate the design of the PDFs, the structural elements in the PDF are first examined and listed.\n\n5.2.1 Assess document header structure\n\nPDF templates: After a superficial examination of the syntactic logic of the PDF, 5 levels of headings were found.\nHTML source: &lt;h1&gt; to &lt;h5&gt;\n\n\n\n5.2.2 Assess document design elements",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Styles</span>"
     ]
