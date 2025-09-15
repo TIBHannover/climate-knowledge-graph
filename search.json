@@ -184,17 +184,7 @@
     "href": "styles.html#build-design-pattern",
     "title": "5  Styles",
     "section": "5.3 Build design pattern",
-    "text": "5.3 Build design pattern",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Styles</span>"
-    ]
-  },
-  {
-    "objectID": "styles.html#document-css-and-css-paged-media",
-    "href": "styles.html#document-css-and-css-paged-media",
-    "title": "5  Styles",
-    "section": "5.4 Document CSS and CSS paged media",
-    "text": "5.4 Document CSS and CSS paged media",
+    "text": "5.3 Build design pattern\n\n5.3.1 Design patterrn HTML and CSS\n\n\n5.3.2 Document CSS and CSS paged media",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Styles</span>"
     ]
@@ -203,8 +193,8 @@
     "objectID": "styles.html#apply-design-pattern-to-scraped-html",
     "href": "styles.html#apply-design-pattern-to-scraped-html",
     "title": "5  Styles",
-    "section": "5.5 Apply design pattern to scraped HTML",
-    "text": "5.5 Apply design pattern to scraped HTML",
+    "section": "5.4 Apply design pattern to scraped HTML",
+    "text": "5.4 Apply design pattern to scraped HTML",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Styles</span>"
     ]
