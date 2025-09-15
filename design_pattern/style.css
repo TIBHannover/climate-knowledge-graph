@@ -2,7 +2,7 @@
 
 /** Extra style for styleguide headers **/
 .stylesheet {
-  color: lightgray;
+  color: gray;
   font-family: Arial, serif;
   border-bottom: 1px solid rgb(204, 234, 243);
 }
