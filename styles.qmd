@@ -2,9 +2,11 @@
 
 ## Synopsis
 
-## Define document styles
+## Document styles
 
-## Assess document header structure
+### Assess document header structure
+
+### Assess document design elements
 
 ## Build design pattern
 
