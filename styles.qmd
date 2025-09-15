@@ -8,4 +8,6 @@
 
 ## Build design pattern
 
+## Document CSS and CSS paged media
+
 ## Apply design pattern to scraped HTML
