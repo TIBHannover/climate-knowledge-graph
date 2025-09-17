@@ -14,7 +14,7 @@ An automated count will be carried out using TIB Grobi software https://projects
 
 ## What is the AR6 report
 
-AR6 is compised of seven reports:
+AR6 is comprised of seven reports:
 
  - the Synthesis Report (referred to as SYR)
  - the 3 Working group reports (referred to as WGI, WGII, WGIII)
@@ -55,17 +55,19 @@ Open access license | 6 | Definitive
 Report DOIs | 7 | Definitive
 Page count | 10,047 | Approx.
 Word count | 8,047,000 | Approx.
-Authors | 1,106 | Definitive
-References | 48,400 | Approx.
+Authors | 1,106 | Definitive *
+References | 48,400 | Approx. *
 SYR Notes | - | To be confirmed
 Figures | 1,672 | Approx.
-Data | 66,834 | Approx.
-Glossary terms | 925 | Definitive
-Acronyms | 3041 | Approx., needs to be consolidated
-Index terms | 5463 | Approx., needs to be consolidated
+Data | 66,834 | Approx. *
+Glossary terms | 925 | Definitive *
+Acronyms | 3041 | Approx. *
+Index terms | 5463 | Approx. *
 Translations | See other table |  
 Wikidata entries (report top level) | 13 | Approx.
 Wikidata entries - data types | - | To be confirmed
+
+\* Contains duplicates
 
 ### Translations
 
