@@ -2,9 +2,28 @@
 
 /** Extra style for styleguide headers **/
 .stylesheet {
-  color: gray;
   font-family: Arial, serif;
-  border-bottom: 1px solid rgb(204, 234, 243);
+  text-transform: uppercase;
+  color: lightslategray;
+}
+
+h3.stylesheet {
+  border-top: 1px solid lightslategray;
+  padding-top: 10px;
+}
+
+h1.stylesheet {
+  color: white;
+  font-size: 60px;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+
+h2.stylesheet+p {
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: lightslategray;
+  font-style: italic;
+  font-size: 30px;
 }
 
 /** Body text **/

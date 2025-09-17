@@ -1,5 +1,14 @@
 /** Paged media ************************************************ **/
 
+/* Styleguide only */
+@page styleguideOpener:first {
+  background-color: var(--col-darkblue);
+}
+
+h1.stylesheet {
+  page: styleguideOpener;
+}
+
 /* Targets all the pages */
 @page {
   size: 8.5in 11in;
@@ -10,14 +19,18 @@
 
 /* Targets all even-numbered pages */
 @page :left {
-    margin-left: 60px;
-    margin-right: 80px;
-    @bottom-left {
-      content: counter(page);       /* Page footer with page numbers */
-      font-weight: bold;
-      color: #818185;
-    }
-    @top-left {                     /* Page header with chapter titles */
+  margin-left: 60px;
+  margin-right: 80px;
+
+  @bottom-left {
+    content: counter(page);
+    /* Page footer with page numbers */
+    font-weight: bold;
+    color: #818185;
+  }
+
+  @top-left {
+    /* Page header with chapter titles */
     content: string(Chapter);
     font-size: 10px;
     font-weight: bold;
@@ -26,36 +39,62 @@
 
 /* Targets all odd-numbered pages */
 @page :right {
-    margin-left: 80px;
-    margin-right: 60px;
-    @bottom-right {                 /* Page footer with page numbers */
-      content: counter(page);
-      font-weight: bold;
-      color: #818185;
-    }
-    @top-right {
-    content: string(Chapter);       /* Page header with chapter titles */
+  margin-left: 80px;
+  margin-right: 60px;
+
+  @bottom-right {
+    /* Page footer with page numbers */
+    content: counter(page);
+    font-weight: bold;
+    color: #818185;
+  }
+
+  @top-right {
+    content: string(Chapter);
+    /* Page header with chapter titles */
     font-size: 10px;
     font-weight: bold;
   }
 }
 
 /* Set value for page header */
-h2.stylesheet, header h1 { string-set: Chapter content(); }
+h2.stylesheet,
+header h1 {
+  string-set: Chapter content();
+}
 
 /* Targets all blank pages */
 @page :blank {
-  @top-right {content: none;}
-  @top-left {content: none;}
-  @right-middle {content: none;}
-  @left-middle {content: none;}
+  @top-right {
+    content: none;
+  }
+
+  @top-left {
+    content: none;
+  }
+
+  @right-middle {
+    content: none;
+  }
+
+  @left-middle {
+    content: none;
+  }
 }
 
 /* Targets the first page */
 @page :first {
-  @top-right {content: none;}
-  @bottom-right {content: none;}
-  @right-middle {content: none;}
+  @top-right {
+    content: none;
+  }
+
+  @bottom-right {
+    content: none;
+  }
+
+  @right-middle {
+    content: none;
+  }
 }
 
 /* Page sides with chapter titles */
@@ -90,23 +129,30 @@ h2.stylesheet, header h1 { string-set: Chapter content(); }
 /** Page breaks ************************************************ **/
 
 h2.stylesheet {
-	break-before: page;
+  break-before: page;
+}
+
+h2.stylesheet.nobreak {
+  break-before: avoid;
 }
 
 /** Special pages ************************************************ **/
 
 /* Chapter opener */
 @page chapter-opener:right {
-    background-color: #83451e;
-    @bottom-right {
-      content: none;
-    }
-    @top-right {
-      content: none;
-    }
-    @right-middle {
-      content: none;
-    }
+  background-color: #83451e;
+
+  @bottom-right {
+    content: none;
+  }
+
+  @top-right {
+    content: none;
+  }
+
+  @right-middle {
+    content: none;
+  }
 }
 
 section.chapter {
