@@ -63,7 +63,7 @@ Data | 66,834 | Approx. *
 Glossary terms | 925 | Definitive *
 Acronyms | 3041 | Approx. *
 Index terms | 5463 | Approx. *
-Translations | See other table |  
+Translations | See [other table](#translations) |  
 Wikidata entries (report top level) | 13 | Approx.
 Wikidata entries - data types | - | To be confirmed
 
