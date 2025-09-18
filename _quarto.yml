@@ -9,6 +9,7 @@ book:
      orcid: 0000-0002-8579-9717
      email: simon.worthington@tib.eu
   -  name: Laura Oldenbourg
+     orcid: 0009-0003-5070-0099
   date: today
   chapters:
     - index.qmd
