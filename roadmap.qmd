@@ -1,16 +1,15 @@
 # Roadmap
 
-Stages in the roadmap are often iterative and will be repeated, revisited, refactored as appropriate.
+## Summary {.unnumbered}
 
-## Key {.unnumbered}
-
-AR6 - IPCC Sixth Assement Report 
-
-CPS - Computational Publishing Service
-
-#semanticClimate - project partner - open research group building software tools for climate knowledge liberation
-
----
+Stage | Tech Stack | Status
+-- | -- | --
+Harvest | CPS, #semanticClimate |  
+Structure | Wikibase, RDF, #semanticClimate | We are here (Sept ‘25)
+Annotation | #semanticClimate, Antelope, ORKG, ORKG reborn |  
+Distribution | Wikidata, ORKG, ORKG reborn |  
+Publishing | CPS |  
+Data access & analysis | #semanticClimate, Wikibase |  
 
 ## Done
 
@@ -66,3 +65,12 @@ CPS - Computational Publishing Service
   - RDF export
   - Dokieli RDFa
   - Wikidata export
+
+---
+
+## Key {.unnumbered}
+
+  - AR6 - IPCC Sixth Assement Report 
+  - CPS - Computational Publishing Service
+  - #semanticClimate - project partner - open research group building software tools for climate knowledge liberation
+
