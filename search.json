@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Documentation: Climate Knowledge Graph",
     "section": "",
-    "text": "About 🌏🌍🌎\nThe Climate Knowledge Graph (CKG) is a project to make a knowledge graph of the open access parts of the 10,000 page IPCC Sixth Assessment Report (AR6) corpus.",
+    "text": "About 🌏🌍🌎\nThe Climate Knowledge Graph (CKG) is an R&D project to make a knowledge graph of the open access parts of the 10,000 page IPCC Sixth Assessment Report (AR6) corpus.\nProject status: Pre-release. Alpha Knowledge graph ETA end of Q4 2025.",
     "crumbs": [
       "About 🌏🌍🌎"
     ]
@@ -44,7 +44,17 @@
     "href": "roadmap.html",
     "title": "1  Roadmap",
     "section": "",
-    "text": "Key\nAR6 - IPCC Sixth Assement Report\nCPS - Computational Publishing Service\n#semanticClimate - project partner - open research group building software tools for climate knowledge liberation",
+    "text": "Summary",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
+    ]
+  },
+  {
+    "objectID": "roadmap.html#summary",
+    "href": "roadmap.html#summary",
+    "title": "1  Roadmap",
+    "section": "",
+    "text": "Stage\nTech Stack\nStatus\n\n\n\n\nHarvest\nCPS, #semanticClimate\n \n\n\nStructure\nWikibase, RDF, #semanticClimate\nWe are here (Sept ’25)\n\n\nAnnotation\n#semanticClimate, Antelope, ORKG, ORKG reborn\n \n\n\nDistribution\nWikidata, ORKG, ORKG reborn\n \n\n\nPublishing\nCPS\n \n\n\nData access & analysis\n#semanticClimate, Wikibase",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
     ]
@@ -90,6 +100,16 @@
     ]
   },
   {
+    "objectID": "roadmap.html#key",
+    "href": "roadmap.html#key",
+    "title": "1  Roadmap",
+    "section": "Key",
+    "text": "Key\n\nAR6 - IPCC Sixth Assement Report\nCPS - Computational Publishing Service\n#semanticClimate - project partner - open research group building software tools for climate knowledge liberation",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
+    ]
+  },
+  {
     "objectID": "workflow.html",
     "href": "workflow.html",
     "title": "2  Workflow",
@@ -124,17 +144,7 @@
     "href": "reports.html",
     "title": "3  AR6 Quantification",
     "section": "",
-    "text": "3.1 Report quantification - version 1.0 manual count (work in progress)\nData, full stats, and methods.\nA scoping literature review shows no comprehensive AR6 or IPCC Assement Reports quantification.\nWe believe what has been collected is the first attempt at such measurement.\nAn automated count will be carried out using TIB Grobi software https://projects.tib.eu/grobi in Q4 2025.",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>AR6 Quantification</span>"
-    ]
-  },
-  {
-    "objectID": "reports.html#what-is-the-ar6-report",
-    "href": "reports.html#what-is-the-ar6-report",
-    "title": "3  AR6 Quantification",
-    "section": "3.2 What is the AR6 report",
-    "text": "3.2 What is the AR6 report\nAR6 is comprised of seven reports:\n\nthe Synthesis Report (referred to as SYR)\nthe 3 Working group reports (referred to as WGI, WGII, WGIII)\nthe 3 Special reports (referred to as SR1.5, SRCCL, SROCC)\n\n\n\n\n\n\n\n\n\n\n\nReport\nFile name / source\nFile size in MB\nApprox. page count\nApprox. word count\n\n\n\n\nAR6 Synthesis Report: Climate Change 2023 (SYR)\nIPCC_AR6_SYR_FullVolume.pdf / https://www.ipcc.ch/report/ar6/syr/\n4.9\n186 + 14 pages\n~94.000\n\n\nClimate Change 2021: The Physical Science Basis (WG1)\nIPCC_AR6_WGI_FullReport.pdf / https://www.ipcc.ch/report/ar6/wg1/\n423.3\n2409 pages\n~1.925.000\n\n\nClimate Change 2022: Impacts, Adaptation and Vulnerability (WG2)\nIPCC_AR6_WGII_FullReport.pdf / https://www.ipcc.ch/report/ar6/wg2/\n396\n3068 + 12 pages\n~2.513.000\n\n\nClimate Change 2022: Mitigation of Climate Change (WG3)\nIPCC_AR6_WGIII_FullReport.pdf / https://www.ipcc.ch/report/ar6/wg3/\n68.8\n2042 + 11 pages\n~1.642.000\n\n\nSpecial Report: Global Warming of 1.5°C (2018) (SR1.5)\nSR15_Full_Report_HR.pdf / https://www.ipcc.ch/sr15/\n65\n631 pages\n~511.000\n\n\nSpecial Report: Climate Change and Land (2019) (SRCCL)\nSRCCL_Full_Report.pdf / https://www.ipcc.ch/srccl/\n44.9\n908 pages\n~735.000\n\n\nSpecial Report: The Ocean and Cryosphere in a Changing Climate (2019) (SROCC)\nSROCC_FullReport_FINAL.pdf / https://www.ipcc.ch/srocc/\n51.9\n766 pages\n~627.000\n\n\nTotal\n\n1054.8 MB\n10047 pages\n~8.047.000\n\n\n\n\n3.2.1 What has been counted\n\nNumber of reports\nPDF Page count, Word count\nPDF Licencing information and DOIs\nAR6 Citations / references: Bibtex downloads, reference count\nAR6 Authors count\nWikidata entries of AR6 reports\nAR6 Figures count\nAR6 Data count\nAR6 Glossary count\nAR 6 report translations\nAR6 Acronyms\nAR6 Index terms",
+    "text": "3.1 Summary\n* Contains duplicates",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>AR6 Quantification</span>"
     ]
@@ -143,8 +153,38 @@
     "objectID": "reports.html#summary",
     "href": "reports.html#summary",
     "title": "3  AR6 Quantification",
-    "section": "3.3 Summary",
-    "text": "3.3 Summary\n\n\n\nItem\nCount\nStatus\n\n\n\n\nNumber of reports\n7\nDefinitive\n\n\nOpen access license\n6\nDefinitive\n\n\nReport DOIs\n7\nDefinitive\n\n\nPage count\n10,047\nApprox.\n\n\nWord count\n8,047,000\nApprox.\n\n\nAuthors\n1,106\nDefinitive *\n\n\nReferences\n48,400\nApprox. *\n\n\nSYR Notes\n-\nTo be confirmed\n\n\nFigures\n1,672\nApprox.\n\n\nData\n66,834\nApprox. *\n\n\nGlossary terms\n925\nDefinitive *\n\n\nAcronyms\n3041\nApprox. *\n\n\nIndex terms\n5463\nApprox. *\n\n\nTranslations\nSee other table\n \n\n\nWikidata entries (report top level)\n13\nApprox.\n\n\nWikidata entries - data types\n-\nTo be confirmed\n\n\n\n* Contains duplicates\n\n3.3.1 Translations\nApproximate.\n\n\n\n\n\n\n\n\n\nReport\nLanding page for translations\nTranslations count UN lang\nOther lang\n\n\n\n\nAR6 Synthesis Report: Climate Change 2023\nhttps://www.ipcc.ch/report/ar6/syr/resources/translations/\n5 in preparation\n2 x SPM\n\n\nClimate Change 2021: The Physical Science Basis (WGI)\nhttps://www.ipcc.ch/report/ar6/wg1/resources/translations/\n5\n2, partial\n\n\nClimate Change 2022: Impacts, Adaptation and Vulnerability (WG2)\nhttps://www.ipcc.ch/report/ar6/wg2/resources/translations/\n5\n3 x SPM\n\n\nClimate Change 2022: Mitigation of Climate Change (WG3)\nhttps://www.ipcc.ch/report/ar6/wg3/resources/translations/\n5\n1 x SPM\n\n\nSpecial Report: Global Warming of 1.5°C (2018) (SR1.5)\nSome translations here https://www.ipcc.ch/sr15/download/, “UN and other languages”\n5\n4 x SPM\n\n\nSpecial Report: Climate Change and Land (2019) (SRCCL)\nSome translations here https://www.ipcc.ch/srccl/download/ , “SPM in UN Languages”, “SPM in other languages”\n5 x SPM\n3 x SPM\n\n\nSpecial Report: The Ocean and Cryosphere in a Changing Climate (2019) (SROCC)\nSome translations here https://www.ipcc.ch/srocc/download/, “UN and other languages”\n5 x SPM\n5 x SPM",
+    "section": "",
+    "text": "Item\nCount\nStatus\n\n\n\n\nNumber of reports\n7\nDefinitive\n\n\nOpen access license\n6\nDefinitive\n\n\nReport DOIs (top level)\n7\nDefinitive\n\n\nPage count\n10,047\nApprox.\n\n\nWord count\n8,047,000\nApprox.\n\n\nAuthors\n1,106\nApprox *\n\n\nReferences\n48,400\nApprox. *\n\n\nSYR Notes\n-\nTo be confirmed\n\n\nFigures\n1,672\nApprox.\n\n\nData\n66,834\nApprox. *\n\n\nGlossary terms\n925\nDefinitive\n\n\nAcronyms\n3041\nApprox. *\n\n\nIndex terms\n5463\nApprox. *\n\n\nTranslations\nSee other table\n \n\n\nWikidata entries (report top level)\n13\nApprox.\n\n\nWikidata entries - data types\n-\nTo be confirmed",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>AR6 Quantification</span>"
+    ]
+  },
+  {
+    "objectID": "reports.html#report-quantification---version-1.0-manual-count",
+    "href": "reports.html#report-quantification---version-1.0-manual-count",
+    "title": "3  AR6 Quantification",
+    "section": "3.2 Report quantification - version 1.0 manual count",
+    "text": "3.2 Report quantification - version 1.0 manual count\n\nA scoping literature review shows no comprehensive AR6 or IPCC Assement Reports quantification.\nWe believe what has been collected is the first attempt at such measurement.\nAn automated count will be carried out using TIB Grobi software https://projects.tib.eu/grobi in Q4 2025.\nData sources and data collection will take place in a follow up report.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>AR6 Quantification</span>"
+    ]
+  },
+  {
+    "objectID": "reports.html#data-full-stats-and-methods",
+    "href": "reports.html#data-full-stats-and-methods",
+    "title": "3  AR6 Quantification",
+    "section": "3.3 Data, full stats, and methods",
+    "text": "3.3 Data, full stats, and methods\nhttps://github.com/TIBHannover/climate-knowledge-graph/issues/18.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>AR6 Quantification</span>"
+    ]
+  },
+  {
+    "objectID": "reports.html#what-is-the-ar6-report",
+    "href": "reports.html#what-is-the-ar6-report",
+    "title": "3  AR6 Quantification",
+    "section": "3.4 What is the AR6 report",
+    "text": "3.4 What is the AR6 report\nAR6 is comprised of seven reports:\n\nthe Synthesis Report (referred to as SYR)\nthe 3 Working group reports (referred to as WGI, WGII, WGIII)\nthe 3 Special reports (referred to as SR1.5, SRCCL, SROCC)\n\n\n\n\n\n\n\n\n\n\n\nReport\nFile name / source\nFile size in MB\nApprox. page count\nApprox. word count\n\n\n\n\nAR6 Synthesis Report: Climate Change 2023 (SYR)\nIPCC_AR6_SYR_FullVolume.pdf / https://www.ipcc.ch/report/ar6/syr/\n4.9\n186 + 14 pages\n~94.000\n\n\nClimate Change 2021: The Physical Science Basis (WG1)\nIPCC_AR6_WGI_FullReport.pdf / https://www.ipcc.ch/report/ar6/wg1/\n423.3\n2409 pages\n~1.925.000\n\n\nClimate Change 2022: Impacts, Adaptation and Vulnerability (WG2)\nIPCC_AR6_WGII_FullReport.pdf / https://www.ipcc.ch/report/ar6/wg2/\n396\n3068 + 12 pages\n~2.513.000\n\n\nClimate Change 2022: Mitigation of Climate Change (WG3)\nIPCC_AR6_WGIII_FullReport.pdf / https://www.ipcc.ch/report/ar6/wg3/\n68.8\n2042 + 11 pages\n~1.642.000\n\n\nSpecial Report: Global Warming of 1.5°C (2018) (SR1.5)\nSR15_Full_Report_HR.pdf / https://www.ipcc.ch/sr15/\n65\n631 pages\n~511.000\n\n\nSpecial Report: Climate Change and Land (2019) (SRCCL)\nSRCCL_Full_Report.pdf / https://www.ipcc.ch/srccl/\n44.9\n908 pages\n~735.000\n\n\nSpecial Report: The Ocean and Cryosphere in a Changing Climate (2019) (SROCC)\nSROCC_FullReport_FINAL.pdf / https://www.ipcc.ch/srocc/\n51.9\n766 pages\n~627.000\n\n\nTotal\n\n1054.8 MB\n10047 pages\n~8.047.000\n\n\n\n\n3.4.1 What has been counted\n\nNumber of reports\nPDF Page count, Word count\nPDF Licencing information and DOIs\nAR6 Citations / references: Bibtex downloads, reference count\nAR6 Authors count\nWikidata entries of AR6 reports\nAR6 Figures count\nAR6 Data count\nAR6 Glossary count\nAR 6 report translations\nAR6 Acronyms\nAR6 Index terms\n\n\n\n3.4.2 Translations\nApproximate.\n\n\n\n\n\n\n\n\n\nReport\nLanding page for translations\nTranslations count UN lang\nOther lang\n\n\n\n\nAR6 Synthesis Report: Climate Change 2023\nhttps://www.ipcc.ch/report/ar6/syr/resources/translations/\n5 in preparation\n2 x SPM\n\n\nClimate Change 2021: The Physical Science Basis (WGI)\nhttps://www.ipcc.ch/report/ar6/wg1/resources/translations/\n5\n2, partial\n\n\nClimate Change 2022: Impacts, Adaptation and Vulnerability (WG2)\nhttps://www.ipcc.ch/report/ar6/wg2/resources/translations/\n5\n3 x SPM\n\n\nClimate Change 2022: Mitigation of Climate Change (WG3)\nhttps://www.ipcc.ch/report/ar6/wg3/resources/translations/\n5\n1 x SPM\n\n\nSpecial Report: Global Warming of 1.5°C (2018) (SR1.5)\nSome translations here https://www.ipcc.ch/sr15/download/, “UN and other languages”\n5\n4 x SPM\n\n\nSpecial Report: Climate Change and Land (2019) (SRCCL)\nSome translations here https://www.ipcc.ch/srccl/download/ , “SPM in UN Languages”, “SPM in other languages”\n5 x SPM\n3 x SPM\n\n\nSpecial Report: The Ocean and Cryosphere in a Changing Climate (2019) (SROCC)\nSome translations here https://www.ipcc.ch/srocc/download/, “UN and other languages”\n5 x SPM\n5 x SPM",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>AR6 Quantification</span>"
     ]
