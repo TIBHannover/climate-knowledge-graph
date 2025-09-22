@@ -5,13 +5,15 @@
   ],
   "conformsTo": "https://www.w3.org/TR/pub-manifest/",
   "type": "Book",
-  "name": "WGIII Chapter 1-3",
+  "name": "WGIII Report Chapter 1-5",
   "author": "IPCC",
   "inLanguage": "en",
   "readingOrder": [
     "content/Chapter01/html_with_ids.html",
     "content/Chapter02/html_with_ids.html",
-    "content/Chapter03/html_with_ids.html"
+    "content/Chapter03/html_with_ids.html",
+    "content/Chapter04/html_with_ids.html",
+    "content/Chapter05/html_with_ids.html"
   ],
   "resources": [
     {
