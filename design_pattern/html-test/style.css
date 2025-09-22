@@ -96,7 +96,7 @@ figcaption {
 }
 
 /* Footnotes */
-.footnotes, ._idFootnotes {
+.footnotes {
   float: footnote;
   font-size: 0.7rem;
 }
