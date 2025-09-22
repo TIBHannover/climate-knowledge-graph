@@ -139,6 +139,11 @@ div.h1-container {
   break-before: right;
 }
 
+
+.footnotes {
+  break-before: right;
+}
+
 /** Special pages ************************************************ **/
 
 /* Chapter opener styleguide */
@@ -171,7 +176,8 @@ section.chapter h2 {
 }
 
 /* Chapter opener report */
-@page section-chapter-opener:right {
+
+@page :first {
   background-color: var(--col-sec);
 
   @bottom-right {
@@ -185,16 +191,4 @@ section.chapter h2 {
   @right-middle {
     content: none;
   }
-}
-
-h1.text-50X {
-  page: section-chapter-opener;
-  break-before: right;
-  color: white;
-}
-
-h1.text-50X {
-  font-size: 40px;
-  line-height: 48px;
-  text-align: right;
 }

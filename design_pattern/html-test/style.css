@@ -96,7 +96,7 @@ figcaption {
 }
 
 /* Footnotes */
-.footnotes {
+.footnotes, ._idFootnotes {
   float: footnote;
   font-size: 0.7rem;
 }
@@ -344,4 +344,30 @@ thead {
 
 p.Figures--tables-etc_Table-styles_•-Table-header-row--blue- {
     text-align: center;
+}
+
+
+
+h1.text-50 {
+  font-size: 40px;
+  line-height: 48px;
+  text-align: right;
+    color: white;
+}
+
+
+.chapter-button-content {
+  color: white;
+  margin-top: 260px;
+}
+
+.Headings_•-Author-names---chapter-openers {
+  font-weight: bold;
+}
+
+.Headings_•-Chapter-should-be-cited-as {
+  margin-top: 60px;
+}
+.Body-copy_•-Chapter-citation {
+  font-size: 0.7rem;
 }
