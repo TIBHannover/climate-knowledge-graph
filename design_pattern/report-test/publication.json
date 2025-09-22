@@ -5,8 +5,8 @@
     ],
     "conformsTo": "https://www.w3.org/TR/pub-manifest/",
     "type": "Book",
-    "name": "Report of the Conference of the Parties serving as the meeting of the Parties to the Paris Agreement on its third session, held in Glasgow from 31 October to 13 November 2021",
-    "author": "United Nations Framework Convention on Climate Change (UNFCCC)",
+    "name": "WGIII Chapter 1-3",
+    "author": "IPCC",
     "inLanguage": "en",
     "readingOrder": [ 
       "content/Chapter01/html_with_ids.html",
