@@ -1,20 +1,50 @@
 # Climate Knowledge Graph
 
-## A publishing knowledge graph for UN IPCC reports
+Project status: Pre-release. Alpha Knowledge graph ETA end of Q4 2025. (Updated Sept. '25)
 
-Climate Knowledge Graph is a service for structuring large climate change corpora to be machine readable, for re-publishing, and AI LLM search — all using open science methods.
+The Climate Knowledge Graph (CKG) is an R&D project to make a _knowledge graph_ of the open access parts of the 10,000 page [*IPCC Sixth Assessment Report (AR6)*](https://www.ipcc.ch/assessment-report/ar6/) corpus.
+
+[Documentation and Developemt Log](https://tibhannover.github.io/climate-knowledge-graph/)
+
+Git repo: [CKG](https://github.com/TIBHannover/climate-knowledge-graph)
+
+## Goal 🥨
+
+The goal is to enable easier knowledge use from complex document corpus by: 
+
+1. Making corpus search results available as multi-format publications, and 
+2. enabling corpus data analysis by providing FAIR linked open data resources.
+
+CKG uses open-source software and can be used on any document corpus.
+
+```{dot}
+//| label: ckg-system
+//| fig-cap: "Figure: Climate Knowledge Graph schematic"
+//| fig-height: 3
+digraph CKG {
+  rankdir="LR"
+  {node [fillcolor="#A9DDD6" margin=0 fontcolor=black fixedsize=true fontsize=18 width=1.6 shape=circle style=filled fontname="Arial"]
+    a [label="IPCC \nReport"]
+    b [label="Knowledge \nGraph"]
+    c [label="Search & \nPublish"]
+    d [label="Data \nAnalysis"] 
+  }
+  a -> b
+  b -> {c d} [dir=both]
+}
+```
 
 \#ClimateKG 🌏🌍🌎
 
-Climate Knowledge Graph is an R\&D project hosted at [TIB](https://www.tib.eu/en) – Leibniz Information Centre for Science and Technology and organised partnership with [\#semanticClimate](https://semanticclimate.github.io/p/en/).
+Climate Knowledge Graph is an R\&D project hosted at [TIB](https://www.tib.eu/en) – Leibniz Information Centre for Science and Technology and University Library - Germany, and organised partnership with [\#semanticClimate](https://semanticclimate.github.io/p/en/) and and the National Institute of Plant Genome Research  [(NIPGR)](https://nipgr.ac.in/nipgrv2/index.html) – India.
 
 Git repository: [https://github.com/TIBHannover/climate-knowledge-graph](https://github.com/TIBHannover/climate-knowledge-graph)
 
-Project lead: Simon Worthington, Open Science Lab, TIB, Hanover – e-mail: [simon.worthington@tib.eu](mailto:simon.worthington@tib.eu) | Mastodon: [https://openbiblio.social/@mrchristian](https://openbiblio.social/@mrchristian)
+TIB Team: Project lead, Simon Worthington - publishing technologist – e-mail: [simon.worthington@tib.eu](mailto:simon.worthington@tib.eu) | Mastodon: [https://openbiblio.social/@mrchristian](https://openbiblio.social/@mrchristian) | Laura Oldenbourg - data modeling and publishing specialist. With support from Markus Stocker, lead of Lab Knowledge Infrastructures.
 
 Project status: 12 month development phase to start in May 2025 supported by TIB.
 
-Climate Knowledge Graph mission is to support the dissemination of the IPCC reports.
+Climate Knowledge Graph mission is to support access to the IPCC reports.
 
 The [IPCC](https://www.ipcc.ch/) is the Intergovernmental Panel on Climate Change and is a body of the United Nations. The IPCC Reports are one of the definitive climate change science and policy knowledge sources – which map out pathways into a future where the harmful effects of climate change are addressed.
 
@@ -34,27 +64,19 @@ Using a knowledge graph you would be able to return a search result that gives l
 ClimateKG specialised in semantic and linked open data enrichment of large scale fixed scientific corpora using RDF/Semantic Web design models and Wikibase/data technology to create model open science based indexing and cataloguing.
 
 ## Roadmap
-
-| Task area | Status | Link | Q1 | Q2 | Q3 | Q4 |
-| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| 1\. AR6 report as semantified HTML w/IDs | Alpha | [Git](https://github.com/petermr/amilib/tree/pmr_aug/test/resources/ipcc/cleaned_content) | X |  |  |  |
-| 2\. Table of contents of AR6 70 chapters | Alpha | [Git](https://github.com/semanticClimate/internship_sC/tree/MEBIN/TOC) | X |  |  |  |
-| 3\. IPCC Glossary (800 terms) to Wikibase (WB) | Done | [WB](https://climatekg.semanticclimate.net/index.php?title=IPCC_Begriffe) | X |  |  |  |
-| 4\. Data relationship model | Pre-alpha | [WB](https://kg-ipclimatec-reports.wikibase.cloud/wiki/Main_Page) | X | X |  |  |
-| 5\. Infrastructure | Done | NA |  |  |  |  |
-| 6\. Publishing pipeline | Production | [Git](https://nfdi4culture.de/services/details/computational-publishing-service.html) |  | X |  |  |
-| 7\. ClimateKG \- Index Service (dev) | Prototype (PoC) | [WB](https://kg-ipclimatec-reports.wikibase.cloud/wiki/Main_Page) |  | X | X |  |
-| 8\. ClimateKG \- Publishing Service (dev) | Prototype (PoC) | [Git](https://semanticclimate.github.io/city-open-climate-reader/) |  |  | X | X |
-| 9\. Software: Dictionaries, machine learning, etc | Production | [JN](https://colab.research.google.com/github/semanticClimate/sC-tools-demo/blob/main/TTWW_demo_sC_tools.ipynb) |  | X |  |  |
-| 10\. PDF/Web to HTML Corpus Transformer | Prod./Custom | [Git](https://github.com/petermr/amilib) | X | X |  |  |
-| 11\. AI LLM RAG Corpus use | Evaluation | TBC | X | X | X |  |
+ 
+See: [Roadmap](https://tibhannover.github.io/climate-knowledge-graph/roadmap.html) 
 
 ## Background
 
 ClimateKG comes directly out of the five year old \#semanticClimate (\#sC) open research group founded by Dr. Gitanjali Yadav of the National Institute of Plant Genome Research ([NIPGR](https://nipgr.ac.in/home/home.php)), Delhi, Dr Peter Murray-Rust of Cambridge University, and Simon Worthington (TIB) which works on software tool development for semantic enrichment. \#semanticClimate is active on a daily basis as a community and NIPGR supports an India wide internship programme, hackathon series, and youth outreach programme. Additionally \#sC presents globally from Beijing, Montevideo, to Berlin.
 
 * Web: [https://semanticclimate.github.io/](https://semanticclimate.github.io/)  
-* Journal Article: Worthington, Simon, Gitanjali Yadav, Shweata Hegde, Renu Kumari, Neeraj Kumari, and Peter Murray-Rust. 2024\. ‘The \#SemanticClimate Community: Making Open-Source Software for Knowledge Liberation’. *Annals of Library and Information Studies* 71 (4): 480–95. [https://doi.org/10.56042/alis.v71i4.14285](https://doi.org/10.56042/alis.v71i4.14285).
+* Journal Articles: 
+
+Worthington, Simon, Gitanjali Yadav, Shweata Hegde, Renu Kumari, Neeraj Kumari, and Peter Murray-Rust. 2024\. ‘The \#SemanticClimate Community: Making Open-Source Software for Knowledge Liberation’. *Annals of Library and Information Studies* 71 (4): 480–95. [https://doi.org/10.56042/alis.v71i4.14285](https://doi.org/10.56042/alis.v71i4.14285).
+
+Worthington, Simon, Gitanjali Yadav, Shweata Hegde, Renu Kumari, Neeraj Kumari, and Peter Murray-Rust. 2024. ‘The #SemanticClimate Community: Making Open-Source Software for Knowledge Liberation’. Annals of Library and Information Studies 71 (4): 480–95. [https://doi.org/10.56042/alis.v71i4.14285](https://doi.org/10.56042/alis.v71i4.14285)
 
 TIB is one of the largest science libraries in the world and is a global hub for knowledge graph R\&D — service development, and infrastructure provision — especially the [Open Research Knowledge Graph](https://orkg.org/) (ORKG). ClimateKG partners with and is supported in knowledge graph expertise by Lab Knowledge Infrastructures led by Dr Markus Stocker. At TIB ClimateKG is based in the Open Science Lab and makes use of expertise from the NFDI4Culture (cultural heritage consortium of the larger German National Research Data Infrastructure Consortium) projects: Wikibase4Research, Computational Publishing Service, and Antelope (terminology service).
 
@@ -68,5 +90,4 @@ TIB is one of the largest science libraries in the world and is a global hub for
 
 Thank you for support and contributions to TIB colleagues and \#semanticClimate members, volunteers, interns, and hackathon participants.
 
--
 
