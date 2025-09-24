@@ -19,6 +19,7 @@ CKG uses open-source software and can be used on any document corpus.
 
 \#ClimateKG 🌏🌍🌎
 
+
 ![Alt text](https://g.gravizo.com/source/custom_mark10?https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/refs/heads/main/README.md)
 <details> 
 <summary></summary>
