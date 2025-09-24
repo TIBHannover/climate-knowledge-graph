@@ -19,7 +19,10 @@ CKG uses open-source software and can be used on any document corpus.
 
 \#ClimateKG 🌏🌍🌎
 
-![Alt text](https://g.gravizo.com/svg?
+![Alt text](https://g.gravizo.com/source/custom_mark10?https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/refs/heads/main/README.md)
+<details> 
+<summary></summary>
+custom_mark10
 digraph CKG {
   rankdir="LR"
   {node [fillcolor="#A9DDD6" margin=0 fontcolor=black fixedsize=true fontsize=18 width=1.6 shape=circle style=filled fontname="Arial"]
@@ -31,7 +34,8 @@ digraph CKG {
   a -> b
   b -> {c d} [dir=both]
 }
-)
+custom_mark10
+</details>
 
 Climate Knowledge Graph is an R\&D project hosted at [TIB](https://www.tib.eu/en) – Leibniz Information Centre for Science and Technology and University Library - Germany, and organised partnership with [\#semanticClimate](https://semanticclimate.github.io/p/en/) and and the National Institute of Plant Genome Research  [(NIPGR)](https://nipgr.ac.in/nipgrv2/index.html) – India.
 
