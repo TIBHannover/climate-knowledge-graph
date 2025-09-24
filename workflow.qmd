@@ -1,6 +1,10 @@
-# Workflow
+# CKG Dev Workflow
 
-## Goal
+Status: Version 1.0 (Sept '25')
+
+CKG - Knowledge graph and publishing system development workflow.
+
+## Goal {.unnumbered}
 
 The goal is to enable easier knowledge use of complex document corpus by using a knowledge graph to enable the following: 
 
@@ -17,27 +21,28 @@ Wikibase is used for storage and knowledge graph creation to support the followi
  - search for outputting 'publication ready documents' including via LLMs, and for 
  - providing knowledge graph data services.
 
----
+### Workflow steps (summary)
 
-### Workflow steps
+Working with [*IPCC Sixth Assessment Report (AR6)*](https://www.ipcc.ch/assessment-report/ar6/) corpus.
 
-1. Report sources
-1. IPCC web scrape report texts (corpus harvest)
-1. Generate initial knowledge graph data model (iterativ development)
-1. Wikibase report import
-1. Wikibase to Mediawiki report navigation mapping for report browsing
+1. Locate AR6 report data sources - authors, glossary, acronyms list, etc.
+1. AR6 web scrape report texts (corpus harvest)
+1. Design initial knowledge graph data model 
+1. Wikibase AR6 import
+1. Wikibase to Mediawiki report navigation mapping to Mediawiki Categories for report browsing in Mediawiki
 1. Harvest data:
    - Authors
    - Glossary
    - Acronyms list
    - References
    - Bibliographic
-1. Import above data to Wikibase
-1. Annotate report using above data
+   - etc.
+1. Import above AR6 data to Wikibase
+1. Annotate report using above AR6 data
 1. Community annotation: #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.
 1. Wikibase to Wikidata data mapping
 1. Wikibase data analysis and visualisations
-1. Publications available as:
+1. Publications generated from Wikibase of A& available as:
   - REST API
   - Command line 
   - Jupyter Noteooks
