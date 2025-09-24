@@ -19,7 +19,7 @@ CKG uses open-source software and can be used on any document corpus.
 //| fig-height: 3
 digraph CKG {
   rankdir="LR"
-  {node [fillcolor="#A9DDD6" margin=0 fontcolor=black fixedsize= true fontsize=18 width=1.6 shape=circle style=filled fontname="Arial"]
+  {node [fillcolor="#A9DDD6" margin=0 fontcolor=black fixedsize=true fontsize=18 width=1.6 shape=circle style=filled fontname="Arial"]
     a [label="IPCC \nReport"]
     b [label="Knowledge \nGraph"]
     c [label="Search & \nPublish"]
