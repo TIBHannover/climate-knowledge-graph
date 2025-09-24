@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Documentation: Climate Knowledge Graph",
+    "title": "Docs & Dev Log: Climate Knowledge Graph",
     "section": "",
-    "text": "About 🌏🌍🌎\nThe Climate Knowledge Graph (CKG) is an R&D project to make a knowledge graph of the open access parts of the 10,000 page IPCC Sixth Assessment Report (AR6) corpus.\nProject status: Pre-release. Alpha Knowledge graph ETA end of Q4 2025.",
+    "text": "About 🌏🌍🌎\nProject status: Pre-release. Alpha Knowledge graph ETA end of Q4 2025. (Updated Sept. ’25)\nThe Climate Knowledge Graph (CKG) is an R&D project to make a knowledge graph of the open access parts of the 10,000 page IPCC Sixth Assessment Report (AR6) corpus.\nGit repo: CKG",
     "crumbs": [
       "About 🌏🌍🌎"
     ]
@@ -12,7 +12,7 @@
   {
     "objectID": "index.html#goal",
     "href": "index.html#goal",
-    "title": "Documentation: Climate Knowledge Graph",
+    "title": "Docs & Dev Log: Climate Knowledge Graph",
     "section": "Goal 🥨",
     "text": "Goal 🥨\nThe goal is to enable easier knowledge use from complex document corpus by:\n\nMaking corpus search results available as multi-format publications, and\nenabling corpus data analysis by providing FAIR linked open data resources.\n\nCKG uses open-source software and can be used on any document corpus.\n\n\n\n\n\n\nCKG\n\n\n\na\n\nIPCC \nReport\n\n\n\nb\n\nKnowledge \nGraph\n\n\n\na-&gt;b\n\n\n\n\n\nc\n\nSearch & \nPublish\n\n\n\nb-&gt;c\n\n\n\n\n\n\nd\n\nData \nAnalysis\n\n\n\nb-&gt;d\n\n\n\n\n\n\n\nFigure: Climate Knowledge Graph schematic",
     "crumbs": [
@@ -22,9 +22,9 @@
   {
     "objectID": "index.html#about-us",
     "href": "index.html#about-us",
-    "title": "Documentation: Climate Knowledge Graph",
+    "title": "Docs & Dev Log: Climate Knowledge Graph",
     "section": "About us 👋",
-    "text": "About us 👋\nTIB project team: Simon Worthington, e-mail: simon.worthington@tib.eu (Lead: Publishing technologist), and; Laura Oldenbourg (Web developer). With support from Markus Stocker, lead of Lab Knowledge Infrastructures.\nCKG is an R&D project hosted at TIB – Leibniz Information Centre for Science and Technology – Germany and organised in partnership with #semanticClimate and the National Institute of Plant Genome Research (NIPGR) – India.\nCKG is funded by TIB Innovationsfond.",
+    "text": "About us 👋\nTIB project team: Simon Worthington, e-mail: simon.worthington@tib.eu (Lead: Publishing technologist), and; Laura Oldenbourg (data modeling and publishing specialist). With support from Markus Stocker, lead of Lab Knowledge Infrastructures.\nCKG is an R&D project hosted at TIB – Leibniz Information Centre for Science and Technology – Germany and organised in partnership with #semanticClimate and the National Institute of Plant Genome Research (NIPGR) – India.\nCKG is funded by TIB Innovationsfond.",
     "crumbs": [
       "About 🌏🌍🌎"
     ]
@@ -32,7 +32,7 @@
   {
     "objectID": "index.html#licensing",
     "href": "index.html#licensing",
-    "title": "Documentation: Climate Knowledge Graph",
+    "title": "Docs & Dev Log: Climate Knowledge Graph",
     "section": "Licensing",
     "text": "Licensing\nSofware: All software is Open Source Initiative (OSI) open-source license compliant. Copyright the Authors.\nIPCC reports. This content is Open Access and distributed under the terms of the Creative Commons Attribution licence CC-BY-NC-ND 4.0 https://creativecommons.org/creativelicenses. Copyright Intergovernmental Panel on Climate Change.",
     "crumbs": [
@@ -42,101 +42,101 @@
   {
     "objectID": "roadmap.html",
     "href": "roadmap.html",
-    "title": "1  Roadmap",
+    "title": "1  Project Roadmap",
     "section": "",
     "text": "Summary",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Roadmap</span>"
     ]
   },
   {
     "objectID": "roadmap.html#summary",
     "href": "roadmap.html#summary",
-    "title": "1  Roadmap",
+    "title": "1  Project Roadmap",
     "section": "",
     "text": "Stage\nTech Stack\nStatus\n\n\n\n\nHarvest\nCPS, #semanticClimate\n \n\n\nStructure\nWikibase, RDF, #semanticClimate\nWe are here (Sept ’25)\n\n\nAnnotation\n#semanticClimate, Antelope, ORKG, ORKG reborn\n \n\n\nDistribution\nWikidata, ORKG, ORKG reborn\n \n\n\nPublishing\nCPS\n \n\n\nData access & analysis\n#semanticClimate, Wikibase",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Roadmap</span>"
     ]
   },
   {
     "objectID": "roadmap.html#done",
     "href": "roadmap.html#done",
-    "title": "1  Roadmap",
+    "title": "1  Project Roadmap",
     "section": "1.1 Done",
     "text": "1.1 Done\n\nConvert AR6 report corpora web source to normalised HTML (web scrape) - v1.0 Ready\nLocate supporting resources located: Authors, glossary, acronmys, figures, data, bibliographic, licence, published canonical sources, references - v1.0 Ready\nKnowledge graph data model - Alpha\nLLM RAG workflow tests - Alpha\nPublishing pipeline from Wikibase - Beta 1.0 Ready - See python module: https://pypi.org/project/cps-impress/\nAR6 Report quantification - v1.0 Ready (repeat using TIB Grobi https://projects.tib.eu/grobi )",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Roadmap</span>"
     ]
   },
   {
     "objectID": "roadmap.html#work-in-progress-wip",
     "href": "roadmap.html#work-in-progress-wip",
-    "title": "1  Roadmap",
+    "title": "1  Project Roadmap",
     "section": "1.2 Work in progress (WIP)",
-    "text": "1.2 Work in progress (WIP)\n\nWikibase infrastructure - WIP\nAR6 Report publication sytactic, semantic, and typesetting data stucture analysis - WIP\nAR6 Report publication CSS Paged Media style - WIP\nDefining workflow and tech stack - WIP\nWikibase maintenance and sysadmin - WIP",
+    "text": "1.2 Work in progress (WIP)\n\nWikibase infrastructure - WIP\nAR6 Report publication syntactic, semantic, and typesetting data stucture analysis - WIP\nAR6 Report publication CSS Paged Media style - WIP\nDefining workflow and tech stack - WIP\nWikibase maintenance and sysadmin - WIP",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Roadmap</span>"
     ]
   },
   {
     "objectID": "roadmap.html#next",
     "href": "roadmap.html#next",
-    "title": "1  Roadmap",
+    "title": "1  Project Roadmap",
     "section": "1.3 Next",
     "text": "1.3 Next\n\nAR6 WG1 section trial import into Wikibase for the purpose of Wikibase troubleshooting\nWikibase text import module - A python module needs writing importing text using Wikibase and a storage method - Renate or/and Mediawiki. This would extend https://pypi.org/project/cps-wb/\nRefector AR6 web scrape - A python module needs extending. This module was made by CPS for an art collection https://pypi.org/project/cps-deckenmalerei/\nImport AR6 into Wikibase\nHarvest data: Python module needed. This would extend https://pypi.org/project/cps-wb/\n\nAuthors\nGlossary\nAcronyms list\nReferences\nBibliographic\n\nImport above data to Wikibase. Python module needed. This would extend https://pypi.org/project/cps-wb/\nAnnotate report using above data\nWikibase to Mediawiki report navigation mapping for report browsing",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Roadmap</span>"
     ]
   },
   {
     "objectID": "roadmap.html#to-do",
     "href": "roadmap.html#to-do",
-    "title": "1  Roadmap",
+    "title": "1  Project Roadmap",
     "section": "1.4 To do",
     "text": "1.4 To do\n\nDefine workflows and review processes for adding data to KG.\nLLM RAG proof of concept demo - using HTML corpora and Streamlit. This is meant as a throw away demonstration as the workflow has been tried out with #semanticClimate\nCommunity annotation (integrate #semanticClimate tooling): #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.\nWikibase to Wikidata data mapping\nWikibase data analysis and visualisations - using built in Wikidata tools\nPublications available as:\n\n\nREST API\nCommand line\nJupyter Noteooks\nPython CMS (e.g., Wagtail)\nGraph RAG LLM\n\nAll of the above publishing channels use the following framework. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating in a ‘Model View Controller’ architecture. Paged Media CSS styles are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.\n\n\n\nSaving publications data back to the knowledge graph\nMaking Renate DOI deposits of publications\nKnowledge Graph - FAIR linked open data, and semantic outputs from Wikibase:\n\n\nREST API\nRDF export\nDokieli RDFa\nWikidata export",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Roadmap</span>"
     ]
   },
   {
     "objectID": "roadmap.html#key",
     "href": "roadmap.html#key",
-    "title": "1  Roadmap",
+    "title": "1  Project Roadmap",
     "section": "Key",
     "text": "Key\n\nAR6 - IPCC Sixth Assement Report\nCPS - Computational Publishing Service\n#semanticClimate - project partner - open research group building software tools for climate knowledge liberation",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Roadmap</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Roadmap</span>"
     ]
   },
   {
     "objectID": "workflow.html",
     "href": "workflow.html",
-    "title": "2  Workflow",
+    "title": "2  CKG Dev Workflow",
     "section": "",
-    "text": "2.1 Goal\nThe goal is to enable easier knowledge use of complex document corpus by using a knowledge graph to enable the following:",
+    "text": "Goal\nThe goal is to enable easier knowledge use of complex document corpus by using a knowledge graph to enable the following:",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Workflow</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>CKG Dev Workflow</span>"
     ]
   },
   {
     "objectID": "workflow.html#goal",
     "href": "workflow.html#goal",
-    "title": "2  Workflow",
+    "title": "2  CKG Dev Workflow",
     "section": "",
     "text": "Publishing of search results as multi-format publication, and\nenable data analysis by providing FAIR linked open data.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Workflow</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>CKG Dev Workflow</span>"
     ]
   },
   {
     "objectID": "workflow.html#workflow",
     "href": "workflow.html#workflow",
-    "title": "2  Workflow",
-    "section": "2.2 Workflow",
-    "text": "2.2 Workflow\nThe workflow represents the stages that go from harvesting an unstructured document corpus, web or PDF, and converting it to structured data.\nWikibase is used for storage and knowledge graph creation to support the following features:\n\ncommunity annotation,\nsearch for outputting ‘publication ready documents’ including via LLMs, and for\nproviding knowledge graph data services.\n\n\n\n2.2.1 Workflow steps\n\nReport sources\nIPCC web scrape report texts (corpus harvest)\nGenerate initial knowledge graph data model (iterativ development)\nWikibase report import\nWikibase to Mediawiki report navigation mapping for report browsing\nHarvest data:\n\nAuthors\nGlossary\nAcronyms list\nReferences\nBibliographic\n\nImport above data to Wikibase\nAnnotate report using above data\nCommunity annotation: #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.\nWikibase to Wikidata data mapping\nWikibase data analysis and visualisations\nPublications available as:\n\n\nREST API\nCommand line\nJupyter Noteooks\nPython CMS (e.g., Wagtail)\nGraph RAG LLM\n\nAll of the above publishing channels use the following framework. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating in a ‘Model View Controller’ architecture. Paged Media CSS styles are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.\n\n\n\nKnowledge Graph - FAIR linked open data, and semantic outputs from Wikibase:\n\n\nREST API\nRDF export\nDokieli RDFa\nWikidata export",
+    "title": "2  CKG Dev Workflow",
+    "section": "2.1 Workflow",
+    "text": "2.1 Workflow\nThe workflow represents the stages that go from harvesting an unstructured document corpus, web or PDF, and converting it to structured data.\nWikibase is used for storage and knowledge graph creation to support the following features:\n\ncommunity annotation,\nsearch for outputting ‘publication ready documents’ including via LLMs, and for\nproviding knowledge graph data services.\n\n\n2.1.1 Workflow steps (summary)\nWorking with IPCC Sixth Assessment Report (AR6) corpus.\n\nLocate AR6 report data sources - authors, glossary, acronyms list, etc.\nAR6 web scrape report texts (corpus harvest)\nDesign initial knowledge graph data model\nWikibase AR6 import\nWikibase to Mediawiki report navigation mapping to Mediawiki Categories for report browsing in Mediawiki\nHarvest data:\n\nAuthors\nGlossary\nAcronyms list\nReferences\nBibliographic\netc.\n\nImport above AR6 data to Wikibase\nAnnotate report using above AR6 data\nCommunity annotation: #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.\nWikibase to Wikidata data mapping\nWikibase data analysis and visualisations\nPublications generated from Wikibase of A& available as:\n\n\nREST API\nCommand line\nJupyter Noteooks\nPython CMS (e.g., Wagtail)\nGraph RAG LLM\n\nAll of the above publishing channels use the following framework. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating in a ‘Model View Controller’ architecture. Paged Media CSS styles are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.\n\n\n\nKnowledge Graph - FAIR linked open data, and semantic outputs from Wikibase:\n\n\nREST API\nRDF export\nDokieli RDFa\nWikidata export",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Workflow</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>CKG Dev Workflow</span>"
     ]
   },
   {
@@ -144,7 +144,17 @@
     "href": "reports.html",
     "title": "3  AR6 Quantification",
     "section": "",
-    "text": "3.1 Summary\nIPCC Sixth Assement Report (AR6)\nStatus: Provisional\n* Contains duplicates",
+    "text": "3.1 AR6 quantification - version 1.0 (manual count)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>AR6 Quantification</span>"
+    ]
+  },
+  {
+    "objectID": "reports.html#ar6-quantification---version-1.0-manual-count",
+    "href": "reports.html#ar6-quantification---version-1.0-manual-count",
+    "title": "3  AR6 Quantification",
+    "section": "",
+    "text": "A scoping literature review shows no comprehensive AR6 or IPCC Assement Reports quantification.\nWe believe what has been collected is the first attempt at such measurement.\nAn automated count will be carried out using TIB Grobi software in Q4 2025.\nData sources and data collection will take place in a follow up report.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>AR6 Quantification</span>"
     ]
@@ -153,18 +163,8 @@
     "objectID": "reports.html#summary",
     "href": "reports.html#summary",
     "title": "3  AR6 Quantification",
-    "section": "",
-    "text": "Item\nCount\nStatus\n\n\n\n\nNumber of reports\n7\nDefinitive\n\n\nOpen access license\n6\nDefinitive\n\n\nReport DOIs (top level)\n7\nDefinitive\n\n\nPage count\n10,047\nApprox.\n\n\nWord count\n8,047,000\nApprox.\n\n\nAuthors\n1,106\nApprox *\n\n\nReferences\n48,400\nApprox. *\n\n\nSYR Notes\n-\nTo be confirmed\n\n\nFigures\n1,672\nApprox.\n\n\nData\n66,834\nApprox. *\n\n\nGlossary terms\n925\nDefinitive\n\n\nAcronyms\n3041\nApprox. *\n\n\nIndex terms\n5463\nApprox. *\n\n\nTranslations\nSee other table\n \n\n\nWikidata entries (report top level)\n13\nApprox.\n\n\nWikidata entries - data types\n-\nTo be confirmed",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>AR6 Quantification</span>"
-    ]
-  },
-  {
-    "objectID": "reports.html#report-quantification---version-1.0-manual-count",
-    "href": "reports.html#report-quantification---version-1.0-manual-count",
-    "title": "3  AR6 Quantification",
-    "section": "3.2 Report quantification - version 1.0 manual count",
-    "text": "3.2 Report quantification - version 1.0 manual count\n\nA scoping literature review shows no comprehensive AR6 or IPCC Assement Reports quantification.\nWe believe what has been collected is the first attempt at such measurement.\nAn automated count will be carried out using TIB Grobi software https://projects.tib.eu/grobi in Q4 2025.\nData sources and data collection will take place in a follow up report.",
+    "section": "3.2 Summary",
+    "text": "3.2 Summary\n\n\n\nItem\nCount\nStatus\n\n\n\n\nNumber of reports\n7\nDefinitive\n\n\nOpen access license\n6\nDefinitive\n\n\nReport DOIs (top level)\n7\nGood\n\n\nPage count\n10,047\nApprox.\n\n\nWord count\n8,047,000\nApprox.\n\n\nAuthors\n1,106\nApprox *\n\n\nReferences\n48,400\nApprox. *\n\n\nSYR Notes\n-\nTo be confirmed\n\n\nFigures\n1,672\nApprox.\n\n\nData\n66,834\nApprox. *\n\n\nGlossary terms\n925\nGood\n\n\nAcronyms\n3041\nApprox. *\n\n\nIndex terms\n5463\nApprox. *\n\n\nTranslations\nSee other table\n \n\n\nWikidata entries (report top level)\n13\nApprox.\n\n\nWikidata entries - data types\n-\nTo be confirmed\n\n\n\n* Contains duplicates",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>AR6 Quantification</span>"
     ]
@@ -190,53 +190,93 @@
     ]
   },
   {
-    "objectID": "datamodel.html",
-    "href": "datamodel.html",
-    "title": "4  Data model",
-    "section": "",
-    "text": "4.1 AR6 report sources\nCKG and Knowledge graph data model.\nCKG_data_model\n\n\n\nAR6_Organization\n\nAR6_Organization\n\n\n\nAR6\n\nAR6\n\n\n\nAR6_Organization--AR6\n\n\n\n\nReports\n\nReports\n\n\n\nAR6--Reports\n\n\n\n\nIPCC_website\n\nIPCC_website\n\n\n\nReport_translations\n\nReport_translations\n\n\n\nIPCC_website--Report_translations\n\n\n\n\nReport_PDFs\n\nReport_PDFs\n\n\n\nIPCC_website--Report_PDFs\n\n\n\n\nReport_HTML\n\nReport_HTML\n\n\n\nIPCC_website--Report_HTML\n\n\n\n\nFigures\n\nFigures\n\n\n\nIPCC_website--Figures\n\n\n\n\nReferences\n\nReferences\n\n\n\nIPCC_website--References\n\n\n\n\nGlossary\n\nGlossary\n\n\n\nIPCC_website--Glossary\n\n\n\n\nAuthors\n\nAuthors\n\n\n\nIPCC_website--Authors\n\n\n\n\nPublishers\n\nPublishers\n\n\n\nLicense_info\n\nLicense_info\n\n\n\nPublishers--License_info\n\n\n\n\nPublishers--Report_PDFs\n\n\n\n\nCrossref_DOIs\n\nCrossref_DOIs\n\n\n\nPublishers--Crossref_DOIs\n\n\n\n\nIndexes\n\nIndexes\n\n\n\nReport_PDFs--Indexes\n\n\n\n\nAcronyms\n\nAcronyms\n\n\n\nReport_PDFs--Acronyms\n\n\n\n\nNotes\n\nNotes\n\n\n\nReport_PDFs--Notes\n\n\n\n\nPage_numbers\n\nPage_numbers\n\n\n\nReport_PDFs--Page_numbers\n\n\n\n\nBibliographic_info\n\nBibliographic_info\n\n\n\nCrossref_DOIs--Bibliographic_info\n\n\n\n\nUN_Library\n\nUN_Library\n\n\n\nUN_Library--Bibliographic_info\n\n\n\n\nData\n\nData\n\n\n\nUN_Library--Data\n\n\n\n\nUN_Library--Figures\n\n\n\n\nNASA_Library\n\nNASA_Library\n\n\n\nNASA_Library--Bibliographic_info\n\n\n\n\nGitHub\n\nGitHub\n\n\n\nGitHub--Data\n\n\n\n\nGitHub--Figures\n\n\n\n\nReports--IPCC_website\n\n\n\n\nReports--Publishers",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data model</span>"
-    ]
-  },
-  {
     "objectID": "styles.html",
     "href": "styles.html",
-    "title": "5  Styles",
+    "title": "4  Publication Styles",
     "section": "",
-    "text": "5.1 Synopsis\nThe goal is to create a facsimile of the AR6 reports using HTML and CSS / CSS paged media.",
+    "text": "4.1 Synopsis\nThe goal is to create a typesetting facsimile of the AR6 reports using HTML and CSS / CSS Paged Media and to have a typesetting style for CKG publications. CKG publications are AR6 user search results made up of AR6 sections compiled into a report and saved in the knowledge graph.\nCSS Paged Media is used to replace the PDF as PDF high quality typesetting can be achieved while retaining structured and machine readable FAIR data.\nIPCC report design pattern - work in progress",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Styles</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Publication Styles</span>"
     ]
   },
   {
     "objectID": "styles.html#document-styles",
     "href": "styles.html#document-styles",
-    "title": "5  Styles",
-    "section": "5.2 Document styles",
-    "text": "5.2 Document styles\nTo recreate the design of the PDFs, the structural elements in the PDF are first examined and listed.\n\n5.2.1 Assess document header structure\n\nPDF templates: After a superficial examination of the syntactic logic of the PDFs, 5 levels of headings were found.\nHTML sources: &lt;h1&gt; to &lt;h5&gt;\n\n\n\n5.2.2 Assess document design elements\nInventory of which elements can be detected by leafing through the 7 reports:\nPage layout and specs\n\nPage dimensions: Pages of the report PDFs are approx. 8,5 inches x 11 inches.\nMargins: tbc\nFonts: There are many font family used in the PDF, some free, some proprietary.\n\nColours\n\nChapter colours\nSub-chapter colours\nFont colours\nBackground colours\n\nTable of contents\n\nToc styles\n\nPage decoration\n\nPage header (with section title)\nPage sides (with section title)\nPage footer (with page numbers)\n\nHeaders\n\nh1 - h5 (possibly h6)\n\nText styles\n\nParagraph (1 column, 2 columns)\nStatement paragraph (1 column, 2 columns)\nHighlighted statement paragraph\nTechnical summary statement paragraph\nTechnical Summary Section Summary\nReferences\nConfidence level reference\nChapter references\nFootnotes\n\nBox styles\n\nBox (grey, yellow, blue)\n50%-Box\n\nAnnex styles\n\nGlossary term and description\nGlossary sub-term\nAcronyms\nPublications\nPeople\nIndex entries\n\nFigures and tables\n\nFigure\nTable\nFigcaption\n\nSection openers\n\nTitle\nAuthors\nCitation suggestion",
+    "title": "4  Publication Styles",
+    "section": "4.2 Document styles",
+    "text": "4.2 Document styles\nTo recreate the design of the PDFs, the structural elements in the PDF are first examined and listed.\n\n4.2.1 Assess document header structure\n\nPDF templates: After a superficial examination of the syntactic logic of the PDFs, 5 levels of headings were found.\nHTML sources: &lt;h1&gt; to &lt;h5&gt;\n\n\n\n4.2.2 Assess document design elements\nInventory of which elements can be detected by leafing through the 7 reports:\nPage layout and specs\n\nPage dimensions: Pages of the report PDFs are approx. 8,5 inches x 11 inches.\nMargins: tbc\nFonts: There are many font family used in the PDF, some free, some proprietary.\n\nColours\n\nChapter colours\nSub-chapter colours\nFont colours\nBackground colours\n\nTable of contents\n\nToc styles\n\nPage decoration\n\nPage header (with section title)\nPage sides (with section title)\nPage footer (with page numbers)\n\nHeaders\n\nh1 - h5 (possibly h6)\n\nText styles\n\nParagraph (1 column, 2 columns)\nStatement paragraph (1 column, 2 columns)\nHighlighted statement paragraph\nTechnical summary statement paragraph\nTechnical Summary Section Summary\nReferences\nConfidence level reference\nChapter references\nFootnotes\n\nBox styles\n\nBox (grey, yellow, blue)\n50%-Box\n\nAnnex styles\n\nGlossary term and description\nGlossary sub-term\nAcronyms\nPublications\nPeople\nIndex entries\n\nFigures and tables\n\nFigure\nTable\nFigcaption\n\nSection openers\n\nTitle\nAuthors\nCitation suggestion",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Styles</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Publication Styles</span>"
     ]
   },
   {
     "objectID": "styles.html#build-design-pattern",
     "href": "styles.html#build-design-pattern",
-    "title": "5  Styles",
-    "section": "5.3 Build design pattern",
-    "text": "5.3 Build design pattern\nTo create a facsimile of the report PDFs, a style guide is created with all the necessary HTML and CSS styles and elements. This style guide can then be applied to the HTML of the reports later.\nTo benefit from the full functionality of the CSS Paged Media module, the Vivliostyle Viewer is used. https://vivliostyle.org/\n\n5.3.1 Design pattern HTML and CSS\nDesign pattern, work in progress: https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/styles/index.html\nView design pattern in Vivliostyle Viewer: https://vivliostyle.org/viewer/#src=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/styles/index.html\n\n\n5.3.2 Document CSS and CSS paged media\nDocument the parts of CSS and the CSS paged media module that are used and check their availability in Vivliostyle: https://docs.google.com/spreadsheets/d/1qWmnNQ-syLw8VotTaRIvVspAffnLLKMjItt3a_z1iNE/edit?gid=0#gid=0",
+    "title": "4  Publication Styles",
+    "section": "4.3 Build design pattern",
+    "text": "4.3 Build design pattern\nTo create a facsimile of the report PDFs, a style guide is created with all the necessary HTML and CSS styles and elements. This style guide can then be applied to the HTML of the reports later.\nTo benefit from the full functionality of the CSS Paged Media module, the Vivliostyle Viewer is used. https://vivliostyle.org/\n\n4.3.1 Design pattern HTML and CSS\nDesign pattern, work in progress: https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/index.html\nView design pattern in Vivliostyle Viewer: https://vivliostyle.org/viewer/#src=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/styles/index.html\n\n\n4.3.2 Document CSS and CSS paged media\nDocument the parts of CSS and the CSS paged media module that are used and check their availability in Vivliostyle: https://docs.google.com/spreadsheets/d/1qWmnNQ-syLw8VotTaRIvVspAffnLLKMjItt3a_z1iNE/edit?gid=0#gid=0",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Styles</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Publication Styles</span>"
     ]
   },
   {
     "objectID": "styles.html#apply-design-pattern-to-scraped-html",
     "href": "styles.html#apply-design-pattern-to-scraped-html",
-    "title": "5  Styles",
-    "section": "5.4 Apply design pattern to scraped HTML",
-    "text": "5.4 Apply design pattern to scraped HTML\nRepository for scraped HTML: https://github.com/petermr/amilib/tree/main/test/resources/ipcc/cleaned_content\nTests with applying the style guide to the HTML: tba",
+    "title": "4  Publication Styles",
+    "section": "4.4 Apply design pattern to scraped HTML",
+    "text": "4.4 Apply design pattern to scraped HTML\nRepository for scraped HTML: https://github.com/petermr/amilib/tree/main/test/resources/ipcc/cleaned_content\nTests with applying the style guide to the HTML: tba",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Styles</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Publication Styles</span>"
+    ]
+  },
+  {
+    "objectID": "datamodels.html",
+    "href": "datamodels.html",
+    "title": "5  Data Models",
+    "section": "",
+    "text": "5.1 AR6 sources\nCKG_data_model\n\n\n\nAR6_Organization\n\nAR6_Organization\n\n\n\nAR6\n\nAR6\n\n\n\nAR6_Organization--AR6\n\n\n\n\nReports\n\nReports\n\n\n\nAR6--Reports\n\n\n\n\nIPCC_website\n\nIPCC_website\n\n\n\nReport_translations\n\nReport_translations\n\n\n\nIPCC_website--Report_translations\n\n\n\n\nReport_PDFs\n\nReport_PDFs\n\n\n\nIPCC_website--Report_PDFs\n\n\n\n\nReport_HTML\n\nReport_HTML\n\n\n\nIPCC_website--Report_HTML\n\n\n\n\nFigures\n\nFigures\n\n\n\nIPCC_website--Figures\n\n\n\n\nReferences\n\nReferences\n\n\n\nIPCC_website--References\n\n\n\n\nGlossary\n\nGlossary\n\n\n\nIPCC_website--Glossary\n\n\n\n\nAuthors\n\nAuthors\n\n\n\nIPCC_website--Authors\n\n\n\n\nPublishers\n\nPublishers\n\n\n\nLicense_info\n\nLicense_info\n\n\n\nPublishers--License_info\n\n\n\n\nPublishers--Report_PDFs\n\n\n\n\nCrossref_DOIs\n\nCrossref_DOIs\n\n\n\nPublishers--Crossref_DOIs\n\n\n\n\nIndexes\n\nIndexes\n\n\n\nReport_PDFs--Indexes\n\n\n\n\nAcronyms\n\nAcronyms\n\n\n\nReport_PDFs--Acronyms\n\n\n\n\nNotes\n\nNotes\n\n\n\nReport_PDFs--Notes\n\n\n\n\nPage_numbers\n\nPage_numbers\n\n\n\nReport_PDFs--Page_numbers\n\n\n\n\nBibliographic_info\n\nBibliographic_info\n\n\n\nCrossref_DOIs--Bibliographic_info\n\n\n\n\nZenodo_DOIs\n\nZenodo_DOIs\n\n\n\nZenodo_DOIs--Bibliographic_info\n\n\n\n\nUN_Library\n\nUN_Library\n\n\n\nUN_Library--Bibliographic_info\n\n\n\n\nData\n\nData\n\n\n\nUN_Library--Data\n\n\n\n\nUN_Library--Figures\n\n\n\n\nNASA_Library\n\nNASA_Library\n\n\n\nNASA_Library--Bibliographic_info\n\n\n\n\nGitHub\n\nGitHub\n\n\n\nGitHub--Data\n\n\n\n\nGitHub--Figures\n\n\n\n\nReports--IPCC_website\n\n\n\n\nReports--Publishers",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data Models</span>"
+    ]
+  },
+  {
+    "objectID": "datamodels.html#data-models-to-be-created",
+    "href": "datamodels.html#data-models-to-be-created",
+    "title": "5  Data Models",
+    "section": "5.2 Data models to be created",
+    "text": "5.2 Data models to be created\n\n5.2.1 AR6 individual report publication structure (syntax and semantic)\nWIP: Google spreadsheet\n\n\n5.2.2 IPCC Qualifiers (Vocabulary)\nE.g, Confidence levels, Likelihoods, Special likelihoods, Ecosystems, Adverse outcomes, Regions, DPSIR (DPSIR is a causal framework used to describe the interactions between society and the environment)\n\n\n5.2.3 AR6 bibliographic information\nDerived from DOIs\n\n\n5.2.4 Authors and contributors\n\n\n5.2.5 Glossary, acronymes, and index\n\n\n5.2.6 References\n\n\n5.2.7 Community annotation and submissions review\n\n\n5.2.8 CKG Publications\nCKG publications are the user search reults (sections of AR6) that are compiled into a report publication (linked back to their source) and saved as part of CKG.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data Models</span>"
+    ]
+  },
+  {
+    "objectID": "ar6.html",
+    "href": "ar6.html",
+    "title": "AR6",
+    "section": "",
+    "text": "Structure of the IPCC AR6 Report\nNB: Attribution - thank you to Renu Kumari (NIPGR/#semanticClimate) for compiling the following list.\n\nWorking Group 1: The Physical Science Basis\n\nIPCC/ar6/wg1 report with 12 chapters\n\nSummary for Policymakers\n\nTechnical Summary\n\nFrequently Asked Questions\n\nFact Sheets\n\nFull Report : 13 chapters\n\nChapter 1 : Framing, Context and Methods\n\nChapter 2 : Changing State of the Climate System\n\nChapter 3 : Human Influence on the Climate System\n\nChapter 4 : Future Global Climate: Scenario-based Projections and Near-term Information\n\nChapter 5 : Global Carbon and other Biogeochemical Cycles and Feedbacks\n\nChapter 6 : Short-lived Climate Forcers\n\nChapter 7 : The Earth’s Energy Budget, Climate Feedbacks, and Climate Sensitivity\n\nChapter 8 : Water Cycle Changes\n\nChapter 9 : Ocean, Cryosphere and Sea Level Change\n\nChapter 10 : Linking Global to Regional Climate Change\n\nChapter 11 : Weather and Climate Extreme Events in a Changing Climate\n\nChapter 12 : Climate Change Information for Regional Impact and for Risk Assessment\n\n\nAtlas\n\nFront Matter, Annexes, and Index\n\nFront Matter : Includes Foreword, Preface, Dedication, and Table of Contents\n\nAnnex I : Observational Products\n\nAnnex II : Models\n\nAnnex III : Radiative Forcing\n\nAnnex IV : Modes of Variability\n\nAnnex V : Monsoons\n\nAnnex VI : Climatic Impact-Drivers and Extreme Indices\n\nAnnex VII : Glossary\n\nAnnex IX : List of Contributors\n\nAnnex X : Expert Reviewers\n\n\n\n\nWorking Group 2 : Impacts, Adaptation and Vulnerability\n\nIPCC/ar6/wg2 report with 18 chapters\n\nSummary for Policymakers\n\nTechnical Summary\n\nFrequently Asked Questions\n\nFact Sheets\n\nGlobal to Regional Atlas\n\nFull Report : 18 Chapters and 7 Cross-Chapter Papers\n\nChapter 1 : Point of departure and key concepts\n\nChapter 2 : Terrestrial and freshwater ecosystems and their services\n\nChapter 3 : Ocean and coastal ecosystems and their services\n\nChapter 4 : Water\n\nChapter 5 : Food, fibre, and other ecosystem products\n\nChapter 6 : Cities, settlements and key infrastructure\n\nChapter 7 : Health, wellbeing and the changing structure of communities\n\nChapter 8 : Poverty, livelihoods and sustainable development\n\nChapter 9 : Africa\n\nChapter 10 : Asia\n\nChapter 11 : Australasia\n\nChapter 12 : Central and South America\n\nChapter 13 : Europe\n\nChapter 14 : North America\n\nChapter 15 : Small Islands\n\nChapter 16 : Key risks across sectors and regions\n\nChapter 17 : Decision-making options for managing risk\n\nChapter 18 : Climate resilient development pathways\n\n\nCross-Chapter Papers\n\nCross-Chapter Paper 1 : Biodiversity hotspots (land, coasts and oceans)\n\nCross-Chapter Paper 2 : Cities and settlements by the sea\n\nCross-Chapter Paper 3 : Deserts, semi-arid areas, and desertification\n\nCross-Chapter Paper 4 : Mediterranean region\n\nCross-Chapter Paper 5 : Mountains\n\nCross-Chapter Paper 6 : Polar regions\n\nCross-Chapter Paper 7 : Tropical forests\n\n\nAnnexes\n\nAnnex I : Global to Regional Atlas\n\nAnnex II : Glossary\n\nAnnex III : Acronyms\n\nAnnex IV : Contributors\n\nAnnex V : Expert Reviewers\n\n\n\n\nWorking Group 3: Mitigation of Climate Change\n\nIPCC/ar6/wg3 report with 17 chapters\n\nSummary for Policymakers\n\nTechnical Summary\n\nFrequently Asked Questions\n\nFact Sheets\n\nFull Report : 17 Chapters\n\nChapter 1 : Introduction and Framing\n\nChapter 2 : Emissions trends and drivers\n\nChapter 3 : Mitigation pathways compatible with long-term goals\n\nChapter 4 : Mitigation and development pathways in the near- to mid-term\n\nChapter 5 : Demand, services and social aspects of mitigation\n\nChapter 6 : Energy systems\n\nChapter 7 : Agriculture, Forestry, and Other Land Uses (AFOLU)\n\nChapter 8 : Urban systems and other settlements\n\nChapter 9 : Buildings\n\nChapter 10 : Transport\n\nChapter 11 : Industry\n\nChapter 12 : Cross sectoral perspectives\n\nChapter 13 : National and sub-national policies and institutions\n\nChapter 14 : International cooperation\n\nChapter 15 : Investment and finance\n\nChapter 16 : Innovation, technology development and transfer\n\nChapter 17 : Accelerating the transition in the context of sustainable development\n\n\nAnnexes\n\nANNEX I : Glossary\n\nANNEX II : Definitions, units and conventions\n\nANNEX III : Scenarios and modelling methods\n\nANNEX IV : Contributors to the IPCC WGIII Sixth Assessment Report\n\nANNEX V : Expert Reviewers of the IPCC WGIII Sixth Assessment Report\n\nANNEX VI : Acronyms\n\n\n\n\nAR6: Synthesis Report (syr)\nTo be confirmed\n\n\nsr15 : Global Warming of 1.5 ºC\n\nSPECIAL REPORT on Global Warming of 1.5 ºC\n\nSummary for Policymakers\n\nChapter 1 : Framing and Context\n\nChapter 2 : Mitigation pathways compatible with 1.5°C in the context of sustainable development\n\nChapter 3 : Impacts of 1.5ºC global warming on natural and human systems\n\nChapter 4 : Strengthening and implementing the global response\n\nChapter 5 : Sustainable Development, Poverty Eradication and Reducing Inequalities\n\nGlossary\n\n\n\nsrccl : Climate Change and Land\n\nSPECIAL REPORT on Climate Change and Land\n\nSummary for Policymakers\n\nTechnical Summary\n\nChapter 1: Framing and Context\n\nChapter 2 : Land–Climate interactions\n\nChapter 3 : Desertification\n\nChapter 4 : Land Degradation\n\nChapter 5 : Food Security\n\nChapter 6 : Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options\n\nChapter 7 : Risk management and decision making in relation to sustainable development\n\nAnnex-I Glossary\n\nAnnex-II Acronyms\n\n\n\nsrocc : Special Report on the Ocean and Cryosphere in a Changing Climate\n\nSpecial Report on the Ocean and Cryosphere in a Changing Climate\n\nSummary for Policymakers\n\nTechnical Summary\n\nChapter 1: Framing and Context of the Report\n\nChapter 2: High Mountain Areas\n\nChapter 3: Polar regions\n\nChapter 4: Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities\n\nChapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities\n\nChapter 6: Extremes, Abrupt Changes and Managing Risks\n\nCross-Chapter Box 9: Integrative Cross-Chapter Box on Low-lying Islands and Coasts\n\nGlossary",
+    "crumbs": [
+      "AR6"
+    ]
+  },
+  {
+    "objectID": "data-imprint.html",
+    "href": "data-imprint.html",
+    "title": "Data Protection and Imprint",
+    "section": "",
+    "text": "Data protection\nhttps://www.tib.eu/en/data-protection",
+    "crumbs": [
+      "Data Protection and Imprint"
+    ]
+  },
+  {
+    "objectID": "data-imprint.html#imprint",
+    "href": "data-imprint.html#imprint",
+    "title": "Data Protection and Imprint",
+    "section": "Imprint",
+    "text": "Imprint\nhttps://www.tib.eu/en/imprint",
+    "crumbs": [
+      "Data Protection and Imprint"
     ]
   }
 ]
