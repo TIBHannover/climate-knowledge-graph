@@ -63,9 +63,9 @@ Worthington, Simon, Gitanjali Yadav, Shweata Hegde, Renu Kumari, Neeraj Kumari, 
 
 TIB is one of the largest science libraries in the world and is a global hub for knowledge graph R\&D — service development, and infrastructure provision — especially the [Open Research Knowledge Graph](https://orkg.org/) (ORKG). ClimateKG partners with and is supported in knowledge graph expertise by Lab Knowledge Infrastructures led by Dr Markus Stocker. At TIB ClimateKG is based in the Open Science Lab and makes use of expertise from the NFDI4Culture (cultural heritage consortium of the larger German National Research Data Infrastructure Consortium) projects: Wikibase4Research, Computational Publishing Service, and Antelope (terminology service).
 
+* [Open Science Lab](https://www.tib.eu/en/research-development/research-groups-and-labs/open-science) 
 * [Open Research Knowledge Graph](https://orkg.org/) (ORKG)  
-* [Lab Knowledge Infrastructures](https://www.tib.eu/en/research-development/research-groups-and-labs/knowledge-infrastructures)  
-* [Open Science Lab](https://www.tib.eu/en/research-development/research-groups-and-labs/open-science)  
+* [Lab Knowledge Infrastructures](https://www.tib.eu/en/research-development/research-groups-and-labs/knowledge-infrastructures)   
 * [Wikibase4Research](https://nfdi4culture.de/services/details/wikibase4research.html)  
 * [Computational Publishing Service](https://nfdi4culture.de/de/dienste/details/computational-publishing-service.html)  
 * [Antelope](https://service.tib.eu/annotation/) (terminology service)
