@@ -66,7 +66,6 @@ TIB is one of the largest science libraries in the world and is a global hub for
 * [Open Research Knowledge Graph](https://orkg.org/) (ORKG)  
 * [Lab Knowledge Infrastructures](https://www.tib.eu/en/research-development/research-groups-and-labs/knowledge-infrastructures)  
 * [Open Science Lab](https://www.tib.eu/en/research-development/research-groups-and-labs/open-science)  
-* [NFDI4Culture](https://nfdi4culture.de/) (Consortium for Research Data on Material and Immaterial Cultural Heritage of the larger German National Research Data Infrastructure Consortium – [NFDI](https://www.nfdi.de/?lang=en))  
 * [Wikibase4Research](https://nfdi4culture.de/services/details/wikibase4research.html)  
 * [Computational Publishing Service](https://nfdi4culture.de/de/dienste/details/computational-publishing-service.html)  
 * [Antelope](https://service.tib.eu/annotation/) (terminology service)
