@@ -17,7 +17,7 @@ The goal is to enable easier knowledge use from complex document corpus by:
 
 CKG uses open-source software and can be used on any document corpus.
 
-```{dot}
+{dot}
 //| label: ckg-system
 //| fig-cap: "Figure: Climate Knowledge Graph schematic"
 //| fig-height: 3
@@ -32,7 +32,6 @@ digraph CKG {
   a -> b
   b -> {c d} [dir=both]
 }
-```
 
 \#ClimateKG 🌏🌍🌎
 
