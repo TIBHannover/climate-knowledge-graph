@@ -90,8 +90,7 @@ To create a facsimile of the report PDFs, a **style guide** is created with all 
 To benefit from the full functionality of the CSS Paged Media module, the **Vivliostyle Viewer** is used. <https://vivliostyle.org/>
 
 ### Design pattern HTML and CSS
-
-**Design pattern**,  work in progress: <https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/index.html>
+**Design pattern**,  work in progress: <https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/styles/index.html>
 
 View design pattern in **Vivliostyle Viewer**: <https://vivliostyle.org/viewer/#src=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/styles/index.html>
 
