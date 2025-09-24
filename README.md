@@ -17,20 +17,6 @@ The goal is to enable easier knowledge use from complex document corpus by:
 
 CKG uses open-source software and can be used on any document corpus.
 
-```graphvis
-digraph CKG {
-  rankdir="LR"
-  {node [fillcolor="#A9DDD6" margin=0 fontcolor=black fixedsize=true fontsize=18 width=1.6 shape=circle style=filled fontname="Arial"]
-    a [label="IPCC \nReport"]
-    b [label="Knowledge \nGraph"]
-    c [label="Search & \nPublish"]
-    d [label="Data \nAnalysis"] 
-  }
-  a -> b
-  b -> {c d} [dir=both]
-}
-```
-
 \#ClimateKG 🌏🌍🌎
 
 Climate Knowledge Graph is an R\&D project hosted at [TIB](https://www.tib.eu/en) – Leibniz Information Centre for Science and Technology and University Library - Germany, and organised partnership with [\#semanticClimate](https://semanticclimate.github.io/p/en/) and and the National Institute of Plant Genome Research  [(NIPGR)](https://nipgr.ac.in/nipgrv2/index.html) – India.
