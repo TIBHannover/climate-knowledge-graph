@@ -33,6 +33,12 @@
         "LinkedResource"
       ],
       "url": "css/style.css"
+    },
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css/reset.css"
     }
   ]
 }
