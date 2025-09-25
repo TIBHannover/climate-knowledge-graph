@@ -1,0 +1,75 @@
+# Data Models
+
+Status: Provisional (Sept '25')
+
+CKG knowledge graph data models.
+
+## AR6 sources
+```{dot}
+graph CKG_data_model {
+  layout=dot
+  rankdir=TB
+  { rank=same AR6_Organization AR6 }
+  { rank=same IPCC_website Publishers License_info Report_translations }
+  { rank=same Report_PDFs Report_HTML Crossref_DOIs Zenodo_DOIs UN_Library NASA_Library GitHub }
+  { rank=same Bibliographic_info }
+  { rank=same Indexes Acronyms Notes Page_numbers }
+  { rank=same Data Figures References Glossary Authors }
+  
+  AR6_Organization -- AR6;
+  AR6 -- Reports;
+  Reports -- Publishers;
+  Reports -- IPCC_website;
+  IPCC_website -- Report_PDFs;
+  IPCC_website -- Report_HTML;
+  IPCC_website -- Report_translations;
+  Publishers -- Report_PDFs;
+  Publishers -- Crossref_DOIs;
+  Publishers -- License_info;
+  Crossref_DOIs -- Bibliographic_info;
+  Zenodo_DOIs -- Bibliographic_info;
+  NASA_Library -- Bibliographic_info;
+  GitHub -- Data;
+  GitHub -- Figures;
+  UN_Library -- Bibliographic_info;
+  UN_Library -- Data;
+  UN_Library -- Figures;
+  IPCC_website -- Figures;
+  IPCC_website -- References;
+  IPCC_website -- Glossary;
+  IPCC_website -- Authors;
+  Report_PDFs -- Indexes;
+  Report_PDFs -- Notes;
+  Report_PDFs -- Acronyms;
+  Report_PDFs -- Page_numbers;
+}
+```
+
+## Data models to be created
+
+### AR6 individual report publication structure (syntax and semantic)
+
+WIP: [Google spreadsheet](https://docs.google.com/spreadsheets/d/1qWmnNQ-syLw8VotTaRIvVspAffnLLKMjItt3a_z1iNE/edit?gid=0#gid=0)
+
+### IPCC Qualifiers (Vocabulary)
+
+E.g, Confidence levels, Likelihoods, Special likelihoods, Ecosystems, Adverse outcomes, Regions, DPSIR (DPSIR is a causal framework used to describe the interactions between society and the environment)
+
+### AR6 bibliographic information
+
+Derived from DOIs
+
+### Authors and contributors
+
+### Glossary, acronymes, and index
+
+### References
+
+### Community annotation and submissions review
+
+### CKG Publications
+
+CKG publications are the user search reults (sections of AR6) that are compiled into a report publication (linked back to their source) and saved as part of CKG.
+
+
+
