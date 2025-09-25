@@ -13,7 +13,7 @@ img {
 }
 
 header::before {
-    content: 'HEADER';
+    content: none !important;
 }
 
 div.col-lg-10.col-12.offset-lg-0::before {
