@@ -1,14 +1,5 @@
 /** Paged media ************************************************ **/
 
-/* Styleguide only */
-@page styleguideOpener:first {
-  background-color: var(--col-darkblue);
-}
-
-h1.stylesheet {
-  page: styleguideOpener;
-}
-
 /* Targets all the pages */
 @page {
   size: 8.5in 11in;
@@ -58,7 +49,6 @@ h1.stylesheet {
 }
 
 /* Set value for page header */
-h2.stylesheet,
 header h1 {
   string-set: Chapter content();
 }
@@ -128,9 +118,7 @@ header h1 {
 
 /** Page breaks ************************************************ **/
 
-h2.stylesheet {
-  break-before: page;
-}
+/** Break before each new section **/
 div.h1-container {
   break-before: page;
 }
@@ -139,41 +127,11 @@ div.h1-container {
   break-before: right;
 }
 
-
 .footnotes {
   break-before: right;
 }
 
-/** Special pages ************************************************ **/
-
-/* Chapter opener styleguide */
-@page chapter-opener:right {
-  background-color: #83451e;
-
-  @bottom-right {
-    content: none;
-  }
-
-  @top-right {
-    content: none;
-  }
-
-  @right-middle {
-    content: none;
-  }
-}
-
-section.chapter {
-  page: chapter-opener;
-  break-before: right;
-  color: white;
-}
-
-section.chapter h2 {
-  font-size: 40px;
-  line-height: 48px;
-  text-align: right;
-}
+/** Named pages ************************************************ **/
 
 /* Chapter opener report */
 
