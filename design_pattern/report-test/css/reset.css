@@ -1,6 +1,7 @@
 body {
-background-color: green !important;    
+background-color: green;    
 }
+
 div {
     border: dotted red 0.5px;
     margin: 5px;
