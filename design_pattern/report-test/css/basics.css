@@ -1,27 +1,28 @@
 /** Replacement font ************************************* **/
 
 @font-face {
-	font-family: 'Istok Web';
-	src: url('fonts/Istok_Web/IstokWeb-Regular.ttf'); 
-    font-weight: normal;
+  font-family: 'Istok Web';
+  src: url('fonts/Istok_Web/IstokWeb-Regular.ttf');
+  font-weight: normal;
 }
 
 @font-face {
-	font-family: 'Istok Web';
-	src: url('fonts/Istok_Web/IstokWeb-Bold.ttf');
-	font-weight: bold;
-}
-@font-face {
-	font-family: 'Istok Web';
-	src: url('fonts/Istok_Web/IstokWeb-Italic.ttf');
-	font-style: italic;
+  font-family: 'Istok Web';
+  src: url('fonts/Istok_Web/IstokWeb-Bold.ttf');
+  font-weight: bold;
 }
 
 @font-face {
-	font-family: 'Istok Web';
-	src: url('fonts/Istok_Web/IstokWeb-BoldItalic.ttf');
-	font-weight: bold;
-    font-style: italic;
+  font-family: 'Istok Web';
+  src: url('fonts/Istok_Web/IstokWeb-Italic.ttf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Istok Web';
+  src: url('fonts/Istok_Web/IstokWeb-BoldItalic.ttf');
+  font-weight: bold;
+  font-style: italic;
 }
 
 /** Colors ************************************************ **/
@@ -38,18 +39,106 @@
   --col-syr-sec: #4c8ecc;
   --col-syr-annex: #09515e;
   --col-index: #1a2f5c;
-  --col-bg-grey: #f7f8f8;   
+  --col-bg-grey: #f7f8f8;
   /** Box background colors **/
   --col-bg-blue: #d3e8f3;
   --col-bg-yellow: #fff5e1;
-  --col-bg-1: #95ceed;      
+  --col-bg-1: #95ceed;
   /** Chapter sub-section colors **/
   --col-bg-2: #abcb38;
   --col-bg-3: #21417c;
   --col-bg-4: #f58443;
-  --col-grey: #818185;      
+  --col-grey: #818185;
   /** Font colors **/
   --col-white: #ffffff;
   --col-darkblue: #1c3062;
   --col-blue: #4c8fcd;
+}
+
+/** Font family ******************************************** **/
+html {
+  font-family: "Istok Web", sans-serif;
+}
+
+/** Font sizes ******************************************** **/
+:root {
+  /* 1rem = 10px */
+  font-size: 62, 5%;
+}
+
+p {
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+      color: var(--col-darkblue);
+}
+h1 {
+  font-size: 4rem;
+    line-height: 1.1rem;
+}
+
+h2 {
+  font-size: 4rem;
+    line-height: 1.1rem;
+}
+
+h3 {
+  font-size: 4rem;
+    line-height: 1.1rem;
+  
+}
+
+h4 {
+  font-size: 4rem;
+    line-height: 1.1rem;
+}
+
+h5 {
+  font-size: 4rem;
+    line-height: 1.1rem;
+}
+
+h6 {
+  font-size: 4rem;
+    line-height: 1.1rem;
+}
+
+h1.text-50 {
+  font-size: 3rem;
+  line-height: 3.2rem;
+}
+
+ul,
+ol {
+  font-size: 0.7rem;
+}
+
+p.Figures--tables-etc_•-Figure-title---single-column {
+  font-size: 0.5rem;
+  line-height: 0.5rem;
+}
+
+.footnotes {
+  font-size: 0.7rem;
+}
+
+.footnotes ol {
+  font-size: 0.5rem;
+}
+
+a.footnotes {
+  font-size: 0.5rem;
+}
+
+.•-Subscript--e-g--for-CO2-etc-,
+.•-Superscript--e-g--footnote-refs-in-text {
+  vertical-align: super;
+  font-size: 0.4rem;
+  line-height: normal;
+}
+
+.Body-copy_•-Chapter-citation {
+  font-size: 0.7rem;
 }
