@@ -1,7 +1,13 @@
-# Styles
+# Publication Styles
+
+Status: Provisional
 
 ## Synopsis
-The goal is to create a facsimile of the AR6 reports using HTML and CSS / CSS paged media.
+The goal is to create a typesetting facsimile of the AR6 reports using HTML and CSS / CSS Paged Media and to have a typesetting style for CKG publications. CKG publications are AR6 user search results made up of AR6 sections compiled into a report and saved in the knowledge graph. 
+
+CSS Paged Media is used to replace the PDF as PDF high quality typesetting can be achieved while retaining structured and machine readable FAIR data.
+
+**IPCC report design pattern** - [work in progress](https://vivliostyle.org/viewer/#src=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/styles/index.html)
 
 ## Document styles
 To recreate the design of the PDFs, the structural elements in the PDF are first examined and listed.
