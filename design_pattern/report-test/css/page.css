@@ -14,16 +14,17 @@
   margin-right: 100px;
 
   @bottom-left {
-    content: counter(page);
     /* Page footer with page numbers */
+    content: counter(page);
+    font-size: 0.9rem;
     font-weight: bold;
-    color: #818185;
+    color: var(--col-grey);
   }
 
   @top-left {
     /* Page header with chapter titles */
     content: string(Chapter);
-    font-size: 10px;
+    font-size: 0.7rem;
     font-weight: bold;
   }
 }
@@ -36,14 +37,15 @@
   @bottom-right {
     /* Page footer with page numbers */
     content: counter(page);
+    font-size: 0.9rem;
     font-weight: bold;
-    color: #818185;
+    color: var(--col-grey);
   }
 
   @top-right {
     content: string(Chapter);
     /* Page header with chapter titles */
-    font-size: 10px;
+    font-size: 0.7rem;
     font-weight: bold;
   }
 }
@@ -91,7 +93,7 @@ header h1 {
 @page :left {
   @left-middle {
     content: string(Chapter);
-    font-size: 10px;
+    font-size: 0.7rem;
     font-weight: bold;
     background-color: var(--col-sec);
     color: var(--col-white);
@@ -105,7 +107,7 @@ header h1 {
 @page :right {
   @right-middle {
     content: string(Chapter);
-    font-size: 10px;
+    font-size: 0.7rem;
     font-weight: bold;
     background-color: var(--col-sec);
     color: var(--col-white);

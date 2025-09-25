@@ -66,79 +66,79 @@ html {
   font-size: 62, 5%;
 }
 
+/* Paragraphs */
 p {
   font-size: 0.7rem;
   line-height: 0.9rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-      color: var(--col-darkblue);
-}
+/* Headers */
 h1 {
-  font-size: 4rem;
-    line-height: 1.1rem;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
 }
 
 h2 {
-  font-size: 4rem;
-    line-height: 1.1rem;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
 }
 
 h3 {
-  font-size: 4rem;
-    line-height: 1.1rem;
-  
+  font-size: 0.7rem;
+  line-height: 0.8rem;
 }
 
 h4 {
-  font-size: 4rem;
-    line-height: 1.1rem;
+  font-size: 0.7rem;
+  line-height: 0.8rem;
 }
 
 h5 {
-  font-size: 4rem;
-    line-height: 1.1rem;
+  font-size: 0.7rem;
+  line-height: 0.8rem;
+  ;
 }
 
 h6 {
-  font-size: 4rem;
-    line-height: 1.1rem;
+  font-size: 0.7rem;
+  line-height: 0.8rem;
+  ;
 }
 
+/* Chapter title */
 h1.text-50 {
   font-size: 3rem;
   line-height: 3.2rem;
 }
 
-ul,
-ol {
-  font-size: 0.7rem;
-}
-
+/* Figure captions, table captions */
 p.Figures--tables-etc_•-Figure-title---single-column {
   font-size: 0.5rem;
-  line-height: 0.5rem;
+  line-height: 0.6rem;
 }
 
-.footnotes {
-  font-size: 0.7rem;
-}
-
-.footnotes ol {
+/* Footnote text */
+._idFootnotes {
   font-size: 0.5rem;
+  line-height: 0.6rem;
 }
 
-a.footnotes {
-  font-size: 0.5rem;
-}
-
+/* Footnotes in text, superscript text */
 .•-Subscript--e-g--for-CO2-etc-,
 .•-Superscript--e-g--footnote-refs-in-text {
-  vertical-align: super;
   font-size: 0.4rem;
+  vertical-align: super;
   line-height: normal;
 }
 
-.Body-copy_•-Chapter-citation {
-  font-size: 0.7rem;
+/** Font color ******************************************** **/
+
+/* Header */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--col-darkblue);
 }
