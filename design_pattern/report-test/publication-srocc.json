@@ -9,15 +9,15 @@
   "author": "IPCC",
   "inLanguage": "en",
   "readingOrder": [
-    "content/srccl/spm/de_wordpress.html",
-    "content/srccl/ts/de_wordpress.html",
-    "content/srccl/Chapter01/de_wordpress.html",
-    "content/srccl/Chapter02/de_wordpress.html",
-    "content/srccl/Chapter03/de_wordpress.html",
-    "content/srccl/Chapter04/de_wordpress.html",
-    "content/srccl/Chapter05/de_wordpress.html",
-    "content/srccl/Chapter06/de_wordpress.html",
-    "content/srccl/glossary/de_wordpress.html"
+    "content/srocc/spm/de_wordpress.html",
+    "content/srocc/ts/de_wordpress.html",
+    "content/srocc/Chapter01/de_wordpress.html",
+    "content/srocc/Chapter02/de_wordpress.html",
+    "content/srocc/Chapter03/de_wordpress.html",
+    "content/srocc/Chapter04/de_wordpress.html",
+    "content/srocc/Chapter05/de_wordpress.html",
+    "content/srocc/Chapter06/de_wordpress.html",
+    "content/srocc/glossary/de_wordpress.html"
   ],
   "resources": [
     {
