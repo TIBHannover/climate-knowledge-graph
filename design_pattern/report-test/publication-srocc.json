@@ -9,7 +9,15 @@
   "author": "IPCC",
   "inLanguage": "en",
   "readingOrder": [
-    "content/srocc/Chapter01/de_wordpress.html"
+    "content/srccl/spm/de_wordpress.html",
+    "content/srccl/ts/de_wordpress.html",
+    "content/srccl/Chapter01/de_wordpress.html",
+    "content/srccl/Chapter02/de_wordpress.html",
+    "content/srccl/Chapter03/de_wordpress.html",
+    "content/srccl/Chapter04/de_wordpress.html",
+    "content/srccl/Chapter05/de_wordpress.html",
+    "content/srccl/Chapter06/de_wordpress.html",
+    "content/srccl/glossary/de_wordpress.html"
   ],
   "resources": [
     {
