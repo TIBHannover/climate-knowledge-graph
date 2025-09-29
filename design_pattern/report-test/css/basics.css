@@ -107,7 +107,7 @@ h6 {
 
 /* Chapter title */
 h1.text-50,
-h1.hero-title {
+h1.hero-title /*WP*/  {
   font-size: 3rem;
   line-height: 3.2rem;
 }
