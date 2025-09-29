@@ -110,6 +110,7 @@ h1.text-50,
 h1.hero-title /*WP*/  {
   font-size: 3rem;
   line-height: 3.2rem;
+  color: var(--col-white);
 }
 
 /* Figure captions, table captions */
