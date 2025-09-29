@@ -120,19 +120,19 @@ img {
   margin: 0px;
 }
 
-/* Chapter opener ****************************************** **/
+/* Footnotes section ****************************************** **/
 
-.chapter-button-content {
-  color: white;
-  margin-top: 260px;
+._idFootnotes {
+  border-top: 1px solid black;
+  border-width: 30%;
+  column-span: all;
+  column-count: 1;
 }
+
+/* Chapter opener ****************************************** **/
 
 .Headings_•-Author-names---chapter-openers {
   font-weight: bold;
-}
-
-.Headings_•-Chapter-should-be-cited-as {
-  margin-top: 60px;
 }
 
 /*.•-Bold-condensed--dark-blue- {

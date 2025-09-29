@@ -120,7 +120,7 @@ p.Figures--tables-etc_•-Figure-title---single-column {
 }
 
 /* Footnote text */
-._idFootnotes {
+._idFootnotes p {
   font-size: 0.5rem;
   line-height: 0.6rem;
 }
