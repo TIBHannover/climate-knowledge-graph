@@ -10,7 +10,7 @@
 
 /* Targets all even-numbered pages */
 @page :left {
-  margin-left: 90px;
+  margin-left: 70px;
   margin-right: 100px;
 
   @bottom-left {
@@ -32,7 +32,7 @@
 /* Targets all odd-numbered pages */
 @page :right {
   margin-left: 100px;
-  margin-right: 90px;
+  margin-right: 70px;
 
   @bottom-right {
     /* Page footer with page numbers */
