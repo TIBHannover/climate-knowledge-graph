@@ -152,3 +152,7 @@ div.h1-container {
     content: none;
   }
 }
+
+section#chapter-hero {
+border: 20px solid red;
+}
