@@ -1,6 +1,141 @@
-/** Test ************************************************ **/
+/** Styles ************************************************ **/
 
-body {
-  font-family: Arial, serif;
-  color: lightslategray;
+/* Body text */
+p {
+  hyphens: auto;
+  line-height: 1.3;
+  orphans: 2;
+  widows: 2;
+  text-align: justify;
 }
+
+/* Italic text */
+.•-Condensed-italic {
+  font-style: italic;
+}
+
+/* Bold text */
+.•-Bold-condensed {
+  font-weight: bold;
+}
+
+/* Links */
+a {
+  color: var(--col-blue);
+  text-decoration: none;
+}
+
+/* Text in two columns */
+.h1-container {
+  column-count: 2;
+}
+
+/* Header layout ******************************************** **/
+
+/* Set up headers with numbers next to them */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: flex;
+}
+
+._idGenBNMarker-1 {
+  margin-right: 20px;
+  display: block;
+}
+
+.box-container h2 {
+  display: block;
+}
+
+/* Box elements ********************************************** **/
+
+/* Light blue box */
+.box-container {
+  background-color: var(--col-bg-blue);
+  padding: 10px;
+  column-span: all;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+/* Light yellow FAQ box */
+#frequently-asked-questions {
+  background-color: var(--col-bg-yellow);
+  padding: 10px;
+  column-span: all;
+  column-count: 1;
+}
+
+/* Tables ***************************************************** **/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  column-span: all;
+  margin-bottom: 12px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+tr:nth-child(even) {
+  background-color: var(--col-bg-blue);
+}
+
+thead {
+  background-color: var(--col-blue);
+  color: white;
+}
+
+p.Figures--tables-etc_Table-styles_•-Table-header-row--blue- {
+  text-align: center;
+}
+
+/* Images ***************************************************** **/
+
+img {
+  width: 100%;
+}
+
+.Figures--tables-etc_•-Figure-title---single-column {
+  column-span: all;
+}
+
+/* Hide chapter with figures */
+#chapter-figures {
+  display: none;
+}
+
+/* References section ****************************************** **/
+
+#references p {
+  padding: 0px 0px 0px 14px;
+  text-indent: -14px;
+  margin: 0px;
+}
+
+/* Footnotes section ****************************************** **/
+
+._idFootnotes {
+  border-top: 1px solid black;
+  border-width: 30%;
+  column-span: all;
+  column-count: 1;
+}
+
+/* Chapter opener ****************************************** **/
+
+.Headings_•-Author-names---chapter-openers {
+  font-weight: bold;
+}
+
+/*.•-Bold-condensed--dark-blue- {
+  font-weight: bold;
+  color: var(--col-darkblue)
+}*/

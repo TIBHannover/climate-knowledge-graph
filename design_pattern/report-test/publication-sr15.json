@@ -1,0 +1,41 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "conformsTo": "https://www.w3.org/TR/pub-manifest/",
+  "type": "Book",
+  "name": "SR15 Report",
+  "author": "IPCC",
+  "inLanguage": "en",
+  "readingOrder": [
+    "content/sr15/spm/de_wordpress.html",
+    "content/sr15/ts/de_wordpress.html",
+    "content/sr15/Chapter01/de_wordpress.html",
+    "content/sr15/Chapter02/de_wordpress.html",
+    "content/sr15/Chapter03/de_wordpress.html",
+    "content/sr15/Chapter04/de_wordpress.html",
+    "content/sr15/Chapter05/de_wordpress.html",
+    "content/sr15/glossary/de_wordpress.html"
+  ],
+  "resources": [
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css/basics.css"
+    },
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css/page.css"
+    },
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css/style.css"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "conformsTo": "https://www.w3.org/TR/pub-manifest/",
+  "type": "Book",
+  "name": "WGII Report",
+  "author": "IPCC",
+  "inLanguage": "en",
+  "readingOrder": [
+    "content/wgII/Chapter01/html_with_ids.html"
+  ],
+  "resources": [
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css/basics.css"
+    },
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css/page.css"
+    },
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css/style.css"
+    }
+  ]
+}
