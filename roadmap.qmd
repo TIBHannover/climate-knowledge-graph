@@ -27,7 +27,7 @@ Data access & analysis | #semanticClimate, Wikibase |  
 ## Work in progress (WIP)
 
 1. Wikibase infrastructure - WIP
-1. AR6 Report publication syntactic, semantic, and typesetting data stucture analysis - WIP
+1. AR6 Report publication syntactic, semantic, and typesetting data structure analysis - WIP
 1. AR6 Report publication CSS Paged Media style - WIP
 1. Defining workflow and tech stack - WIP
 1. Wikibase maintenance and sysadmin - WIP
