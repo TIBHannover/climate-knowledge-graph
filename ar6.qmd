@@ -15,7 +15,7 @@ NB: Attribution \- thank you to Renu Kumari (NIPGR/\#semanticClimate) for compil
 * [Technical Summary](https://www.ipcc.ch/report/ar6/wg1/chapter/technical-summary/)  
 * [Frequently Asked Questions](https://www.ipcc.ch/report/ar6/wg1/resources/frequently-asked-questions/)  
 * [Fact Sheets](https://www.ipcc.ch/report/ar6/wg1/resources/factsheets/)  
-* **Full Report : 13 chapters**  
+* **Full Report : 12 chapters**  
   * [Chapter 1 : Framing, Context and Methods](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1)  
   * [Chapter 2 : Changing State of the Climate System](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-2)  
   * [Chapter 3 : Human Influence on the Climate System](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-3)  
