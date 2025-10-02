@@ -7,8 +7,6 @@ The goal is to create a typesetting facsimile of the AR6 reports using HTML and 
 
 CSS Paged Media is used to replace the PDF as PDF high quality typesetting can be achieved while retaining structured and machine readable FAIR data.
 
-**IPCC report design pattern** - [work in progress](https://vivliostyle.org/viewer/#src=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/styles/index.html)
-
 ## Document styles
 To recreate the design of the PDFs, the structural elements in the PDF are first examined and listed.
 
