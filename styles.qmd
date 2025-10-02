@@ -82,17 +82,12 @@ Inventory of which elements can be detected by leafing through the 7 reports:
 - Authors
 - Citation suggestion
 
-## Build design pattern
+## Build design pattern in HTML and CSS
 To create a facsimile of the report PDFs, a **style guide** is created with all the necessary HTML and CSS styles and elements. This style guide can then be applied to the HTML of the reports later.
 
 To benefit from the full functionality of the CSS Paged Media module, the **Vivliostyle Viewer** is used. <https://vivliostyle.org/>
 
-### Design pattern HTML and CSS
-**Design pattern**,  work in progress: <https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/styles/index.html>
-
-View design pattern in **Vivliostyle Viewer**: <https://vivliostyle.org/viewer/#src=https://github.com/TIBHannover/climate-knowledge-graph/blob/main/design_pattern/styles/index.html>
-
-### Document CSS and CSS paged media
+## Document CSS and CSS paged media
 Document the parts of CSS and the CSS paged media module that are used and check their availability in Vivliostyle: <https://docs.google.com/spreadsheets/d/1qWmnNQ-syLw8VotTaRIvVspAffnLLKMjItt3a_z1iNE/edit?gid=0#gid=0>
 
 ## Apply design pattern to scraped HTML
