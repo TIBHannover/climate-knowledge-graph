@@ -1,0 +1,36 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "conformsTo": "https://www.w3.org/TR/pub-manifest/",
+  "type": "Book",
+  "name": "Test Report",
+  "author": "Test",
+  "inLanguage": "en",
+  "readingOrder": [
+    "content/chapter1.html",
+    "content/chapter2.html",
+    "content/chapter3.html"
+  ],
+  "resources": [
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css/basics.css"
+    },
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css/page.css"
+    },
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css/style.css"
+    }
+  ]
+}
