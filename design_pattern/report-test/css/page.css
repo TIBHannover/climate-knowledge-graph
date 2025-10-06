@@ -26,6 +26,9 @@
     content: string(Chapter);
     font-size: 0.7rem;
     font-weight: bold;
+    background-color: var(--col-grey);
+    color: var(--col-white);
+    border-radius: 0px 0px 10px 10px;
   }
 }
 
@@ -43,10 +46,13 @@
   }
 
   @top-right {
-    content: string(Chapter);
     /* Page header with chapter titles */
+    content: string(Chapter);
     font-size: 0.7rem;
     font-weight: bold;
+    background-color: var(--col-grey);
+    color: var(--col-white);
+    border-radius: 0px 0px 10px 10px;
   }
 }
 
@@ -89,35 +95,6 @@ header h1 {
   }
 }
 
-/* Page sides with chapter titles */
-@page :left {
-  @left-middle {
-    content: string(Chapter);
-    font-size: 0.7rem;
-    font-weight: bold;
-    background-color: var(--col-sec);
-    color: var(--col-white);
-    height: 300px;
-    margin-right: 16px;
-    writing-mode: vertical-rl;
-    border-radius: 0px 10px 10px 0px;
-  }
-}
-
-@page :right {
-  @right-middle {
-    content: string(Chapter);
-    font-size: 0.7rem;
-    font-weight: bold;
-    background-color: var(--col-sec);
-    color: var(--col-white);
-    height: 300px;
-    margin-left: 16px;
-    writing-mode: vertical-rl;
-    border-radius: 10px 0px 0px 10px;
-  }
-}
-
 /** Page breaks ************************************************ **/
 
 /** Break before each new section **/
@@ -154,6 +131,9 @@ div.h1-container {
 }
 
 h1.text-50,
-header.section-head /*WP*/ {
+header.section-head
+
+/*WP*/
+  {
   page: ChapterOpener;
 }
