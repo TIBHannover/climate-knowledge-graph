@@ -1,64 +1,56 @@
 /** Paged media ************************************************ **/
 
-/* Styleguide only */
-@page styleguideOpener:first {
-  background-color: var(--col-darkblue);
-}
-
-h1.stylesheet {
-  page: styleguideOpener;
-}
-
 /* Targets all the pages */
 @page {
   size: 8.5in 11in;
   font-family: sans-serif;
-  margin-top: 30px;
-  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 120px;
 }
 
 /* Targets all even-numbered pages */
 @page :left {
-  margin-left: 60px;
-  margin-right: 80px;
+  margin-left: 70px;
+  margin-right: 100px;
 
   @bottom-left {
-    content: counter(page);
     /* Page footer with page numbers */
+    content: counter(page);
+    font-size: 0.9rem;
     font-weight: bold;
-    color: #818185;
+    color: var(--col-grey);
   }
 
   @top-left {
     /* Page header with chapter titles */
     content: string(Chapter);
-    font-size: 10px;
+    font-size: 0.7rem;
     font-weight: bold;
   }
 }
 
 /* Targets all odd-numbered pages */
 @page :right {
-  margin-left: 80px;
-  margin-right: 60px;
+  margin-left: 100px;
+  margin-right: 70px;
 
   @bottom-right {
     /* Page footer with page numbers */
     content: counter(page);
+    font-size: 0.9rem;
     font-weight: bold;
-    color: #818185;
+    color: var(--col-grey);
   }
 
   @top-right {
     content: string(Chapter);
     /* Page header with chapter titles */
-    font-size: 10px;
+    font-size: 0.7rem;
     font-weight: bold;
   }
 }
 
 /* Set value for page header */
-h2.stylesheet,
 header h1 {
   string-set: Chapter content();
 }
@@ -101,11 +93,11 @@ header h1 {
 @page :left {
   @left-middle {
     content: string(Chapter);
-    font-size: 10px;
+    font-size: 0.7rem;
     font-weight: bold;
-    background-color: var(--col-annex);
+    background-color: var(--col-sec);
     color: var(--col-white);
-    height: 200px;
+    height: 300px;
     margin-right: 16px;
     writing-mode: vertical-rl;
     border-radius: 0px 10px 10px 0px;
@@ -115,11 +107,11 @@ header h1 {
 @page :right {
   @right-middle {
     content: string(Chapter);
-    font-size: 10px;
+    font-size: 0.7rem;
     font-weight: bold;
-    background-color: var(--col-annex);
+    background-color: var(--col-sec);
     color: var(--col-white);
-    height: 200px;
+    height: 300px;
     margin-left: 16px;
     writing-mode: vertical-rl;
     border-radius: 10px 0px 0px 10px;
@@ -128,19 +120,25 @@ header h1 {
 
 /** Page breaks ************************************************ **/
 
-h2.stylesheet {
+/** Break before each new section **/
+div.h1-container {
   break-before: page;
 }
 
-h2.stylesheet.nobreak {
-  break-before: avoid;
+#executive-summary {
+  break-before: right;
 }
 
-/** Special pages ************************************************ **/
+._idFootnotes {
+  break-before: page;
+}
+
+/** Named pages ************************************************ **/
 
 /* Chapter opener */
-@page chapter-opener:right {
-  background-color: #83451e;
+
+@page ChapterOpener {
+  background-color: var(--col-sec);
 
   @bottom-right {
     content: none;
@@ -155,14 +153,7 @@ h2.stylesheet.nobreak {
   }
 }
 
-section.chapter {
-  page: chapter-opener;
-  break-before: right;
-  color: white;
-}
-
-section.chapter h2 {
-  font-size: 40px;
-  line-height: 48px;
-  text-align: right;
+h1.text-50,
+header.section-head /*WP*/ {
+  page: ChapterOpener;
 }
