@@ -17,10 +17,10 @@ CKG uses open-source software and can be used on any document corpus.
 
 ```{dot}
 //| label: ckg-system
-//| fig-cap: "Figure: Climate Knowledge Graph schematic"
-//| fig-height: 3
+//| fig-cap: "<i>Figure: Climate Knowledge Graph schematic</i>"
+//| fig-height: 4
 digraph CKG {
-  rankdir="LR"
+  rankdir="TB"
   {node [fillcolor="#A9DDD6" margin=0 fontcolor=black fixedsize=true fontsize=18 width=1.6 shape=circle style=filled fontname="Arial"]
     a [label="IPCC \nReport"]
     b [label="Knowledge \nGraph"]
