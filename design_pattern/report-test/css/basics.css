@@ -28,10 +28,12 @@
 /** Colors ************************************************ **/
 
 :root {
+  --col-sec: #2a3c46;
+
   --col-fm: #e65425;
   --col-spm: #c77b2a;
   --col-ts: #204f27;
-  --col-sec: #4b8fcc;
+
   --col-annex: #1a305a;
   --col-syr-fm: #eb2250;
   --col-syr-spm: #83441e;
@@ -44,11 +46,6 @@
   --col-bg-blue: #d3e8f3;
   --col-bg-yellow: #fff5e1;
   --col-bg-1: #95ceed;
-  /** Chapter sub-section colors **/
-  --col-bg-2: #abcb38;
-  --col-bg-3: #21417c;
-  --col-bg-4: #f58443;
-  --col-grey: #818185;
   /** Font colors **/
   --col-white: #ffffff;
   --col-darkblue: #1c3062;
@@ -107,7 +104,10 @@ h6 {
 
 /* Chapter title */
 h1.text-50,
-h1.hero-title /*WP*/  {
+h1.hero-title
+
+/*WP*/
+  {
   font-size: 3rem;
   line-height: 3.2rem;
   color: var(--col-white);
