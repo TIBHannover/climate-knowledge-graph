@@ -1,26 +1,26 @@
 /** Replacement font ************************************* **/
 
 @font-face {
-  font-family: 'Istok Web';
-  src: url('fonts/Istok_Web/IstokWeb-Regular.ttf');
+  font-family: 'Proza Libre';
+  src: url('fonts/Proza_Libre/ProzaLibre-Regular.ttf');
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Istok Web';
-  src: url('fonts/Istok_Web/IstokWeb-Bold.ttf');
+  font-family: 'Proza Libre';
+  src: url('fonts/Proza_Libre/ProzaLibre-Bold.ttf');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Istok Web';
-  src: url('fonts/Istok_Web/IstokWeb-Italic.ttf');
+  font-family: 'Proza Libre';
+  src: url('fonts/Proza_Libre/ProzaLibre-Italic.ttf');
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Istok Web';
-  src: url('fonts/Istok_Web/IstokWeb-BoldItalic.ttf');
+  font-family: 'Proza Libre';
+  src: url('fonts/Proza_Libre/ProzaLibre-BoldItalic.ttf');
   font-weight: bold;
   font-style: italic;
 }
@@ -28,6 +28,7 @@
 /** Colors ************************************************ **/
 
 :root {
+  /** Primary TIB colors **/
   --col-sec: #2a3c46;
   --col-grey: #849aa3;
 
@@ -55,7 +56,7 @@
 
 /** Font family ******************************************** **/
 html {
-  font-family: "Istok Web", sans-serif;
+  font-family: "Proza Libre", sans-serif;
 }
 
 /** Font sizes ******************************************** **/
