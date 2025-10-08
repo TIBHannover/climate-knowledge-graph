@@ -1,0 +1,60 @@
+graph TD
+  %% Force top-to-bottom layout
+  %% Invisible linking between subgraphs maintains vertical order
+
+  subgraph IPCC_structure_and_governance
+    IPCC_Panel_Governments
+    Report_organisational_structure
+  end
+
+  subgraph Sources
+    IPCC_website
+    Publishers_Cambridge
+    Crossref_DOIs
+    Zenodo_DOIs
+    UN_Library
+    NASA_Library
+    GitHub
+  end
+
+  subgraph Data_types
+    Report_PDFs
+    Report_HTML
+    DOIs
+    Catalogue_records
+    Data_tables
+    Website_scrapes
+    LOD
+  end
+
+  subgraph Text
+    Text_body
+  end
+
+  subgraph Supporting_data_1
+    Indexes
+    Acronyms
+    Notes
+    Page_numbers
+    Data
+    Figures
+    References
+    Glossary
+  end
+
+  subgraph Supporting_data_2
+    Authors
+    License_info
+    Report_translations
+    Bibliographic_info
+    Timeline
+    Structure_governance
+  end  
+
+  %% Invisible connectors to force stacking order
+  IPCC_structure_and_governance --> Sources
+  Sources --> Data_types
+  Data_types --> Text
+  Text --> Supporting_data_1
+  Supporting_data_1 --> Supporting_data_2
+ 
