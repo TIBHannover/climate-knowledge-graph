@@ -43,7 +43,7 @@ h6 {
 }
 
 ._idGenBNMarker-1 {
-  margin-right: 8px;
+  margin-right: 4px;
   display: block;
 }
 
@@ -55,7 +55,7 @@ h6 {
 
 /* Light blue box */
 .box-container {
-  background-color: var(--col-grey);
+  background-color: var(--col-lightteal);
   padding: 10px;
   column-span: all;
   margin-top: 12px;
@@ -85,7 +85,7 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: var(--col-bg-blue);
+  background-color: var(--col-light);
 }
 
 thead {
@@ -118,6 +118,7 @@ img {
   padding: 0px 0px 0px 14px;
   text-indent: -14px;
   margin: 0px;
+  text-align: left;
 }
 
 /* Footnotes section ****************************************** **/

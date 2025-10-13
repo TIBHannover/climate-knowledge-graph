@@ -30,12 +30,16 @@
 :root {
   /** Primary TIB colors **/
   --col-sec: #2a3c46;
+  --col-sec2: #36464f;
+  --col-sec3: #425159;
+  --col-sec4: #4c5a61;
 
   --col-red: #af1314;
 
   --col-teal: #005c5f;
   --col-teal2: #0f6668;
   --col-teal3: #1f6e72;
+  --col-lightteal: #bcebed;
   
   --col-white: #ffffff;
 
@@ -63,18 +67,18 @@ p {
 
 /* Headers */
 h1 {
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.1rem;
 }
 
 h2 {
-  font-size: 0.8rem;
-  line-height: 0.9rem;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
 }
 
 h3 {
-  font-size: 0.7rem;
-  line-height: 0.8rem;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
 }
 
 h4 {
@@ -85,7 +89,6 @@ h4 {
 h5 {
   font-size: 0.7rem;
   line-height: 0.8rem;
-  ;
 }
 
 h6 {
@@ -98,8 +101,8 @@ h6 {
 h1.text-50,
 h1.hero-title /*WP*/
 {
-  font-size: 3rem;
-  line-height: 3.2rem;
+  font-size: 5rem;
+  line-height: 5.2rem;
   color: var(--col-white);
 }
 
