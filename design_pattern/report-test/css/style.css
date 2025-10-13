@@ -144,3 +144,8 @@ hr {
 .Headings_•-Author-names---chapter-openers {
   font-weight: bold;
 }
+
+/*div.h1-container {
+  border: 1px solid red;
+  break-inside: avoid;
+}*/
