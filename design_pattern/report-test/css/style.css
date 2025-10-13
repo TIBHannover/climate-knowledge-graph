@@ -103,6 +103,11 @@ img {
   width: 100%;
 }
 
+img {
+border: 1px solid var(--col-lightteal);
+padding: 10px;
+}
+
 .Figures--tables-etc_•-Figure-title---single-column {
   column-span: all;
 }
@@ -124,10 +129,14 @@ img {
 /* Footnotes section ****************************************** **/
 
 ._idFootnotes {
-  border-top: 1px solid black;
-  border-width: 30%;
+  padding-top: 20px;
   column-span: all;
   column-count: 1;
+  float: footnote;
+}
+
+hr {
+  display: none;
 }
 
 /* Chapter opener ****************************************** **/
