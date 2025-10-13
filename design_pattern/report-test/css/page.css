@@ -17,7 +17,7 @@
     content: counter(page);
     font-size: 0.9rem;
     font-weight: bold;
-    color: var(--col-grey);
+    color: var(--col-teal3);
   }
 
   @top-left {
@@ -25,9 +25,7 @@
     content: string(Chapter);
     font-size: 0.7rem;
     font-weight: bold;
-    background-color: var(--col-grey);
-    color: var(--col-white);
-    border-radius: 0px 0px 10px 10px;
+    color: var(--col-teal3);
   }
 }
 
@@ -41,7 +39,7 @@
     content: counter(page);
     font-size: 0.9rem;
     font-weight: bold;
-    color: var(--col-grey);
+    color: var(--col-teal3);
   }
 
   @top-right {
@@ -49,9 +47,7 @@
     content: string(Chapter);
     font-size: 0.7rem;
     font-weight: bold;
-    background-color: var(--col-grey);
-    color: var(--col-white);
-    border-radius: 0px 0px 10px 10px;
+    color: var(--col-teal3);
   }
 }
 

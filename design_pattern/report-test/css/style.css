@@ -21,7 +21,7 @@ p {
 
 /* Links */
 a {
-  color: var(--col-blue);
+  color: var(--col-teal2);
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ h6 {
 }
 
 ._idGenBNMarker-1 {
-  margin-right: 20px;
+  margin-right: 8px;
   display: block;
 }
 
@@ -55,7 +55,7 @@ h6 {
 
 /* Light blue box */
 .box-container {
-  background-color: var(--col-bg-blue);
+  background-color: var(--col-grey);
   padding: 10px;
   column-span: all;
   margin-top: 12px;
@@ -64,7 +64,7 @@ h6 {
 
 /* Light yellow FAQ box */
 #frequently-asked-questions {
-  background-color: var(--col-bg-yellow);
+  background-color: var(--col-light);
   padding: 10px;
   column-span: all;
   column-count: 1;
@@ -89,7 +89,7 @@ tr:nth-child(even) {
 }
 
 thead {
-  background-color: var(--col-blue);
+  background-color: var(--col-teal3);
   color: white;
 }
 
@@ -134,8 +134,3 @@ img {
 .Headings_•-Author-names---chapter-openers {
   font-weight: bold;
 }
-
-/*.•-Bold-condensed--dark-blue- {
-  font-weight: bold;
-  color: var(--col-darkblue)
-}*/

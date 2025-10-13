@@ -1,26 +1,26 @@
 /** Replacement font ************************************* **/
 
 @font-face {
-  font-family: 'Proza Libre';
-  src: url('fonts/Proza_Libre/ProzaLibre-Regular.ttf');
+  font-family: 'Switzer';
+  src: url('fonts/Switzer/Switzer-Regular.ttf');
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Proza Libre';
-  src: url('fonts/Proza_Libre/ProzaLibre-Bold.ttf');
+  font-family: 'Switzer';
+  src: url('fonts/Switzer/Switzer-Bold.woff');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Proza Libre';
-  src: url('fonts/Proza_Libre/ProzaLibre-Italic.ttf');
+  font-family: 'Switzer';
+  src: url('fonts/Switzer/Switzer-Italic.ttf');
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Proza Libre';
-  src: url('fonts/Proza_Libre/ProzaLibre-BoldItalic.ttf');
+  font-family: 'Switzer';
+  src: url('fonts/Switzer/Switzer-BoldItalic.ttf');
   font-weight: bold;
   font-style: italic;
 }
@@ -30,33 +30,23 @@
 :root {
   /** Primary TIB colors **/
   --col-sec: #2a3c46;
-  --col-grey: #849aa3;
 
-  --col-fm: #e65425;
-  --col-spm: #c77b2a;
-  --col-ts: #204f27;
+  --col-red: #af1314;
 
-  --col-annex: #1a305a;
-  --col-syr-fm: #eb2250;
-  --col-syr-spm: #83441e;
-  --col-syr-ts: #1c5125;
-  --col-syr-sec: #4c8ecc;
-  --col-syr-annex: #09515e;
-  --col-index: #1a2f5c;
-  --col-bg-grey: #f7f8f8;
-  /** Box background colors **/
-  --col-bg-blue: #d3e8f3;
-  --col-bg-yellow: #fff5e1;
-  --col-bg-1: #95ceed;
-  /** Font colors **/
+  --col-teal: #005c5f;
+  --col-teal2: #0f6668;
+  --col-teal3: #1f6e72;
+  
   --col-white: #ffffff;
-  --col-darkblue: #1c3062;
-  --col-blue: #4c8fcd;
-}
+
+  /** Box background colors **/
+  --col-grey: #849aa3;
+  --col-light: #f1f1f1;
+ }
 
 /** Font family ******************************************** **/
 html {
-  font-family: "Proza Libre", sans-serif;
+  font-family: 'Switzer', sans-serif;
 }
 
 /** Font sizes ******************************************** **/
@@ -106,10 +96,8 @@ h6 {
 
 /* Chapter title */
 h1.text-50,
-h1.hero-title
-
-/*WP*/
-  {
+h1.hero-title /*WP*/
+{
   font-size: 3rem;
   line-height: 3.2rem;
   color: var(--col-white);
@@ -144,5 +132,5 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--col-darkblue);
+  color: var(--col-teal);
 }
