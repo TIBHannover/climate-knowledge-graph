@@ -27,7 +27,7 @@ a {
 
 /* Text in two columns */
 .h1-container {
-  column-count: 2;
+  /*column-count: 2;*/
 }
 
 /* Header layout ******************************************** **/
