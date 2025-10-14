@@ -3,15 +3,14 @@
 /* Targets all the pages */
 @page {
   size: A4;
-  margin-top: 50px;
-
+  margin-top: 80px;
   margin-bottom: 60px;
 }
 
 /* Targets all even-numbered pages */
 @page :left {
-  margin-left: 70px;
-  margin-right: 100px;
+  margin-left: 90px;
+  margin-right: 120px;
 
   @bottom-left {
     /* Page footer with page numbers */
@@ -25,15 +24,21 @@
     /* Page header with chapter titles */
     content: string(Chapter);
     font-size: 0.7rem;
+    line-height: 1rem;
     font-weight: bold;
-    color: var(--col-teal3);
+    background-color: var(--col-teal);
+    color: var(--col-white);
+    text-align: center;
+    border-left: 30px solid var(--col-teal3);
+    width: 300px;
+    margin-bottom: 40px;
   }
 }
 
 /* Targets all odd-numbered pages */
 @page :right {
-  margin-left: 100px;
-  margin-right: 70px;
+  margin-left: 120px;
+  margin-right: 90px;
 
   @bottom-right {
     /* Page footer with page numbers */
@@ -47,8 +52,14 @@
     /* Page header with chapter titles */
     content: string(Chapter);
     font-size: 0.7rem;
+    line-height: 1rem;
     font-weight: bold;
-    color: var(--col-teal3);
+    background-color: var(--col-teal);
+    color: var(--col-white);
+    text-align: center;
+    border-right: 30px solid var(--col-teal3);
+    width: 300px;
+    margin-bottom: 40px;
   }
 }
 
@@ -92,33 +103,37 @@ header h1 {
 }
 
 /* Page sides with chapter titles */
+/*
 @page :left {
-  @left-middle {
+  @left-bottom {
     content: string(Chapter);
     font-size: 0.7rem;
     font-weight: bold;
     background-color: var(--col-sec);
     color: var(--col-white);
+    vertical-align: middle;
     height: 300px;
     margin-right: 16px;
     writing-mode: vertical-rl;
-    border-bottom: 20px solid var(--col-teal3);
+    border-bottom: 30px solid var(--col-teal3);
   }
 }
 
 @page :right {
-  @right-middle {
+  @right-bottom {
     content: string(Chapter);
     font-size: 0.7rem;
     font-weight: bold;
     background-color: var(--col-sec);
     color: var(--col-white);
+    vertical-align: middle;
     height: 300px;
     margin-left: 16px;
     writing-mode: vertical-rl;
-    border-bottom: 20px solid var(--col-teal3);
+    border-bottom: 30px solid var(--col-teal3);
   }
 }
+  */
 
 /** Page breaks ************************************************ **/
 

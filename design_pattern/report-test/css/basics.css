@@ -61,29 +61,30 @@ html {
 
 /* Paragraphs */
 p {
-  font-size: 0.7rem;
-  line-height: 0.9rem;
-}
-
-/* Headers */
-h1 {
-  font-size: 1rem;
-  line-height: 1.1rem;
-}
-
-h2 {
-  font-size: 0.9rem;
-  line-height: 1.1rem;
-}
-
-h3 {
   font-size: 0.8rem;
   line-height: 0.9rem;
 }
 
+/* Headers */
+
+h1 {
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+}
+
+h2 {
+  font-size: 1rem;
+  line-height: 1.1rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+}
+
 h4 {
-  font-size: 0.7rem;
-  line-height: 0.8rem;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
 }
 
 h5 {
@@ -94,7 +95,6 @@ h5 {
 h6 {
   font-size: 0.7rem;
   line-height: 0.8rem;
-  ;
 }
 
 /* Chapter title */

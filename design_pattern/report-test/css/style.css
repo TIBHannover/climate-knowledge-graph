@@ -53,7 +53,7 @@ h6 {
 
 /* Box elements ********************************************** **/
 
-/* Light blue box */
+/* Background box */
 .box-container {
   background-color: var(--col-lightteal);
   padding: 10px;
@@ -62,7 +62,7 @@ h6 {
   margin-bottom: 12px;
 }
 
-/* Light yellow FAQ box */
+/* FAQ box */
 #frequently-asked-questions {
   background-color: var(--col-light);
   padding: 10px;
@@ -89,7 +89,7 @@ tr:nth-child(even) {
 }
 
 thead {
-  background-color: var(--col-teal3);
+  background-color: var(--col-grey);
   color: white;
 }
 
@@ -101,15 +101,13 @@ p.Figures--tables-etc_Table-styles_•-Table-header-row--blue- {
 
 img {
   width: 100%;
+  margin-top: 20px;
 }
 
-img {
-border: 1px solid var(--col-lightteal);
-padding: 10px;
-}
-
-.Figures--tables-etc_•-Figure-title---single-column {
+/* Captions */
+.Figures--tables-etc_•-Figure-title---single-column .•-Figure-table-number---title {
   column-span: all;
+  margin-bottom: 10px;
 }
 
 /* Hide chapter with figures */
@@ -144,8 +142,3 @@ hr {
 .Headings_•-Author-names---chapter-openers {
   font-weight: bold;
 }
-
-/*div.h1-container {
-  border: 1px solid red;
-  break-inside: avoid;
-}*/
