@@ -62,7 +62,7 @@ html {
 /* Paragraphs */
 p {
   font-size: 0.8rem;
-  line-height: 0.9rem;
+  line-height: 1rem;
 }
 
 /* Headers */
@@ -74,7 +74,7 @@ h1 {
 
 h2 {
   font-size: 1rem;
-  line-height: 1.1rem;
+  line-height: 1.2rem;
 }
 
 h3 {
@@ -84,12 +84,12 @@ h3 {
 
 h4 {
   font-size: 0.8rem;
-  line-height: 0.9rem;
+  line-height: 1rem;
 }
 
 h5 {
   font-size: 0.7rem;
-  line-height: 0.8rem;
+  line-height: 0.9rem;
 }
 
 h6 {

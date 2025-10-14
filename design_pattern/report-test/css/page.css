@@ -4,7 +4,7 @@
 @page {
   size: A4;
   margin-top: 80px;
-  margin-bottom: 60px;
+  margin-bottom: 90px;
 }
 
 /* Targets all even-numbered pages */
@@ -26,10 +26,10 @@
     font-size: 0.7rem;
     line-height: 1rem;
     font-weight: bold;
-    background-color: var(--col-teal);
+    background-color: var(--col-teal3);
     color: var(--col-white);
     text-align: center;
-    border-left: 30px solid var(--col-teal3);
+    border-left: 30px solid var(--col-red);
     width: 300px;
     margin-bottom: 40px;
   }
@@ -54,10 +54,10 @@
     font-size: 0.7rem;
     line-height: 1rem;
     font-weight: bold;
-    background-color: var(--col-teal);
+    background-color: var(--col-teal3);
     color: var(--col-white);
     text-align: center;
-    border-right: 30px solid var(--col-teal3);
+    border-right: 30px solid var(--col-red);
     width: 300px;
     margin-bottom: 40px;
   }
@@ -138,16 +138,36 @@ header h1 {
 /** Page breaks ************************************************ **/
 
 /** Break before each new section **/
-div.h1-container {
-  break-before: page;
-}
 
+/* Start new page on each h1 */
+/*div.h1-container {
+  break-before: page;
+}*/
+
+/* Start new page on summary */
 #executive-summary {
   break-before: right;
 }
 
-._idFootnotes {
+/* Start new page before faqs */
+.h1-container#frequently-asked-questions {
   break-before: page;
+}
+
+/* Start new page before references */
+.h1-container#references {
+  break-before: page;
+}
+
+/* Start new page before footnotes */
+/*._idFootnotes {
+  break-before: page;
+}*/
+
+/* Keep tables and table headers together */
+.IPCC-Table {
+  page-break-before: avoid;
+  page-break-inside: avoid;
 }
 
 /** Named pages ************************************************ **/
@@ -171,9 +191,7 @@ div.h1-container {
 }
 
 h1.text-50,
-header.section-head
-
-/*WP*/
+header.section-head /*WP*/
   {
   page: ChapterOpener;
 }

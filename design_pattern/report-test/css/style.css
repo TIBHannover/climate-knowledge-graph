@@ -30,6 +30,12 @@ a {
   /*column-count: 2;*/
 }
 
+/* Highlight statements */
+.•-Bold-condensed--dark-blue- {
+  font-weight: bold;
+  color: var(--col-sec);
+}
+
 /* Header layout ******************************************** **/
 
 /* Set up headers with numbers next to them */
@@ -55,7 +61,7 @@ h6 {
 
 /* Background box */
 .box-container {
-  background-color: var(--col-lightteal);
+  background-color: var(--col-light);
   padding: 10px;
   column-span: all;
   margin-top: 12px;
@@ -64,7 +70,7 @@ h6 {
 
 /* FAQ box */
 #frequently-asked-questions {
-  background-color: var(--col-light);
+  background-color: var(--col-lightteal);
   padding: 10px;
   column-span: all;
   column-count: 1;
@@ -80,8 +86,15 @@ table {
 }
 
 td {
-  border: 1px solid black;
+  border: 1px solid var(--col-grey);
   padding: 4px;
+}
+
+td p {
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+  text-align: left;
+  hyphens: none;
 }
 
 tr:nth-child(even) {
@@ -120,7 +133,8 @@ img {
 #references p {
   padding: 0px 0px 0px 14px;
   text-indent: -14px;
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 4px;
   text-align: left;
 }
 
