@@ -62,18 +62,18 @@ h6 {
 /* Background box */
 .box-container {
   background-color: var(--col-light);
-  padding: 10px;
   column-span: all;
-  margin-top: 12px;
-  margin-bottom: 12px;
+}
+
+.box-container h2,
+#frequently-asked-questions h1 {
+  color: var(--col-red);
 }
 
 /* FAQ box */
 #frequently-asked-questions {
   background-color: var(--col-lightteal);
-  padding: 10px;
   column-span: all;
-  column-count: 1;
 }
 
 /* Tables ***************************************************** **/

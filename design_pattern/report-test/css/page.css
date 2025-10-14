@@ -195,3 +195,25 @@ header.section-head /*WP*/
   {
   page: ChapterOpener;
 }
+
+/* Page with box on it */
+
+@page BoxPage1 {
+  background-color: var(--col-light);
+}
+
+.box-container
+  {
+  page: BoxPage1;
+}
+
+/* Page with FAQ box on it */
+
+@page BoxPage2 {
+  background-color: var(--col-lightteal);
+}
+
+#frequently-asked-questions
+  {
+  page: BoxPage2;
+}
