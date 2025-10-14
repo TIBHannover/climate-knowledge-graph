@@ -73,16 +73,7 @@ header h1 {
   @top-right {
     content: none;
   }
-
   @top-left {
-    content: none;
-  }
-
-  @right-middle {
-    content: none;
-  }
-
-  @left-middle {
     content: none;
   }
 }
@@ -92,48 +83,22 @@ header h1 {
   @top-right {
     content: none;
   }
-
   @bottom-right {
     content: none;
   }
+}
 
-  @right-middle {
+/* Targets the last page */
+@page :last {
+  background-color: pink;
+   @top-left {
+    content: none;
+  }
+
+  @top-right {
     content: none;
   }
 }
-
-/* Page sides with chapter titles */
-/*
-@page :left {
-  @left-bottom {
-    content: string(Chapter);
-    font-size: 0.7rem;
-    font-weight: bold;
-    background-color: var(--col-sec);
-    color: var(--col-white);
-    vertical-align: middle;
-    height: 300px;
-    margin-right: 16px;
-    writing-mode: vertical-rl;
-    border-bottom: 30px solid var(--col-teal3);
-  }
-}
-
-@page :right {
-  @right-bottom {
-    content: string(Chapter);
-    font-size: 0.7rem;
-    font-weight: bold;
-    background-color: var(--col-sec);
-    color: var(--col-white);
-    vertical-align: middle;
-    height: 300px;
-    margin-left: 16px;
-    writing-mode: vertical-rl;
-    border-bottom: 30px solid var(--col-teal3);
-  }
-}
-  */
 
 /** Page breaks ************************************************ **/
 
@@ -158,11 +123,6 @@ header h1 {
 .h1-container#references {
   break-before: page;
 }
-
-/* Start new page before footnotes */
-/*._idFootnotes {
-  break-before: page;
-}*/
 
 /* Keep tables and table headers together */
 .IPCC-Table {
