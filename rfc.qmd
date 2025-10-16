@@ -1,0 +1,22 @@
+---
+title: "RfC"
+date: now
+---
+
+## Request for Comment (RfC)
+
+### Software Architecture RfC
+
+Work in progress. To be published end of October 2025.
+
+RfC
+
+[Comments](https://github.com/TIBHannover/climate-knowledge-graph/issues/41)
+
+### Knowledge Graph Construction Using Wikibase RfC
+
+Work in progress. To be published November 2025.
+
+RfC
+
+Comments

@@ -18,11 +18,12 @@ book:
     - reports.qmd
     - styles.qmd
     - datamodels.qmd
+    - rfc.qmd
     - ar6.qmd
     - data-imprint.qmd
 
   repo-url: https://github.com/TIBHannover/climate-knowledge-graph
-  repo-actions: [issue]
+  repo-actions: [edit, source, issue]
 
 format:
   html:
