@@ -26,6 +26,7 @@
     content: string(Chapter);
     font-size: 0.7rem;
     font-weight: bold;
+    color: var(--col-sec);
   }
 }
 
@@ -43,10 +44,11 @@
   }
 
   @top-right {
-    content: string(Chapter);
     /* Page header with chapter titles */
+    content: string(Chapter);
     font-size: 0.7rem;
     font-weight: bold;
+    color: var(--col-sec);
   }
 }
 
@@ -121,16 +123,31 @@ header h1 {
 /** Page breaks ************************************************ **/
 
 /** Break before each new section **/
-div.h1-container {
-  break-before: page;
-}
 
+/* Start new page on each h1 */
+/*div.h1-container {
+  break-before: page;
+}*/
+
+/* Start new page on summary */
 #executive-summary {
   break-before: right;
 }
 
-._idFootnotes {
+/* Start new page before faqs */
+.h1-container#frequently-asked-questions {
   break-before: page;
+}
+
+/* Start new page before references */
+.h1-container#references {
+  break-before: page;
+}
+
+/* Keep tables and table headers together */
+.IPCC-Table {
+  page-break-before: avoid;
+  page-break-inside: avoid;
 }
 
 /** Named pages ************************************************ **/
