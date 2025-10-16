@@ -44,7 +44,7 @@
     "href": "roadmap.html",
     "title": "1  Project Roadmap",
     "section": "",
-    "text": "Summary\nStatus: Version 1.0 (Sept ‘25’)\nClimate Knowledge Graph roadmap",
+    "text": "Summary",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Roadmap</span>"
     ]
@@ -114,7 +114,7 @@
     "href": "workflow.html",
     "title": "2  CKG Dev Workflow",
     "section": "",
-    "text": "Goal\nStatus: Version 1.0 (Sept ‘25’)\nCKG - Knowledge graph and publishing system development workflow.\nThe goal is to enable easier knowledge use of complex document corpus by using a knowledge graph to enable the following:",
+    "text": "Goal\nThe goal is to enable easier knowledge use of complex document corpus by using a knowledge graph to enable the following:",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>CKG Dev Workflow</span>"
     ]
@@ -144,7 +144,7 @@
     "href": "reports.html",
     "title": "3  AR6 Quantification",
     "section": "",
-    "text": "3.1 AR6 quantification - version 1.0 (manual count)\nStatus: Provisional (Sept ‘25’)\nReport being analysed: United Nations, Intergovernmental Panel on Climate Change, IPCC Sixth Assement Report (AR6)\nPurpose and scope of the corpus quantification exercise: The purpose is to identify the significant properties of AR6 and catalogue these in a knowledge graph. The scope is determined by what is identified as significant properties and if it is possible to count the items given available resources or if they are necessary to the knowledge graph.",
+    "text": "3.1 AR6 quantification - version 1.0 (manual count)",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>AR6 Quantification</span>"
     ]
@@ -194,7 +194,7 @@
     "href": "styles.html",
     "title": "4  Publication Styles",
     "section": "",
-    "text": "4.1 Synopsis\nStatus: Provisional\nThe goal is to create a typesetting facsimile of the AR6 reports using HTML and CSS / CSS Paged Media and to have a typesetting style for CKG publications. CKG publications are AR6 user search results made up of AR6 sections compiled into a report and saved in the knowledge graph.\nCSS Paged Media is used to replace the PDF as PDF high quality typesetting can be achieved while retaining structured and machine readable FAIR data.",
+    "text": "4.1 Synopsis\nThe goal is to create a typesetting facsimile of the AR6 reports using HTML and CSS / CSS Paged Media and to have a typesetting style for CKG publications. CKG publications are AR6 user search results made up of AR6 sections compiled into a report and saved in the knowledge graph.\nCSS Paged Media is used to replace the PDF as PDF high quality typesetting can be achieved while retaining structured and machine readable FAIR data.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Publication Styles</span>"
     ]
@@ -244,7 +244,7 @@
     "href": "datamodels.html",
     "title": "5  Data Models",
     "section": "",
-    "text": "5.1 AR6 sources\nStatus: Provisional (Sept ‘25’)\nCKG knowledge graph data models.\nCKG_data_model\n\n\n\nAR6_Organization\n\nAR6_Organization\n\n\n\nAR6\n\nAR6\n\n\n\nAR6_Organization--AR6\n\n\n\n\nReports\n\nReports\n\n\n\nAR6--Reports\n\n\n\n\nIPCC_website\n\nIPCC_website\n\n\n\nReport_translations\n\nReport_translations\n\n\n\nIPCC_website--Report_translations\n\n\n\n\nReport_PDFs\n\nReport_PDFs\n\n\n\nIPCC_website--Report_PDFs\n\n\n\n\nReport_HTML\n\nReport_HTML\n\n\n\nIPCC_website--Report_HTML\n\n\n\n\nFigures\n\nFigures\n\n\n\nIPCC_website--Figures\n\n\n\n\nReferences\n\nReferences\n\n\n\nIPCC_website--References\n\n\n\n\nGlossary\n\nGlossary\n\n\n\nIPCC_website--Glossary\n\n\n\n\nAuthors\n\nAuthors\n\n\n\nIPCC_website--Authors\n\n\n\n\nPublishers\n\nPublishers\n\n\n\nLicense_info\n\nLicense_info\n\n\n\nPublishers--License_info\n\n\n\n\nPublishers--Report_PDFs\n\n\n\n\nCrossref_DOIs\n\nCrossref_DOIs\n\n\n\nPublishers--Crossref_DOIs\n\n\n\n\nIndexes\n\nIndexes\n\n\n\nReport_PDFs--Indexes\n\n\n\n\nAcronyms\n\nAcronyms\n\n\n\nReport_PDFs--Acronyms\n\n\n\n\nNotes\n\nNotes\n\n\n\nReport_PDFs--Notes\n\n\n\n\nPage_numbers\n\nPage_numbers\n\n\n\nReport_PDFs--Page_numbers\n\n\n\n\nBibliographic_info\n\nBibliographic_info\n\n\n\nCrossref_DOIs--Bibliographic_info\n\n\n\n\nZenodo_DOIs\n\nZenodo_DOIs\n\n\n\nZenodo_DOIs--Bibliographic_info\n\n\n\n\nUN_Library\n\nUN_Library\n\n\n\nUN_Library--Bibliographic_info\n\n\n\n\nData\n\nData\n\n\n\nUN_Library--Data\n\n\n\n\nUN_Library--Figures\n\n\n\n\nNASA_Library\n\nNASA_Library\n\n\n\nNASA_Library--Bibliographic_info\n\n\n\n\nGitHub\n\nGitHub\n\n\n\nGitHub--Data\n\n\n\n\nGitHub--Figures\n\n\n\n\nReports--IPCC_website\n\n\n\n\nReports--Publishers",
+    "text": "5.1 AR6 sources\nCKG_data_model\n\n\n\nAR6_Organization\n\nAR6_Organization\n\n\n\nAR6\n\nAR6\n\n\n\nAR6_Organization--AR6\n\n\n\n\nReports\n\nReports\n\n\n\nAR6--Reports\n\n\n\n\nIPCC_website\n\nIPCC_website\n\n\n\nReport_translations\n\nReport_translations\n\n\n\nIPCC_website--Report_translations\n\n\n\n\nReport_PDFs\n\nReport_PDFs\n\n\n\nIPCC_website--Report_PDFs\n\n\n\n\nReport_HTML\n\nReport_HTML\n\n\n\nIPCC_website--Report_HTML\n\n\n\n\nFigures\n\nFigures\n\n\n\nIPCC_website--Figures\n\n\n\n\nReferences\n\nReferences\n\n\n\nIPCC_website--References\n\n\n\n\nGlossary\n\nGlossary\n\n\n\nIPCC_website--Glossary\n\n\n\n\nAuthors\n\nAuthors\n\n\n\nIPCC_website--Authors\n\n\n\n\nPublishers\n\nPublishers\n\n\n\nLicense_info\n\nLicense_info\n\n\n\nPublishers--License_info\n\n\n\n\nPublishers--Report_PDFs\n\n\n\n\nCrossref_DOIs\n\nCrossref_DOIs\n\n\n\nPublishers--Crossref_DOIs\n\n\n\n\nIndexes\n\nIndexes\n\n\n\nReport_PDFs--Indexes\n\n\n\n\nAcronyms\n\nAcronyms\n\n\n\nReport_PDFs--Acronyms\n\n\n\n\nNotes\n\nNotes\n\n\n\nReport_PDFs--Notes\n\n\n\n\nPage_numbers\n\nPage_numbers\n\n\n\nReport_PDFs--Page_numbers\n\n\n\n\nBibliographic_info\n\nBibliographic_info\n\n\n\nCrossref_DOIs--Bibliographic_info\n\n\n\n\nZenodo_DOIs\n\nZenodo_DOIs\n\n\n\nZenodo_DOIs--Bibliographic_info\n\n\n\n\nUN_Library\n\nUN_Library\n\n\n\nUN_Library--Bibliographic_info\n\n\n\n\nData\n\nData\n\n\n\nUN_Library--Data\n\n\n\n\nUN_Library--Figures\n\n\n\n\nNASA_Library\n\nNASA_Library\n\n\n\nNASA_Library--Bibliographic_info\n\n\n\n\nGitHub\n\nGitHub\n\n\n\nGitHub--Data\n\n\n\n\nGitHub--Figures\n\n\n\n\nReports--IPCC_website\n\n\n\n\nReports--Publishers",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data Models</span>"
     ]
@@ -257,6 +257,26 @@
     "text": "5.2 Data models to be created\n\n5.2.1 AR6 individual report publication structure (syntax and semantic)\nWIP: Google spreadsheet\n\n\n5.2.2 IPCC Qualifiers (Vocabulary)\nE.g, Confidence levels, Likelihoods, Special likelihoods, Ecosystems, Adverse outcomes, Regions, DPSIR (DPSIR is a causal framework used to describe the interactions between society and the environment)\n\n\n5.2.3 AR6 bibliographic information\nDerived from DOIs\n\n\n5.2.4 Authors and contributors\n\n\n5.2.5 Glossary, acronymes, and index\n\n\n5.2.6 References\n\n\n5.2.7 Community annotation and submissions review\n\n\n5.2.8 CKG Publications\nCKG publications are the user search reults (sections of AR6) that are compiled into a report publication (linked back to their source) and saved as part of CKG.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data Models</span>"
+    ]
+  },
+  {
+    "objectID": "rfc.html",
+    "href": "rfc.html",
+    "title": "6  RfC",
+    "section": "",
+    "text": "6.1 Request for Comment (RfC)",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>RfC</span>"
+    ]
+  },
+  {
+    "objectID": "rfc.html#request-for-comment-rfc",
+    "href": "rfc.html#request-for-comment-rfc",
+    "title": "6  RfC",
+    "section": "",
+    "text": "6.1.1 Software Architecture RfC\nWork in progress. To be published end of October 2025.\nRfC\nComments\n\n\n6.1.2 Knowledge Graph Construction Using Wikibase RfC\nWork in progress. To be published November 2025.\nRfC\nComments",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>RfC</span>"
     ]
   },
   {
