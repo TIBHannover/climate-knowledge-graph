@@ -84,6 +84,13 @@ td {
   padding: 4px;
 }
 
+td p {
+  font-size: 0.6rem;
+  line-height: 0.7rem;
+  text-align: left;
+  hyphens: none;
+}
+
 tr:nth-child(even) {
   background-color: var(--col-bg-blue);
 }
@@ -117,25 +124,27 @@ img {
 #references p {
   padding: 0px 0px 0px 14px;
   text-indent: -14px;
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  text-align: left;
 }
 
 /* Footnotes section ****************************************** **/
 
 ._idFootnotes {
-  border-top: 1px solid black;
-  border-width: 30%;
+  padding-top: 20px;
   column-span: all;
   column-count: 1;
+  float: footnote;
+}
+
+hr {
+  display: none;
 }
 
 /* Chapter opener ****************************************** **/
 
-.Headings_•-Author-names---chapter-openers {
+p.Headings_•-Author-names---chapter-openers,
+p.Headings_•-Chapter-should-be-cited-as {
   font-weight: bold;
 }
-
-/*.•-Bold-condensed--dark-blue- {
-  font-weight: bold;
-  color: var(--col-darkblue)
-}*/

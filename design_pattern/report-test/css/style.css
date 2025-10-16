@@ -76,6 +76,13 @@ h6 {
   column-span: all;
 }
 
+/* Lists ***************************************************** **/
+p.Bullet-and-numbered-lists_•-Bullet-list---first, 
+p.Bullet-and-numbered-lists_•-Bullet-list---last,
+p.Bullet-and-numbered-lists_•-Bullet-list---continued {
+  margin: 0px 0px 4px 0px;;
+}
+
 /* Tables ***************************************************** **/
 
 table {
@@ -153,6 +160,17 @@ hr {
 
 /* Chapter opener ****************************************** **/
 
-.Headings_•-Author-names---chapter-openers {
+.Headings_•-Author-names---chapter-openers,
+.Headings_•-Chapter-should-be-cited-as {
   font-weight: bold;
 }
+
+/*#chapter-button-content {
+    float-reference: page;
+    float: bottom;
+}
+
+#executive-summary {
+  clear: both;
+}*/
+
