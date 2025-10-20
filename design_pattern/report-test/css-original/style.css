@@ -26,8 +26,12 @@ a {
 }
 
 /* Text in two columns */
-.h1-container {
+.col-lg-10 {
   column-count: 2;
+  padding-bottom: 120px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  /* Vivliostyle */
 }
 
 /* Header layout ******************************************** **/
@@ -56,22 +60,25 @@ h6 {
 /* Light blue box */
 .box-container {
   background-color: var(--col-bg-blue);
-  padding: 10px;
+  padding: 20px 10px;
   column-span: all;
   margin-top: 12px;
   margin-bottom: 12px;
   box-decoration-break: clone;
-  -webkit-box-decoration-break: clone; /* Vivliostyle */
+  -webkit-box-decoration-break: clone;
+  /* Vivliostyle */
 }
 
 /* Light yellow FAQ box */
 #frequently-asked-questions {
   background-color: var(--col-bg-yellow);
-  padding: 10px;
+  padding: 20px 10px;
   column-span: all;
-  column-count: 1;
+  margin-top: 12px;
+  margin-bottom: 12px;
   box-decoration-break: clone;
-  -webkit-box-decoration-break: clone; /* Vivliostyle */
+  -webkit-box-decoration-break: clone;
+  /* Vivliostyle */
 }
 
 /* Tables ***************************************************** **/
@@ -151,4 +158,8 @@ hr {
 p.Headings_•-Author-names---chapter-openers,
 p.Headings_•-Chapter-should-be-cited-as {
   font-weight: bold;
+}
+
+.chapter-button-content {
+  column-span: all;
 }
