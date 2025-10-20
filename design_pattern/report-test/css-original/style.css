@@ -60,6 +60,8 @@ h6 {
   column-span: all;
   margin-top: 12px;
   margin-bottom: 12px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone; /* Vivliostyle */
 }
 
 /* Light yellow FAQ box */
@@ -68,6 +70,8 @@ h6 {
   padding: 10px;
   column-span: all;
   column-count: 1;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone; /* Vivliostyle */
 }
 
 /* Tables ***************************************************** **/
