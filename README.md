@@ -1,6 +1,6 @@
 # Climate Knowledge Graph
 
-![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17523109.svg)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17523109.svg)](https://doi.org/10.5281/zenodo.17523109)
 
 Project status: Pre-release. Alpha Knowledge graph ETA end of Q4 2025. (Updated Sept. '25)
 
