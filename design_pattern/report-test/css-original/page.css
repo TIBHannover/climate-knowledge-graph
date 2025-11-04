@@ -150,6 +150,12 @@ header h1 {
   page-break-inside: avoid;
 }
 
+.box-container,
+#frequently-asked-questions {
+  break-before: page;
+}
+
+
 /** Named pages ************************************************ **/
 
 /* Chapter opener */
