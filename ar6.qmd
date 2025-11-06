@@ -6,10 +6,10 @@ Below are all seven main reports that make up AR6. The links are to the sources 
 
 [ipcc.ch/report/ar6/syr](https://www.ipcc.ch/report/ar6/syr/)
 
-Note: As part of the AR6 Cycle there is a further report ‘2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories’ this is not included by the IPCC as part of the main AR6 reporting. The report has been listed at the bottom of the report lists for reference.
+Note: As part of the AR6 Cycle there is a further report ‘2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories’, this is not included by the IPCC as part of the main AR6 reporting. The report has been listed at the bottom of the report lists for reference.
 
 
-NB: Attribution \- thank you to Renu Kumari (NIPGR/\#semanticClimate) for compiling the following list. Updated by Simon worthington and Laura Oldenbourg.
+NB: Attribution \- thank you to Renu Kumari (NIPGR/\#semanticClimate) for compiling the following list. Updated by Simon Worthington and Laura Oldenbourg.
 
 ### **Working Group 1: The Physical Science Basis**
 
