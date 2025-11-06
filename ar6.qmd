@@ -2,11 +2,14 @@
 
 _Structure of the IPCC AR6 Report_
 
-Below are all seven reports that make up AR6. The links are to the sources on the IPCC website.
+Below are all seven main reports that make up AR6. The links are to the sources on the IPCC website.
 
 [ipcc.ch/report/ar6/syr](https://www.ipcc.ch/report/ar6/syr/)
 
-NB: Attribution \- thank you to Renu Kumari (NIPGR/\#semanticClimate) for compiling the following list. 
+Note: As part of the AR6 Cycle there is a further report ‘2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories’ this is not included by the IPCC as part of the main AR6 reporting. The report has been listed at the bottom of the report lists for reference.
+
+
+NB: Attribution \- thank you to Renu Kumari (NIPGR/\#semanticClimate) for compiling the following list. Updated by Simon worthington and Laura Oldenbourg.
 
 ### **Working Group 1: The Physical Science Basis**
 
@@ -118,7 +121,9 @@ NB: Attribution \- thank you to Renu Kumari (NIPGR/\#semanticClimate) for compil
 
 ### AR6: [**Synthesis Report** (syr)](https://www.ipcc.ch/report/ar6/syr/)
 
-To be confirmed
+  * [Summary for Policymakers](https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/)  
+  * [SYR Longer Report](https://www.ipcc.ch/report/ar6/syr/longer-report/)  
+  * [Annexes and Index](https://www.ipcc.ch/report/ar6/syr/annexes-and-index/)
 
 ### **sr15 : Global Warming of 1.5 ºC**
 
@@ -159,4 +164,12 @@ To be confirmed
 * [Chapter 6: Extremes, Abrupt Changes and Managing Risks](https://www.ipcc.ch/srocc/chapter/chapter-6)  
 * [Cross-Chapter Box 9: Integrative Cross-Chapter Box on Low-lying Islands and Coasts](https://www.ipcc.ch/srocc/chapter/cross-chapter-box-9-integrative-cross-chapter-box-on-low-lying-islands-and-coasts/)  
 * [Glossary](https://www.ipcc.ch/srocc/chapter/glossary/)
+
+### **2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories Methodology report**
+
+* Methodology report: [https://www.ipcc.ch/report/2019-refinement-to-the-2006-ipcc-guidelines-for-national-greenhouse-gas-inventories/](https://www.ipcc.ch/report/2019-refinement-to-the-2006-ipcc-guidelines-for-national-greenhouse-gas-inventories/) (not available as HTML, only PDF)
+  * Volumes: [https://www.ipcc-nggip.iges.or.jp/public/2019rf/index.html](https://www.ipcc-nggip.iges.or.jp/public/2019rf/index.html)
+  * Complete volume as ZIP archive: [https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/2019rf_all_in.zip](https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/2019rf_all_in.zip)
+
+
 
