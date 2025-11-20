@@ -1,5 +1,7 @@
 # Climate Knowledge Graph
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17523109.svg)](https://doi.org/10.5281/zenodo.17523109)
+
 Project status: Pre-release. Alpha Knowledge graph ETA end of Q4 2025. (Updated Sept. '25)
 
 The Climate Knowledge Graph (CKG) is an R&D project to make a _knowledge graph_ of the open access parts of the 10,000 page [*IPCC Sixth Assessment Report (AR6)*](https://www.ipcc.ch/assessment-report/ar6/) corpus.
