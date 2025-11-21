@@ -9,6 +9,7 @@
   "author": "Test",
   "inLanguage": "en",
   "readingOrder": [
+    "content/frontmatter.html",
     "content/chapter1.html",
     "content/chapter2.html",
     "content/chapter3.html"
