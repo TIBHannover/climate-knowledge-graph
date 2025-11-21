@@ -1,4 +1,18 @@
+@page {
+size: A6;
+margin: 10mm;
+}
+
 h1 {
     background-color: pink;
     padding: 10px;
+}
+
+body {
+background-color: lightgrey;
+font-family: Arial, sans-serif;
+}
+
+nav li a::after {
+  content: leader("…") target-counter(attr(href url), page);
 }
