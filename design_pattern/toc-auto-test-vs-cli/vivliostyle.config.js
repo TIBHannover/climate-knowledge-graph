@@ -3,10 +3,14 @@ module.exports = {
   title: 'Example of Table of Contents',
   author: 'spring-raining',
   language: 'en',
-  size: 'A4',
+  size: 'A5',
   entry: [
     './manuscript/frontmatter.html',
-    { rel: 'contents' },
+    {
+      path: 'toccy-template.html',
+      output: 'index.html',
+      rel: 'contents'
+    },
     './manuscript/01_Computing Paradigms.html',
     './manuscript/02_Algorithm Design and Analysis.html',
     './manuscript/03_Systems and Architecture.html',

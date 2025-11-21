@@ -8,14 +8,14 @@
   "name": "Example of Table of Contents",
   "author": "spring-raining",
   "inLanguage": "en",
-  "dateModified": "2025-11-21T10:58:35.501Z",
+  "dateModified": "2025-11-21T11:41:31.340Z",
   "readingOrder": [
     {
       "url": "manuscript/frontmatter.html",
       "name": "Frontmatter"
     },
     {
-      "url": "toc.html",
+      "url": "index.html",
       "name": "Table of My Contents",
       "rel": "contents",
       "type": "LinkedResource"
