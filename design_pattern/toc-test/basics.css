@@ -1,0 +1,8 @@
+body {
+background-color: lightgrey;
+font-family: Arial, sans-serif;
+}
+
+nav li a::after {
+  content: leader("…") target-counter(attr(href url), page);
+}
