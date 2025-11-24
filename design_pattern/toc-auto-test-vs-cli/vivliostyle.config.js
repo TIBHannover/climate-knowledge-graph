@@ -19,6 +19,6 @@ module.exports = {
   toc: {
     title: 'Table of My Contents',
     htmlPath: 'toc.html',
-    sectionDepth: 3,
+    sectionDepth: 1,
   },
 };
