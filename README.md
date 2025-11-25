@@ -6,7 +6,7 @@ Project status: Pre-release. Alpha knowledge graph ETA end of Q4 2025.
 
 The Climate Knowledge Graph (CKG) is an R&D project to make a _knowledge graph_ of the open access parts of the 10,000 page [*IPCC Sixth Assessment Report (AR6)*](https://www.ipcc.ch/assessment-report/ar6/) corpus.
 
-[Documentation and Developemt Log](https://tibhannover.github.io/climate-knowledge-graph/) 🖊
+[Documentation and Development Log](https://tibhannover.github.io/climate-knowledge-graph/) 🖊
 
 Git repo: [CKG](https://github.com/TIBHannover/climate-knowledge-graph)
 
