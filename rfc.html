@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-11-06">
+<meta name="dcterms.date" content="2025-11-26">
 
-<title>6&nbsp; RfC – Docs &amp; Dev Log: Climate Knowledge Graph</title>
+<title>7&nbsp; RfC – Docs &amp; Dev Log: Climate Knowledge Graph</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./ar6.html" rel="next">
-<link href="./datamodels.html" rel="prev">
+<link href="./wikibase-import.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./rfc.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">RfC</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./rfc.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">RfC</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -148,8 +148,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./wikibase-import.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Wikibase Import</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./rfc.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">RfC</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">RfC</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -174,10 +180,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#request-for-comment-rfc" id="toc-request-for-comment-rfc" class="nav-link active" data-scroll-target="#request-for-comment-rfc"><span class="header-section-number">6.1</span> Request for Comment (RfC)</a>
+  <li><a href="#request-for-comment-rfc" id="toc-request-for-comment-rfc" class="nav-link active" data-scroll-target="#request-for-comment-rfc"><span class="header-section-number">7.1</span> Request for Comment (RfC)</a>
   <ul class="collapse">
-  <li><a href="#software-architecture-rfc" id="toc-software-architecture-rfc" class="nav-link" data-scroll-target="#software-architecture-rfc"><span class="header-section-number">6.1.1</span> Software Architecture RfC</a></li>
-  <li><a href="#knowledge-graph-construction-using-wikibase-rfc" id="toc-knowledge-graph-construction-using-wikibase-rfc" class="nav-link" data-scroll-target="#knowledge-graph-construction-using-wikibase-rfc"><span class="header-section-number">6.1.2</span> Knowledge Graph Construction Using Wikibase RfC</a></li>
+  <li><a href="#software-architecture-rfc" id="toc-software-architecture-rfc" class="nav-link" data-scroll-target="#software-architecture-rfc"><span class="header-section-number">7.1.1</span> Software Architecture RfC</a></li>
+  <li><a href="#knowledge-graph-construction-using-wikibase-rfc" id="toc-knowledge-graph-construction-using-wikibase-rfc" class="nav-link" data-scroll-target="#knowledge-graph-construction-using-wikibase-rfc"><span class="header-section-number">7.1.2</span> Knowledge Graph Construction Using Wikibase RfC</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/edit/main/rfc.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/blob/main/rfc.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -187,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">RfC</span></h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">RfC</span></h1>
 </div>
 
 
@@ -198,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 6, 2025</p>
+      <p class="date">November 26, 2025</p>
     </div>
   </div>
   
@@ -210,16 +216,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="request-for-comment-rfc" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="request-for-comment-rfc"><span class="header-section-number">6.1</span> Request for Comment (RfC)</h2>
-<section id="software-architecture-rfc" class="level3" data-number="6.1.1">
-<h3 data-number="6.1.1" class="anchored" data-anchor-id="software-architecture-rfc"><span class="header-section-number">6.1.1</span> Software Architecture RfC</h3>
+<section id="request-for-comment-rfc" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="request-for-comment-rfc"><span class="header-section-number">7.1</span> Request for Comment (RfC)</h2>
+<section id="software-architecture-rfc" class="level3" data-number="7.1.1">
+<h3 data-number="7.1.1" class="anchored" data-anchor-id="software-architecture-rfc"><span class="header-section-number">7.1.1</span> Software Architecture RfC</h3>
 <p>Work in progress. To be published end of October 2025.</p>
 <p>RfC</p>
 <p><a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/41">Comments</a></p>
 </section>
-<section id="knowledge-graph-construction-using-wikibase-rfc" class="level3" data-number="6.1.2">
-<h3 data-number="6.1.2" class="anchored" data-anchor-id="knowledge-graph-construction-using-wikibase-rfc"><span class="header-section-number">6.1.2</span> Knowledge Graph Construction Using Wikibase RfC</h3>
+<section id="knowledge-graph-construction-using-wikibase-rfc" class="level3" data-number="7.1.2">
+<h3 data-number="7.1.2" class="anchored" data-anchor-id="knowledge-graph-construction-using-wikibase-rfc"><span class="header-section-number">7.1.2</span> Knowledge Graph Construction Using Wikibase RfC</h3>
 <p>Work in progress. To be published November 2025.</p>
 <p>RfC</p>
 <p>Comments</p>
@@ -651,8 +657,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./datamodels.html" class="pagination-link" aria-label="Data Models">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Data Models</span></span>
+      <a href="./wikibase-import.html" class="pagination-link" aria-label="Wikibase Import">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Wikibase Import</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

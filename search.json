@@ -260,23 +260,43 @@
     ]
   },
   {
+    "objectID": "wikibase-import.html",
+    "href": "wikibase-import.html",
+    "title": "6  Wikibase Import",
+    "section": "",
+    "text": "6.1 IPCC AR6 scrape and import work package",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Wikibase Import</span>"
+    ]
+  },
+  {
+    "objectID": "wikibase-import.html#ipcc-ar6-scrape-and-import-work-package",
+    "href": "wikibase-import.html#ipcc-ar6-scrape-and-import-work-package",
+    "title": "6  Wikibase Import",
+    "section": "",
+    "text": "6.1.1 Work package ‘AR6_WB’ Nov 2025-Jan 2026 (2.5 months)\nIPCC AR6 web scrape import to MediaWiki/Wikibase for the purpose of a proof of concept of the CKG goals and to act as a showcase to raise funds for further work packages and a discovery process for further work packages.\n\n\n6.1.2 Goals: Work package (WP) ‘AR62WB’\n\nHave the AR6 report imported into MediaWiki\n\nHave the imported AR6 report mapped in Wikibase\n\nAllow user browsing of AR6 in MediaWiki\n\nEnable display of Infoboxes on Mediawiki pages using Wikibase entries: https://www.mediawiki.org/wiki/Infobox\n\nApply styling to Mediawiki. Skin https://www.mediawiki.org/wiki/Skin:Tweeki Bootstrap.\n\nEnable elastic search or faceted search in Mediawiki\n\nSupporting AR6 data imported into Wikibase and mapped to report: Authors, references, glossary, acronyms, IPCC qualifiers.\n\nSupport data analysis / enrichment community with strict quality control. Enable community members to download MediaWiki content using Wikibase SPARQL queries. Community members can then carry out their own data analysis and with permission submit updates to Wikibase.\n\nCreate an Entity Relationship Model (ERM) for the AR6 report.\n\nMap ERM in Wikibase to Wikidata and topic schemas.\n\nEnable interface similar to Scholia for the report. Likely to use Semantic MediaWiki plugin as it can allow interfaces which don’t interfere with MediaWiki or Wikibase.\n\nEnable export of content as HTML using CPS Impress to demonstrate content publishing via Quarto. This only needs to be on the command line and using CPS capabilities, Quarto has Pandoc libraries and can be used to convert MediaWiki Markup to HTML, Markdown etc, for Quarto outputting. Write a SPARQL query to allow for selection of sections or chapters based on Wikibase ERM.\n\n\n\n6.1.3 Tasks\n\n6.1.3.1 In scope\nIPCC web scrape import\n\nImport PMR scrape to MediaWiki\n\nPMR scrape https://github.com/petermr/amilib/tree/main/test/resources/ipcc/cleaned_content\n\nInformation about scrapes: https://github.com/TIBHannover/climate-knowledge-graph/issues/31\n\nNote not all sections listed need importing, e.g., Annex\n\n\nImport into MediaWiki and Wikibase to fit with CKG goals as outlined\n\nScrape system specifications input\n\nEstablish tooling used by PMR for scrape and give feedback for its improvement\n\nReport on design of a new scrape software system for future work packages. Including outline, effort/resources/cost/time scale required.\n\nMap MediaWiki to Wikibase\n\nWork on Entity Relationship Model: https://github.com/TIBHannover/climate-knowledge-graph/issues/48#issuecomment-3511931694\n\nSupport: Enable export of content as HTML using CPS Impress to demonstrate content publishing via Quarto\nEnable elastic search or faceted search in Mediawiki\nOther tasks\n\nAR6 data imported into Wikibase and mapped to report: Authors, references, glossary, acronyms, IPCC qualifiers.\n\nApply styling to Mediawiki\n\nMap ERM in Wikibase to Wikidata and topic schemas\n\nEnable interface similar to Scholia for the report using Semantic MediaWiki plugin\n\n\n\n\n6.1.4 Questions/issues:\nDemos\n\nLO/SW - will make demo of MediaWiki and Wikidata setup manually\n\nLO/SW - will add CPS Impress output demo\n\nLO/SW will enable a Semantic MediaWiki plugin demo - https://www.mediawiki.org/wiki/Extension:Semantic_MediaWiki\n\nUseful plugins\nLocal media plugin allows images to show in Wikidata - https://github.com/ProfessionalWiki/WikibaseLocalMedia\n\n\n6.1.5 Out of scope (work for further work packages)\n\nElements within the text will not be hyperlinked. Hyperlinks would be added in following development rounds, hence automation on the text and data import is needed\n\n\n6.1.5.1 Further planned work packages\n(not in order)\nCost, resources, duration needed:\n\nWP 2: Scrape software\n\nWP 3: Content markup and linking\n\nWP 4: MediaWiki search\n\nWP 5: Data analysis and enrichment workflow for data research community - e.g., Federated Search\n\nWP 6: Data transfer to Wikidata\n\nWP 7: CPS Impress UI: Search, publish, and deposit back to Wikibase\n\nWP 8: Improve Scholia like interface\n\nWP 9: Citizen Science project: Chapter Champion\n\nWP 10: Citizen Science project: Wikidata Project\n\nWP 11: AI SPARQL generator\n\nWP 12: AI LLM GraphRAG CPS Impress - search, review, publish, share, save,doi mint and deposit.\n\nWP 13: Schema alignment, mapping, and crosswalking\n\nWP 14: Wikibase/MediaWiki maintenance",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Wikibase Import</span>"
+    ]
+  },
+  {
     "objectID": "rfc.html",
     "href": "rfc.html",
-    "title": "6  RfC",
+    "title": "7  RfC",
     "section": "",
-    "text": "6.1 Request for Comment (RfC)",
+    "text": "7.1 Request for Comment (RfC)",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>RfC</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>RfC</span>"
     ]
   },
   {
     "objectID": "rfc.html#request-for-comment-rfc",
     "href": "rfc.html#request-for-comment-rfc",
-    "title": "6  RfC",
+    "title": "7  RfC",
     "section": "",
-    "text": "6.1.1 Software Architecture RfC\nWork in progress. To be published end of October 2025.\nRfC\nComments\n\n\n6.1.2 Knowledge Graph Construction Using Wikibase RfC\nWork in progress. To be published November 2025.\nRfC\nComments",
+    "text": "7.1.1 Software Architecture RfC\nWork in progress. To be published end of October 2025.\nRfC\nComments\n\n\n7.1.2 Knowledge Graph Construction Using Wikibase RfC\nWork in progress. To be published November 2025.\nRfC\nComments",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>RfC</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>RfC</span>"
     ]
   },
   {
