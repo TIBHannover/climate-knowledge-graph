@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>6&nbsp; Wikibase Import – Docs &amp; Dev Log: Climate Knowledge Graph</title>
+<title>7&nbsp; Wikibase Import – Docs &amp; Dev Log: Climate Knowledge Graph</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./wikibase-import.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Wikibase Import</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./wikibase-import.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Wikibase Import</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -123,38 +123,44 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./work-log.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Work Log</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./workflow.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">CKG Dev Workflow</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">CKG Dev Workflow</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./reports.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">AR6 Quantification</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">AR6 Quantification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./styles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Publication Styles</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Publication Styles</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./datamodels.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Data Models</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Data Models</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./wikibase-import.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Wikibase Import</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Wikibase Import</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./rfc.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">RfC</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">RfC</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -179,13 +185,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#ipcc-ar6-scrape-and-import-work-package" id="toc-ipcc-ar6-scrape-and-import-work-package" class="nav-link active" data-scroll-target="#ipcc-ar6-scrape-and-import-work-package"><span class="header-section-number">6.1</span> IPCC AR6 scrape and import work package</a>
+  <li><a href="#ipcc-ar6-scrape-and-import-work-package" id="toc-ipcc-ar6-scrape-and-import-work-package" class="nav-link active" data-scroll-target="#ipcc-ar6-scrape-and-import-work-package"><span class="header-section-number">7.1</span> IPCC AR6 scrape and import work package</a>
   <ul class="collapse">
-  <li><a href="#work-package-ar62wb-nov-2025-jan-2026-2.5-months" id="toc-work-package-ar62wb-nov-2025-jan-2026-2.5-months" class="nav-link" data-scroll-target="#work-package-ar62wb-nov-2025-jan-2026-2.5-months"><span class="header-section-number">6.1.1</span> Work package ‘AR62WB’ Nov 2025-Jan 2026 (2.5 months)</a></li>
-  <li><a href="#goals-work-package-wp-ar62wb" id="toc-goals-work-package-wp-ar62wb" class="nav-link" data-scroll-target="#goals-work-package-wp-ar62wb"><span class="header-section-number">6.1.2</span> Goals: Work package (WP) ‘AR62WB’</a></li>
-  <li><a href="#tasks" id="toc-tasks" class="nav-link" data-scroll-target="#tasks"><span class="header-section-number">6.1.3</span> Tasks</a></li>
-  <li><a href="#questionsissues" id="toc-questionsissues" class="nav-link" data-scroll-target="#questionsissues"><span class="header-section-number">6.1.4</span> Questions/issues:</a></li>
-  <li><a href="#out-of-scope-work-for-further-work-packages" id="toc-out-of-scope-work-for-further-work-packages" class="nav-link" data-scroll-target="#out-of-scope-work-for-further-work-packages"><span class="header-section-number">6.1.5</span> Out of scope (work for further work packages)</a></li>
+  <li><a href="#work-package-ar62wb-nov-2025-jan-2026-2.5-months" id="toc-work-package-ar62wb-nov-2025-jan-2026-2.5-months" class="nav-link" data-scroll-target="#work-package-ar62wb-nov-2025-jan-2026-2.5-months"><span class="header-section-number">7.1.1</span> Work package ‘AR62WB’ Nov 2025-Jan 2026 (2.5 months)</a></li>
+  <li><a href="#goals-work-package-wp-ar62wb" id="toc-goals-work-package-wp-ar62wb" class="nav-link" data-scroll-target="#goals-work-package-wp-ar62wb"><span class="header-section-number">7.1.2</span> Goals: Work package (WP) ‘AR62WB’</a></li>
+  <li><a href="#tasks" id="toc-tasks" class="nav-link" data-scroll-target="#tasks"><span class="header-section-number">7.1.3</span> Tasks</a></li>
+  <li><a href="#questionsissues" id="toc-questionsissues" class="nav-link" data-scroll-target="#questionsissues"><span class="header-section-number">7.1.4</span> Questions/issues:</a></li>
+  <li><a href="#out-of-scope-work-for-further-work-packages" id="toc-out-of-scope-work-for-further-work-packages" class="nav-link" data-scroll-target="#out-of-scope-work-for-further-work-packages"><span class="header-section-number">7.1.5</span> Out of scope (work for further work packages)</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/edit/main/wikibase-import.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/blob/main/wikibase-import.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -195,7 +201,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Wikibase Import</span></h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Wikibase Import</span></h1>
 </div>
 
 
@@ -215,16 +221,16 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="https://github.com/TIBHannover/Climate-KG-data">Data</a></li>
 <li><a href="https://github.com/TIBHannover/climate-knowledge-graph/issues?q=state%3Aopen%20label%3A%22Wikidata%20Import%20%231%22">Issues</a></li>
-<li><a href="work-log.qmd">Work log</a></li>
+<li><a href="./work-log.html">Work log</a></li>
 </ul>
-<section id="ipcc-ar6-scrape-and-import-work-package" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="ipcc-ar6-scrape-and-import-work-package"><span class="header-section-number">6.1</span> IPCC AR6 scrape and import work package</h2>
-<section id="work-package-ar62wb-nov-2025-jan-2026-2.5-months" class="level3" data-number="6.1.1">
-<h3 data-number="6.1.1" class="anchored" data-anchor-id="work-package-ar62wb-nov-2025-jan-2026-2.5-months"><span class="header-section-number">6.1.1</span> Work package ‘AR62WB’ Nov 2025-Jan 2026 (2.5 months)</h3>
+<section id="ipcc-ar6-scrape-and-import-work-package" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="ipcc-ar6-scrape-and-import-work-package"><span class="header-section-number">7.1</span> IPCC AR6 scrape and import work package</h2>
+<section id="work-package-ar62wb-nov-2025-jan-2026-2.5-months" class="level3" data-number="7.1.1">
+<h3 data-number="7.1.1" class="anchored" data-anchor-id="work-package-ar62wb-nov-2025-jan-2026-2.5-months"><span class="header-section-number">7.1.1</span> Work package ‘AR62WB’ Nov 2025-Jan 2026 (2.5 months)</h3>
 <p>IPCC AR6 web scrape import to MediaWiki/Wikibase for the purpose of a proof of concept of the CKG goals and to act as a showcase to raise funds for further work packages and a discovery process for further work packages.</p>
 </section>
-<section id="goals-work-package-wp-ar62wb" class="level3" data-number="6.1.2">
-<h3 data-number="6.1.2" class="anchored" data-anchor-id="goals-work-package-wp-ar62wb"><span class="header-section-number">6.1.2</span> Goals: Work package (WP) ‘AR62WB’</h3>
+<section id="goals-work-package-wp-ar62wb" class="level3" data-number="7.1.2">
+<h3 data-number="7.1.2" class="anchored" data-anchor-id="goals-work-package-wp-ar62wb"><span class="header-section-number">7.1.2</span> Goals: Work package (WP) ‘AR62WB’</h3>
 <ul>
 <li>Have the AR6 report imported into MediaWiki<br>
 </li>
@@ -251,10 +257,10 @@ ul.task-list li input[type="checkbox"] {
 <li>Enable export of content as HTML using CPS Impress to demonstrate content publishing via Quarto. This only needs to be on the command line and using CPS capabilities, Quarto has Pandoc libraries and can be used to convert MediaWiki Markup to HTML, Markdown etc, for Quarto outputting. Write a SPARQL query to allow for selection of sections or chapters based on Wikibase ERM.</li>
 </ul>
 </section>
-<section id="tasks" class="level3" data-number="6.1.3">
-<h3 data-number="6.1.3" class="anchored" data-anchor-id="tasks"><span class="header-section-number">6.1.3</span> Tasks</h3>
-<section id="in-scope" class="level4" data-number="6.1.3.1">
-<h4 data-number="6.1.3.1" class="anchored" data-anchor-id="in-scope"><span class="header-section-number">6.1.3.1</span> In scope</h4>
+<section id="tasks" class="level3" data-number="7.1.3">
+<h3 data-number="7.1.3" class="anchored" data-anchor-id="tasks"><span class="header-section-number">7.1.3</span> Tasks</h3>
+<section id="in-scope" class="level4" data-number="7.1.3.1">
+<h4 data-number="7.1.3.1" class="anchored" data-anchor-id="in-scope"><span class="header-section-number">7.1.3.1</span> In scope</h4>
 <p><strong>IPCC web scrape import</strong></p>
 <ul>
 <li>Import PMR scrape to MediaWiki
@@ -292,8 +298,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 </section>
-<section id="questionsissues" class="level3" data-number="6.1.4">
-<h3 data-number="6.1.4" class="anchored" data-anchor-id="questionsissues"><span class="header-section-number">6.1.4</span> Questions/issues:</h3>
+<section id="questionsissues" class="level3" data-number="7.1.4">
+<h3 data-number="7.1.4" class="anchored" data-anchor-id="questionsissues"><span class="header-section-number">7.1.4</span> Questions/issues:</h3>
 <p>Demos</p>
 <ul>
 <li>LO/SW - will make demo of MediaWiki and Wikidata setup manually<br>
@@ -305,13 +311,13 @@ ul.task-list li input[type="checkbox"] {
 <p>Useful plugins<br>
 Local media plugin allows images to show in Wikidata - <a href="https://github.com/ProfessionalWiki/WikibaseLocalMedia">https://github.com/ProfessionalWiki/WikibaseLocalMedia</a></p>
 </section>
-<section id="out-of-scope-work-for-further-work-packages" class="level3" data-number="6.1.5">
-<h3 data-number="6.1.5" class="anchored" data-anchor-id="out-of-scope-work-for-further-work-packages"><span class="header-section-number">6.1.5</span> Out of scope (work for further work packages)</h3>
+<section id="out-of-scope-work-for-further-work-packages" class="level3" data-number="7.1.5">
+<h3 data-number="7.1.5" class="anchored" data-anchor-id="out-of-scope-work-for-further-work-packages"><span class="header-section-number">7.1.5</span> Out of scope (work for further work packages)</h3>
 <ul>
 <li>Elements within the text will not be hyperlinked. Hyperlinks would be added in following development rounds, hence automation on the text and data import is needed</li>
 </ul>
-<section id="further-planned-work-packages" class="level4" data-number="6.1.5.1">
-<h4 data-number="6.1.5.1" class="anchored" data-anchor-id="further-planned-work-packages"><span class="header-section-number">6.1.5.1</span> Further planned work packages</h4>
+<section id="further-planned-work-packages" class="level4" data-number="7.1.5.1">
+<h4 data-number="7.1.5.1" class="anchored" data-anchor-id="further-planned-work-packages"><span class="header-section-number">7.1.5.1</span> Further planned work packages</h4>
 <p>(not in order)</p>
 <p>Cost, resources, duration needed:</p>
 <ul>
@@ -771,12 +777,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./datamodels.html" class="pagination-link" aria-label="Data Models">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Data Models</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Data Models</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./rfc.html" class="pagination-link" aria-label="RfC">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">RfC</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">RfC</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

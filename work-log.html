@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>6&nbsp; Data Models – Docs &amp; Dev Log: Climate Knowledge Graph</title>
+<title>2&nbsp; Work Log – Docs &amp; Dev Log: Climate Knowledge Graph</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./wikibase-import.html" rel="next">
-<link href="./styles.html" rel="prev">
+<link href="./workflow.html" rel="next">
+<link href="./roadmap.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./datamodels.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Data Models</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./work-log.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Work Log</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -123,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./work-log.html" class="sidebar-item-text sidebar-link">
+  <a href="./work-log.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Work Log</span></span></a>
   </div>
 </li>
@@ -147,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./datamodels.html" class="sidebar-item-text sidebar-link active">
+  <a href="./datamodels.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Data Models</span></span></a>
   </div>
 </li>
@@ -185,27 +185,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#ar6-sources" id="toc-ar6-sources" class="nav-link active" data-scroll-target="#ar6-sources"><span class="header-section-number">6.1</span> AR6 sources</a></li>
-  <li><a href="#data-models-to-be-created" id="toc-data-models-to-be-created" class="nav-link" data-scroll-target="#data-models-to-be-created"><span class="header-section-number">6.2</span> Data models to be created</a>
-  <ul class="collapse">
-  <li><a href="#ar6-individual-report-publication-structure-syntax-and-semantic" id="toc-ar6-individual-report-publication-structure-syntax-and-semantic" class="nav-link" data-scroll-target="#ar6-individual-report-publication-structure-syntax-and-semantic"><span class="header-section-number">6.2.1</span> AR6 individual report publication structure (syntax and semantic)</a></li>
-  <li><a href="#ipcc-qualifiers-vocabulary" id="toc-ipcc-qualifiers-vocabulary" class="nav-link" data-scroll-target="#ipcc-qualifiers-vocabulary"><span class="header-section-number">6.2.2</span> IPCC Qualifiers (Vocabulary)</a></li>
-  <li><a href="#ar6-bibliographic-information" id="toc-ar6-bibliographic-information" class="nav-link" data-scroll-target="#ar6-bibliographic-information"><span class="header-section-number">6.2.3</span> AR6 bibliographic information</a></li>
-  <li><a href="#authors-and-contributors" id="toc-authors-and-contributors" class="nav-link" data-scroll-target="#authors-and-contributors"><span class="header-section-number">6.2.4</span> Authors and contributors</a></li>
-  <li><a href="#glossary-acronymes-and-index" id="toc-glossary-acronymes-and-index" class="nav-link" data-scroll-target="#glossary-acronymes-and-index"><span class="header-section-number">6.2.5</span> Glossary, acronymes, and index</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">6.2.6</span> References</a></li>
-  <li><a href="#community-annotation-and-submissions-review" id="toc-community-annotation-and-submissions-review" class="nav-link" data-scroll-target="#community-annotation-and-submissions-review"><span class="header-section-number">6.2.7</span> Community annotation and submissions review</a></li>
-  <li><a href="#ckg-publications" id="toc-ckg-publications" class="nav-link" data-scroll-target="#ckg-publications"><span class="header-section-number">6.2.8</span> CKG Publications</a></li>
-  </ul></li>
+  <li><a href="#work-packages" id="toc-work-packages" class="nav-link active" data-scroll-target="#work-packages"><span class="header-section-number">2.1</span> Work packages</a></li>
+  <li><a href="#nov" id="toc-nov" class="nav-link" data-scroll-target="#nov"><span class="header-section-number">2.2</span> Nov</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/edit/main/datamodels.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/blob/main/datamodels.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/edit/main/work-log.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/blob/main/work-log.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Data Models</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Work Log</span></h1>
 </div>
 
 
@@ -222,333 +212,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Status: Provisional (Sept ‘25’)</p>
-<p>CKG knowledge graph data models.</p>
-<section id="ar6-sources" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="ar6-sources"><span class="header-section-number">6.1</span> AR6 sources</h2>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<svg width="672" height="480" viewbox="0.00 0.00 1424.22 332.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 328)">
-<title>CKG_data_model</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-328 1420.22,-328 1420.22,4 -4,4"></polygon>
-<!-- AR6_Organization -->
-<g id="node1" class="node">
-<title>AR6_Organization</title>
-<ellipse fill="none" stroke="black" cx="591.07" cy="-306" rx="84.54" ry="18"></ellipse>
-<text text-anchor="middle" x="591.07" y="-301.8" font-family="Times,serif" font-size="14.00">AR6_Organization</text>
-</g>
-<!-- AR6 -->
-<g id="node2" class="node">
-<title>AR6</title>
-<ellipse fill="none" stroke="black" cx="723.07" cy="-306" rx="29.06" ry="18"></ellipse>
-<text text-anchor="middle" x="723.07" y="-301.8" font-family="Times,serif" font-size="14.00">AR6</text>
-</g>
-<!-- AR6_Organization&#45;&#45;AR6 -->
-<g id="edge1" class="edge">
-<title>AR6_Organization--AR6</title>
-<path fill="none" stroke="black" d="M675.63,-306C681.56,-306 687.49,-306 693.42,-306"></path>
-</g>
-<!-- Reports -->
-<g id="node24" class="node">
-<title>Reports</title>
-<ellipse fill="none" stroke="black" cx="723.07" cy="-234" rx="41.16" ry="18"></ellipse>
-<text text-anchor="middle" x="723.07" y="-229.8" font-family="Times,serif" font-size="14.00">Reports</text>
-</g>
-<!-- AR6&#45;&#45;Reports -->
-<g id="edge2" class="edge">
-<title>AR6--Reports</title>
-<path fill="none" stroke="black" d="M723.07,-287.7C723.07,-276.85 723.07,-262.92 723.07,-252.1"></path>
-</g>
-<!-- IPCC_website -->
-<g id="node3" class="node">
-<title>IPCC_website</title>
-<ellipse fill="none" stroke="black" cx="1093.07" cy="-162" rx="66.67" ry="18"></ellipse>
-<text text-anchor="middle" x="1093.07" y="-157.8" font-family="Times,serif" font-size="14.00">IPCC_website</text>
-</g>
-<!-- Report_translations -->
-<g id="node6" class="node">
-<title>Report_translations</title>
-<ellipse fill="none" stroke="black" cx="1265.07" cy="-162" rx="86.84" ry="18"></ellipse>
-<text text-anchor="middle" x="1265.07" y="-157.8" font-family="Times,serif" font-size="14.00">Report_translations</text>
-</g>
-<!-- IPCC_website&#45;&#45;Report_translations -->
-<g id="edge7" class="edge">
-<title>IPCC_website--Report_translations</title>
-<path fill="none" stroke="black" d="M1159.92,-162C1165.94,-162 1171.97,-162 1177.99,-162"></path>
-</g>
-<!-- Report_PDFs -->
-<g id="node7" class="node">
-<title>Report_PDFs</title>
-<ellipse fill="none" stroke="black" cx="202.07" cy="-90" rx="63.74" ry="18"></ellipse>
-<text text-anchor="middle" x="202.07" y="-85.8" font-family="Times,serif" font-size="14.00">Report_PDFs</text>
-</g>
-<!-- IPCC_website&#45;&#45;Report_PDFs -->
-<g id="edge5" class="edge">
-<title>IPCC_website--Report_PDFs</title>
-<path fill="none" stroke="black" d="M1026.32,-160.45C886.18,-158.47 551.33,-149.41 274.07,-108 265.3,-106.69 256.03,-104.85 247.17,-102.87"></path>
-</g>
-<!-- Report_HTML -->
-<g id="node8" class="node">
-<title>Report_HTML</title>
-<ellipse fill="none" stroke="black" cx="1093.07" cy="-90" rx="69.51" ry="18"></ellipse>
-<text text-anchor="middle" x="1093.07" y="-85.8" font-family="Times,serif" font-size="14.00">Report_HTML</text>
-</g>
-<!-- IPCC_website&#45;&#45;Report_HTML -->
-<g id="edge6" class="edge">
-<title>IPCC_website--Report_HTML</title>
-<path fill="none" stroke="black" d="M1093.07,-143.7C1093.07,-132.85 1093.07,-118.92 1093.07,-108.1"></path>
-</g>
-<!-- Figures -->
-<g id="node20" class="node">
-<title>Figures</title>
-<ellipse fill="none" stroke="black" cx="927.07" cy="-18" rx="40.01" ry="18"></ellipse>
-<text text-anchor="middle" x="927.07" y="-13.8" font-family="Times,serif" font-size="14.00">Figures</text>
-</g>
-<!-- IPCC_website&#45;&#45;Figures -->
-<g id="edge19" class="edge">
-<title>IPCC_website--Figures</title>
-<path fill="none" stroke="black" d="M1066.85,-145.33C1051,-135.39 1030.7,-121.84 1014.07,-108 999.2,-95.63 962.59,-57.05 941.91,-34.96"></path>
-</g>
-<!-- References -->
-<g id="node21" class="node">
-<title>References</title>
-<ellipse fill="none" stroke="black" cx="1151.07" cy="-18" rx="53.85" ry="18"></ellipse>
-<text text-anchor="middle" x="1151.07" y="-13.8" font-family="Times,serif" font-size="14.00">References</text>
-</g>
-<!-- IPCC_website&#45;&#45;References -->
-<g id="edge20" class="edge">
-<title>IPCC_website--References</title>
-<path fill="none" stroke="black" d="M1128.78,-146.61C1145.1,-138.01 1162.82,-125.34 1172.07,-108 1184.39,-84.89 1172.11,-54.6 1161.82,-35.98"></path>
-</g>
-<!-- Glossary -->
-<g id="node22" class="node">
-<title>Glossary</title>
-<ellipse fill="none" stroke="black" cx="1268.07" cy="-18" rx="45.24" ry="18"></ellipse>
-<text text-anchor="middle" x="1268.07" y="-13.8" font-family="Times,serif" font-size="14.00">Glossary</text>
-</g>
-<!-- IPCC_website&#45;&#45;Glossary -->
-<g id="edge21" class="edge">
-<title>IPCC_website--Glossary</title>
-<path fill="none" stroke="black" d="M1126.35,-146.14C1145.66,-136.68 1169.89,-123.34 1189.07,-108 1216.17,-86.32 1241.73,-54.77 1256.09,-35.63"></path>
-</g>
-<!-- Authors -->
-<g id="node23" class="node">
-<title>Authors</title>
-<ellipse fill="none" stroke="black" cx="1374.07" cy="-18" rx="42.31" ry="18"></ellipse>
-<text text-anchor="middle" x="1374.07" y="-13.8" font-family="Times,serif" font-size="14.00">Authors</text>
-</g>
-<!-- IPCC_website&#45;&#45;Authors -->
-<g id="edge22" class="edge">
-<title>IPCC_website--Authors</title>
-<path fill="none" stroke="black" d="M1130.62,-146.99C1156.45,-136.98 1191.32,-122.73 1221.07,-108 1268.85,-84.34 1322.14,-51.87 1351.53,-33.4"></path>
-</g>
-<!-- Publishers -->
-<g id="node4" class="node">
-<title>Publishers</title>
-<ellipse fill="none" stroke="black" cx="353.07" cy="-162" rx="51.05" ry="18"></ellipse>
-<text text-anchor="middle" x="353.07" y="-157.8" font-family="Times,serif" font-size="14.00">Publishers</text>
-</g>
-<!-- License_info -->
-<g id="node5" class="node">
-<title>License_info</title>
-<ellipse fill="none" stroke="black" cx="484.07" cy="-162" rx="61.4" ry="18"></ellipse>
-<text text-anchor="middle" x="484.07" y="-157.8" font-family="Times,serif" font-size="14.00">License_info</text>
-</g>
-<!-- Publishers&#45;&#45;License_info -->
-<g id="edge10" class="edge">
-<title>Publishers--License_info</title>
-<path fill="none" stroke="black" d="M404.5,-162C410.51,-162 416.51,-162 422.52,-162"></path>
-</g>
-<!-- Publishers&#45;&#45;Report_PDFs -->
-<g id="edge8" class="edge">
-<title>Publishers--Report_PDFs</title>
-<path fill="none" stroke="black" d="M323.24,-147.17C297.36,-135.18 260.04,-117.87 233.66,-105.65"></path>
-</g>
-<!-- Crossref_DOIs -->
-<g id="node9" class="node">
-<title>Crossref_DOIs</title>
-<ellipse fill="none" stroke="black" cx="353.07" cy="-90" rx="69.51" ry="18"></ellipse>
-<text text-anchor="middle" x="353.07" y="-85.8" font-family="Times,serif" font-size="14.00">Crossref_DOIs</text>
-</g>
-<!-- Publishers&#45;&#45;Crossref_DOIs -->
-<g id="edge9" class="edge">
-<title>Publishers--Crossref_DOIs</title>
-<path fill="none" stroke="black" d="M353.07,-143.7C353.07,-132.85 353.07,-118.92 353.07,-108.1"></path>
-</g>
-<!-- Indexes -->
-<g id="node15" class="node">
-<title>Indexes</title>
-<ellipse fill="none" stroke="black" cx="41.07" cy="-18" rx="41.14" ry="18"></ellipse>
-<text text-anchor="middle" x="41.07" y="-13.8" font-family="Times,serif" font-size="14.00">Indexes</text>
-</g>
-<!-- Report_PDFs&#45;&#45;Indexes -->
-<g id="edge23" class="edge">
-<title>Report_PDFs--Indexes</title>
-<path fill="none" stroke="black" d="M168.71,-74.5C139.33,-61.72 97.01,-43.32 69.28,-31.27"></path>
-</g>
-<!-- Acronyms -->
-<g id="node16" class="node">
-<title>Acronyms</title>
-<ellipse fill="none" stroke="black" cx="151.07" cy="-18" rx="51.04" ry="18"></ellipse>
-<text text-anchor="middle" x="151.07" y="-13.8" font-family="Times,serif" font-size="14.00">Acronyms</text>
-</g>
-<!-- Report_PDFs&#45;&#45;Acronyms -->
-<g id="edge25" class="edge">
-<title>Report_PDFs--Acronyms</title>
-<path fill="none" stroke="black" d="M189.72,-72.05C181.7,-61.05 171.3,-46.76 163.3,-35.79"></path>
-</g>
-<!-- Notes -->
-<g id="node17" class="node">
-<title>Notes</title>
-<ellipse fill="none" stroke="black" cx="254.07" cy="-18" rx="33.63" ry="18"></ellipse>
-<text text-anchor="middle" x="254.07" y="-13.8" font-family="Times,serif" font-size="14.00">Notes</text>
-</g>
-<!-- Report_PDFs&#45;&#45;Notes -->
-<g id="edge24" class="edge">
-<title>Report_PDFs--Notes</title>
-<path fill="none" stroke="black" d="M214.66,-72.05C222.95,-60.89 233.76,-46.34 241.95,-35.31"></path>
-</g>
-<!-- Page_numbers -->
-<g id="node18" class="node">
-<title>Page_numbers</title>
-<ellipse fill="none" stroke="black" cx="373.07" cy="-18" rx="67.79" ry="18"></ellipse>
-<text text-anchor="middle" x="373.07" y="-13.8" font-family="Times,serif" font-size="14.00">Page_numbers</text>
-</g>
-<!-- Report_PDFs&#45;&#45;Page_numbers -->
-<g id="edge26" class="edge">
-<title>Report_PDFs--Page_numbers</title>
-<path fill="none" stroke="black" d="M236.67,-74.83C266.05,-62.81 308.02,-45.63 337.63,-33.51"></path>
-</g>
-<!-- Bibliographic_info -->
-<g id="node14" class="node">
-<title>Bibliographic_info</title>
-<ellipse fill="none" stroke="black" cx="603.07" cy="-18" rx="84.55" ry="18"></ellipse>
-<text text-anchor="middle" x="603.07" y="-13.8" font-family="Times,serif" font-size="14.00">Bibliographic_info</text>
-</g>
-<!-- Crossref_DOIs&#45;&#45;Bibliographic_info -->
-<g id="edge11" class="edge">
-<title>Crossref_DOIs--Bibliographic_info</title>
-<path fill="none" stroke="black" d="M398.34,-76.32C442.24,-64.03 508.66,-45.43 553.85,-32.78"></path>
-</g>
-<!-- Zenodo_DOIs -->
-<g id="node10" class="node">
-<title>Zenodo_DOIs</title>
-<ellipse fill="none" stroke="black" cx="507.07" cy="-90" rx="66.07" ry="18"></ellipse>
-<text text-anchor="middle" x="507.07" y="-85.8" font-family="Times,serif" font-size="14.00">Zenodo_DOIs</text>
-</g>
-<!-- Zenodo_DOIs&#45;&#45;Bibliographic_info -->
-<g id="edge12" class="edge">
-<title>Zenodo_DOIs--Bibliographic_info</title>
-<path fill="none" stroke="black" d="M529.33,-72.76C544.73,-61.54 565.15,-46.65 580.59,-35.39"></path>
-</g>
-<!-- UN_Library -->
-<g id="node11" class="node">
-<title>UN_Library</title>
-<ellipse fill="none" stroke="black" cx="810.07" cy="-90" rx="58.54" ry="18"></ellipse>
-<text text-anchor="middle" x="810.07" y="-85.8" font-family="Times,serif" font-size="14.00">UN_Library</text>
-</g>
-<!-- UN_Library&#45;&#45;Bibliographic_info -->
-<g id="edge16" class="edge">
-<title>UN_Library--Bibliographic_info</title>
-<path fill="none" stroke="black" d="M772.1,-76.16C736.5,-64.12 683.33,-46.14 646.16,-33.57"></path>
-</g>
-<!-- Data -->
-<g id="node19" class="node">
-<title>Data</title>
-<ellipse fill="none" stroke="black" cx="825.07" cy="-18" rx="29.03" ry="18"></ellipse>
-<text text-anchor="middle" x="825.07" y="-13.8" font-family="Times,serif" font-size="14.00">Data</text>
-</g>
-<!-- UN_Library&#45;&#45;Data -->
-<g id="edge17" class="edge">
-<title>UN_Library--Data</title>
-<path fill="none" stroke="black" d="M813.78,-71.7C816.1,-60.85 819.09,-46.92 821.4,-36.1"></path>
-</g>
-<!-- UN_Library&#45;&#45;Figures -->
-<g id="edge18" class="edge">
-<title>UN_Library--Figures</title>
-<path fill="none" stroke="black" d="M835.74,-73.64C856.06,-61.48 884.18,-44.66 903.83,-32.9"></path>
-</g>
-<!-- NASA_Library -->
-<g id="node12" class="node">
-<title>NASA_Library</title>
-<ellipse fill="none" stroke="black" cx="662.07" cy="-90" rx="71.23" ry="18"></ellipse>
-<text text-anchor="middle" x="662.07" y="-85.8" font-family="Times,serif" font-size="14.00">NASA_Library</text>
-</g>
-<!-- NASA_Library&#45;&#45;Bibliographic_info -->
-<g id="edge13" class="edge">
-<title>NASA_Library--Bibliographic_info</title>
-<path fill="none" stroke="black" d="M647.79,-72.05C638.51,-61.05 626.47,-46.76 617.22,-35.79"></path>
-</g>
-<!-- GitHub -->
-<g id="node13" class="node">
-<title>GitHub</title>
-<ellipse fill="none" stroke="black" cx="927.07" cy="-90" rx="40.01" ry="18"></ellipse>
-<text text-anchor="middle" x="927.07" y="-85.8" font-family="Times,serif" font-size="14.00">GitHub</text>
-</g>
-<!-- GitHub&#45;&#45;Data -->
-<g id="edge14" class="edge">
-<title>GitHub--Data</title>
-<path fill="none" stroke="black" d="M905.93,-74.5C887.73,-62 861.68,-44.13 844.11,-32.07"></path>
-</g>
-<!-- GitHub&#45;&#45;Figures -->
-<g id="edge15" class="edge">
-<title>GitHub--Figures</title>
-<path fill="none" stroke="black" d="M927.07,-71.7C927.07,-60.85 927.07,-46.92 927.07,-36.1"></path>
-</g>
-<!-- Reports&#45;&#45;IPCC_website -->
-<g id="edge4" class="edge">
-<title>Reports--IPCC_website</title>
-<path fill="none" stroke="black" d="M760.24,-225.97C826.21,-213.49 963.96,-187.43 1039.93,-173.05"></path>
-</g>
-<!-- Reports&#45;&#45;Publishers -->
-<g id="edge3" class="edge">
-<title>Reports--Publishers</title>
-<path fill="none" stroke="black" d="M684.28,-227.64C625.49,-219.24 510.46,-201.64 414.07,-180 406.56,-178.31 398.6,-176.28 390.99,-174.21"></path>
-</g>
-</g>
-</svg>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
+<section id="work-packages" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="work-packages"><span class="header-section-number">2.1</span> Work packages</h2>
+<ul>
+<li>IPCC Assement Report Six to Wikibase (AR62W)</li>
+<li>Reporting / community (REP)</li>
+<li>Publishing (PUB)</li>
+</ul>
 </section>
-<section id="data-models-to-be-created" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="data-models-to-be-created"><span class="header-section-number">6.2</span> Data models to be created</h2>
-<section id="ar6-individual-report-publication-structure-syntax-and-semantic" class="level3" data-number="6.2.1">
-<h3 data-number="6.2.1" class="anchored" data-anchor-id="ar6-individual-report-publication-structure-syntax-and-semantic"><span class="header-section-number">6.2.1</span> AR6 individual report publication structure (syntax and semantic)</h3>
-<p>WIP: <a href="https://docs.google.com/spreadsheets/d/1qWmnNQ-syLw8VotTaRIvVspAffnLLKMjItt3a_z1iNE/edit?gid=0#gid=0">Google spreadsheet</a></p>
-</section>
-<section id="ipcc-qualifiers-vocabulary" class="level3" data-number="6.2.2">
-<h3 data-number="6.2.2" class="anchored" data-anchor-id="ipcc-qualifiers-vocabulary"><span class="header-section-number">6.2.2</span> IPCC Qualifiers (Vocabulary)</h3>
-<p>E.g, Confidence levels, Likelihoods, Special likelihoods, Ecosystems, Adverse outcomes, Regions, DPSIR (DPSIR is a causal framework used to describe the interactions between society and the environment)</p>
-</section>
-<section id="ar6-bibliographic-information" class="level3" data-number="6.2.3">
-<h3 data-number="6.2.3" class="anchored" data-anchor-id="ar6-bibliographic-information"><span class="header-section-number">6.2.3</span> AR6 bibliographic information</h3>
-<p>Derived from DOIs</p>
-</section>
-<section id="authors-and-contributors" class="level3" data-number="6.2.4">
-<h3 data-number="6.2.4" class="anchored" data-anchor-id="authors-and-contributors"><span class="header-section-number">6.2.4</span> Authors and contributors</h3>
-</section>
-<section id="glossary-acronymes-and-index" class="level3" data-number="6.2.5">
-<h3 data-number="6.2.5" class="anchored" data-anchor-id="glossary-acronymes-and-index"><span class="header-section-number">6.2.5</span> Glossary, acronymes, and index</h3>
-</section>
-<section id="references" class="level3" data-number="6.2.6">
-<h3 data-number="6.2.6" class="anchored" data-anchor-id="references"><span class="header-section-number">6.2.6</span> References</h3>
-</section>
-<section id="community-annotation-and-submissions-review" class="level3" data-number="6.2.7">
-<h3 data-number="6.2.7" class="anchored" data-anchor-id="community-annotation-and-submissions-review"><span class="header-section-number">6.2.7</span> Community annotation and submissions review</h3>
-</section>
-<section id="ckg-publications" class="level3" data-number="6.2.8">
-<h3 data-number="6.2.8" class="anchored" data-anchor-id="ckg-publications"><span class="header-section-number">6.2.8</span> CKG Publications</h3>
-<p>CKG publications are the user search reults (sections of AR6) that are compiled into a report publication (linked back to their source) and saved as part of CKG.</p>
+<section id="nov" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="nov"><span class="header-section-number">2.2</span> Nov</h2>
+<ul>
+<li>24-28 Nov: Supporting data selection (in scope / out of scope) and prioritiesation https://github.com/TIBHannover/climate-knowledge-graph/issues/52 (AR62W)</li>
+<li>24-26 Nov: AR6 scrape data handover and protocol: Issue https://github.com/TIBHannover/climate-knowledge-graph/issues/58 Repo: https://github.com/TIBHannover/climate-knowledge-graph/issues/58 (AR62W)</li>
+<li>24 Nov: CSS ToC and Vivlio support (PUB)</li>
+<li>24 Nov: Project reports for review (REP)</li>
+</ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -974,13 +655,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./styles.html" class="pagination-link" aria-label="Publication Styles">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Publication Styles</span></span>
+      <a href="./roadmap.html" class="pagination-link" aria-label="Project Roadmap">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Project Roadmap</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./wikibase-import.html" class="pagination-link" aria-label="Wikibase Import">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Wikibase Import</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./workflow.html" class="pagination-link" aria-label="CKG Dev Workflow">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">CKG Dev Workflow</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -989,4 +670,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/edit/main/datamodels.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/blob/main/datamodels.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/edit/main/work-log.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/blob/main/work-log.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
