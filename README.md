@@ -1,12 +1,12 @@
 # Climate Knowledge Graph
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17523109.svg)](https://doi.org/10.5281/zenodo.17523109)
+DOI: https://doi.org/10.5281/zenodo.17523109
 
-Project status: Pre-release. Alpha Knowledge graph ETA end of Q4 2025. (Updated Sept. '25)
+Project status: Pre-release. Alpha knowledge graph ETA end of Q4 2025. 
 
 The Climate Knowledge Graph (CKG) is an R&D project to make a _knowledge graph_ of the open access parts of the 10,000 page [*IPCC Sixth Assessment Report (AR6)*](https://www.ipcc.ch/assessment-report/ar6/) corpus.
 
-[Documentation and Developemt Log](https://tibhannover.github.io/climate-knowledge-graph/) 🖊
+[Documentation and Development Log](https://tibhannover.github.io/climate-knowledge-graph/) 🖊
 
 Git repo: [CKG](https://github.com/TIBHannover/climate-knowledge-graph)
 
@@ -20,25 +20,6 @@ The goal is to enable easier knowledge use from complex document corpus by:
 CKG uses open-source software and can be used on any document corpus.
 
 \#ClimateKG 🌏🌍🌎
-
-
-![Alt text](https://g.gravizo.com/source/custom_mark10?https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/refs/heads/main/README.md)
-<details> 
-<summary></summary>
-custom_mark10
-digraph CKG {
-  rankdir="LR"
-  {node [fillcolor="#A9DDD6" margin=0 fontcolor=black fixedsize=true fontsize=18 width=1.6 shape=circle style=filled fontname="Arial"]
-    a [label="IPCC \nReport"]
-    b [label="Knowledge \nGraph"]
-    c [label="Search & \nPublish"]
-    d [label="Data \nAnalysis"] 
-  }
-  a -> b
-  b -> {c d} [dir=both]
-}
-custom_mark10
-</details>
 
 Climate Knowledge Graph is an R\&D project hosted at [TIB](https://www.tib.eu/en) – Leibniz Information Centre for Science and Technology and University Library - Germany, and organised partnership with [\#semanticClimate](https://semanticclimate.github.io/p/en/) and and the National Institute of Plant Genome Research  [(NIPGR)](https://nipgr.ac.in/nipgrv2/index.html) – India.
 
