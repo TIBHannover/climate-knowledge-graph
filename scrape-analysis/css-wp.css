@@ -1,0 +1,59 @@
+.section-number {
+  background-color:fuchsia;
+}
+
+.authors {
+  background-color: azure;
+}
+
+/* Footnotes and references */
+sup.bf-footnote, sup.bf-reference {
+  border: 2px solid black;
+}
+
+li.reference, li.footnote {
+   border: 2px solid grey; 
+}
+
+/* HTML headers */
+h2, h3, h4, h5, h6 {
+  background-color: bisque;
+}
+
+/* Section with content */
+.chapter-section {
+  border: 4px solid red;
+}
+
+/* Figure with text */
+figure {
+  border: 4px solid blue;
+  background-color: aquamarine;
+}
+
+figure.table {
+  background-color: lightcoral
+}
+
+table {
+  border: 2px solid brown;
+}
+
+.faq {
+  background-color: blueviolet
+}
+
+/* Start of section with header */
+.section-text {
+  border: 3px solid green;
+  background-color: beige;
+}
+
+/* Contents of a section */
+.section-content {
+    border: 3px solid yellow;
+}
+
+p {
+      border: 3px solid purple;
+}
