@@ -28,11 +28,11 @@ h2, h3, h4, h5, h6 {
 /* Figure with text */
 figure {
   border: 4px solid blue;
-  background-color: aquamarine;
+  background-color: #7fffd4;
 }
 
 figure.table {
-  background-color: lightcoral
+  background-color: lightcoral;
 }
 
 table {
@@ -40,7 +40,7 @@ table {
 }
 
 .faq {
-  background-color: blueviolet
+  background-color: blueviolet;
 }
 
 /* Start of section with header */
