@@ -1,0 +1,14 @@
+# Work Log
+
+## Work packages
+
+* IPCC Assement Report Six to Wikibase (AR62W)
+* Reporting / community (REP)
+* Publishing (PUB)
+
+## Nov
+
+* 24-28 Nov: Supporting data selection (in scope / out of scope) and prioritiesation https://github.com/TIBHannover/climate-knowledge-graph/issues/52 (AR62W)
+* 24-26 Nov: AR6 scrape data handover and protocol: Issue https://github.com/TIBHannover/climate-knowledge-graph/issues/58 Repo: https://github.com/TIBHannover/climate-knowledge-graph/issues/58 (AR62W)
+* 24 Nov: CSS ToC and Vivlio support (PUB)
+* 24 Nov: Project reports for review (REP)
