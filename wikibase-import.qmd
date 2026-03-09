@@ -1,0 +1,96 @@
+# Wikibase Import
+
+* [Data](https://github.com/TIBHannover/Climate-KG-data)
+* [Issues](https://github.com/TIBHannover/climate-knowledge-graph/issues?q=state%3Aopen%20label%3A%22Wikidata%20Import%20%231%22) 
+* [Work log](work-log.qmd)
+
+## IPCC AR6 scrape and import work package
+
+### Work package ‘AR62WB’ Nov 2025-Jan 2026 (2.5 months)
+
+IPCC AR6 web scrape import to MediaWiki/Wikibase for the purpose of a proof of concept of the CKG goals and to act as a showcase to raise funds for further work packages and a discovery process for further work packages.
+
+### Goals: Work package (WP) ‘AR62WB’
+
+* Have the AR6 report imported into MediaWiki  
+* Have the imported AR6 report mapped in Wikibase  
+* Allow user browsing of AR6 in MediaWiki  
+* Enable display of Infoboxes on Mediawiki pages using Wikibase entries: [https://www.mediawiki.org/wiki/Infobox](https://www.mediawiki.org/wiki/Infobox)  
+* Apply styling to Mediawiki. Skin [https://www.mediawiki.org/wiki/Skin:Tweeki](https://www.mediawiki.org/wiki/Skin:Tweeki) Bootstrap.    
+* Enable elastic search or faceted search in Mediawiki  
+* Supporting AR6 data imported into Wikibase and mapped to report: Authors, references, glossary, acronyms, IPCC qualifiers.   
+* Support data analysis / enrichment community with strict quality control. Enable community members to download MediaWiki content using Wikibase SPARQL queries. Community members can then carry out their own data analysis and with permission submit updates to Wikibase.  
+* Create an Entity Relationship Model (ERM) for the AR6 report.  
+* Map ERM in Wikibase to Wikidata and topic schemas.     
+* Enable interface similar to Scholia for the report. Likely to use Semantic MediaWiki plugin as it can allow interfaces which don’t interfere with MediaWiki or Wikibase.    
+* Enable export of content as HTML using CPS Impress to demonstrate content publishing via Quarto. This only needs to be on the command line and using CPS capabilities, Quarto has Pandoc libraries and can be used to convert MediaWiki Markup to HTML, Markdown etc, for Quarto outputting. Write a SPARQL query to allow for selection of sections or chapters based on Wikibase ERM.
+
+### Tasks
+
+#### In scope
+
+**IPCC web scrape import** 
+
+* Import PMR scrape to MediaWiki   
+  * PMR scrape [https://github.com/petermr/amilib/tree/main/test/resources/ipcc/cleaned\_content](https://github.com/petermr/amilib/tree/main/test/resources/ipcc/cleaned_content)  
+  * Information about scrapes: [https://github.com/TIBHannover/climate-knowledge-graph/issues/31](https://github.com/TIBHannover/climate-knowledge-graph/issues/31)   
+  * Note not all sections listed need importing, e.g., Annex  
+* Import into MediaWiki and Wikibase to fit with CKG goals as outlined 
+
+**Scrape system specifications input**
+
+* Establish tooling used by PMR for scrape and give feedback for its improvement  
+* Report on design of a new scrape software system for future work packages. Including outline, effort/resources/cost/time scale required.
+
+**Map MediaWiki to Wikibase**
+
+* Work on Entity Relationship Model: [https://github.com/TIBHannover/climate-knowledge-graph/issues/48\#issuecomment-3511931694](https://github.com/TIBHannover/climate-knowledge-graph/issues/48#issuecomment-3511931694) 
+
+**Support: Enable export of content as HTML using CPS Impress to demonstrate content publishing via Quarto**  
+**Enable elastic search or faceted search in Mediawiki**  
+**Other tasks**
+
+* AR6 data imported into Wikibase and mapped to report: Authors, references, glossary, acronyms, IPCC qualifiers.   
+* Apply styling to Mediawiki  
+* Map ERM in Wikibase to Wikidata and topic schemas  
+* Enable interface similar to Scholia for the report using Semantic MediaWiki plugin
+
+### Questions/issues:
+
+Demos
+
+* LO/SW \- will make demo of MediaWiki and Wikidata setup manually  
+* LO/SW \- will add CPS Impress output demo   
+* LO/SW will enable a Semantic MediaWiki plugin demo \- [https://www.mediawiki.org/wiki/Extension:Semantic\_MediaWiki](https://www.mediawiki.org/wiki/Extension:Semantic_MediaWiki) 
+
+Useful plugins  
+Local media plugin allows images to show in Wikidata \- [https://github.com/ProfessionalWiki/WikibaseLocalMedia](https://github.com/ProfessionalWiki/WikibaseLocalMedia) 
+
+### Out of scope (work for further work packages)
+
+* Elements within the text will not be hyperlinked. Hyperlinks would be added in following development rounds, hence automation on the text and data import is needed
+
+#### Further planned work packages
+
+(not in order)
+
+Cost, resources, duration needed:
+
+* WP 2: Scrape software  
+* WP 3: Content markup and linking  
+* WP 4: MediaWiki search  
+* WP 5: Data analysis and enrichment workflow for data research community \- e.g., Federated Search  
+* WP 6: Data transfer to Wikidata  
+* WP 7: CPS Impress UI: Search, publish, and deposit back to Wikibase  
+* WP 8: Improve Scholia like interface  
+* WP 9: Citizen Science project: Chapter Champion  
+* WP 10: Citizen Science project: Wikidata Project  
+* WP 11: AI SPARQL generator  
+* WP 12: AI LLM GraphRAG CPS Impress \- search, review, publish, share, save,doi mint and deposit.  
+* WP 13: Schema alignment, mapping, and crosswalking  
+* WP 14: Wikibase/MediaWiki maintenance
+
+
+
+
+
