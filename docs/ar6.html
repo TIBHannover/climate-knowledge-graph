@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.54">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Browse AR6 – Docs &amp; Dev Log: Climate Knowledge Graph</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./data-imprint.html" rel="next">
+<link href="./rfc.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ar6.html">Browse AR6</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Docs &amp; Dev Log: Climate Knowledge Graph</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/TIBHannover/climate-knowledge-graph" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About 🌏🌍🌎</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./roadmap.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Project Roadmap</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./work-log.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Work Log</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./workflow.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">CKG Dev Workflow</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./reports.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">AR6 Quantification</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./styles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Publication Styles</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./datamodels.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Data Models</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./wikibase-import.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Wikibase Import</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rfc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">RfC</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ar6.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Browse AR6</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data-imprint.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Protection and Imprint</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#working-group-1-the-physical-science-basis" id="toc-working-group-1-the-physical-science-basis" class="nav-link active" data-scroll-target="#working-group-1-the-physical-science-basis"><strong>Working Group 1: The Physical Science Basis</strong></a></li>
+  <li><a href="#working-group-2-impacts-adaptation-and-vulnerability" id="toc-working-group-2-impacts-adaptation-and-vulnerability" class="nav-link" data-scroll-target="#working-group-2-impacts-adaptation-and-vulnerability"><strong>Working Group 2 : Impacts, Adaptation and Vulnerability</strong></a></li>
+  <li><a href="#working-group-3-mitigation-of-climate-change" id="toc-working-group-3-mitigation-of-climate-change" class="nav-link" data-scroll-target="#working-group-3-mitigation-of-climate-change"><strong>Working Group 3: Mitigation of Climate Change</strong></a></li>
+  <li><a href="#ar6-synthesis-report-syr" id="toc-ar6-synthesis-report-syr" class="nav-link" data-scroll-target="#ar6-synthesis-report-syr">AR6: <strong>Synthesis Report</strong> (syr)</a></li>
+  <li><a href="#sr15-global-warming-of-1.5-ºc" id="toc-sr15-global-warming-of-1.5-ºc" class="nav-link" data-scroll-target="#sr15-global-warming-of-1.5-ºc"><strong>sr15 : Global Warming of 1.5 ºC</strong></a></li>
+  <li><a href="#srccl-climate-change-and-land" id="toc-srccl-climate-change-and-land" class="nav-link" data-scroll-target="#srccl-climate-change-and-land"><strong>srccl : Climate Change and Land</strong></a></li>
+  <li><a href="#srocc-special-report-on-the-ocean-and-cryosphere-in-a-changing-climate" id="toc-srocc-special-report-on-the-ocean-and-cryosphere-in-a-changing-climate" class="nav-link" data-scroll-target="#srocc-special-report-on-the-ocean-and-cryosphere-in-a-changing-climate"><strong>srocc : Special Report on the Ocean and Cryosphere in a Changing Climate</strong></a></li>
+  <li><a href="#refinement-to-the-2006-ipcc-guidelines-for-national-greenhouse-gas-inventories-methodology-report" id="toc-refinement-to-the-2006-ipcc-guidelines-for-national-greenhouse-gas-inventories-methodology-report" class="nav-link" data-scroll-target="#refinement-to-the-2006-ipcc-guidelines-for-national-greenhouse-gas-inventories-methodology-report"><strong>2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories Methodology report</strong></a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/edit/main/ar6.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/blob/main/ar6.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Browse AR6</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><em>Structure of the IPCC AR6 Report</em></p>
+<p>Below are all seven main reports that make up AR6. The links are to the sources on the IPCC website.</p>
+<p><a href="https://www.ipcc.ch/report/ar6/syr/">ipcc.ch/report/ar6/syr</a></p>
+<p>Note: As part of the AR6 Cycle there is a further report ‘2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories’, this is not included by the IPCC as part of the main AR6 reporting. The report has been listed at the bottom of the report lists for reference.</p>
+<p>NB: Attribution - thank you to Renu Kumari (NIPGR/#semanticClimate) for compiling the following list. Updated by Simon Worthington and Laura Oldenbourg.</p>
+<section id="working-group-1-the-physical-science-basis" class="level3">
+<h3 class="anchored" data-anchor-id="working-group-1-the-physical-science-basis"><strong>Working Group 1: The Physical Science Basis</strong></h3>
+<ul>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/">IPCC/ar6/wg1</a> report with 12 chapters<br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/">Summary for Policymakers</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/chapter/technical-summary/">Technical Summary</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/resources/frequently-asked-questions/">Frequently Asked Questions</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/resources/factsheets/">Fact Sheets</a><br>
+</li>
+<li><strong>Full Report : 12 chapters</strong>
+<ul>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1">Chapter 1 : Framing, Context and Methods</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-2">Chapter 2 : Changing State of the Climate System</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-3">Chapter 3 : Human Influence on the Climate System</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-4">Chapter 4 : Future Global Climate: Scenario-based Projections and Near-term Information</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-5">Chapter 5 : Global Carbon and other Biogeochemical Cycles and Feedbacks</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-6">Chapter 6 : Short-lived Climate Forcers</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7">Chapter 7 : The Earth’s Energy Budget, Climate Feedbacks, and Climate Sensitivity</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-8">Chapter 8 : Water Cycle Changes</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-9">Chapter 9 : Ocean, Cryosphere and Sea Level Change</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-10">Chapter 10 : Linking Global to Regional Climate Change</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-11">Chapter 11 : Weather and Climate Extreme Events in a Changing Climate</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-12">Chapter 12 : Climate Change Information for Regional Impact and for Risk Assessment</a><br>
+</li>
+</ul></li>
+<li>Atlas<br>
+</li>
+<li>Front Matter, Annexes, and Index
+<ul>
+<li>Front Matter : Includes Foreword, Preface, Dedication, and Table of Contents<br>
+</li>
+<li>Annex I : Observational Products<br>
+</li>
+<li>Annex II : Models<br>
+</li>
+<li>Annex III : Radiative Forcing<br>
+</li>
+<li>Annex IV : Modes of Variability<br>
+</li>
+<li>Annex V : Monsoons<br>
+</li>
+<li>Annex VI : Climatic Impact-Drivers and Extreme Indices<br>
+</li>
+<li>Annex VII : Glossary<br>
+</li>
+<li>Annex IX : List of Contributors<br>
+</li>
+<li>Annex X : Expert Reviewers</li>
+</ul></li>
+</ul>
+</section>
+<section id="working-group-2-impacts-adaptation-and-vulnerability" class="level3">
+<h3 class="anchored" data-anchor-id="working-group-2-impacts-adaptation-and-vulnerability"><strong>Working Group 2 : Impacts, Adaptation and Vulnerability</strong></h3>
+<ul>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/">IPCC/ar6/wg2</a> report with 18 chapters<br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/summary-for-policymakers/">Summary for Policymakers</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/technical-summary/">Technical Summary</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/about/frequently-asked-questions">Frequently Asked Questions</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/about/factsheets">Fact Sheets</a><br>
+</li>
+<li>Global to Regional Atlas<br>
+</li>
+<li><strong>Full Report : 18 Chapters and 7 Cross-Chapter Papers</strong>
+<ul>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-1">Chapter 1 : Point of departure and key concepts</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-2">Chapter 2 : Terrestrial and freshwater ecosystems and their services</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-3">Chapter 3 : Ocean and coastal ecosystems and their services</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-4">Chapter 4 : Water</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-5">Chapter 5 : Food, fibre, and other ecosystem products</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-6">Chapter 6 : Cities, settlements and key infrastructure</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-7">Chapter 7 : Health, wellbeing and the changing structure of communities</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-8">Chapter 8 : Poverty, livelihoods and sustainable development</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-9">Chapter 9 : Africa</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-10">Chapter 10 : Asia</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-11">Chapter 11 : Australasia</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-12">Chapter 12 : Central and South America</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-13">Chapter 13 : Europe</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-14">Chapter 14 : North America</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-15">Chapter 15 : Small Islands</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-16">Chapter 16 : Key risks across sectors and regions</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-17">Chapter 17 : Decision-making options for managing risk</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-18">Chapter 18 : Climate resilient development pathways</a><br>
+</li>
+</ul></li>
+<li><strong>Cross-Chapter Papers</strong>
+<ul>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/ccp1/">Cross-Chapter Paper 1 : Biodiversity hotspots (land, coasts and oceans)</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/ccp2/">Cross-Chapter Paper 2 : Cities and settlements by the sea</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/ccp3/">Cross-Chapter Paper 3 : Deserts, semi-arid areas, and desertification</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/ccp4/">Cross-Chapter Paper 4 : Mediterranean region</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/ccp5/">Cross-Chapter Paper 5 : Mountains</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/ccp6/">Cross-Chapter Paper 6 : Polar regions</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg2/chapter/ccp7/">Cross-Chapter Paper 7 : Tropical forests</a><br>
+</li>
+</ul></li>
+<li><strong>Annexes</strong>
+<ul>
+<li>Annex I : Global to Regional Atlas<br>
+</li>
+<li>Annex II : Glossary<br>
+</li>
+<li>Annex III : Acronyms<br>
+</li>
+<li>Annex IV : Contributors<br>
+</li>
+<li>Annex V : Expert Reviewers</li>
+</ul></li>
+</ul>
+</section>
+<section id="working-group-3-mitigation-of-climate-change" class="level3">
+<h3 class="anchored" data-anchor-id="working-group-3-mitigation-of-climate-change"><strong>Working Group 3: Mitigation of Climate Change</strong></h3>
+<ul>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/">IPCC/ar6/wg3</a> report with 17 chapters<br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/summary-for-policymakers/">Summary for Policymakers</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/technical-summary/">Technical Summary</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/about/frequently-asked-questions">Frequently Asked Questions</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/resources/factsheets">Fact Sheets</a><br>
+</li>
+<li><strong>Full Report : 17 Chapters</strong>
+<ul>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-1">Chapter 1 : Introduction and Framing</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-2">Chapter 2 : Emissions trends and drivers</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-3">Chapter 3 : Mitigation pathways compatible with long-term goals</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-4">Chapter 4 : Mitigation and development pathways in the near- to mid-term</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-5">Chapter 5 : Demand, services and social aspects of mitigation</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-6">Chapter 6 : Energy systems</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-7">Chapter 7 : Agriculture, Forestry, and Other Land Uses (AFOLU)</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-8">Chapter 8 : Urban systems and other settlements</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-9">Chapter 9 : Buildings</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-10">Chapter 10 : Transport</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-11">Chapter 11 : Industry</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-12">Chapter 12 : Cross sectoral perspectives</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-13">Chapter 13 : National and sub-national policies and institutions</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-14">Chapter 14 : International cooperation</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-15">Chapter 15 : Investment and finance</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-16">Chapter 16 : Innovation, technology development and transfer</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-17">Chapter 17 : Accelerating the transition in the context of sustainable development</a><br>
+</li>
+</ul></li>
+<li><strong>Annexes</strong>
+<ul>
+<li>ANNEX I : Glossary<br>
+</li>
+<li>ANNEX II : Definitions, units and conventions<br>
+</li>
+<li>ANNEX III : Scenarios and modelling methods<br>
+</li>
+<li>ANNEX IV : Contributors to the IPCC WGIII Sixth Assessment Report<br>
+</li>
+<li>ANNEX V : Expert Reviewers of the IPCC WGIII Sixth Assessment Report<br>
+</li>
+<li>ANNEX VI : Acronyms</li>
+</ul></li>
+</ul>
+</section>
+<section id="ar6-synthesis-report-syr" class="level3">
+<h3 class="anchored" data-anchor-id="ar6-synthesis-report-syr">AR6: <a href="https://www.ipcc.ch/report/ar6/syr/"><strong>Synthesis Report</strong> (syr)</a></h3>
+<ul>
+<li><a href="https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/">Summary for Policymakers</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/syr/longer-report/">SYR Longer Report</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/report/ar6/syr/annexes-and-index/">Annexes and Index</a></li>
+</ul>
+</section>
+<section id="sr15-global-warming-of-1.5-ºc" class="level3">
+<h3 class="anchored" data-anchor-id="sr15-global-warming-of-1.5-ºc"><strong>sr15 : Global Warming of 1.5 ºC</strong></h3>
+<ul>
+<li>SPECIAL REPORT on <a href="https://www.ipcc.ch/sr15/">Global Warming of 1.5 ºC</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/sr15/chapter/spm/">Summary for Policymakers</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/sr15/chapter/chapter-1">Chapter 1 : Framing and Context</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/sr15/chapter/chapter-2">Chapter 2 : Mitigation pathways compatible with 1.5°C in the context of sustainable development</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/sr15/chapter/chapter-3">Chapter 3 : Impacts of 1.5ºC global warming on natural and human systems</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/sr15/chapter/chapter-4">Chapter 4 : Strengthening and implementing the global response</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/sr15/chapter/chapter-5">Chapter 5 : Sustainable Development, Poverty Eradication and Reducing Inequalities</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/sr15/chapter/glossary/">Glossary</a></li>
+</ul>
+</section>
+<section id="srccl-climate-change-and-land" class="level3">
+<h3 class="anchored" data-anchor-id="srccl-climate-change-and-land"><strong>srccl : Climate Change and Land</strong></h3>
+<ul>
+<li>SPECIAL REPORT on <a href="https://www.ipcc.ch/srccl/">Climate Change and Land</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srccl/chapter/summary-for-policymakers/">Summary for Policymakers</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srccl/chapter/technical-summary/">Technical Summary</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srccl/chapter/chapter-1">Chapter 1: Framing and Context</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srccl/chapter/chapter-2">Chapter 2 : Land–Climate interactions</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srccl/chapter/chapter-2">Chapter 3 : Desertification</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srccl/chapter/chapter-4">Chapter 4 : Land Degradation</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srccl/chapter/chapter-5">Chapter 5 : Food Security</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srccl/chapter/chapter-6">Chapter 6 : Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srccl/chapter/chapter-7">Chapter 7 : Risk management and decision making in relation to sustainable development</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srccl/chapter/glossary/">Annex-I Glossary</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srccl/chapter/annex-ii-acronyms/">Annex-II Acronyms</a></li>
+</ul>
+</section>
+<section id="srocc-special-report-on-the-ocean-and-cryosphere-in-a-changing-climate" class="level3">
+<h3 class="anchored" data-anchor-id="srocc-special-report-on-the-ocean-and-cryosphere-in-a-changing-climate"><strong>srocc : Special Report on the Ocean and Cryosphere in a Changing Climate</strong></h3>
+<ul>
+<li>Special Report on the <a href="https://www.ipcc.ch/srocc/">Ocean and Cryosphere in a Changing Climate</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srocc/chapter/summary-for-policymakers/">Summary for Policymakers</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srocc/chapter/technical-summary/">Technical Summary</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srocc/chapter/chapter-1">Chapter 1: Framing and Context of the Report</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srocc/chapter/chapter-2">Chapter 2: High Mountain Areas</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srocc/chapter/chapter-3">Chapter 3: Polar regions</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srocc/chapter/chapter-4">Chapter 4: Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srocc/chapter/chapter-5">Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srocc/chapter/chapter-6">Chapter 6: Extremes, Abrupt Changes and Managing Risks</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srocc/chapter/cross-chapter-box-9-integrative-cross-chapter-box-on-low-lying-islands-and-coasts/">Cross-Chapter Box 9: Integrative Cross-Chapter Box on Low-lying Islands and Coasts</a><br>
+</li>
+<li><a href="https://www.ipcc.ch/srocc/chapter/glossary/">Glossary</a></li>
+</ul>
+</section>
+<section id="refinement-to-the-2006-ipcc-guidelines-for-national-greenhouse-gas-inventories-methodology-report" class="level3">
+<h3 class="anchored" data-anchor-id="refinement-to-the-2006-ipcc-guidelines-for-national-greenhouse-gas-inventories-methodology-report"><strong>2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories Methodology report</strong></h3>
+<ul>
+<li>Methodology report: <a href="https://www.ipcc.ch/report/2019-refinement-to-the-2006-ipcc-guidelines-for-national-greenhouse-gas-inventories/">https://www.ipcc.ch/report/2019-refinement-to-the-2006-ipcc-guidelines-for-national-greenhouse-gas-inventories/</a> (not available as HTML, only PDF)
+<ul>
+<li>Volumes: <a href="https://www.ipcc-nggip.iges.or.jp/public/2019rf/index.html">https://www.ipcc-nggip.iges.or.jp/public/2019rf/index.html</a></li>
+<li>Complete volume as ZIP archive: <a href="https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/2019rf_all_in.zip">https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/2019rf_all_in.zip</a></li>
+</ul></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./rfc.html" class="pagination-link" aria-label="RfC">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">RfC</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./data-imprint.html" class="pagination-link" aria-label="Data Protection and Imprint">
+        <span class="nav-page-text">Data Protection and Imprint</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/edit/main/ar6.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/blob/main/ar6.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
