@@ -1,0 +1,47 @@
+{
+  "index.qmd": {
+    "index.html": "4be506fe"
+  },
+  "intro.qmd": {
+    "intro.html": "494c81a2"
+  },
+  "summary.qmd": {
+    "summary.html": "3bf09252"
+  },
+  "references.qmd": {
+    "references.html": "ede137a2"
+  },
+  "roadmap.qmd": {
+    "roadmap.html": "d26c6c32"
+  },
+  "workflow.qmd": {
+    "workflow.html": "922ed42e"
+  },
+  "styles.qmd": {
+    "styles.html": "a2e965c9"
+  },
+  "reports.qmd": {
+    "reports.html": "6749d2dd"
+  },
+  "datamodel.qmd": {
+    "datamodel.html": "977a21e7"
+  },
+  "datamodels.qmd": {
+    "datamodels.html": "664f3d94"
+  },
+  "data-imprint.qmd": {
+    "data-imprint.html": "680b8ed7"
+  },
+  "ar6.qmd": {
+    "ar6.html": "b8450f59"
+  },
+  "rfc.qmd": {
+    "rfc.html": "ee7b075b"
+  },
+  "wikibase-import.qmd": {
+    "wikibase-import.html": "651397aa"
+  },
+  "work-log.qmd": {
+    "work-log.html": "21e60808"
+  }
+}
