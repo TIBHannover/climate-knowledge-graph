@@ -1,0 +1,1165 @@
+Report,Chapter,Last Name,First Name,CountIfs,Role,Gender,Country of Residence,Citizenship,Affiliation
+SYR,SPM,Aldunce,Paulina,3,Core Writing Team,Female,Chile,Chile,University of Chile
+SYR,SPM,Blanco,Gabriel,3,Core Writing Team,Male,Argentina,Argentina,"Universidad Nacional del Centro (UNICEN), Argentina"
+SYR,SPM,Calvin,Katherine,4,Core Writing Team,Female,United States of America,United States of America,University of Maryland
+SYR,SPM,Cheung,William (Wai Lung),3,Core Writing Team,Male,Canada,Canada,"Institute for the Oceans and Fisheries, The University of British Columbia"
+SYR,SPM,Dasgupta,Dipak,3,Core Writing Team,Male,India,India,THE ENERGY AND RESOURCES INSTITUTE (TERI)
+SYR,SPM,Denton,Fatima,4,Core Writing Team,Female,Ghana,Gambia,
+SYR,SPM,Diongue-Niang,Aïda,3,Core Writing Team,Female,Senegal,Senegal,Agence Nationale de l'Aviation Civile et de la Météorologie du Sénégal -ANACIM
+SYR,SPM,Dodman,David,3,Core Writing Team,Male,Netherlands,Jamaica,Institute for Housing and Urban Development Studies
+SYR,SPM,Garschagen,Matthias,5,Core Writing Team,Male,Germany,Germany,Ludwig-Maximilians-University Munich
+SYR,SPM,Geden,Oliver,3,Core Writing Team,Male,Germany,Germany,WGIII Vice-Chair
+SYR,SPM,Hayward,Bronwyn,4,Core Writing Team,Female,New Zealand,New Zealand,University of Canterbury
+SYR,SPM,Jones,Christopher,3,Core Writing Team,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Met Office Hadley Centre
+SYR,SPM,Jotzo,Frank,3,Core Writing Team,Male,Australia,Australia,Australian National University
+SYR,SPM,Krinner,Gerhard,3,Core Writing Team,Male,France,France,CNRS
+SYR,SPM,Lasco,Rodel,3,Core Writing Team,Male,Philippines,Philippines,NATIONAL PANEL OF TECHNICAL EXPERTS - CLIMATE CHANGE COMMISSION
+SYR,SPM,Lee,June-Yi,3,Core Writing Team,Female,Republic of Korea,Republic of Korea,Pusan National University and Institute for Basic Science Center for Climate Physics
+SYR,SPM,Meinshausen,Malte,3,Core Writing Team,Male,Australia,Germany,The University of Melbourne
+SYR,SPM,Mukherji,Aditi,4,Core Writing Team,Female,Kenya,India,CGIAR
+SYR,SPM,Otto,Friederike,3,Core Writing Team,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Imperial College London
+SYR,SPM,Revi,Aromar,4,Core Writing Team,Male,India,India,Indian Institute for Human Settlements
+SYR,SPM,Roy,Joyashree,4,Core Writing Team,Female,India,India,"Asian Institute of Technology Thailand, Jadavpur University, India"
+SYR,SPM,Ruane,Alexander,3,Core Writing Team,Male,United States of America,United States of America,NASA Goddard Institute for Space Studies
+SYR,SPM,Slangen,Aimée,3,Core Writing Team,Female,Netherlands,Netherlands,NIOZ Royal Netherlands Institute for Sea Research
+SYR,SPM,Sörensson,Anna Amelia,3,Core Writing Team,Female,Argentina,Argentina,"Center for Ocean and Atmosphere Sciences (CIMA / CONICET-UBA), Franco-Argentinian Institute for the Study of Climate and its Impacts (UMI-IFAECI/CNRS-CONICET-UBA)"
+SYR,SPM,Thorne,Peter,3,Core Writing Team,Male,Ireland,Ireland,Maynooth University
+SYR,SPM,Trisos,Christopher,3,Core Writing Team,Male,South Africa,South Africa,University of Cape Town
+SYR,SPM,Van Vuuren,Detlef,3,Core Writing Team,Male,Netherlands,Netherlands,PBL Netherlands Environmental Assessment Agency
+SYR,SPM,Wei,Yi-Ming,3,Core Writing Team,Male,China,China,"Center for Energy and Environmental Policy Research, Beijing Institute of Technology"
+SYR,SPM,Winkler,Harald,3,Core Writing Team,Male,South Africa,South Africa,"Energy Research Centre, University of Cape Town"
+SYR,SPM,Zommers,Zinta,4,Core Writing Team,Female,United States of America,Latvia,United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA)
+SYR,LR,Aldunce,Paulina,3,Core Writing Team,Female,Chile,Chile,University of Chile
+SYR,LR,Blanco,Gabriel,3,Core Writing Team,Male,Argentina,Argentina,"Universidad Nacional del Centro (UNICEN), Argentina"
+SYR,LR,Calvin,Katherine,4,Core Writing Team,Female,United States of America,United States of America,University of Maryland
+SYR,LR,Cheung,William (Wai Lung),3,Core Writing Team,Male,Canada,Canada,"Institute for the Oceans and Fisheries, The University of British Columbia"
+SYR,LR,Dasgupta,Dipak,3,Core Writing Team,Male,India,India,THE ENERGY AND RESOURCES INSTITUTE (TERI)
+SYR,LR,Denton,Fatima,4,Core Writing Team,Female,Ghana,Gambia,
+SYR,LR,Diongue-Niang,Aïda,3,Core Writing Team,Female,Senegal,Senegal,Agence Nationale de l'Aviation Civile et de la Météorologie du Sénégal -ANACIM
+SYR,LR,Dodman,David,3,Core Writing Team,Male,Netherlands,Jamaica,Institute for Housing and Urban Development Studies
+SYR,LR,Garschagen,Matthias,5,Core Writing Team,Male,Germany,Germany,Ludwig-Maximilians-University Munich
+SYR,LR,Geden,Oliver,3,Core Writing Team,Male,Germany,Germany,WGIII Vice-Chair
+SYR,LR,Hayward,Bronwyn,4,Core Writing Team,Female,New Zealand,New Zealand,University of Canterbury
+SYR,LR,Jones,Christopher,3,Core Writing Team,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Met Office Hadley Centre
+SYR,LR,Jotzo,Frank,3,Core Writing Team,Male,Australia,Australia,Australian National University
+SYR,LR,Krinner,Gerhard,3,Core Writing Team,Male,France,France,CNRS
+SYR,LR,Lasco,Rodel,3,Core Writing Team,Male,Philippines,Philippines,NATIONAL PANEL OF TECHNICAL EXPERTS - CLIMATE CHANGE COMMISSION
+SYR,LR,Lee,June-Yi,3,Core Writing Team,Female,Republic of Korea,Republic of Korea,Pusan National University and Institute for Basic Science Center for Climate Physics
+SYR,LR,Meinshausen,Malte,3,Core Writing Team,Male,Australia,Germany,The University of Melbourne
+SYR,LR,Mukherji,Aditi,4,Core Writing Team,Female,Kenya,India,CGIAR
+SYR,LR,Otto,Friederike,3,Core Writing Team,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Imperial College London
+SYR,LR,Revi,Aromar,4,Core Writing Team,Male,India,India,Indian Institute for Human Settlements
+SYR,LR,Roy,Joyashree,4,Core Writing Team,Female,India,India,"Asian Institute of Technology Thailand, Jadavpur University, India"
+SYR,LR,Ruane,Alexander,3,Core Writing Team,Male,United States of America,United States of America,NASA Goddard Institute for Space Studies
+SYR,LR,Slangen,Aimée,3,Core Writing Team,Female,Netherlands,Netherlands,NIOZ Royal Netherlands Institute for Sea Research
+SYR,LR,Sörensson,Anna Amelia,3,Core Writing Team,Female,Argentina,Argentina,"Center for Ocean and Atmosphere Sciences (CIMA / CONICET-UBA), Franco-Argentinian Institute for the Study of Climate and its Impacts (UMI-IFAECI/CNRS-CONICET-UBA)"
+SYR,LR,Thorne,Peter,3,Core Writing Team,Male,Ireland,Ireland,Maynooth University
+SYR,LR,Trisos,Christopher,3,Core Writing Team,Male,South Africa,South Africa,University of Cape Town
+SYR,LR,Van Vuuren,Detlef,3,Core Writing Team,Male,Netherlands,Netherlands,PBL Netherlands Environmental Assessment Agency
+SYR,LR,Wei,Yi-Ming,3,Core Writing Team,Male,China,China,"Center for Energy and Environmental Policy Research, Beijing Institute of Technology"
+SYR,LR,Winkler,Harald,3,Core Writing Team,Male,South Africa,South Africa,"Energy Research Centre, University of Cape Town"
+SYR,LR,Zommers,Zinta,4,Core Writing Team,Female,United States of America,Latvia,United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA)
+WGI,ATLAS,Gutiérrez,José Manuel,1,Coordinating Lead Author,Male,Spain,Spain,Spanish Research Council (CSIC)
+WGI,ATLAS,Jones,Richard,1,Coordinating Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Met Office Hadley Centre
+WGI,ATLAS,Narisma,Gemma Teresa,1,Coordinating Lead Author,Female,Philippines,Philippines,Manila Observatory
+WGI,ATLAS,Amjad,Muhammad,1,Lead Author,Male,Pakistan,Pakistan,"Global Climate-Change Impact Studies Centre (GCISC), Ministry of Climate Change and Environmental Coordination"
+WGI,ATLAS,Gorodetskaya,Irina,1,Lead Author,Female,Portugal,Russian Federation,University of Aveiro
+WGI,ATLAS,Grose,Michael,1,Lead Author,Male,Australia,Australia,CSIRO Climate Science Centre
+WGI,ATLAS,Klutse,Nana Ama Browne,1,Lead Author,Female,Ghana,Ghana,"Ghana Space Science and Technology Institute, Ghana Atomic Energy Commission"
+WGI,ATLAS,Krakovska,Svitlana,2,Lead Author,Female,Ukraine,Ukraine,Ukrainian Hydrometeorological Institute
+WGI,ATLAS,Li,Jian,1,Lead Author,Male,China,China,"Chinese Academy of Meteorological Sciences, China Meteorological Administration"
+WGI,ATLAS,Martínez-Castro,Daniel,1,Lead Author,Male,Cuba,Cuba,Instituto de Meteorología
+WGI,ATLAS,Mearns,Linda,2,Lead Author,Female,United States of America,United States of America,National Center for Atmospheric Research
+WGI,ATLAS,Mernild,Sebastian H.,1,Lead Author,Male,Norway,Denmark,University of Southern Denmark
+WGI,ATLAS,Muniz Alves,Lincoln,1,Lead Author,Male,Brazil,Brazil,National Institute for Space Research (INPE)
+WGI,ATLAS,Ngo-Duc,Thanh,1,Lead Author,Male,Vietnam,Vietnam,"University of Science and Technology of Hanoi, Vietnam Academy of Science and Technology"
+WGI,ATLAS,Van Den Hurk,Bart,1,Lead Author,Male,Netherlands,Netherlands,Deltares
+WGI,ATLAS,Yoon,Jin-Ho,1,Lead Author,Male,Republic of Korea,Republic of Korea,Gwangju Institute of Science and Technology
+WGI,ATLAS,Camilloni,Inés,2,Review Editor,Female,Argentina,Argentina,WGI Vice-Chair
+WGI,ATLAS,Christensen,Jens Hesselbjerg,1,Review Editor,Male,Denmark,Denmark,"Niels Bohr Institute, University of Copenhagen"
+WGI,ATLAS,Driouech,Fatima,2,Review Editor,Female,Morocco,Morocco,University Mohammed VI Polytechnic
+WGI,"Chapter 1: Framing, context, methods",Chen,Deliang,1,Coordinating Lead Author,Male,Sweden,Sweden,University of Gothenburg
+WGI,"Chapter 1: Framing, context, methods",Rojas,Maisa,1,Coordinating Lead Author,Female,Chile,Chile,University of Chile
+WGI,"Chapter 1: Framing, context, methods",Samset,Bjørn H.,1,Coordinating Lead Author,Male,Norway,Norway,CICERO Center for international climate research
+WGI,"Chapter 1: Framing, context, methods",Cobb,Kim,1,Lead Author,Female,United States of America,United States of America,Georgia Inst. of Technology
+WGI,"Chapter 1: Framing, context, methods",Diongue-Niang,Aïda,3,Lead Author,Female,Senegal,Senegal,Agence Nationale de l'Aviation Civile et de la Météorologie du Sénégal -ANACIM
+WGI,"Chapter 1: Framing, context, methods",Edwards,Paul,1,Lead Author,Male,United States of America,United States of America,Stanford University and University of Michigan
+WGI,"Chapter 1: Framing, context, methods",Emori,Seita,1,Lead Author,Male,Japan,Japan,"Institute for Future Initiatives, the University of Tokyo"
+WGI,"Chapter 1: Framing, context, methods",Faria,Sergio Henrique,1,Lead Author,Male,Spain,Brazil,BC3 - Basque Centre for Climate Change
+WGI,"Chapter 1: Framing, context, methods",Hawkins,Edward,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),"National Centre for Atmospheric Science, University of Reading"
+WGI,"Chapter 1: Framing, context, methods",Hope,Pandora,1,Lead Author,Female,Australia,Australia,Bureau of Meteorology
+WGI,"Chapter 1: Framing, context, methods",Huybrechts,Philippe,1,Lead Author,Male,Belgium,Belgium,"Earth System Science & Departement Geografie, Vrije Universiteit Brussel"
+WGI,"Chapter 1: Framing, context, methods",Meinshausen,Malte,3,Lead Author,Male,Australia,Germany,The University of Melbourne
+WGI,"Chapter 1: Framing, context, methods",Mustafa,Sawsan,1,Lead Author,Female,Sudan,Sudan,Ministry of Animal Resources /Range and Pasture General Directorate
+WGI,"Chapter 1: Framing, context, methods",Plattner,Gian-Kasper,1,Lead Author,Male,Switzerland,Switzerland,"Swiss Federal Research Institute for Forest, Snow and Landscape WSL"
+WGI,"Chapter 1: Framing, context, methods",Treguier,Anne Marie,1,Lead Author,Female,France,France,CNRS
+WGI,"Chapter 1: Framing, context, methods",Chuersuwan,Nares,1,Review Editor,Male,Thailand,Thailand,Suranaree University of Technology
+WGI,"Chapter 1: Framing, context, methods",Hegerl,Gabriele C.,1,Review Editor,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Edinburgh
+WGI,"Chapter 1: Framing, context, methods",Yasunari,Tetsuzo,1,Review Editor,Male,Japan,Japan,Research Institute for Humanity and Nature
+WGI,Chapter 2: Changing state of the climate system,Gulev,Sergey,1,Coordinating Lead Author,Male,Russian Federation,Russian Federation,"P.P. Shirshov Institute of Oceanology, Russian Academy of Sciences"
+WGI,Chapter 2: Changing state of the climate system,Thorne,Peter,3,Coordinating Lead Author,Male,Ireland,Ireland,Maynooth University
+WGI,Chapter 2: Changing state of the climate system,Ahn,Jinho,1,Lead Author,Male,Republic of Korea,Republic of Korea,Seoul National University
+WGI,Chapter 2: Changing state of the climate system,Dentener,Frank,1,Lead Author,Male,Italy,Netherlands,European Commission Joint Research Centre
+WGI,Chapter 2: Changing state of the climate system,Domingues,Catia M.,1,Lead Author,Female,Australia,Australia,"University of Tasmania, Institute for Marine and Antarctic Studies (IMAS) and Antarctic Climate & Ecosystems Cooperative Research Centre (ACE CRC)"
+WGI,Chapter 2: Changing state of the climate system,Gerland,Sebastian,1,Lead Author,Male,Norway,Germany,Norwegian Polar Institute
+WGI,Chapter 2: Changing state of the climate system,Gong,Daoyi,1,Lead Author,Male,China,China,Beijing Normal University
+WGI,Chapter 2: Changing state of the climate system,Kaufman,Darrell,1,Lead Author,Male,United States of America,United States of America,Northern Arizona University
+WGI,Chapter 2: Changing state of the climate system,Nnamchi,Hyacinth,1,Lead Author,Male,Nigeria,Nigeria,University of Nigeria
+WGI,Chapter 2: Changing state of the climate system,Quaas,Johannes,1,Lead Author,Male,Germany,Germany,Leipzig University
+WGI,Chapter 2: Changing state of the climate system,Rivera,Juan Antonio,1,Lead Author,Male,Argentina,Argentina,National Scientific and Technical Research Council of Argentina (CONICET)
+WGI,Chapter 2: Changing state of the climate system,Sathyendranath,Shubha,1,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Plymouth Marine Laboratory
+WGI,Chapter 2: Changing state of the climate system,Smith,Sharon,1,Lead Author,Female,Canada,Canada,"Geological Survey of Canada, Natural Resources Canada"
+WGI,Chapter 2: Changing state of the climate system,Trewin,Blair,1,Lead Author,Male,Australia,Australia,Australian Bureau of Meteorology
+WGI,Chapter 2: Changing state of the climate system,Von Shuckmann,Karina,2,Lead Author,Female,France,Germany,Mercator Ocean international
+WGI,Chapter 2: Changing state of the climate system,Vose,Russell,1,Lead Author,Male,United States of America,United States of America,NOAA/NCEI
+WGI,Chapter 2: Changing state of the climate system,Osborn,Timothy,1,Review Editor,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of East Anglia
+WGI,Chapter 2: Changing state of the climate system,Zarrin,Azar,1,Review Editor,Female,Iran,Iran,Ferdowsi University of Mashhad
+WGI,Chapter 3: Human influence on the climate system,Eyring,Veronika,1,Coordinating Lead Author,Female,Germany,Germany,"Deutsches Zentrum für Luft- und Raumfahrt e.V. (DLR), Institut für Physik der Atmosphäre, Oberpfaffenhofen; University of Bremen, Institute of Environmental Physics (IUP), Bremen, Germany"
+WGI,Chapter 3: Human influence on the climate system,Gillett,Nathan P.,1,Coordinating Lead Author,Male,Canada,Canada,"CCCma, Environment and Climate Change Canada"
+WGI,Chapter 3: Human influence on the climate system,Achutarao,Krishna,1,Lead Author,Male,India,India,Indian Institute of Technology Delhi
+WGI,Chapter 3: Human influence on the climate system,Barimalala,Rondrotiana,1,Lead Author,Female,South Africa,South Africa,"School of Earth and Atmospheric Sciences, Georgia Institute of Technology, Atlanta, USA"
+WGI,Chapter 3: Human influence on the climate system,Barreiro Parrillo,Marcelo,1,Lead Author,Male,Uruguay,Uruguay,Department of Atmospheric Sciences-Universidad de la República
+WGI,Chapter 3: Human influence on the climate system,Bellouin,Nicolas,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),France,"Department of Meteorology, University of Reading"
+WGI,Chapter 3: Human influence on the climate system,Cassou,Christophe,1,Lead Author,Male,France,France,LMD/CNRS
+WGI,Chapter 3: Human influence on the climate system,Durack,Paul,1,Lead Author,Male,United States of America,Australia,Lawrence Livermore National Laboratory
+WGI,Chapter 3: Human influence on the climate system,Kosaka,Yu,1,Lead Author,Female,Japan,Japan,"Research Center for Advanced Science and Technology, The University of Tokyo"
+WGI,Chapter 3: Human influence on the climate system,Mcgregor,Shayne,1,Lead Author,Male,Australia,Australia,"School of Earth, Amtosphere and Environment, Monash University"
+WGI,Chapter 3: Human influence on the climate system,Min,Seung-Ki,1,Lead Author,Male,Republic of Korea,Republic of Korea,Pohang University of Science and Technology
+WGI,Chapter 3: Human influence on the climate system,Morgenstern,Olaf,1,Lead Author,Male,New Zealand,Germany,National Institute of Water and Atmospheric Research (NIWA)
+WGI,Chapter 3: Human influence on the climate system,Sun,Ying,1,Lead Author,Female,China,China,China Meteorological Administration
+WGI,Chapter 3: Human influence on the climate system,Halenka,Tomas,1,Review Editor,Male,Czech Republic,Czech Republic,Charles University
+WGI,Chapter 3: Human influence on the climate system,Marengo Orsini,Jose Antonio,2,Review Editor,Male,Brazil,Peru,CEMADEN
+WGI,Chapter 3: Human influence on the climate system,Mitchell,Daniel,1,Review Editor,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Bristol
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Lee,June-Yi,3,Coordinating Lead Author,Female,Republic of Korea,Republic of Korea,Pusan National University and Institute for Basic Science Center for Climate Physics
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Marotzke,Jochem,1,Coordinating Lead Author,Male,Germany,Germany,Max Planck Institute for Meteorology
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Bala,Govindasamy,1,Lead Author,Male,India,United States of America,Indian Institute of Science
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Cao,Long,1,Lead Author,Male,China,China,"School of Earth Sciences, Zhejiang University"
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Corti,Susanna,1,Lead Author,Female,Italy,Italy,Consiglio Nazionale delle Ricerche (CNR) - Istituto di Scienze dell
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Dunne,John,1,Lead Author,Male,United States of America,United States of America,NOAA Geophysical Fluid Dynamics Laboratory
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Engelbrecht,Francois,2,Lead Author,Male,South Africa,South Africa,University of the Witwatersrand
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Fischer,Erich,1,Lead Author,Male,Switzerland,Switzerland,ETH Zurich
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Fyfe,John,1,Lead Author,Male,Canada,Canada,Environment and Climate Change Canada
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Jones,Christopher,3,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Met Office Hadley Centre
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Maycock,Amanda,1,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Leeds
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Mutemi,Joseph,1,Lead Author,Male,Kenya,Kenya,University of Nairobi
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Ndiaye,Ousman,1,Lead Author,Male,Niger,Senegal,African Center of Meteorological Applications for Development (ACMAD)
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Panickal,Swapna,1,Lead Author,Female,India,India,Indian Institute of Tropical Meterology
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Zhou,Tianjun,1,Lead Author,Male,China,China,"Institute of Atmospheric Physics, Chinese Academy of Sciences"
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Kanikicharla,Krishna Kumar,1,Review Editor,Male,Qatar,India,Qatar Meterology Department
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Kattsov,Vladimir,1,Review Editor,Male,Russian Federation,Russian Federation,"Voeikov Main Geophysical Observatory, Federal Service for Hydrometeorology and Environmental Monitoring"
+WGI,Chapter 4: Future global climate: scenario-based projections and near-term information,Kimoto,Masahide,1,Review Editor,Male,Japan,Japan,"Atmosphere and Ocean Research Institute, the University of Tokyo"
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Canadell,Josep,1,Coordinating Lead Author,Male,Australia,Australia,"Comonwealth Scientic and Industrial Organization (CSIRO), Oceans and Atmosphere"
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Scheel Monteiro,Pedro,1,Coordinating Lead Author,Male,South Africa,South Africa,CSIR
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Costa,Marcos,1,Lead Author,Male,Brazil,Brazil,The Federal University of Viçosa
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Cotrim Da Cunha,Leticia,1,Lead Author,Female,Brazil,Brazil,Universidade do Estado do Rio de Janeiro UERJ
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Cox,Peter M.,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Exeter
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Eliseev,Alexey V.,1,Lead Author,Male,Russian Federation,Russian Federation,Moscow State University
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Henson,Stephanie,1,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),National Oceanography Centre
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Ishii,Masao,1,Lead Author,Male,Japan,Japan,"Oceanography and Geochemistry Research Department, Meteorological Research Institute, Japan Meteorological Agency"
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Jaccard,Samuel,1,Lead Author,Male,Switzerland,Switzerland,"Institute of Geological Sciences and Oeaschger Center for Climate Change Research, University of Bern"
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Koven,Charles,1,Lead Author,Male,United States of America,United States of America,University of California
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Lohila,Annalea,1,Lead Author,Female,Finland,Finland,Finnish Meteorological Institute
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Patra,Prabir,1,Lead Author,Male,Japan,India,Japan Agency for Marine-Earth Science and Technology
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Piao,Shilong,1,Lead Author,Male,China,China,Peking University
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Rogelj,Joeri,2,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),Belgium,Imperial College London
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Syampungani,Stephen,1,Lead Author,Male,Zambia,Zambia,Copperbelt University
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Zaehle,Sönke,1,Lead Author,Male,Germany,Germany,Max Planck Institute for Biogeochemistry
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Zickfeld,Kirsten,2,Lead Author,Female,Canada,Canada,Simon Fraser University
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Brovkin,Victor,1,Review Editor,Male,Germany,Russian Federation,Max Planck Institute for Meteorology
+WGI,Chapter 5: Global carbon and other biogeochemical cycles and feedbacks,Feely,Richard,1,Review Editor,Male,United States of America,United States of America,NOAA Pacific marine Environmental Laboratory
+WGI,Chapter 6: Short-lived climate forcers,Naik,Vaishali,1,Coordinating Lead Author,Female,United States of America,United States of America,GFDL/NOAA
+WGI,Chapter 6: Short-lived climate forcers,Szopa,Sophie,1,Coordinating Lead Author,Female,France,France,Laboratoire des Sciences du Climat et de l'Environnement / Commissariat à l'Energie Atomique et aux Energies Alternatives
+WGI,Chapter 6: Short-lived climate forcers,Adhikary,Bhupesh,1,Lead Author,Male,Nepal,Nepal,International Centre for Integrated Mountain Development (ICIMOD)
+WGI,Chapter 6: Short-lived climate forcers,Artaxo Netto,Paulo Eduardo,2,Lead Author,Male,Brazil,Brazil,University of São Paulo - Institute of Physics
+WGI,Chapter 6: Short-lived climate forcers,Berntsen,Terje,1,Lead Author,Male,Norway,Norway,"University of Oslo, Norway"
+WGI,Chapter 6: Short-lived climate forcers,Collins,William D.,1,Lead Author,Male,United States of America,United States of America,"Lawrence Berkeley Laboratory and University of California, Berkeley"
+WGI,Chapter 6: Short-lived climate forcers,Fuzzi,Sandro,1,Lead Author,Male,Italy,Italy,Institute of Atmospheric Sciences and Climate-National Research Council
+WGI,Chapter 6: Short-lived climate forcers,Gallardo Klenner,Laura,1,Lead Author,Female,Chile,Chile,"University of Chile, Center for Climate and Resilience Research, Geophysics Department"
+WGI,Chapter 6: Short-lived climate forcers,Kiendler-Scharr,Astrid,1,Lead Author,Female,Germany,Austria,IEK-8: Troposphere Forschungszentrum Jülich GmbH
+WGI,Chapter 6: Short-lived climate forcers,Klimont,Zbigniew,1,Lead Author,Male,Austria,Poland,International Institute for Applied Systems Analysis (IIASA)
+WGI,Chapter 6: Short-lived climate forcers,Liao,Hong,1,Lead Author,Female,China,China,Nanjing University of Information Science & Technology
+WGI,Chapter 6: Short-lived climate forcers,Unger,Nadine,1,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Exeter
+WGI,Chapter 6: Short-lived climate forcers,Zanis,Prodromos,1,Lead Author,Male,Greece,Greece,"Department of Meteorology and Climatology, School of Geology, Aristotle University of Thessaloniki"
+WGI,Chapter 6: Short-lived climate forcers,Kanaya,Yugo,1,Review Editor,Male,Japan,Japan,Japan Agency for Marine-Earth Science and Technology (JAMSTEC)
+WGI,Chapter 6: Short-lived climate forcers,Prather,Michael,1,Review Editor,Male,United States of America,United States of America,University of California Irvine
+WGI,Chapter 6: Short-lived climate forcers,Yassaa,Noureddine,1,Review Editor,Male,Algeria,Algeria,"Ministry of Energy, Mines and Renewable Energy"
+WGI,"Chapter 7: The Earth's energy budget, climate feedbacks, and climate sensitivity",Forster,Piers,2,Coordinating Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Leeds
+WGI,"Chapter 7: The Earth's energy budget, climate feedbacks, and climate sensitivity",Storelvmo,Trude,1,Coordinating Lead Author,Female,Norway,Norway,University of Oslo
+WGI,"Chapter 7: The Earth's energy budget, climate feedbacks, and climate sensitivity",Armour,Kyle,1,Lead Author,Male,United States of America,United States of America,"University of Washington, Seattle"
+WGI,"Chapter 7: The Earth's energy budget, climate feedbacks, and climate sensitivity",Collins,William,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Reading
+WGI,"Chapter 7: The Earth's energy budget, climate feedbacks, and climate sensitivity",Dufresne,Jean-Louis,1,Lead Author,Male,France,France,"LMD/IPSL , CNRS & UPMC"
+WGI,"Chapter 7: The Earth's energy budget, climate feedbacks, and climate sensitivity",Frame,David,1,Lead Author,Male,New Zealand,New Zealand,Victoria University of Wellington
+WGI,"Chapter 7: The Earth's energy budget, climate feedbacks, and climate sensitivity",Lunt,Daniel,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Bristol
+WGI,"Chapter 7: The Earth's energy budget, climate feedbacks, and climate sensitivity",Mauritsen,Thorsten,1,Lead Author,Male,Germany,Denmark,Department for Meteorology at Stockholm University
+WGI,"Chapter 7: The Earth's energy budget, climate feedbacks, and climate sensitivity",Palmer,Matthew,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Met Office Hadley Centre
+WGI,"Chapter 7: The Earth's energy budget, climate feedbacks, and climate sensitivity",Watanabe,Masahiro,1,Lead Author,Male,Japan,Japan,"Atmosphere and Ocean Research Institute, University of Tokyo"
+WGI,"Chapter 7: The Earth's energy budget, climate feedbacks, and climate sensitivity",Wild,Martin,1,Lead Author,Male,Switzerland,Switzerland,"ETH Zurich, Institute for Atmospheric and Climate Science"
+WGI,"Chapter 7: The Earth's energy budget, climate feedbacks, and climate sensitivity",Zhang,Hua,1,Lead Author,Female,China,China,"National Climate Center, China Meteorological Administration"
+WGI,"Chapter 7: The Earth's energy budget, climate feedbacks, and climate sensitivity",Colman,Robert,1,Review Editor,Male,Australia,Australia,Australian Bureau of Meteorology
+WGI,"Chapter 7: The Earth's energy budget, climate feedbacks, and climate sensitivity",Matthews,H. Damon,1,Review Editor,Male,Canada,Canada,Concordia University
+WGI,"Chapter 7: The Earth's energy budget, climate feedbacks, and climate sensitivity",Ramaswamy,Venkatachalam,1,Review Editor,Male,United States of America,United States of America,NOAA/ Geophysical Fluid Dynamics Laboratory
+WGI,Chapter 8: Water cycle changes,Douville,Hervé,1,Coordinating Lead Author,Male,France,France,Météo-France
+WGI,Chapter 8: Water cycle changes,Raghavan,Krishnan,1,Coordinating Lead Author,Male,India,India,"Indian Institute of Tropical Meteorology, Centre for Climate Change Research"
+WGI,Chapter 8: Water cycle changes,Renwick,James A.,1,Coordinating Lead Author,Male,New Zealand,New Zealand,Victoria University of Wellington
+WGI,Chapter 8: Water cycle changes,Allan,Richard,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Reading
+WGI,Chapter 8: Water cycle changes,Arias Gomez,Paola Andrea,1,Lead Author,Female,Colombia,Colombia,Universidad de Antioquia
+WGI,Chapter 8: Water cycle changes,Barlow,Mathew,1,Lead Author,Male,United States of America,United States of America,University of Massachusetts Lowell
+WGI,Chapter 8: Water cycle changes,Cerezo Mota,Ruth,1,Lead Author,Female,Mexico,Mexico,UNAM
+WGI,Chapter 8: Water cycle changes,Cherchi,Annalisa,1,Lead Author,Female,Italy,Italy,Institute for the Atmospheric Sciences and Climate (ISAC-CNR)
+WGI,Chapter 8: Water cycle changes,Gan,Thian Yew,1,Lead Author,Male,Canada,Malaysia,University of Alberta
+WGI,Chapter 8: Water cycle changes,Gergis,Joelle,1,Lead Author,Female,Australia,Australia,"Fenner School of Environment & Society, ARC Centre of Excellence for Climate Extremes, The Australian National University"
+WGI,Chapter 8: Water cycle changes,Jiang,Dabang,1,Lead Author,Male,China,China,"Institute of Atmospheric Physics, Chinese Academy of Sciences"
+WGI,Chapter 8: Water cycle changes,Khan,Asif,1,Lead Author,Male,Pakistan,Pakistan,UET Peshawar and LUMS Lahore
+WGI,Chapter 8: Water cycle changes,Pokam Mba,Wilfried,1,Lead Author,Male,Cameroon,Cameroon,University of Yaounde 1
+WGI,Chapter 8: Water cycle changes,Rosenfeld,Daniel,1,Lead Author,Male,Israel,Israel,The Hebrew University of Jerusalem
+WGI,Chapter 8: Water cycle changes,Tierney,Jessica,1,Lead Author,Female,United States of America,United States of America,The University of Arizona
+WGI,Chapter 8: Water cycle changes,Zolina,Olga,1,Lead Author,Female,Russian Federation,Russian Federation,Moscow Institute of Physics and Technology (MIPT) and Université Grenoble-Alpes/CNRS Institut des Géosciences de l'Environnement
+WGI,Chapter 8: Water cycle changes,Braconnot,Pascale,1,Review Editor,Female,France,France,Laboratoire des Sciences du Climat et de l'Environnement / IPSL
+WGI,Chapter 8: Water cycle changes,Diedhiou,Arona,2,Review Editor,Male,Cote d'Ivoire,Senegal,IRD-University Felix Houphouet Boigny
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Fox-Kemper,Baylor,1,Coordinating Lead Author,Male,United States of America,United States of America,Brown University
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Hewitt (Nee Banks),Helene,1,Coordinating Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Met Office Hadley Centre
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Xiao,Cunde,2,Coordinating Lead Author,Male,China,China,Beijing Normal University
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Aðalgeirsdóttir,Guðfinna,1,Lead Author,Female,Iceland,Iceland,University of Iceland
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Drijfhout,Sybren,1,Lead Author,Male,Netherlands,Netherlands,Royal Netherlands Meteorological Institute
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Edwards,Tamsin,1,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),King's College London
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Golledge,Nicholas,1,Lead Author,Male,New Zealand,United Kingdom (of Great Britain and Northern Ireland),"Antarctic Research Centre, Victoria University of Wellington"
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Hemer,Mark,1,Lead Author,Male,Australia,Australia,Commonwealth Scientific and Industrial Research Organisation
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Kopp,Robert,1,Lead Author,Male,United States of America,United States of America,Rutgers University
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Krinner,Gerhard,3,Lead Author,Male,France,France,CNRS
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Mix,Alan,1,Lead Author,Male,United States of America,United States of America,Oregon State University
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Notz,Dirk,1,Lead Author,Male,Germany,Germany,Max Planck Institute for Meteorology
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Nowicki,Sophie,1,Lead Author,Female,United States of America,United States of America,University at Buffalo
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Nurhati,Intan,1,Lead Author,Female,Indonesia,Indonesia,Research Center for Deep Sea. National Research and Innovation Agency (BRIN)
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Ruiz,Lucas,1,Lead Author,Male,Argentina,Argentina,IANIGLA CCT-MENDOZA CONICET
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Sallée,Jean-Baptiste,1,Lead Author,Male,France,France,"CNRS, LOCEAN-IPSL"
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Slangen,Aimée,3,Lead Author,Female,Netherlands,Netherlands,NIOZ Royal Netherlands Institute for Sea Research
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Yu,Yongqiang,1,Lead Author,Male,China,China,"Institute of Atmospheric Physics, Chiense Academy of Sciences"
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Alakkat,Unnikrishnan,1,Review Editor,Male,India,India,"Retired Scientist, CSIR-National Institute of Oceanography"
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Horton,Benjamin,1,Review Editor,Male,Singapore,United Kingdom (of Great Britain and Northern Ireland),Nanyang Technological University
+WGI,"Chapter 9: Ocean, cryosphere, and sea level change",Marsland,Simon,1,Review Editor,Male,Australia,Australia,CSIRO Climate Science Centre
+WGI,Chapter 10: Linking global to regional climate change,Doblas-Reyes,Francisco,1,Coordinating Lead Author,Male,Spain,Spain,ICREA and Barcelona Supercomputing Center-Centro Nacional de Supercomputación
+WGI,Chapter 10: Linking global to regional climate change,Sörensson,Anna Amelia,3,Coordinating Lead Author,Female,Argentina,Argentina,"Center for Ocean and Atmosphere Sciences (CIMA / CONICET-UBA), Franco-Argentinian Institute for the Study of Climate and its Impacts (UMI-IFAECI/CNRS-CONICET-UBA)"
+WGI,Chapter 10: Linking global to regional climate change,Almazroui,Mansour,1,Lead Author,Male,Saudi Arabia,Saudi Arabia,"Center of Excellence for Climate Change Research, King Abdulaziz University"
+WGI,Chapter 10: Linking global to regional climate change,Dosio,Alessandro,1,Lead Author,Male,Italy,Italy,European Commission Joint Research Centre
+WGI,Chapter 10: Linking global to regional climate change,Gutowski,William,1,Lead Author,Male,United States of America,United States of America,Iowa State University
+WGI,Chapter 10: Linking global to regional climate change,Haarsma,Rein,1,Lead Author,Male,Netherlands,Netherlands,Royal Netherlands Meteorological Institute (KNMI)
+WGI,Chapter 10: Linking global to regional climate change,Hamdi,Rafiq,1,Lead Author,Male,Belgium,Belgium,Royal Meteorological Institute of Belgium
+WGI,Chapter 10: Linking global to regional climate change,Hewitson,Bruce,1,Lead Author,Male,South Africa,South Africa,University of Cape Town
+WGI,Chapter 10: Linking global to regional climate change,Kwon,Won-Tae,1,Lead Author,Female,Republic of Korea,Republic of Korea,APEC Climate Center
+WGI,Chapter 10: Linking global to regional climate change,Lamptey,Benjamin L.,1,Lead Author,Male,Niger,Ghana,African Centre of Meteorological Applications for Development (ACMAD)
+WGI,Chapter 10: Linking global to regional climate change,Maraun,Douglas,1,Lead Author,Male,Austria,Germany,"University of Graz, Wegener Center for Climate and Global Change"
+WGI,Chapter 10: Linking global to regional climate change,Stephenson,Tannecia,1,Lead Author,Female,Jamaica,Jamaica,The University of the West Indies
+WGI,Chapter 10: Linking global to regional climate change,Takayabu,Izuru,1,Lead Author,Male,Japan,Japan,"Department of Climate and Geo-chemistry Research, Meteorological Research Institute / Japan Meteorological Agency, Japan."
+WGI,Chapter 10: Linking global to regional climate change,Terray,Laurent,1,Lead Author,Male,France,France,"CECI, CERFACS/CNRS"
+WGI,Chapter 10: Linking global to regional climate change,Turner,Andrew,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),"Department of Meteorology and National Centre for Atmospheric Science, University of Reading"
+WGI,Chapter 10: Linking global to regional climate change,Zuo,Zhiyan,1,Lead Author,Female,China,China,Chinese Academy of Meteorological Sciences
+WGI,Chapter 10: Linking global to regional climate change,Flato,Gregory,3,Review Editor,Male,Canada,Canada,"Environment and Climate Change Canada, Canadian Centre for Climate Modelling and Analysis"
+WGI,Chapter 10: Linking global to regional climate change,Tangang,Fredolin,1,Review Editor,Male,Malaysia,Malaysia,The National University of Malaysia
+WGI,Chapter 10: Linking global to regional climate change,Tariq,Muhammad Irfan,1,Review Editor,Male,Pakistan,Pakistan,Ministry of Climate Change Division Government of Pakistan
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Seneviratne,Sonia,2,Coordinating Lead Author,Female,Switzerland,Switzerland,WGI Vice Chair
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Zhang,Xuebin,1,Coordinating Lead Author,Male,Canada,Canada,Environment and Climate Change Canada
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Adnan,Muhammad,1,Lead Author,Male,Pakistan,Pakistan,"Global Change Impact Studies Centre (GCISC), Ministry of Climate Change (MOCC)"
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Badi,Wafae,1,Lead Author,Female,Morocco,Morocco,Direction de la Météorologie Nationale (Moroccan Meteorological Service)
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Dereczynski,Claudine,1,Lead Author,Female,Brazil,Brazil,Federal University of Rio de Janeiro
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Di Luca,Alejandro,1,Lead Author,Male,Australia,Argentina,"Australian Research Council, Climate Change Research Centre, University of New South Wales, Australia"
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Ghosh,Subimal,1,Lead Author,Male,India,India,"Interdisciplinary Program in Climate Studies, Indian Institute of Technology Bombay, Powai"
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Iskandar,Iskhaq,1,Lead Author,Male,Indonesia,Indonesia,University of Sriwijaya
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Kossin,James,1,Lead Author,Male,United States of America,United States of America,NOAA/NCEI Center for Weather and Climate
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Lewis,Sophie,1,Lead Author,Female,Australia,Australia,University of New South Wales in Canberra
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Otto,Friederike,3,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Imperial College London
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Pinto,Izdine,1,Lead Author,Male,South Africa,Mozambique,University of Cape Twon
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Satoh,Masaki,1,Lead Author,Male,Japan,Japan,"Atmosphere and Ocean Research Institute, The University of Tokyo"
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Vicente-Serrano,Sergio M.,1,Lead Author,Male,Spain,Spain,Spanish National Research Council (Pyrenean Institute of Ecology)
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Wehner,Michael,1,Lead Author,Male,United States of America,United States of America,Lawrence Berkeley National Laboratory
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Zhou,Botao,1,Lead Author,Male,China,China,Nanjing University of Information Science and Technology
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Chan,Johnny,1,Review Editor,Male,China,China,"School of Energy and Environment, City University of Hong Kong"
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Sorteberg,Asgeir,1,Review Editor,Male,Norway,Norway,University of Bergen
+WGI,Chapter 11: Weather and climate extreme events in a changing climate,Vera,Carolina,2,Review Editor,Female,Argentina,Argentina,CIMA/Universidad de Buenos Aires-CONICET
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Ranasinghe,Roshanka (Rwmrjb),1,Coordinating Lead Author,Male,Netherlands,Sri Lanka,IHE Delft Institute for Water Education/Deltares
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Ruane,Alexander,3,Coordinating Lead Author,Male,United States of America,United States of America,NASA Goddard Institute for Space Studies
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Vautard,Robert,1,Coordinating Lead Author,Male,France,France,CNRS - Laboratoire des Sciences du Climat et de l'Environnement
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Arnell,Nigel,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Reading
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Coppola,Erika,1,Lead Author,Female,Italy,Italy,The Abdus Salam International Centre for Theoretica Physics
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Cruz,Faye Abigail,1,Lead Author,Female,Philippines,Philippines,Manila Observatory
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Dessai,Suraje,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),Portugal,University of Leeds
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Islam,Akm Saiful,1,Lead Author,Male,Bangladesh,Bangladesh,Bangladesh University of Engineering and Technology (BUET)
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Rahimi,Mohammad,2,Lead Author,Male,Iran,Iran,Professor
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Ruiz Carrascal,Daniel,1,Lead Author,Male,Colombia,Colombia,Universidad Eafit
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Sillmann,Jana,1,Lead Author,Female,Norway,Norway,Center for International Climate Research (CICERO)
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Sylla,Mouhamadou Bamba,1,Lead Author,Male,Rwanda,Senegal,"African Institute for Mathematical Sciences, Research and Innovation Centre"
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Tebaldi,Claudia,1,Lead Author,Female,United States of America,United States of America,Joint Global Change Research Institute
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Wang,Wen,1,Lead Author,Male,China,China,Hohai University
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Zaaboul,Rashyd,1,Lead Author,Male,United Arab Emirates,Morocco,International Center for Biosaline Agriculture
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Aldrian,Edvin,2,Review Editor,Male,Indonesia,Indonesia,"Agency for Meteorology, Climatology and Geophysics (BMKG)"
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Karoly,David J.,1,Review Editor,Male,Australia,Australia,"Earth Systems and Climate Change in the Australian Government's National Environmental Science Program, based in CSIRO"
+WGI,Chapter 12: Climate change information for regional impact and for risk assessment,Türkeş,Murat,2,Review Editor,Male,Türkiye,Türkiye,Boğaziçi University - Center for Climate Change and Policy Studies
+WGII,Chapter 1: Point of departure and key concepts,Ara Begum,Rawshan,1,Coordinating Lead Author,Female,Australia,Bangladesh,Adjunct Professor
+WGII,Chapter 1: Point of departure and key concepts,Lempert,Robert,1,Coordinating Lead Author,Male,United States of America,United States of America,RAND
+WGII,Chapter 1: Point of departure and key concepts,Ali,Elham,2,Lead Author,Female,Egypt,Egypt,University of Suez
+WGII,Chapter 1: Point of departure and key concepts,Benjaminsen,Tor Arve,2,Lead Author,Male,Norway,Norway,Norwegian University of Life Sciences
+WGII,Chapter 1: Point of departure and key concepts,Bernauer,Thomas,1,Lead Author,Male,Switzerland,Switzerland,ETH Zurich
+WGII,Chapter 1: Point of departure and key concepts,Cramer,Wolfgang,3,Lead Author,Male,France,Germany,"Mediterranean Institute for Biodiversity and Ecology (IMBE), Batiment Villemin"
+WGII,Chapter 1: Point of departure and key concepts,Cui,Xuefeng,1,Lead Author,Male,China,China,Beijing Normal University
+WGII,Chapter 1: Point of departure and key concepts,Mach,Katharine,1,Lead Author,Female,United States of America,United States of America,University of Miami
+WGII,Chapter 1: Point of departure and key concepts,Nagy,Gustavo,1,Lead Author,Male,Uruguay,Uruguay,Universidad de la República
+WGII,Chapter 1: Point of departure and key concepts,Stenseth,Nils Christian,1,Lead Author,Male,Norway,Norway,University of Oslo
+WGII,Chapter 1: Point of departure and key concepts,Sukumar,Raman,3,Lead Author,Male,India,India,Indian Institute of Science
+WGII,Chapter 1: Point of departure and key concepts,Wester,Philippus,2,Lead Author,Male,Nepal,Netherlands,International Centre for Integrated Mountain Development
+WGII,Chapter 1: Point of departure and key concepts,Sánchez Rodríguez,Roberto,2,Review Editor,Male,Mexico,Mexico,El Colegio de la Frontera Norte
+WGII,Chapter 1: Point of departure and key concepts,Sutherland,Michael,2,Review Editor,Male,Trinidad and Tobago,Jamaica,University of the West Indies
+WGII,Chapter 2: Terrestrial and freshwater ecosystems and their services,Morecroft,Mike,2,Coordinating Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Natural England
+WGII,Chapter 2: Terrestrial and freshwater ecosystems and their services,Parmesan,Camille,1,Coordinating Lead Author,Female,United States of America,United States of America,University of Texas at Austin
+WGII,Chapter 2: Terrestrial and freshwater ecosystems and their services,Trisurat,Yongyut,1,Coordinating Lead Author,Male,Thailand,Thailand,Kasetsart University
+WGII,Chapter 2: Terrestrial and freshwater ecosystems and their services,Adrian,Rita,1,Lead Author,Female,Germany,Germany,Leibniz-Institute of Freshwater Ecology and Inland Fisheries
+WGII,Chapter 2: Terrestrial and freshwater ecosystems and their services,Anshari,Gusti Zakaria,2,Lead Author,Male,Indonesia,Indonesia,"Universitas Tanjungpura, Pontianak, West Kalimantan Province"
+WGII,Chapter 2: Terrestrial and freshwater ecosystems and their services,Arneth,Almut,2,Lead Author,Female,Nigeria,Germany,Karlsruhe Institute of Technology
+WGII,Chapter 2: Terrestrial and freshwater ecosystems and their services,Gao,Qingzhu,1,Lead Author,Male,China,China,Chinese Academy of Agricultural Sciences (CAAS)
+WGII,Chapter 2: Terrestrial and freshwater ecosystems and their services,Gonzalez,Patrick,2,Lead Author,Male,United States of America,United States of America,"University of California, Berkeley"
+WGII,Chapter 2: Terrestrial and freshwater ecosystems and their services,Harris,Rebecca,2,Lead Author,Female,Australia,Australia,University of Tasmania
+WGII,Chapter 2: Terrestrial and freshwater ecosystems and their services,Price,Jeff,2,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of East Anglia (UEA)
+WGII,Chapter 2: Terrestrial and freshwater ecosystems and their services,Stevens,Nicola,2,Lead Author,Female,South Africa,South Africa,Stellenbosch University
+WGII,Chapter 2: Terrestrial and freshwater ecosystems and their services,Talukdar,Gautam Hirak,2,Lead Author,Male,India,India,Wildlife Institute of India
+WGII,Chapter 2: Terrestrial and freshwater ecosystems and their services,Didukh,Yakiv,1,Review Editor,Male,Ukraine,Ukraine,"M. G. Kholodny Institute of Botany, Nat. Acad. of Sci. of Ukraine<br />International Association for Vegetation Science"
+WGII,Chapter 2: Terrestrial and freshwater ecosystems and their services,Fischlin,Andreas,3,Review Editor,Male,Switzerland,Switzerland,ETH Zurich
+WGII,Chapter 2: Terrestrial and freshwater ecosystems and their services,Franco Billini,Carol,1,Review Editor,Female,United States of America,Dominican Republic,Virginia Tech
+WGII,Chapter 3: Ocean and coastal ecosystems and their services,Cooley,Sarah,1,Coordinating Lead Author,Female,United States of America,United States of America,Ocean Conservancy
+WGII,Chapter 3: Ocean and coastal ecosystems and their services,Schoeman,David,2,Coordinating Lead Author,Male,Australia,Australia,University of the Sunshine Coast
+WGII,Chapter 3: Ocean and coastal ecosystems and their services,Bopp,Laurent,1,Lead Author,Male,France,France,LSCE
+WGII,Chapter 3: Ocean and coastal ecosystems and their services,Boyd,Philip W.,2,Lead Author,Male,Australia,United Kingdom (of Great Britain and Northern Ireland),"Institute for Marine and Antarctic Studies, University of Tasmania"
+WGII,Chapter 3: Ocean and coastal ecosystems and their services,Donner,Simon,1,Lead Author,Male,Canada,Canada,University of British Columbia
+WGII,Chapter 3: Ocean and coastal ecosystems and their services,Ghebrehiwet,Dawit Yemane,1,Lead Author,Male,South Africa,Eritrea,"Department of Agriculture, Forestry & Fisheries; branch Fisheries management"
+WGII,Chapter 3: Ocean and coastal ecosystems and their services,Ito,Shin-Ichi,1,Lead Author,Male,Japan,Japan,The University of Tokyo
+WGII,Chapter 3: Ocean and coastal ecosystems and their services,Kiessling,Wolfgang,2,Lead Author,Male,Germany,Germany,Friedrich-Alexander-Universität Erlangen-Nürnberg
+WGII,Chapter 3: Ocean and coastal ecosystems and their services,Martinetto,Paulina,1,Lead Author,Female,Argentina,Argentina,"Instituto de Investigaciones Marinas y Costeras (IIMyC, UNMdP-CONICET)"
+WGII,Chapter 3: Ocean and coastal ecosystems and their services,Ojea,Elena,1,Lead Author,Female,Spain,Spain,Universidade de Vigo
+WGII,Chapter 3: Ocean and coastal ecosystems and their services,Racault,Marie-Fanny,1,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),"School of Environmental Sciences, University of East Anglia"
+WGII,Chapter 3: Ocean and coastal ecosystems and their services,Rost,Björn,2,Lead Author,Male,Germany,Germany,"Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research"
+WGII,Chapter 3: Ocean and coastal ecosystems and their services,Skern-Mauritzen,Mette,1,Lead Author,Female,Norway,Norway,Institute of Marine Research
+WGII,Chapter 3: Ocean and coastal ecosystems and their services,Hilmi,Karim,2,Review Editor,Male,Morocco,Morocco,Institut National de Recherche Halieutique
+WGII,Chapter 3: Ocean and coastal ecosystems and their services,Levin,Lisa,2,Review Editor,Female,United States of America,United States of America,University of California San Diego
+WGII,Chapter 4: Water,Caretta,Martina Angela,1,Coordinating Lead Author,Female,United States of America,Sweden,Lund University
+WGII,Chapter 4: Water,Mukherji,Aditi,4,Coordinating Lead Author,Female,Kenya,India,CGIAR
+WGII,Chapter 4: Water,Arfanuzzaman,Md.,1,Lead Author,Male,Bangladesh,Bangladesh,Bangladesh Centre for Advanced Studies
+WGII,Chapter 4: Water,Betts,Richard A.,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Exeter and Met Office Hadley Centre
+WGII,Chapter 4: Water,Gelfan,Alexander,1,Lead Author,Male,Russian Federation,Russian Federation,Water Problems Institute of Russian Academy of Sciences
+WGII,Chapter 4: Water,Hirabayashi,Yukiko,2,Lead Author,Female,Japan,Japan,Shibaura Institute of Technology
+WGII,Chapter 4: Water,Lissner,Tabea Katharina,1,Lead Author,Female,Germany,Germany,Climate Analytics
+WGII,Chapter 4: Water,Liu,Junguo,1,Lead Author,Male,China,China,Southern University of Science and Technology
+WGII,Chapter 4: Water,López-Gunn,Elena,1,Lead Author,Female,Spain,Spain,"I-Catalist, S.L."
+WGII,Chapter 4: Water,Morgan,Ruth,1,Lead Author,Female,Australia,Australia,Australian National University
+WGII,Chapter 4: Water,Mwanga,Sixbert,1,Lead Author,Male,United Republic of Tanzania,United Republic of Tanzania,Climate Action Network Tanzania
+WGII,Chapter 4: Water,Supratid,Seree,1,Lead Author,Male,Thailand,Thailand,"Climate Change and Disaster Center, Rangsit U."
+WGII,Chapter 4: Water,Jiménez Cisneros,Blanca E.,1,Review Editor,Female,Mexico,Mexico,Comision Nacional del Agua
+WGII,Chapter 4: Water,Kundzewicz,Zbigniew,1,Review Editor,Male,Germany,Poland,Polish Academy of Sciences
+WGII,"Chapter 5: Food, fibre, and other ecosystem products",Bezner Kerr,Rachel,1,Coordinating Lead Author,Female,United States of America,United States of America,Cornell University
+WGII,"Chapter 5: Food, fibre, and other ecosystem products",Hasegawa,Toshihiro,1,Coordinating Lead Author,Male,Japan,Japan,National Agriculture and Food Research Organization (NARO)
+WGII,"Chapter 5: Food, fibre, and other ecosystem products",Lasco,Rodel,3,Coordinating Lead Author,Male,Philippines,Philippines,NATIONAL PANEL OF TECHNICAL EXPERTS - CLIMATE CHANGE COMMISSION
+WGII,"Chapter 5: Food, fibre, and other ecosystem products",Bhatt,Indra,2,Lead Author,Male,India,India,G.B. Pant National Institute of Himalayan Environment and Sustainable Development
+WGII,"Chapter 5: Food, fibre, and other ecosystem products",Deryng,Delphine,1,Lead Author,Female,Germany,France,"NewClimate Institute ; IRI THESys, Humboldt-University of Berlin"
+WGII,"Chapter 5: Food, fibre, and other ecosystem products",Farrell,Aidan,2,Lead Author,Male,Trinidad and Tobago,Ireland,"The University of the West Indies, St Augustine Campus"
+WGII,"Chapter 5: Food, fibre, and other ecosystem products",Gurney-Smith,Helen,1,Lead Author,Female,Canada,Canada,Fisheries and Oceans Canada
+WGII,"Chapter 5: Food, fibre, and other ecosystem products",Ju,Hui,1,Lead Author,Female,China,China,"Institute of Enviroment and Sustainable Development in Agriculture, Chinese Academy of Agricultural Sciences"
+WGII,"Chapter 5: Food, fibre, and other ecosystem products",Lluch-Cota,Salvador E.,1,Lead Author,Male,Mexico,Mexico,"Center for Biological Research of the Northwest, S.C. (CIBNOR)"
+WGII,"Chapter 5: Food, fibre, and other ecosystem products",Meza,Francisco,2,Lead Author,Male,Chile,Chile,Pontificia Universidad Catolica de Chile
+WGII,"Chapter 5: Food, fibre, and other ecosystem products",Nelson,Gerald,1,Lead Author,Male,United States of America,United States of America,"University of Illinois, Urbana-Champaign"
+WGII,"Chapter 5: Food, fibre, and other ecosystem products",Neufeldt,Henry,2,Lead Author,Male,Denmark,Germany,UNEP DTU Partnership
+WGII,"Chapter 5: Food, fibre, and other ecosystem products",Thornton,Philip,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),"CGIAR Research Program on Climate Change, Agricu;ture and Food Security (CCAFS)"
+WGII,"Chapter 5: Food, fibre, and other ecosystem products",Dube,Pauline,2,Review Editor,Female,Botswana,Botswana,University of Botswana
+WGII,"Chapter 5: Food, fibre, and other ecosystem products",Morison,James,1,Review Editor,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Forest Research (Research Agency of the UK Forestry Commission)
+WGII,"Chapter 6: Cities, settlements and key infrastructure",Dodman,David,3,Coordinating Lead Author,Male,Netherlands,Jamaica,Institute for Housing and Urban Development Studies
+WGII,"Chapter 6: Cities, settlements and key infrastructure",Hayward,Bronwyn,4,Coordinating Lead Author,Female,New Zealand,New Zealand,University of Canterbury
+WGII,"Chapter 6: Cities, settlements and key infrastructure",Pelling,Mark,1,Coordinating Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University College London
+WGII,"Chapter 6: Cities, settlements and key infrastructure",Castan Broto,Vanesa,1,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),Spain,University of Sheffield
+WGII,"Chapter 6: Cities, settlements and key infrastructure",Chow,Winston,2,Lead Author,Male,Singapore,Singapore,Singapore Management University
+WGII,"Chapter 6: Cities, settlements and key infrastructure",Chu,Eric,1,Lead Author,Male,United States of America,United States of America,"University of California, Davis"
+WGII,"Chapter 6: Cities, settlements and key infrastructure",Dawson,Richard,2,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Newcastle University
+WGII,"Chapter 6: Cities, settlements and key infrastructure",Khirfan,Luna,1,Lead Author,Female,Canada,Canada,"School of Planning, The University of Waterloo"
+WGII,"Chapter 6: Cities, settlements and key infrastructure",Mcphearson,Timon,1,Lead Author,Male,United States of America,United States of America,"Urban Systems Lab, The New School"
+WGII,"Chapter 6: Cities, settlements and key infrastructure",Prakash,Anjal,3,Lead Author,Male,India,India,"Bharti Institute of Public Policy, Indian School of Business"
+WGII,"Chapter 6: Cities, settlements and key infrastructure",Zheng,Yan,1,Lead Author,Female,China,China,Chinese Academy of Social Sciences (CASS)
+WGII,"Chapter 6: Cities, settlements and key infrastructure",Ziervogel,Gina,1,Lead Author,Female,South Africa,South Africa,University of Cape Town
+WGII,"Chapter 6: Cities, settlements and key infrastructure",Delgado Ramos,Gian Carlo,1,Review Editor,Male,Mexico,Mexico,National Autonomous University of Mexico
+WGII,"Chapter 6: Cities, settlements and key infrastructure",Romero Lankao,Patricia,2,Review Editor,Female,United States of America,Mexico,National Renewable Energy Laboratory/ University of Chicago
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Cissé,Guéladio,1,Coordinating Lead Author,Male,Cote d'Ivoire,Mauritania,CENTRE SUISSE DE RECHERCHES SCIENTIFIQUES EN COTE D'IVOIRE (CSRS)
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Mcleman,Robert,1,Coordinating Lead Author,Male,Canada,Canada,"Wilfrid Laurier University, Department of Geography and Environmental Studies"
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Adams,Helen,1,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),King's College London
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Aldunce,Paulina,3,Lead Author,Female,Chile,Chile,University of Chile
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Bowen,Kathryn,1,Lead Author,Female,Australia,Australia,University of Melbourne
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Campbell-Lendrum,Diarmid,1,Lead Author,Male,Switzerland,United Kingdom (of Great Britain and Northern Ireland),World Health Organization
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Clayton,Susan,1,Lead Author,Female,United States of America,United States of America,College of Wooster
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Ebi,Kristie,2,Lead Author,Female,United States of America,United States of America,University of Washington
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Hess,Jeremy,1,Lead Author,Male,United States of America,United States of America,University of Washington
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Huang,Cunrui,1,Lead Author,Male,China,China,Tsinghua University
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Liu,Qiyong,1,Lead Author,Male,China,China,CHINESE CENTER FOR DISEASE CONTROL AND PREVENTION ( CHINA CDC )
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Mcgregor,Glenn,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),New Zealand,Durham University
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Semenza,Jan C.,1,Lead Author,Male,Sweden,Sweden,European Centre for Disease Prevention and Control
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Tirado,Maria,2,Lead Author,Female,United States of America,Spain,University of California Los Angeles
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Menne,Bettina,1,Review Editor,Female,Italy,Germany,World Health Organization
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Semenov,Sergey,2,Review Editor,Male,Russian Federation,Russian Federation,Institute of Global Climate and Ecology
+WGII,"Chapter 7: Health, wellbeing and the changing structure of communities",Toussaint,Jean-François,1,Review Editor,Male,France,France,University Paris Descartes
+WGII,"Chapter 8: Poverty, livelihoods and sustainable development",Birkmann,Joern,1,Coordinating Lead Author,Male,Germany,Germany,"University Stuttgart, Institute of Spatial and Regional Planning"
+WGII,"Chapter 8: Poverty, livelihoods and sustainable development",Liwenga,Emma,2,Coordinating Lead Author,Female,United Republic of Tanzania,United Republic of Tanzania,VICE PRESIDENT'S OFFICE
+WGII,"Chapter 8: Poverty, livelihoods and sustainable development",Pandey,Rajiv,1,Coordinating Lead Author,Male,India,India,Indian Council of Forestry Research & Education (ICFRE); An Government of India Organisation
+WGII,"Chapter 8: Poverty, livelihoods and sustainable development",Boyd,Emily,1,Lead Author,Female,Sweden,Sweden,Lund University
+WGII,"Chapter 8: Poverty, livelihoods and sustainable development",Djalante,Riyanti,2,Lead Author,Female,Japan,Indonesia,Kendari City Government
+WGII,"Chapter 8: Poverty, livelihoods and sustainable development",Gemenne,François,1,Lead Author,Male,Belgium,Belgium,University of Liège
+WGII,"Chapter 8: Poverty, livelihoods and sustainable development",Leal,Walter,1,Lead Author,Male,Germany,Germany,Hamburg University of Applied Sciences
+WGII,"Chapter 8: Poverty, livelihoods and sustainable development",Pinho,Patricia Fernanda,2,Lead Author,Female,Brazil,Brazil,Amazon Environmental Research Institute (IPAM)
+WGII,"Chapter 8: Poverty, livelihoods and sustainable development",Stringer,Lindsay,3,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of York
+WGII,"Chapter 8: Poverty, livelihoods and sustainable development",Wrathall,David,1,Lead Author,Male,United States of America,United States of America,Oregon State University
+WGII,"Chapter 8: Poverty, livelihoods and sustainable development",Oki,Taikan,1,Review Editor,Male,Japan,Japan,"Graduate School of Engineering, The University of Tokyo"
+WGII,"Chapter 8: Poverty, livelihoods and sustainable development",Rivera-Ferre,Marta G.,3,Review Editor,Female,Spain,Spain,Spanish National Research Council (CSIC)
+WGII,"Chapter 8: Poverty, livelihoods and sustainable development",Zatari,Taha,3,Review Editor,Male,Saudi Arabia,Saudi Arabia,"DNA-Ministry of Energy, Industry and Mineral resources"
+WGII,Chapter 9: Africa,Adelekan,Ibidun,1,Coordinating Lead Author,Female,Nigeria,Nigeria,"University of Ibadan, Nigeria"
+WGII,Chapter 9: Africa,Totin,Edmond,1,Coordinating Lead Author,Male,Benin,Benin,Universite Nationale d'Agriculture (Benin)
+WGII,Chapter 9: Africa,Trisos,Christopher,3,Coordinating Lead Author,Male,South Africa,South Africa,University of Cape Town
+WGII,Chapter 9: Africa,Ayanlade,Ayansina,1,Lead Author,Male,Nigeria,Nigeria,"Obafemi Awolowo University, Ile-Ife, Nigeria"
+WGII,Chapter 9: Africa,Efitre,Jackson,1,Lead Author,Male,Uganda,Uganda,Makerere University
+WGII,Chapter 9: Africa,Gemeda,Adugna,1,Lead Author,Male,Ethiopia,Ethiopia,Ethiopian Public Health Institute
+WGII,Chapter 9: Africa,Kalaba,Felix Kanungwe,2,Lead Author,Male,Zambia,Zambia,Copperbelt University
+WGII,Chapter 9: Africa,Lennard,Christopher,2,Lead Author,Male,South Africa,South Africa,University of Cape Town
+WGII,Chapter 9: Africa,Masao,Catherine,1,Lead Author,Female,United Republic of Tanzania,United Republic of Tanzania,"INSTITUTE OF RESOURCE ASSESSMENT, UNIVERSITY OF DAR ES SALAAM"
+WGII,Chapter 9: Africa,Mgaya,Yunus,1,Lead Author,Male,United Republic of Tanzania,United Republic of Tanzania,University of Dar es Salaam
+WGII,Chapter 9: Africa,Ngaruiya,Grace,1,Lead Author,Female,Kenya,Kenya,Kenyatta University
+WGII,Chapter 9: Africa,Olago,Daniel Ochieng,1,Lead Author,Male,Kenya,Kenya,"Department of Geology, University of Nairobi"
+WGII,Chapter 9: Africa,Simpson,Nicholas,1,Lead Author,Male,South Africa,Zimbabwe,University of Cape Town
+WGII,Chapter 9: Africa,Zakieldeen,Sumaya A.,3,Lead Author,Female,Sudan,Sudan,Institute of Environmental Studies
+WGII,Chapter 9: Africa,Howden,Mark,2,Review Editor,Male,Australia,Australia,"Australian National University,"
+WGII,Chapter 9: Africa,Yanda,Pius,1,Review Editor,Male,United Republic of Tanzania,United Republic of Tanzania,University of Dar es Salaam
+WGII,Chapter 10: Asia,Cheong,Tae Sung,1,Coordinating Lead Author,Male,Republic of Korea,Republic of Korea,"Ministry of Interior and Safety, National Disaster Management Institute"
+WGII,Chapter 10: Asia,Luo,Yong,1,Coordinating Lead Author,Male,China,China,"Department of Earth System Science, Tsinghua University"
+WGII,Chapter 10: Asia,Shaw,Rajib,1,Coordinating Lead Author,Male,Japan,Japan,Keio University
+WGII,Chapter 10: Asia,Abdul Halim,Sharina,2,Lead Author,Female,Malaysia,Malaysia,"Institute for Environment and Development (LESTARI), Universiti Kebangsaan Malaysia"
+WGII,Chapter 10: Asia,Chaturvedi,Sanjay,1,Lead Author,Male,India,India,Panjab University
+WGII,Chapter 10: Asia,Hashizume,Masahiro,1,Lead Author,Male,Japan,Japan,The University of Tokyo
+WGII,Chapter 10: Asia,Insarov,Gregory E.,2,Lead Author,Male,Russian Federation,Russian Federation,Institute of Geography of the Russian Academy of Sciences
+WGII,Chapter 10: Asia,Ishikawa,Yoichi,1,Lead Author,Male,Japan,Japan,Japan Agency for Marine-Earth Science and Technology
+WGII,Chapter 10: Asia,Jafari,Mostafa,2,Lead Author,Male,Iran,Iran,Macro National Strategic Plan of Climate Change Research AREEO/ and Head of TPS for LFCCs
+WGII,Chapter 10: Asia,Kitoh,Akio,1,Lead Author,Male,Japan,Japan,Japan Meteorological Business Support Center
+WGII,Chapter 10: Asia,Pulhin,Juan,1,Lead Author,Male,Philippines,Philippines,Climate Change Commission
+WGII,Chapter 10: Asia,Singh,Chandni,2,Lead Author,Female,India,India,Indian Institute for Human Settlements (IIHS)
+WGII,Chapter 10: Asia,Vasant,Kripa,1,Lead Author,Female,India,India,INDIAN COUNCIL OF AGRICULTURAL RESEARCH
+WGII,Chapter 10: Asia,Zhang,Zhibin,1,Lead Author,Male,China,China,"Institute of Zoology, Chinese Academy of Sciences"
+WGII,Chapter 10: Asia,Myeong,Soojeong,3,Review Editor,Female,Republic of Korea,Republic of Korea,Korea Environment Institute
+WGII,Chapter 10: Asia,Pereira,Joy Jacqueline,3,Review Editor,Female,Malaysia,Malaysia,Institute for Environment and Development
+WGII,Chapter 11: Australasia,Lawrence,Judy,1,Coordinating Lead Author,Female,New Zealand,New Zealand,"NZ Climate Change Research Institute, Victoria University of Wellington"
+WGII,Chapter 11: Australasia,Mackey,Brendan,1,Coordinating Lead Author,Male,Australia,Australia,Griffith University
+WGII,Chapter 11: Australasia,Chiew,Francis,1,Lead Author,Male,Australia,Australia,"Commonwealth Scientific and Industrial Research Organisation (CSIRO), Australia"
+WGII,Chapter 11: Australasia,Costello,Mark,2,Lead Author,Male,Norway,Ireland,Nord University
+WGII,Chapter 11: Australasia,Hennessy,Kevin,1,Lead Author,Male,Australia,Australia,CSIRO Oceans and Atmosphere
+WGII,Chapter 11: Australasia,Lansbury,Nina,1,Lead Author,Female,Australia,Australia,The University of Queensland (School of Public Health)
+WGII,Chapter 11: Australasia,Nidumolu,Uday Bhaskar,1,Lead Author,Male,Australia,Australia,Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+WGII,Chapter 11: Australasia,Pecl,Gretta,1,Lead Author,Female,Australia,Australia,University of Tasmania
+WGII,Chapter 11: Australasia,Rickards,Lauren,1,Lead Author,Female,Australia,Australia,RMIT University
+WGII,Chapter 11: Australasia,Tapper,Nigel,1,Lead Author,Male,Australia,Australia,Monash University
+WGII,Chapter 11: Australasia,Woodward,Alistair,1,Lead Author,Male,New Zealand,New Zealand,University of Auckland
+WGII,Chapter 11: Australasia,Wreford,Anita,2,Lead Author,Female,New Zealand,New Zealand,Lincoln University
+WGII,Chapter 11: Australasia,Hoegh-Guldberg,Ove,2,Review Editor,Male,Australia,Australia,University of Queensland
+WGII,Chapter 11: Australasia,Wratt,David,1,Review Editor,Male,New Zealand,New Zealand,NIWA (National Institute of Water and Atmospheric Research - Emeritus Scientist)
+WGII,Chapter 12: Central and South America,Castellanos Lopez,Edwin Josue,1,Coordinating Lead Author,Male,Guatemala,Guatemala,Inter-American Institute for Global Change Research (IAI)
+WGII,Chapter 12: Central and South America,Lemos,Maria Fernanda,1,Coordinating Lead Author,Female,Brazil,Brazil,Pontifical Catholic University of Rio de Janeiro
+WGII,Chapter 12: Central and South America,Astigarraga,Laura,1,Lead Author,Female,Uruguay,Uruguay,University of the Republic
+WGII,Chapter 12: Central and South America,C. Postigo,Julio,1,Lead Author,Male,United States of America,Peru,Indiana University
+WGII,Chapter 12: Central and South America,Chacón,Noemí,2,Lead Author,Female,Venezuela,Venezuela,Instituto Venezolano de Investigaciones Científicas (IVIC)
+WGII,Chapter 12: Central and South America,Cuvi,Nicolás,1,Lead Author,Male,Ecuador,Ecuador,Latin American Faculty of Social Sciences
+WGII,Chapter 12: Central and South America,Huggel,Christian,2,Lead Author,Male,Switzerland,Switzerland,University of Zurich
+WGII,Chapter 12: Central and South America,Miranda Sara,Liliana Raquel,1,Lead Author,Female,Peru,Peru,Cities for Life Foro
+WGII,Chapter 12: Central and South America,Moncassim Vale,Mariana,2,Lead Author,Female,Brazil,Brazil,Federal University of Rio de Janeiro
+WGII,Chapter 12: Central and South America,Ometto,Jean Pierre,2,Lead Author,Male,Brazil,Brazil,NATIONAL INSTITUTE FOR SPACE RESEARCH
+WGII,Chapter 12: Central and South America,Peri,Pablo,1,Lead Author,Male,Argentina,Argentina,CONICET-INTA-Universidad Nacional de la Patagonia Austral
+WGII,Chapter 12: Central and South America,Ramajo Gallardo,Laura,1,Lead Author,Female,Chile,Spain,ADOLFO IBAÑEZ UNIVERSITY
+WGII,Chapter 12: Central and South America,Roco,Lisandro,1,Lead Author,Male,Chile,Chile,Universidad Austral de Chile
+WGII,Chapter 12: Central and South America,Rusticucci,Matilde,1,Lead Author,Female,Argentina,Argentina,Universidad de Buenos Aires
+WGII,Chapter 12: Central and South America,Mendez Vallejo,Carlos Luis,1,Review Editor,Male,Venezuela,Venezuela,Instituto Venezolano de Investigaciones Científicas (IVIC)
+WGII,Chapter 12: Central and South America,Suarez Rodriguez,Avelino Gumersindo,3,Review Editor,Male,Cuba,Cuba,Research Center for World Economy
+WGII,Chapter 13: Europe,Bednar-Friedl,Birgit,1,Coordinating Lead Author,Female,Austria,Austria,"University of Graz, Wegener Center for Climate and Global Change & Department of Economics"
+WGII,Chapter 13: Europe,Biesbroek,Robbert,1,Coordinating Lead Author,Male,Netherlands,Netherlands,Wageningen University and Research
+WGII,Chapter 13: Europe,Schmidt,Daniela N.,1,Coordinating Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),Germany,University of Bristol
+WGII,Chapter 13: Europe,Alexander,Peter,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),The University of Edinburgh
+WGII,Chapter 13: Europe,Børsheim,Knut Yngve,1,Lead Author,Male,Norway,Norway,Institute of Marine Research
+WGII,Chapter 13: Europe,Carnicer,Jofre,2,Lead Author,Male,Spain,Spain,University of Barcelona
+WGII,Chapter 13: Europe,Georgopoulou,Elena,2,Lead Author,Female,Greece,Greece,National Observatory of Athens
+WGII,Chapter 13: Europe,Haasnoot,Marjolijn,2,Lead Author,Female,Netherlands,Netherlands,1) Utrecht University; 2) Deltares
+WGII,Chapter 13: Europe,Le Cozannet,Gonéri,2,Lead Author,Male,France,France,BRGM - French Geological Survey
+WGII,Chapter 13: Europe,Lionello,Piero,2,Lead Author,Male,Italy,Italy,Univ. delSalento and CMCC
+WGII,Chapter 13: Europe,Lipka,Oksana,1,Lead Author,Female,Russian Federation,Russian Federation,YU A. Israel Institute of Global climate and Ecology
+WGII,Chapter 13: Europe,Möllmann,Christian,1,Lead Author,Male,Germany,Germany,University of Hamburg
+WGII,Chapter 13: Europe,Muccione,Veruska,2,Lead Author,Female,Switzerland,Switzerland,University of Zurich
+WGII,Chapter 13: Europe,Mustonen,Tero,2,Lead Author,Male,Finland,Finland,Snowchange Cooperative
+WGII,Chapter 13: Europe,Piepenburg,Dieter,2,Lead Author,Male,Germany,Germany,"Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research"
+WGII,Chapter 13: Europe,Whitmarsh,Lorraine,1,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Bath
+WGII,Chapter 13: Europe,Kaser,Georg,3,Review Editor,Male,Austria,Italy,University of Innsbruck
+WGII,Chapter 13: Europe,Moreno,Jose Manuel,2,Review Editor,Male,Spain,Spain,UNIVERSITY OF CASTILLA-LA MANCHA
+WGII,Chapter 14: North America,Hicke,Jeffrey,1,Coordinating Lead Author,Male,United States of America,United States of America,University of Idaho
+WGII,Chapter 14: North America,Lucatello,Simone,1,Coordinating Lead Author,Male,Mexico,Mexico,Instituto Mora - SECHITI. National Ministry for Science and Technology
+WGII,Chapter 14: North America,Mortsch,Linda,1,Coordinating Lead Author,Female,Canada,Canada,University of Waterloo
+WGII,Chapter 14: North America,Dawson,Jackie,2,Lead Author,Female,Canada,Canada,University of Ottawa
+WGII,Chapter 14: North America,Domínguez Aguilar,Mauricio,1,Lead Author,Male,Mexico,Mexico,Autonomous University of Yucatán
+WGII,Chapter 14: North America,Enquist,Carolyn,1,Lead Author,Female,United States of America,United States of America,"U.S. Geological Survey, Southwest Climate Adaptation Science Center"
+WGII,Chapter 14: North America,Gilmore,Elisabeth Anne,1,Lead Author,Female,Canada,Canada,Environment and Climate Change Canada
+WGII,Chapter 14: North America,Gutzler,David,1,Lead Author,Male,United States of America,United States of America,University of New Mexico
+WGII,Chapter 14: North America,Harper,Sherilee,3,Lead Author,Female,Canada,Canada,University of Alberta
+WGII,Chapter 14: North America,Holsman,Kirstin,2,Lead Author,Female,United States of America,United States of America,National Oceanic and Atmospheric Administration
+WGII,Chapter 14: North America,Jewett,Elizabeth (Libby),1,Lead Author,Female,United States of America,United States of America,"NOAA Northeast Fisheries Science Center (until April 30, 2025 - then retired)"
+WGII,Chapter 14: North America,Kohler,Timothy (Tim),1,Lead Author,Male,United States of America,United States of America,Washington State University
+WGII,Chapter 14: North America,Miller,Kathleen,1,Lead Author,Female,United States of America,United States of America,"Research Applications Lab, National Center for Atmospheric Research"
+WGII,Chapter 14: North America,Hurlbert,Margot,2,Review Editor,Female,Canada,Canada,University of Regina
+WGII,Chapter 14: North America,Mearns,Linda,2,Review Editor,Female,United States of America,United States of America,National Center for Atmospheric Research
+WGII,Chapter 15: Small Islands,Mycoo,Michelle,1,Coordinating Lead Author,Female,Trinidad and Tobago,Trinidad and Tobago,"The Department of Geomatics Engineering and Land Management, The University of the West Indies, St. Augustine, Trinidad and Tobago"
+WGII,Chapter 15: Small Islands,Wairiu,Morgan,2,Coordinating Lead Author,Male,Fiji,Solomon Islands,Pacific Centre for Environment and Sustainable Development
+WGII,Chapter 15: Small Islands,Campbell,Donovan,2,Lead Author,Male,Jamaica,Jamaica,University of the West Indies (Mona Campus)
+WGII,Chapter 15: Small Islands,Duvat,Virginie,1,Lead Author,Female,France,France,"University of la Rochelle-CNRS, UMR LIENSs 7266"
+WGII,Chapter 15: Small Islands,Golbuu,Yimnang,2,Lead Author,Male,Palau,Palau,Palau International Coral Reef Center
+WGII,Chapter 15: Small Islands,Maharaj,Shobha,2,Lead Author,Female,Germany,Trinidad and Tobago,University of Fiji
+WGII,Chapter 15: Small Islands,Nalau,Johanna,1,Lead Author,Female,Australia,Australia,"School of Environment and Science, Griffith University"
+WGII,Chapter 15: Small Islands,Nunn,Patrick,1,Lead Author,Male,Australia,Australia,University of the Sunshine Coast
+WGII,Chapter 15: Small Islands,Pinnegar,John,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),"Centre for Environment, Fisheries & Aquaculture Science (Cefas)"
+WGII,Chapter 15: Small Islands,Warrick,Olivia,1,Lead Author,Female,New Zealand,New Zealand,OCWConsulting
+WGII,Chapter 15: Small Islands,Agard,John,1,Review Editor,Male,Trinidad and Tobago,Trinidad and Tobago,"UNIVERSITY OF THE WEST INDIES, ST AUGUSTINE CAMPUS"
+WGII,Chapter 15: Small Islands,Riyaz,Mahmood,1,Review Editor,Male,Maldives,Maldives,Maldivian Coral Reef Society
+WGII,Chapter 16: Key risks across sectors and regions,O'neill,Brian,1,Coordinating Lead Author,Male,United States of America,United States of America,Joint Global Change Research Institute
+WGII,Chapter 16: Key risks across sectors and regions,Van Aalst,Maarten,1,Coordinating Lead Author,Male,Netherlands,Netherlands,KNMI and University of Twente
+WGII,Chapter 16: Key risks across sectors and regions,Zaiton Ibrahim,Zelina,1,Coordinating Lead Author,Female,Malaysia,Malaysia,Universiti Putra Malaysia
+WGII,Chapter 16: Key risks across sectors and regions,Berrang Ford,Lea,1,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),Canada,University of Leeds
+WGII,Chapter 16: Key risks across sectors and regions,Bhadwal,Suruchi,2,Lead Author,Female,India,India,The Energy and Resources Institute
+WGII,Chapter 16: Key risks across sectors and regions,Buhaug,Halvard,1,Lead Author,Male,Norway,Norway,Peace Research Institute Oslo
+WGII,Chapter 16: Key risks across sectors and regions,Diaz,Delavane,1,Lead Author,Female,United States of America,United States of America,Electric Power Research Institute
+WGII,Chapter 16: Key risks across sectors and regions,Frieler,Katja,1,Lead Author,Female,Germany,Germany,Potsdam Institute for Climate Impact Research
+WGII,Chapter 16: Key risks across sectors and regions,Garschagen,Matthias,5,Lead Author,Male,Germany,Germany,Ludwig-Maximilians-University Munich
+WGII,Chapter 16: Key risks across sectors and regions,Magnan,Alexandre,2,Lead Author,Male,France,France,Institute for Sutainable Development and International Relations (IDDRI)
+WGII,Chapter 16: Key risks across sectors and regions,Midgley,Guy,1,Lead Author,Male,South Africa,South Africa,University of Stellenbosch
+WGII,Chapter 16: Key risks across sectors and regions,Mirzabaev,Alisher,3,Lead Author,Male,Germany,Uzbekistan,University of Bonn
+WGII,Chapter 16: Key risks across sectors and regions,Thomas,Adelle,3,Lead Author,Female,United States of America,Bahamas,
+WGII,Chapter 16: Key risks across sectors and regions,Warren,Rachel,2,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of East Anglia
+WGII,Chapter 16: Key risks across sectors and regions,Jiang,Tong,1,Review Editor,Male,China,China,Nanjing University of Information Science and Technology
+WGII,Chapter 16: Key risks across sectors and regions,Oppenheimer,Michael,2,Review Editor,Male,United States of America,United States of America,Princeton University
+WGII,Chapter 17: Decision-making options for managing risk,New,Mark,1,Coordinating Lead Author,Male,South Africa,South Africa,"African Climate and Development Initiative, University of Cape Town"
+WGII,Chapter 17: Decision-making options for managing risk,Reckien,Diana,1,Coordinating Lead Author,Female,Netherlands,Germany,"University of Twente, Faculty of Geo-Information Science and Earth Observation (ITC), Department of Urban and Regional Planning and Geo-Information Management"
+WGII,Chapter 17: Decision-making options for managing risk,Viner,David,2,Coordinating Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of East Anglia
+WGII,Chapter 17: Decision-making options for managing risk,Adler,Carolina,3,Lead Author,Female,Switzerland,Chile,Universität Bern Geographisches Institut
+WGII,Chapter 17: Decision-making options for managing risk,Cheong,So Min,2,Lead Author,Female,United States of America,United States of America,Texas A&M University
+WGII,Chapter 17: Decision-making options for managing risk,Conde,Cecilia,1,Lead Author,Female,Mexico,Mexico,Center of Atmosheric Sciences. National Autonomous University of Mexico.
+WGII,Chapter 17: Decision-making options for managing risk,Constable,Andrew,2,Lead Author,Male,Australia,Australia,"Centre for Marine Socioecology, University of Tasmania"
+WGII,Chapter 17: Decision-making options for managing risk,Coughlan De Perez,Erin,1,Lead Author,Female,Netherlands,United States of America,Climate Centre
+WGII,Chapter 17: Decision-making options for managing risk,Lammel,Annamaria,1,Lead Author,Female,France,France,Université Paris 8 Vincennes Saint-Denis
+WGII,Chapter 17: Decision-making options for managing risk,Mechler,Reinhard,2,Lead Author,Male,Austria,Germany,International Institute for Applied Systems Analysis (IIASA)
+WGII,Chapter 17: Decision-making options for managing risk,Orlove,Ben,2,Lead Author,Male,United States of America,United States of America,Columbia University
+WGII,Chapter 17: Decision-making options for managing risk,Solecki,William,2,Lead Author,Male,United States of America,United States of America,City University of New York
+WGII,Chapter 17: Decision-making options for managing risk,Klein,Richard,1,Review Editor,Male,Germany,Netherlands,Stockholm Environment Institute
+WGII,Chapter 17: Decision-making options for managing risk,Zommers,Zinta,4,Review Editor,Female,United States of America,Latvia,United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA)
+WGII,Chapter 18: Climate resilient development pathways,Preston,Benjamin L.,1,Coordinating Lead Author,Male,United States of America,Australia,Independent
+WGII,Chapter 18: Climate resilient development pathways,Revi,Aromar,4,Coordinating Lead Author,Male,India,India,Indian Institute for Human Settlements
+WGII,Chapter 18: Climate resilient development pathways,Schipper,Lisa,1,Coordinating Lead Author,Female,Germany,Sweden,University of Bonn
+WGII,Chapter 18: Climate resilient development pathways,Carr,Edward R.,1,Lead Author,Male,United States of America,United States of America,Clark University
+WGII,Chapter 18: Climate resilient development pathways,Eriksen,Siri H.,1,Lead Author,Female,Norway,Norway,Norwegian University of Life Sciences
+WGII,Chapter 18: Climate resilient development pathways,Fernandez-Carril,Luis,1,Lead Author,Male,Mexico,Mexico,"Technological Institute and Higher Studies of Monterrey, Special Commission on Climate Change of the Senate of Mexico"
+WGII,Chapter 18: Climate resilient development pathways,Glavovic,Bruce,3,Lead Author,Male,New Zealand,South Africa,Massey University
+WGII,Chapter 18: Climate resilient development pathways,Hilmi,Nathalie Jeanne Marie,3,Lead Author,Female,Monaco,France,Centre Scientifique de Monaco
+WGII,Chapter 18: Climate resilient development pathways,Ley,Debora,2,Lead Author,Female,Guatemala,Mexico,Economic Commission for Latin America and the Caribbean
+WGII,Chapter 18: Climate resilient development pathways,Mukerji,Rupa,1,Lead Author,Female,Switzerland,India,Helvetas Swiss Intercooperation
+WGII,Chapter 18: Climate resilient development pathways,Muylaert De Araujo,Maria Silvia,1,Lead Author,Female,Brazil,Brazil,Housing Company of Rio de Janeiro State.
+WGII,Chapter 18: Climate resilient development pathways,Perez,Rosa,2,Lead Author,Female,Philippines,Philippines,NATIONAL PANEL OF TECHNICAL EXPERTS - CLIMATE CHANGE COMMISSION
+WGII,Chapter 18: Climate resilient development pathways,Rose,Steven K.,1,Lead Author,Male,United States of America,United States of America,Electric Power Research Institute
+WGII,Chapter 18: Climate resilient development pathways,Singh,Pramod Kumar,1,Lead Author,Male,India,India,Institute of Rural Management Anand
+WGII,Chapter 18: Climate resilient development pathways,Liverman,Diana,2,Review Editor,Female,United States of America,United States of America,University of Arizona
+WGII,Chapter 18: Climate resilient development pathways,Mimura,Nobuo,1,Review Editor,Male,Japan,Japan,Ibaraki University
+WGII,Cross-Chapter Paper: Biodiversity Hotspots,Costello,Mark,2,Lead,Male,Norway,Ireland,Nord University
+WGII,Cross-Chapter Paper: Biodiversity Hotspots,Moncassim Vale,Mariana,2,Lead,Female,Brazil,Brazil,Federal University of Rio de Janeiro
+WGII,Cross-Chapter Paper: Biodiversity Hotspots,Golbuu,Yimnang,2,Author,Male,Palau,Palau,Palau International Coral Reef Center
+WGII,Cross-Chapter Paper: Biodiversity Hotspots,Kiessling,Wolfgang,2,Author,Male,Germany,Germany,Friedrich-Alexander-Universität Erlangen-Nürnberg
+WGII,Cross-Chapter Paper: Biodiversity Hotspots,Maharaj,Shobha,2,Author,Female,Germany,Trinidad and Tobago,University of Fiji
+WGII,Cross-Chapter Paper: Biodiversity Hotspots,Price,Jeff,2,Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of East Anglia (UEA)
+WGII,Cross-Chapter Paper: Biodiversity Hotspots,Talukdar,Gautam Hirak,2,Author,Male,India,India,Wildlife Institute of India
+WGII,Cross-Chapter Paper: Biodiversity Hotspots,Fischlin,Andreas,3,Review Editor,Male,Switzerland,Switzerland,ETH Zurich
+WGII,Cross-Chapter Paper: Cities and Settlements by the Sea,Chow,Winston,2,Lead,Male,Singapore,Singapore,Singapore Management University
+WGII,Cross-Chapter Paper: Cities and Settlements by the Sea,Dawson,Richard,2,Lead,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Newcastle University
+WGII,Cross-Chapter Paper: Cities and Settlements by the Sea,Glavovic,Bruce,3,Lead,Male,New Zealand,South Africa,Massey University
+WGII,Cross-Chapter Paper: Cities and Settlements by the Sea,Garschagen,Matthias,5,Author,Male,Germany,Germany,Ludwig-Maximilians-University Munich
+WGII,Cross-Chapter Paper: Cities and Settlements by the Sea,Haasnoot,Marjolijn,2,Author,Female,Netherlands,Netherlands,1) Utrecht University; 2) Deltares
+WGII,Cross-Chapter Paper: Cities and Settlements by the Sea,Singh,Chandni,2,Author,Female,India,India,Indian Institute for Human Settlements (IIHS)
+WGII,Cross-Chapter Paper: Cities and Settlements by the Sea,Thomas,Adelle,3,Author,Female,United States of America,Bahamas,
+WGII,Cross-Chapter Paper: Cities and Settlements by the Sea,Myeong,Soojeong,3,Review Editor,Female,Republic of Korea,Republic of Korea,Korea Environment Institute
+WGII,"Cross-Chapter Paper: Deserts, Semi-arid Areas, and Desertification",Mirzabaev,Alisher,3,Lead,Male,Germany,Uzbekistan,University of Bonn
+WGII,"Cross-Chapter Paper: Deserts, Semi-arid Areas, and Desertification",Stringer,Lindsay,3,Lead,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of York
+WGII,"Cross-Chapter Paper: Deserts, Semi-arid Areas, and Desertification",Benjaminsen,Tor Arve,2,Author,Male,Norway,Norway,Norwegian University of Life Sciences
+WGII,"Cross-Chapter Paper: Deserts, Semi-arid Areas, and Desertification",Gonzalez,Patrick,2,Author,Male,United States of America,United States of America,"University of California, Berkeley"
+WGII,"Cross-Chapter Paper: Deserts, Semi-arid Areas, and Desertification",Harris,Rebecca,2,Author,Female,Australia,Australia,University of Tasmania
+WGII,"Cross-Chapter Paper: Deserts, Semi-arid Areas, and Desertification",Jafari,Mostafa,2,Author,Male,Iran,Iran,Macro National Strategic Plan of Climate Change Research AREEO/ and Head of TPS for LFCCs
+WGII,"Cross-Chapter Paper: Deserts, Semi-arid Areas, and Desertification",Stevens,Nicola,2,Author,Female,South Africa,South Africa,Stellenbosch University
+WGII,"Cross-Chapter Paper: Deserts, Semi-arid Areas, and Desertification",Tirado,Maria,2,Author,Female,United States of America,Spain,University of California Los Angeles
+WGII,"Cross-Chapter Paper: Deserts, Semi-arid Areas, and Desertification",Zakieldeen,Sumaya A.,3,Author,Female,Sudan,Sudan,Institute of Environmental Studies
+WGII,"Cross-Chapter Paper: Deserts, Semi-arid Areas, and Desertification",Zatari,Taha,3,Review Editor,Male,Saudi Arabia,Saudi Arabia,"DNA-Ministry of Energy, Industry and Mineral resources"
+WGII,Cross-Chapter Paper: Mediterranean Region,Ali,Elham,2,Lead,Female,Egypt,Egypt,University of Suez
+WGII,Cross-Chapter Paper: Mediterranean Region,Cramer,Wolfgang,3,Lead,Male,France,Germany,"Mediterranean Institute for Biodiversity and Ecology (IMBE), Batiment Villemin"
+WGII,Cross-Chapter Paper: Mediterranean Region,Carnicer,Jofre,2,Author,Male,Spain,Spain,University of Barcelona
+WGII,Cross-Chapter Paper: Mediterranean Region,Georgopoulou,Elena,2,Author,Female,Greece,Greece,National Observatory of Athens
+WGII,Cross-Chapter Paper: Mediterranean Region,Hilmi,Nathalie Jeanne Marie,3,Author,Female,Monaco,France,Centre Scientifique de Monaco
+WGII,Cross-Chapter Paper: Mediterranean Region,Le Cozannet,Gonéri,2,Author,Male,France,France,BRGM - French Geological Survey
+WGII,Cross-Chapter Paper: Mediterranean Region,Lionello,Piero,2,Author,Male,Italy,Italy,Univ. delSalento and CMCC
+WGII,Cross-Chapter Paper: Mediterranean Region,Hilmi,Karim,2,Review Editor,Male,Morocco,Morocco,Institut National de Recherche Halieutique
+WGII,Cross-Chapter Paper: Mediterranean Region,Rivera-Ferre,Marta G.,3,Review Editor,Female,Spain,Spain,Spanish National Research Council (CSIC)
+WGII,Cross-Chapter Paper: Mountains,Adler,Carolina,3,Lead,Female,Switzerland,Chile,Universität Bern Geographisches Institut
+WGII,Cross-Chapter Paper: Mountains,Wester,Philippus,2,Lead,Male,Nepal,Netherlands,International Centre for Integrated Mountain Development
+WGII,Cross-Chapter Paper: Mountains,Bhatt,Indra,2,Author,Male,India,India,G.B. Pant National Institute of Himalayan Environment and Sustainable Development
+WGII,Cross-Chapter Paper: Mountains,Huggel,Christian,2,Author,Male,Switzerland,Switzerland,University of Zurich
+WGII,Cross-Chapter Paper: Mountains,Insarov,Gregory E.,2,Author,Male,Russian Federation,Russian Federation,Institute of Geography of the Russian Academy of Sciences
+WGII,Cross-Chapter Paper: Mountains,Morecroft,Mike,2,Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Natural England
+WGII,Cross-Chapter Paper: Mountains,Muccione,Veruska,2,Author,Female,Switzerland,Switzerland,University of Zurich
+WGII,Cross-Chapter Paper: Mountains,Prakash,Anjal,3,Author,Male,India,India,"Bharti Institute of Public Policy, Indian School of Business"
+WGII,Cross-Chapter Paper: Mountains,Kaser,Georg,3,Review Editor,Male,Austria,Italy,University of Innsbruck
+WGII,Cross-Chapter Paper: Polar Regions,Constable,Andrew,2,Lead,Male,Australia,Australia,"Centre for Marine Socioecology, University of Tasmania"
+WGII,Cross-Chapter Paper: Polar Regions,Harper,Sherilee,3,Lead,Female,Canada,Canada,University of Alberta
+WGII,Cross-Chapter Paper: Polar Regions,Dawson,Jackie,2,Author,Female,Canada,Canada,University of Ottawa
+WGII,Cross-Chapter Paper: Polar Regions,Holsman,Kirstin,2,Author,Female,United States of America,United States of America,National Oceanic and Atmospheric Administration
+WGII,Cross-Chapter Paper: Polar Regions,Mustonen,Tero,2,Author,Male,Finland,Finland,Snowchange Cooperative
+WGII,Cross-Chapter Paper: Polar Regions,Piepenburg,Dieter,2,Author,Male,Germany,Germany,"Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research"
+WGII,Cross-Chapter Paper: Polar Regions,Rost,Björn,2,Author,Male,Germany,Germany,"Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research"
+WGII,Cross-Chapter Paper: Polar Regions,Boyd,Philip W.,2,Review Editor,Male,Australia,United Kingdom (of Great Britain and Northern Ireland),"Institute for Marine and Antarctic Studies, University of Tasmania"
+WGII,Cross-Chapter Paper: Tropical Forests,Kalaba,Felix Kanungwe,2,Lead,Male,Zambia,Zambia,Copperbelt University
+WGII,Cross-Chapter Paper: Tropical Forests,Ometto,Jean Pierre,2,Lead,Male,Brazil,Brazil,NATIONAL INSTITUTE FOR SPACE RESEARCH
+WGII,Cross-Chapter Paper: Tropical Forests,Anshari,Gusti Zakaria,2,Author,Male,Indonesia,Indonesia,"Universitas Tanjungpura, Pontianak, West Kalimantan Province"
+WGII,Cross-Chapter Paper: Tropical Forests,Chacón,Noemí,2,Author,Female,Venezuela,Venezuela,Instituto Venezolano de Investigaciones Científicas (IVIC)
+WGII,Cross-Chapter Paper: Tropical Forests,Farrell,Aidan,2,Author,Male,Trinidad and Tobago,Ireland,"The University of the West Indies, St Augustine Campus"
+WGII,Cross-Chapter Paper: Tropical Forests,Neufeldt,Henry,2,Author,Male,Denmark,Germany,UNEP DTU Partnership
+WGII,Cross-Chapter Paper: Tropical Forests,Sukumar,Raman,3,Author,Male,India,India,Indian Institute of Science
+WGII,Cross-Chapter Paper: Tropical Forests,Suarez Rodriguez,Avelino Gumersindo,3,Review Editor,Male,Cuba,Cuba,Research Center for World Economy
+WGIII,Chapter : ,Jäger-Waldau,Arnulf,1,Review Editor,Male,Italy,Germany,"European Commission, Joint Research Centre"
+WGIII,Chapter : ,Stern,David,1,Review Editor,Male,Australia,Australia,"Australian National University, Arndt-Corden Division of Economics, Crawford School"
+WGIII,Chapter 1: Introduction and Framing,Grubb,Michael,1,Coordinating Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University College London
+WGIII,Chapter 1: Introduction and Framing,Okereke,Chukwumerije,2,Coordinating Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),Nigeria,University of Reading
+WGIII,Chapter 1: Introduction and Framing,Arima,Jun,1,Lead Author,Male,Japan,Japan,"Graduate School of Public Policy, University of Tokyo"
+WGIII,Chapter 1: Introduction and Framing,Bosetti,Valentina,1,Lead Author,Female,Italy,Italy,Bocconi University and CMCC
+WGIII,Chapter 1: Introduction and Framing,Chen,Ying,1,Lead Author,Female,China,China,"Institute for Urban and Environmental Studies (IUE), Chinese Academy of Social Sciences (CASS)"
+WGIII,Chapter 1: Introduction and Framing,Edmonds,James A.,1,Lead Author,Male,United States of America,United States of America,Pacific Northwest National Laboratory
+WGIII,Chapter 1: Introduction and Framing,Gupta,Shreekant,1,Lead Author,Male,India,India,"Delhi School of Economics, University of Delhi"
+WGIII,Chapter 1: Introduction and Framing,Koberle,Alexandre,1,Lead Author,Male,Portugal,Brazil,"Instituto Dom Luiz, Faculty of Sciences, University of Lisbon"
+WGIII,Chapter 1: Introduction and Framing,Kverndokk,Snorre,1,Lead Author,Male,Norway,Norway,Frisch Centre
+WGIII,Chapter 1: Introduction and Framing,Malik,Arunima,1,Lead Author,Female,Australia,Australia,The University of Sydney
+WGIII,Chapter 1: Introduction and Framing,Sulistiawati,Linda Yanti,1,Lead Author,Female,Singapore,Indonesia,National University of Singapore
+WGIII,Chapter 1: Introduction and Framing,Elgizouli Idris,Ismail,2,Review Editor,Male,Sudan,Sudan,
+WGIII,Chapter 1: Introduction and Framing,Lowe,Jason,1,Review Editor,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Met Office Hadley Centre
+WGIII,Chapter 2: Emissions trends and drivers,Dhakal,Shobhakar,1,Coordinating Lead Author,Male,Thailand,Nepal,Asian Institute of Technology
+WGIII,Chapter 2: Emissions trends and drivers,Minx,Jan Christoph,1,Coordinating Lead Author,Male,Germany,Germany,Potsdam Institute for Climate Impact Research
+WGIII,Chapter 2: Emissions trends and drivers,Toth,Ferenc L.,1,Coordinating Lead Author,Male,Austria,Hungary,"Scientific and Technical Advisory Panel, GEF"
+WGIII,Chapter 2: Emissions trends and drivers,Abdel-Aziz,Amr,1,Lead Author,Male,Egypt,Egypt,Integral Consult
+WGIII,Chapter 2: Emissions trends and drivers,Figueroa,Maria Josefina,1,Lead Author,Female,Denmark,Denmark,Copenhagen Business School
+WGIII,Chapter 2: Emissions trends and drivers,Huabacek,Klaus,1,Lead Author,Male,United States of America,Austria,"University of Maryland, College Park"
+WGIII,Chapter 2: Emissions trends and drivers,Jonckheere,Inge G.c.,1,Lead Author,Female,Italy,Belgium,FAO of the UN
+WGIII,Chapter 2: Emissions trends and drivers,Kim,Yong-Gun,1,Lead Author,Male,Republic of Korea,Republic of Korea,Yonsei University
+WGIII,Chapter 2: Emissions trends and drivers,Nemet,Gregory,1,Lead Author,Male,United States of America,Canada,University of Wisconsin-Madison
+WGIII,Chapter 2: Emissions trends and drivers,Pachauri,Shonali,1,Lead Author,Female,Austria,India,International Institute for Applied Systems Analysis (IIASA)
+WGIII,Chapter 2: Emissions trends and drivers,Tan,Xianchun,1,Lead Author,Female,China,China,"Institutes of Science and Development, Chinese Academy of Sciences"
+WGIII,Chapter 2: Emissions trends and drivers,Wiedmann,Thomas,1,Lead Author,Male,Australia,Australia,University of New South Wales (UNSW Sydney)
+WGIII,Chapter 2: Emissions trends and drivers,Amon,Barbara,1,Review Editor,Female,Germany,Germany,Leibniz Institute for Agricultural Engineering and Bioeconomy
+WGIII,Chapter 2: Emissions trends and drivers,Mamo Diga,Girma,1,Review Editor,Male,Ethiopia,Ethiopia,"Metaferia Consulting Engineers PLC (MCE), Ethiopian Institute of Agricultural Research (EIAR)"
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Riahi,Keywan,2,Coordinating Lead Author,Male,Austria,Austria,International Institute for Applied Systems Analysis (IIASA)
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Schaeffer,Roberto,2,Coordinating Lead Author,Male,Brazil,Brazil,Universidade Federal do Rio de Janeiro
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Arango,Jacobo,1,Lead Author,Male,Colombia,Colombia,International Center for Tropical Agriculture (CIAT); Tropical Forages Program
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Calvin,Katherine,4,Lead Author,Female,United States of America,United States of America,University of Maryland
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Guivarch,Céline,1,Lead Author,Female,France,France,CIRED - Ecole des Ponts - Institut Polytechnique de Paris
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Hasegawa,Tomoko,1,Lead Author,Female,Japan,Japan,Ritsumeikan University
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Jiang,Kejun,2,Lead Author,Male,China,China,"Energy Research Institute, National Development and Reform Commission"
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Kriegler,Elmar,2,Lead Author,Male,Germany,Germany,Potsdam Institute for Climate Impact Research
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Matthews,Robert,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Forest Research
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Peters,Glen,1,Lead Author,Male,Norway,Norway,CICERO Center for International Climate Research
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Rao,Anand,1,Lead Author,Male,India,India,Indian Institute of Technology Bombay
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Robertson,Simon,1,Lead Author,Male,Australia,Australia,The University of New South Wales
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Sebbit,Adam Mohammed,1,Lead Author,Male,Uganda,Uganda,Makerere University
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Steinberger,Julia,1,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),Switzerland,Sustainability Research Institute
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Tavoni,Massimo,1,Lead Author,Male,Italy,Italy,Centro euromediterraneo sui cambiamenti climatici (CMCC) and Politecnico di Milano
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Van Vuuren,Detlef,3,Lead Author,Male,Netherlands,Netherlands,PBL Netherlands Environmental Assessment Agency
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Chaturvedi,Vaibhav,1,Review Editor,Male,India,India,"Council on Energy, Environment and Water (CEEW)"
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Chen,Wenying,1,Review Editor,Female,China,China,Tsinghua University
+WGIII,Chapter 3: Mitigation pathways compatible with long-term goals,Torres Martínez,Julio,1,Review Editor,Male,Cuba,Cuba,"Center for World Economic Research (CIEM, in Spanish)"
+WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term,Lecocq,Franck,1,Coordinating Lead Author,Male,France,France,AGROPARISTECH / CIRED
+WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term,Winkler,Harald,3,Coordinating Lead Author,Male,South Africa,South Africa,"Energy Research Centre, University of Cape Town"
+WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term,Daka,Julius Partson,1,Lead Author,Male,Zambia,Zambia,C/O ZAMBIA ENVIRONMENTAL MANAGEMENT AUTHORITY ZEMA
+WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term,Fu,Sha,1,Lead Author,Female,China,China,"Assistant professor, National center for climate change strategy and international cooperation"
+WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term,Gerber,James,1,Lead Author,Male,United States of America,United States of America,"Institute on the Environment, University of Minnesota"
+WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term,Kartha,Sivan,1,Lead Author,Male,United States of America,United States of America,Stockholm Environment Institute
+WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term,Krey,Volker,1,Lead Author,Male,Austria,Germany,International Institute for Applied Systems Analysis (IIASA)
+WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term,Lofgren,Hans,1,Lead Author,Male,United States of America,Sweden,Economic Consultant
+WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term,Masui,Toshihiko,1,Lead Author,Male,Japan,Japan,National Institute for Environmental Studies
+WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term,Mathur,Ritu,1,Lead Author,Female,India,India,THE ENERGY & RESOURCES INSTITUTE (TERI)
+WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term,Portugal Pereira,Joana,1,Lead Author,Female,Brazil,Portugal,Federal University of Rio de Janeiro
+WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term,Sovacool,Benjamin Kenneth,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Professor of Energy Policy
+WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term,Vilariño,Maria Virginia,2,Lead Author,Female,Argentina,Argentina,Argentinean Business Council for Sustainable Development
+WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term,Zhou,Nan,1,Lead Author,Female,United States of America,United States of America,"University of California, Berkeley"
+WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term,Galeotti,Marzio Domenico,1,Review Editor,Male,Italy,Italy,"University of Milan, Department of Environmental Science and Policy"
+WGIII,Chapter 4: Mitigation and development pathways in the near-to mid-term,Pedace,Alberto,1,Review Editor,Male,Argentina,Argentina,Climate Action Network - Latin America (CAN-LA)
+WGIII,"Chapter 5: Demand, services and social aspects of mitigation",Creutzig,Felix,1,Coordinating Lead Author,Male,Germany,Germany,Mercator Research Institute on Global Commons and Climate Change
+WGIII,"Chapter 5: Demand, services and social aspects of mitigation",Roy,Joyashree,4,Coordinating Lead Author,Female,India,India,"Asian Institute of Technology Thailand, Jadavpur University, India"
+WGIII,"Chapter 5: Demand, services and social aspects of mitigation",Devine-Wright,Patrick,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),Ireland,University of Exeter
+WGIII,"Chapter 5: Demand, services and social aspects of mitigation",Diaz-José,Julio,1,Lead Author,Male,Mexico,Mexico,National Technological Institute of Mexico - Zongolica Campus
+WGIII,"Chapter 5: Demand, services and social aspects of mitigation",Geels,Frank,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),Netherlands,The University of Manchester; Manchester Institute of Innovation Research
+WGIII,"Chapter 5: Demand, services and social aspects of mitigation",Grübler,Arnulf,1,Lead Author,Male,Austria,Austria,International Institute for Applied Systems Analysis {IIASA]
+WGIII,"Chapter 5: Demand, services and social aspects of mitigation",Maizi,Nadia,1,Lead Author,Female,France,France,"MINES ParisTech, Paris Science et Lettres Research University (PSL)"
+WGIII,"Chapter 5: Demand, services and social aspects of mitigation",Masanet,Eric,1,Lead Author,Male,United States of America,United States of America,"University of California, Santa Barbara"
+WGIII,"Chapter 5: Demand, services and social aspects of mitigation",Mulugetta,Yacob,2,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),Ethiopia,University College London (UCL)
+WGIII,"Chapter 5: Demand, services and social aspects of mitigation",Onyige,Chioma Daisy,1,Lead Author,Female,Nigeria,Nigeria,University of Port Harcourt
+WGIII,"Chapter 5: Demand, services and social aspects of mitigation",Perkins,Patricia,1,Lead Author,Female,Canada,Canada,"Faculty of Environmental Studies, York University"
+WGIII,"Chapter 5: Demand, services and social aspects of mitigation",Sanches Preira,Alessandro,1,Lead Author,Male,Brazil,Brazil,USP University of São Paulo / IEE Institute of Energy and Environment
+WGIII,"Chapter 5: Demand, services and social aspects of mitigation",Weber,Elke Ursula,1,Lead Author,Female,United States of America,United States of America,"Princeton University, Andlinger Center for Energy and the Environment"
+WGIII,"Chapter 5: Demand, services and social aspects of mitigation",Eyre,Nicholas,1,Review Editor,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Oxford
+WGIII,"Chapter 5: Demand, services and social aspects of mitigation",Wang,Can,1,Review Editor,Male,China,China,Tsinghua University
+WGIII,Chapter 6: Energy systems,Clarke,Leon,1,Coordinating Lead Author,Male,United States of America,United States of America,Pacific Northwest National Laboratory
+WGIII,Chapter 6: Energy systems,Wei,Yi-Ming,3,Coordinating Lead Author,Male,China,China,"Center for Energy and Environmental Policy Research, Beijing Institute of Technology"
+WGIII,Chapter 6: Energy systems,De La Vega Navarro,Angel,1,Lead Author,Male,Mexico,Mexico,UNAM - NATIONAL AUTONOMOUS UNIVERSITY OF MEXICO
+WGIII,Chapter 6: Energy systems,Garg,Amit,1,Lead Author,Male,India,India,INDIAN INSTITUTE OF MANAGEMENT AHMEDABAD
+WGIII,Chapter 6: Energy systems,Hahmann,Andrea N.,1,Lead Author,Female,Denmark,Chile,"Department of Wind Energy, Technical University of Denmark"
+WGIII,Chapter 6: Energy systems,Khennas,Smail,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),Algeria,Independent energy and climate change expert
+WGIII,Chapter 6: Energy systems,Lima De Azevedo,Inês Margarida,1,Lead Author,Female,United States of America,Portugal,Stanford University
+WGIII,Chapter 6: Energy systems,Löschel,Andreas,1,Lead Author,Male,Germany,Germany,Ruhr-University Bochum
+WGIII,Chapter 6: Energy systems,Singh,Ajay Kumar,1,Lead Author,Male,India,India,"Former Scientist, CSIR-CIMFR (a national laboratory under CSIR)"
+WGIII,Chapter 6: Energy systems,Steg,Linda,2,Lead Author,Female,Netherlands,Netherlands,University of Groningen
+WGIII,Chapter 6: Energy systems,Strbac,Goran,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),Serbia,Imperial College London
+WGIII,Chapter 6: Energy systems,Wada,Kenichi,1,Lead Author,Male,Japan,Japan,Research Institute of Innovative Technology for the Earth (RITE)
+WGIII,Chapter 6: Energy systems,Essandoh-Yeddu,Joseph Kow,1,Review Editor,Male,Ghana,Ghana,"Institute for Oil and Gas Studies, University of Cape Coast"
+WGIII,Chapter 6: Energy systems,Lee,Arthur,1,Review Editor,Male,United States of America,United States of America,Chevron Corporation
+WGIII,"Chapter 7: Agriculture, Forestry, and Other Land Uses (AFOLU)",Mrabet,Rachid,2,Coordinating Lead Author,Male,Morocco,Morocco,Institut National de la Recherche Agronomique (INRA)
+WGIII,"Chapter 7: Agriculture, Forestry, and Other Land Uses (AFOLU)",Nabuurs,Gert-Jan,1,Coordinating Lead Author,Male,Netherlands,Netherlands,Wageningen University and Research
+WGIII,"Chapter 7: Agriculture, Forestry, and Other Land Uses (AFOLU)",Abu Hatab,Assem,1,Lead Author,Male,Sweden,Egypt,"Department of Economics, the Swedish University of Agricultural Sciences"
+WGIII,"Chapter 7: Agriculture, Forestry, and Other Land Uses (AFOLU)",Bustamante,Mercedes,1,Lead Author,Female,Brazil,Brazil,University of Brasília
+WGIII,"Chapter 7: Agriculture, Forestry, and Other Land Uses (AFOLU)",Clark,Harry,1,Lead Author,Male,New Zealand,New Zealand,New Zealand Agricultural Greenhouse Gas Research Centre
+WGIII,"Chapter 7: Agriculture, Forestry, and Other Land Uses (AFOLU)",Havlik,Petr,1,Lead Author,Male,Austria,Czech Republic,International Institute for Applied Systems Analyisis (IIASA)
+WGIII,"Chapter 7: Agriculture, Forestry, and Other Land Uses (AFOLU)",House,Joanna,2,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Bristol
+WGIII,"Chapter 7: Agriculture, Forestry, and Other Land Uses (AFOLU)",Mbow,Cheikh,2,Lead Author,Male,United States of America,Senegal,START International
+WGIII,"Chapter 7: Agriculture, Forestry, and Other Land Uses (AFOLU)",Ninan,Karachepone,1,Lead Author,Male,India,India,"Centre for Economics, Environment and Society"
+WGIII,"Chapter 7: Agriculture, Forestry, and Other Land Uses (AFOLU)",Popp,Alexander,2,Lead Author,Male,Germany,Germany,Potsdam Institute for Climate Impact Research
+WGIII,"Chapter 7: Agriculture, Forestry, and Other Land Uses (AFOLU)",Roe,Stephanie,1,Lead Author,Female,United States of America,Philippines,World Wildlife Fund
+WGIII,"Chapter 7: Agriculture, Forestry, and Other Land Uses (AFOLU)",Sohngen,Brent,1,Lead Author,Male,United States of America,United States of America,Ohio State University
+WGIII,"Chapter 7: Agriculture, Forestry, and Other Land Uses (AFOLU)",Towprayoon,Sirintornthep,1,Lead Author,Female,Thailand,Thailand,King Mongkut's University of Technology Thonburi
+WGIII,"Chapter 7: Agriculture, Forestry, and Other Land Uses (AFOLU)",Angers,Denis,1,Review Editor,Male,Canada,Canada,Agriculture and Agri-Food Canada
+WGIII,"Chapter 7: Agriculture, Forestry, and Other Land Uses (AFOLU)",Ravindranath,Nijavalli Hanumantharao,1,Review Editor,Male,India,India,Indian Institure of Science
+WGIII,Chapter 8: Urban systems and other settlements,Lwasa,Shuaib,2,Coordinating Lead Author,Male,Netherlands,Uganda,Erasmus University Rotterdam
+WGIII,Chapter 8: Urban systems and other settlements,Seto,Karen,1,Coordinating Lead Author,Female,United States of America,United States of America,Yale University
+WGIII,Chapter 8: Urban systems and other settlements,Bai,Xuemei,1,Lead Author,Female,Australia,Australia,Australian National University
+WGIII,Chapter 8: Urban systems and other settlements,Blanco,Hilda,1,Lead Author,Female,United States of America,United States of America,University of Washington
+WGIII,Chapter 8: Urban systems and other settlements,Gurney,Kevin,1,Lead Author,Male,United States of America,United States of America,Northern Arizona University
+WGIII,Chapter 8: Urban systems and other settlements,Kilkiş,Şiir,1,Lead Author,Female,Türkiye,Türkiye,WGIII Vice-Chair
+WGIII,Chapter 8: Urban systems and other settlements,Lucon,Oswaldo,1,Lead Author,Male,Brazil,Brazil,SÃO PAULO STATE ENVIRONMENT SECRETARIAT
+WGIII,Chapter 8: Urban systems and other settlements,Murakami,Jin,1,Lead Author,Male,Singapore,Japan,Singapore University of Technology and Design
+WGIII,Chapter 8: Urban systems and other settlements,Pan,Jiahua,1,Lead Author,Male,China,China,"Institute for Urban & Environmental Studies, Chinese Academy of Social Sciences"
+WGIII,Chapter 8: Urban systems and other settlements,Sharifi,Ayyoob,1,Lead Author,Male,Japan,Iran,Hiroshima University
+WGIII,Chapter 8: Urban systems and other settlements,Yamagata,Yoshiki,2,Lead Author,Male,Japan,Japan,"Graduate School of System Design and Management, Keio University"
+WGIII,Chapter 8: Urban systems and other settlements,Dubeux,Carolina Burle Schmidt,1,Review Editor,Female,Brazil,Brazil,Federal University of Rio de Janeiro (COPPE/UFRJ)
+WGIII,Chapter 8: Urban systems and other settlements,Ürge-Vorsatz,Diana,2,Review Editor,Female,Hungary,Hungary,"Center for Climate Change and Sustainable Energy Policy (3CSEP), Central European University"
+WGIII,Chapter 9: Buildings,Bai,Quan,1,Coordinating Lead Author,Male,China,China,Energy Research Institute of National Development and Reform Commission
+WGIII,Chapter 9: Buildings,Cabeza,Luisa F.,1,Coordinating Lead Author,Female,Spain,Spain,UNIVERSITY OF LLEIDA
+WGIII,Chapter 9: Buildings,Bertoldi,Paolo,2,Lead Author,Male,Luxembourg,Italy,European Commission
+WGIII,Chapter 9: Buildings,Kihila,Jacob,1,Lead Author,Male,United Republic of Tanzania,United Republic of Tanzania,Ardhi University
+WGIII,Chapter 9: Buildings,Lucena,André,1,Lead Author,Male,Brazil,Brazil,Universidade Federal do Rio de Janeiro
+WGIII,Chapter 9: Buildings,Mata,Érika,1,Lead Author,Female,Sweden,Spain,IVL Swedish Environmental Research Institute
+WGIII,Chapter 9: Buildings,Mirasgedis,Sebastian,1,Lead Author,Male,Greece,Greece,National Observatory of Athens
+WGIII,Chapter 9: Buildings,Novikova (Novikova-Rodi),Aleksandra,1,Lead Author,Female,Germany,Russian Federation,"Institute for Climate Protection, Energy, and Mobility (IKEM)"
+WGIII,Chapter 9: Buildings,Saheb,Yamina,1,Lead Author,Female,France,Algeria,"OpenExp, Ecole des Mines de Paris"
+WGIII,Chapter 9: Buildings,Keenan,Jesse,1,Review Editor,Male,United States of America,United States of America,Tulane University
+WGIII,Chapter 9: Buildings,Serrano Diná,Maria Isabel,1,Review Editor,Female,Dominican Republic,Dominican Republic,"Pontificia Universidad Catolica, Madre y Maestra"
+WGIII,Chapter 10: Transport,Kahn Ribeiro,Suzana,1,Coordinating Lead Author,Female,Brazil,Brazil,Federal University of Rio de Janeiro
+WGIII,Chapter 10: Transport,Newman,Peter,2,Coordinating Lead Author,Male,Australia,Australia,Curtin University
+WGIII,Chapter 10: Transport,Dhar,Subash,1,Lead Author,Male,Denmark,India,UNEP DTU Partnership
+WGIII,Chapter 10: Transport,Diemoudeke,Ogheneruona,1,Lead Author,Male,Nigeria,Nigeria,University of Port Harcourt
+WGIII,Chapter 10: Transport,Jaramillo,Paulina,1,Lead Author,Female,United States of America,United States of America,Carnegie Mellon University
+WGIII,Chapter 10: Transport,Kajino,Tsutomu,1,Lead Author,Male,Japan,Japan,TOYOTA CENTRAL R&D LABS INC
+WGIII,Chapter 10: Transport,Lee,David Simon,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Manchester Metropolitan University
+WGIII,Chapter 10: Transport,Nugroho,Sudarmantobudi,1,Lead Author,Male,Japan,Indonesia,Institute for Global Environmental Strategies-Japan
+WGIII,Chapter 10: Transport,Ou,Xunmin,1,Lead Author,Male,China,China,Tsinghua University
+WGIII,Chapter 10: Transport,Strømman,Anders Hammer,1,Lead Author,Male,Norway,Norway,Norwegian University of Science and Techology
+WGIII,Chapter 10: Transport,Whitehead,Jake,1,Lead Author,Male,Australia,Australia,The University of Queensland
+WGIII,Chapter 10: Transport,Cheah,Lynette,1,Review Editor,Female,Australia,Singapore,University of the Sunshine Coast / Singapore University of Technology and Design
+WGIII,Chapter 10: Transport,Sims,Ralph,1,Review Editor,Male,New Zealand,New Zealand,"Centre for Energy Research, School of Engineering and Advanced Technology, Massey University"
+WGIII,Chapter 11: Industry,Bashmakov,Igor,1,Coordinating Lead Author,Male,Russian Federation,Russian Federation,Center for energy efficiency - XXI
+WGIII,Chapter 11: Industry,Nilsson,Lars J.,1,Coordinating Lead Author,Male,Sweden,Sweden,"Lund University, Faculty of Engineering"
+WGIII,Chapter 11: Industry,Acquaye,Adolf,1,Lead Author,Male,United Arab Emirates,Ghana,Rochester Institute of Technology
+WGIII,Chapter 11: Industry,Bataille,Christopher,1,Lead Author,Male,Canada,Canada,Simon Fraser University / Columbia University Center on Global Energy Policy
+WGIII,Chapter 11: Industry,Cullen,Jonathan Michael,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),New Zealand,University of Cambridge
+WGIII,Chapter 11: Industry,De La Rue Du Can,Stéphane,1,Lead Author,Female,United States of America,United States of America,Lawrence Berkeley National Laboratory
+WGIII,Chapter 11: Industry,Fischedick,Manfred,1,Lead Author,Male,Germany,Germany,"Wuppertal Instiute for Climate, Environment, Energy"
+WGIII,Chapter 11: Industry,Geng,Yong,1,Lead Author,Male,China,China,"School of Environmental Science and Engineering, Shanghai JiaoTong University"
+WGIII,Chapter 11: Industry,Tanaka,Kanako,1,Lead Author,Female,Japan,Japan,"Asset Management One Co.,Ltd. AND National Institute of Advanced Industrial Science and Technology (AIST)"
+WGIII,Chapter 11: Industry,Campbell,Nick,1,Review Editor,Male,France,United Kingdom (of Great Britain and Northern Ireland),International Chamber of Commerce
+WGIII,Chapter 11: Industry,Pichs Madruga,Ramón,2,Review Editor,Male,Cuba,Cuba,Centro de Investigaciones de EconomÃ­a Mundial (CIEM)
+WGIII,Chapter 12: Cross sectoral perspectives,Babiker,Mustafa,2,Coordinating Lead Author,Male,Saudi Arabia,Sudan,Saudi Aramco
+WGIII,Chapter 12: Cross sectoral perspectives,Berndes,Göran,1,Coordinating Lead Author,Male,Sweden,Sweden,Chalmers University of Technology
+WGIII,Chapter 12: Cross sectoral perspectives,Blok,Kornelis,1,Lead Author,Male,Netherlands,Netherlands,Delft University of Technology
+WGIII,Chapter 12: Cross sectoral perspectives,Cohen,Brett,1,Lead Author,Male,South Africa,South Africa,University of Cape Town
+WGIII,Chapter 12: Cross sectoral perspectives,Cowie,Annette,2,Lead Author,Female,Australia,Australia,NSW Department of Primary Industries and Regional Development
+WGIII,Chapter 12: Cross sectoral perspectives,Geden,Oliver,3,Lead Author,Male,Germany,Germany,WGIII Vice-Chair
+WGIII,Chapter 12: Cross sectoral perspectives,Ginzburg,Veronika,2,Lead Author,Female,Russian Federation,Russian Federation,Yu.A. Izrael Institute of Global Climate and Ecology
+WGIII,Chapter 12: Cross sectoral perspectives,Leip,Adrian,1,Lead Author,Male,Italy,Germany,European Commission - Joint Research Centre
+WGIII,Chapter 12: Cross sectoral perspectives,Smith,Peter,2,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Aberdeen
+WGIII,Chapter 12: Cross sectoral perspectives,Sugiyama,Masahiro,1,Lead Author,Male,Japan,Japan,"University of Tokyo, Institute for Future Initiatives"
+WGIII,Chapter 12: Cross sectoral perspectives,Yamba,Francis,1,Lead Author,Male,Zambia,Zambia,"CENTRE FOR ENERGY, ENVIRONMENT AND ENGINEERING OF ZAMBIA"
+WGIII,Chapter 12: Cross sectoral perspectives,Jannuzzi,Gilberto,1,Review Editor,Male,Brazil,Brazil,UNIVERSITY OF CAMPINAS
+WGIII,Chapter 12: Cross sectoral perspectives,Reisinger,Andy,1,Review Editor,Male,New Zealand,Germany,independent (self-employed) consultant
+WGIII,Chapter 13: National and sub-national policies and institutions,Dubash,Navroz K.,1,Coordinating Lead Author,Male,India,India,Centre for Policy Research
+WGIII,Chapter 13: National and sub-national policies and institutions,Mitchell,Catherine Hilary Claire,1,Coordinating Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Exeter
+WGIII,Chapter 13: National and sub-national policies and institutions,Boasson,Elin Lerum,1,Lead Author,Female,Norway,Norway,University of Oslo and CICERO
+WGIII,Chapter 13: National and sub-national policies and institutions,Borbor-Cordova,Mercy J.,1,Lead Author,Female,Ecuador,Ecuador,Escuela Superior Politencnica del Litoral
+WGIII,Chapter 13: National and sub-national policies and institutions,Fifita,Solomone,2,Lead Author,Male,Tonga,Tonga,Pacific Community
+WGIII,Chapter 13: National and sub-national policies and institutions,Haites,Erik,1,Lead Author,Male,Canada,Canada,Margaree Consultants Inc.
+WGIII,Chapter 13: National and sub-national policies and institutions,Jaccard,Marc,1,Lead Author,Male,Canada,Canada,Simon Fraser University
+WGIII,Chapter 13: National and sub-national policies and institutions,Jotzo,Frank,3,Lead Author,Male,Australia,Australia,Australian National University
+WGIII,Chapter 13: National and sub-national policies and institutions,Naidoo,Sasha,1,Lead Author,Female,South Africa,South Africa,Council for Scientific and Industrial Research (CSIR)
+WGIII,Chapter 13: National and sub-national policies and institutions,Romero Lankao,Patricia,2,Lead Author,Female,United States of America,Mexico,National Renewable Energy Laboratory/ University of Chicago
+WGIII,Chapter 13: National and sub-national policies and institutions,Shen,Wei,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),China,"Institute of Development Studies, UK"
+WGIII,Chapter 13: National and sub-national policies and institutions,Shlapak,Mykola,1,Lead Author,Male,Ukraine,Ukraine,KT-Energy LLC
+WGIII,Chapter 13: National and sub-national policies and institutions,Wu,Libo,1,Lead Author,Female,China,China,"School of Economics, Fudan University"
+WGIII,Chapter 13: National and sub-national policies and institutions,Godoy,Alex,1,Review Editor,Male,Chile,Chile,"SUSTAINABILITY RESEARCH CENTER, FACULTAD DE INGIENERÍA, UNIVERSIDAD DEL DESARROLLO"
+WGIII,Chapter 13: National and sub-national policies and institutions,Labandeira,Xavier,1,Review Editor,Male,Spain,Spain,UNIVERSITY OF VIGO
+WGIII,Chapter 14: International cooperation,Patt,Anthony,1,Coordinating Lead Author,Male,Switzerland,United States of America,ETH Z?rich
+WGIII,Chapter 14: International cooperation,Rajamani,Lavanya,1,Coordinating Lead Author,Female,India,India,Centre for Policy Research
+WGIII,Chapter 14: International cooperation,Bhandari,Preety,1,Lead Author,Female,Philippines,India,Asian Development Bank
+WGIII,Chapter 14: International cooperation,Caparrós,Alejandro,1,Lead Author,Male,Spain,Spain,Spanish National Research Council - Institute for Public Goods and Policies
+WGIII,Chapter 14: International cooperation,Djemouai,Kamal,1,Lead Author,Male,Algeria,Algeria,Climate expert
+WGIII,Chapter 14: International cooperation,Ivanova Boncheva,Antonina,1,Lead Author,Female,Mexico,Mexico,Universidad Autónoma de Baja California Sur
+WGIII,Chapter 14: International cooperation,Kubota,Izumi,1,Lead Author,Female,Japan,Japan,National Institute for Environmental Studies
+WGIII,Chapter 14: International cooperation,Peel,Jacqueline,1,Lead Author,Female,Australia,Australia,"Director, Melbourne Climate Futures, The University of Melbourne"
+WGIII,Chapter 14: International cooperation,Sari,Agus Pratama,1,Lead Author,Male,Indonesia,Indonesia,Landscape Indonesia (formally: PT Bentang Alam Indonesia)
+WGIII,Chapter 14: International cooperation,Sprinz,Detlef F.,1,Lead Author,Male,Germany,Germany,PIK - Potsdam Institute for Climate Impact Research
+WGIII,Chapter 14: International cooperation,Wettestad,Jørgen,1,Lead Author,Male,Norway,Norway,THE FRIDTJOF NANSEN INSTITUTE
+WGIII,Chapter 14: International cooperation,Badiola,Esther,1,Review Editor,Female,Luxembourg,Spain,European Investment Bank
+WGIII,Chapter 14: International cooperation,Carruthers,Pasha,1,Review Editor,Female,Cook Islands,Cook Islands,Cook Islands Red Cross Society
+WGIII,Chapter 15: Investment and finance,Jung,Tae Yong,1,Coordinating Lead Author,Male,Republic of Korea,Republic of Korea,"Graduate School of International Studies, Yonsei University"
+WGIII,Chapter 15: Investment and finance,Kreibiehl,Silvie,1,Coordinating Lead Author,Female,Germany,Germany,Frankfurt School - UNEP Collaborating Centre for Climate and Sustainable Energy Finance
+WGIII,Chapter 15: Investment and finance,Battiston,Stefano,1,Lead Author,Male,Switzerland,Italy,University of Zurich
+WGIII,Chapter 15: Investment and finance,Carvajal Sarzosa,Pablo Esteban,1,Lead Author,Male,Germany,Ecuador,International Renewable Energy Agency
+WGIII,Chapter 15: Investment and finance,Clapp,Christa,1,Lead Author,Female,Norway,United States of America,CICERO Center for International Climate Research
+WGIII,Chapter 15: Investment and finance,Dasgupta,Dipak,3,Lead Author,Male,India,India,THE ENERGY AND RESOURCES INSTITUTE (TERI)
+WGIII,Chapter 15: Investment and finance,Dube,Nokuthula,1,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),Zimbabwe,African Energy and Finance Boutique
+WGIII,Chapter 15: Investment and finance,Jachnik,Raphaël,1,Lead Author,Male,France,France,OECD
+WGIII,Chapter 15: Investment and finance,Morita,Kanako,1,Lead Author,Female,Japan,Japan,Keio University
+WGIII,Chapter 15: Investment and finance,Samargandi,Nahla,1,Lead Author,Female,Saudi Arabia,Saudi Arabia,King Abdulaziz University
+WGIII,Chapter 15: Investment and finance,Sokona,Mohamed Youba,1,Lead Author,Male,Cote d'Ivoire,Mali,African Development Bank
+WGIII,Chapter 15: Investment and finance,Williams,Mariama,1,Lead Author,Female,Switzerland,Jamaica,South Centre
+WGIII,Chapter 15: Investment and finance,Abdulla,Amjad,4,Review Editor,Male,Maldives,Maldives,Ministry of Tourism and Environment
+WGIII,Chapter 15: Investment and finance,Hourcade,Jean-Charles,2,Review Editor,Male,France,France,CNRS/CIRED
+WGIII,Chapter 15: Investment and finance,Lopez Blanco,María José,1,Review Editor,Female,Spain,Spain,GAUSS INTERNATIONAL CONSULTING S.L.
+WGIII,"Chapter 16: Innovation, technology development and transfer",Blanco,Gabriel,3,Coordinating Lead Author,Male,Argentina,Argentina,"Universidad Nacional del Centro (UNICEN), Argentina"
+WGIII,"Chapter 16: Innovation, technology development and transfer",De Coninck,Heleen,2,Coordinating Lead Author,Female,Netherlands,Netherlands,Eindhoven University of Technology
+WGIII,"Chapter 16: Innovation, technology development and transfer",Agbemabiese,Lawrence,1,Lead Author,Male,United States of America,Ghana,University of Delaware
+WGIII,"Chapter 16: Innovation, technology development and transfer",Diagne,El Hdaji Mbaye Madien,1,Lead Author,Male,Senegal,Senegal,National Climate Change Committee / Afrique Energy Environnement
+WGIII,"Chapter 16: Innovation, technology development and transfer",Diaz Anadon,Laura,1,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),Spain,University of Cambridge
+WGIII,"Chapter 16: Innovation, technology development and transfer",Lim,Yun Seng,1,Lead Author,Male,Malaysia,Malaysia,Universiti Tunku Abdul Rahman
+WGIII,"Chapter 16: Innovation, technology development and transfer",Pengue,Walter Alberto,1,Lead Author,Male,Argentina,Argentina,GEPAMA UNIVERSIDAD DE BUENOS AIRES / ECOLOGIA ICO UNIVERSIDAD DE GENERAL SARMIENTO
+WGIII,"Chapter 16: Innovation, technology development and transfer",Sagar,Ambuj,1,Lead Author,Male,India,United States of America,"Indian Institute of Technology Delhi, Humanities and Social Sciences"
+WGIII,"Chapter 16: Innovation, technology development and transfer",Sugiyama,Taishi,2,Lead Author,Male,Japan,Japan,The Canon Institute of Global Studies
+WGIII,"Chapter 16: Innovation, technology development and transfer",Tanaka,Kenji,1,Lead Author,Male,Japan,Japan,"Department of Technology Management for Innovation, Graduate School of Engineering, University of Tokyo"
+WGIII,"Chapter 16: Innovation, technology development and transfer",Verdolini,Elena,1,Lead Author,Female,Italy,Italy,FEEM - Fondazione Eni Enrico Mattei; CMCC Foundation - Euro-Mediterranean Center on Climate Change
+WGIII,"Chapter 16: Innovation, technology development and transfer",Witajewski-Baltvilks,Jan,1,Lead Author,Male,Poland,Poland,"University of Warsaw, Faculty of Economic Sciences"
+WGIII,"Chapter 16: Innovation, technology development and transfer",Mahmoud,Nagmeldin,1,Review Editor,Male,Sudan,Sudan,
+WGIII,"Chapter 16: Innovation, technology development and transfer",Mizuno,Emi,1,Review Editor,Female,Austria,Japan,Sustainable Energy for All
+WGIII,Chapter 17: Accelerating the transition in the context of sustainable development,Denton,Fatima,4,Coordinating Lead Author,Female,Ghana,Gambia,
+WGIII,Chapter 17: Accelerating the transition in the context of sustainable development,Halsnaes,Kirsten,1,Coordinating Lead Author,Female,Denmark,Denmark,"The Danish Technical University, DTU"
+WGIII,Chapter 17: Accelerating the transition in the context of sustainable development,Akimoto,Keigo,1,Lead Author,Male,Japan,Japan,Research Institute of Innovative Technology for the Earth (RITE)
+WGIII,Chapter 17: Accelerating the transition in the context of sustainable development,Burch,Sarah,1,Lead Author,Female,Canada,Canada,"University of Waterloo, Canada"
+WGIII,Chapter 17: Accelerating the transition in the context of sustainable development,Diaz Morejon,Cristobal Felix,1,Lead Author,Male,Cuba,Cuba,"ENVIRONMENTAL DIRECTORATE, MINISTRY OF SCIENCE, TECHNOLOGY AND THE ENVIRONMENT"
+WGIII,Chapter 17: Accelerating the transition in the context of sustainable development,Farias,Fernando,1,Lead Author,Male,Chile,Chile,Ministry of Environment of Chile
+WGIII,Chapter 17: Accelerating the transition in the context of sustainable development,Jupesta,Joni,1,Lead Author,Male,Indonesia,Indonesia,IPB University
+WGIII,Chapter 17: Accelerating the transition in the context of sustainable development,Schweizer-Ries,Petra,1,Lead Author,Female,Germany,Germany,University of Applied Sciences Bochum
+WGIII,Chapter 17: Accelerating the transition in the context of sustainable development,Shareef,Ali,1,Lead Author,Male,Maldives,Maldives,Ministry of Environment and Energy
+WGIII,Chapter 17: Accelerating the transition in the context of sustainable development,Teng,Fei,1,Lead Author,Male,China,China,Tsinghua University
+WGIII,Chapter 17: Accelerating the transition in the context of sustainable development,Zusman,Eric,1,Lead Author,Male,Japan,United States of America,Institute for Global Environmental Strategies
+WGIII,Chapter 17: Accelerating the transition in the context of sustainable development,Dadi,Diriba Korecha,1,Review Editor,Male,Ethiopia,Ethiopia,National Meteorological Agency
+WGIII,Chapter 17: Accelerating the transition in the context of sustainable development,Held,Hermann,1,Review Editor,Male,Germany,Germany,University of Hamburg
+SR1.5,Chapter 1: Framing and Context,Allen,Myles,1,Coordinating Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Oxford
+SR1.5,Chapter 1: Framing and Context,Dube,Pauline,2,Coordinating Lead Author,Female,Botswana,Botswana,University of Botswana
+SR1.5,Chapter 1: Framing and Context,Solecki,William,2,Coordinating Lead Author,Male,United States of America,United States of America,City University of New York
+SR1.5,Chapter 1: Framing and Context,Aragón-Durand,Fernando,1,Lead Author,Male,Mexico,Mexico,Program on Sustainable Development and Environment - El Colegio de México
+SR1.5,Chapter 1: Framing and Context,Cramer,Wolfgang,3,Lead Author,Male,France,Germany,"Mediterranean Institute for Biodiversity and Ecology (IMBE), Batiment Villemin"
+SR1.5,Chapter 1: Framing and Context,Humphreys,Stephen,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),Ireland,London School of Economics and Political Science
+SR1.5,Chapter 1: Framing and Context,Kainuma,Mikiko,1,Lead Author,Female,Japan,Japan,Institute for Global Environmental Strategies
+SR1.5,Chapter 1: Framing and Context,Kala,Jatin,1,Lead Author,Male,Australia,Mauritius,Murdoch University
+SR1.5,Chapter 1: Framing and Context,Mahowald,Natalie,1,Lead Author,Female,United States of America,United States of America,Cornell University
+SR1.5,Chapter 1: Framing and Context,Mulugetta,Yacob,2,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),Ethiopia,University College London (UCL)
+SR1.5,Chapter 1: Framing and Context,Perez,Rosa,2,Lead Author,Female,Philippines,Philippines,NATIONAL PANEL OF TECHNICAL EXPERTS - CLIMATE CHANGE COMMISSION
+SR1.5,Chapter 1: Framing and Context,Wairiu,Morgan,2,Lead Author,Male,Fiji,Solomon Islands,Pacific Centre for Environment and Sustainable Development
+SR1.5,Chapter 1: Framing and Context,Zickfeld,Kirsten,2,Lead Author,Female,Canada,Canada,Simon Fraser University
+SR1.5,Chapter 1: Framing and Context,Elgizouli Idris,Ismail,2,Review Editor,Male,Sudan,Sudan,
+SR1.5,Chapter 1: Framing and Context,Fischlin,Andreas,3,Review Editor,Male,Switzerland,Switzerland,ETH Zurich
+SR1.5,Chapter 1: Framing and Context,Gao,Xuejie,1,Review Editor,Male,China,China,"Institute of Atmospheric Physics, Chinese Academy of Sciences"
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Jiang,Kejun,2,Coordinating Lead Author,Male,China,China,"Energy Research Institute, National Development and Reform Commission"
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Rogelj,Joeri,2,Coordinating Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),Belgium,Imperial College London
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Shindell,Drew,1,Coordinating Lead Author,Male,United States of America,United States of America,Duke University
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Fifita,Solomone,2,Lead Author,Male,Tonga,Tonga,Pacific Community
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Forster,Piers,2,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Leeds
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Ginzburg,Veronika,2,Lead Author,Female,Russian Federation,Russian Federation,Yu.A. Izrael Institute of Global Climate and Ecology
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Handa,Collins,1,Lead Author,Male,Kenya,Kenya,Technical University of Kenya
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Kheshgi,Haroon,1,Lead Author,Male,United States of America,United States of America,ExxonMobil Research and Engineering Company
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Kobayashi,Shigeki,1,Lead Author,Male,Japan,Japan,Transport Institute of Central Japan
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Kriegler,Elmar,2,Lead Author,Male,Germany,Germany,Potsdam Institute for Climate Impact Research
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Mundaca,Luis,1,Lead Author,Male,Sweden,Chile,"Lund University, International Institute for Industrial Environmental Economics"
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Séférian,Roland,1,Lead Author,Male,France,France,"CNRM (Université de Toulouse, Météo-France, CNRS)"
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Vilariño,Maria Virginia,2,Lead Author,Female,Argentina,Argentina,Argentinean Business Council for Sustainable Development
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Flato,Gregory,3,Review Editor,Male,Canada,Canada,"Environment and Climate Change Canada, Canadian Centre for Climate Modelling and Analysis"
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Fuglestvedt,Jan,1,Review Editor,Male,Norway,Norway,Center for International Climate and Environmental Research Oslo (CICERO)
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Mrabet,Rachid,2,Review Editor,Male,Morocco,Morocco,Institut National de la Recherche Agronomique (INRA)
+SR1.5,Chapter 2: Mitigation pathways compatible with 1.5°C in the context of sustainable development,Schaeffer,Roberto,2,Review Editor,Male,Brazil,Brazil,Universidade Federal do Rio de Janeiro
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Hoegh-Guldberg,Ove,2,Coordinating Lead Author,Male,Australia,Australia,University of Queensland
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Jacob,Daniela,1,Coordinating Lead Author,Female,Germany,Germany,Climate Service Center Germany (GERICS) Helmholtz Zentrum Geesthacht
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Taylor,Michael,1,Coordinating Lead Author,Male,Jamaica,Jamaica,University of the West Indies
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Bindi,Marco,1,Lead Author,Male,Italy,Italy,University of Florence
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Brown,Sally,1,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Southampton
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Camilloni,Inés,2,Lead Author,Female,Argentina,Argentina,WGI Vice-Chair
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Diedhiou,Arona,2,Lead Author,Male,Cote d'Ivoire,Senegal,IRD-University Felix Houphouet Boigny
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Djalante,Riyanti,2,Lead Author,Female,Japan,Indonesia,Kendari City Government
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Ebi,Kristie,2,Lead Author,Female,United States of America,United States of America,University of Washington
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Engelbrecht,Francois,2,Lead Author,Male,South Africa,South Africa,University of the Witwatersrand
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Guiot,Joel,1,Lead Author,Male,France,France,CNRS / CEREGE
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Hijioka,Yasuaki,1,Lead Author,Male,Japan,Japan,National Institute for Environmental Studies
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Mehrotra,Shagun,1,Lead Author,Male,United States of America,India,"The World Bank, Washington DC and The New School, New York"
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Payne,Antony,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Bristol
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Seneviratne,Sonia,2,Lead Author,Female,Switzerland,Switzerland,WGI Vice Chair
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Thomas,Adelle,3,Lead Author,Female,United States of America,Bahamas,
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Warren,Rachel,2,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of East Anglia
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Zhou,Guangsheng,1,Lead Author,Male,China,China,China Meteorological Administration
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Marengo Orsini,Jose Antonio,2,Review Editor,Male,Brazil,Peru,CEMADEN
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Pereira,Joy Jacqueline,3,Review Editor,Female,Malaysia,Malaysia,Institute for Environment and Development
+SR1.5,Chapter 3: Impacts of 1.5°C global warming on natural and human systems,Sherstyukov,Boris,1,Review Editor,Male,Russian Federation,Russian Federation,"All Russian Research Inst. of Hydrometeorological Information, World Data Center"
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,De Coninck,Heleen,2,Coordinating Lead Author,Female,Netherlands,Netherlands,Eindhoven University of Technology
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Revi,Aromar,4,Coordinating Lead Author,Male,India,India,Indian Institute for Human Settlements
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Babiker,Mustafa,2,Lead Author,Male,Saudi Arabia,Sudan,Saudi Aramco
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Bertoldi,Paolo,2,Lead Author,Male,Luxembourg,Italy,European Commission
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Buckeridge,Marcos S.,1,Lead Author,Male,Brazil,Brazil,University of Sao Paulo
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Cartwright,Anton,1,Lead Author,Male,South Africa,South Africa,"Associate African Centre for Cities, University of Cape Town; Fellow Cambridge Institute for Sustainability Leadership"
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Dong,Wenjie,1,Lead Author,Male,China,China,Sun Yat-sen University
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Ford,James,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),Canada,"Priestley Centre for Climate Futures, University of Leeds"
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Fuss,Sabine,1,Lead Author,Male,Germany,Germany,Mercator Research Institute on Global Commons and Climate Change
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Hourcade,Jean-Charles,2,Lead Author,Male,France,France,CNRS/CIRED
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Ley,Debora,2,Lead Author,Female,Guatemala,Mexico,Economic Commission for Latin America and the Caribbean
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Mechler,Reinhard,2,Lead Author,Male,Austria,Germany,International Institute for Applied Systems Analysis (IIASA)
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Newman,Peter,2,Lead Author,Male,Australia,Australia,Curtin University
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Revokatova,Anastasiia,1,Lead Author,Female,Russian Federation,Russian Federation,Hydrometeorological Research Centre of Russian Federation (Hydrometcentre of Russia)
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Schultz,Seth,1,Lead Author,Male,United States of America,United States of America,The Resilience Shift
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Steg,Linda,2,Lead Author,Female,Netherlands,Netherlands,University of Groningen
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Sugiyama,Taishi,2,Lead Author,Male,Japan,Japan,The Canon Institute of Global Studies
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Abdulla,Amjad,4,Review Editor,Male,Maldives,Maldives,Ministry of Tourism and Environment
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Boer,Rizaldi,1,Review Editor,Male,Indonesia,Indonesia,"Center for Climate Risk and Opportunity Management, Bogor Agricultural University"
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Howden,Mark,2,Review Editor,Male,Australia,Australia,"Australian National University,"
+SR1.5,Chapter 4: Strengthening and implementing the global response to the threat of climate change,Ürge-Vorsatz,Diana,2,Review Editor,Female,Hungary,Hungary,"Center for Climate Change and Sustainable Energy Policy (3CSEP), Central European University"
+SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities",Roy,Joyashree,4,Coordinating Lead Author,Female,India,India,"Asian Institute of Technology Thailand, Jadavpur University, India"
+SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities",Tschakert,Petra,1,Coordinating Lead Author,Female,Australia,Austria,University of Western Australia
+SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities",Waisman,Henri,1,Coordinating Lead Author,Male,France,France,Iddri (Institut du Développement Durable et des relations Internationales)
+SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities",Abdul Halim,Sharina,2,Lead Author,Female,Malaysia,Malaysia,"Institute for Environment and Development (LESTARI), Universiti Kebangsaan Malaysia"
+SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities",Antwi-Agyei,Philip,1,Lead Author,Male,Ghana,Ghana,Kwame Nkrumah University of Science and Technology
+SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities",Dasgupta,Purnamita,1,Lead Author,Female,India,India,Institute of Economic Growth
+SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities",Hayward,Bronwyn,4,Lead Author,Female,New Zealand,New Zealand,University of Canterbury
+SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities",Kanninen,Markku,1,Lead Author,Male,Finland,Finland,"University of Helsinki, Viikki Tropical Resources Institute (VITRI)"
+SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities",Liverman,Diana,2,Lead Author,Female,United States of America,United States of America,University of Arizona
+SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities",Okereke,Chukwumerije,2,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),Nigeria,University of Reading
+SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities",Pinho,Patricia Fernanda,2,Lead Author,Female,Brazil,Brazil,Amazon Environmental Research Institute (IPAM)
+SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities",Riahi,Keywan,2,Lead Author,Male,Austria,Austria,International Institute for Applied Systems Analysis (IIASA)
+SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities",Suarez Rodriguez,Avelino Gumersindo,3,Lead Author,Male,Cuba,Cuba,Research Center for World Economy
+SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities",Krakovska,Svitlana,2,Review Editor,Female,Ukraine,Ukraine,Ukrainian Hydrometeorological Institute
+SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities",Pichs Madruga,Ramón,2,Review Editor,Male,Cuba,Cuba,Centro de Investigaciones de EconomÃ­a Mundial (CIEM)
+SR1.5,"Chapter 5: Sustainable development, poverty eradication, and reducing inequalities",Sánchez Rodríguez,Roberto,2,Review Editor,Male,Mexico,Mexico,El Colegio de la Frontera Norte
+SRCCL,Chapter 1: Framing and Context,Arneth,Almut,2,Coordinating Lead Author,Female,Nigeria,Germany,Karlsruhe Institute of Technology
+SRCCL,Chapter 1: Framing and Context,Denton,Fatima,4,Coordinating Lead Author,Female,Ghana,Gambia,
+SRCCL,Chapter 1: Framing and Context,Agus,Fahmuddin,1,Lead Author,Male,Indonesia,Indonesia,National Research and Innovation Agency (BRIN)
+SRCCL,Chapter 1: Framing and Context,Elbehri,Aziz,1,Lead Author,Male,Italy,Morocco,Food and Agriculture Organization of the United Nations (FAO)
+SRCCL,Chapter 1: Framing and Context,Erb,Karlheinz,1,Lead Author,Male,Austria,Italy,"Institute of Social Ecology Vienna, Alpen-Adria-Universitaet Klagenfurt-Wien-Graz"
+SRCCL,Chapter 1: Framing and Context,Osman-Elasha,Balgis,1,Lead Author,Female,Cote d'Ivoire,Sudan,African Development Bank (AfDB)
+SRCCL,Chapter 1: Framing and Context,Rahimi,Mohammad,2,Lead Author,Male,Iran,Iran,Professor
+SRCCL,Chapter 1: Framing and Context,Rounsevell,Mark,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Edinburgh
+SRCCL,Chapter 1: Framing and Context,Spence,Adrian,1,Lead Author,Male,Jamaica,Jamaica,International Centre for Environmental and Nuclear Sciences
+SRCCL,Chapter 1: Framing and Context,Valentini,Riccardo,1,Lead Author,Male,Italy,Italy,CMCC - Fondazione Centro euro-Mediterraneo sui Cambiamenti Climatici and Univeristy of Tuscia
+SRCCL,Chapter 1: Framing and Context,Aldrian,Edvin,2,Review Editor,Male,Indonesia,Indonesia,"Agency for Meteorology, Climatology and Geophysics (BMKG)"
+SRCCL,Chapter 1: Framing and Context,Mccarl,Bruce,1,Review Editor,Male,United States of America,United States of America,Texas A&M University
+SRCCL,Chapter 1: Framing and Context,Sánz Sánchez,María José,1,Review Editor,Female,Spain,Spain,Basque Centre For Climate Change (BC3) /Ikerbasque
+SRCCL,Chapter 2: Land-Climate Interactions,Jia,Gensuo,1,Coordinating Lead Author,Male,China,China,"Institute of Atmospheric Physics, Chinese Academy of Sciences"
+SRCCL,Chapter 2: Land-Climate Interactions,Shevliakova,Elena,1,Coordinating Lead Author,Female,United States of America,United States of America,"National Oceanic and Atmospheric Administration, Geophysical Fluid Dynamics Laboratory"
+SRCCL,Chapter 2: Land-Climate Interactions,Artaxo Netto,Paulo Eduardo,2,Lead Author,Male,Brazil,Brazil,University of São Paulo - Institute of Physics
+SRCCL,Chapter 2: Land-Climate Interactions,De Noblet-Ducoudré,Nathalie,1,Lead Author,Female,France,France,Laboratoire des Sciences du Climat et de l'Environnement (LSCE)
+SRCCL,Chapter 2: Land-Climate Interactions,Houghton,Richard,1,Lead Author,Male,United States of America,United States of America,Woods Hole Research Center
+SRCCL,Chapter 2: Land-Climate Interactions,House,Joanna,2,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Bristol
+SRCCL,Chapter 2: Land-Climate Interactions,Kitajima,Kaoru,1,Lead Author,Female,Japan,Japan,"Graduate School of Agriculture, Kyoto University"
+SRCCL,Chapter 2: Land-Climate Interactions,Lennard,Christopher,2,Lead Author,Male,South Africa,South Africa,University of Cape Town
+SRCCL,Chapter 2: Land-Climate Interactions,Popp,Alexander,2,Lead Author,Male,Germany,Germany,Potsdam Institute for Climate Impact Research
+SRCCL,Chapter 2: Land-Climate Interactions,Sirin,Andrey,1,Lead Author,Male,Russian Federation,Russian Federation,Institute of Forest Science Russian Academy of Sciences
+SRCCL,Chapter 2: Land-Climate Interactions,Sukumar,Raman,3,Lead Author,Male,India,India,Indian Institute of Science
+SRCCL,Chapter 2: Land-Climate Interactions,Verchot,Louis,1,Lead Author,Male,Colombia,United States of America,International Center for Tropical Agriculture (CIAT)
+SRCCL,Chapter 2: Land-Climate Interactions,Bernier,Pierre,1,Review Editor,Male,Canada,Canada,Natural Resources Canada / Canadian Forest Service
+SRCCL,Chapter 2: Land-Climate Interactions,Espinoza,Jhan Carlo,1,Review Editor,Male,Peru,Peru,Instituto Geofísico del Perú (IGP)
+SRCCL,Chapter 2: Land-Climate Interactions,Semenov,Sergey,2,Review Editor,Male,Russian Federation,Russian Federation,Institute of Global Climate and Ecology
+SRCCL,Chapter 3: Desertification,Mirzabaev,Alisher,3,Coordinating Lead Author,Male,Germany,Uzbekistan,University of Bonn
+SRCCL,Chapter 3: Desertification,Wu,Jianguo,1,Coordinating Lead Author,Male,China,China,Chinese Research Academy of Environmental Sciences
+SRCCL,Chapter 3: Desertification,Evans,Jason,1,Lead Author,Male,Australia,Australia,University of New South Wales
+SRCCL,Chapter 3: Desertification,García-Oliva,Felipe,1,Lead Author,Male,Mexico,Mexico,Universidad Nacional Autónoma de México
+SRCCL,Chapter 3: Desertification,Hussein,Ismail Abdel Galil,1,Lead Author,Male,Egypt,Egypt,"Ministry of Agriculture and Land Reclamation, Egypt"
+SRCCL,Chapter 3: Desertification,Iqbal,Muhammad Mohsin,1,Lead Author,Male,Pakistan,Pakistan,Global Change Impact Studies Centre (GCISC)
+SRCCL,Chapter 3: Desertification,Kimutai,Joyce,1,Lead Author,Female,Kenya,Kenya,Kenya Meteorological Department
+SRCCL,Chapter 3: Desertification,Knowles,Tony,1,Lead Author,Male,South Africa,South Africa,Cirrus Group
+SRCCL,Chapter 3: Desertification,Meza,Francisco,2,Lead Author,Male,Chile,Chile,Pontificia Universidad Catolica de Chile
+SRCCL,Chapter 3: Desertification,Nedjraoui,Dalila,1,Lead Author,Female,Algeria,Algeria,University of Science and Technology Houari Boumediene
+SRCCL,Chapter 3: Desertification,Tena,Fasil,1,Lead Author,Male,Ethiopia,Ethiopia,Ethiopia Pilot Program for Country Partnership
+SRCCL,Chapter 3: Desertification,Türkeş,Murat,2,Lead Author,Male,Türkiye,Türkiye,Boğaziçi University - Center for Climate Change and Policy Studies
+SRCCL,Chapter 3: Desertification,Vázquez Montenegro,Ranses José,1,Lead Author,Male,Cuba,Cuba,Instituto de Meteorología
+SRCCL,Chapter 3: Desertification,Weltz,Mark,1,Lead Author,Male,United States of America,United States of America,USDA- ARS Great Basin Rangelands Research Unit
+SRCCL,Chapter 3: Desertification,Akhtar-Schuster,Mariam,1,Review Editor,Female,Germany,Germany,"German Aerospace Center, Project Management Agency (DLR-PT)"
+SRCCL,Chapter 3: Desertification,Driouech,Fatima,2,Review Editor,Female,Morocco,Morocco,University Mohammed VI Polytechnic
+SRCCL,Chapter 3: Desertification,Sankaran,Mahesh,1,Review Editor,Male,India,India,National Centre for Biological Sciences (NCBS)
+SRCCL,Chapter 4: Land Degradation,Barbosa,Humberto,1,Coordinating Lead Author,Male,Brazil,Brazil,Federal University of Alagoas (UFAL)
+SRCCL,Chapter 4: Land Degradation,Olsson,Lennart,1,Coordinating Lead Author,Male,Sweden,Sweden,Lund University
+SRCCL,Chapter 4: Land Degradation,Bhadwal,Suruchi,2,Lead Author,Female,India,India,The Energy and Resources Institute
+SRCCL,Chapter 4: Land Degradation,Cowie,Annette,2,Lead Author,Female,Australia,Australia,NSW Department of Primary Industries and Regional Development
+SRCCL,Chapter 4: Land Degradation,Delusca,Kenel,1,Lead Author,Male,Canada,Haiti,"INSTITUTE OF SCIENCES =, TECHNOLOGY AND ADVANCED STUDIES OF HAITI"
+SRCCL,Chapter 4: Land Degradation,Flores-Renteria,Dulce,1,Lead Author,Female,Mexico,Mexico,SECIHTI-CINVESTAV
+SRCCL,Chapter 4: Land Degradation,Hermans,Kathleen,1,Lead Author,Female,Germany,Germany,Helmholtz Centre for Environmental Research GmbH (UFZ)
+SRCCL,Chapter 4: Land Degradation,Jobbagy,Esteban,1,Lead Author,Male,Argentina,Argentina,CONICET & Universidad Nacional de San Luis
+SRCCL,Chapter 4: Land Degradation,Kurz,Werner A.,1,Lead Author,Male,Canada,Canada,"Canadian Forest Service, Natural Resources Canada"
+SRCCL,Chapter 4: Land Degradation,Li,Diqiang,1,Lead Author,Male,China,China,Professor
+SRCCL,Chapter 4: Land Degradation,Sonwa,Denis Jea,1,Lead Author,Male,Democratic Republic of the Congo,Cameroon,"WRI (world resources institute), DRC Office"
+SRCCL,Chapter 4: Land Degradation,Stringer,Lindsay,3,Lead Author,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of York
+SRCCL,Chapter 4: Land Degradation,Moreno,Jose Manuel,2,Review Editor,Male,Spain,Spain,UNIVERSITY OF CASTILLA-LA MANCHA
+SRCCL,Chapter 4: Land Degradation,Vera,Carolina,2,Review Editor,Female,Argentina,Argentina,CIMA/Universidad de Buenos Aires-CONICET
+SRCCL,Chapter 5: Food Security,Mbow,Cheikh,2,Coordinating Lead Author,Male,United States of America,Senegal,START International
+SRCCL,Chapter 5: Food Security,Rosenzweig,Cynthia,1,Coordinating Lead Author,Female,United States of America,United States of America,NASA GISS
+SRCCL,Chapter 5: Food Security,Barioni,Luis Gustavo,1,Lead Author,Male,Brazil,Brazil,Embrapa Agricultural Informatics
+SRCCL,Chapter 5: Food Security,Benton,Tim,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Leeds
+SRCCL,Chapter 5: Food Security,Herrero,Mario,1,Lead Author,Male,Australia,Costa Rica,Commonwealth Scientific and Industrial Research Organisation
+SRCCL,Chapter 5: Food Security,Krishnapillai,Murukesan V.,1,Lead Author,Male,"Micronesia, Federated States of",India,"Cooperative Research & Extension, College of Micronesia-FSM"
+SRCCL,Chapter 5: Food Security,Liwenga,Emma,2,Lead Author,Female,United Republic of Tanzania,United Republic of Tanzania,VICE PRESIDENT'S OFFICE
+SRCCL,Chapter 5: Food Security,Pradhan,Prajal,1,Lead Author,Male,Netherlands,Nepal,University of Groningen
+SRCCL,Chapter 5: Food Security,Rivera-Ferre,Marta G.,3,Lead Author,Female,Spain,Spain,Spanish National Research Council (CSIC)
+SRCCL,Chapter 5: Food Security,Sapkota,Tek,1,Lead Author,Male,Mexico,Nepal,International Maize and Wheat Improvement Center (CIMMYT)
+SRCCL,Chapter 5: Food Security,Tubiello,Francesco,1,Lead Author,Male,Italy,United States of America,"UN Food and Agricultural Organization (FAO), Natural Resources Department"
+SRCCL,Chapter 5: Food Security,Xu,Yinlong,1,Lead Author,Male,China,China,"Institute of Environment and Sustainable Development in Agriculture, Chinese Academy of Agricultural Sciences"
+SRCCL,Chapter 5: Food Security,Amanullah,Amanullah,1,Review Editor,Male,Pakistan,Pakistan,"Department of Agronomy, University of Agriculture Peshawar"
+SRCCL,Chapter 5: Food Security,Benkeblia,Noureddine,1,Review Editor,Male,Jamaica,Jamaica,The University of the West Indies
+SRCCL,Chapter 5: Food Security,Challinor,Andrew J.,1,Review Editor,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Leeds
+SRCCL,Chapter 5: Food Security,Porter,John R.,1,Review Editor,Male,Denmark,United Kingdom (of Great Britain and Northern Ireland),University of Copenhagen
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Nkem,Johnson Ndi,1,Coordinating Lead Author,Male,Cameroon,Cameroon,African Climate Policy Centre (ACPC)
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Smith,Peter,2,Coordinating Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Aberdeen
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Calvin,Katherine,4,Lead Author,Female,United States of America,United States of America,University of Maryland
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Campbell,Donovan,2,Lead Author,Male,Jamaica,Jamaica,University of the West Indies (Mona Campus)
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Cherubini,Francesco,1,Lead Author,Male,Norway,Italy,Norwegian University of Science and Technology (NTNU)
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Grassi,Giacomo,1,Lead Author,Male,Italy,Italy,European Commission - Joint Research Centre
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Korotkov,Vladimir,1,Lead Author,Male,Russian Federation,Russian Federation,Institute of Global Climate and Ecology
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Le Hoang,Anh,1,Lead Author,Female,Vietnam,Vietnam,Ministry of Agriculture and Rural Development of Vietnam
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Lwasa,Shuaib,2,Lead Author,Male,Netherlands,Uganda,Erasmus University Rotterdam
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Mcelwee,Pamela,1,Lead Author,Female,United States of America,United States of America,Rutgers University
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Nkonya,Ephraim,1,Lead Author,Male,United States of America,United Republic of Tanzania,International Food Policy Research Institute
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Saigusa,Nobuko,1,Lead Author,Female,Japan,Japan,"Center for Global Environmental Research, National Institute for Environmental Studies"
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Soussana,Jean-Francois,1,Lead Author,Male,France,France,"INRAE (National Research Institute for Agriculture, Food and Environment)"
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Taboada,Miguel Angel,1,Lead Author,Male,Argentina,Argentina,"INTA, CIRN, Institute of Soils"
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Abdulla,Amjad,4,Review Editor,Male,Maldives,Maldives,Ministry of Tourism and Environment
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Noble,Ian R.,1,Review Editor,Male,Australia,Australia,Australian National University
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Yamagata,Yoshiki,2,Review Editor,Male,Japan,Japan,"Graduate School of System Design and Management, Keio University"
+SRCCL,"Chapter 6: Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options",Zatari,Taha,3,Review Editor,Male,Saudi Arabia,Saudi Arabia,"DNA-Ministry of Energy, Industry and Mineral resources"
+SRCCL,Chapter 7: Risk management and decision making in relation to sustainable development,Hurlbert,Margot,2,Coordinating Lead Author,Female,Canada,Canada,University of Regina
+SRCCL,Chapter 7: Risk management and decision making in relation to sustainable development,Krishnaswamy,Jagdish,1,Coordinating Lead Author,Male,India,India,Indian Institute for Human Settlements
+SRCCL,Chapter 7: Risk management and decision making in relation to sustainable development,Davin,Edouard,1,Lead Author,Male,Switzerland,France,ETH Zurich
+SRCCL,Chapter 7: Risk management and decision making in relation to sustainable development,Johnson,Francis X.,1,Lead Author,Male,Kenya,Sweden,Stockholm Environment Institute
+SRCCL,Chapter 7: Risk management and decision making in relation to sustainable development,Mena,Carlos Fernando,1,Lead Author,Male,Ecuador,Ecuador,Universidad San Francisco de Quito
+SRCCL,Chapter 7: Risk management and decision making in relation to sustainable development,Morton,John,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),"Natural Resources Institute, University of Greenwich"
+SRCCL,Chapter 7: Risk management and decision making in relation to sustainable development,Myeong,Soojeong,3,Lead Author,Female,Republic of Korea,Republic of Korea,Korea Environment Institute
+SRCCL,Chapter 7: Risk management and decision making in relation to sustainable development,Viner,David,2,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of East Anglia
+SRCCL,Chapter 7: Risk management and decision making in relation to sustainable development,Warner,Koko,1,Lead Author,Female,Germany,United States of America,"Global Data Institute, International Organization for Migration"
+SRCCL,Chapter 7: Risk management and decision making in relation to sustainable development,Wreford,Anita,2,Lead Author,Female,New Zealand,New Zealand,Lincoln University
+SRCCL,Chapter 7: Risk management and decision making in relation to sustainable development,Zakieldeen,Sumaya A.,3,Lead Author,Female,Sudan,Sudan,Institute of Environmental Studies
+SRCCL,Chapter 7: Risk management and decision making in relation to sustainable development,Zommers,Zinta,4,Lead Author,Female,United States of America,Latvia,United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA)
+SRCCL,Chapter 7: Risk management and decision making in relation to sustainable development,Rodrigues,Regina,1,Review Editor,Female,Brazil,Brazil,Federal University of Santa Catarina
+SRCCL,Chapter 7: Risk management and decision making in relation to sustainable development,Turner II,B.l.,1,Review Editor,Male,United States of America,United States of America,Arizona State University
+SROCC,Chapter 1: Framing and Context of the Report,Abram,Nerilie,1,Coordinating Lead Author,Female,Australia,Australia,Australian Antarctic Division
+SROCC,Chapter 1: Framing and Context of the Report,Gattuso,Jean-Pierre,1,Coordinating Lead Author,Male,France,France,"CNRS, Université Pierre et Marie Curie and IDDRI"
+SROCC,Chapter 1: Framing and Context of the Report,Prakash,Anjal,3,Coordinating Lead Author,Male,India,India,"Bharti Institute of Public Policy, Indian School of Business"
+SROCC,Chapter 1: Framing and Context of the Report,Cheng,Lijing,1,Lead Author,Male,China,China,"Institute of Atmospheric Physics, Chinese Academy of Sciences"
+SROCC,Chapter 1: Framing and Context of the Report,Chidichimo,María Paz,1,Lead Author,Female,Argentina,Argentina,Argentine Scientific Research Council (CONICET) / Hydrographic Service / University of Buenos Aires
+SROCC,Chapter 1: Framing and Context of the Report,Crate,Susie,1,Lead Author,Female,United States of America,United States of America,George Mason University
+SROCC,Chapter 1: Framing and Context of the Report,Enomoto,Hiroyuki,1,Lead Author,Male,Japan,Japan,National Institute of Polar Research
+SROCC,Chapter 1: Framing and Context of the Report,Garschagen,Matthias,5,Lead Author,Male,Germany,Germany,Ludwig-Maximilians-University Munich
+SROCC,Chapter 1: Framing and Context of the Report,Gruber,Nicolas,1,Lead Author,Male,Switzerland,Switzerland,ETH Zürich
+SROCC,Chapter 1: Framing and Context of the Report,Harper,Sherilee,3,Lead Author,Female,Canada,Canada,University of Alberta
+SROCC,Chapter 1: Framing and Context of the Report,Holland,Elisabeth,1,Lead Author,Female,Fiji,United States of America,University of the South Pacific
+SROCC,Chapter 1: Framing and Context of the Report,Kudela,Raphael Martin,1,Lead Author,Male,United States of America,United States of America,University of California Santa Cruz
+SROCC,Chapter 1: Framing and Context of the Report,Rice,Jake,1,Lead Author,Male,Canada,Canada,Chief Scientist Emeritus. Department of Fisheries and Oceans.
+SROCC,Chapter 1: Framing and Context of the Report,Steffen,Konrad,1,Lead Author,Male,Switzerland,Switzerland,Swiss Federal Research Institute WSL
+SROCC,Chapter 1: Framing and Context of the Report,Von Shuckmann,Karina,2,Lead Author,Female,France,Germany,Mercator Ocean international
+SROCC,Chapter 1: Framing and Context of the Report,Rhein,Monika,1,Review Editor,Female,Germany,Germany,University Bremen
+SROCC,Chapter 1: Framing and Context of the Report,Schoeman,David,2,Review Editor,Male,Australia,Australia,University of the Sunshine Coast
+SROCC,Chapter 2: High Mountain Areas,Hock,Regine,1,Coordinating Lead Author,Female,Norway,Germany,University of Oslo
+SROCC,Chapter 2: High Mountain Areas,Rasul,Golam,1,Coordinating Lead Author,Male,Nepal,Bangladesh,International Center for Integrated Mountain Development
+SROCC,Chapter 2: High Mountain Areas,Adler,Carolina,3,Lead Author,Female,Switzerland,Chile,Universität Bern Geographisches Institut
+SROCC,Chapter 2: High Mountain Areas,Cáceres,Bolívar,1,Lead Author,Male,Ecuador,Ecuador,Instituto Nacional de Meteorología e Hidrología - Ecuador
+SROCC,Chapter 2: High Mountain Areas,Gruber,Stephan,1,Lead Author,Male,Canada,Germany,Carleton University
+SROCC,Chapter 2: High Mountain Areas,Hirabayashi,Yukiko,2,Lead Author,Female,Japan,Japan,Shibaura Institute of Technology
+SROCC,Chapter 2: High Mountain Areas,Jackson,Miriam,1,Lead Author,Female,Norway,United Kingdom (of Great Britain and Northern Ireland),"Glacier and Snow Section, Norwegian Water Resources and Energy Directorate"
+SROCC,Chapter 2: High Mountain Areas,Kääb,Andreas,1,Lead Author,Male,Norway,Norway,"Department of Geosciences, University of Oslo"
+SROCC,Chapter 2: High Mountain Areas,Kang,Shichang,1,Lead Author,Male,China,China,"State Key Laboratory of Cryospheric Science, Chinese Academy of Sciences"
+SROCC,Chapter 2: High Mountain Areas,Kutuzov,Stanislav,1,Lead Author,Male,Russian Federation,Russian Federation,Institure of Geogrpahy Russian Academy of Sciences
+SROCC,Chapter 2: High Mountain Areas,Milner,Alexander,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),School of Geography Earth and Environmental Sciences
+SROCC,Chapter 2: High Mountain Areas,Molau,Ulf,1,Lead Author,Male,Sweden,Sweden,University of Gothenburg
+SROCC,Chapter 2: High Mountain Areas,Morin,Samuel,1,Lead Author,Male,France,France,Météo-France – CNRS
+SROCC,Chapter 2: High Mountain Areas,Orlove,Ben,2,Lead Author,Male,United States of America,United States of America,Columbia University
+SROCC,Chapter 2: High Mountain Areas,Steltzer,Heidi,1,Lead Author,Female,United States of America,United States of America,Fort Lewis College
+SROCC,Chapter 2: High Mountain Areas,Kaser,Georg,3,Review Editor,Male,Austria,Italy,University of Innsbruck
+SROCC,Chapter 2: High Mountain Areas,Mukherji,Aditi,4,Review Editor,Female,Kenya,India,CGIAR
+SROCC,Chapter 3: Polar Regions,Meredith,Michael,1,Coordinating Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),BRITISH ANTARCTIC SURVEY
+SROCC,Chapter 3: Polar Regions,Sommerkorn,Martin,1,Coordinating Lead Author,Male,Norway,Germany,WWF
+SROCC,Chapter 3: Polar Regions,Cassotta,Sandra,1,Lead Author,Female,Denmark,Italy,"Aalborg University (Department of Law), Denmark"
+SROCC,Chapter 3: Polar Regions,Derksen,Chris,1,Lead Author,Male,Canada,Canada,"Climate Research Division, Environment and Climate Change Canada"
+SROCC,Chapter 3: Polar Regions,Ekaykin,Alexey,1,Lead Author,Male,Russian Federation,Russian Federation,Arctic and Antarctic Research Institute
+SROCC,Chapter 3: Polar Regions,Hollowed,Anne,1,Lead Author,Female,United States of America,United States of America,"National Oceanic and Atmospheric Administration, Alaska Fisheries Science Center"
+SROCC,Chapter 3: Polar Regions,Kofinas,Gary,1,Lead Author,Male,United States of America,United States of America,University of Alaska Fairbanks
+SROCC,Chapter 3: Polar Regions,Mackintosh,Andrew,1,Lead Author,Male,New Zealand,Australia,Victoria University of Wellington
+SROCC,Chapter 3: Polar Regions,Mathias Costa Muelbert,Mônica,1,Lead Author,Female,Brazil,Brazil,PPGOB-IO/FURG
+SROCC,Chapter 3: Polar Regions,Melbourne-Thomas,Jessica,1,Lead Author,Female,Australia,Australia,Australian Antarctic Division
+SROCC,Chapter 3: Polar Regions,Ottersen,Geir,1,Lead Author,Male,Norway,Norway,Institute of Marine Research
+SROCC,Chapter 3: Polar Regions,Pritchard,Hamish,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),"British Antarctic Survey, Natural Environment Research Council"
+SROCC,Chapter 3: Polar Regions,Schuur,Ted,1,Lead Author,Male,United States of America,United States of America,Northern Arizona University
+SROCC,Chapter 3: Polar Regions,Anisimov,Oleg,1,Review Editor,Male,Russian Federation,Russian Federation,State Hydrological Institute
+SROCC,Chapter 3: Polar Regions,Flato,Gregory,3,Review Editor,Male,Canada,Canada,"Environment and Climate Change Canada, Canadian Centre for Climate Modelling and Analysis"
+SROCC,Chapter 3: Polar Regions,Xiao,Cunde,2,Review Editor,Male,China,China,Beijing Normal University
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Glavovic,Bruce,3,Coordinating Lead Author,Male,New Zealand,South Africa,Massey University
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Oppenheimer,Michael,2,Coordinating Lead Author,Male,United States of America,United States of America,Princeton University
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Abd-Elgawad,Amro,1,Lead Author,Male,Egypt,Egypt,"Governamental, Academic & International Organisation"
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Cai,Rongshuo,1,Lead Author,Male,China,China,"Third Institute of Oceanography, State Oceanic Administration of China"
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Cifuentes Jara,Miguel,1,Lead Author,Male,Costa Rica,Costa Rica,Smithsonian Environmental Research Center
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Deconto,Robert,1,Lead Author,Male,United States of America,United States of America,University of Massachusetts-Amherst
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Ghosh,Tuhin,1,Lead Author,Male,India,India,"SCHOOL OF OCEANOGRAPHIC STUDIES, JADAVPUR UNIVERSITY"
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Hay,John,1,Lead Author,Male,Cook Islands,New Zealand,University of the South Pacific - Cook Islands Campus
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Hinkel,Jochen,1,Lead Author,Male,Germany,Germany,Global Climate Forum (GCF)
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Isla,Federico,1,Lead Author,Male,Argentina,Argentina,National Research Council of Argentina
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Magnan,Alexandre,2,Lead Author,Male,France,France,Institute for Sutainable Development and International Relations (IDDRI)
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Marzeion,Ben,1,Lead Author,Male,Germany,Germany,University of Bremen
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Meyssignac,Benoit,1,Lead Author,Male,France,France,Laboratoire d'Etudes en Géophysique et Océanographie Spatiale (LEGOS)
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Sebesvari,Zita,1,Lead Author,Female,Germany,Hungary,"United Nations University, Institute for Environment and Human Security"
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Van De Wal,Roderik,1,Lead Author,Male,Netherlands,Netherlands,"Faculty of Geosciences, Department of Physical Geography. Utrecht University"
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Abe-Ouchi,Ayako,1,Review Editor,Female,Japan,Japan,"Atmosphere and Ocean Research Institute, The University of Tokyo"
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Gupta,Kapil,1,Review Editor,Male,India,India,Indian Institute of Technology Bombay
+SROCC,"Chapter 4: Sea Level Rise and Implications for Low Lying Islands, Coasts and Communities",Pereira,Joy Jacqueline,3,Review Editor,Female,Malaysia,Malaysia,Institute for Environment and Development
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Bindoff,Nathaniel Lee,1,Coordinating Lead Author,Male,Australia,Australia,University of Tasmania and CSIRO
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Cheung,William (Wai Lung),3,Coordinating Lead Author,Male,Canada,Canada,"Institute for the Oceans and Fisheries, The University of British Columbia"
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Kairo,James Gitundu,1,Coordinating Lead Author,Male,Kenya,Kenya,Kenya Marine and Fisheries Research Institute
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Arístegui,Javier,1,Lead Author,Male,Spain,Spain,Institute of Oceanography and Global Change (IOCAG). Universidad Las Palmas de Gran Canaria
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Guinder,Valeria Ana,1,Lead Author,Female,Argentina,Argentina,Instituto Argentino de Oceanografía (IADO-CONICET)
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Hallberg,Robert,1,Lead Author,Male,United States of America,United States of America,"National Oceanic and Atmospheric Administration, Geophysical Fluid Dynamics Laboratory"
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Hilmi,Nathalie Jeanne Marie,3,Lead Author,Female,Monaco,France,Centre Scientifique de Monaco
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Jiao,Nianzhi,1,Lead Author,Male,China,China,Xiamen University
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Karim,Md Saiful,1,Lead Author,Male,Australia,Australia,University of Southern Queensland
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Levin,Lisa,2,Lead Author,Female,United States of America,United States of America,University of California San Diego
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",O'donoghue,Sean,1,Lead Author,Male,South Africa,South Africa,University of KwaZulu-Natal and EThekwini Municipality
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Purca Cuicapusa,Sara Regina,1,Lead Author,Female,Peru,Peru,INSTITUO DEL MAR DEL PERÚ
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Rinkevich,Baruch,1,Lead Author,Male,Israel,Israel,National Institute of Oceanography
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Suga,Toshio,1,Lead Author,Male,Japan,Japan,"Graduate School of Science, Tohoku University and RCGC, JAMSTEC"
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Tagliabue,Alessandro,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Liverpool
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Williamson,Phillip,1,Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Natural Environment Research Council and University of East Anglia
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Barange,Manuel,1,Review Editor,Male,Italy,South Africa,Food and Agriculture Organisation of the United Nations
+SROCC,"Chapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities",Seibel,Brad,1,Review Editor,Male,United States of America,United States of America,"College of Marine Science, University of South Florida"
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Collins,Matthew,1,Coordinating Lead Author,Male,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),University of Exeter
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Sutherland,Michael,2,Coordinating Lead Author,Male,Trinidad and Tobago,Jamaica,University of the West Indies
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Bouwer,Laurens,1,Lead Author,Male,Germany,Netherlands,"Climate Service center Germany, Helmholtz-Zentrum Geesthacht"
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Cheong,So Min,2,Lead Author,Female,United States of America,United States of America,Texas A&M University
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Frölicher,Thomas,1,Lead Author,Male,Switzerland,Switzerland,"Climate and Environmental Physics, University of Bern"
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Jacot Des Combes,Helene,1,Lead Author,Female,Fiji,France,The University of the South Pacific
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Koll,Roxy Mathew,1,Lead Author,Male,India,India,Indian Institute of Tropical Meteorology
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Losada,Iñigo J.,1,Lead Author,Male,Spain,Spain,"ENVIRONMENTAL HYDRAULICS INSTITUTE ""IHCANTABRIA"". UNIVERSITY OF CANTABRIA"
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Mcinnes,Kathleen,1,Lead Author,Female,Australia,Australia,CSIRO
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Ratter,Beate,1,Lead Author,Female,Germany,Germany,"University of Hamburg and Institut of Coastal Research, Helmhotz Zentrum Geesthacht"
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Rivera-Arriaga,Evelia,1,Lead Author,Female,Mexico,Mexico,"Institute EPOMEX, University of Campeche"
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Susanto,Raden Dwi,1,Lead Author,Male,United States of America,Indonesia,University of Maryland
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Swingedouw,Didier,1,Lead Author,Male,France,France,CNRS-EPOC
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Tibig,Lourdes,1,Lead Author,Female,Philippines,Philippines,Climate Change Commission - National Panel of Technical Experts
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Abdulla,Amjad,4,Review Editor,Male,Maldives,Maldives,Ministry of Tourism and Environment
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Hernández González,Marcelino,1,Review Editor,Male,Cuba,Cuba,Instituto de Ciencias del Mar
+SROCC,"Chapter 6: Extremes, Abrupt Changes and Managing Risks",Turley,Carol,1,Review Editor,Female,United Kingdom (of Great Britain and Northern Ireland),United Kingdom (of Great Britain and Northern Ireland),Plymouth Marine Laboratory
