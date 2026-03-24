@@ -1,0 +1,103 @@
+QID,Label,Description,Country Name (CSV),Official Name (P1448),Short Name (P1813),ISO 3166-1 alpha-2 (P297),ISO 3166-1 alpha-3 (P298),ISO 3166-1 numeric (P299)
+Q878,United Arab Emirates,country in Western Asia,United Arab Emirates,,UAE,AE,ARE,784
+Q414,Argentina,country in South America,Argentina,,,AR,ARG,032
+Q40,Austria,country in Central Europe,Austria,,,AT,AUT,040
+Q408,Australia,country in Oceania,Australia,,AUS,AU,AUS,036
+Q902,Bangladesh,country in South Asia,Bangladesh,,,BD,BGD,050
+Q31,Belgium,country in western Europe,Belgium,,,BE,BEL,056
+Q962,Benin,sovereign state in West Africa,Benin,Republic of Benin,,BJ,BEN,204
+Q155,Brazil,country in South America,Brazil,,,BR,BRA,076
+Q778,The Bahamas,island sovereign state in the West Indies,Bahamas,Commonwealth of the Bahamas,,BS,BHS,044
+Q963,Botswana,sovereign state in Southern Africa,Botswana,Republic of Botswana,,BW,BWA,072
+Q16,Canada,country in North America,Canada,Canada,,CA,CAN,124
+Q974,Democratic Republic of the Congo,country in Central Africa,Democratic Republic of the Congo,,DRC,CD,COD,180
+Q39,Switzerland,country in Central Europe,Switzerland,Swiss Confederation,,CH,CHE,756
+Q1008,Ivory Coast,sovereign state in West Africa,Cote d'Ivoire,Republic of Côte d’Ivoire,,CI,CIV,384
+Q26988,Cook Islands,country in the South Pacific Ocean in free association with New Zealand,Cook Islands,Cook Islands,,CK,COK,184
+Q298,Chile,"country in South America and Oceania, with a claim in Antarctica",Chile,Republic of Chile,,CL,CHL,152
+Q1009,Cameroon,sovereign state in West-Central Africa,Cameroon,Republic of Cameroon,,CM,CMR,120
+Q148,People's Republic of China,country in East Asia,China,,,CN,CHN,156
+Q739,Colombia,country in South America,Colombia,Republic of Colombia,,CO,COL,170
+Q800,Costa Rica,country in Central America,Costa Rica,Republic of Costa Rica,,CR,CRI,188
+Q241,Cuba,sovereign state situated on an island in the Caribbean Sea,Cuba,Republic of Cuba,,CU,CUB,192
+Q213,Czech Republic,country in Central Europe,Czech Republic,Czech Republic,,CZ,CZE,203
+Q183,Germany,country in Central Europe,Germany,,,DE,DEU,276
+Q35,Denmark,country in Northern Europe and North America,Denmark,,Denmark,DK,DNK,208
+Q786,Dominican Republic,island sovereign state in the Caribbean Sea,Dominican Republic,,,DO,DOM,214
+Q262,Algeria,country in North Africa,Algeria,,,DZ,DZA,012
+Q736,Ecuador,sovereign state in South America,Ecuador,,Ecuador,EC,ECU,218
+Q79,Egypt,country in Northeast Africa and Southwest Asia,Egypt,,,EG,EGY,818
+Q986,Eritrea,country in the Horn of Africa,Eritrea,,,ER,ERI,232
+Q29,Spain,country in southwestern Europe with territories in Africa,Spain,,Spain,ES,ESP,724
+Q115,Ethiopia,country in the Horn of Africa,Ethiopia,,,ET,ETH,231
+Q33,Finland,country in Northern Europe,Finland,,,FI,FIN,246
+Q712,Fiji,island sovereign state in Oceania,Fiji,Republic of Fiji,Fiji,FJ,FJI,242
+Q702,Federated States of Micronesia,island sovereign state in Oceania,"Micronesia, Federated States of",,FM,FM,FSM,583
+Q142,France,"country in Western Europe and other continents (through its overseas territories in America, Africa and Oceania)",France,,,FR,FRA,250
+Q145,United Kingdom,island country in north-west Europe,United Kingdom (of Great Britain and Northern Ireland),United Kingdom of Great Britain and Northern Ireland,United Kingdom,GB,GBR,826
+Q117,Ghana,country in West Africa,Ghana,Ghana,,GH,GHA,288
+Q1005,The Gambia,sovereign state in West Africa,Gambia,Republic of The Gambia,,GM,GMB,270
+Q41,Greece,country in Southeast Europe,Greece,Hellenic Republic,,GR,GRC,300
+Q774,Guatemala,sovereign state in Central America,Guatemala,,,GT,GTM,320
+Q790,Haiti,country in the Caribbean Sea,Haiti,,,HT,HTI,332
+Q28,Hungary,country in Central Europe,Hungary,,,HU,HUN,348
+Q252,Indonesia,island country in Southeast Asia and Oceania,Indonesia,,,ID,IDN,360
+Q27,Ireland,sovereign state in Northwestern Europe,Ireland,Ireland,Ireland,IE,IRL,372
+Q801,Israel,country in West Asia,Israel,,,IL,ISR,376
+Q668,India,country in South Asia,India,Republic of India,India,IN,IND,356
+Q794,Iran,country in Western Asia,Iran,,,IR,IRN,364
+Q189,Iceland,Nordic island country in the North Atlantic Ocean,Iceland,,,IS,ISL,352
+Q38,Italy,country in southern Europe,Italy,,,IT,ITA,380
+Q766,Jamaica,island state in the Caribbean Sea,Jamaica,Jamaica,,JM,JAM,388
+Q17,Japan,island country in East Asia,Japan,,Japan,JP,JPN,392
+Q114,Kenya,country in Eastern Africa,Kenya,Republic of Kenya,,KE,KEN,404
+Q884,South Korea,country in East Asia,Republic of Korea,Republic of Korea,ROK,KR,KOR,410
+Q854,Sri Lanka,island country in South Asia,Sri Lanka,,,LK,LKA,144
+Q32,Luxembourg,country in Western Europe,Luxembourg,Grand Duchy of Luxembourg,,LU,LUX,442
+Q211,Latvia,sovereign state in northeastern Europe,Latvia,,,LV,LVA,428
+Q1028,Morocco,sovereign state in North Africa,Morocco,Kingdom of Morocco,,MA,MAR,504
+Q235,Monaco,microstate in Western Europe,Monaco,,,MC,MCO,492
+Q912,Mali,country in West Africa,Mali,,,ML,MLI,466
+Q1025,Mauritania,sovereign state in West Africa and North Africa,Mauritania,,,MR,MRT,478
+Q1027,Mauritius,island sovereign state off of East Africa in the Indian Ocean,Mauritius,Mauritius,,MU,MUS,480
+Q826,Maldives,"sovereign state in South Asia, situated on an archipelago in the Arabian Sea",Maldives,,,MV,MDV,462
+Q96,Mexico,country in North America,Mexico,,,MX,MEX,484
+Q833,Malaysia,country in Southeast Asia,Malaysia,,MYS,MY,MYS,458
+Q1029,Mozambique,country in Southeastern Africa; the current form of Mozambique since 1975,Mozambique,,,MZ,MOZ,508
+Q1032,Niger,sovereign state in western Africa,Niger,,,NE,NER,562
+Q1033,Nigeria,sovereign state in West Africa,Nigeria,Federal Republic of Nigeria,Nigeria,NG,NGA,566
+Q29999,Kingdom of the Netherlands,transcontinental sovereign state and constitutional monarchy,Netherlands,,Netherlands,NL,NLD,528
+Q20,Norway,country in Northern Europe,Norway,,,NO,NOR,578
+Q837,Nepal,country in South Asia,Nepal,,,NP,NPL,524
+Q664,New Zealand,island country in the southwest Pacific Ocean,New Zealand,New Zealand,,NZ,NZL,554
+Q419,Peru,sovereign state in South America,Peru,,,PE,PER,604
+Q928,Philippines,archipelagic country in Southeast Asia,Philippines,Republic of the Philippines,PH,PH,PHL,608
+Q843,Pakistan,sovereign state in South Asia,Pakistan,,,PK,PAK,586
+Q36,Poland,country in Central Europe,Poland,,,PL,POL,616
+Q45,Portugal,country in Southwestern Europe,Portugal,,,PT,PRT,620
+Q695,Palau,island sovereign state in Oceania,Palau,Palau,PW,PW,PLW,585
+Q846,Qatar,country in West Asia,Qatar,,,QA,QAT,634
+Q403,Serbia,country in Southeast Europe,Serbia,,,RS,SRB,688
+Q159,Russia,country in Eastern Europe and Northern Asia,Russian Federation,,,RU,RUS,643
+Q1037,Rwanda,country in East Africa,Rwanda,Republic of Rwanda,,RW,RWA,646
+Q851,Saudi Arabia,country in West Asia,Saudi Arabia,,,SA,SAU,682
+Q685,Solomon Islands,island sovereign state in Oceania,Solomon Islands,Solomon Islands,,SB,SLB,090
+Q1049,Sudan,country in Northeast Africa,Sudan,Sudan,,SD,SDN,729
+Q34,Sweden,country in Northern Europe,Sweden,,,SE,SWE,752
+Q334,Singapore,sovereign island country and city-state in maritime Southeast Asia,Singapore,Republic of Singapore,,SG,SGP,702
+Q1041,Senegal,country on the coast of West Africa,Senegal,,,SN,SEN,686
+Q869,Thailand,country in Southeast Asia,Thailand,Kingdom of Thailand,Thailand,TH,THA,764
+Q678,Tonga,"sovereign state in Oceania, situated on an archipelago",Tonga,Tonga,,TO,TON,776
+Q43,Turkey,country in West Asia and Southeast Europe,Türkiye,,,TR,TUR,792
+Q754,Trinidad and Tobago,island sovereign state in the Caribbean,Trinidad and Tobago,Trinidad and Tobago,,TT,TTO,780
+Q924,Tanzania,country in East Africa,United Republic of Tanzania,,,TZ,TZA,834
+Q212,Ukraine,country in Eastern Europe,Ukraine,,,UA,UKR,804
+Q1036,Uganda,country in East Africa,Uganda,Uganda,,UG,UGA,800
+Q30,United States,country located primarily in North America,United States of America,the United States of America,USA,US,USA,840
+Q77,Uruguay,sovereign state in South America,Uruguay,,,UY,URY,858
+Q265,Uzbekistan,sovereign state in Central Asia,Uzbekistan,,,UZ,UZB,860
+Q717,Venezuela,country in South America,Venezuela,Bolivarian Republic of Venezuela,,VE,VEN,862
+Q881,Vietnam,country in Southeast Asia,Vietnam,Socialist Republic of Vietnam,,VN,VNM,704
+Q258,South Africa,country in southern Africa,South Africa,Republic of South Africa,RSA,ZA,ZAF,710
+Q953,Zambia,country at the crossroads of Central and Southern Africa,Zambia,Zambia,,ZM,ZMB,894
+Q954,Zimbabwe,sovereign state in southern Africa,Zimbabwe,Zimbabwe,,ZW,ZWE,716
