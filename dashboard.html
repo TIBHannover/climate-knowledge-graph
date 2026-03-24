@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPCC AR6 Authors Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f0f2f5; color: #1a1a2e; }
+        .header { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; padding: 2rem 2rem 1.5rem; }
+        .header h1 { font-size: 1.8rem; font-weight: 600; }
+        .header p { opacity: 0.7; margin-top: 0.3rem; font-size: 0.95rem; }
+        .dashboard { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+        .kpi-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+        .kpi { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); text-align: center; }
+        .kpi .value { font-size: 2.4rem; font-weight: 700; color: #1a1a2e; }
+        .kpi .label { font-size: 0.85rem; color: #666; margin-top: 0.3rem; text-transform: uppercase; letter-spacing: 0.05em; }
+        .charts-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
+        .chart-card { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+        .chart-card h2 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; color: #333; }
+        .chart-card.full { grid-column: 1 / -1; }
+        .chart-container { position: relative; width: 100%; }
+        .chart-container.small { max-width: 300px; margin: 0 auto; }
+        canvas { width: 100% !important; }
+        .table-card { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); grid-column: 1 / -1; }
+        .table-card h2 { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; color: #333; }
+        table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        th { text-align: left; padding: 0.6rem 1rem; background: #f8f9fa; border-bottom: 2px solid #dee2e6; font-weight: 600; color: #495057; }
+        td { padding: 0.5rem 1rem; border-bottom: 1px solid #f0f0f0; }
+        tr:hover td { background: #f8f9fa; }
+        .bar-cell { display: flex; align-items: center; gap: 0.5rem; }
+        .bar { height: 18px; background: linear-gradient(90deg, #4361ee, #3a86ff); border-radius: 3px; min-width: 2px; }
+        @media (max-width: 768px) {
+            .charts-row { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>IPCC AR6 Authors Dashboard</h1>
+        <p>Summary of authors across all AR6 reports</p>
+    </div>
+    <div class="dashboard">
+        <div class="kpi-row">
+            <div class="kpi">
+                <div class="value">932</div>
+                <div class="label">Unique Authors</div>
+            </div>
+            <div class="kpi">
+                <div class="value">92</div>
+                <div class="label">Countries Represented</div>
+            </div>
+            <div class="kpi">
+                <div class="value">7</div>
+                <div class="label">Reports</div>
+            </div>
+            <div class="kpi">
+                <div class="value">1,164</div>
+                <div class="label">Total Assignments</div>
+            </div>
+        </div>
+
+        <div class="charts-row">
+            <div class="chart-card">
+                <h2>Gender Distribution</h2>
+                <div class="chart-container small">
+                    <canvas id="genderChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h2>Authors by Report</h2>
+                <div class="chart-container">
+                    <canvas id="reportChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="charts-row">
+            <div class="chart-card">
+                <h2>Roles (by assignment count)</h2>
+                <div class="chart-container">
+                    <canvas id="roleChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h2>Top 20 Citizenships</h2>
+                <div class="chart-container">
+                    <canvas id="citizenshipChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="charts-row">
+            <div class="table-card">
+                <h2>All Citizenships (92 countries)</h2>
+                <table>
+                    <thead>
+                        <tr><th>#</th><th>Country</th><th>Authors</th><th></th></tr>
+                    </thead>
+                    <tbody id="citizenshipTable"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const palette = ['#4361ee','#3a86ff','#4cc9f0','#4895ef','#560bad','#7209b7','#b5179e','#f72585'];
+
+        // Gender Chart
+        new Chart(document.getElementById('genderChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Male (635)', 'Female (297)'],
+                datasets: [{
+                    data: [635, 297],
+                    backgroundColor: ['#4361ee', '#f72585'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { position: 'bottom' }
+                }
+            }
+        });
+
+        // Report Chart
+        new Chart(document.getElementById('reportChart'), {
+            type: 'bar',
+            data: {
+                labels: ['WGII', 'WGIII', 'WGI', 'SRCCL', 'SROCC', 'SR1.5', 'SYR'],
+                datasets: [{
+                    label: 'Unique Authors',
+                    data: [270, 239, 234, 107, 103, 91, 30],
+                    backgroundColor: '#4361ee',
+                    borderRadius: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                indexAxis: 'y',
+                plugins: { legend: { display: false } },
+                scales: { x: { beginAtZero: true } }
+            }
+        });
+
+        // Role Chart
+        new Chart(document.getElementById('roleChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Lead Author', 'Review Editor', 'Coordinating Lead Author', 'Core Writing Team', 'Author', 'Lead'],
+                datasets: [{
+                    label: 'Assignments',
+                    data: [723, 174, 155, 60, 37, 15],
+                    backgroundColor: ['#4361ee','#3a86ff','#4cc9f0','#560bad','#7209b7','#f72585'],
+                    borderRadius: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                indexAxis: 'y',
+                plugins: { legend: { display: false } },
+                scales: { x: { beginAtZero: true } }
+            }
+        });
+
+        // Citizenship Chart - Top 20
+        const citizenshipData = [
+            ["United States of America", 100], ["United Kingdom", 66], ["Germany", 54],
+            ["China", 50], ["Australia", 49], ["India", 43], ["Japan", 41],
+            ["France", 35], ["Canada", 30], ["Brazil", 25], ["Spain", 21],
+            ["Russian Federation", 20], ["Norway", 19], ["Italy", 19],
+            ["Argentina", 18], ["Netherlands", 18], ["South Africa", 18],
+            ["Mexico", 18], ["New Zealand", 13], ["Switzerland", 13]
+        ];
+
+        new Chart(document.getElementById('citizenshipChart'), {
+            type: 'bar',
+            data: {
+                labels: citizenshipData.map(d => d[0]),
+                datasets: [{
+                    label: 'Authors',
+                    data: citizenshipData.map(d => d[1]),
+                    backgroundColor: '#4361ee',
+                    borderRadius: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                indexAxis: 'y',
+                plugins: { legend: { display: false } },
+                scales: { x: { beginAtZero: true } }
+            }
+        });
+
+        // Full citizenship table
+        const allCitizenships = [
+            ["United States of America",100],["United Kingdom (of Great Britain and Northern Ireland)",66],
+            ["Germany",54],["China",50],["Australia",49],["India",43],["Japan",41],
+            ["France",35],["Canada",30],["Brazil",25],["Spain",21],["Russian Federation",20],
+            ["Norway",19],["Italy",19],["Argentina",18],["Netherlands",18],["South Africa",18],
+            ["Mexico",18],["New Zealand",13],["Switzerland",13],["Indonesia",12],["Sweden",11],
+            ["Chile",10],["Republic of Korea",9],["Jamaica",8],["Philippines",7],["Cuba",7],
+            ["United Republic of Tanzania",7],["Senegal",6],["Pakistan",6],["Ghana",6],
+            ["Morocco",6],["Sudan",6],["Nigeria",6],["Kenya",6],["Austria",6],["Malaysia",6],
+            ["Ireland",5],["Denmark",5],["Belgium",5],["Peru",5],["Algeria",5],["Egypt",5],
+            ["Ethiopia",5],["Ecuador",5],["Thailand",4],["Iran",4],["Zambia",4],["Nepal",4],
+            ["Bangladesh",4],["Ukraine",3],["Uruguay",3],["Finland",3],["Poland",3],["Greece",3],
+            ["Colombia",3],["Cameroon",3],["Saudi Arabia",3],["Portugal",3],["Uganda",3],
+            ["Trinidad and Tobago",3],["Maldives",3],["Hungary",3],["Vietnam",2],
+            ["Czech Republic",2],["Israel",2],["Türkiye",2],["Dominican Republic",2],
+            ["Singapore",2],["Zimbabwe",2],["Venezuela",2],["Costa Rica",2],["Gambia",1],
+            ["Latvia",1],["Iceland",1],["Mozambique",1],["Sri Lanka",1],["Eritrea",1],
+            ["Botswana",1],["Mauritania",1],["Benin",1],["Guatemala",1],["Solomon Islands",1],
+            ["Palau",1],["Uzbekistan",1],["Bahamas",1],["Serbia",1],["Tonga",1],
+            ["Cook Islands",1],["Mali",1],["Mauritius",1],["Haiti",1]
+        ];
+        const maxVal = allCitizenships[0][1];
+        const tbody = document.getElementById('citizenshipTable');
+        allCitizenships.forEach((row, i) => {
+            const tr = document.createElement('tr');
+            const pct = (row[1] / maxVal * 100).toFixed(0);
+            tr.innerHTML = `<td>${i+1}</td><td>${row[0]}</td><td>${row[1]}</td>
+                <td class="bar-cell"><div class="bar" style="width:${pct}%"></div></td>`;
+            tbody.appendChild(tr);
+        });
+    </script>
+</body>
+</html>
