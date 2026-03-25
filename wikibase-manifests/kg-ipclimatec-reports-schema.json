@@ -1,0 +1,742 @@
+{
+    "entityEdits": [
+        {
+            "type": "wbitemeditexpr",
+            "subject": {
+                "type": "wbentityvariable",
+                "columnName": "WB name"
+            },
+            "nameDescs": [
+                {
+                    "name_type": "LABEL_IF_NEW",
+                    "value": {
+                        "type": "wbmonolingualexpr",
+                        "language": {
+                            "type": "wblanguageconstant",
+                            "id": "en",
+                            "label": "en"
+                        },
+                        "value": {
+                            "type": "wbstringvariable",
+                            "columnName": "WB name"
+                        }
+                    }
+                },
+                {
+                    "name_type": "DESCRIPTION_IF_NEW",
+                    "value": {
+                        "type": "wbmonolingualexpr",
+                        "language": {
+                            "type": "wblanguageconstant",
+                            "id": "en",
+                            "label": "en"
+                        },
+                        "value": {
+                            "type": "wbstringvariable",
+                            "columnName": "description"
+                        }
+                    }
+                }
+            ],
+            "statementGroups": [
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P1",
+                        "label": "instance of",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "instance_of"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P2",
+                        "label": "exact match",
+                        "datatype": "url"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbstringvariable",
+                                "columnName": "exact_match"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P3",
+                        "label": "has the IPCC statement",
+                        "datatype": "monolingualtext"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbmonolingualexpr",
+                                "language": {
+                                    "type": "wblanguageconstant",
+                                    "id": "en",
+                                    "label": "en"
+                                },
+                                "value": {
+                                    "type": "wbstringvariable",
+                                    "columnName": "ipcc_statement"
+                                }
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P4",
+                        "label": "part of",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "part_of"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P5",
+                        "label": "confidence level",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "confidence_level"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P6",
+                        "label": "subclass of",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "subclass_of"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P7",
+                        "label": "role",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "role"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P8",
+                        "label": "series ordinal",
+                        "datatype": "quantity"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbstringvariable",
+                                "columnName": "series_ordinal"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P9",
+                        "label": "spatial scope",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "spatial_scope"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P10",
+                        "label": "impact",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "impact"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P11",
+                        "label": "cites",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "cites"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P12",
+                        "label": "topic",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "topic"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P13",
+                        "label": "follows",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "follows"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P14",
+                        "label": "followed by",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "followed_by"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P15",
+                        "label": "short name",
+                        "datatype": "monolingualtext"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbmonolingualexpr",
+                                "language": {
+                                    "type": "wblanguageconstant",
+                                    "id": "en",
+                                    "label": "en"
+                                },
+                                "value": {
+                                    "type": "wbstringvariable",
+                                    "columnName": "short_name"
+                                }
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P16",
+                        "label": "pyami ID",
+                        "datatype": "string"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbstringvariable",
+                                "columnName": "pyami_id"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P17",
+                        "label": "has title",
+                        "datatype": "string"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbstringvariable",
+                                "columnName": "title"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P18",
+                        "label": "driver",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "driver"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P19",
+                        "label": "pressure",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "pressure"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P20",
+                        "label": "state",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "state"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P21",
+                        "label": "response",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "response"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P22",
+                        "label": "of",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "of"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P23",
+                        "label": "chemical structure",
+                        "datatype": "commonsMedia"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbstringvariable",
+                                "columnName": "chemical_structure"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P25",
+                        "label": "official website",
+                        "datatype": "url"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbstringvariable",
+                                "columnName": "official_website"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P26",
+                        "label": "wikitext URL",
+                        "datatype": "url"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbstringvariable",
+                                "columnName": "wikitext_url"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P27",
+                        "label": "Report",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "report"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P28",
+                        "label": "Chapter",
+                        "datatype": "wikibase-item"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbentityvariable",
+                                "columnName": "chapter"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "siteIri": "https://kg-ipclimatec-reports.wikibase.cloud/entity/",
+    "entityTypeSiteIRI": {
+        "item": "https://kg-ipclimatec-reports.wikibase.cloud/entity/",
+        "property": "https://kg-ipclimatec-reports.wikibase.cloud/entity/"
+    },
+    "mediaWikiApiEndpoint": "https://kg-ipclimatec-reports.wikibase.cloud/w/api.php"
+}

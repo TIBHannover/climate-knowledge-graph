@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "mediawiki": {
+    "name": "IPCC Climate Reports Knowledge Graph",
+    "root": "https://kg-ipclimatec-reports.wikibase.cloud/wiki/",
+    "main_page": "https://kg-ipclimatec-reports.wikibase.cloud/wiki/Main_Page",
+    "api": "https://kg-ipclimatec-reports.wikibase.cloud/w/api.php"
+  },
+  "wikibase": {
+    "site_iri": "https://kg-ipclimatec-reports.wikibase.cloud/entity/",
+    "maxlag": 5,
+    "properties": {
+      "instance_of": "P1",
+      "subclass_of": "P6"
+    }
+  },
+  "oauth": {
+    "registration_page": "https://kg-ipclimatec-reports.wikibase.cloud/wiki/Special:OAuthConsumerRegistration/propose"
+  },
+  "reconciliation": {
+    "endpoint": "https://kg-ipclimatec-reports.wikibase.cloud/tools/openrefine-wikibase/${lang}/api"
+  }
+}
