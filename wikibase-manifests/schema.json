@@ -1,0 +1,176 @@
+{
+    "entityEdits": [
+        {
+            "type": "wbitemeditexpr",
+            "subject": {
+                "type": "wbentityvariable",
+                "columnName": "WB name"
+            },
+            "nameDescs": [
+                {
+                    "name_type": "LABEL_IF_NEW",
+                    "value": {
+                        "type": "wbmonolingualexpr",
+                        "language": {
+                            "type": "wblanguageconstant",
+                            "id": "en",
+                            "label": "en"
+                        },
+                        "value": {
+                            "type": "wbstringvariable",
+                            "columnName": "WB name"
+                        }
+                    }
+                },
+                {
+                    "name_type": "DESCRIPTION_IF_NEW",
+                    "value": {
+                        "type": "wbmonolingualexpr",
+                        "language": {
+                            "type": "wblanguageconstant",
+                            "id": "en",
+                            "label": "en"
+                        },
+                        "value": {
+                            "type": "wbstringvariable",
+                            "columnName": "description"
+                        }
+                    }
+                }
+            ],
+            "statementGroups": [
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P61",
+                        "label": "image",
+                        "datatype": "commonsMedia"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbstringvariable",
+                                "columnName": "filename"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P54",
+                        "label": "copyright statement",
+                        "datatype": "string"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbstringvariable",
+                                "columnName": "copyright"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P108",
+                        "label": "creator",
+                        "datatype": "string"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbstringvariable",
+                                "columnName": "creator"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P60",
+                        "label": "publication date",
+                        "datatype": "edtf"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbstringvariable",
+                                "columnName": "date"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                },
+                {
+                    "property": {
+                        "type": "wbpropconstant",
+                        "pid": "P109",
+                        "label": "described by source",
+                        "datatype": "url"
+                    },
+                    "statements": [
+                        {
+                            "value": {
+                                "type": "wbstringvariable",
+                                "columnName": "source"
+                            },
+                            "qualifiers": [],
+                            "references": [],
+                            "mergingStrategy": {
+                                "type": "snak",
+                                "valueMatcher": {
+                                    "type": "lax"
+                                }
+                            },
+                            "mode": "add_or_merge"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "siteIri": "https://computational-publishing-service.wikibase.cloud/entity/",
+    "entityTypeSiteIRI": {
+        "item": "https://computational-publishing-service.wikibase.cloud/entity/",
+        "property": "https://computational-publishing-service.wikibase.cloud/entity/"
+    },
+    "mediaWikiApiEndpoint": "https://computational-publishing-service.wikibase.cloud/w/api.php"
+}
