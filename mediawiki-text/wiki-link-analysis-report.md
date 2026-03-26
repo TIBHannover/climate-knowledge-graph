@@ -95,3 +95,10 @@ The analysis script is saved alongside this report as
 ```bash
 python mediawiki-text/analyse_wiki_links.py mediawiki-text/KEWL-20260322093018.xml
 ```
+
+---
+
+## Credits
+
+Analysis and report generated with the assistance of GitHub Copilot (Claude Opus 4.6).
+Script and report authored by Simon Worthington, TIB Hannover, 2026.
