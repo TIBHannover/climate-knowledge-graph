@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CKG ER Model — Preview</title>
+  <style>html,body{height:100%;margin:0;padding:0;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial}</style>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad:true});</script>
+</head>
+<body>
+  <div class="mermaid">
+erDiagram
+    %% Core Entities
+    COLLECTION ||--o{ REPORT : "P1433 (published in)"
+    REPORT ||--o{ CHAPTER : "P527 (has part)"
+    CHAPTER ||--o{ FIGURE : "P527 (has part)"
+    
+    %% Authorship
+    REPORT }|--o{ AUTHOR : "P50 (author)"
+    CHAPTER }|--o{ AUTHOR : "P50 (author)"
+
+    %% Metadata & Bibliographics
+    REPORT ||--|| DOI : "P356 (DOI string)"
+    CHAPTER ||--|| DOI : "P356 (DOI string)"
+    REPORT ||--o{ GLOSSARY : "P527 (has part)"
+    REPORT ||--o{ ACRONYM_LIST : "P527 (has part)"
+
+    COLLECTION {
+        string label "Collection Name"
+        string QID "Q_Collection"
+    }
+
+    REPORT {
+        string label "Report Title"
+        string QID "Q_Report"
+        date P577 "Publication Date"
+        string P356 "DOI Value"
+    }
+
+    CHAPTER {
+        string label "Chapter Title"
+        string QID "Q_Chapter"
+        int P1545 "Series Ordinal (Qualifier for sequence)"
+        string P356 "DOI Value"
+    }
+
+    AUTHOR {
+        string label "Person Name"
+        string QID "Q_Author"
+        string P21 "Gender"
+        string P19 "Place of Birth"
+    }
+
+    FIGURE {
+        string label "Figure Caption"
+        string QID "Q_Figure"
+        string P18 "Image File (Commons link)"
+    }
+
+    GLOSSARY {
+        string label "Glossary Section"
+        string QID "Q_Glossary"
+    }
+
+    ACRONYM_LIST {
+        string label "Acronyms and Abbreviations"
+        string QID "Q_Acronyms"
+    }
+  </div>
+</body>
+</html>
