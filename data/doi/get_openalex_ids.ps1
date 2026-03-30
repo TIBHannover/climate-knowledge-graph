@@ -13,8 +13,8 @@ $results = @()
 foreach ($r in $rows) {
     $doi = $r.doi
     if (-not $doi) { continue }
-    $key = 'doi:' + $doi
-    $enc = [uri]::EscapeDataString($key)
+    $key = 'https://doi.org/' + $doi
+    $enc = $key
     $url = "https://api.openalex.org/works/$enc"
     Write-Host "Querying OpenAlex for: $doi"
     $openalex_id = ''

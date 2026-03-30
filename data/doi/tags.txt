@@ -1,0 +1,24 @@
+# Report acronyms 
+
+SYR		10.59327/IPCC/AR6-9789291691647
+WGI		10.1017/9781009157896
+WGII		10.1017/9781009325844
+WGIII		10.1017/9781009157926
+SR1.5		10.1017/9781009157940
+SRCCL		10.1017/9781009157988
+SROCC		10.1017/9781009157964
+
+#Report types 
+
+SPM Summary for policy makers 
+TS Technical Summary
+Atlas Atlas
+CCP Cross-Chapter Paper
+CCB Cross-Chapter-Box
+Chapter Chapter 
+Report Report 
+
+#All Reports 
+
+IPCC  
+AR6 
