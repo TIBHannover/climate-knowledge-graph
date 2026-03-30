@@ -2,8 +2,8 @@
 
 ## Dataset: IPCC AR6 Authors
 
-**Date:** 2026-03-24  
-**Performed by:** GitHub Copilot (Claude Opus 4.6) in VS Code  
+**Date:** 2026-03-29  
+**Performed by:** GitHub Copilot (Gemini 3 Flash (Preview)) in VS Code  
 **Repository:** TIBHannover/climate-knowledge-graph (branch: main)
 
 ---
@@ -27,7 +27,7 @@ All transformations were applied to produce `ipcc-ar6-authors-v2.csv`. The origi
 
 ### 2.1 Citizenship Standardisation
 
-**Script:** `normalise_countries.py`  
+**Script:** `data/authors/normalise_countries.py`  
 **Rows affected:** 227
 
 Short-form citizenship values were mapped to their full official names to match the `Country of Residence` column:
@@ -41,7 +41,7 @@ Short-form citizenship values were mapped to their full official names to match 
 
 ### 2.2 Name Casing (Title Case)
 
-**Script:** `normalise_names.py`  
+**Script:** `data/authors/normalise_names.py`  
 **Rows affected:** 1,164 (all rows)
 
 Last Name and First Name fields were converted from ALL CAPS to Title Case with handling for:
@@ -55,7 +55,7 @@ Last Name and First Name fields were converted from ALL CAPS to Title Case with 
 
 ### 2.3 Role Expansion
 
-**Script:** `normalise_roles_gender.py`  
+**Script:** `data/authors/normalise_roles_gender.py`  
 **Rows affected:** 1,052 (role) + 60 (underscore removal)
 
 IPCC role acronyms were expanded to full names:
@@ -71,7 +71,7 @@ The values `Author` (37 rows) and `Lead` (15 rows), found only in WGII Cross-Cha
 
 ### 2.4 Gender Expansion
 
-**Script:** `normalise_roles_gender.py`  
+**Script:** `data/authors/normalise_roles_gender.py`  
 **Rows affected:** 1,164 (all rows)
 
 | Original | Expanded |
@@ -81,7 +81,7 @@ The values `Author` (37 rows) and `Lead` (15 rows), found only in WGII Cross-Cha
 
 ### 2.5 ISO 3166-1 Alpha-2 Country Codes
 
-**Script:** `add_iso_codes.py`  
+**Script:** `data/authors/add_iso_codes.py`  
 **Rows affected:** 1,164 (all rows)
 
 Two new columns were appended, derived from the existing country name columns:
@@ -104,10 +104,10 @@ All 102 unique country names across both columns were successfully mapped (e.g. 
 | `ipcc-ar6-roles.csv` | Role acronym mapping table (CSV) |
 | `ipcc-ar6-roles.md` | Role acronym mapping table (Markdown) |
 | `dashboard.html` | Interactive summary dashboard (Chart.js) |
-| `normalise_countries.py` | Citizenship normalisation script |
-| `normalise_names.py` | Name casing normalisation script |
-| `normalise_roles_gender.py` | Role and gender normalisation script |
-| `add_iso_codes.py` | ISO 3166-1 alpha-2 country code script |
+| `data/authors/normalise_countries.py` | Citizenship normalisation script |
+| `data/authors/normalise_names.py` | Name casing normalisation script |
+| `data/authors/normalise_roles_gender.py` | Role and gender normalisation script |
+| `data/authors/add_iso_codes.py` | ISO 3166-1 alpha-2 country code script |
 | `rdm-protocol.md` | This protocol document |
 
 ---

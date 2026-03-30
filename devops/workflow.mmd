@@ -1,0 +1,24 @@
+graph TD
+    subgraph "Phase 1: Development"
+    A[Local Dev: Code/Extensions] -->|Git Push| B{CI Runner}
+    end
+
+    subgraph "Phase 2: Validation"
+    B -->|Build Fail| A
+    B -->|Build Success| C[Test/Staging Environment]
+    C -->|UAT & QA| D{Approved?}
+    end
+
+    subgraph "Phase 3: Production & Contribution"
+    D -->|Yes| E[Production Wikibase]
+    F((User Contributions)) <-->|Edit Items/Pages| E
+    end
+
+    subgraph "Phase 4: Data Back-Sync"
+    E -->|SQL/RDF Dump| G[Sanitization Script]
+    G -->|Import| C
+    G -->|Import| A
+    end
+
+    style E fill:#f96,stroke:#333,stroke-width:4px
+    style F fill:#bbf,stroke:#333
