@@ -1,0 +1,407 @@
+series:
+  id: 2
+  books:
+  - book_id: 0
+    chapters:
+    - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Summary-for-policymakers
+      SERIES: 2
+      BOOK: 0
+      CHAPTER: 1
+      LABEL: Summary for Policymakers
+      DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+        \ and Vulnerability"
+      SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/summary-for-policymakers/
+      PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf
+      DOI: 10.1017/9781009325844.001
+      OPENALEX: W4382363608
+      TAGLIST: Climate change; Global warming; Climate
+      LICENSE: CC-BY-NC-ND 4.0
+      DATE: '2023-06-22'
+    - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Technical-summary
+      SERIES: 2
+      BOOK: 0
+      CHAPTER: 2
+      LABEL: Technical Summary
+      DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+        \ and Vulnerability"
+      SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/technical-summary/
+      PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_TechnicalSummary.pdf
+      DOI: 10.1017/9781009325844.002
+      OPENALEX: W4382363579
+      TAGLIST: Climate change; Global warming; Climate
+      LICENSE: CC-BY-NC-ND 4.0
+      DATE: '2023-06-22'
+    groups: []
+  - book_id: 1
+    chapters: []
+    groups:
+    - label: Chapters
+      chapters:
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-1
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 11
+        LABEL: Point of Departure and Key Concepts
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-1/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter01.pdf
+        DOI: 10.1017/9781009325844.003
+        OPENALEX: W4382362865
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-2
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 12
+        LABEL: Terrestrial and Freshwater Ecosystems and Their Services
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-2/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter02.pdf
+        DOI: 10.1017/9781009325844.004
+        OPENALEX: W4382363505
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-3
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 13
+        LABEL: Oceans and Coastal Ecosystems and Their Services
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-3/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter03.pdf
+        DOI: 10.1017/9781009325844.005
+        OPENALEX: W4382363666
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-4
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 14
+        LABEL: Water
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-4/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter04.pdf
+        DOI: 10.1017/9781009325844.006
+        OPENALEX: W4382363526
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-5
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 15
+        LABEL: Food, Fibre and Other Ecosystem Products
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-5/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter05.pdf
+        DOI: 10.1017/9781009325844.007
+        OPENALEX: W4382363604
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-6
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 16
+        LABEL: Cities, Settlements and Key Infrastructure
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-6/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter06.pdf
+        DOI: 10.1017/9781009325844.008
+        OPENALEX: W4382363503
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-7
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 17
+        LABEL: Health, Wellbeing and the Changing Structure of Communities
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-7/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter07.pdf
+        DOI: 10.1017/9781009325844.009
+        OPENALEX: W4382361937
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-8
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 18
+        LABEL: Poverty, Livelihoods and Sustainable Development
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-8/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter08.pdf
+        DOI: 10.1017/9781009325844.010
+        OPENALEX: W2991859140
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-9
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 19
+        LABEL: Africa
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-9/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter09.pdf
+        DOI: 10.1017/9781009325844.011
+        OPENALEX: W4382361932
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-10
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 20
+        LABEL: Asia
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-10/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter10.pdf
+        DOI: 10.1017/9781009325844.012
+        OPENALEX: W4382362799
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-11
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 21
+        LABEL: Australasia
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-11/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter11.pdf
+        DOI: 10.1017/9781009325844.013
+        OPENALEX: W4382363397
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-12
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 22
+        LABEL: Central and South America
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-12/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter12.pdf
+        DOI: 10.1017/9781009325844.014
+        OPENALEX: W3109144505
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-13
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 23
+        LABEL: Europe
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-13/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter13.pdf
+        DOI: 10.1017/9781009325844.015
+        OPENALEX: W4382363568
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-14
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 24
+        LABEL: North America
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-14/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter14.pdf
+        DOI: 10.1017/9781009325844.016
+        OPENALEX: W4382363059
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-15
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 25
+        LABEL: Small Islands
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-15/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter15.pdf
+        DOI: 10.1017/9781009325844.017
+        OPENALEX: W4382363037
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-16
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 26
+        LABEL: Key Risks across Sectors and Regions
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-16/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter16.pdf
+        DOI: 10.1017/9781009325844.025
+        OPENALEX: W4382362903
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-17
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 27
+        LABEL: Decision-Making Options for Managing Risk
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-17/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter17.pdf
+        DOI: 10.1017/9781009325844.026
+        OPENALEX: W4382363544
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-18
+        SERIES: 2
+        BOOK: 1
+        CHAPTER: 28
+        LABEL: Climate Resilient Development Pathways
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-18/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter18.pdf
+        DOI: 10.1017/9781009325844.027
+        OPENALEX: W4382361919
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+  - book_id: 2
+    chapters: []
+    groups:
+    - label: Cross-Chapter Papers
+      chapters:
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Ccp1
+        SERIES: 2
+        BOOK: 2
+        CHAPTER: 11
+        LABEL: Biodiversity Hotspots
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/ccp1/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP1.pdf
+        DOI: 10.1017/9781009325844.018
+        OPENALEX: W4382363636
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Ccp2
+        SERIES: 2
+        BOOK: 2
+        CHAPTER: 12
+        LABEL: Cities and Settlements by the Sea
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/ccp2/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP2.pdf
+        DOI: 10.1017/9781009325844.019
+        OPENALEX: W4382361936
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Ccp3
+        SERIES: 2
+        BOOK: 2
+        CHAPTER: 13
+        LABEL: Deserts, Semiarid Areas and Desertification
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/ccp3/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP3.pdf
+        DOI: 10.1017/9781009325844.020
+        OPENALEX: W4382363669
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Ccp4
+        SERIES: 2
+        BOOK: 2
+        CHAPTER: 14
+        LABEL: Mediterranean Region
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/ccp4/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP4.pdf
+        DOI: 10.1017/9781009325844.021
+        OPENALEX: W4382363683
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Ccp5
+        SERIES: 2
+        BOOK: 2
+        CHAPTER: 15
+        LABEL: Mountains
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/ccp5/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP5.pdf
+        DOI: 10.1017/9781009325844.022
+        OPENALEX: W4382363207
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Ccp6
+        SERIES: 2
+        BOOK: 2
+        CHAPTER: 16
+        LABEL: Polar Regions
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/ccp6/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP6.pdf
+        DOI: 10.1017/9781009325844.023
+        OPENALEX: W4382361926
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+      - WIKI: https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Ccp7
+        SERIES: 2
+        BOOK: 2
+        CHAPTER: 17
+        LABEL: Tropical Forests
+        DESCRIPTION: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation\
+          \ and Vulnerability"
+        SOURCE: https://www.ipcc.ch/report/ar6/wg2/chapter/ccp7/
+        PDF: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP7.pdf
+        DOI: 10.1017/9781009325844.024
+        OPENALEX: W4382361947
+        TAGLIST: Climate change; Global warming; Climate
+        LICENSE: CC-BY-NC-ND 4.0
+        DATE: '2023-06-22'
+  wiki: ''
+  series: 2
+  book: 0
+  chapter: 0
+  label: "Working Group II: Climate Change 2022 \u2013 Impacts, Adaptation and Vulnerability"
+  description: "Climate Change 2022 \u2013 Impacts, Adaptation and Vulnerability"
+  source: https://www.ipcc.ch/report/ar6/wg2/
+  pdf: https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_FullReport.pdf
+  doi: 10.1017/9781009325844
+  openalex: W4382362038
+  taglist: Climate change; Global warming; Climate
+  license: CC-BY-NC-ND 4.0
+  date: '2023-06-22'

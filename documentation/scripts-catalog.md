@@ -37,3 +37,49 @@ Example:
 ```bash
 python scripts/analyse_glossary_terms.py
 ```
+
+---
+
+## XML Tooling
+
+### XSLT Preview for XML Notepad
+
+The file `data-import/report.xml` includes two processing instructions that enable in-tool HTML preview in [XML Notepad](https://microsoft.github.io/XmlNotepad/):
+
+```xml
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="report.xsl" ?>
+<?xsl-output default="report_output" ?>
+```
+
+| Instruction | Purpose |
+|---|---|
+| `xml-stylesheet` | Links the XML document to its XSLT stylesheet. XML Notepad reads this and automatically applies the transform when the **XSL Output** tab is selected. |
+| `xsl-output` | Sets the default output filename (`report_output`) used when saving the transformed result from XML Notepad. |
+
+#### Stylesheet: `data-import/report.xsl`
+
+An XSLT 1.0 stylesheet that transforms `report.xml` into a styled HTML page. The transform renders:
+
+- **Series metadata** – title, DOI (linked to `https://doi.org/`), license, date, and semicolon-delimited tags as pill badges.
+- **Front Matter** – table of summary/policy documents with DOI, OpenAlex, Wiki and PDF links.
+- **Books** – one table per book section (e.g. *Chapters*, *Cross-Chapter Papers*), with chapter number, label, DOI, OpenAlex, and Web/Wiki/PDF links.
+
+A reference copy of the stylesheet is stored at `design_pattern/report-test/report.xsl`.
+
+#### How to use in XML Notepad
+
+1. Open `data-import/report.xml` in XML Notepad.
+2. Select the **XSL Output** tab — the stylesheet is applied automatically via the `xml-stylesheet` processing instruction.
+3. To save the rendered HTML, use **File › Save As** from the XSL Output tab; the default filename is `report_output` as set by the `xsl-output` instruction.
+
+#### Adding XSLT preview to a new XML file
+
+Add these two lines immediately after the `<?xml version="1.0" ?>` declaration, adjusting `href` to point to your stylesheet:
+
+```xml
+<?xml-stylesheet type="text/xsl" href="your-stylesheet.xsl" ?>
+<?xsl-output default="your_output_filename" ?>
+```
+
+XML Notepad will detect the `xml-stylesheet` instruction and apply the transform without any further configuration.
