@@ -1,0 +1,239 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="report.xsl" ?>
+<?xsl-output default="report_output" ?>
+<series id="unknown">
+  <title>Working Group II: Climate Change 2022 – Impacts, Adaptation and Vulnerability</title>
+  <description>Climate Change 2022 – Impacts, Adaptation and Vulnerability</description>
+  <doi>10.1017/9781009325844</doi>
+  <license>CC-BY-NC-ND 4.0</license>
+  <tags>Climate change; Global warming; Climate</tags>
+  <date>2023-06-22</date>
+  <front_matter>
+    <report>
+      <label>Summary for Policymakers</label>
+      <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Summary-for-policymakers</wiki>
+      <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf</pdf>
+      <doi>10.1017/9781009325844.001</doi>
+      <openalex>W4382363608</openalex>
+    </report>
+    <report>
+      <label>Technical Summary</label>
+      <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Technical-summary</wiki>
+      <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_TechnicalSummary.pdf</pdf>
+      <doi>10.1017/9781009325844.002</doi>
+      <openalex>W4382363579</openalex>
+    </report>
+  </front_matter>
+  <books>
+    <book id="1">
+      <title>Chapters</title>
+      <chapters>
+        <chapter id="1">
+          <label>Point of Departure and Key Concepts</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-1</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-1/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter01.pdf</pdf>
+          <doi>10.1017/9781009325844.003</doi>
+          <openalex>W4382362865</openalex>
+        </chapter>
+        <chapter id="2">
+          <label>Terrestrial and Freshwater Ecosystems and Their Services</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-2</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-2/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter02.pdf</pdf>
+          <doi>10.1017/9781009325844.004</doi>
+          <openalex>W4382363505</openalex>
+        </chapter>
+        <chapter id="3">
+          <label>Oceans and Coastal Ecosystems and Their Services</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-3</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-3/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter03.pdf</pdf>
+          <doi>10.1017/9781009325844.005</doi>
+          <openalex>W4382363666</openalex>
+        </chapter>
+        <chapter id="4">
+          <label>Water</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-4</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-4/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter04.pdf</pdf>
+          <doi>10.1017/9781009325844.006</doi>
+          <openalex>W4382363526</openalex>
+        </chapter>
+        <chapter id="5">
+          <label>Food, Fibre and Other Ecosystem Products</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-5</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-5/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter05.pdf</pdf>
+          <doi>10.1017/9781009325844.007</doi>
+          <openalex>W4382363604</openalex>
+        </chapter>
+        <chapter id="6">
+          <label>Cities, Settlements and Key Infrastructure</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-6</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-6/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter06.pdf</pdf>
+          <doi>10.1017/9781009325844.008</doi>
+          <openalex>W4382363503</openalex>
+        </chapter>
+        <chapter id="7">
+          <label>Health, Wellbeing and the Changing Structure of Communities</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-7</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-7/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter07.pdf</pdf>
+          <doi>10.1017/9781009325844.009</doi>
+          <openalex>W4382361937</openalex>
+        </chapter>
+        <chapter id="8">
+          <label>Poverty, Livelihoods and Sustainable Development</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-8</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-8/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter08.pdf</pdf>
+          <doi>10.1017/9781009325844.010</doi>
+          <openalex>W2991859140</openalex>
+        </chapter>
+        <chapter id="9">
+          <label>Africa</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-9</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-9/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter09.pdf</pdf>
+          <doi>10.1017/9781009325844.011</doi>
+          <openalex>W4382361932</openalex>
+        </chapter>
+        <chapter id="10">
+          <label>Asia</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-10</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-10/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter10.pdf</pdf>
+          <doi>10.1017/9781009325844.012</doi>
+          <openalex>W4382362799</openalex>
+        </chapter>
+        <chapter id="11">
+          <label>Australasia</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-11</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-11/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter11.pdf</pdf>
+          <doi>10.1017/9781009325844.013</doi>
+          <openalex>W4382363397</openalex>
+        </chapter>
+        <chapter id="12">
+          <label>Central and South America</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-12</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-12/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter12.pdf</pdf>
+          <doi>10.1017/9781009325844.014</doi>
+          <openalex>W3109144505</openalex>
+        </chapter>
+        <chapter id="13">
+          <label>Europe</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-13</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-13/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter13.pdf</pdf>
+          <doi>10.1017/9781009325844.015</doi>
+          <openalex>W4382363568</openalex>
+        </chapter>
+        <chapter id="14">
+          <label>North America</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-14</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-14/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter14.pdf</pdf>
+          <doi>10.1017/9781009325844.016</doi>
+          <openalex>W4382363059</openalex>
+        </chapter>
+        <chapter id="15">
+          <label>Small Islands</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-15</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-15/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter15.pdf</pdf>
+          <doi>10.1017/9781009325844.017</doi>
+          <openalex>W4382363037</openalex>
+        </chapter>
+        <chapter id="16">
+          <label>Key Risks across Sectors and Regions</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-16</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-16/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter16.pdf</pdf>
+          <doi>10.1017/9781009325844.025</doi>
+          <openalex>W4382362903</openalex>
+        </chapter>
+        <chapter id="17">
+          <label>Decision-Making Options for Managing Risk</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-17</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-17/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter17.pdf</pdf>
+          <doi>10.1017/9781009325844.026</doi>
+          <openalex>W4382363544</openalex>
+        </chapter>
+        <chapter id="18">
+          <label>Climate Resilient Development Pathways</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-18</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-18/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter18.pdf</pdf>
+          <doi>10.1017/9781009325844.027</doi>
+          <openalex>W4382361919</openalex>
+        </chapter>
+      </chapters>
+    </book>
+    <book id="2">
+      <title>Cross-Chapter Papers</title>
+      <chapters>
+        <chapter id="1">
+          <label>Biodiversity Hotspots</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Ccp1</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/ccp1/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP1.pdf</pdf>
+          <doi>10.1017/9781009325844.018</doi>
+          <openalex>W4382363636</openalex>
+        </chapter>
+        <chapter id="2">
+          <label>Cities and Settlements by the Sea</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Ccp2</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/ccp2/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP2.pdf</pdf>
+          <doi>10.1017/9781009325844.019</doi>
+          <openalex>W4382361936</openalex>
+        </chapter>
+        <chapter id="3">
+          <label>Deserts, Semiarid Areas and Desertification</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Ccp3</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/ccp3/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP3.pdf</pdf>
+          <doi>10.1017/9781009325844.020</doi>
+          <openalex>W4382363669</openalex>
+        </chapter>
+        <chapter id="4">
+          <label>Mediterranean Region</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Ccp4</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/ccp4/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP4.pdf</pdf>
+          <doi>10.1017/9781009325844.021</doi>
+          <openalex>W4382363683</openalex>
+        </chapter>
+        <chapter id="5">
+          <label>Mountains</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Ccp5</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/ccp5/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP5.pdf</pdf>
+          <doi>10.1017/9781009325844.022</doi>
+          <openalex>W4382363207</openalex>
+        </chapter>
+        <chapter id="6">
+          <label>Polar Regions</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Ccp6</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/ccp6/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP6.pdf</pdf>
+          <doi>10.1017/9781009325844.023</doi>
+          <openalex>W4382361926</openalex>
+        </chapter>
+        <chapter id="7">
+          <label>Tropical Forests</label>
+          <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Ccp7</wiki>
+          <source>https://www.ipcc.ch/report/ar6/wg2/chapter/ccp7/</source>
+          <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP7.pdf</pdf>
+          <doi>10.1017/9781009325844.024</doi>
+          <openalex>W4382361947</openalex>
+        </chapter>
+      </chapters>
+    </book>
+  </books>
+</series>
