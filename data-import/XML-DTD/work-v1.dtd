@@ -2,7 +2,7 @@
 <!ELEMENT work (publication | ANY)>
 
 <!-- Use this structure when the 'work' is specifically a document -->
-<!ELEMENT publication (title, (series+ | book+))>
+<!ELEMENT publication (title, description, (series+ | book+))>
 <!ATTLIST publication id ID #REQUIRED>
 
 <!-- At least one of DOI or ISBN is required for a Series -->
