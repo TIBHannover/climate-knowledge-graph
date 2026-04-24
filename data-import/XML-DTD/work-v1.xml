@@ -3,6 +3,7 @@
 <work>
   <publication id="IPCC_AR6">
     <title>IPCC Sixth Assessment Report</title>
+    <description>IPCC Cycle</description>
       <series id="IPCC_AR6_WGII">
         <title>Working Group II: Climate Change 2022 – Impacts, Adaptation and Vulnerability</title>
         <description>Climate Change 2022 – Impacts, Adaptation and Vulnerability</description>
@@ -11,7 +12,7 @@
         <tags>Climate change; Global warming; Climate</tags>
         <date>2023-06-22</date>
         <front_matter>
-          <chapter>
+          <chapter id="1">
             <title>Summary for Policymakers</title>
             <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Summary-for-policymakers</wiki>
             <source>https://www.ipcc.ch/report/ar6/wg2/chapter/summary-for-policymakers/</source>
@@ -19,7 +20,7 @@
             <doi>10.1017/9781009325844.001</doi>
             <openalex>W4382363608</openalex>
           </chapter>
-          <chapter>
+          <chapter id="2">
             <title>Technical Summary</title>
             <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Technical-summary</wiki>
             <source>https://www.ipcc.ch/report/ar6/wg2/chapter/technical-summary/</source>

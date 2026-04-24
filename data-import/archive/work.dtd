@@ -1,0 +1,35 @@
+<!-- The root container for any abstract art or structured publication -->
+<!ELEMENT work (publication | ANY)>
+
+<!-- Use this structure when the 'work' is specifically a document -->
+<!ELEMENT publication (title, description, (series+ | book+))>
+<!ATTLIST publication id ID #REQUIRED>
+
+<!-- At least one of DOI or ISBN is required for a Series -->
+<!ELEMENT series (title, description, (doi, isbn? | isbn, doi?), license, tags, date, front_matter?, books)>
+<!ATTLIST series id CDATA #REQUIRED>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT doi (#PCDATA)>
+<!ELEMENT license (#PCDATA)>
+<!ELEMENT tags (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+
+<!ELEMENT front_matter (chapter+)>
+<!ELEMENT books (book+)>
+
+<!-- At least one of DOI or ISBN is required for a Book -->
+<!ELEMENT book (title, description?, (doi, isbn? | isbn, doi?), license?, tags?, date?, front_matter?, chapters)>
+<!ATTLIST book id CDATA #REQUIRED>
+
+<!ELEMENT chapters (chapter+)>
+
+<!-- Chapters stay flexible with optional IDs -->
+<!ELEMENT chapter (title, wiki?, source?, pdf?, doi?, openalex?)>
+<!ATTLIST chapter id CDATA #IMPLIED>
+
+<!ELEMENT wiki (#PCDATA)>
+<!ELEMENT source (#PCDATA)>
+<!ELEMENT pdf (#PCDATA)>
+<!ELEMENT openalex (#PCDATA)>
