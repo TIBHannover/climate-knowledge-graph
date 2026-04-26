@@ -1,17 +1,17 @@
-# Report: CSV to XML Conversion — IPCC AR6 WGII
+# Report: CSV to XML Conversion — IPCC AR6 (All 7 Series)
 
-**Date:** 2026-04-25  
+**Date:** 2026-04-26  
 **Authored by:** [GitHub Copilot](https://github.com/features/copilot) (Claude Sonnet 4.6) using the VS Code Agent mode  
 **Reviewed by:** Simon Worthington  
 **Plan:** [`plan-csvToXmlNotebook-promot.prompt.md`](plan-csvToXmlNotebook-promot.prompt.md)  
 **Notebook:** [`csv_to_xml.ipynb`](csv_to_xml.ipynb)  
-**Output:** [`outputs/WGII.xml`](outputs/WGII.xml)
+**Output:** [`outputs/AR6.xml`](outputs/AR6.xml)
 
 ---
 
 ## 1. Objective
 
-Convert the structured CSV file `WGII.csv` into a well-formed XML document conforming to the `work.dtd` schema, using the existing hand-authored `work.xml` as a reference benchmark. The process is implemented as a Jupyter Notebook to make every step transparent, reproducible and shareable. The design is intended to scale from the current single-series dataset to a full 7-series, 95-chapter dataset without code changes.
+Convert the structured CSV file `AR6.csv` into a well-formed XML document conforming to the `work.dtd` schema. The process is implemented as a Jupyter Notebook to make every step transparent, reproducible and shareable. The notebook was originally built for the single-series `WGII.csv` and extended to cover the full 7-series, 105-row AR6 dataset without code changes — only the input path and `SERIES_ID_MAP` configuration were updated.
 
 ---
 
@@ -19,9 +19,9 @@ Convert the structured CSV file `WGII.csv` into a well-formed XML document confo
 
 | File | Role |
 |------|------|
-| `WGII.csv` | Source data — 30 rows encoding a SERIES / BOOK / CHAPTER hierarchy |
+| `AR6.csv` | Source data — 105 rows encoding a SERIES / BOOK / CHAPTER hierarchy for all 7 AR6 reports |
 | `work.dtd` | Target schema |
-| `work.xml` | Reference benchmark (hand-authored) |
+| `outputs/AR6_reference.xml` | Optional reference benchmark — skipped if absent |
 
 ---
 
@@ -33,14 +33,14 @@ A structured plan was drafted covering:
 
 - CSV parsing logic (row-type encoding via BOOK / CHAPTER column values)
 - Notebook cell layout (19 cells: markdown + code alternating)
-- Configuration decisions: publication metadata as constants, output to `outputs/`, `lxml` for validation, comparison step against reference
+- Configuration decisions: publication metadata as constants, output to `outputs/`, `lxml` for validation, optional comparison step against a reference file
 
 The plan was saved as [`plan-csvToXmlNotebook-promot.prompt.md`](plan-csvToXmlNotebook-promot.prompt.md) for review and refinement before execution.
 
 ### 3.2 Environment Setup
 
 - Kernel: Python 3.11.9 (`.venv`)
-- Packages installed into the notebook kernel: `pandas 3.0.2`, `lxml`
+- Packages: `pandas 3.0.2`, `lxml 6.1.0`
 
 ### 3.3 Notebook Construction
 
@@ -51,7 +51,7 @@ The notebook was built cell by cell following the plan:
 | 1 | Markdown | Title, objective, inputs/outputs, design note |
 | 2 | Code | Imports (`pandas`, `xml.etree.ElementTree`, `lxml.etree`, `pathlib`, `re`, `sys`) |
 | 3 | Markdown | Configuration section header |
-| 4 | Code | Path constants, publication metadata, `SERIES_ID_MAP` |
+| 4 | Code | Path constants, publication metadata, `SERIES_ID_MAP` (all 7 series) |
 | 5 | Markdown | Data loading section header |
 | 6 | Code | Load CSV, normalise column names, cast hierarchy columns to `int` |
 | 7 | Markdown | CSV structure encoding table |
@@ -62,11 +62,11 @@ The notebook was built cell by cell following the plan:
 | 12 | Markdown | Pretty-printing note |
 | 13 | Code | `indent_xml()` — Python ≥3.9 `ET.indent()` with `minidom` fallback |
 | 14 | Code | Build tree, pretty-print, preview first 60 lines |
-| 15 | Code | Write `outputs/WGII.xml` with XML prologue and DOCTYPE declaration |
+| 15 | Code | Write `outputs/AR6.xml` with XML prologue and DOCTYPE declaration |
 | 16 | Markdown | DTD validation section header and known-issue note |
 | 17 | Code | Well-formedness check + structural audit (see §3.5) |
 | 18 | Markdown | Comparison section header |
-| 19 | Code | Recursive element-by-element diff against `work.xml` |
+| 19 | Code | Recursive element-by-element diff against optional reference XML |
 
 ### 3.4 CSV Parsing Logic
 
@@ -87,7 +87,7 @@ Chapter IDs within a book are offset: `id = CHAPTER − 10`
 #### Well-formedness
 
 ```
-✓ outputs/WGII.xml is well-formed XML (lxml parse passed)
+✓ outputs\AR6.xml is well-formed XML (lxml parse passed)
 ```
 
 #### Structural audit
@@ -95,23 +95,17 @@ Chapter IDs within a book are offset: `id = CHAPTER − 10`
 ```
 <work>                :  1 element
 <publication>         :  1 child
-<series>              :  1
-<books>               :  1
-<book>                :  2
-front-matter chapters :  2
-body chapters         : 25
+<series>              :  7
+<books>               :  7
+<book>                : 10
+front-matter chapters : 13
+body chapters         : 75
+total elements        : 713
 ```
 
-#### Comparison against reference `work.xml`
+#### Comparison against reference
 
-```
-Total elements in generated XML : 208
-Total elements in reference XML : 208
-
-✓ Generated XML matches reference work.xml exactly (0 mismatches)
-```
-
-The comparison used a recursive element-by-element tree walk checking tag names, attributes, text content (whitespace-stripped), and child counts at every node.
+No reference XML was present at `outputs/AR6_reference.xml` — comparison step skipped.
 
 ---
 
@@ -169,7 +163,7 @@ Book-header rows in the CSV are structural grouping nodes (title only) and carry
 
 | File | Size | Status |
 |------|------|--------|
-| `outputs/WGII.xml` | 14,070 bytes | ✓ Written |
+| `outputs/AR6.xml` | 48,246 bytes | ✓ Written |
 | `csv_to_xml.ipynb` | — | ✓ All 13 code cells executed |
 
 ---
@@ -181,25 +175,13 @@ Book-header rows in the CSV are structural grouping nodes (title only) and carry
 Apply the three amendments described in §4.1.  
 Once fixed, replace the well-formedness-only check in Cell 17 with full `lxml` DTD validation.
 
-### P2 — Extend `SERIES_ID_MAP` for all 7 series
+### P2 — Create a reference XML benchmark
 
-When the full CSV is available, extend the mapping dictionary in Cell 4:
-
-```python
-SERIES_ID_MAP = {
-    1: 'IPCC_AR6_WGI',
-    2: 'IPCC_AR6_WGII',
-    3: 'IPCC_AR6_WGIII',
-    4: 'IPCC_AR6_SYR',
-    # … etc.
-}
-```
-
-No other code changes are required; the algorithm already groups by `SERIES`.
+Copy `outputs/AR6.xml` to `outputs/AR6_reference.xml` once the output has been reviewed and approved. This enables the Cell 19 comparison step for future runs.
 
 ### P3 — Add a publication config row to the CSV (optional)
 
-Currently `PUB_ID`, `PUB_TITLE`, and `PUB_DESCRIPTION` are hardcoded as constants. For a fully data-driven pipeline, consider a `SERIES=1, BOOK=0, CHAPTER=-1` (or equivalent) row in the CSV that carries publication-level metadata, making the notebook completely config-free.
+Currently `PUB_ID`, `PUB_TITLE`, and `PUB_DESCRIPTION` are hardcoded as constants. For a fully data-driven pipeline, consider a `SERIES=−1, BOOK=0, CHAPTER=0` (or equivalent) row in the CSV that carries publication-level metadata, making the notebook completely config-free.
 
 ### P4 — Restore full DTD validation in Cell 17
 
@@ -219,17 +201,7 @@ else:
 
 ### P5 — Add `isbn` data to CSV (if applicable)
 
-If any series or book in the full dataset has an ISBN, add an `ISBN` column to the CSV and update `build_chapter_element` and `build_xml` to emit `<isbn>` elements.
-
-### P6 — Output filename parameterisation
-
-Currently the output filename is hardcoded as `WGII.xml`. For multi-series use, derive it from the series ID:
-
-```python
-OUTPUT_XML = OUTPUT_DIR / f'{series_id}.xml'
-```
-
-Or generate one combined `work.xml` wrapping all series under a single `<publication>`.
+If any series or book in the dataset has an ISBN, add an `ISBN` column to the CSV and update `build_chapter_element` and `build_xml` to emit `<isbn>` elements.
 
 ---
 
@@ -237,7 +209,7 @@ Or generate one combined `work.xml` wrapping all series under a single `<publica
 
 | Path | Action |
 |------|--------|
-| `data-import/XML-DTD/csv_to_xml.ipynb` | Created |
-| `data-import/XML-DTD/outputs/WGII.xml` | Created (generated output) |
+| `data-import/XML-DTD/csv_to_xml.ipynb` | Created (initially for WGII), updated for full AR6 |
+| `data-import/XML-DTD/outputs/AR6.xml` | Created (generated output, all 7 series) |
 | `data-import/XML-DTD/plan-csvToXmlNotebook-promot.prompt.md` | Created (planning document) |
-| `data-import/XML-DTD/report-csv-to-xml.md` | Created (this report) |
+| `data-import/XML-DTD/report-csv-to-xml.md` | Updated (this report) |
