@@ -1,11 +1,11 @@
 # Report: CSV to XML Conversion — IPCC AR6 (All 7 Series)
 
-**Date:** 2026-04-26  
-**Authored by:** [GitHub Copilot](https://github.com/features/copilot) (Claude Sonnet 4.6) using the VS Code Agent mode  
+**Date:** 2026-04-28  
+**Authored by:** [GitHub Copilot](https://github.com/features/copilot) (Claude Haiku 4.5) using the VS Code Agent mode  
 **Reviewed by:** Simon Worthington  
 **Plan:** [`plan-csvToXmlNotebook-promot.prompt.md`](plan-csvToXmlNotebook-promot.prompt.md)  
 **Notebook:** [`csv_to_xml.ipynb`](csv_to_xml.ipynb)  
-**Output:** [`outputs/AR6.xml`](outputs/AR6.xml)
+**Output:** [`outputs-inc-dtd/work.xml`](outputs-inc-dtd/work.xml)
 
 ---
 
@@ -19,9 +19,9 @@ Convert the structured CSV file `AR6.csv` into a well-formed XML document confor
 
 | File | Role |
 |------|------|
-| `AR6.csv` | Source data — 105 rows encoding a SERIES / BOOK / CHAPTER hierarchy for all 7 AR6 reports |
+| `input/AR6.csv` | Source data — 106 rows encoding a SERIES / BOOK / CHAPTER hierarchy for all 7 AR6 reports |
 | `work.dtd` | Target schema |
-| `outputs/AR6_reference.xml` | Optional reference benchmark — skipped if absent |
+| `reference-point/work-reference-point.xml` | Optional reference benchmark — used for validation |
 
 ---
 
@@ -33,7 +33,7 @@ A structured plan was drafted covering:
 
 - CSV parsing logic (row-type encoding via BOOK / CHAPTER column values)
 - Notebook cell layout (19 cells: markdown + code alternating)
-- Configuration decisions: publication metadata as constants, output to `outputs/`, `lxml` for validation, optional comparison step against a reference file
+- Configuration decisions: publication metadata as constants, output to `outputs-inc-dtd/`, `lxml` for validation, optional comparison step against reference file
 
 The plan was saved as [`plan-csvToXmlNotebook-promot.prompt.md`](plan-csvToXmlNotebook-promot.prompt.md) for review and refinement before execution.
 
@@ -62,7 +62,7 @@ The notebook was built cell by cell following the plan:
 | 12 | Markdown | Pretty-printing note |
 | 13 | Code | `indent_xml()` — Python ≥3.9 `ET.indent()` with `minidom` fallback |
 | 14 | Code | Build tree, pretty-print, preview first 60 lines |
-| 15 | Code | Write `outputs/AR6.xml` with XML prologue and DOCTYPE declaration |
+| 15 | Code | Write `outputs-inc-dtd/work.xml` with XML prologue and DOCTYPE declaration |
 | 16 | Markdown | DTD validation section header and known-issue note |
 | 17 | Code | Well-formedness check + structural audit (see §3.5) |
 | 18 | Markdown | Comparison section header |
@@ -87,7 +87,7 @@ Chapter IDs within a book are offset: `id = CHAPTER − 10`
 #### Well-formedness
 
 ```
-✓ outputs\AR6.xml is well-formed XML (lxml parse passed)
+✓ outputs-inc-dtd\work.xml is well-formed XML (lxml parse passed)
 ```
 
 #### Structural audit
@@ -97,15 +97,15 @@ Chapter IDs within a book are offset: `id = CHAPTER − 10`
 <publication>         :  1 child
 <series>              :  7
 <books>               :  7
-<book>                : 10
+<book>                : 11
 front-matter chapters : 13
 body chapters         : 75
-total elements        : 713
+total elements        : 715
 ```
 
 #### Comparison against reference
 
-No reference XML was present at `outputs/AR6_reference.xml` — comparison step skipped.
+Reference XML present at `reference-point/work-reference-point.xml` — generated XML matches reference exactly (0 mismatches).
 
 ---
 
@@ -163,8 +163,8 @@ Book-header rows in the CSV are structural grouping nodes (title only) and carry
 
 | File | Size | Status |
 |------|------|--------|
-| `outputs/AR6.xml` | 48,246 bytes | ✓ Written |
-| `csv_to_xml.ipynb` | — | ✓ All 13 code cells executed |
+| `outputs-inc-dtd/work.xml` | 48,364 bytes | ✓ Written |
+| `csv_to_xml.ipynb` | — | ✓ All 19 cells executed |
 
 ---
 
@@ -175,9 +175,9 @@ Book-header rows in the CSV are structural grouping nodes (title only) and carry
 Apply the three amendments described in §4.1.  
 Once fixed, replace the well-formedness-only check in Cell 17 with full `lxml` DTD validation.
 
-### P2 — Create a reference XML benchmark
+### P2 — Reference XML benchmark validation
 
-Copy `outputs/AR6.xml` to `outputs/AR6_reference.xml` once the output has been reviewed and approved. This enables the Cell 19 comparison step for future runs.
+Reference XML is available at `reference-point/work-reference-point.xml` and has been used to validate the generated output. All elements match exactly.
 
 ### P3 — Add a publication config row to the CSV (optional)
 
@@ -210,6 +210,6 @@ If any series or book in the dataset has an ISBN, add an `ISBN` column to the CS
 | Path | Action |
 |------|--------|
 | `data-import/XML-DTD/csv_to_xml.ipynb` | Created (initially for WGII), updated for full AR6 |
-| `data-import/XML-DTD/outputs/AR6.xml` | Created (generated output, all 7 series) |
+| `data-import/XML-DTD/outputs-inc-dtd/work.xml` | Created (generated output, all 7 series) |
 | `data-import/XML-DTD/plan-csvToXmlNotebook-promot.prompt.md` | Created (planning document) |
 | `data-import/XML-DTD/report-csv-to-xml.md` | Updated (this report) |
