@@ -551,30 +551,6 @@
               <doi>10.1017/9781009325844.017</doi>
               <openalex>W4382363037</openalex>
             </chapter>
-            <chapter id="16">
-              <title>Key Risks across Sectors and Regions</title>
-              <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-16</wiki>
-              <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-16/</source>
-              <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter16.pdf</pdf>
-              <doi>10.1017/9781009325844.025</doi>
-              <openalex>W4382362903</openalex>
-            </chapter>
-            <chapter id="17">
-              <title>Decision-Making Options for Managing Risk</title>
-              <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-17</wiki>
-              <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-17/</source>
-              <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter17.pdf</pdf>
-              <doi>10.1017/9781009325844.026</doi>
-              <openalex>W4382363544</openalex>
-            </chapter>
-            <chapter id="18">
-              <title>Climate Resilient Development Pathways</title>
-              <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-18</wiki>
-              <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-18/</source>
-              <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter18.pdf</pdf>
-              <doi>10.1017/9781009325844.027</doi>
-              <openalex>W4382361919</openalex>
-            </chapter>
           </chapters>
         </book>
         <book id="2">
@@ -635,6 +611,35 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP7.pdf</pdf>
               <doi>10.1017/9781009325844.024</doi>
               <openalex>W4382361947</openalex>
+            </chapter>
+          </chapters>
+        </book>
+        <book id="3">
+          <title>Chapters</title>
+          <chapters>
+            <chapter id="1">
+              <title>Key Risks across Sectors and Regions</title>
+              <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-16</wiki>
+              <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-16/</source>
+              <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter16.pdf</pdf>
+              <doi>10.1017/9781009325844.025</doi>
+              <openalex>W4382362903</openalex>
+            </chapter>
+            <chapter id="2">
+              <title>Decision-Making Options for Managing Risk</title>
+              <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-17</wiki>
+              <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-17/</source>
+              <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter17.pdf</pdf>
+              <doi>10.1017/9781009325844.026</doi>
+              <openalex>W4382363544</openalex>
+            </chapter>
+            <chapter id="3">
+              <title>Climate Resilient Development Pathways</title>
+              <wiki>https://test.kewl.org/wiki/IPCC:Wg2:Chapter:Chapter-18</wiki>
+              <source>https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-18/</source>
+              <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter18.pdf</pdf>
+              <doi>10.1017/9781009325844.027</doi>
+              <openalex>W4382361919</openalex>
             </chapter>
           </chapters>
         </book>
@@ -831,7 +836,7 @@
           <title>Chapters</title>
           <chapters>
             <chapter id="1">
-              <title>LongerReport</title>
+              <title>Longer Report</title>
               <wiki>https://test.kewl.org/wiki/IPCC:Syr:Longer-report</wiki>
               <source>https://www.ipcc.ch/report/ar6/syr/longer-report/</source>
               <pdf>https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_LongerReport.pdf</pdf>

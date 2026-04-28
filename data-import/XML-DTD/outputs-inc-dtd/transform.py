@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-XSLT transformation script to convert AR6.xml to HTML
+XSLT transformation script to convert work.xml to HTML
 """
 
 import xml.etree.ElementTree as ET
@@ -50,12 +50,12 @@ def transform_xml_to_html(xml_file, xsl_file, output_file):
 if __name__ == "__main__":
     # File paths
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    xml_file = os.path.join(script_dir, "AR6.xml")
-    xsl_file = os.path.join(script_dir, "AR6.xsl")
-    output_file = os.path.join(script_dir, "AR6.html")
+    xml_file = os.path.join(script_dir, "work.xml")
+    xsl_file = os.path.join(script_dir, "work.xslt")
+    output_file = os.path.join(script_dir, "work.html")
     
     print("=" * 60)
-    print("AR6 XML to HTML XSLT Transformation")
+    print("work.xml to HTML XSLT Transformation")
     print("=" * 60)
     print(f"XML Input:  {xml_file}")
     print(f"XSL Input:  {xsl_file}")
