@@ -9,7 +9,7 @@
       <description>Global Warming of 1.5°C</description>
       <doi>10.1017/9781009157940</doi>
       <license>CC-BY-NC-ND 4.0</license>
-      <tags>Climate change; Global warming; Climate</tags>
+      <tags>Social Sciences; No poverty</tags>
       <date>2022-06-09</date>
       <front_matter>
         <chapter id="1">
@@ -19,6 +19,7 @@
           <pdf>https://www.ipcc.ch/site/assets/uploads/sites/2/2022/06/SPM_version_report_HR.pdf</pdf>
           <doi>10.1017/9781009157940.001</doi>
           <openalex>W4281385918</openalex>
+          <tags>Confidence; Global warming; Pathways</tags>
         </chapter>
         <chapter id="2">
           <title>Technical Summary</title>
@@ -27,6 +28,7 @@
           <pdf>https://www.ipcc.ch/site/assets/uploads/sites/2/2019/05/SR15_TS_High_Res.pdf</pdf>
           <doi>10.1017/9781009157940.002</doi>
           <openalex>W4281400632</openalex>
+          <tags>Global warming; Technical potential; Global warming potential</tags>
         </chapter>
       </front_matter>
       <books>
@@ -40,6 +42,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/2/2022/06/SR15_Chapter_1_HR.pdf</pdf>
               <doi>10.1017/9781009157940.003</doi>
               <openalex>W4281383245</openalex>
+              <tags>Global warming; Climate response; Impacts</tags>
             </chapter>
             <chapter id="2">
               <title>Mitigation Pathways Compatible with 1.5°C in the Context of Sustainable Development</title>
@@ -48,6 +51,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/2/2022/06/SR15_Chapter_2_HR.pdf</pdf>
               <doi>10.1017/9781009157940.004</doi>
               <openalex>W4281383849</openalex>
+              <tags>Pathways; Mitigation pathways; Mitigation</tags>
             </chapter>
             <chapter id="3">
               <title>Impacts of 1.5°C Global Warming on Natural and Human Systems</title>
@@ -56,6 +60,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/2/2022/06/SR15_Chapter_3_HR.pdf</pdf>
               <doi>10.1017/9781009157940.005</doi>
               <openalex>W4281384098</openalex>
+              <tags>Global warming; Impacts; Climate model</tags>
             </chapter>
             <chapter id="4">
               <title>Strengthening and Implementing the Global Response</title>
@@ -64,6 +69,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/2/2022/06/SR15_Chapter_4_HR.pdf</pdf>
               <doi>10.1017/9781009157940.006</doi>
               <openalex>W2935948450</openalex>
+              <tags>Adaptation; Climate governance; Climate system</tags>
             </chapter>
             <chapter id="5">
               <title>Sustainable Development, Poverty Eradication and Reducing Inequalities</title>
@@ -72,6 +78,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/2/2022/06/SR15_Chapter_5_HR.pdf</pdf>
               <doi>10.1017/9781009157940.007</doi>
               <openalex>W2902431294</openalex>
+              <tags>Adaptation; Sustainable development; Climate justice</tags>
             </chapter>
           </chapters>
         </book>
@@ -82,7 +89,7 @@
       <description>Climate Change and Land</description>
       <doi>10.1017/9781009157988</doi>
       <license>CC-BY-NC-ND 4.0</license>
-      <tags>Climate change; Global warming; Climate</tags>
+      <tags>Physical Sciences</tags>
       <date>2022-12-08</date>
       <front_matter>
         <chapter id="1">
@@ -92,6 +99,7 @@
           <pdf>https://www.ipcc.ch/site/assets/uploads/sites/4/2022/11/SRCCL_SPM.pdf</pdf>
           <doi>10.1017/9781009157988.001</doi>
           <openalex>W4309372022</openalex>
+          <tags>Confidence; Land; Land management</tags>
         </chapter>
         <chapter id="2">
           <title>Technical Summary</title>
@@ -100,6 +108,7 @@
           <pdf>https://www.ipcc.ch/site/assets/uploads/sites/4/2022/11/SRCCL_Technical-Summary.pdf</pdf>
           <doi>10.1017/9781009157988.002</doi>
           <openalex>W4309402493</openalex>
+          <tags>Land; Land-use change; Land-cover change</tags>
         </chapter>
       </front_matter>
       <books>
@@ -113,6 +122,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/4/2022/11/SRCCL_Chapter_1.pdf</pdf>
               <doi>10.1017/9781009157988.003</doi>
               <openalex>W4309402413</openalex>
+              <tags>Land; Land use; Land-use change</tags>
             </chapter>
             <chapter id="2">
               <title>Land–climate interactions</title>
@@ -121,6 +131,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/4/2022/11/SRCCL_Chapter_2.pdf</pdf>
               <doi>10.1017/9781009157988.004</doi>
               <openalex>W3092635909</openalex>
+              <tags>Land; Land-use change; Land use</tags>
             </chapter>
             <chapter id="3">
               <title>Desertification</title>
@@ -129,6 +140,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/4/2022/11/SRCCL_Chapter_3.pdf</pdf>
               <doi>10.1017/9781009157988.005</doi>
               <openalex>W4309402514</openalex>
+              <tags>Land; Desertification; Land degradation</tags>
             </chapter>
             <chapter id="4">
               <title>Land degradation</title>
@@ -137,6 +149,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/4/2022/11/SRCCL_Chapter_4.pdf</pdf>
               <doi>10.1017/9781009157988.006</doi>
               <openalex>W4309402409</openalex>
+              <tags>Land; Land degradation; Forest degradation</tags>
             </chapter>
             <chapter id="5">
               <title>Food security</title>
@@ -145,6 +158,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/4/2022/11/SRCCL_Chapter_5.pdf</pdf>
               <doi>10.1017/9781009157988.007</doi>
               <openalex>W4309402428</openalex>
+              <tags>Food security; Food system; Climate system</tags>
             </chapter>
             <chapter id="6">
               <title>Interlinkages between desertification, land degradation, food security and greenhouse gas fluxes: Synergies, trade-offs and integrated response options</title>
@@ -153,6 +167,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/4/2022/11/SRCCL_Chapter_6.pdf</pdf>
               <doi>10.1017/9781009157988.008</doi>
               <openalex>W4309402499</openalex>
+              <tags>Land; Land management; Land-use change</tags>
             </chapter>
             <chapter id="7">
               <title>Risk management and decision-making in relation to sustainable development</title>
@@ -161,6 +176,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/4/2022/11/SRCCL_Chapter_7.pdf</pdf>
               <doi>10.1017/9781009157988.009</doi>
               <openalex>W3002866211</openalex>
+              <tags>Land; Climate governance; Land management</tags>
             </chapter>
           </chapters>
         </book>
@@ -171,7 +187,7 @@
       <description>The Ocean and Cryosphere in a Changing Climate</description>
       <doi>10.1017/9781009157964</doi>
       <license>CC-BY-NC-ND 4.0</license>
-      <tags>Climate change; Global warming; Climate</tags>
+      <tags>Physical Sciences; Climate action</tags>
       <date>2022-05-19</date>
       <front_matter>
         <chapter id="1">
@@ -181,6 +197,7 @@
           <pdf>https://www.ipcc.ch/site/assets/uploads/sites/3/2022/03/01_SROCC_SPM_FINAL.pdf</pdf>
           <doi>10.1017/9781009157964.001</doi>
           <openalex>W4210811321</openalex>
+          <tags>Confidence; Ocean; Sea level rise</tags>
         </chapter>
         <chapter id="2">
           <title>Technical Summary</title>
@@ -189,6 +206,7 @@
           <pdf>https://www.ipcc.ch/site/assets/uploads/sites/3/2022/03/02_SROCC_TS_FINAL.pdf</pdf>
           <doi>10.1017/9781009157964.002</doi>
           <openalex>W4210767500</openalex>
+          <tags>Confidence; Ocean; Impacts</tags>
         </chapter>
       </front_matter>
       <books>
@@ -202,6 +220,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/3/2022/03/03_SROCC_Ch01_FINAL.pdf</pdf>
               <doi>10.1017/9781009157964.003</doi>
               <openalex>W4210320361</openalex>
+              <tags>Ocean; Cryosphere; Adaptation</tags>
             </chapter>
             <chapter id="2">
               <title>High Mountain Areas</title>
@@ -210,6 +229,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/3/2022/03/04_SROCC_Ch02_FINAL.pdf</pdf>
               <doi>10.1017/9781009157964.004</doi>
               <openalex>W4210731414</openalex>
+              <tags>Glacier; Permafrost; Impacts</tags>
             </chapter>
             <chapter id="3">
               <title>Polar Regions</title>
@@ -218,6 +238,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/3/2022/03/05_SROCC_Ch03_FINAL.pdf</pdf>
               <doi>10.1017/9781009157964.005</doi>
               <openalex>W4210623669</openalex>
+              <tags>Sea ice; Ocean; Confidence</tags>
             </chapter>
             <chapter id="4">
               <title>Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities</title>
@@ -226,6 +247,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/3/2022/03/06_SROCC_Ch04_FINAL.pdf</pdf>
               <doi>10.1017/9781009157964.006</doi>
               <openalex>W4210654828</openalex>
+              <tags>Sea level change; Sea ice; Sea level rise</tags>
             </chapter>
             <chapter id="5">
               <title>Changing Ocean, Marine Ecosystems, and Dependent Communities</title>
@@ -234,6 +256,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/3/2022/03/07_SROCC_Ch05_FINAL.pdf</pdf>
               <doi>10.1017/9781009157964.007</doi>
               <openalex>W4210691114</openalex>
+              <tags>Ocean; Confidence; Global warming</tags>
             </chapter>
             <chapter id="6">
               <title>Extremes, Abrupt Changes and Managing Risks</title>
@@ -242,6 +265,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/3/2022/03/08_SROCC_Ch06_FINAL.pdf</pdf>
               <doi>10.1017/9781009157964.008</doi>
               <openalex>W4210611443</openalex>
+              <tags>Climate extreme; Ocean; Global warming</tags>
             </chapter>
           </chapters>
         </book>
@@ -255,6 +279,7 @@
               <pdf>https://www.ipcc.ch/site/assets/uploads/sites/3/2022/03/09_SROCC_CCB9-LLIC_FINAL.pdf</pdf>
               <doi>10.1017/9781009157964.009</doi>
               <openalex>W4210459585</openalex>
+              <tags>Sea level change; Adaptation; Ocean</tags>
             </chapter>
           </chapters>
         </book>
@@ -265,7 +290,7 @@
       <description>Climate Change 2021 – The Physical Science Basis</description>
       <doi>10.1017/9781009157896</doi>
       <license>CC-BY-NC-ND 4.0</license>
-      <tags>Climate change; Global warming; Climate</tags>
+      <tags>Physical Sciences; Climate action</tags>
       <date>2023-07-06</date>
       <front_matter>
         <chapter id="1">
@@ -275,6 +300,7 @@
           <pdf>https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf</pdf>
           <doi>10.1017/9781009157896.001</doi>
           <openalex>W4382358979</openalex>
+          <tags>Confidence; Global warming; Anthropogenic emissions</tags>
         </chapter>
         <chapter id="2">
           <title>Technical Summary</title>
@@ -283,6 +309,7 @@
           <pdf>https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_TS.pdf</pdf>
           <doi>10.1017/9781009157896.002</doi>
           <openalex>W4382358677</openalex>
+          <tags>Confidence; Global warming; Climate model</tags>
         </chapter>
       </front_matter>
       <books>
@@ -296,6 +323,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter01.pdf</pdf>
               <doi>10.1017/9781009157896.003</doi>
               <openalex>W4382358721</openalex>
+              <tags>Climate model; Climate system; Climate information</tags>
             </chapter>
             <chapter id="2">
               <title>Changing State of the Climate System</title>
@@ -304,6 +332,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter02.pdf</pdf>
               <doi>10.1017/9781009157896.004</doi>
               <openalex>W4382358980</openalex>
+              <tags>Ocean; Sea ice; Climate variability</tags>
             </chapter>
             <chapter id="3">
               <title>Human Influence on the Climate System</title>
@@ -312,6 +341,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter03.pdf</pdf>
               <doi>10.1017/9781009157896.005</doi>
               <openalex>W3196490087</openalex>
+              <tags>Models; Climate model; Climate variability</tags>
             </chapter>
             <chapter id="4">
               <title>Future Global Climate: Scenario-based Projections and Near-term Information</title>
@@ -320,6 +350,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter04.pdf</pdf>
               <doi>10.1017/9781009157896.006</doi>
               <openalex>W4382358676</openalex>
+              <tags>Climate model; Global warming; Climate variability</tags>
             </chapter>
             <chapter id="5">
               <title>Global Carbon and Other Biogeochemical Cycles and Feedbacks</title>
@@ -328,6 +359,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter05.pdf</pdf>
               <doi>10.1017/9781009157896.007</doi>
               <openalex>W3207732688</openalex>
+              <tags>Ocean; Land; Ocean carbon cycle</tags>
             </chapter>
             <chapter id="6">
               <title>Short-lived Climate Forcers</title>
@@ -336,6 +368,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter06.pdf</pdf>
               <doi>10.1017/9781009157896.008</doi>
               <openalex>W4382358634</openalex>
+              <tags>Ozone; Climate model; Aerosol</tags>
             </chapter>
             <chapter id="7">
               <title>The Earth’s Energy Budget, Climate Feedbacks and Climate Sensitivity</title>
@@ -344,6 +377,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter07.pdf</pdf>
               <doi>10.1017/9781009157896.009</doi>
               <openalex>W4382358731</openalex>
+              <tags>Climate feedback; Climate model; Climate response</tags>
             </chapter>
             <chapter id="8">
               <title>Water Cycle Changes</title>
@@ -352,6 +386,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter08.pdf</pdf>
               <doi>10.1017/9781009157896.010</doi>
               <openalex>W4382358556</openalex>
+              <tags>Climate variability; Climate model; Climate response</tags>
             </chapter>
             <chapter id="9">
               <title>Ocean, Cryosphere and Sea Level Change</title>
@@ -360,6 +395,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter09.pdf</pdf>
               <doi>10.1017/9781009157896.011</doi>
               <openalex>W4382358495</openalex>
+              <tags>Sea ice; Ocean; Ice sheet</tags>
             </chapter>
             <chapter id="10">
               <title>Linking Global to Regional Climate Change</title>
@@ -368,6 +404,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter10.pdf</pdf>
               <doi>10.1017/9781009157896.012</doi>
               <openalex>W3198347438</openalex>
+              <tags>Climate model; Regional climate model; Climate variability</tags>
             </chapter>
             <chapter id="11">
               <title>Weather and Climate Extreme Events in a Changing Climate</title>
@@ -376,6 +413,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter11.pdf</pdf>
               <doi>10.1017/9781009157896.013</doi>
               <openalex>W3215426448</openalex>
+              <tags>Climate extreme; Global warming; Climate model</tags>
             </chapter>
             <chapter id="12">
               <title>Climate Change Information for Regional Impact and for Risk Assessment</title>
@@ -384,6 +422,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter12.pdf</pdf>
               <doi>10.1017/9781009157896.014</doi>
               <openalex>W4382358998</openalex>
+              <tags>Confidence; Climate extreme; Climate services</tags>
             </chapter>
           </chapters>
         </book>
@@ -397,6 +436,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Atlas.pdf</pdf>
               <doi>10.1017/9781009157896.021</doi>
               <openalex>W4382358618</openalex>
+              <tags>Climate model; Regional climate model; Climate variability</tags>
             </chapter>
           </chapters>
         </book>
@@ -407,7 +447,7 @@
       <description>Climate Change 2022 – Impacts, Adaptation and Vulnerability</description>
       <doi>10.1017/9781009325844</doi>
       <license>CC-BY-NC-ND 4.0</license>
-      <tags>Climate change; Global warming; Climate</tags>
+      <tags>Life Sciences; Climate action</tags>
       <date>2023-06-22</date>
       <front_matter>
         <chapter id="1">
@@ -417,6 +457,7 @@
           <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf</pdf>
           <doi>10.1017/9781009325844.001</doi>
           <openalex>W4382363608</openalex>
+          <tags>Confidence; Adaptation; Impacts</tags>
         </chapter>
         <chapter id="2">
           <title>Technical Summary</title>
@@ -425,6 +466,7 @@
           <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_TechnicalSummary.pdf</pdf>
           <doi>10.1017/9781009325844.002</doi>
           <openalex>W4382363579</openalex>
+          <tags>Confidence; Adaptation; Risk</tags>
         </chapter>
       </front_matter>
       <books>
@@ -438,6 +480,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter01.pdf</pdf>
               <doi>10.1017/9781009325844.003</doi>
               <openalex>W4382362865</openalex>
+              <tags>Adaptation; Climate justice; Risk</tags>
             </chapter>
             <chapter id="2">
               <title>Terrestrial and Freshwater Ecosystems and Their Services</title>
@@ -446,6 +489,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter02.pdf</pdf>
               <doi>10.1017/9781009325844.004</doi>
               <openalex>W4382363505</openalex>
+              <tags>Climate extreme; Climate model; Climate system</tags>
             </chapter>
             <chapter id="3">
               <title>Oceans and Coastal Ecosystems and Their Services</title>
@@ -454,6 +498,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter03.pdf</pdf>
               <doi>10.1017/9781009325844.005</doi>
               <openalex>W4382363666</openalex>
+              <tags>Ocean; Confidence; Ocean acidification</tags>
             </chapter>
             <chapter id="4">
               <title>Water</title>
@@ -462,6 +507,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter04.pdf</pdf>
               <doi>10.1017/9781009325844.006</doi>
               <openalex>W4382363526</openalex>
+              <tags>Adaptation; Confidence; Water security</tags>
             </chapter>
             <chapter id="5">
               <title>Food, Fibre and Other Ecosystem Products</title>
@@ -470,6 +516,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter05.pdf</pdf>
               <doi>10.1017/9781009325844.007</doi>
               <openalex>W4382363604</openalex>
+              <tags>Adaptation; Impacts; Climate services</tags>
             </chapter>
             <chapter id="6">
               <title>Cities, Settlements and Key Infrastructure</title>
@@ -478,6 +525,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter06.pdf</pdf>
               <doi>10.1017/9781009325844.008</doi>
               <openalex>W4382363503</openalex>
+              <tags>Urban; Adaptation; Cities</tags>
             </chapter>
             <chapter id="7">
               <title>Health, Wellbeing and the Changing Structure of Communities</title>
@@ -486,6 +534,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter07.pdf</pdf>
               <doi>10.1017/9781009325844.009</doi>
               <openalex>W4382361937</openalex>
+              <tags>Health; Climate extreme; Mental health</tags>
             </chapter>
             <chapter id="8">
               <title>Poverty, Livelihoods and Sustainable Development</title>
@@ -494,6 +543,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter08.pdf</pdf>
               <doi>10.1017/9781009325844.010</doi>
               <openalex>W2991859140</openalex>
+              <tags>Adaptation; Vulnerability; Impacts</tags>
             </chapter>
             <chapter id="9">
               <title>Africa</title>
@@ -502,6 +552,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter09.pdf</pdf>
               <doi>10.1017/9781009325844.011</doi>
               <openalex>W4382361932</openalex>
+              <tags>Adaptation; Climate services; Climate variability</tags>
             </chapter>
             <chapter id="10">
               <title>Asia</title>
@@ -510,6 +561,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter10.pdf</pdf>
               <doi>10.1017/9781009325844.012</doi>
               <openalex>W4382362799</openalex>
+              <tags>Adaptation; Risk; Climate extreme</tags>
             </chapter>
             <chapter id="11">
               <title>Australasia</title>
@@ -518,6 +570,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter11.pdf</pdf>
               <doi>10.1017/9781009325844.013</doi>
               <openalex>W4382363397</openalex>
+              <tags>Adaptation; Climate extreme; Impacts</tags>
             </chapter>
             <chapter id="12">
               <title>Central and South America</title>
@@ -526,6 +579,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter12.pdf</pdf>
               <doi>10.1017/9781009325844.014</doi>
               <openalex>W3109144505</openalex>
+              <tags>Adaptation; Confidence; Climate extreme</tags>
             </chapter>
             <chapter id="13">
               <title>Europe</title>
@@ -534,6 +588,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter13.pdf</pdf>
               <doi>10.1017/9781009325844.015</doi>
               <openalex>W4382363568</openalex>
+              <tags>Adaptation; Confidence; Risk</tags>
             </chapter>
             <chapter id="14">
               <title>North America</title>
@@ -542,6 +597,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter14.pdf</pdf>
               <doi>10.1017/9781009325844.016</doi>
               <openalex>W4382363059</openalex>
+              <tags>Adaptation; Climate extreme; Confidence</tags>
             </chapter>
             <chapter id="15">
               <title>Small Islands</title>
@@ -550,6 +606,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter15.pdf</pdf>
               <doi>10.1017/9781009325844.017</doi>
               <openalex>W4382363037</openalex>
+              <tags>Adaptation; Climate services; Impacts</tags>
             </chapter>
             <chapter id="16">
               <title>Key Risks across Sectors and Regions</title>
@@ -558,6 +615,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter16.pdf</pdf>
               <doi>10.1017/9781009325844.025</doi>
               <openalex>W4382362903</openalex>
+              <tags>Adaptation; Risk; Global warming</tags>
             </chapter>
             <chapter id="17">
               <title>Decision-Making Options for Managing Risk</title>
@@ -566,6 +624,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter17.pdf</pdf>
               <doi>10.1017/9781009325844.026</doi>
               <openalex>W4382363544</openalex>
+              <tags>Adaptation; Risk; Climate finance</tags>
             </chapter>
             <chapter id="18">
               <title>Climate Resilient Development Pathways</title>
@@ -574,6 +633,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter18.pdf</pdf>
               <doi>10.1017/9781009325844.027</doi>
               <openalex>W4382361919</openalex>
+              <tags>Adaptation; Sustainable development; Climate system</tags>
             </chapter>
           </chapters>
         </book>
@@ -587,6 +647,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP1.pdf</pdf>
               <doi>10.1017/9781009325844.018</doi>
               <openalex>W4382363636</openalex>
+              <tags>Biodiversity; Biodiversity hotspots; Confidence</tags>
             </chapter>
             <chapter id="2">
               <title>Cities and Settlements by the Sea</title>
@@ -595,6 +656,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP2.pdf</pdf>
               <doi>10.1017/9781009325844.019</doi>
               <openalex>W4382361936</openalex>
+              <tags>Adaptation; Risk; Sea level change</tags>
             </chapter>
             <chapter id="3">
               <title>Deserts, Semiarid Areas and Desertification</title>
@@ -603,6 +665,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP3.pdf</pdf>
               <doi>10.1017/9781009325844.020</doi>
               <openalex>W4382363669</openalex>
+              <tags>Land; Land management; Desertification</tags>
             </chapter>
             <chapter id="4">
               <title>Mediterranean Region</title>
@@ -611,6 +674,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP4.pdf</pdf>
               <doi>10.1017/9781009325844.021</doi>
               <openalex>W4382363683</openalex>
+              <tags>Sea level change; Impacts; Adaptation</tags>
             </chapter>
             <chapter id="5">
               <title>Mountains</title>
@@ -619,6 +683,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP5.pdf</pdf>
               <doi>10.1017/9781009325844.022</doi>
               <openalex>W4382363207</openalex>
+              <tags>Adaptation; Impacts; Mountains</tags>
             </chapter>
             <chapter id="6">
               <title>Polar Regions</title>
@@ -627,6 +692,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP6.pdf</pdf>
               <doi>10.1017/9781009325844.023</doi>
               <openalex>W4382361926</openalex>
+              <tags>Confidence; Sea ice; Impacts</tags>
             </chapter>
             <chapter id="7">
               <title>Tropical Forests</title>
@@ -635,6 +701,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_CCP7.pdf</pdf>
               <doi>10.1017/9781009325844.024</doi>
               <openalex>W4382361947</openalex>
+              <tags>Forest; Land; Sustainable forest management</tags>
             </chapter>
           </chapters>
         </book>
@@ -645,7 +712,7 @@
       <description>Climate Change 2022 – Mitigation of Climate Change</description>
       <doi>10.1017/9781009157926</doi>
       <license>CC-BY-NC-ND 4.0</license>
-      <tags>Climate change; Global warming; Climate</tags>
+      <tags>Social Sciences; Climate action</tags>
       <date>2023-08-17</date>
       <front_matter>
         <chapter id="1">
@@ -655,6 +722,7 @@
           <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SummaryForPolicymakers.pdf</pdf>
           <doi>10.1017/9781009157926.001</doi>
           <openalex>W4385168292</openalex>
+          <tags>Confidence; Mitigation; Mitigation pathways</tags>
         </chapter>
         <chapter id="2">
           <title>Technical Summary</title>
@@ -663,6 +731,7 @@
           <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_TechnicalSummary.pdf</pdf>
           <doi>10.1017/9781009157926.002</doi>
           <openalex>W4385229598</openalex>
+          <tags>Mitigation; Confidence; Mitigation pathways</tags>
         </chapter>
       </front_matter>
       <books>
@@ -676,6 +745,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter01.pdf</pdf>
               <doi>10.1017/9781009157926.003</doi>
               <openalex>W4385159767</openalex>
+              <tags>Climate governance; Mitigation; Climate finance</tags>
             </chapter>
             <chapter id="2">
               <title>Emissions Trends and Drivers</title>
@@ -684,6 +754,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter02.pdf</pdf>
               <doi>10.1017/9781009157926.004</doi>
               <openalex>W4385228868</openalex>
+              <tags>Consumption-based emissions; Cumulative emissions; Anthropogenic emissions</tags>
             </chapter>
             <chapter id="3">
               <title>Mitigation Pathways Compatible with Long-term Goals</title>
@@ -692,6 +763,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter03.pdf</pdf>
               <doi>10.1017/9781009157926.005</doi>
               <openalex>W4385160319</openalex>
+              <tags>Mitigation; Mitigation pathways; Pathways</tags>
             </chapter>
             <chapter id="4">
               <title>Mitigation and Development Pathways in the Near to Mid-term</title>
@@ -700,6 +772,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter04.pdf</pdf>
               <doi>10.1017/9781009157926.006</doi>
               <openalex>W4385229201</openalex>
+              <tags>Mitigation; Mitigation pathways; Development pathways</tags>
             </chapter>
             <chapter id="5">
               <title>Demand, Services and Social Aspects of Mitigation</title>
@@ -708,6 +781,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter05.pdf</pdf>
               <doi>10.1017/9781009157926.007</doi>
               <openalex>W4315969330</openalex>
+              <tags>Energy services; Energy efficiency; Demand</tags>
             </chapter>
             <chapter id="6">
               <title>Energy Systems</title>
@@ -716,6 +790,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter06.pdf</pdf>
               <doi>10.1017/9781009157926.008</doi>
               <openalex>W4385162120</openalex>
+              <tags>Wind energy; Energy system; Solar energy</tags>
             </chapter>
             <chapter id="7">
               <title>Agriculture, Forestry and Other Land Uses (AFOLU)</title>
@@ -724,6 +799,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter07.pdf</pdf>
               <doi>10.1017/9781009157926.009</doi>
               <openalex>W4385159963</openalex>
+              <tags>Mitigation; Land; Mitigation potential</tags>
             </chapter>
             <chapter id="8">
               <title>Urban Systems and Other Settlements</title>
@@ -732,6 +808,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter08.pdf</pdf>
               <doi>10.1017/9781009157926.010</doi>
               <openalex>W4385168567</openalex>
+              <tags>Urban; Cities; Urban Systems</tags>
             </chapter>
             <chapter id="9">
               <title>Buildings</title>
@@ -740,6 +817,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter09.pdf</pdf>
               <doi>10.1017/9781009157926.011</doi>
               <openalex>W4385228992</openalex>
+              <tags>Energy efficiency; Renewable energy; Energy system</tags>
             </chapter>
             <chapter id="10">
               <title>Transport</title>
@@ -748,6 +826,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter10.pdf</pdf>
               <doi>10.1017/9781009157926.012</doi>
               <openalex>W4385159924</openalex>
+              <tags>Demand; Energy efficiency; Emissions scenario</tags>
             </chapter>
             <chapter id="11">
               <title>Industry</title>
@@ -756,6 +835,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter11.pdf</pdf>
               <doi>10.1017/9781009157926.013</doi>
               <openalex>W4385168299</openalex>
+              <tags>Energy efficiency; Direct emissions; Demand</tags>
             </chapter>
             <chapter id="12">
               <title>Cross-sectoral Perspectives</title>
@@ -764,6 +844,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter12.pdf</pdf>
               <doi>10.1017/9781009157926.014</doi>
               <openalex>W4385229562</openalex>
+              <tags>Mitigation; Land; Land use</tags>
             </chapter>
             <chapter id="13">
               <title>National and Sub-national Policies and Institutions</title>
@@ -772,6 +853,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter13.pdf</pdf>
               <doi>10.1017/9781009157926.015</doi>
               <openalex>W4385159746</openalex>
+              <tags>Climate governance; Mitigation; Policies</tags>
             </chapter>
             <chapter id="14">
               <title>International Cooperation</title>
@@ -780,6 +862,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter14.pdf</pdf>
               <doi>10.1017/9781009157926.016</doi>
               <openalex>W4385168399</openalex>
+              <tags>Agreement; Climate governance; Climate finance</tags>
             </chapter>
             <chapter id="15">
               <title>Investment and Finance</title>
@@ -788,6 +871,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter15.pdf</pdf>
               <doi>10.1017/9781009157926.017</doi>
               <openalex>W4385228317</openalex>
+              <tags>Climate finance; Risk; Climate system</tags>
             </chapter>
             <chapter id="16">
               <title>Innovation, Technology Development and Transfer</title>
@@ -796,6 +880,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter16.pdf</pdf>
               <doi>10.1017/9781009157926.018</doi>
               <openalex>W4385168330</openalex>
+              <tags>Systems of Innovation; Energy system; Renewable energy</tags>
             </chapter>
             <chapter id="17">
               <title>Accelerating the Transition in the Context of Sustainable Development</title>
@@ -804,6 +889,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter17.pdf</pdf>
               <doi>10.1017/9781009157926.019</doi>
               <openalex>W4385228336</openalex>
+              <tags>Sustainable development; Mitigation; Transition</tags>
             </chapter>
           </chapters>
         </book>
@@ -814,7 +900,7 @@
       <description>Synthesis Report. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change </description>
       <doi>10.59327/IPCC/AR6-9789291691647</doi>
       <license>No license specified</license>
-      <tags>Climate change; Global warming; Climate</tags>
+      <tags>Social Sciences; Climate action</tags>
       <date>2023-07-25</date>
       <front_matter>
         <chapter id="1">
@@ -824,6 +910,7 @@
           <pdf>https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf</pdf>
           <doi>10.59327/IPCC/AR6-9789291691647.001</doi>
           <openalex>W4385123314</openalex>
+          <tags>Confidence; Adaptation; Global warming</tags>
         </chapter>
       </front_matter>
       <books>
@@ -837,6 +924,7 @@
               <pdf>https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_LongerReport.pdf</pdf>
               <doi>10.59327/IPCC/AR6-9789291691647</doi>
               <openalex>W4385118605</openalex>
+              <tags>Confidence; Adaptation; Global warming</tags>
             </chapter>
           </chapters>
         </book>
