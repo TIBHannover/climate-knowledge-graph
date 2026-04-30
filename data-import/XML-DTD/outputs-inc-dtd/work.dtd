@@ -26,7 +26,7 @@
 <!ELEMENT chapters (chapter+)>
 
 <!-- Chapters stay flexible with optional IDs -->
-<!ELEMENT chapter (title, wiki?, source?, pdf?, doi?, openalex? tags?)>
+<!ELEMENT chapter (title, wiki?, source?, pdf?, doi?, openalex?, tags?)>
 <!ATTLIST chapter id CDATA #IMPLIED>
 
 <!ELEMENT wiki (#PCDATA)>
