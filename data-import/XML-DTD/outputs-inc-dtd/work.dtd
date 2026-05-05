@@ -6,7 +6,7 @@
 <!ATTLIST publication id ID #REQUIRED>
 
 <!-- At least one of DOI or ISBN is required for a Series -->
-<!ELEMENT series (title, description, ((doi, isbn?) | (isbn, doi?)), license, tags, date, front_matter?, books)>
+<!ELEMENT series (title, description, ((doi, isbn?) | (isbn, doi?)), license, tags, date, front_matter?, books, pdf?, openalex?)>
 <!ATTLIST series id CDATA #REQUIRED>
 
 <!ELEMENT title (#PCDATA)>
@@ -15,6 +15,8 @@
 <!ELEMENT license (#PCDATA)>
 <!ELEMENT tags (#PCDATA)>
 <!ELEMENT date (#PCDATA)>
+<!ELEMENT pdf (#PCDATA)>
+<!ELEMENT openalex (#PCDATA)>
 
 <!ELEMENT front_matter (chapter+)>
 <!ELEMENT books (book+)>
