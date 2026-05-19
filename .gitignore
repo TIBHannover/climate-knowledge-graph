@@ -2,3 +2,6 @@
 /docs/
 
 **/*.quarto_ipynb
+
+# Large MediaWiki export - tracked locally only
+mediawiki-text/KEWL-20260322093018.xml
