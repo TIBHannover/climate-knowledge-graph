@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "conformsTo": "https://www.w3.org/TR/pub-manifest/",
+  "type": "Book",
+  "name": "SRCCL Report",
+  "author": "IPCC",
+  "inLanguage": "en",
+  "readingOrder": [
+    "content/srccl/spm/de_wordpress.html",
+    "content/srccl/ts/de_wordpress.html",
+    "content/srccl/Chapter01/de_wordpress.html",
+    "content/srccl/Chapter02/de_wordpress.html",
+    "content/srccl/Chapter03/de_wordpress.html",
+    "content/srccl/Chapter04/de_wordpress.html",
+    "content/srccl/Chapter05/de_wordpress.html",
+    "content/srccl/Chapter06/de_wordpress.html",
+    "content/srccl/Chapter07/de_wordpress.html"
+  ],
+  "resources": [
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css/basics.css"
+    },
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css/page.css"
+    },
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css/style.css"
+    }
+  ]
+}
