@@ -1,0 +1,113 @@
+/** Colors ************************************************ **/
+
+
+:root {
+  /** Primary TIB colors **/
+  --col-sec: #2a3c46;
+  --col-sec2: #36464f;
+  --col-sec3: #425159;
+  --col-sec4: #4c5a61;
+
+  --col-red: #af1314;
+
+  --col-teal: #005c5f;
+  --col-teal2: #0f6668;
+  --col-teal3: #1f6e72;
+  --col-lightteal: #bcebed;
+  
+  --col-white: #ffffff;
+
+  /** Box background colors **/
+  --col-grey: #849aa3;
+  --col-light: #f1f1f1;
+ }
+
+/** Font family ******************************************** **/
+html {
+  font-family: Arial, sans-serif;
+}
+
+/** Font sizes ******************************************** **/
+:root {
+  /* 1rem = 10px */
+  font-size: 62, 5%;
+}
+
+/* Paragraphs */
+p {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+/* Headers */
+
+h1 {
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+}
+
+h2 {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+h5 {
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+}
+
+h6 {
+  font-size: 0.7rem;
+  line-height: 0.8rem;
+}
+
+/* Chapter title */
+h1.text-50,
+h1.hero-title /*WP*/
+{
+  font-size: 5rem;
+  line-height: 5.2rem;
+  color: var(--col-white);
+}
+
+/* Figure captions, table captions */
+p.Figures--tables-etc_•-Figure-title---single-column {
+  font-size: 0.5rem;
+  line-height: 0.6rem;
+}
+
+/* Footnote text */
+._idFootnotes p {
+  font-size: 0.5rem;
+  line-height: 0.6rem;
+}
+
+/* Footnotes in text, superscript text */
+.•-Subscript--e-g--for-CO2-etc-,
+.•-Superscript--e-g--footnote-refs-in-text {
+  font-size: 0.4rem;
+  vertical-align: super;
+  line-height: normal;
+}
+
+/** Font color ******************************************** **/
+
+/* Header */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--col-teal);
+}

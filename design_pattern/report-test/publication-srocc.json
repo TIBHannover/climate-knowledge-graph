@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "conformsTo": "https://www.w3.org/TR/pub-manifest/",
+  "type": "Book",
+  "name": "SROCC Report",
+  "author": "IPCC",
+  "inLanguage": "en",
+  "readingOrder": [
+    "content/srocc/spm/de_wordpress.html",
+    "content/srocc/ts/de_wordpress.html",
+    "content/srocc/Chapter01/de_wordpress.html",
+    "content/srocc/Chapter02/de_wordpress.html",
+    "content/srocc/Chapter03/de_wordpress.html",
+    "content/srocc/Chapter04/de_wordpress.html",
+    "content/srocc/Chapter05/de_wordpress.html",
+    "content/srocc/Chapter06/de_wordpress.html",
+    "content/srocc/glossary/de_wordpress.html"
+  ],
+  "resources": [
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css/basics.css"
+    },
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css/page.css"
+    },
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css/style.css"
+    }
+  ]
+}
