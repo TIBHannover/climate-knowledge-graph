@@ -1,7 +1,5 @@
 /** Colors ************************************************ **/
-body {
-  background-color: green;
-}
+
 
 :root {
   --col-fm: #e65425;
@@ -33,7 +31,7 @@ body {
 
 /** Font family ******************************************** **/
 html {
-  font-family: Arial, sans-serif;
+  font-family: Georgia, Arial, sans-serif;
 }
 
 /** Font sizes ******************************************** **/
