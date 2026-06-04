@@ -2,9 +2,7 @@
 
 /* Targets all the pages */
 @page {
-  /*size: 8.5in 11in;*/
-    size: A5;
-
+  size: 8.5in 11in;
   margin-top: 50px;
   margin-bottom: 120px;
 }
