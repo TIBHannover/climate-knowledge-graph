@@ -1,5 +1,9 @@
 /** Colors ************************************************ **/
 
+body {
+  background-color: 1px solid red;
+}
+
 :root {
   /** Primary TIB colors **/
   --col-sec: #2a3c46;
@@ -23,7 +27,7 @@
 
 /** Font family ******************************************** **/
 html {
-  font-family: 'Switzer', sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 /** Font sizes ******************************************** **/

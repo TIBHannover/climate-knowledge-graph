@@ -1,4 +1,7 @@
 /** Colors ************************************************ **/
+body {
+  background-color: 1px solid green;
+}
 
 :root {
   --col-fm: #e65425;
@@ -30,7 +33,7 @@
 
 /** Font family ******************************************** **/
 html {
-  font-family: "Istok Web", sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 /** Font sizes ******************************************** **/
