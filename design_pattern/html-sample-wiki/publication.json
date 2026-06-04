@@ -10,25 +10,5 @@
   "inLanguage": "en",
   "readingOrder": [
     "content/chapter_9.html"
-  ],
-  "resources": [
-    {
-      "type": [
-        "LinkedResource"
-      ],
-      "url": "css/basics.css"
-    },
-    {
-      "type": [
-        "LinkedResource"
-      ],
-      "url": "css/page.css"
-    },
-    {
-      "type": [
-        "LinkedResource"
-      ],
-      "url": "css/style.css"
-    }
   ]
 }
