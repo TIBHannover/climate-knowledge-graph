@@ -64,7 +64,7 @@
 }
 
 /* Set value for page header */
-h1 {
+header h1 {
   string-set: Chapter content();
 }
 
