@@ -114,12 +114,12 @@ header h1 {
 }
 
 /* Start new page before faqs */
-.h1-container#frequently-asked-questions {
+#frequently-asked-questions {
   break-before: page;
 }
 
 /* Start new page before references */
-.h1-container#references {
+#references {
   break-before: page;
 }
 
