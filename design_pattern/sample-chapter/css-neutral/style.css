@@ -6,7 +6,7 @@ p {
   line-height: 1.3;
   orphans: 2;
   widows: 2;
-  text-align: justify;
+  background-color: pink;
 }
 
 /* Links */
@@ -16,9 +16,9 @@ a {
 }
 
 /* Text in two columns */
-p {
-  column-count: 2;
-}
+/*.h1-container {
+  olumn-count: 2;
+}*/
 
 /* Box elements ********************************************** **/
 
