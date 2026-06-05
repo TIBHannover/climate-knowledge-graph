@@ -1,4 +1,4 @@
-f/** Paged media ************************************************ **/
+/** Paged media ************************************************ **/
 
 /* Targets all the pages */
 @page {
@@ -150,9 +150,7 @@ header h1 {
   }
 }
 
-h1.text-50,
-header.section-head /*WP*/
-  {
+h1 {
   page: ChapterOpener;
 }
 
@@ -162,7 +160,7 @@ header.section-head /*WP*/
   background-color: var(--col-light);
 }
 
-.box-container
+div.box-container
   {
   page: BoxPage1;
 }
