@@ -104,9 +104,9 @@ header h1 {
 /** Break before each new section **/
 
 /* Start new page on each h1 */
-h1 {
+/*div.h1-container {
   break-before: page;
-}
+}*/
 
 /* Start new page on summary */
 #executive-summary {
