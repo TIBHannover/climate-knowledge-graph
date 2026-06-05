@@ -160,7 +160,7 @@ h1 {
   background-color: var(--col-light);
 }
 
-.box-container
+div.box-container
   {
   page: BoxPage1;
 }
