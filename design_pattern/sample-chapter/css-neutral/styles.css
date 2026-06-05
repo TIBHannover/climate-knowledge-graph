@@ -154,7 +154,7 @@ header h1 {
   background-color: var(--col-light);
 }
 
-div.box-container
+div.container-box
   {
   page: BoxPage1;
 }
