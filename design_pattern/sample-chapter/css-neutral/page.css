@@ -124,10 +124,10 @@ header h1 {
 }
 
 /* Keep tables and table headers together */
-.IPCC-Table {
+/*.IPCC-Table {
   page-break-before: avoid;
   page-break-inside: avoid;
-}
+}*/
 
 /** Named pages ************************************************ **/
 
