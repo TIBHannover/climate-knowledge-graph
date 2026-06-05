@@ -16,14 +16,8 @@ a {
 }
 
 /* Text in two columns */
-.h1-container {
-  /*column-count: 2;*/
-}
-
-/* Highlight statements */
-.•-Bold-condensed--dark-blue- {
-  font-weight: bold;
-  color: var(--col-sec);
+p {
+  column-count: 2;
 }
 
 /* Box elements ********************************************** **/
@@ -43,13 +37,6 @@ a {
 #frequently-asked-questions {
   background-color: var(--col-lightteal);
   column-span: all;
-}
-
-/* Lists ***************************************************** **/
-p.Bullet-and-numbered-lists_•-Bullet-list---first, 
-p.Bullet-and-numbered-lists_•-Bullet-list---last,
-p.Bullet-and-numbered-lists_•-Bullet-list---continued {
-  margin: 0px 0px 4px 0px;
 }
 
 /* Tables ***************************************************** **/
@@ -97,11 +84,6 @@ img {
 .Figures--tables-etc_•-Figure-title---single-column .•-Figure-table-number---title {
   column-span: all;
   margin-bottom: 10px;
-}
-
-/* Hide chapter with figures */
-#chapter-figures {
-  display: none;
 }
 
 /* References section ****************************************** **/
