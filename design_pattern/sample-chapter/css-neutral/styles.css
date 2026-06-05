@@ -105,7 +105,7 @@ header h1 {
 
 /* Start new page on summary */
 #introduction {
-  break-before: right;
+  break-before: page;
 }
 
 /* Start new page before faqs */
