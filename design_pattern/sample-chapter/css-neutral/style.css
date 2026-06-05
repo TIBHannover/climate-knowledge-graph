@@ -9,16 +9,6 @@ p {
   text-align: justify;
 }
 
-/* Italic text */
-.•-Condensed-italic {
-  font-style: italic;
-}
-
-/* Bold text */
-.•-Bold-condensed {
-  font-weight: bold;
-}
-
 /* Links */
 a {
   color: var(--col-teal2);
@@ -34,27 +24,6 @@ a {
 .•-Bold-condensed--dark-blue- {
   font-weight: bold;
   color: var(--col-sec);
-}
-
-/* Header layout ******************************************** **/
-
-/* Set up headers with numbers next to them */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  display: flex;
-}
-
-._idGenBNMarker-1 {
-  margin-right: 4px;
-  display: block;
-}
-
-.box-container h2 {
-  display: block;
 }
 
 /* Box elements ********************************************** **/
@@ -80,7 +49,7 @@ h6 {
 p.Bullet-and-numbered-lists_•-Bullet-list---first, 
 p.Bullet-and-numbered-lists_•-Bullet-list---last,
 p.Bullet-and-numbered-lists_•-Bullet-list---continued {
-  margin: 0px 0px 4px 0px;;
+  margin: 0px 0px 4px 0px;
 }
 
 /* Tables ***************************************************** **/
@@ -164,13 +133,4 @@ hr {
 .Headings_•-Chapter-should-be-cited-as {
   font-weight: bold;
 }
-
-/*#chapter-button-content {
-    float-reference: page;
-    float: bottom;
-}
-
-#executive-summary {
-  clear: both;
-}*/
 
