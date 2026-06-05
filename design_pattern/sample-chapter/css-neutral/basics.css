@@ -1,4 +1,5 @@
 /** Colors ************************************************ **/
+
 :root {
   /** Primary TIB colors **/
   --col-sec: #2a3c46;
@@ -70,7 +71,9 @@ h6 {
 }
 
 /* Chapter title */
-h1 {
+h1.text-50,
+h1.hero-title /*WP*/
+{
   font-size: 5rem;
   line-height: 5.2rem;
   color: var(--col-white);

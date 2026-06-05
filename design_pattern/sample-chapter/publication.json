@@ -5,10 +5,10 @@
   ],
   "conformsTo": "https://www.w3.org/TR/pub-manifest/",
   "type": "Book",
-  "name": "Test Report",
+  "name": "Test Chapter",
   "author": "Test",
   "inLanguage": "en",
   "readingOrder": [
-    "content/chapter_9.html"
+    "content/html_with_ids.html"
   ]
 }
