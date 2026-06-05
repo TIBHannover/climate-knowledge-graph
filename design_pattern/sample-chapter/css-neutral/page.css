@@ -150,9 +150,7 @@ header h1 {
   }
 }
 
-h1.text-50,
-header.section-head /*WP*/
-  {
+h1 {
   page: ChapterOpener;
 }
 
