@@ -40,8 +40,8 @@ p {
 /* Headers */
 
 h1 {
-  font-size: 1.2rem;
-  line-height: 1.3rem;
+  font-size: 5rem;
+  line-height: 5.2rem;
 }
 
 h2 {
@@ -67,14 +67,6 @@ h5 {
 h6 {
   font-size: 0.7rem;
   line-height: 0.8rem;
-}
-
-/* Chapter title */
-h1
-{
-  font-size: 5rem;
-  line-height: 5.2rem;
-  color: var(--col-white);
 }
 
 /* Figure captions, table captions */
