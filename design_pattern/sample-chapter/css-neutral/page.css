@@ -79,14 +79,14 @@ header h1 {
 }
 
 /* Targets the first page */
-@page :first {
+/*@page :first {
   @top-right {
     content: none;
   }
   @bottom-right {
     content: none;
   }
-}
+}*/
 
 /* Targets the last page */
 @page :last {
