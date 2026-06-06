@@ -261,12 +261,10 @@ p.Figures--tables-etc_•-Figure-title---single-column {
   line-height: 0.6rem;
 }
 
-/* Footnotes in text, superscript text */
-.•-Subscript--e-g--for-CO2-etc-,
-.•-Superscript--e-g--footnote-refs-in-text {
-  font-size: 0.4rem;
-  vertical-align: super;
-  line-height: normal;
+/* Tables */
+table {  
+  font-size: 0.3rem;
+  border: 1px solid var(--col-grey);
 }
 
 /** Font color ******************************************** **/
