@@ -280,3 +280,7 @@ h5,
 h6 {
   color: var(--col-teal);
 }
+
+a, a:link, a:visited, a:hover, a:active {
+  color: var(--col-teal);
+}
