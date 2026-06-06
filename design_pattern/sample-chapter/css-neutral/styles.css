@@ -283,6 +283,5 @@ h6 {
 
 a, a:link, a:visited, a:hover, a:active {
   color: var(--col-teal);
-  font-weight: bold;
   text-decoration: none;
 }
