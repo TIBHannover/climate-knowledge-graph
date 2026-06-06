@@ -263,7 +263,8 @@ p.Figures--tables-etc_•-Figure-title---single-column {
 
 /* Tables */
 table, th, td {  
-  font-size: 0.3rem;
+  font-size: 0.5rem !important;
+  line-height: 0.6rem !important;
   border: 1px solid var(--col-grey);
   border-collapse: collapse;
 }
