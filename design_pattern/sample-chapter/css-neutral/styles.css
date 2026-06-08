@@ -104,17 +104,17 @@ header h1 {
 /** Break before each new section **/
 
 /* Start new page on summary */
-#introduction {
+#Executive_Summary {
   break-before: page;
 }
 
 /* Start new page before faqs */
-#frequently-asked-questions {
+h2#FAQs_Frequently_Asked_Questions {
   break-before: page;
 }
 
 /* Start new page before references */
-#references {
+h2#Footnotes {
   break-before: page;
 }
 
@@ -154,18 +154,16 @@ h1 {
   background-color: var(--col-light);
 }
 
-div.container-box
+div.col-regular
   {
   page: BoxPage1;
 }
-
-/* Page with FAQ box on it */
 
 @page BoxPage2 {
   background-color: var(--col-lightteal);
 }
 
-#frequently-asked-questions
+div.col-cross
   {
   page: BoxPage2;
 }
@@ -214,6 +212,11 @@ p {
   line-height: 1rem;
 }
 
+li, ol p, ol {
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+}
+
 /* Headers */
 
 /* Chapter title */
@@ -249,16 +252,9 @@ h6 {
 }
 
 /* Figure captions, table captions */
-p.Figures--tables-etc_•-Figure-title---single-column {
+.notapplicable {
   font-size: 0.5rem;
   line-height: 0.6rem;
-}
-
-/* Footnote text */
-[id^="fn"] {
-  font-size: 0.5rem;
-  line-height: 0.6rem;
-  color: grey;
 }
 
 /* Tables */
@@ -267,6 +263,11 @@ table, th, td {
   line-height: 0.6rem !important;
   border: 1px solid var(--col-grey);
   border-collapse: collapse;
+}
+
+td p  {  
+  font-size: 0.5rem !important;
+  line-height: 0.6rem !important;
 }
 
  th, td {
@@ -291,4 +292,8 @@ h1 {
 a, a:link, a:visited, a:hover, a:active {
   color: var(--col-teal);
   text-decoration: none;
+}
+
+hr {
+border: 1px solid var(--col-lightteal);
 }

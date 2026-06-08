@@ -11,9 +11,12 @@
   "readingOrder": [
     "content/sr15-ch1.html"
   ],
-  "resources": [
-  {
-      "url": "css/styles.css"
+  "resources":  [
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css-neutral/styles.css"
     }
   ]
 }
