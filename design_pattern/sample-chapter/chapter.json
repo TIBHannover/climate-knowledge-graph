@@ -10,5 +10,10 @@
   "inLanguage": "en",
   "readingOrder": [
     "content/sr15-ch1.html"
+  ],
+  "resources": [
+  {
+      "url": "css/styles.css"
+    }
   ]
 }
