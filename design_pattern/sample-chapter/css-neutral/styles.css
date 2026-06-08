@@ -255,9 +255,10 @@ p.Figures--tables-etc_•-Figure-title---single-column {
 }
 
 /* Footnote text */
-._idFootnotes p {
+[id^="fn"] {
   font-size: 0.5rem;
   line-height: 0.6rem;
+  color: grey;
 }
 
 /* Tables */
