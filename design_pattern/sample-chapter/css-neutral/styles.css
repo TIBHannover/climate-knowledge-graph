@@ -129,7 +129,7 @@ h2#Footnotes {
 /* Chapter opener */
 
 @page ChapterOpener {
-  background-color: var(--col-sec);
+  background-color: var(--col-white);
 
   @bottom-right {
     content: none;
@@ -277,16 +277,13 @@ td p  {
 /** Font color ******************************************** **/
 
 /* Header */
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   color: var(--col-teal);
-}
-
-h1 {
-  color: var(--col-white);
 }
 
 a, a:link, a:visited, a:hover, a:active {
