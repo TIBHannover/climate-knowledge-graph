@@ -290,7 +290,3 @@ a, a:link, a:visited, a:hover, a:active {
   color: var(--col-teal);
   text-decoration: none;
 }
-
-hr {
-border: 1px solid var(--col-lightteal);
-}
