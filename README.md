@@ -6,14 +6,13 @@ To start with ClimateKG has imported the 10,000 page corpus [IPCC Sixth Assessme
 
 ## Foundational datasets
 
-AR6 was broken down into six foundational datasets and imported into ClimateKG:
+AR6 was broken down into five foundational datasets and imported into ClimateKG:
 
-1. Corpus full text -- 7,524,958 words, 2,153 image files
-2. Corpus structure -- 88 chapters
-3. Bibliographic information -- 95 DOIs
-4. Glossary -- 1,274 terms
-5. Acronyms -- 1,910
-6. Authors -- 932
+1. Corpus full text & structure -- 7,524,958 words; 2,153 image files; 88 chapters
+2. Bibliographic information -- 95 DOIs
+3. Glossary -- 1,274 terms
+4. Acronyms -- 1,910
+5. Authors -- 932
 
 The knowledge graph breaks text corpora into datasets and connects the data. For example, a question such as:
 
@@ -26,7 +25,7 @@ The knowledge graph knows the answer and can retrieve the relevant chapter texts
 ClimateKG connects these datasets using an **entity-relationship model**, forming the **knowledge graph**:
 
 ```
-WORK  <---- Corpus structure
+WORK  <---- Corpus full text & structure
  +-- REPORT_SERIES
       +-- REPORT  <---- Bibliographic information
            |      <---- Glossary
