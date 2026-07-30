@@ -48,7 +48,7 @@ WORK  <---- Corpus full text & structure
 - **Citizen science:** ClimateKG collaborates with Youth Data Champions interns from the #SemanticClimate organisation on a global scale.
 - **Data science community:** Contributors can enrich the corpus while maintaining the integrity of the original documents.
 
-## Dcoumentation and Roadmap 
+## Documentation and Roadmap 
 
 [Documentation and Development Log](https://tibhannover.github.io/climate-knowledge-graph/) 
 
