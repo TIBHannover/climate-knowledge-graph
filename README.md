@@ -48,28 +48,29 @@ WORK  <---- Corpus full text & structure
 - **Citizen science:** ClimateKG collaborates with Youth Data Champions interns from the #SemanticClimate organisation on a global scale.
 - **Data science community:** Contributors can enrich the corpus while maintaining the integrity of the original documents.
 
-## Roadmap
+## Dcoumentation and Roadmap 
+
+[Documentation and Development Log](https://tibhannover.github.io/climate-knowledge-graph/) 
 
 See: [Roadmap](https://tibhannover.github.io/climate-knowledge-graph/roadmap.html)
+
+## Funding and support
+
+ClimateKG has been funded by TIB Innovation fund.
+
+ClimateKG is an R&D project hosted at [TIB](https://www.tib.eu/en) -- Leibniz Information Centre for Science and Technology and University Library -- Germany, in partnership with [#semanticClimate](https://semanticclimate.github.io/p/en/) and the National Institute of Plant Genome Research [(NIPGR)](https://nipgr.ac.in/nipgrv2/index.html) -- India.
 
 ## Background
 
 ClimateKG comes out of the #semanticClimate (#sC) open research group founded by Dr. Gitanjali Yadav of [NIPGR](https://nipgr.ac.in/home/home.php), Delhi, Dr Peter Murray-Rust of Cambridge University, and Simon Worthington (TIB). #semanticClimate supports an India-wide internship programme, hackathon series, and youth outreach programme.
 
 - Web: [https://semanticclimate.github.io/](https://semanticclimate.github.io/)
-- Worthington, Simon, et al. 2024. 'The #SemanticClimate Community: Making Open-Source Software for Knowledge Liberation'. *Annals of Library and Information Studies* 71 (4): 480-95. [https://doi.org/10.56042/alis.v71i4.14285](https://doi.org/10.56042/alis.v71i4.14285)
 
 TIB is one of the largest science libraries in the world and a global hub for knowledge graph R&D, especially the [Open Research Knowledge Graph](https://orkg.org/) (ORKG). ClimateKG partners with Lab Knowledge Infrastructures led by Dr Markus Stocker, and draws on expertise from NFDI4Culture projects: [Wikibase4Research](https://nfdi4culture.de/services/details/wikibase4research.html), [Computational Publishing Service](https://nfdi4culture.de/de/dienste/details/computational-publishing-service.html), and [Antelope](https://service.tib.eu/annotation/) (terminology service).
 
+## Team
+
 **TIB Team:** Project lead, Simon Worthington -- [simon.worthington@tib.eu](mailto:simon.worthington@tib.eu) | Mastodon: [@mrchristian](https://openbiblio.social/@mrchristian) | Laura Oldenbourg -- data modeling and publishing specialist. With support from Markus Stocker, lead of Lab Knowledge Infrastructures.
-
---
-
-ClimateKG has been funded by TIB Innovation fund.
-
-ClimateKG is an R&D project hosted at [TIB](https://www.tib.eu/en) -- Leibniz Information Centre for Science and Technology and University Library -- Germany, in partnership with [#semanticClimate](https://semanticclimate.github.io/p/en/) and the National Institute of Plant Genome Research [(NIPGR)](https://nipgr.ac.in/nipgrv2/index.html) -- India.
-
-[Documentation and Development Log](https://tibhannover.github.io/climate-knowledge-graph/) | [Git repository](https://github.com/TIBHannover/climate-knowledge-graph) | #ClimateKG
 
 Thank you for support and contributions to TIB colleagues and #semanticClimate members, volunteers, interns, and hackathon participants.
 
