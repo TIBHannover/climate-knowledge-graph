@@ -5,10 +5,18 @@
   ],
   "conformsTo": "https://www.w3.org/TR/pub-manifest/",
   "type": "Book",
-  "name": "Test Report",
+  "name": "Test Chapter",
   "author": "Test",
   "inLanguage": "en",
   "readingOrder": [
-    "content/chapter_9.html"
+    "content/sr15-ch1.html"
+  ],
+  "resources":  [
+    {
+      "type": [
+        "LinkedResource"
+      ],
+      "url": "css-neutral/styles.css"
+    }
   ]
 }
