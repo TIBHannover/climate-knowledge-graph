@@ -2,9 +2,11 @@
 
 ClimateKG is a climate science literature resource intended for use by the public, policymakers, and scientists. Knowledge graph software is used to help navigate complex corpora, answer questions, and access documents.
 
+To start with ClimateKG has imported the 10,000 page corpus [IPCC Sixth Assessment Report (AR6)](https://www.ipcc.ch/assessment-report/ar6/).
+
 ## Foundational datasets
 
-The [IPCC Sixth Assessment Report (AR6)](https://www.ipcc.ch/assessment-report/ar6/) was broken down into six foundational datasets and imported into ClimateKG:
+The IPCC Sixth Assessment Report (AR6) was broken down into six foundational datasets and imported into ClimateKG:
 
 1. Corpus full text -- 7,524,958 words, 2,153 image files
 2. Corpus structure -- 88 chapters
