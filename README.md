@@ -6,7 +6,7 @@ To start with ClimateKG has imported the 10,000 page corpus [IPCC Sixth Assessme
 
 ## Foundational datasets
 
-The IPCC Sixth Assessment Report (AR6) was broken down into six foundational datasets and imported into ClimateKG:
+AR6 was broken down into six foundational datasets and imported into ClimateKG:
 
 1. Corpus full text -- 7,524,958 words, 2,153 image files
 2. Corpus structure -- 88 chapters
