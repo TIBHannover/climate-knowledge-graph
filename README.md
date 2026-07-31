@@ -75,7 +75,7 @@ The knowledge graph knows the answer and can retrieve the relevant chapter texts
 - **Citizen science:** ClimateKG collaborates with Youth Data Champions interns from the #SemanticClimate organisation on a global scale.
 - **Data science community:** Contributors can enrich the corpus while maintaining the integrity of the original documents.
 
-## The project 
+## The ClimateKG project
 
 Inspired by Tim Berners-Lee's vision of the Semantic Web, ClimateKG is a software R&D project that uses **FAIR Principles** and **Open Science infrastructures** to liberate literature on climate change science.
 
