@@ -1,0 +1,27 @@
+flowchart LR
+    IPCC([IPCC Report]) --> Build
+
+    subgraph Build[" Build "]
+        Website[Website]
+        Datasets[Datasets]
+        ER[ER Model]
+    end
+
+    Build --> KG[(Knowledge\nGraph)]
+
+    KG --> Services
+
+    subgraph Services[" Services "]
+        QA[Q & A]
+        Lib[Library Metadata]
+        Docs[Document Distribution]
+        Bench[Data Bench]
+    end
+
+    Services --> Users
+
+    subgraph Users[" Users "]
+        Public[Public]
+        Scientists[Scientists]
+        Policy[Policy Makers]
+    end

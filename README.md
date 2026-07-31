@@ -16,6 +16,36 @@ On AR6:
 
 ## How the knowledge graph is made
 
+```mermaid
+flowchart LR
+    IPCC([IPCC Report]) --> Build
+
+    subgraph Build[" Build "]
+        Website[Website]
+        Datasets[Datasets]
+        ER[ER Model]
+    end
+
+    Build --> KG[(Knowledge\nGraph)]
+
+    KG --> Services
+
+    subgraph Services[" Services "]
+        QA[Q & A]
+        Lib[Library Metadata]
+        Docs[Document Distribution]
+        Bench[Data Bench]
+    end
+
+    Services --> Users
+
+    subgraph Users[" Users "]
+        Public[Public]
+        Scientists[Scientists]
+        Policy[Policy Makers]
+    end
+```
+
 The objective is to add a data surface to what is already in the documents and make that knowledge usable.
 
 The AR6 reports on the web are changed into basic **foundational datasets** to show its main parts. Then, connections are made between the parts using an **entity-relationship model**. The data is now a **knowledge graph** and the connected data can be searched.
