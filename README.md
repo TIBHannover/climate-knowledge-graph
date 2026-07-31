@@ -52,13 +52,23 @@ WORK  <- Corpus structure
 
 ## Using the knowledge graph
 
-The connections that the knowledge graph creates all for questioning the corpus. As an example question:
+ClimateKG is a community knowledge graph that supports contributions from the scientic community and engagement from the wider public.
+
+### Searching the knowledge graph
+
+The connections that the knowledge graph creates allow for querying the data. As an example question:
 
 > 'How many South American or Indian authors contributed to the report?'
 
 The knowledge graph knows the answer and can retrieve the relevant chapter texts:
 
 > 'AR6 author distribution is 71 from South America and 43 from India.'
+
+<img src="images/samerica.png" alt="South America" width="200">
+
+<img src="images/india.png" alt="India" width="200">
+
+### What is planned for release
 
 - **Document distribution:** The data provides a map of the internal structure of the corpus documents, enabling any section or piece of data to be retrieved and delivered to the user.
 - **Extended metadata:** Questions can be answered quickly and reliably. Metadata is distributed to library systems and the Data Commons on Wikidata.
