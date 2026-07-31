@@ -18,7 +18,9 @@ Inspired by Tim Berners-Lee's vision of the Semantic Web, ClimateKG is a softwar
 
 ## How the knowledge graph is made
 
-The process is to add a data suface to what is already in the documents. The reports on the web are transformed into **foundational datasets** to represent its base components and then connections are made between the parts using an **entity-relationship model**. The data is now a **knowledge graph** and the connected data can be queried.
+The objective is to add a data surface to what is already in the documents and make that knowledge usable.
+
+The AR6 reports on the web are changed into basic **foundational datasets** to show its main parts. Then, connections are made between the parts using an **entity-relationship model**. The data is now a **knowledge graph** and the connected data can be searched.
 
 ### Foundational datasets
 
