@@ -8,15 +8,15 @@ On AR6:
 
 > It is a survival guide for humanity. As it shows, the 1.5-degree limit is achievable. <br/> - [UN Secretary-General António Guterres](https://media.un.org/avlibrary/en/asset/d302/d3022200#:~:text=In%20a%20video%20message%20to,1.5%2Ddegree%20limit%20is%20achievable) (2023)
 
-ClimateKG sites:
+## ClimateKG links
 
 - **[ClimateKG:](https://prod-climatekg.semanticclimate.org/)** Browse the text and data
 - **[ClimateKG Data Bench:](https://tibhannover.github.io/ClimateKG-Data-Bench/)** Data analysis and community contributions
 - **[Docs:](https://tibhannover.github.io/climate-knowledge-graph/)** Documentation and development log 
 
-Inspired by Tim Berners-Lee's vision of the Semantic Web, ClimateKG is a software R&D project that uses **FAIR Principles** and **Open Science infrastructures** to liberate literature on climate change science.
-
 ## How the knowledge graph is made
+
+Inspired by Tim Berners-Lee's vision of the Semantic Web, ClimateKG is a software R&D project that uses **FAIR Principles** and **Open Science infrastructures** to liberate literature on climate change science.
 
 The objective is to add a data surface to what is already in the documents and make that knowledge usable.
 
