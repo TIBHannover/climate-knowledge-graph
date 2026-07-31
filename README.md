@@ -83,7 +83,7 @@ TIB is one of the largest science libraries in the world and a global hub for kn
 
 ### Team
 
-**TIB Team:**
+**TIB Team**
 
 Project lead, Simon Worthington — #bookliberationist and publishing technologist [simon.worthington@tib.eu](mailto:simon.worthington@tib.eu) | Mastodon: [@mrchristian](https://openbiblio.social/@mrchristian) 
 
@@ -92,6 +92,10 @@ Laura Oldenbourg — data modeling and publishing specialist.
 With support from Markus Stocker, lead of Lab Knowledge Infrastructures.
 
 Thank you for support and contributions to TIB colleagues and #semanticClimate members, volunteers, interns, and hackathon participants.
+
+**semanticClimate Team** 
+
+**Independent** 
 
 ## Copyright and licences
 
@@ -163,15 +167,15 @@ Published by the IPCC.
 License: All rights reserved. The right of publication in print, electronic and any other form and in any language is reserved by the IPCC. Short extracts from this publication may be reproduced without authorization provided that the complete source is clearly indicated. Requests to publish, reproduce or translate should be addressed to: IPCC c/o WMO, 7bis avenue de la Paix, P.O. Box 2300, CH-1211 Geneva 2, Switzerland. E-mail: IPCC-Sec@wmo.int
 DOI: [10.59327/IPCC/AR6-9789291691647](https://doi.org/10.59327/IPCC/AR6-9789291691647) | [Report](https://www.ipcc.ch/report/sixth-assessment-report-cycle/)
 
-## ClimateKG Data
+### ClimateKG Data
 
 ClimateKG data is licensed under [Creative Commons Zero v1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/) -- dedicated to the public domain.
 
-## ClimateKG Code
+### ClimateKG Code
 
 Code in this repository is licensed under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.html). See [LICENSE](LICENSE).
 
-## ClimateKG design and fonts
+### ClimateKG design and fonts
 
 Fonts are licensed under the [SIL Open Font License (OFL)](https://openfontlicense.org/).
 
@@ -181,5 +185,7 @@ Other design resources under respective open licences.
 
 ---
 
-<a href="https://www.tib.eu/en"><img src="images/tib-logo.png" alt="TIB – Leibniz Information Centre for Science and Technology" width="150"></a>&nbsp;&nbsp;&nbsp;<a href="https://semanticclimate.github.io/p/en/"><img src="images/semanticclimate-logo.jpg" alt="#semanticClimate" width="150"></a>
+<a href="https://www.tib.eu/en"><img src="images/tib-logo.png" alt="TIB – Leibniz Information Centre for Science and Technology" width="200"></a>
+
+<a href="https://semanticclimate.github.io/p/en/"><img src="images/semanticclimate-logo.jpg" alt="#semanticClimate" width="200"></a>
 
