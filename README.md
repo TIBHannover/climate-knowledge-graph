@@ -1,20 +1,47 @@
 # Climate Knowledge Graph (ClimateKG)
 
-ClimateKG is a climate science literature resource intended for use by the public, policymakers, and scientists. Knowledge graph software is used to help navigate complex corpora, answer questions, and access documents.
+ClimateKG is a literature resource for climate change science. It is intended for use by the public, policymakers, and scientists. It uses Knowledge graph technology to help users navigate these complex corpora — to answer questions and access documents.
 
 To start with ClimateKG has imported the 10,000 page corpus [IPCC Sixth Assessment Report (AR6)](https://www.ipcc.ch/assessment-report/ar6/).
 
+> It is a survival guide for humanity. As it shows, the 1.5-degree limit is achievable. <br/> - [UN Secretary-General António Guterres](https://media.un.org/avlibrary/en/asset/d302/d3022200#:~:text=In%20a%20video%20message%20to,1.5%2Ddegree%20limit%20is%20achievable) (2023)
+
+- **ClimateKG:** Browse the text and data
+- **ClimateKG Data Bench:** Data analysis and community contributions
+
 ## Foundational datasets
 
-AR6 was broken down into five foundational datasets and imported into ClimateKG:
+AR6 has been broken down into five foundational datasets:
 
-1. Corpus full text & structure -- 7,524,958 words; 2,153 image files; 88 chapters
-2. Bibliographic information -- 95 DOIs
-3. Glossary -- 1,274 terms
-4. Acronyms -- 1,910
-5. Authors -- 932
+| Dataset | Data |
+|---|---|
+| 1. Corpus full text & structure | 7,524,958 words; 2,153 image files; 88 chapters |
+| 2. Bibliographic information | 95 DOIs |
+| 3. Glossary | 1,274 terms |
+| 4. Acronyms | 1,910 |
+| 5. Authors | 932 |
 
-The knowledge graph breaks text corpora into datasets and connects the data. For example, a question such as:
+## Entity-relationship model
+
+ClimateKG connects these datasets using an **entity-relationship model**, forming the **knowledge graph**:
+
+```
+WORK  <- Corpus structure
++- REPORT_SERIES
+   +- REPORT
+   |  <- Bibliographic info
+   |  <- Glossary
+   |  <- Acronyms
+   +- TEXT_DIVISION
+      +- CHAPTER
+         <- Authors
+         <- Bibliographic info
+         <- Corpus full text
+```
+
+## Activities: ClimateKG in action
+
+The connections that the knowledge graph creates all for questioning the corpus. As an example question:
 
 > 'How many South American or Indian authors contributed to the report?'
 
@@ -22,33 +49,14 @@ The knowledge graph knows the answer and can retrieve the relevant chapter texts
 
 > 'AR6 author distribution is 71 from South America and 43 from India.'
 
-ClimateKG connects these datasets using an **entity-relationship model**, forming the **knowledge graph**:
-
-```
-WORK  <---- Corpus full text & structure
- +-- REPORT_SERIES
-      +-- REPORT  <---- Bibliographic information
-           |      <---- Glossary
-           |      <---- Acronyms
-           +-- TEXT_DIVISION
-                +-- CHAPTER  <---- Authors
-                             <---- Bibliographic information
-                             <---- Corpus full text
-```
-
-## Platform
-
-- **ClimateKG:** Browse the full text and data, including full text, foundational datasets, and community data.
-- **ClimateKG Data Bench:** Data analysis and visualisation -- a platform that enables the community to enrich the corpus, analyse the contents, share results, and use AI LLMs and modern data science tools.
-
-## Activities
-
 - **Document distribution:** The data provides a map of the internal structure of the corpus documents, enabling any section or piece of data to be retrieved and delivered to the user.
 - **Extended metadata:** Questions can be answered quickly and reliably. Metadata is distributed to library systems and the Data Commons on Wikidata.
 - **Citizen science:** ClimateKG collaborates with Youth Data Champions interns from the #SemanticClimate organisation on a global scale.
 - **Data science community:** Contributors can enrich the corpus while maintaining the integrity of the original documents.
 
 ## Documentation and Roadmap 
+
+Climate KG is a software R&D project in beta using FAIR Priciples for publishing and Open Science infrastructures for climate change science.
 
 [Documentation and Development Log](https://tibhannover.github.io/climate-knowledge-graph/) 
 
@@ -70,7 +78,13 @@ TIB is one of the largest science libraries in the world and a global hub for kn
 
 ## Team
 
-**TIB Team:** Project lead, Simon Worthington -- [simon.worthington@tib.eu](mailto:simon.worthington@tib.eu) | Mastodon: [@mrchristian](https://openbiblio.social/@mrchristian) | Laura Oldenbourg -- data modeling and publishing specialist. With support from Markus Stocker, lead of Lab Knowledge Infrastructures.
+**TIB Team:** 
+
+Project lead, Simon Worthington -- publishing technologist [simon.worthington@tib.eu](mailto:simon.worthington@tib.eu) | Mastodon: [@mrchristian](https://openbiblio.social/@mrchristian) | 
+
+Laura Oldenbourg -- data modeling and publishing specialist. 
+
+With support from Markus Stocker, lead of Lab Knowledge Infrastructures.
 
 Thank you for support and contributions to TIB colleagues and #semanticClimate members, volunteers, interns, and hackathon participants.
 
@@ -148,7 +162,7 @@ DOI: [10.59327/IPCC/AR6-9789291691647](https://doi.org/10.59327/IPCC/AR6-9789291
 
 ClimateKG data is licensed under [Creative Commons Zero v1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/) -- dedicated to the public domain.
 
-## ClimateKG Data
+## ClimateKG Code
 
 Code in this repository is licensed under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.html). See [LICENSE](LICENSE).
 
@@ -158,7 +172,9 @@ Fonts are licensed under the [SIL Open Font License (OFL)](https://openfontlicen
 
 Design assets are licensed under [Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
+Other design resources under respective open licences.
+
 ---
 
-[![TIB – Leibniz Information Centre for Science and Technology](images/tib-logo.png)](https://www.tib.eu/en)&nbsp;&nbsp;&nbsp;[![#semanticClimate](images/semanticclimate-logo.jpg)](https://semanticclimate.github.io/p/en/)
+<a href="https://www.tib.eu/en"><img src="images/tib-logo.png" alt="TIB – Leibniz Information Centre for Science and Technology" width="150"></a>&nbsp;&nbsp;&nbsp;<a href="https://semanticclimate.github.io/p/en/"><img src="images/semanticclimate-logo.jpg" alt="#semanticClimate" width="150"></a>
 
