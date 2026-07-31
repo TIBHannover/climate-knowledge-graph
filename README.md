@@ -1,6 +1,6 @@
 # Climate Knowledge Graph (ClimateKG)
 
-ClimateKG is a literature resource for climate change science. It is intended for use by the public, policymakers, and scientists. It uses Knowledge graph technology to help users navigate these complex corpora — to answer questions and access documents.
+ClimateKG is a literature resource for climate change science. It is intended for use by the public, policymakers, and scientists. It uses knowledge graph technology to help users navigate these complex corpora — to answer questions and access documents.
 
 To start with ClimateKG has imported the 10,000 page corpus [IPCC Sixth Assessment Report (AR6)](https://www.ipcc.ch/assessment-report/ar6/).
 
@@ -14,7 +14,7 @@ ClimateKG sites:
 - **[ClimateKG Data Bench:](https://tibhannover.github.io/ClimateKG-Data-Bench/)** Data analysis and community contributions
 - **[Docs:](https://tibhannover.github.io/climate-knowledge-graph/)** Documentation and development log 
 
-ClimateKG is a software R&D project based on the vision of Tim Berners-Lee Semantic Web and using FAIR Priciples and Open Science infrastructures for liberating the literature on climate change science.
+Inspired by Tim Berners-Lee's vision of the Semantic Web, ClimateKG is a software R&D project that uses FAIR Principles and Open Science infrastructures to liberate literature on climate change science.
 
 ## How the knowledge graph is made
 
