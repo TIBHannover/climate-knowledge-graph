@@ -10,9 +10,9 @@ On AR6:
 
 ## ClimateKG links
 
-- **[ClimateKG:](https://prod-climatekg.semanticclimate.org/)** Browse the text and data
-- **[ClimateKG Data Bench:](https://tibhannover.github.io/ClimateKG-Data-Bench/)** Data analysis and community contributions
-- **[Docs:](https://tibhannover.github.io/climate-knowledge-graph/)** Documentation and development log 
+- [ClimateKG:](https://prod-climatekg.semanticclimate.org/) Browse the text and data
+- [ClimateKG Data Bench:](https://tibhannover.github.io/ClimateKG-Data-Bench/) Data analysis and community contributions
+- [Docs:](https://tibhannover.github.io/climate-knowledge-graph/) Documentation and development log 
 
 ## How the knowledge graph is made
 
