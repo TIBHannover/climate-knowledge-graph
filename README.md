@@ -91,9 +91,7 @@ ClimateKG comes out of the #semanticClimate (#sC) open research group founded by
 
 TIB is one of the largest science libraries in the world and a global hub for knowledge graph R&D, especially the [Open Research Knowledge Graph](https://orkg.org/) (ORKG). ClimateKG partners with Lab Knowledge Infrastructures led by Dr Markus Stocker, and draws on expertise from NFDI4Culture projects: [Wikibase4Research](https://nfdi4culture.de/services/details/wikibase4research.html), [Computational Publishing Service](https://nfdi4culture.de/de/dienste/details/computational-publishing-service.html), and [Antelope](https://service.tib.eu/annotation/) (terminology service).
 
-### Team
-
-**TIB Team**
+### Team team
 
 Project lead, Simon Worthington — #bookliberationist and publishing technologist [simon.worthington@tib.eu](mailto:simon.worthington@tib.eu) ORCID iD: [0000-0002-8579-9717](https://orcid.org/0000-0002-8579-9717) | Mastodon: [@mrchristian](https://openbiblio.social/@mrchristian) 
 
@@ -103,13 +101,9 @@ With support from Markus Stocker, lead of Lab Knowledge Infrastructures.
 
 Thank you for support and contributions to TIB colleagues and #semanticClimate members, volunteers, interns, and hackathon participants.
 
-**semanticClimate Team**
-
-**Independent**
-
 ## Copyright and licences
 
-### IPCC Reports
+### IPCC reports
 
 The Climate Knowledge Graph imports content from the seven reports of the IPCC Sixth Assessment Report (AR6) cycle. Reports 1--6 are published by Cambridge University Press under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/). Report 7 (the Synthesis Report) is published by the IPCC directly with all rights reserved; short extracts may be reproduced with full source attribution. See also the [IPCC copyright notice](https://www.ipcc.ch/copyright/).
 
@@ -177,11 +171,11 @@ Published by the IPCC.
 License: All rights reserved. The right of publication in print, electronic and any other form and in any language is reserved by the IPCC. Short extracts from this publication may be reproduced without authorization provided that the complete source is clearly indicated. Requests to publish, reproduce or translate should be addressed to: IPCC c/o WMO, 7bis avenue de la Paix, P.O. Box 2300, CH-1211 Geneva 2, Switzerland. E-mail: IPCC-Sec@wmo.int
 DOI: [10.59327/IPCC/AR6-9789291691647](https://doi.org/10.59327/IPCC/AR6-9789291691647) | [Report](https://www.ipcc.ch/report/sixth-assessment-report-cycle/)
 
-### ClimateKG Data
+### ClimateKG data
 
 ClimateKG data is licensed under [Creative Commons Zero v1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/) — dedicated to the public domain.
 
-### ClimateKG Code — open-source software
+### ClimateKG code — Open-source software
 
 Code in this repository is licensed under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.html). See [LICENSE](LICENSE).
 
