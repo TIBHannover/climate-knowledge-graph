@@ -12,7 +12,7 @@ ClimateKG sites:
 
 - **[ClimateKG:](https://prod-climatekg.semanticclimate.org/)** Browse the text and data
 - **[ClimateKG Data Bench:](https://tibhannover.github.io/ClimateKG-Data-Bench/)** Data analysis and community contributions
--**[Docs:](https://tibhannover.github.io/climate-knowledge-graph/)** Documentation and development log 
+- **[Docs:](https://tibhannover.github.io/climate-knowledge-graph/)** Documentation and development log 
 
 Climate KG is a software R&D project in beta using FAIR Priciples for publishing and Open Science infrastructures for climate change science.
 
