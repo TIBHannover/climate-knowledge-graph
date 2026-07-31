@@ -81,7 +81,7 @@ Inspired by Tim Berners-Lee's vision of the Semantic Web, ClimateKG is a softwar
 
 ### Funding and support
 
-ClimateKG has been funded by TIB Innovation fund.
+ClimateKG has been funded by TIB Innovation fund. Leibniz Information Centre for Science and Technology and University Library of Hannover (TIB) (ROR ID: [ror.org/04aj4c181](https://ror.org/04aj4c181))
 
 ClimateKG is an R&D project hosted at [TIB](https://www.tib.eu/en) — Leibniz Information Centre for Science and Technology and University Library — Germany, in partnership with [#semanticClimate](https://semanticclimate.github.io/p/en/) and the National Institute of Plant Genome Research [(NIPGR)](https://nipgr.ac.in/nipgrv2/index.html) — India.
 
@@ -95,17 +95,17 @@ TIB is one of the largest science libraries in the world and a global hub for kn
 
 **TIB Team**
 
-Project lead, Simon Worthington — #bookliberationist and publishing technologist [simon.worthington@tib.eu](mailto:simon.worthington@tib.eu) | Mastodon: [@mrchristian](https://openbiblio.social/@mrchristian) 
+Project lead, Simon Worthington — #bookliberationist and publishing technologist [simon.worthington@tib.eu](mailto:simon.worthington@tib.eu) ORCID iD: [0000-0002-8579-9717](https://orcid.org/0000-0002-8579-9717) | Mastodon: [@mrchristian](https://openbiblio.social/@mrchristian) 
 
-Laura Oldenbourg — data modeling and publishing specialist.
+Laura Oldenbourg — data modeling and publishing specialist, ORCID iD: [0009-0003-5070-0099](https://orcid.org/0009-0003-5070-0099).
 
 With support from Markus Stocker, lead of Lab Knowledge Infrastructures.
 
 Thank you for support and contributions to TIB colleagues and #semanticClimate members, volunteers, interns, and hackathon participants.
 
-**semanticClimate Team** 
+**semanticClimate Team**
 
-**Independent** 
+**Independent**
 
 ## Copyright and licences
 
@@ -179,9 +179,9 @@ DOI: [10.59327/IPCC/AR6-9789291691647](https://doi.org/10.59327/IPCC/AR6-9789291
 
 ### ClimateKG Data
 
-ClimateKG data is licensed under [Creative Commons Zero v1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/) -- dedicated to the public domain.
+ClimateKG data is licensed under [Creative Commons Zero v1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/) — dedicated to the public domain.
 
-### ClimateKG Code
+### ClimateKG Code — open-source software
 
 Code in this repository is licensed under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.html). See [LICENSE](LICENSE).
 
