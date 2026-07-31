@@ -14,37 +14,11 @@ On AR6:
 - [ClimateKG Data Bench:](https://tibhannover.github.io/ClimateKG-Data-Bench/) Data analysis and community contributions
 - [Docs:](https://tibhannover.github.io/climate-knowledge-graph/) Documentation and development log 
 
+## IPCC Report: Knowledge transformation schematic
+
+<img src="images/dia2.png" alt="IPCC Report: Knowledge transformation schematic" style="width:100%;max-width:100%;height:auto;">
+
 ## How the knowledge graph is made
-
-```mermaid
-flowchart LR
-    IPCC([IPCC Report]) --> Build
-
-    subgraph Build[" Build "]
-        Website[Website]
-        Datasets[Datasets]
-        ER[ER Model]
-    end
-
-    Build --> KG[(Knowledge\nGraph)]
-
-    KG --> Services
-
-    subgraph Services[" Services "]
-        QA[Q & A]
-        Lib[Library Metadata]
-        Docs[Document Distribution]
-        Bench[Data Bench]
-    end
-
-    Services --> Users
-
-    subgraph Users[" Users "]
-        Public[Public]
-        Scientists[Scientists]
-        Policy[Policy Makers]
-    end
-```
 
 The objective is to add a data surface to what is already in the documents and make that knowledge usable.
 
