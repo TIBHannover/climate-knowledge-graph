@@ -81,7 +81,7 @@ Inspired by Tim Berners-Lee's vision of the Semantic Web, ClimateKG is a softwar
 
 ### Funding and support
 
-ClimateKG has been funded by TIB Innovation fund. Leibniz Information Centre for Science and Technology and University Library of Hannover (TIB) (ROR ID: [ror.org/04aj4c181](https://ror.org/04aj4c181))
+ClimateKG has been funded by TIB Innovation fund, TIB — Leibniz Information Centre for Science and Technology and University Library of Hannover (ROR ID: [ror.org/04aj4c181](https://ror.org/04aj4c181))
 
 ClimateKG is an R&D project hosted at [TIB](https://www.tib.eu/en) — Leibniz Information Centre for Science and Technology and University Library — Germany, in partnership with [#semanticClimate](https://semanticclimate.github.io/p/en/) and the National Institute of Plant Genome Research [(NIPGR)](https://nipgr.ac.in/nipgrv2/index.html) — India.
 
