@@ -14,9 +14,9 @@ ClimateKG sites:
 - **[ClimateKG Data Bench:](https://tibhannover.github.io/ClimateKG-Data-Bench/)** Data analysis and community contributions
 - **[Docs:](https://tibhannover.github.io/climate-knowledge-graph/)** Documentation and development log 
 
-Climate KG is a software R&D project in beta using FAIR Priciples for publishing and Open Science infrastructures for climate change science.
+ClimateKG is a software R&D project based on the vision of Tim Berners-Lee Semantic Web and using FAIR Priciples and Open Science infrastructures for liberating the literature on climate change science.
 
-## How it's made
+## How the knowledge graph is made
 
 ### Foundational datasets
 
