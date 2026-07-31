@@ -4,12 +4,21 @@ ClimateKG is a literature resource for climate change science. It is intended fo
 
 To start with ClimateKG has imported the 10,000 page corpus [IPCC Sixth Assessment Report (AR6)](https://www.ipcc.ch/assessment-report/ar6/).
 
+On AR6:
+
 > It is a survival guide for humanity. As it shows, the 1.5-degree limit is achievable. <br/> - [UN Secretary-General António Guterres](https://media.un.org/avlibrary/en/asset/d302/d3022200#:~:text=In%20a%20video%20message%20to,1.5%2Ddegree%20limit%20is%20achievable) (2023)
 
-- **ClimateKG:** Browse the text and data
-- **ClimateKG Data Bench:** Data analysis and community contributions
+ClimateKG sites:
 
-## Foundational datasets
+- **[ClimateKG:](https://prod-climatekg.semanticclimate.org/)** Browse the text and data
+- **[ClimateKG Data Bench:](https://tibhannover.github.io/ClimateKG-Data-Bench/)** Data analysis and community contributions
+-**[Docs:](https://tibhannover.github.io/climate-knowledge-graph/)** Documentation and development log 
+
+Climate KG is a software R&D project in beta using FAIR Priciples for publishing and Open Science infrastructures for climate change science.
+
+## How it's made
+
+### Foundational datasets
 
 AR6 has been broken down into five foundational datasets:
 
@@ -21,7 +30,7 @@ AR6 has been broken down into five foundational datasets:
 | 4. Acronyms | 1,910 |
 | 5. Authors | 932 |
 
-## Entity-relationship model
+### Entity-relationship model
 
 ClimateKG connects these datasets using an **entity-relationship model**, forming the **knowledge graph**:
 
@@ -56,8 +65,6 @@ The knowledge graph knows the answer and can retrieve the relevant chapter texts
 
 ## Documentation and Roadmap 
 
-Climate KG is a software R&D project in beta using FAIR Priciples for publishing and Open Science infrastructures for climate change science.
-
 [Documentation and Development Log](https://tibhannover.github.io/climate-knowledge-graph/) 
 
 See: [Roadmap](https://tibhannover.github.io/climate-knowledge-graph/roadmap.html)
@@ -80,9 +87,9 @@ TIB is one of the largest science libraries in the world and a global hub for kn
 
 **TIB Team:** 
 
-Project lead, Simon Worthington -- publishing technologist [simon.worthington@tib.eu](mailto:simon.worthington@tib.eu) | Mastodon: [@mrchristian](https://openbiblio.social/@mrchristian) | 
+Project lead, Simon Worthington -- publishing technologist [simon.worthington@tib.eu](mailto:simon.worthington@tib.eu) | Mastodon: [@mrchristian](https://openbiblio.social/@mrchristian) 
 
-Laura Oldenbourg -- data modeling and publishing specialist. 
+Laura Oldenbourg -- data modeling and publishing specialist.
 
 With support from Markus Stocker, lead of Lab Knowledge Infrastructures.
 
