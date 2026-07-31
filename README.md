@@ -14,9 +14,11 @@ ClimateKG sites:
 - **[ClimateKG Data Bench:](https://tibhannover.github.io/ClimateKG-Data-Bench/)** Data analysis and community contributions
 - **[Docs:](https://tibhannover.github.io/climate-knowledge-graph/)** Documentation and development log 
 
-Inspired by Tim Berners-Lee's vision of the Semantic Web, ClimateKG is a software R&D project that uses FAIR Principles and Open Science infrastructures to liberate literature on climate change science.
+Inspired by Tim Berners-Lee's vision of the Semantic Web, ClimateKG is a software R&D project that uses **FAIR Principles** and **Open Science infrastructures** to liberate literature on climate change science.
 
 ## How the knowledge graph is made
+
+The process is to add a data suface to what is already in the documents. The reports on the web are transformed into **foundational datasets** to represent its base components and then connections are made between the parts using an **entity-relationship model**. The data is now a **knowledge graph** and the connected data can be queried.
 
 ### Foundational datasets
 
@@ -48,7 +50,7 @@ WORK  <- Corpus structure
          <- Corpus full text
 ```
 
-## Activities: ClimateKG in action
+## Using the knowledge graph
 
 The connections that the knowledge graph creates all for questioning the corpus. As an example question:
 
