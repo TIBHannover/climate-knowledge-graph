@@ -16,7 +16,7 @@ On AR6:
 
 ## IPCC Report: Knowledge transformation schematic
 
-<img src="images/dia3.png" alt="IPCC Report: Knowledge transformation schematic" style="width:100%;max-width:100%;height:auto;">
+<img src="images/dia2b.png" alt="IPCC Report: Knowledge transformation schematic" style="width:100%;max-width:100%;height:auto;">
 
 ## How the knowledge graph is made
 

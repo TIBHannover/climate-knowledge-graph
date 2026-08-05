@@ -8,9 +8,11 @@ Browsable website
 
 In
 Website - Browsable site
+
 Build
 Datasets - Convert to data
 ER model - Connect data
+
 Out
 Knowledge graph - Structured data resource
 
@@ -30,5 +32,3 @@ Policy makers - Fast access to docs and data
 ## After
 
 Dynamic data service
-
-
