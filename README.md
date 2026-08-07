@@ -1,28 +1,30 @@
 # Climate Knowledge Graph (ClimateKG)
 
-ClimateKG is a literature resource for climate change science. It is intended for use by the public, policymakers, and scientists. The project has made a knowledge graph to help users navigate these complex corpora — to answer questions and access documents.
+— A literature resource and community knowledge graph for climate change science
 
-To start with ClimateKG has imported the main sections of the 10,000 page corpus [IPCC Sixth Assessment Report (AR6)](https://www.ipcc.ch/assessment-report/ar6/) into the knowledge graph.
+ClimateKG helps create impact for climate science by improving visibility. It is intended for use by the public, policymakers, and scientists. The project has built a knowledge graph to help users navigate these complex corpora — to answer questions, access documents, and use metadata.
 
-On AR6:
+As a starting point, ClimateKG has imported the main sections of the 10,000 page corpus [*IPCC Sixth Assessment Report*](https://www.ipcc.ch/assessment-report/ar6/) into the knowledge graph.
+
+On the *IPCC Sixth Assessment Report*:
 
 > It is a survival guide for humanity. As it shows, the 1.5-degree limit is achievable. <br/> - [UN Secretary-General António Guterres](https://media.un.org/avlibrary/en/asset/d302/d3022200#:~:text=In%20a%20video%20message%20to,1.5%2Ddegree%20limit%20is%20achievable) (2023)
 
-## ClimateKG links
+## ClimateKG project links
 
 - [ClimateKG:](https://prod-climatekg.semanticclimate.org/) Browse the text and data
 - [ClimateKG Data Bench:](https://tibhannover.github.io/ClimateKG-Data-Bench/) Data analysis and community contributions
 - [Docs:](https://tibhannover.github.io/climate-knowledge-graph/) Documentation and development log 
 
-## IPCC Report: Knowledge transformation schematic
+## IPCC report: From browsable website to dynamic data resource
 
 <img src="images/dia2c.png" alt="IPCC Report: Knowledge transformation schematic" style="width:100%;max-width:100%;height:auto;">
 
 ## How the knowledge graph is made
 
-The objective is to add a data surface to what is already in the documents and make that knowledge usable.
+The objective is to add a data surface to what is already in the documents, making the knowledge usable and searchable.
 
-The AR6 reports on the web are changed into basic **foundational datasets** to show its main parts. Then, connections are made between the parts using an **entity-relationship model**. The data is now a **knowledge graph** and the connected data can be searched.
+ClimateKG converts the *Sixth Assessment Report* from the web into basic **foundational datasets** to capture their main parts. It then connects these components using an **entity-relationship model**. The result is a **knowledge graph**: structured and connected data that can be searched directly.
 
 ### Foundational datasets
 
@@ -30,9 +32,9 @@ AR6 has been broken down into five foundational datasets:
 
 | Dataset | Data |
 |---|---|
-| 1. Corpus full text & structure | 7,524,958 words; 2,153 image files; 88 chapters |
+| 1. Corpus full text & structure | 7 reports; 88 chapters; 7,524,958 words, and; 2,153 image files |
 | 2. Bibliographic information | 95 DOIs |
-| 3. Glossary | 1,274 terms |
+| 3. Glossary terms | 1,274 terms |
 | 4. Acronyms | 1,910 |
 | 5. Authors | 932 |
 
@@ -41,16 +43,15 @@ AR6 has been broken down into five foundational datasets:
 ClimateKG connects these datasets using an **entity-relationship model**, forming the **knowledge graph**:
 
 ```
-WORK  <- Corpus structure
-+- REPORT_SERIES
++- Corpus structure
++- 7 reports
    +- REPORT
-   |  <- Bibliographic info
-   |  <- Glossary
+   |  <- Bibliographic information
+   |  <- Glossary terms
    |  <- Acronyms
-   +- TEXT_DIVISION
-      +- CHAPTER
+   +- CHAPTER
          <- Authors
-         <- Bibliographic info
+         <- Bibliographic information
          <- Corpus full text
 ```
 
@@ -60,19 +61,20 @@ ClimateKG is a community knowledge graph that supports contributions from the sc
 
 ### Searching the knowledge graph
 
-The connections that the knowledge graph creates allow for querying the data. As an example question:
+The connections that the knowledge graph creates allow for querying the data. For example, given the question:
 
 > 'How many South American or Indian authors contributed to the report?'
 
-The knowledge graph knows the answer and can retrieve the relevant chapter texts:
+ClimateKG can retrieve the answer along with the relevant chapter texts:
 
 > 'AR6 author distribution is 71 from South America and 43 from India.'
 
-<a href="https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/gender-distribution-simple.html#author-geography-south-america-and-india"><img src="images/samerica.png" alt="South America" style="width:100%;max-width:100%;height:auto;"></a>
+<table><tr>
+<td><a href="https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/gender-distribution-simple.html#author-geography-south-america-and-india"><img src="images/samerica.png" alt="South America" width="350"></a></td>
+<td><a href="https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/gender-distribution-simple.html#author-geography-south-america-and-india"><img src="images/india.png" alt="India" width="350"></a></td>
+</tr></table>
 
-<a href="https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/gender-distribution-simple.html#author-geography-south-america-and-india"><img src="images/india.png" alt="India" style="width:100%;max-width:100%;height:auto;"></a>
-
-### What is planned for release
+### Planned release
 
 - **Document distribution:** The data provides a map of the internal structure of the corpus documents, enabling any section or piece of data to be retrieved and delivered to the user.
 - **Extended metadata:** Questions can be answered quickly and reliably. Metadata is distributed to library systems and the Data Commons on Wikidata.
