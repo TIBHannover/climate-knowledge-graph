@@ -2,7 +2,7 @@
 
 — A literature resource and community knowledge graph for climate change science
 
-ClimateKG helps create impact for climate science by improving visibility. It is intended for use by the public, policymakers, and scientists. The project has built a knowledge graph to help users navigate these complex corpora — to answer questions, access documents, and use metadata.
+ClimateKG aims to helps create impact for climate science by improving its visibility. It is intended for use by the public, policymakers, and scientists. The project has built a knowledge graph to help users navigate these complex corpora — to answer questions, access documents, and use metadata.
 
 As a starting point, ClimateKG has imported the main sections of the 10,000 page corpus [*IPCC Sixth Assessment Report*](https://www.ipcc.ch/assessment-report/ar6/) into the knowledge graph.
 
