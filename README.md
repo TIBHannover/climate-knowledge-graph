@@ -69,7 +69,7 @@ ClimateKG can retrieve the answer along with the relevant chapter texts:
 
 > 'AR6 author distribution is 71 from South America and 43 from India.'
 
-<table><tr>
+<table border="0"><tr>
 <td><a href="https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/gender-distribution-simple.html#author-geography-south-america-and-india"><img src="images/samerica.png" alt="South America" width="350"></a></td>
 <td><a href="https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/gender-distribution-simple.html#author-geography-south-america-and-india"><img src="images/india.png" alt="India" width="350"></a></td>
 </tr></table>
