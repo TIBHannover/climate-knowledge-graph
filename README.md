@@ -2,7 +2,7 @@
 
 ClimateKG is a literature resource for climate change science. It is intended for use by the public, policymakers, and scientists. The project has made a knowledge graph to help users navigate these complex corpora — to answer questions and access documents.
 
-To start with ClimateKG has imported the 10,000 page corpus [IPCC Sixth Assessment Report (AR6)](https://www.ipcc.ch/assessment-report/ar6/) into the knowledge graph.
+To start with ClimateKG has imported the main sections of the 10,000 page corpus [IPCC Sixth Assessment Report (AR6)](https://www.ipcc.ch/assessment-report/ar6/) into the knowledge graph.
 
 On AR6:
 
@@ -56,7 +56,7 @@ WORK  <- Corpus structure
 
 ## Using the knowledge graph
 
-ClimateKG is a community knowledge graph that supports contributions from the scientic community and engagement from the wider public.
+ClimateKG is a community knowledge graph that supports contributions from the scientific community and engagement from the wider public.
 
 ### Searching the knowledge graph
 

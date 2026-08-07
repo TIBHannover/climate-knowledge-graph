@@ -1,0 +1,683 @@
+<!-- =============================================================================
+     ResearchProject DTD
+     Based on: https://schema.org/ResearchProject
+     Schema Version: 30.0 (2026-03-19)
+     Hierarchy: Thing > Organization > Project > ResearchProject
+
+     EN: This DTD defines the structure for a schema.org ResearchProject document.
+         It supports both English (en) and German (de) language instances via
+         the xml:lang attribute on the root element and any text-content element.
+
+     DE: Dieses DTD definiert die Struktur fuer ein schema.org ResearchProject-Dokument.
+         Es unterstuetzt sowohl englische (en) als auch deutsche (de) Sprachinstanzen
+         ueber das xml:lang-Attribut am Wurzelelement und an Textelementen.
+============================================================================= -->
+
+<!-- =============================================================================
+     ROOT ELEMENT
+     EN: The root element representing a Research Project.
+     DE: Das Wurzelelement fuer ein Forschungsprojekt.
+============================================================================= -->
+<!ELEMENT ResearchProject (
+    name,
+    description?,
+    alternateName*,
+    url?,
+    sameAs*,
+    identifier*,
+    image*,
+    additionalType*,
+    disambiguatingDescription?,
+    mainEntityOfPage?,
+    subjectOf*,
+    potentialAction*,
+    owner*,
+    legalName?,
+    address*,
+    email*,
+    telephone?,
+    faxNumber?,
+    logo?,
+    location*,
+    foundingDate?,
+    dissolutionDate?,
+    numberOfEmployees?,
+    founder*,
+    employee*,
+    member*,
+    memberOf*,
+    department*,
+    parentOrganization?,
+    subOrganization*,
+    contactPoint*,
+    brand*,
+    award*,
+    keywords*,
+    slogan?,
+    funder*,
+    funding*,
+    sponsor*,
+    review*,
+    event*,
+    duns?,
+    leiCode?,
+    taxID?,
+    vatID?,
+    isicV4?,
+    naics?,
+    globalLocationNumber?,
+    iso6523Code?,
+    knowsAbout*,
+    knowsLanguage*,
+    legalRepresentative*,
+    hasCertification*,
+    hasCredential*
+)>
+
+<!--
+    EN: Attributes on the root ResearchProject element.
+        - xml:lang : Specifies the primary language of the document (en = English, de = German).
+        - id       : Optional unique XML identifier for the element.
+        - typeof   : RDF type annotation, typically "schema:ResearchProject".
+        - vocab    : The schema vocabulary base URI.
+
+    DE: Attribute des Wurzelelements ResearchProject.
+        - xml:lang : Gibt die Hauptsprache des Dokuments an (en = Englisch, de = Deutsch).
+        - id       : Optionaler eindeutiger XML-Bezeichner fuer das Element.
+        - typeof   : RDF-Typannotation, typischerweise "schema:ResearchProject".
+        - vocab    : Basis-URI des Schema-Vokabulars.
+-->
+<!ATTLIST ResearchProject
+    xml:lang  (en|de)   "en"
+    id        ID        #IMPLIED
+    typeof    CDATA     #FIXED "schema:ResearchProject"
+    vocab     CDATA     #FIXED "https://schema.org/"
+>
+
+
+<!-- =============================================================================
+     PROPERTIES FROM: Thing
+     EN: Base properties inherited by all schema.org types.
+     DE: Basiseigenschaften, die von allen schema.org-Typen geerbt werden.
+============================================================================= -->
+
+<!--
+    EN: The name of the item.
+    DE: Der Name des Elements.
+    Type: Text
+-->
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name xml:lang (en|de) #IMPLIED>
+
+<!--
+    EN: A description of the item.
+    DE: Eine Beschreibung des Elements.
+    Type: Text | TextObject
+-->
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST description xml:lang (en|de) #IMPLIED>
+
+<!--
+    EN: An alias for the item.
+    DE: Ein alternativer Name (Alias) fuer das Element.
+    Type: Text
+-->
+<!ELEMENT alternateName (#PCDATA)>
+<!ATTLIST alternateName xml:lang (en|de) #IMPLIED>
+
+<!--
+    EN: URL of the item.
+    DE: URL des Elements.
+    Type: URL
+-->
+<!ELEMENT url (#PCDATA)>
+
+<!--
+    EN: URL of a reference Web page that unambiguously indicates the item's identity.
+        (e.g. the URL of the item's Wikipedia page, Wikidata entry, or official website)
+    DE: URL einer Referenz-Webseite, die die Identitaet des Elements eindeutig angibt.
+        (z. B. die URL der Wikipedia-Seite, des Wikidata-Eintrags oder der offiziellen Website)
+    Type: URL
+-->
+<!ELEMENT sameAs (#PCDATA)>
+
+<!--
+    EN: The identifier property represents any kind of identifier for any kind of Thing,
+        such as ISBNs, GTIN codes, UUIDs etc.
+    DE: Die identifier-Eigenschaft steht fuer jede Art von Bezeichner fuer jede Art von
+        Thing, z. B. ISBNs, GTIN-Codes, UUIDs usw.
+    Type: PropertyValue | Text | URL
+-->
+<!ELEMENT identifier (#PCDATA | propertyValue)*>
+<!ATTLIST identifier
+    propertyID  CDATA  #IMPLIED
+    value       CDATA  #IMPLIED
+>
+
+<!--
+    EN: Structured key/value pair as a PropertyValue.
+    DE: Strukturiertes Schluessel/Wert-Paar als PropertyValue.
+-->
+<!ELEMENT propertyValue (propertyID?, value)>
+<!ELEMENT propertyID (#PCDATA)>
+<!ELEMENT value (#PCDATA)>
+
+<!--
+    EN: An image of the item. This can be a URL or a fully described ImageObject.
+    DE: Ein Bild des Elements. Kann eine URL oder ein vollstaendiges ImageObject sein.
+    Type: ImageObject | URL
+-->
+<!ELEMENT image (#PCDATA | imageObject)*>
+
+<!--
+    EN: Represents a fully described image.
+    DE: Repraesentiert ein vollstaendig beschriebenes Bild.
+-->
+<!ELEMENT imageObject (contentUrl, caption?, width?, height?)>
+<!ELEMENT contentUrl  (#PCDATA)>
+<!ELEMENT caption     (#PCDATA)>
+<!ATTLIST caption xml:lang (en|de) #IMPLIED>
+<!ELEMENT width       (#PCDATA)>
+<!ELEMENT height      (#PCDATA)>
+
+<!--
+    EN: An additional type for the item, typically used for adding more specific types
+        from external vocabularies in microdata syntax.
+    DE: Ein zusaetzlicher Typ fuer das Element, typischerweise zur Angabe spezifischerer
+        Typen aus externen Vokabularen in der Microdata-Syntax.
+    Type: Text | URL
+-->
+<!ELEMENT additionalType (#PCDATA)>
+
+<!--
+    EN: A sub property of description. A short description of the item used to
+        disambiguate from other, similar items.
+    DE: Eine Untereigenschaft der Beschreibung. Eine Kurzbeschreibung des Elements,
+        um es von aehnlichen Elementen zu unterscheiden.
+    Type: Text
+-->
+<!ELEMENT disambiguatingDescription (#PCDATA)>
+<!ATTLIST disambiguatingDescription xml:lang (en|de) #IMPLIED>
+
+<!--
+    EN: Indicates a page (or other CreativeWork) for which this thing is the main
+        entity being described.
+    DE: Weist auf eine Seite (oder ein anderes CreativeWork) hin, fuer die dieses
+        Element das Hauptobjekt der Beschreibung ist.
+    Type: CreativeWork | URL
+-->
+<!ELEMENT mainEntityOfPage (#PCDATA)>
+
+<!--
+    EN: A CreativeWork or Event about this Thing.
+    DE: Ein CreativeWork oder Event ueber dieses Element.
+    Type: CreativeWork | Event
+-->
+<!ELEMENT subjectOf (#PCDATA)>
+
+<!--
+    EN: Indicates a potential Action which describes an idealized action in which
+        this thing would play an 'object' role.
+    DE: Gibt eine moegliche Aktion an, die eine idealisierte Handlung beschreibt,
+        bei der dieses Element die Rolle des 'Objekts' spielt.
+    Type: Action
+-->
+<!ELEMENT potentialAction (#PCDATA)>
+
+<!--
+    EN: A person or organization who owns this Thing.
+    DE: Eine Person oder Organisation, der dieses Element gehoert.
+    Type: Organization | Person
+-->
+<!ELEMENT owner (#PCDATA)>
+<!ATTLIST owner
+    typeof  (schema:Organization|schema:Person)  #IMPLIED
+    href    CDATA                                 #IMPLIED
+>
+
+
+<!-- =============================================================================
+     PROPERTIES FROM: Organization (and Project)
+     EN: Properties inherited from the Organization type (Project adds no new
+         properties beyond Organization in schema.org).
+     DE: Eigenschaften, die vom Typ Organization geerbt werden. (Project fuegt
+         laut schema.org keine weiteren Eigenschaften ueber Organization hinaus hinzu.)
+============================================================================= -->
+
+<!--
+    EN: The official name of the organization, e.g. the registered company name.
+    DE: Der offizielle Name der Organisation, z. B. der eingetragene Firmenname.
+    Type: Text
+-->
+<!ELEMENT legalName (#PCDATA)>
+<!ATTLIST legalName xml:lang (en|de) #IMPLIED>
+
+<!--
+    EN: Physical address of the item.
+    DE: Physische Adresse des Elements.
+    Type: PostalAddress | Text
+-->
+<!ELEMENT address (streetAddress?, addressLocality?, addressRegion?,
+                   postalCode?, addressCountry?)>
+<!ELEMENT streetAddress    (#PCDATA)>
+<!ELEMENT addressLocality  (#PCDATA)>
+<!ELEMENT addressRegion    (#PCDATA)>
+<!ELEMENT postalCode       (#PCDATA)>
+<!--
+    EN: The country. For example, USA. You can also provide the two-letter ISO 3166-1 alpha-2
+        country code (e.g. "US", "DE").
+    DE: Das Land. Zum Beispiel Deutschland. Sie koennen auch den zweistelligen
+        ISO 3166-1 alpha-2-Laendercode angeben (z. B. "US", "DE").
+-->
+<!ELEMENT addressCountry   (#PCDATA)>
+<!ATTLIST address xml:lang (en|de) #IMPLIED>
+
+<!--
+    EN: Email address.
+    DE: E-Mail-Adresse.
+    Type: Text
+-->
+<!ELEMENT email (#PCDATA)>
+
+<!--
+    EN: The telephone number.
+    DE: Die Telefonnummer.
+    Type: Text
+-->
+<!ELEMENT telephone (#PCDATA)>
+
+<!--
+    EN: The fax number.
+    DE: Die Faxnummer.
+    Type: Text
+-->
+<!ELEMENT faxNumber (#PCDATA)>
+
+<!--
+    EN: An associated logo.
+    DE: Ein zugehoeriges Logo.
+    Type: ImageObject | URL
+-->
+<!ELEMENT logo (#PCDATA | imageObject)*>
+
+<!--
+    EN: The location of the organization.
+    DE: Der Standort der Organisation.
+    Type: Place | PostalAddress | Text | VirtualLocation
+-->
+<!ELEMENT location (#PCDATA | address | place | virtualLocation)*>
+
+<!ELEMENT place (name, address?, geo?, url?)>
+<!ELEMENT geo (#PCDATA)>
+<!ATTLIST geo
+    latitude   CDATA  #IMPLIED
+    longitude  CDATA  #IMPLIED
+>
+
+<!ELEMENT virtualLocation (url, name?)>
+
+<!--
+    EN: The date that this organization was founded. Use ISO 8601 date format (YYYY-MM-DD).
+    DE: Das Gruendungsdatum der Organisation. ISO 8601-Datumsformat verwenden (JJJJ-MM-TT).
+    Type: Date
+-->
+<!ELEMENT foundingDate (#PCDATA)>
+
+<!--
+    EN: The date that this organization was dissolved. Use ISO 8601 date format (YYYY-MM-DD).
+    DE: Das Aufloesungsdatum der Organisation. ISO 8601-Datumsformat verwenden (JJJJ-MM-TT).
+    Type: Date
+-->
+<!ELEMENT dissolutionDate (#PCDATA)>
+
+<!--
+    EN: The number of employees in an organization.
+    DE: Die Anzahl der Mitarbeiter in einer Organisation.
+    Type: QuantitativeValue
+-->
+<!ELEMENT numberOfEmployees (#PCDATA)>
+<!ATTLIST numberOfEmployees
+    unitText  CDATA  #IMPLIED
+    minValue  CDATA  #IMPLIED
+    maxValue  CDATA  #IMPLIED
+>
+
+<!--
+    EN: A person or organization who founded this organization.
+    DE: Eine Person oder Organisation, die diese Organisation gegruendet hat.
+    Type: Organization | Person
+-->
+<!ELEMENT founder (#PCDATA)>
+<!ATTLIST founder
+    typeof  (schema:Organization|schema:Person)  #IMPLIED
+    href    CDATA                                 #IMPLIED
+>
+
+<!--
+    EN: Someone working for this organization.
+    DE: Jemand, der fuer diese Organisation arbeitet.
+    Type: Person
+-->
+<!ELEMENT employee (#PCDATA)>
+<!ATTLIST employee href CDATA #IMPLIED>
+
+<!--
+    EN: A member of an Organization or a ProgramMembership.
+    DE: Ein Mitglied einer Organisation oder einer Programmitgliedschaft.
+    Type: Organization | Person
+-->
+<!ELEMENT member (#PCDATA)>
+<!ATTLIST member
+    typeof  (schema:Organization|schema:Person)  #IMPLIED
+    href    CDATA                                 #IMPLIED
+>
+
+<!--
+    EN: An Organization (or ProgramMembership) to which this Organization belongs.
+    DE: Eine Organisation (oder Programmitgliedschaft), der diese Organisation angehoert.
+    Type: MemberProgramTier | Organization | ProgramMembership
+-->
+<!ELEMENT memberOf (#PCDATA)>
+<!ATTLIST memberOf
+    typeof  CDATA  #IMPLIED
+    href    CDATA  #IMPLIED
+>
+
+<!--
+    EN: A relationship between an organization and a department of that organization.
+    DE: Eine Beziehung zwischen einer Organisation und einer Abteilung dieser Organisation.
+    Type: Organization
+-->
+<!ELEMENT department (#PCDATA)>
+<!ATTLIST department href CDATA #IMPLIED>
+
+<!--
+    EN: The larger organization that this organization is a subOrganization of.
+    DE: Die uebergeordnete Organisation, der diese Organisation als Unterorganisation angehoert.
+    Type: Organization
+-->
+<!ELEMENT parentOrganization (#PCDATA)>
+<!ATTLIST parentOrganization href CDATA #IMPLIED>
+
+<!--
+    EN: A relationship between two organizations where the first includes the second,
+        e.g., as a subsidiary.
+    DE: Eine Beziehung zwischen zwei Organisationen, bei der die erste die zweite umfasst,
+        z. B. als Tochtergesellschaft.
+    Type: Organization
+-->
+<!ELEMENT subOrganization (#PCDATA)>
+<!ATTLIST subOrganization href CDATA #IMPLIED>
+
+<!--
+    EN: A contact point for a person or organization.
+    DE: Ein Kontaktpunkt fuer eine Person oder Organisation.
+    Type: ContactPoint
+-->
+<!ELEMENT contactPoint (contactType?, telephone?, email?, url?,
+                        availableLanguage*, areaServed*)>
+<!ELEMENT contactType       (#PCDATA)>
+<!ATTLIST contactType xml:lang (en|de) #IMPLIED>
+<!ELEMENT availableLanguage (#PCDATA)>
+<!ELEMENT areaServed        (#PCDATA)>
+<!ATTLIST areaServed xml:lang (en|de) #IMPLIED>
+
+<!--
+    EN: The brand(s) associated with a product or service, or the brand(s) maintained
+        by an organization or business person.
+    DE: Die Marke(n), die mit einem Produkt oder einer Dienstleistung verbunden sind, oder
+        die Marke(n), die von einer Organisation oder einer Geschaeftsperson gepflegt werden.
+    Type: Brand | Organization
+-->
+<!ELEMENT brand (#PCDATA)>
+<!ATTLIST brand
+    typeof  (schema:Brand|schema:Organization)  #IMPLIED
+    href    CDATA                                #IMPLIED
+>
+
+<!--
+    EN: An award won by or for this item.
+    DE: Eine Auszeichnung, die fuer dieses Element erhalten wurde.
+    Type: Text
+-->
+<!ELEMENT award (#PCDATA)>
+<!ATTLIST award xml:lang (en|de) #IMPLIED>
+
+<!--
+    EN: Keywords or tags used to describe some item. Multiple entries are delimited
+        by commas, or by repeating the property.
+    DE: Schluesselwoerter oder Tags zur Beschreibung des Elements. Mehrere Eintraege
+        werden durch Kommas oder durch Wiederholen der Eigenschaft getrennt.
+    Type: DefinedTerm | Text | URL
+-->
+<!ELEMENT keywords (#PCDATA)>
+<!ATTLIST keywords xml:lang (en|de) #IMPLIED>
+
+<!--
+    EN: A slogan or motto associated with the item.
+    DE: Ein Slogan oder Motto, der mit dem Element verbunden ist.
+    Type: Text
+-->
+<!ELEMENT slogan (#PCDATA)>
+<!ATTLIST slogan xml:lang (en|de) #IMPLIED>
+
+<!--
+    EN: A person or organization that supports (sponsors) something through some kind
+        of financial contribution.
+    DE: Eine Person oder Organisation, die etwas durch eine finanzielle Beitraege
+        unterstuetzt (sponsert).
+    Type: Organization | Person
+-->
+<!ELEMENT funder (#PCDATA)>
+<!ATTLIST funder
+    typeof  (schema:Organization|schema:Person)  #IMPLIED
+    href    CDATA                                 #IMPLIED
+>
+
+<!--
+    EN: A Grant that directly or indirectly provides funding or sponsorship for this item.
+    DE: Ein Foerderbescheid, der diesem Element direkt oder indirekt Finanzierung
+        oder Sponsoring gewaehrt.
+    Type: Grant
+-->
+<!ELEMENT funding (name?, identifier?, funder*, url?)>
+
+<!--
+    EN: A person or organization that supports a thing through a pledge, promise,
+        or financial contribution.
+    DE: Eine Person oder Organisation, die etwas durch ein Versprechen, eine Zusage
+        oder einen finanziellen Beitrag unterstuetzt.
+    Type: Organization | Person
+-->
+<!ELEMENT sponsor (#PCDATA)>
+<!ATTLIST sponsor
+    typeof  (schema:Organization|schema:Person)  #IMPLIED
+    href    CDATA                                 #IMPLIED
+>
+
+<!--
+    EN: A review of the item.
+    DE: Eine Rezension des Elements.
+    Type: Review
+-->
+<!ELEMENT review (reviewBody?, reviewRating?, author?)>
+<!ELEMENT reviewBody   (#PCDATA)>
+<!ATTLIST reviewBody xml:lang (en|de) #IMPLIED>
+<!ELEMENT reviewRating (#PCDATA)>
+<!ATTLIST reviewRating
+    ratingValue  CDATA  #IMPLIED
+    bestRating   CDATA  #IMPLIED
+    worstRating  CDATA  #IMPLIED
+>
+<!ELEMENT author (#PCDATA)>
+<!ATTLIST author
+    typeof  (schema:Organization|schema:Person)  #IMPLIED
+    href    CDATA                                 #IMPLIED
+>
+
+<!--
+    EN: Upcoming or past event associated with this organization.
+    DE: Ein bevorstehendes oder vergangenes Ereignis, das mit dieser Organisation verbunden ist.
+    Type: Event
+-->
+<!ELEMENT event (name, startDate?, endDate?, location?, url?, description?)>
+<!ELEMENT startDate (#PCDATA)>
+<!ELEMENT endDate   (#PCDATA)>
+
+<!--
+    EN: The Dun & Bradstreet DUNS number for identifying an organization or business person.
+    DE: Die Dun & Bradstreet DUNS-Nummer zur Identifizierung einer Organisation
+        oder einer Geschaeftsperson.
+    Type: Text
+-->
+<!ELEMENT duns (#PCDATA)>
+
+<!--
+    EN: An organization identifier that uniquely identifies a legal entity as defined
+        in ISO 17442.
+    DE: Ein Organisations-Bezeichner, der eine juristische Person eindeutig identifiziert,
+        wie in ISO 17442 definiert.
+    Type: Text
+-->
+<!ELEMENT leiCode (#PCDATA)>
+
+<!--
+    EN: The Tax / Fiscal ID of the organization or person (e.g. TIN in the US,
+        CIF/NIF in Spain, Steuernummer in Germany).
+    DE: Die Steuer-ID der Organisation oder Person (z. B. TIN in den USA,
+        CIF/NIF in Spanien, Steuernummer in Deutschland).
+    Type: Text
+-->
+<!ELEMENT taxID (#PCDATA)>
+
+<!--
+    EN: The value-added Tax ID of the organization or person with national prefix
+        (e.g. IT123456789 for Italy, DE123456789 for Germany).
+    DE: Die Umsatzsteuer-ID der Organisation oder Person mit nationalem Praefix
+        (z. B. IT123456789 fuer Italien, DE123456789 fuer Deutschland).
+    Type: Text
+-->
+<!ELEMENT vatID (#PCDATA)>
+
+<!--
+    EN: The International Standard of Industrial Classification of All Economic Activities
+        (ISIC), Revision 4 code for a particular organization, business person, or place.
+    DE: Der ISIC-Code (Internationale Klassifikation der Wirtschaftszweige), Revision 4,
+        fuer eine bestimmte Organisation, Geschaeftsperson oder einen Ort.
+    Type: Text
+-->
+<!ELEMENT isicV4 (#PCDATA)>
+
+<!--
+    EN: The North American Industry Classification System (NAICS) code for a particular
+        organization or business person.
+    DE: Der NAICS-Code (Nordamerikanisches Industrieklassifikationssystem) fuer eine
+        bestimmte Organisation oder Geschaeftsperson.
+    Type: Text
+-->
+<!ELEMENT naics (#PCDATA)>
+
+<!--
+    EN: The Global Location Number (GLN) of the respective organization, person, or place.
+        The GLN is a 13-digit number used to identify parties and physical locations.
+    DE: Die Globale Lokationsnummer (GLN) der entsprechenden Organisation, Person oder
+        des Ortes. Die GLN ist eine 13-stellige Nummer zur Identifizierung von Parteien
+        und physischen Standorten.
+    Type: Text
+-->
+<!ELEMENT globalLocationNumber (#PCDATA)>
+
+<!--
+    EN: An organization identifier as defined in ISO 6523(-1). Format: XXXX:YYYYYY or
+        XXXX:YYYYYY:ZZZ where XXXX is a 4-digit ICD, YYYYYY is an OID, and ZZZ is an
+        optional OPI.
+    DE: Ein Organisations-Bezeichner gemaess ISO 6523(-1). Format: XXXX:YYYYYY oder
+        XXXX:YYYYYY:ZZZ, wobei XXXX ein 4-stelliger ICD, YYYYYY eine OID und ZZZ
+        ein optionaler OPI ist.
+    Type: Text
+-->
+<!ELEMENT iso6523Code (#PCDATA)>
+
+<!--
+    EN: Of a Person, and less typically of an Organization, to indicate a topic
+        that is known about, suggesting possible expertise.
+    DE: Gibt ein Thema an, ueber das eine Person oder weniger typisch eine Organisation
+        Kenntnisse hat, was auf moegliche Expertise hindeutet.
+    Type: Text | Thing | URL
+-->
+<!ELEMENT knowsAbout (#PCDATA)>
+<!ATTLIST knowsAbout xml:lang (en|de) #IMPLIED>
+
+<!--
+    EN: Of a Person, and less typically of an Organization, to indicate a known language.
+        Use language codes from the IETF BCP 47 standard.
+    DE: Gibt eine bekannte Sprache einer Person oder weniger typisch einer Organisation an.
+        Verwenden Sie Sprachcodes gemaess dem IETF BCP 47-Standard.
+    Type: Language | Text
+    Examples / Beispiele: "en", "de", "fr", "zh"
+-->
+<!ELEMENT knowsLanguage (#PCDATA)>
+<!ATTLIST knowsLanguage
+    languageCode  CDATA  #IMPLIED
+>
+
+<!--
+    EN: One or multiple persons who represent this organization legally,
+        such as CEO or sole administrator.
+    DE: Eine oder mehrere Personen, die diese Organisation rechtlich vertreten,
+        z. B. CEO oder Alleinverwalter.
+    Type: Person
+-->
+<!ELEMENT legalRepresentative (#PCDATA)>
+<!ATTLIST legalRepresentative href CDATA #IMPLIED>
+
+<!--
+    EN: Certification information about a product, organization, service, place, or person.
+    DE: Zertifizierungsinformationen ueber ein Produkt, eine Organisation,
+        eine Dienstleistung, einen Ort oder eine Person.
+    Type: Certification
+-->
+<!ELEMENT hasCertification (name, certificationIdentification?, issuedBy?,
+                             certificationStatus?, validFrom?, validThrough?)>
+<!ELEMENT certificationIdentification (#PCDATA)>
+<!ELEMENT issuedBy                    (#PCDATA)>
+<!ATTLIST issuedBy href CDATA #IMPLIED>
+<!ELEMENT certificationStatus         (#PCDATA)>
+<!ELEMENT validFrom                   (#PCDATA)>
+<!ELEMENT validThrough                (#PCDATA)>
+
+<!--
+    EN: A credential awarded to the Person or Organization.
+    DE: Ein Zeugnis oder Berechtigungsnachweis, der einer Person oder Organisation
+        verliehen wurde.
+    Type: Credential
+-->
+<!ELEMENT hasCredential (name, description?, url?, validFrom?, validThrough?)>
+
+
+<!-- =============================================================================
+     END OF DTD
+     EN: Usage example — reference this DTD in your XML document as follows:
+         <!DOCTYPE ResearchProject SYSTEM "ResearchProject.dtd">
+
+         Minimal EN instance:
+         <ResearchProject xml:lang="en">
+           <name>Quantum Materials Research Initiative</name>
+           <description>A project investigating novel quantum materials.</description>
+           <url>https://example.org/qmri</url>
+           <foundingDate>2023-01-15</foundingDate>
+           <funder typeof="schema:Organization">European Research Council</funder>
+         </ResearchProject>
+
+         Minimal DE instance:
+         <ResearchProject xml:lang="de">
+           <name>Initiative zur Erforschung von Quantenmaterialien</name>
+           <description>Ein Projekt zur Untersuchung neuartiger Quantenmaterialien.</description>
+           <url>https://example.org/qmri</url>
+           <foundingDate>2023-01-15</foundingDate>
+           <funder typeof="schema:Organization">Europaeischer Forschungsrat</funder>
+         </ResearchProject>
+
+     DE: Verwendungsbeispiel — Verweisen Sie in Ihrem XML-Dokument wie folgt auf dieses DTD:
+         <!DOCTYPE ResearchProject SYSTEM "ResearchProject.dtd">
+============================================================================= -->

@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    project-template.fodt  –  Flat OpenDocument Text (open in LibreOffice Writer)
+    OpenRewi Publication Pipeline – Bilingual Project Information Template
+    =========================================================================
+    PURPOSE : Source of truth for all project outputs (XML, HTML, README, Wikidata).
+    HOW     : Fill in / update the EN and DE columns.
+              Pass the updated file to the technical team who will update the
+              XML instances and regenerate HTML + other outputs.
+    SCHEMA  : https://schema.org/ResearchProject  |  DTD: ResearchProject.dtd
+    PIPELINE: See pipeline.md for the full workflow description.
+-->
+<office:document
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
+  xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0"
+  xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+  xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
+  xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
+  xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+  office:mimetype="application/vnd.oasis.opendocument.text"
+  office:version="1.3">
+
+  <office:meta>
+    <meta:creation-date>2026-06-11T00:00:00</meta:creation-date>
+    <dc:title>ResearchProject Information Template – OpenRewi Publication Pipeline</dc:title>
+    <dc:description>Bilingual EN/DE source-of-truth template. Fill in and pass to technical team to regenerate XML and HTML outputs.</dc:description>
+  </office:meta>
+
+  <office:scripts/>
+  <office:font-face-decls/>
+
+  <!-- ============================================================
+       NAMED PARAGRAPH STYLES
+  ============================================================ -->
+  <office:styles>
+
+    <style:default-style style:family="paragraph">
+      <style:paragraph-properties fo:margin-bottom="0.15cm" style:writing-mode="lr-tb"/>
+      <style:text-properties fo:font-size="10pt" fo:language="en" fo:country="GB"/>
+    </style:default-style>
+
+    <style:style style:name="Standard" style:family="paragraph" style:class="text">
+      <style:paragraph-properties fo:margin-bottom="0.15cm"/>
+      <style:text-properties fo:font-size="10pt"/>
+    </style:style>
+
+    <style:style style:name="Heading 1" style:family="paragraph"
+      style:parent-style-name="Standard" style:next-style-name="Standard" style:class="text">
+      <style:paragraph-properties fo:margin-top="0.5cm" fo:margin-bottom="0.25cm"
+        fo:keep-with-next="always"/>
+      <style:text-properties fo:font-size="16pt" fo:font-weight="bold" fo:color="#1a3a5c"/>
+    </style:style>
+
+    <style:style style:name="Heading 2" style:family="paragraph"
+      style:parent-style-name="Standard" style:next-style-name="Standard" style:class="text">
+      <style:paragraph-properties fo:margin-top="0.45cm" fo:margin-bottom="0.15cm"
+        fo:border-bottom="1pt solid #2563a8" fo:padding-bottom="0.08cm"
+        fo:keep-with-next="always"/>
+      <style:text-properties fo:font-size="12pt" fo:font-weight="bold" fo:color="#1a5276"/>
+    </style:style>
+
+    <style:style style:name="Instruction Box" style:family="paragraph"
+      style:parent-style-name="Standard">
+      <style:paragraph-properties fo:margin-top="0.15cm" fo:margin-bottom="0.3cm"
+        fo:padding="0.2cm"
+        fo:border-top="0.5pt solid #93c5e0" fo:border-bottom="0.5pt solid #93c5e0"
+        fo:border-left="3pt solid #2563a8" fo:border-right="0.5pt solid #93c5e0"
+        fo:background-color="#ebf5fb"/>
+      <style:text-properties fo:font-size="9pt" fo:font-style="italic" fo:color="#1a5276"/>
+    </style:style>
+
+    <style:style style:name="Table Contents" style:family="paragraph"
+      style:parent-style-name="Standard" style:class="extra">
+      <style:paragraph-properties fo:margin-top="0.04cm" fo:margin-bottom="0.04cm"/>
+      <style:text-properties fo:font-size="9pt"/>
+    </style:style>
+
+    <style:style style:name="Table Header" style:family="paragraph"
+      style:parent-style-name="Table Contents" style:class="extra">
+      <style:text-properties fo:font-weight="bold" fo:color="#ffffff" fo:font-size="9pt"/>
+    </style:style>
+
+    <style:style style:name="Table Label" style:family="paragraph"
+      style:parent-style-name="Table Contents">
+      <style:text-properties fo:font-weight="bold" fo:color="#1a3a5c" fo:font-size="8.5pt"/>
+    </style:style>
+
+    <style:style style:name="Table Note" style:family="paragraph"
+      style:parent-style-name="Table Contents">
+      <style:text-properties fo:font-style="italic" fo:color="#888888" fo:font-size="7.5pt"/>
+    </style:style>
+
+    <style:style style:name="Table Section" style:family="paragraph"
+      style:parent-style-name="Table Contents">
+      <style:text-properties fo:font-weight="bold" fo:color="#1a5276" fo:font-size="8pt"
+        fo:font-style="italic"/>
+    </style:style>
+
+  </office:styles>
+
+  <!-- ============================================================
+       AUTOMATIC STYLES  (table structure, page layout)
+  ============================================================ -->
+  <office:automatic-styles>
+
+    <!-- Page: A4, 2 cm margins -->
+    <style:page-layout style:name="pm1">
+      <style:page-layout-properties
+        fo:page-width="21cm" fo:page-height="29.7cm"
+        style:print-orientation="portrait"
+        fo:margin-top="2cm" fo:margin-bottom="2cm"
+        fo:margin-left="2cm" fo:margin-right="2cm"/>
+    </style:page-layout>
+
+    <!-- Tables -->
+    <style:style style:name="tbl.active" style:family="table">
+      <style:table-properties style:width="16.5cm" table:align="left"
+        fo:margin-bottom="0.5cm"/>
+    </style:style>
+    <style:style style:name="tbl.unused" style:family="table">
+      <style:table-properties style:width="16.5cm" table:align="left"
+        fo:margin-bottom="0.5cm"/>
+    </style:style>
+
+    <!-- Columns: active table -->
+    <style:style style:name="col.label" style:family="table-column">
+      <style:table-column-properties style:column-width="4.5cm"/>
+    </style:style>
+    <style:style style:name="col.en" style:family="table-column">
+      <style:table-column-properties style:column-width="6cm"/>
+    </style:style>
+    <style:style style:name="col.de" style:family="table-column">
+      <style:table-column-properties style:column-width="6cm"/>
+    </style:style>
+
+    <!-- Columns: unused fields table -->
+    <style:style style:name="col.uf" style:family="table-column">
+      <style:table-column-properties style:column-width="4.5cm"/>
+    </style:style>
+    <style:style style:name="col.ud" style:family="table-column">
+      <style:table-column-properties style:column-width="12cm"/>
+    </style:style>
+
+    <!-- Rows -->
+    <style:style style:name="row.hdr" style:family="table-row">
+      <style:table-row-properties style:min-row-height="0.7cm"/>
+    </style:style>
+    <style:style style:name="row.data" style:family="table-row">
+      <style:table-row-properties style:min-row-height="0.55cm"/>
+    </style:style>
+
+    <!-- Cells: active table -->
+    <style:style style:name="cell.header" style:family="table-cell">
+      <style:table-cell-properties fo:padding="0.12cm"
+        fo:border="0.5pt solid #0d2137"
+        fo:background-color="#1a3a5c" style:vertical-align="middle"/>
+    </style:style>
+    <style:style style:name="cell.label" style:family="table-cell">
+      <style:table-cell-properties fo:padding="0.1cm"
+        fo:border="0.5pt solid #9ab8d0"
+        fo:background-color="#dce8f4" style:vertical-align="top"/>
+    </style:style>
+    <style:style style:name="cell.en" style:family="table-cell">
+      <style:table-cell-properties fo:padding="0.12cm 0.18cm"
+        fo:border="0.5pt solid #9ab8d0"
+        fo:background-color="#ffffff" style:vertical-align="top"/>
+    </style:style>
+    <style:style style:name="cell.de" style:family="table-cell">
+      <style:table-cell-properties fo:padding="0.12cm 0.18cm"
+        fo:border="0.5pt solid #9ab8d0"
+        fo:background-color="#fffff8" style:vertical-align="top"/>
+    </style:style>
+    <style:style style:name="cell.span" style:family="table-cell">
+      <style:table-cell-properties fo:padding="0.08cm 0.12cm"
+        fo:border="0.5pt solid #7aaac8"
+        fo:background-color="#c8dff0" style:vertical-align="middle"/>
+    </style:style>
+
+    <!-- Cells: unused table -->
+    <style:style style:name="cell.uf" style:family="table-cell">
+      <style:table-cell-properties fo:padding="0.1cm"
+        fo:border="0.5pt solid #cccccc"
+        fo:background-color="#efefef" style:vertical-align="top"/>
+    </style:style>
+    <style:style style:name="cell.ud" style:family="table-cell">
+      <style:table-cell-properties fo:padding="0.1cm"
+        fo:border="0.5pt solid #cccccc"
+        fo:background-color="#fafafa" style:vertical-align="top"/>
+    </style:style>
+    <style:style style:name="cell.usec" style:family="table-cell">
+      <style:table-cell-properties fo:padding="0.07cm 0.12cm"
+        fo:border="0.5pt solid #aaaaaa"
+        fo:background-color="#e0e0e0" style:vertical-align="middle"/>
+    </style:style>
+    <style:style style:name="cell.uheader" style:family="table-cell">
+      <style:table-cell-properties fo:padding="0.1cm"
+        fo:border="0.5pt solid #555555"
+        fo:background-color="#555555" style:vertical-align="middle"/>
+    </style:style>
+
+  </office:automatic-styles>
+
+  <office:master-styles>
+    <style:master-page style:name="Standard" style:page-layout-name="pm1"/>
+  </office:master-styles>
+
+  <!-- ============================================================
+       DOCUMENT BODY
+  ============================================================ -->
+  <office:body>
+    <office:text>
+
+      <!-- Title -->
+      <text:h text:style-name="Heading 1" text:outline-level="1"
+        >ResearchProject — Project Information Template</text:h>
+      <text:h text:style-name="Heading 2" text:outline-level="2"
+        >OpenRewi Publication Pipeline (OPP)</text:h>
+
+      <!-- Instructions -->
+      <text:p text:style-name="Instruction Box">Instructions for non-technical editors: This document is the source of truth for all project information outputs (XML, HTML webpage, GitLab README, Wikidata entries, etc.). Fill in or update the English (EN) and German (DE) columns below. URLs, identifiers, and names that do not require translation — write "(= EN)" in the DE column. When done, pass the updated file to the technical team who will update the XML files and regenerate all outputs. Schema reference: https://schema.org/ResearchProject | DTD: ResearchProject.dtd</text:p>
+
+      <!-- =========================================================
+           SECTION 1: ACTIVE FIELDS
+      ========================================================= -->
+      <text:h text:style-name="Heading 2" text:outline-level="2"
+        >Active Project Fields</text:h>
+
+      <table:table table:name="ActiveFields" table:style-name="tbl.active">
+        <table:table-column table:style-name="col.label"/>
+        <table:table-column table:style-name="col.en"/>
+        <table:table-column table:style-name="col.de"/>
+
+        <!-- HEADER ROW -->
+        <table:table-row table:style-name="row.hdr">
+          <table:table-cell table:style-name="cell.header">
+            <text:p text:style-name="Table Header">Field (schema.org)</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.header">
+            <text:p text:style-name="Table Header">English (EN)</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.header">
+            <text:p text:style-name="Table Header">Deutsch (DE)</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- name -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">name</text:p>
+            <text:p text:style-name="Table Note">Project title</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Contents">OpenRewi Publication Pipeline</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Contents">OpenRewi-Publikationspipeline</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- alternateName -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">alternateName</text:p>
+            <text:p text:style-name="Table Note">Acronym / short name</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Contents">OPP</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Contents">(= EN)</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- disambiguatingDescription -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">disambiguatingDescription</text:p>
+            <text:p text:style-name="Table Note">Strapline — one sentence for disambiguation</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Contents">Independent publication pipeline for the OpenRewi textbook series</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Contents">Plattformunabhängige Publikationspipeline für die OpenRewi-Lehrbuchreihe</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- description -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">description</text:p>
+            <text:p text:style-name="Table Note">Full project description. Separate paragraphs with a blank line.</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Contents">An experimental joint project between the TIB, OpenRewi, and the VEStOR project (University of Applied Sciences Potsdam). It aims to deliver a publication pipeline that is as production-ready as possible for the OpenRewi textbook series. It also serves as a proof of concept for embedding single-source publishing workflows into a comprehensive, digital sovereign publication infrastructure.</text:p>
+            <text:p text:style-name="Table Contents"> </text:p>
+            <text:p text:style-name="Table Contents">The project aims to establish a technical workflow that transforms open standards word processing files and integrated Zotero citations, used in real-time collaborative environments, into usable data packages for multi-format output. The system design is oriented to standards as opposed to platforms to enable and advocate for bibliodiversity, e.g., Open Document Format, Citation Style Language, W3C CSS Paged Media, and for computational notebooks (Jupyter Notebooks).</text:p>
+            <text:p text:style-name="Table Contents"> </text:p>
+            <text:p text:style-name="Table Contents">Key aspects: (1) Single-Source Approach: Content is authored in a central environment (e.g., Nextcloud and a word processor) and rendered into web, PDF, and print formats from a single source of data. (2) Technical Stack: The pipeline utilizes Pandoc and Quarto for converting to high-fidelity rendering. (3) Evolution of Tools: Due to technical and licensing shifts the project is currently testing a variety of Nextcloud-based word processors to maintain digital sovereignty. (4) Interactive Content: The workflow enables the use of H5P interactive elements in web versions using Jupyter Notebooks while ensuring they do not disrupt word processing workflows, e.g., static PDF exports.</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Contents">Ein experimentelles Gemeinschaftsprojekt der TIB, OpenRewi und des VEStOR-Projekts (Hochschule für Technik und Wirtschaft Potsdam). Ziel ist es, eine möglichst produktionsreife Publikationspipeline für die OpenRewi-Lehrbuchreihe bereitzustellen. Das Projekt dient zudem als Proof of Concept für die Einbettung von Single-Source-Publishing-Workflows in eine umfassende, digital souveräne Publikationsinfrastruktur.</text:p>
+            <text:p text:style-name="Table Contents"> </text:p>
+            <text:p text:style-name="Table Contents">Das Projekt zielt darauf ab, einen technischen Workflow zu etablieren, der Textverarbeitungsdateien nach offenen Standards und integrierte Zotero-Zitate, die in Echtzeit-Kollaborationsumgebungen verwendet werden, in nutzbare Datenpakete für die Ausgabe in verschiedenen Formaten umwandelt. Das Systemdesign orientiert sich an Standards statt an Plattformen, um Bibliodiversität zu ermöglichen und zu fördern, z. B. Open Document Format, Citation Style Language, W3C CSS Paged Media sowie für computergestützte Notizbücher (Jupyter Notebooks).</text:p>
+            <text:p text:style-name="Table Contents"> </text:p>
+            <text:p text:style-name="Table Contents">Kernaspekte: (1) Single-Source-Ansatz: Inhalte werden in einer zentralen Umgebung (z. B. Nextcloud und einem Textverarbeitungsprogramm) erstellt und aus einer einzigen Datenquelle in Web-, PDF- und Druckformate gerendert. (2) Technischer Stack: Die Pipeline nutzt Pandoc und Quarto für die Konvertierung zu einer originalgetreuen Darstellung. (3) Weiterentwicklung der Tools: Aufgrund technischer und lizenzrechtlicher Veränderungen testet das Projekt derzeit verschiedene Nextcloud-basierte Textverarbeitungsprogramme, um die digitale Souveränität zu wahren. (4) Interaktive Inhalte: Der Workflow ermöglicht die Verwendung interaktiver H5P-Elemente in Webversionen unter Verwendung von Jupyter Notebooks und stellt gleichzeitig sicher, dass diese die Textverarbeitungsabläufe, z. B. statische PDF-Exporte, nicht beeinträchtigen.</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- url -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">url</text:p>
+            <text:p text:style-name="Table Note">Primary project URL</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Contents">https://gitlab.com/TIBHannover/open-science-lab/opp</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Contents">(= EN)</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- sameAs -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">sameAs</text:p>
+            <text:p text:style-name="Table Note">Related authoritative URLs — one per line</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Contents">https://openrewi.org/</text:p>
+            <text:p text:style-name="Table Contents">https://www.fh-potsdam.de/forschung-transfer/projekte/vestor</text:p>
+            <text:p text:style-name="Table Contents">https://www.tib.eu/de/forschung-entwicklung/forschungsgruppen-und-labs/open-science</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Contents">(= EN)</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- identifier -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">identifier</text:p>
+            <text:p text:style-name="Table Note">Grant / project ID. Use propertyID attribute in XML.</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Contents">VEStOR BMBFSFJ Grant ID 01PO23004A</text:p>
+            <text:p text:style-name="Table Note">propertyID="GrantID" value="01PO23004A"</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Contents">VEStOR BMBFSFJ Förderkennzeichen 01PO23004A</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- images / logos -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">image → imageObject</text:p>
+            <text:p text:style-name="Table Note">Partner logos. Format: Caption | URL</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Label">OpenRewi logo</text:p>
+            <text:p text:style-name="Table Note">https://gitlab.com/TIBHannover/open-science-lab/opp/-/raw/main/images/logos/openrewi-logo.png</text:p>
+            <text:p text:style-name="Table Label">VEStOR logo</text:p>
+            <text:p text:style-name="Table Note">https://gitlab.com/TIBHannover/open-science-lab/opp/-/raw/main/images/logos/vestor-logo.png</text:p>
+            <text:p text:style-name="Table Label">TIB – Leibniz Information Centre for Science and Technology logo</text:p>
+            <text:p text:style-name="Table Note">https://gitlab.com/TIBHannover/open-science-lab/opp/-/raw/main/images/logos/tib-logo.png</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Contents">URLs (= EN)</text:p>
+            <text:p text:style-name="Table Contents"> </text:p>
+            <text:p text:style-name="Table Label">DE captions:</text:p>
+            <text:p text:style-name="Table Contents">OpenRewi-Logo</text:p>
+            <text:p text:style-name="Table Contents">VEStOR-Logo</text:p>
+            <text:p text:style-name="Table Contents">TIB – Leibniz-Informationszentrum Technik und Naturwissenschaften Logo</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- dates -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">foundingDate / dissolutionDate</text:p>
+            <text:p text:style-name="Table Note">ISO 8601 (YYYY-MM-DD or YYYY)</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Contents">Start: 2026</text:p>
+            <text:p text:style-name="Table Contents">End: 2026</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Contents">(= EN)</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- parentOrganization / Lead -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">parentOrganization</text:p>
+            <text:p text:style-name="Table Note">Lead organisation. Include ROR ID as href.</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Contents">VEStOR Project – University of Applied Sciences Potsdam</text:p>
+            <text:p text:style-name="Table Note">ROR: https://ror.org/012m9bp23</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Contents">VEStOR-Projekt – Hochschule für Technik und Wirtschaft Potsdam</text:p>
+            <text:p text:style-name="Table Note">ROR: https://ror.org/012m9bp23</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- member / Team -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">member</text:p>
+            <text:p text:style-name="Table Note">Team members. Format: Name | ORCID iD</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Contents">Lambert Heller</text:p>
+            <text:p text:style-name="Table Note">ORCID: 0000-0003-0232-7085</text:p>
+            <text:p text:style-name="Table Contents">Simon Worthington</text:p>
+            <text:p text:style-name="Table Note">ORCID: 0000-0002-8579-9717</text:p>
+            <text:p text:style-name="Table Contents">Philipp Falkenburg</text:p>
+            <text:p text:style-name="Table Note">ORCID: 0000-0001-9788-8277</text:p>
+            <text:p text:style-name="Table Contents">Evin Dalkilic</text:p>
+            <text:p text:style-name="Table Note">ORCID: 0009-0008-2234-2323</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Contents">(= EN)</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- memberOf / Partners -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">memberOf</text:p>
+            <text:p text:style-name="Table Note">Partner organisations. Include ROR or URL as href.</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Contents">OpenRewi</text:p>
+            <text:p text:style-name="Table Note">https://openrewi.org/</text:p>
+            <text:p text:style-name="Table Contents">TIB – Technische Informationsbibliothek (Leibniz Information Centre for Science and Technology)</text:p>
+            <text:p text:style-name="Table Note">ROR: https://ror.org/04aj4c181</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Contents">OpenRewi</text:p>
+            <text:p text:style-name="Table Contents">TIB – Technische Informationsbibliothek (Leibniz-Informationszentrum Technik und Naturwissenschaften und Universitätsbibliothek)</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- funding / Grant -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">funding</text:p>
+            <text:p text:style-name="Table Note">Grant details: name | identifier | funder | url</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Label">Name:</text:p>
+            <text:p text:style-name="Table Contents">VEStOR</text:p>
+            <text:p text:style-name="Table Label">Grant ID:</text:p>
+            <text:p text:style-name="Table Contents">01PO23004A</text:p>
+            <text:p text:style-name="Table Label">Funder:</text:p>
+            <text:p text:style-name="Table Contents">BMBFSFJ – German Federal Ministry</text:p>
+            <text:p text:style-name="Table Label">URL:</text:p>
+            <text:p text:style-name="Table Note">https://www.fh-potsdam.de/forschung-transfer/projekte/vestor</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Label">Name:</text:p>
+            <text:p text:style-name="Table Contents">VEStOR</text:p>
+            <text:p text:style-name="Table Label">Förderkennzeichen:</text:p>
+            <text:p text:style-name="Table Contents">01PO23004A</text:p>
+            <text:p text:style-name="Table Label">Förderer:</text:p>
+            <text:p text:style-name="Table Contents">BMBFSFJ – Bundesministerium</text:p>
+            <text:p text:style-name="Table Label">URL:</text:p>
+            <text:p text:style-name="Table Note">https://www.fh-potsdam.de/forschung-transfer/projekte/vestor</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- keywords -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">keywords</text:p>
+            <text:p text:style-name="Table Note">Comma-separated keyword list</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Contents">single-source publishing, publication pipeline, open science, OpenRewi, digital sovereignty, bibliodiversity, Pandoc, Quarto, Jupyter Notebooks, Open Document Format, Citation Style Language, H5P, Zotero, open access, open education resources, CSS Paged Media, MIT licence, CC BY-SA 4.0, CC0</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Contents">Single-Source-Publishing, Publikationspipeline, Open Science, OpenRewi, digitale Souveränität, Bibliodiversität, Pandoc, Quarto, Jupyter Notebooks, Open Document Format, Citation Style Language, H5P, Zotero, Open Access, offene Bildungsressourcen, CSS Paged Media, MIT-Lizenz, CC BY-SA 4.0, CC0</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- knowsAbout -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">knowsAbout</text:p>
+            <text:p text:style-name="Table Note">Subject-area expertise — one topic per line</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Contents">single-source publishing</text:p>
+            <text:p text:style-name="Table Contents">open access publishing</text:p>
+            <text:p text:style-name="Table Contents">digital sovereignty</text:p>
+            <text:p text:style-name="Table Contents">bibliodiversity</text:p>
+            <text:p text:style-name="Table Contents">Open Document Format (ODF)</text:p>
+            <text:p text:style-name="Table Contents">Citation Style Language (CSL)</text:p>
+            <text:p text:style-name="Table Contents">Pandoc document conversion</text:p>
+            <text:p text:style-name="Table Contents">Quarto scientific publishing</text:p>
+            <text:p text:style-name="Table Contents">Jupyter Notebooks</text:p>
+            <text:p text:style-name="Table Contents">H5P interactive content</text:p>
+            <text:p text:style-name="Table Contents">Zotero citation management</text:p>
+            <text:p text:style-name="Table Contents">W3C CSS Paged Media</text:p>
+            <text:p text:style-name="Table Contents">open educational resources (OER)</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Contents">Single-Source-Publishing</text:p>
+            <text:p text:style-name="Table Contents">Open-Access-Publizieren</text:p>
+            <text:p text:style-name="Table Contents">digitale Souveränität</text:p>
+            <text:p text:style-name="Table Contents">Bibliodiversität</text:p>
+            <text:p text:style-name="Table Contents">Open Document Format (ODF)</text:p>
+            <text:p text:style-name="Table Contents">Citation Style Language (CSL)</text:p>
+            <text:p text:style-name="Table Contents">Pandoc-Dokumentenkonvertierung</text:p>
+            <text:p text:style-name="Table Contents">Quarto-Wissenschaftspublizieren</text:p>
+            <text:p text:style-name="Table Contents">Jupyter Notebooks</text:p>
+            <text:p text:style-name="Table Contents">H5P-Interaktive-Inhalte</text:p>
+            <text:p text:style-name="Table Contents">Zotero-Literaturverwaltung</text:p>
+            <text:p text:style-name="Table Contents">W3C CSS Paged Media</text:p>
+            <text:p text:style-name="Table Contents">offene Bildungsressourcen (OER)</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- knowsLanguage -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">knowsLanguage</text:p>
+            <text:p text:style-name="Table Note">IETF BCP 47 language codes</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Contents">en (English)</text:p>
+            <text:p text:style-name="Table Contents">de (German)</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Contents">de (Deutsch)</text:p>
+            <text:p text:style-name="Table Contents">en (Englisch)</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- hasCredential / Licences -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.label">
+            <text:p text:style-name="Table Label">hasCredential</text:p>
+            <text:p text:style-name="Table Note">Licences and copyright. Format: Name | Description | URL</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.en">
+            <text:p text:style-name="Table Label">MIT Licence (Code)</text:p>
+            <text:p text:style-name="Table Contents">Code is released under the MIT Licence or another OSI-compliant open source licence. Copyright: The authors.</text:p>
+            <text:p text:style-name="Table Note">https://mit-license.org/</text:p>
+            <text:p text:style-name="Table Contents"> </text:p>
+            <text:p text:style-name="Table Label">CC BY-SA 4.0 (Content)</text:p>
+            <text:p text:style-name="Table Contents">Content is licensed under Creative Commons Attribution-ShareAlike 4.0 International.</text:p>
+            <text:p text:style-name="Table Note">https://creativecommons.org/licenses/by-sa/4.0/</text:p>
+            <text:p text:style-name="Table Contents"> </text:p>
+            <text:p text:style-name="Table Label">CC0 1.0 Universal (Metadata)</text:p>
+            <text:p text:style-name="Table Contents">Metadata is dedicated to the public domain under Creative Commons Zero 1.0 Universal.</text:p>
+            <text:p text:style-name="Table Note">https://creativecommons.org/publicdomain/zero/1.0/</text:p>
+            <text:p text:style-name="Table Contents"> </text:p>
+            <text:p text:style-name="Table Label">SIL Open Font Licence (Fonts)</text:p>
+            <text:p text:style-name="Table Contents">Fonts are licensed under the SIL Open Font Licence or another open font licence.</text:p>
+            <text:p text:style-name="Table Note">https://software.sil.org/oflt/</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.de">
+            <text:p text:style-name="Table Label">MIT-Lizenz (Code)</text:p>
+            <text:p text:style-name="Table Contents">Der Code wird unter der MIT-Lizenz oder einer anderen OSI-konformen Open-Source-Lizenz veröffentlicht. Urheberrecht: Die Autoren.</text:p>
+            <text:p text:style-name="Table Note">https://mit-license.org/</text:p>
+            <text:p text:style-name="Table Contents"> </text:p>
+            <text:p text:style-name="Table Label">CC BY-SA 4.0 (Inhalte)</text:p>
+            <text:p text:style-name="Table Contents">Inhalte sind unter der Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International lizenziert.</text:p>
+            <text:p text:style-name="Table Note">https://creativecommons.org/licenses/by-sa/4.0/deed.de</text:p>
+            <text:p text:style-name="Table Contents"> </text:p>
+            <text:p text:style-name="Table Label">CC0 1.0 Universal (Metadaten)</text:p>
+            <text:p text:style-name="Table Contents">Metadaten sind unter Creative Commons Zero 1.0 Universal dem öffentlichen Bereich gewidmet.</text:p>
+            <text:p text:style-name="Table Note">https://creativecommons.org/publicdomain/zero/1.0/deed.de</text:p>
+            <text:p text:style-name="Table Contents"> </text:p>
+            <text:p text:style-name="Table Label">SIL Open Font Licence (Schriften)</text:p>
+            <text:p text:style-name="Table Contents">Schriften stehen unter der SIL Open Font Licence oder einer anderen offenen Schriftlizenz.</text:p>
+            <text:p text:style-name="Table Note">https://software.sil.org/oflt/</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+      </table:table>
+
+      <!-- =========================================================
+           SECTION 2: UNUSED DTD FIELDS (reference)
+      ========================================================= -->
+      <text:h text:style-name="Heading 2" text:outline-level="2"
+        >Unused DTD Fields (Reference)</text:h>
+
+      <text:p text:style-name="Instruction Box">These fields are defined in ResearchProject.dtd but are not currently populated. They are listed here for reference. To activate a field, add the value in the table above and ask the technical team to add it to the XML instances.</text:p>
+
+      <table:table table:name="UnusedFields" table:style-name="tbl.unused">
+        <table:table-column table:style-name="col.uf"/>
+        <table:table-column table:style-name="col.ud"/>
+
+        <!-- Header -->
+        <table:table-row table:style-name="row.hdr">
+          <table:table-cell table:style-name="cell.uheader">
+            <text:p text:style-name="Table Header">Field (schema.org)</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="cell.uheader">
+            <text:p text:style-name="Table Header">Description</text:p>
+          </table:table-cell>
+        </table:table-row>
+
+        <!-- GROUP: Contact and address -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.usec" table:number-columns-spanned="2">
+            <text:p text:style-name="Table Section">Contact and Address</text:p>
+          </table:table-cell>
+          <table:covered-table-cell/>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">legalName</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Official registered name of the organization</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">address</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Physical address: streetAddress, addressLocality, addressRegion, postalCode, addressCountry</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">email</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Contact email address</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">telephone</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Telephone number</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">faxNumber</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Fax number</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">contactPoint</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Structured contact point: contactType, telephone, email, url, availableLanguage, areaServed</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">location</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Physical or virtual location: Place (with name, address, geo), PostalAddress, or VirtualLocation</text:p></table:table-cell>
+        </table:table-row>
+
+        <!-- GROUP: People and structure -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.usec" table:number-columns-spanned="2">
+            <text:p text:style-name="Table Section">People and Organisational Structure</text:p>
+          </table:table-cell>
+          <table:covered-table-cell/>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">founder</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Person or organization who founded this project/organization</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">employee</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Someone employed by this organization (use member for project team members)</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">department</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">A department of this organization</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">subOrganization</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">A sub-organization of this one (inverse of parentOrganization)</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">legalRepresentative</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Person(s) legally representing this organization (e.g. CEO, director)</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">numberOfEmployees</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Number of employees (QuantitativeValue with optional min/max/unit)</text:p></table:table-cell>
+        </table:table-row>
+
+        <!-- GROUP: Identity and branding -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.usec" table:number-columns-spanned="2">
+            <text:p text:style-name="Table Section">Identity and Branding</text:p>
+          </table:table-cell>
+          <table:covered-table-cell/>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">logo</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Primary organizational logo (ImageObject or URL). Currently using image* for partner logos.</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">brand</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Brand or Organization associated with this item</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">award</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">An award won by or for this item</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">slogan</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">A slogan or motto associated with the item</text:p></table:table-cell>
+        </table:table-row>
+
+        <!-- GROUP: Additional funding -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.usec" table:number-columns-spanned="2">
+            <text:p text:style-name="Table Section">Additional Funding and Support</text:p>
+          </table:table-cell>
+          <table:covered-table-cell/>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">funder (standalone)</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Top-level funder without a named grant. Currently funder is nested inside funding element.</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">sponsor</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Person or organization supporting through a pledge, promise, or financial contribution</text:p></table:table-cell>
+        </table:table-row>
+
+        <!-- GROUP: Reviews and events -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.usec" table:number-columns-spanned="2">
+            <text:p text:style-name="Table Section">Reviews and Events</text:p>
+          </table:table-cell>
+          <table:covered-table-cell/>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">review</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">A review of the item: reviewBody, reviewRating, author</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">event</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Upcoming or past event: name, startDate, endDate, location, url, description</text:p></table:table-cell>
+        </table:table-row>
+
+        <!-- GROUP: Business identifiers -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.usec" table:number-columns-spanned="2">
+            <text:p text:style-name="Table Section">Business and Regulatory Identifiers</text:p>
+          </table:table-cell>
+          <table:covered-table-cell/>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">duns</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Dun &amp; Bradstreet DUNS number for identifying an organization</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">leiCode</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Legal Entity Identifier as defined in ISO 17442</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">taxID</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Tax / Fiscal ID (e.g. TIN in the US, Steuernummer in Germany)</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">vatID</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Value-added Tax ID with national prefix (e.g. DE123456789)</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">isicV4</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">International Standard of Industrial Classification (ISIC) Revision 4 code</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">naics</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">North American Industry Classification System (NAICS) code</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">globalLocationNumber</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Global Location Number (GLN) — 13-digit identifier for parties and locations</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">iso6523Code</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">ISO 6523(-1) organization identifier. Format: XXXX:YYYYYY</text:p></table:table-cell>
+        </table:table-row>
+
+        <!-- GROUP: Certification -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.usec" table:number-columns-spanned="2">
+            <text:p text:style-name="Table Section">Certification</text:p>
+          </table:table-cell>
+          <table:covered-table-cell/>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">hasCertification</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Certification information: name, certificationIdentification, issuedBy, certificationStatus, validFrom, validThrough</text:p></table:table-cell>
+        </table:table-row>
+
+        <!-- GROUP: Schema.org Thing properties -->
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.usec" table:number-columns-spanned="2">
+            <text:p text:style-name="Table Section">Schema.org Thing Properties (advanced)</text:p>
+          </table:table-cell>
+          <table:covered-table-cell/>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">additionalType</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Additional type from an external vocabulary (Text or URL)</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">mainEntityOfPage</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Page (CreativeWork or URL) for which this thing is the main entity described</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">subjectOf</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">A CreativeWork or Event about this thing</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">potentialAction</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">A potential Action in which this thing plays an object role</text:p></table:table-cell>
+        </table:table-row>
+        <table:table-row table:style-name="row.data">
+          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">owner</text:p></table:table-cell>
+          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Person or organization who owns this thing</text:p></table:table-cell>
+        </table:table-row>
+
+      </table:table>
+
+    </office:text>
+  </office:body>
+</office:document>
