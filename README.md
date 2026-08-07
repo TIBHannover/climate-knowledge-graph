@@ -74,7 +74,7 @@ ClimateKG can retrieve the answer along with the relevant chapter texts:
 <td><a href="https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/gender-distribution-simple.html#author-geography-south-america-and-india"><img src="images/india.png" alt="India" width="350"></a></td>
 </tr></table>
 
-### Planned release
+### Planned releases
 
 - **Document distribution:** The data provides a map of the internal structure of the corpus documents, enabling any section or piece of data to be retrieved and delivered to the user.
 - **Extended metadata:** Questions can be answered quickly and reliably. Metadata is distributed to library systems and the Data Commons on Wikidata.
