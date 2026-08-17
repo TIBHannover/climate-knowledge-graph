@@ -1,0 +1,130 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram id="ipcc_schematic" name="IPCC Report Schematic">
+    <mxGraphModel dx="1281" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="before_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#D1D5DB;strokeWidth=1.5;container=0;" value="" vertex="1">
+          <mxGeometry height="260" width="180" x="90" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="kg_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#93C5FD;strokeWidth=1.5;verticalAlign=top;container=0;" value="" vertex="1">
+          <mxGeometry height="250" width="540" x="280" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="after_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#FDE68A;strokeWidth=1.5;container=0;" value="" vertex="1">
+          <mxGeometry height="260" width="180" x="830" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="service_qa" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBF7D0;fontSize=12;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(75, 85, 99); background-color: transparent; text-align: center;&quot;&gt;•&lt;/span&gt;&lt;span style=&quot;color: rgb(75, 85, 99); background-color: transparent; text-align: center;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Q&amp;amp;A Service&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(75, 85, 99); background-color: transparent; text-align: center;&quot;&gt;•&lt;/span&gt;&lt;span style=&quot;color: rgb(75, 85, 99); background-color: transparent; text-align: center;&quot;&gt;&amp;nbsp;&lt;/span&gt;Extend library metadata&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(75, 85, 99); background-color: transparent; text-align: center;&quot;&gt;•&lt;/span&gt;&lt;span style=&quot;color: rgb(75, 85, 99); background-color: transparent; text-align: center;&quot;&gt;&amp;nbsp;&lt;/span&gt;Document distribution&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(75, 85, 99); background-color: transparent; text-align: center;&quot;&gt;•&lt;/span&gt;&lt;span style=&quot;color: rgb(75, 85, 99); background-color: transparent; text-align: center;&quot;&gt;&amp;nbsp;&lt;/span&gt;Data Bench&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="840" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="after_header" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D97706;strokeColor=none;fontStyle=1;fontSize=14;fontColor=#FFFFFF;align=center;" value="AFTER" vertex="1">
+          <mxGeometry height="35" width="180" x="830" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="before_header" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E5E7EB;strokeColor=none;fontStyle=1;fontSize=14;fontColor=#374151;align=center;" value="BEFORE" vertex="1">
+          <mxGeometry height="30" width="180" x="90" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="browser_icon" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CA3AF;fontSize=12;fontColor=#4B5563;verticalAlign=middle;spacing=5;" value="&lt;br&gt;• Static HTML Pages&lt;div&gt;• Database websites&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="140" x="110" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="before_text" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#1F2937;" value="&lt;b&gt;Browsable websites&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="100" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="fQMsRZ_61-RQ8AhCxYL_-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#1F2937;" value="&lt;b&gt;Publication using FAIR Principles&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="845" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="kg_header" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=none;fontStyle=1;fontSize=14;fontColor=#FFFFFF;align=center;" value="MAKE KNOWLEDGE GRAPH" vertex="1">
+          <mxGeometry height="30" width="540" x="280" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="in_block" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontSize=13;align=center;verticalAlign=top;" value="&lt;b&gt;In&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Website&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6B7280&quot;&gt;- Web scrape&lt;/font&gt;" vertex="1">
+          <mxGeometry height="91.53846153846155" width="129.99999999999997" x="300" y="422.3076923076923" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_in_build" edge="1" parent="1" source="in_block" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563EB;endArrow=classic;endFill=1;" target="build_block" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="build_block" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#60A5FA;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="91.53846153846155" width="179.99999999999997" x="460" y="422.3076923076923" as="geometry" />
+        </mxCell>
+        <mxCell id="build_title" parent="build_block" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#1E40AF;" value="&lt;b&gt;Build&lt;/b&gt;" vertex="1">
+          <mxGeometry height="13.46153846153846" width="159.99999999999997" x="9.999999999999998" y="5.384615384615385" as="geometry" />
+        </mxCell>
+        <mxCell id="build_datasets" parent="build_block" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=12;" value="&lt;b&gt;&amp;bull; Datasets&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#4B5563&quot;&gt;- Convert to data&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24.230769230769226" width="150" x="14.999999999999998" y="20.230769230769226" as="geometry" />
+        </mxCell>
+        <mxCell id="build_er" parent="build_block" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=12;" value="&lt;b&gt;&amp;bull; ER model&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#4B5563&quot;&gt;- Connect data&lt;/font&gt;" vertex="1">
+          <mxGeometry height="24.230769230769226" width="150" x="14.999999999999998" y="52.53846153846153" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_build_out" edge="1" parent="1" source="build_block" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563EB;endArrow=classic;endFill=1;" target="out_block" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="out_block" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontSize=13;align=center;verticalAlign=top;" value="&lt;b&gt;Out&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Knowledge graph&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6B7280&quot;&gt;- Structured data resource&lt;/font&gt;" vertex="1">
+          <mxGeometry height="91.53846153846155" width="129.99999999999997" x="670" y="422.3076923076923" as="geometry" />
+        </mxCell>
+        <mxCell id="user_public" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;fontSize=12;align=center;" value="&lt;b&gt;Public&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#4B5563&quot;&gt;- Learn about climate science&lt;/font&gt;" vertex="1">
+          <mxGeometry height="71.25" width="156.31578947368416" x="300.0005263157895" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="user_scientists" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;fontSize=12;align=center;" value="&lt;b&gt;Scientists&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#4B5563&quot;&gt;- Data analysis and contribute to knowledge graph&lt;br&gt;&lt;i&gt;&amp;nbsp;&lt;/i&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="71.25" width="169.47" x="470.53" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="user_policymakers" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;fontSize=12;align=center;" value="&lt;b&gt;Policy makers&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#4B5563&quot;&gt;- Fast access to docs and data&lt;/font&gt;" vertex="1">
+          <mxGeometry height="71.25" width="150" x="650" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="fQMsRZ_61-RQ8AhCxYL_-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontStyle=1;fontSize=14;fontColor=#FFFFFF;align=center;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;USERS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22.5" width="540" x="280" y="523.75" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ti337pkH1fEmtFxcckm-28" edge="1" parent="1" source="4Ti337pkH1fEmtFxcckm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4Ti337pkH1fEmtFxcckm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ti337pkH1fEmtFxcckm-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#D1D5DB;strokeWidth=1.5;container=0;" value="" vertex="1">
+          <mxGeometry height="190" width="180" x="90" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ti337pkH1fEmtFxcckm-29" edge="1" parent="1" source="4Ti337pkH1fEmtFxcckm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4Ti337pkH1fEmtFxcckm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ti337pkH1fEmtFxcckm-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#93C5FD;strokeWidth=1.5;verticalAlign=top;container=0;" value="" vertex="1">
+          <mxGeometry height="250" width="500" x="300" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ti337pkH1fEmtFxcckm-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#FDE68A;strokeWidth=1.5;container=0;" value="" vertex="1">
+          <mxGeometry height="190" width="180" x="830" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ti337pkH1fEmtFxcckm-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BBF7D0;fontSize=12;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(75, 85, 99); background-color: transparent; text-align: center;&quot;&gt;•&lt;/span&gt;&lt;span style=&quot;color: rgb(75, 85, 99); background-color: transparent; text-align: center;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Q&amp;amp;A Service&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(75, 85, 99); background-color: transparent; text-align: center;&quot;&gt;•&lt;/span&gt;&lt;span style=&quot;color: rgb(75, 85, 99); background-color: transparent; text-align: center;&quot;&gt;&amp;nbsp;&lt;/span&gt;Extend library metadata&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(75, 85, 99); background-color: transparent; text-align: center;&quot;&gt;•&lt;/span&gt;&lt;span style=&quot;color: rgb(75, 85, 99); background-color: transparent; text-align: center;&quot;&gt;&amp;nbsp;&lt;/span&gt;Document distribution&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(75, 85, 99); background-color: transparent; text-align: center;&quot;&gt;•&lt;/span&gt;&lt;span style=&quot;color: rgb(75, 85, 99); background-color: transparent; text-align: center;&quot;&gt;&amp;nbsp;&lt;/span&gt;Data Bench&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="105" width="160" x="840" y="103" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ti337pkH1fEmtFxcckm-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CA3AF;fontSize=12;fontColor=#4B5563;verticalAlign=middle;spacing=5;" value="&lt;br&gt;• Static HTML Pages&lt;div&gt;• Database websites&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="140" x="110" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ti337pkH1fEmtFxcckm-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#1F2937;" value="&lt;b&gt;Browsable websites&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="100" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ti337pkH1fEmtFxcckm-9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#1F2937;" value="&lt;b&gt;Dynamic data resource&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="845" y="53" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ti337pkH1fEmtFxcckm-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=none;fontStyle=1;fontSize=14;fontColor=#FFFFFF;align=center;" value="KNOWLEDGE GRAPH" vertex="1">
+          <mxGeometry height="30" width="500" x="300" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ti337pkH1fEmtFxcckm-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="526" y="136" />
+            </Array>
+            <mxPoint x="525.8299999999999" y="142.5" as="sourcePoint" />
+            <mxPoint x="574" y="136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Ti337pkH1fEmtFxcckm-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#60A5FA;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="125" width="210" x="315.83" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ti337pkH1fEmtFxcckm-14" parent="4Ti337pkH1fEmtFxcckm-13" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#1E40AF;" value="&lt;b&gt;Datasets&lt;/b&gt;" vertex="1">
+          <mxGeometry height="18.382352941176467" width="186.66666666666666" x="11.666666666666666" y="7.352941176470588" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ti337pkH1fEmtFxcckm-15" parent="4Ti337pkH1fEmtFxcckm-13" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=12;" value="&lt;ul&gt;&lt;li&gt;&lt;span id=&quot;docs-internal-guid-bb07573b-7fff-b8c7-e896-8f1429f7417f&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Corpus full text &amp;amp; structure &lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Bibliographic information &lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Glossary terms &lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Acronyms &lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Authors&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="202.5" y="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ti337pkH1fEmtFxcckm-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#60A5FA;strokeWidth=1;align=left;verticalAlign=middle;" value="&lt;div&gt;&amp;nbsp; &lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp;+- Corpus structure&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp;+- 7 reports&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; +- REPORT&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; |&amp;nbsp; &amp;lt;- Bibliographic information&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; |&amp;nbsp; &amp;lt;- Glossary terms&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; |&amp;nbsp; &amp;lt;- Acronyms&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; +- CHAPTER&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;- Authors&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;- Bibliographic information&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;lt;- Corpus full text&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="187" width="210" x="574" y="53" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ti337pkH1fEmtFxcckm-24" parent="4Ti337pkH1fEmtFxcckm-23" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#1E40AF;" value="&lt;b&gt;ER model&lt;/b&gt;" vertex="1">
+          <mxGeometry height="27.499999999999996" width="186.66666666666666" x="11.666666666666666" y="-0.0034736842105266533" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
