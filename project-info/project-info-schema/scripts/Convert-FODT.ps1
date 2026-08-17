@@ -39,7 +39,7 @@
 
 .EXAMPLE
     # Fetch, save local copy, then convert
-    .\Convert-FODT.ps1 -ShareUrl https://tib.cloud/s/QFJHz4NZZLJKTe2 `
+    .\Convert-FODT.ps1 -ShareUrl https://tib.cloud/s/2j3A4Mjp7SdjDZa `
                        -SaveFodt "C:\gitlab\opp\project-info\project-template-2026.fodt"
 
 .NOTES
@@ -52,7 +52,7 @@
 
 [CmdletBinding()]
 param(
-    [string] $ShareUrl  = "https://tib.cloud/s/QFJHz4NZZLJKTe2",
+    [string] $ShareUrl  = "https://tib.cloud/s/2j3A4Mjp7SdjDZa",
     [string] $LocalFodt,
     [string] $EnOut,
     [string] $DeOut,
@@ -74,7 +74,7 @@ $fodtPath = $LocalFodt
 
 if (-not $fodtPath) {
     $downloadUrl = $ShareUrl.TrimEnd('/') + '/download'
-    $fodtPath    = Join-Path ([System.IO.Path]::GetTempPath()) 'opp-project-template.fodt'
+    $fodtPath    = Join-Path ([System.IO.Path]::GetTempPath()) 'project-template-donotedit.fodt'
     Write-Host "Downloading FODT from $downloadUrl ..."
     try {
         Invoke-WebRequest -Uri $downloadUrl -OutFile $fodtPath -ErrorAction Stop

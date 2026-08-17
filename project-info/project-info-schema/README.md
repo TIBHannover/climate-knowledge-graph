@@ -1,4 +1,4 @@
-# OPP Project Information Pipeline
+# Project Information Pipeline
 
 ## Overview
 
