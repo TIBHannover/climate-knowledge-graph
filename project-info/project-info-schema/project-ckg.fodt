@@ -1,820 +1,1119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-    project-template.fodt  –  Flat OpenDocument Text (open in LibreOffice Writer)
-    OpenRewi Publication Pipeline – Bilingual Project Information Template
-    =========================================================================
-    PURPOSE : Source of truth for all project outputs (XML, HTML, README, Wikidata).
-    HOW     : Fill in / update the EN and DE columns.
-              Pass the updated file to the technical team who will update the
-              XML instances and regenerate HTML + other outputs.
-    SCHEMA  : https://schema.org/ResearchProject  |  DTD: ResearchProject.dtd
-    PIPELINE: See pipeline.md for the full workflow description.
--->
-<office:document
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
-  xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0"
-  xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
-  xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
-  xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
-  xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
-  office:mimetype="application/vnd.oasis.opendocument.text"
-  office:version="1.3">
 
-  <office:meta>
+<office:document xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" office:version="1.4" office:mimetype="application/vnd.oasis.opendocument.text">
+ <office:meta>
     <meta:creation-date>2026-06-11T00:00:00</meta:creation-date>
     <dc:title>ResearchProject Information Template – OpenRewi Publication Pipeline</dc:title>
     <dc:description>Bilingual EN/DE source-of-truth template. Fill in and pass to technical team to regenerate XML and HTML outputs.</dc:description>
-  </office:meta>
-
-  <office:scripts/>
-  <office:font-face-decls/>
-
-  <!-- ============================================================
-       NAMED PARAGRAPH STYLES
-  ============================================================ -->
-  <office:styles>
-
-    <style:default-style style:family="paragraph">
-      <style:paragraph-properties fo:margin-bottom="0.15cm" style:writing-mode="lr-tb"/>
-      <style:text-properties fo:font-size="10pt" fo:language="en" fo:country="GB"/>
-    </style:default-style>
-
-    <style:style style:name="Standard" style:family="paragraph" style:class="text">
-      <style:paragraph-properties fo:margin-bottom="0.15cm"/>
-      <style:text-properties fo:font-size="10pt"/>
-    </style:style>
-
-    <style:style style:name="Heading 1" style:family="paragraph"
-      style:parent-style-name="Standard" style:next-style-name="Standard" style:class="text">
-      <style:paragraph-properties fo:margin-top="0.5cm" fo:margin-bottom="0.25cm"
-        fo:keep-with-next="always"/>
-      <style:text-properties fo:font-size="16pt" fo:font-weight="bold" fo:color="#1a3a5c"/>
-    </style:style>
-
-    <style:style style:name="Heading 2" style:family="paragraph"
-      style:parent-style-name="Standard" style:next-style-name="Standard" style:class="text">
-      <style:paragraph-properties fo:margin-top="0.45cm" fo:margin-bottom="0.15cm"
-        fo:border-bottom="1pt solid #2563a8" fo:padding-bottom="0.08cm"
-        fo:keep-with-next="always"/>
-      <style:text-properties fo:font-size="12pt" fo:font-weight="bold" fo:color="#1a5276"/>
-    </style:style>
-
-    <style:style style:name="Instruction Box" style:family="paragraph"
-      style:parent-style-name="Standard">
-      <style:paragraph-properties fo:margin-top="0.15cm" fo:margin-bottom="0.3cm"
-        fo:padding="0.2cm"
-        fo:border-top="0.5pt solid #93c5e0" fo:border-bottom="0.5pt solid #93c5e0"
-        fo:border-left="3pt solid #2563a8" fo:border-right="0.5pt solid #93c5e0"
-        fo:background-color="#ebf5fb"/>
-      <style:text-properties fo:font-size="9pt" fo:font-style="italic" fo:color="#1a5276"/>
-    </style:style>
-
-    <style:style style:name="Table Contents" style:family="paragraph"
-      style:parent-style-name="Standard" style:class="extra">
-      <style:paragraph-properties fo:margin-top="0.04cm" fo:margin-bottom="0.04cm"/>
-      <style:text-properties fo:font-size="9pt"/>
-    </style:style>
-
-    <style:style style:name="Table Header" style:family="paragraph"
-      style:parent-style-name="Table Contents" style:class="extra">
-      <style:text-properties fo:font-weight="bold" fo:color="#ffffff" fo:font-size="9pt"/>
-    </style:style>
-
-    <style:style style:name="Table Label" style:family="paragraph"
-      style:parent-style-name="Table Contents">
-      <style:text-properties fo:font-weight="bold" fo:color="#1a3a5c" fo:font-size="8.5pt"/>
-    </style:style>
-
-    <style:style style:name="Table Note" style:family="paragraph"
-      style:parent-style-name="Table Contents">
-      <style:text-properties fo:font-style="italic" fo:color="#888888" fo:font-size="7.5pt"/>
-    </style:style>
-
-    <style:style style:name="Table Section" style:family="paragraph"
-      style:parent-style-name="Table Contents">
-      <style:text-properties fo:font-weight="bold" fo:color="#1a5276" fo:font-size="8pt"
-        fo:font-style="italic"/>
-    </style:style>
-
-  </office:styles>
-
-  <!-- ============================================================
-       AUTOMATIC STYLES  (table structure, page layout)
-  ============================================================ -->
-  <office:automatic-styles>
-
-    <!-- Page: A4, 2 cm margins -->
-    <style:page-layout style:name="pm1">
-      <style:page-layout-properties
-        fo:page-width="21cm" fo:page-height="29.7cm"
-        style:print-orientation="portrait"
-        fo:margin-top="2cm" fo:margin-bottom="2cm"
-        fo:margin-left="2cm" fo:margin-right="2cm"/>
-    </style:page-layout>
-
-    <!-- Tables -->
-    <style:style style:name="tbl.active" style:family="table">
-      <style:table-properties style:width="16.5cm" table:align="left"
-        fo:margin-bottom="0.5cm"/>
-    </style:style>
-    <style:style style:name="tbl.unused" style:family="table">
-      <style:table-properties style:width="16.5cm" table:align="left"
-        fo:margin-bottom="0.5cm"/>
-    </style:style>
-
-    <!-- Columns: active table -->
-    <style:style style:name="col.label" style:family="table-column">
-      <style:table-column-properties style:column-width="4.5cm"/>
-    </style:style>
-    <style:style style:name="col.en" style:family="table-column">
-      <style:table-column-properties style:column-width="6cm"/>
-    </style:style>
-    <style:style style:name="col.de" style:family="table-column">
-      <style:table-column-properties style:column-width="6cm"/>
-    </style:style>
-
-    <!-- Columns: unused fields table -->
-    <style:style style:name="col.uf" style:family="table-column">
-      <style:table-column-properties style:column-width="4.5cm"/>
-    </style:style>
-    <style:style style:name="col.ud" style:family="table-column">
-      <style:table-column-properties style:column-width="12cm"/>
-    </style:style>
-
-    <!-- Rows -->
-    <style:style style:name="row.hdr" style:family="table-row">
-      <style:table-row-properties style:min-row-height="0.7cm"/>
-    </style:style>
-    <style:style style:name="row.data" style:family="table-row">
-      <style:table-row-properties style:min-row-height="0.55cm"/>
-    </style:style>
-
-    <!-- Cells: active table -->
-    <style:style style:name="cell.header" style:family="table-cell">
-      <style:table-cell-properties fo:padding="0.12cm"
-        fo:border="0.5pt solid #0d2137"
-        fo:background-color="#1a3a5c" style:vertical-align="middle"/>
-    </style:style>
-    <style:style style:name="cell.label" style:family="table-cell">
-      <style:table-cell-properties fo:padding="0.1cm"
-        fo:border="0.5pt solid #9ab8d0"
-        fo:background-color="#dce8f4" style:vertical-align="top"/>
-    </style:style>
-    <style:style style:name="cell.en" style:family="table-cell">
-      <style:table-cell-properties fo:padding="0.12cm 0.18cm"
-        fo:border="0.5pt solid #9ab8d0"
-        fo:background-color="#ffffff" style:vertical-align="top"/>
-    </style:style>
-    <style:style style:name="cell.de" style:family="table-cell">
-      <style:table-cell-properties fo:padding="0.12cm 0.18cm"
-        fo:border="0.5pt solid #9ab8d0"
-        fo:background-color="#fffff8" style:vertical-align="top"/>
-    </style:style>
-    <style:style style:name="cell.span" style:family="table-cell">
-      <style:table-cell-properties fo:padding="0.08cm 0.12cm"
-        fo:border="0.5pt solid #7aaac8"
-        fo:background-color="#c8dff0" style:vertical-align="middle"/>
-    </style:style>
-
-    <!-- Cells: unused table -->
-    <style:style style:name="cell.uf" style:family="table-cell">
-      <style:table-cell-properties fo:padding="0.1cm"
-        fo:border="0.5pt solid #cccccc"
-        fo:background-color="#efefef" style:vertical-align="top"/>
-    </style:style>
-    <style:style style:name="cell.ud" style:family="table-cell">
-      <style:table-cell-properties fo:padding="0.1cm"
-        fo:border="0.5pt solid #cccccc"
-        fo:background-color="#fafafa" style:vertical-align="top"/>
-    </style:style>
-    <style:style style:name="cell.usec" style:family="table-cell">
-      <style:table-cell-properties fo:padding="0.07cm 0.12cm"
-        fo:border="0.5pt solid #aaaaaa"
-        fo:background-color="#e0e0e0" style:vertical-align="middle"/>
-    </style:style>
-    <style:style style:name="cell.uheader" style:family="table-cell">
-      <style:table-cell-properties fo:padding="0.1cm"
-        fo:border="0.5pt solid #555555"
-        fo:background-color="#555555" style:vertical-align="middle"/>
-    </style:style>
-
-  </office:automatic-styles>
-
-  <office:master-styles>
-    <style:master-page style:name="Standard" style:page-layout-name="pm1"/>
-  </office:master-styles>
-
-  <!-- ============================================================
-       DOCUMENT BODY
-  ============================================================ -->
-  <office:body>
-    <office:text>
-
-      <!-- Title -->
-      <text:h text:style-name="Heading 1" text:outline-level="1"
-        >ResearchProject — Project Information Template</text:h>
-      <text:h text:style-name="Heading 2" text:outline-level="2"
-        >OpenRewi Publication Pipeline (OPP)</text:h>
-
-      <!-- Instructions -->
-      <text:p text:style-name="Instruction Box">Instructions for non-technical editors: This document is the source of truth for all project information outputs (XML, HTML webpage, GitLab README, Wikidata entries, etc.). Fill in or update the English (EN) and German (DE) columns below. URLs, identifiers, and names that do not require translation — write "(= EN)" in the DE column. When done, pass the updated file to the technical team who will update the XML files and regenerate all outputs. Schema reference: https://schema.org/ResearchProject | DTD: ResearchProject.dtd</text:p>
-
-      <!-- =========================================================
-           SECTION 1: ACTIVE FIELDS
-      ========================================================= -->
-      <text:h text:style-name="Heading 2" text:outline-level="2"
-        >Active Project Fields</text:h>
-
-      <table:table table:name="ActiveFields" table:style-name="tbl.active">
-        <table:table-column table:style-name="col.label"/>
-        <table:table-column table:style-name="col.en"/>
-        <table:table-column table:style-name="col.de"/>
-
-        <!-- HEADER ROW -->
-        <table:table-row table:style-name="row.hdr">
-          <table:table-cell table:style-name="cell.header">
-            <text:p text:style-name="Table Header">Field (schema.org)</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.header">
-            <text:p text:style-name="Table Header">English (EN)</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.header">
-            <text:p text:style-name="Table Header">Deutsch (DE)</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- name -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">name</text:p>
-            <text:p text:style-name="Table Note">Project title</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Contents">OpenRewi Publication Pipeline</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Contents">OpenRewi-Publikationspipeline</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- alternateName -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">alternateName</text:p>
-            <text:p text:style-name="Table Note">Acronym / short name</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Contents">OPP</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Contents">(= EN)</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- disambiguatingDescription -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">disambiguatingDescription</text:p>
-            <text:p text:style-name="Table Note">Strapline — one sentence for disambiguation</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Contents">Independent publication pipeline for the OpenRewi textbook series</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Contents">Plattformunabhängige Publikationspipeline für die OpenRewi-Lehrbuchreihe</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- description -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">description</text:p>
-            <text:p text:style-name="Table Note">Full project description. Separate paragraphs with a blank line.</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Contents">An experimental joint project between the TIB, OpenRewi, and the VEStOR project (University of Applied Sciences Potsdam). It aims to deliver a publication pipeline that is as production-ready as possible for the OpenRewi textbook series. It also serves as a proof of concept for embedding single-source publishing workflows into a comprehensive, digital sovereign publication infrastructure.</text:p>
-            <text:p text:style-name="Table Contents"> </text:p>
-            <text:p text:style-name="Table Contents">The project aims to establish a technical workflow that transforms open standards word processing files and integrated Zotero citations, used in real-time collaborative environments, into usable data packages for multi-format output. The system design is oriented to standards as opposed to platforms to enable and advocate for bibliodiversity, e.g., Open Document Format, Citation Style Language, W3C CSS Paged Media, and for computational notebooks (Jupyter Notebooks).</text:p>
-            <text:p text:style-name="Table Contents"> </text:p>
-            <text:p text:style-name="Table Contents">Key aspects: (1) Single-Source Approach: Content is authored in a central environment (e.g., Nextcloud and a word processor) and rendered into web, PDF, and print formats from a single source of data. (2) Technical Stack: The pipeline utilizes Pandoc and Quarto for converting to high-fidelity rendering. (3) Evolution of Tools: Due to technical and licensing shifts the project is currently testing a variety of Nextcloud-based word processors to maintain digital sovereignty. (4) Interactive Content: The workflow enables the use of H5P interactive elements in web versions using Jupyter Notebooks while ensuring they do not disrupt word processing workflows, e.g., static PDF exports.</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Contents">Ein experimentelles Gemeinschaftsprojekt der TIB, OpenRewi und des VEStOR-Projekts (Hochschule für Technik und Wirtschaft Potsdam). Ziel ist es, eine möglichst produktionsreife Publikationspipeline für die OpenRewi-Lehrbuchreihe bereitzustellen. Das Projekt dient zudem als Proof of Concept für die Einbettung von Single-Source-Publishing-Workflows in eine umfassende, digital souveräne Publikationsinfrastruktur.</text:p>
-            <text:p text:style-name="Table Contents"> </text:p>
-            <text:p text:style-name="Table Contents">Das Projekt zielt darauf ab, einen technischen Workflow zu etablieren, der Textverarbeitungsdateien nach offenen Standards und integrierte Zotero-Zitate, die in Echtzeit-Kollaborationsumgebungen verwendet werden, in nutzbare Datenpakete für die Ausgabe in verschiedenen Formaten umwandelt. Das Systemdesign orientiert sich an Standards statt an Plattformen, um Bibliodiversität zu ermöglichen und zu fördern, z. B. Open Document Format, Citation Style Language, W3C CSS Paged Media sowie für computergestützte Notizbücher (Jupyter Notebooks).</text:p>
-            <text:p text:style-name="Table Contents"> </text:p>
-            <text:p text:style-name="Table Contents">Kernaspekte: (1) Single-Source-Ansatz: Inhalte werden in einer zentralen Umgebung (z. B. Nextcloud und einem Textverarbeitungsprogramm) erstellt und aus einer einzigen Datenquelle in Web-, PDF- und Druckformate gerendert. (2) Technischer Stack: Die Pipeline nutzt Pandoc und Quarto für die Konvertierung zu einer originalgetreuen Darstellung. (3) Weiterentwicklung der Tools: Aufgrund technischer und lizenzrechtlicher Veränderungen testet das Projekt derzeit verschiedene Nextcloud-basierte Textverarbeitungsprogramme, um die digitale Souveränität zu wahren. (4) Interaktive Inhalte: Der Workflow ermöglicht die Verwendung interaktiver H5P-Elemente in Webversionen unter Verwendung von Jupyter Notebooks und stellt gleichzeitig sicher, dass diese die Textverarbeitungsabläufe, z. B. statische PDF-Exporte, nicht beeinträchtigen.</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- url -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">url</text:p>
-            <text:p text:style-name="Table Note">Primary project URL</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Contents">https://gitlab.com/TIBHannover/open-science-lab/opp</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Contents">(= EN)</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- sameAs -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">sameAs</text:p>
-            <text:p text:style-name="Table Note">Related authoritative URLs — one per line</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Contents">https://openrewi.org/</text:p>
-            <text:p text:style-name="Table Contents">https://www.fh-potsdam.de/forschung-transfer/projekte/vestor</text:p>
-            <text:p text:style-name="Table Contents">https://www.tib.eu/de/forschung-entwicklung/forschungsgruppen-und-labs/open-science</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Contents">(= EN)</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- identifier -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">identifier</text:p>
-            <text:p text:style-name="Table Note">Grant / project ID. Use propertyID attribute in XML.</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Contents">VEStOR BMBFSFJ Grant ID 01PO23004A</text:p>
-            <text:p text:style-name="Table Note">propertyID="GrantID" value="01PO23004A"</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Contents">VEStOR BMBFSFJ Förderkennzeichen 01PO23004A</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- images / logos -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">image → imageObject</text:p>
-            <text:p text:style-name="Table Note">Partner logos. Format: Caption | URL</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Label">OpenRewi logo</text:p>
-            <text:p text:style-name="Table Note">https://gitlab.com/TIBHannover/open-science-lab/opp/-/raw/main/images/logos/openrewi-logo.png</text:p>
-            <text:p text:style-name="Table Label">VEStOR logo</text:p>
-            <text:p text:style-name="Table Note">https://gitlab.com/TIBHannover/open-science-lab/opp/-/raw/main/images/logos/vestor-logo.png</text:p>
-            <text:p text:style-name="Table Label">TIB – Leibniz Information Centre for Science and Technology logo</text:p>
-            <text:p text:style-name="Table Note">https://gitlab.com/TIBHannover/open-science-lab/opp/-/raw/main/images/logos/tib-logo.png</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Contents">URLs (= EN)</text:p>
-            <text:p text:style-name="Table Contents"> </text:p>
-            <text:p text:style-name="Table Label">DE captions:</text:p>
-            <text:p text:style-name="Table Contents">OpenRewi-Logo</text:p>
-            <text:p text:style-name="Table Contents">VEStOR-Logo</text:p>
-            <text:p text:style-name="Table Contents">TIB – Leibniz-Informationszentrum Technik und Naturwissenschaften Logo</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- dates -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">foundingDate / dissolutionDate</text:p>
-            <text:p text:style-name="Table Note">ISO 8601 (YYYY-MM-DD or YYYY)</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Contents">Start: 2026</text:p>
-            <text:p text:style-name="Table Contents">End: 2026</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Contents">(= EN)</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- parentOrganization / Lead -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">parentOrganization</text:p>
-            <text:p text:style-name="Table Note">Lead organisation. Include ROR ID as href.</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Contents">VEStOR Project – University of Applied Sciences Potsdam</text:p>
-            <text:p text:style-name="Table Note">ROR: https://ror.org/012m9bp23</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Contents">VEStOR-Projekt – Hochschule für Technik und Wirtschaft Potsdam</text:p>
-            <text:p text:style-name="Table Note">ROR: https://ror.org/012m9bp23</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- member / Team -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">member</text:p>
-            <text:p text:style-name="Table Note">Team members. Format: Name | ORCID iD</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Contents">Lambert Heller</text:p>
-            <text:p text:style-name="Table Note">ORCID: 0000-0003-0232-7085</text:p>
-            <text:p text:style-name="Table Contents">Simon Worthington</text:p>
-            <text:p text:style-name="Table Note">ORCID: 0000-0002-8579-9717</text:p>
-            <text:p text:style-name="Table Contents">Philipp Falkenburg</text:p>
-            <text:p text:style-name="Table Note">ORCID: 0000-0001-9788-8277</text:p>
-            <text:p text:style-name="Table Contents">Evin Dalkilic</text:p>
-            <text:p text:style-name="Table Note">ORCID: 0009-0008-2234-2323</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Contents">(= EN)</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- memberOf / Partners -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">memberOf</text:p>
-            <text:p text:style-name="Table Note">Partner organisations. Include ROR or URL as href.</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Contents">OpenRewi</text:p>
-            <text:p text:style-name="Table Note">https://openrewi.org/</text:p>
-            <text:p text:style-name="Table Contents">TIB – Technische Informationsbibliothek (Leibniz Information Centre for Science and Technology)</text:p>
-            <text:p text:style-name="Table Note">ROR: https://ror.org/04aj4c181</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Contents">OpenRewi</text:p>
-            <text:p text:style-name="Table Contents">TIB – Technische Informationsbibliothek (Leibniz-Informationszentrum Technik und Naturwissenschaften und Universitätsbibliothek)</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- funding / Grant -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">funding</text:p>
-            <text:p text:style-name="Table Note">Grant details: name | identifier | funder | url</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Label">Name:</text:p>
-            <text:p text:style-name="Table Contents">VEStOR</text:p>
-            <text:p text:style-name="Table Label">Grant ID:</text:p>
-            <text:p text:style-name="Table Contents">01PO23004A</text:p>
-            <text:p text:style-name="Table Label">Funder:</text:p>
-            <text:p text:style-name="Table Contents">BMBFSFJ – German Federal Ministry</text:p>
-            <text:p text:style-name="Table Label">URL:</text:p>
-            <text:p text:style-name="Table Note">https://www.fh-potsdam.de/forschung-transfer/projekte/vestor</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Label">Name:</text:p>
-            <text:p text:style-name="Table Contents">VEStOR</text:p>
-            <text:p text:style-name="Table Label">Förderkennzeichen:</text:p>
-            <text:p text:style-name="Table Contents">01PO23004A</text:p>
-            <text:p text:style-name="Table Label">Förderer:</text:p>
-            <text:p text:style-name="Table Contents">BMBFSFJ – Bundesministerium</text:p>
-            <text:p text:style-name="Table Label">URL:</text:p>
-            <text:p text:style-name="Table Note">https://www.fh-potsdam.de/forschung-transfer/projekte/vestor</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- keywords -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">keywords</text:p>
-            <text:p text:style-name="Table Note">Comma-separated keyword list</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Contents">single-source publishing, publication pipeline, open science, OpenRewi, digital sovereignty, bibliodiversity, Pandoc, Quarto, Jupyter Notebooks, Open Document Format, Citation Style Language, H5P, Zotero, open access, open education resources, CSS Paged Media, MIT licence, CC BY-SA 4.0, CC0</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Contents">Single-Source-Publishing, Publikationspipeline, Open Science, OpenRewi, digitale Souveränität, Bibliodiversität, Pandoc, Quarto, Jupyter Notebooks, Open Document Format, Citation Style Language, H5P, Zotero, Open Access, offene Bildungsressourcen, CSS Paged Media, MIT-Lizenz, CC BY-SA 4.0, CC0</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- knowsAbout -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">knowsAbout</text:p>
-            <text:p text:style-name="Table Note">Subject-area expertise — one topic per line</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Contents">single-source publishing</text:p>
-            <text:p text:style-name="Table Contents">open access publishing</text:p>
-            <text:p text:style-name="Table Contents">digital sovereignty</text:p>
-            <text:p text:style-name="Table Contents">bibliodiversity</text:p>
-            <text:p text:style-name="Table Contents">Open Document Format (ODF)</text:p>
-            <text:p text:style-name="Table Contents">Citation Style Language (CSL)</text:p>
-            <text:p text:style-name="Table Contents">Pandoc document conversion</text:p>
-            <text:p text:style-name="Table Contents">Quarto scientific publishing</text:p>
-            <text:p text:style-name="Table Contents">Jupyter Notebooks</text:p>
-            <text:p text:style-name="Table Contents">H5P interactive content</text:p>
-            <text:p text:style-name="Table Contents">Zotero citation management</text:p>
-            <text:p text:style-name="Table Contents">W3C CSS Paged Media</text:p>
-            <text:p text:style-name="Table Contents">open educational resources (OER)</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Contents">Single-Source-Publishing</text:p>
-            <text:p text:style-name="Table Contents">Open-Access-Publizieren</text:p>
-            <text:p text:style-name="Table Contents">digitale Souveränität</text:p>
-            <text:p text:style-name="Table Contents">Bibliodiversität</text:p>
-            <text:p text:style-name="Table Contents">Open Document Format (ODF)</text:p>
-            <text:p text:style-name="Table Contents">Citation Style Language (CSL)</text:p>
-            <text:p text:style-name="Table Contents">Pandoc-Dokumentenkonvertierung</text:p>
-            <text:p text:style-name="Table Contents">Quarto-Wissenschaftspublizieren</text:p>
-            <text:p text:style-name="Table Contents">Jupyter Notebooks</text:p>
-            <text:p text:style-name="Table Contents">H5P-Interaktive-Inhalte</text:p>
-            <text:p text:style-name="Table Contents">Zotero-Literaturverwaltung</text:p>
-            <text:p text:style-name="Table Contents">W3C CSS Paged Media</text:p>
-            <text:p text:style-name="Table Contents">offene Bildungsressourcen (OER)</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- knowsLanguage -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">knowsLanguage</text:p>
-            <text:p text:style-name="Table Note">IETF BCP 47 language codes</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Contents">en (English)</text:p>
-            <text:p text:style-name="Table Contents">de (German)</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Contents">de (Deutsch)</text:p>
-            <text:p text:style-name="Table Contents">en (Englisch)</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- hasCredential / Licences -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.label">
-            <text:p text:style-name="Table Label">hasCredential</text:p>
-            <text:p text:style-name="Table Note">Licences and copyright. Format: Name | Description | URL</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.en">
-            <text:p text:style-name="Table Label">MIT Licence (Code)</text:p>
-            <text:p text:style-name="Table Contents">Code is released under the MIT Licence or another OSI-compliant open source licence. Copyright: The authors.</text:p>
-            <text:p text:style-name="Table Note">https://mit-license.org/</text:p>
-            <text:p text:style-name="Table Contents"> </text:p>
-            <text:p text:style-name="Table Label">CC BY-SA 4.0 (Content)</text:p>
-            <text:p text:style-name="Table Contents">Content is licensed under Creative Commons Attribution-ShareAlike 4.0 International.</text:p>
-            <text:p text:style-name="Table Note">https://creativecommons.org/licenses/by-sa/4.0/</text:p>
-            <text:p text:style-name="Table Contents"> </text:p>
-            <text:p text:style-name="Table Label">CC0 1.0 Universal (Metadata)</text:p>
-            <text:p text:style-name="Table Contents">Metadata is dedicated to the public domain under Creative Commons Zero 1.0 Universal.</text:p>
-            <text:p text:style-name="Table Note">https://creativecommons.org/publicdomain/zero/1.0/</text:p>
-            <text:p text:style-name="Table Contents"> </text:p>
-            <text:p text:style-name="Table Label">SIL Open Font Licence (Fonts)</text:p>
-            <text:p text:style-name="Table Contents">Fonts are licensed under the SIL Open Font Licence or another open font licence.</text:p>
-            <text:p text:style-name="Table Note">https://software.sil.org/oflt/</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.de">
-            <text:p text:style-name="Table Label">MIT-Lizenz (Code)</text:p>
-            <text:p text:style-name="Table Contents">Der Code wird unter der MIT-Lizenz oder einer anderen OSI-konformen Open-Source-Lizenz veröffentlicht. Urheberrecht: Die Autoren.</text:p>
-            <text:p text:style-name="Table Note">https://mit-license.org/</text:p>
-            <text:p text:style-name="Table Contents"> </text:p>
-            <text:p text:style-name="Table Label">CC BY-SA 4.0 (Inhalte)</text:p>
-            <text:p text:style-name="Table Contents">Inhalte sind unter der Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International lizenziert.</text:p>
-            <text:p text:style-name="Table Note">https://creativecommons.org/licenses/by-sa/4.0/deed.de</text:p>
-            <text:p text:style-name="Table Contents"> </text:p>
-            <text:p text:style-name="Table Label">CC0 1.0 Universal (Metadaten)</text:p>
-            <text:p text:style-name="Table Contents">Metadaten sind unter Creative Commons Zero 1.0 Universal dem öffentlichen Bereich gewidmet.</text:p>
-            <text:p text:style-name="Table Note">https://creativecommons.org/publicdomain/zero/1.0/deed.de</text:p>
-            <text:p text:style-name="Table Contents"> </text:p>
-            <text:p text:style-name="Table Label">SIL Open Font Licence (Schriften)</text:p>
-            <text:p text:style-name="Table Contents">Schriften stehen unter der SIL Open Font Licence oder einer anderen offenen Schriftlizenz.</text:p>
-            <text:p text:style-name="Table Note">https://software.sil.org/oflt/</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-      </table:table>
-
-      <!-- =========================================================
-           SECTION 2: UNUSED DTD FIELDS (reference)
-      ========================================================= -->
-      <text:h text:style-name="Heading 2" text:outline-level="2"
-        >Unused DTD Fields (Reference)</text:h>
-
-      <text:p text:style-name="Instruction Box">These fields are defined in ResearchProject.dtd but are not currently populated. They are listed here for reference. To activate a field, add the value in the table above and ask the technical team to add it to the XML instances.</text:p>
-
-      <table:table table:name="UnusedFields" table:style-name="tbl.unused">
-        <table:table-column table:style-name="col.uf"/>
-        <table:table-column table:style-name="col.ud"/>
-
-        <!-- Header -->
-        <table:table-row table:style-name="row.hdr">
-          <table:table-cell table:style-name="cell.uheader">
-            <text:p text:style-name="Table Header">Field (schema.org)</text:p>
-          </table:table-cell>
-          <table:table-cell table:style-name="cell.uheader">
-            <text:p text:style-name="Table Header">Description</text:p>
-          </table:table-cell>
-        </table:table-row>
-
-        <!-- GROUP: Contact and address -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.usec" table:number-columns-spanned="2">
-            <text:p text:style-name="Table Section">Contact and Address</text:p>
-          </table:table-cell>
-          <table:covered-table-cell/>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">legalName</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Official registered name of the organization</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">address</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Physical address: streetAddress, addressLocality, addressRegion, postalCode, addressCountry</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">email</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Contact email address</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">telephone</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Telephone number</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">faxNumber</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Fax number</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">contactPoint</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Structured contact point: contactType, telephone, email, url, availableLanguage, areaServed</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">location</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Physical or virtual location: Place (with name, address, geo), PostalAddress, or VirtualLocation</text:p></table:table-cell>
-        </table:table-row>
-
-        <!-- GROUP: People and structure -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.usec" table:number-columns-spanned="2">
-            <text:p text:style-name="Table Section">People and Organisational Structure</text:p>
-          </table:table-cell>
-          <table:covered-table-cell/>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">founder</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Person or organization who founded this project/organization</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">employee</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Someone employed by this organization (use member for project team members)</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">department</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">A department of this organization</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">subOrganization</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">A sub-organization of this one (inverse of parentOrganization)</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">legalRepresentative</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Person(s) legally representing this organization (e.g. CEO, director)</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">numberOfEmployees</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Number of employees (QuantitativeValue with optional min/max/unit)</text:p></table:table-cell>
-        </table:table-row>
-
-        <!-- GROUP: Identity and branding -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.usec" table:number-columns-spanned="2">
-            <text:p text:style-name="Table Section">Identity and Branding</text:p>
-          </table:table-cell>
-          <table:covered-table-cell/>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">logo</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Primary organizational logo (ImageObject or URL). Currently using image* for partner logos.</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">brand</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Brand or Organization associated with this item</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">award</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">An award won by or for this item</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">slogan</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">A slogan or motto associated with the item</text:p></table:table-cell>
-        </table:table-row>
-
-        <!-- GROUP: Additional funding -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.usec" table:number-columns-spanned="2">
-            <text:p text:style-name="Table Section">Additional Funding and Support</text:p>
-          </table:table-cell>
-          <table:covered-table-cell/>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">funder (standalone)</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Top-level funder without a named grant. Currently funder is nested inside funding element.</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">sponsor</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Person or organization supporting through a pledge, promise, or financial contribution</text:p></table:table-cell>
-        </table:table-row>
-
-        <!-- GROUP: Reviews and events -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.usec" table:number-columns-spanned="2">
-            <text:p text:style-name="Table Section">Reviews and Events</text:p>
-          </table:table-cell>
-          <table:covered-table-cell/>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">review</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">A review of the item: reviewBody, reviewRating, author</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">event</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Upcoming or past event: name, startDate, endDate, location, url, description</text:p></table:table-cell>
-        </table:table-row>
-
-        <!-- GROUP: Business identifiers -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.usec" table:number-columns-spanned="2">
-            <text:p text:style-name="Table Section">Business and Regulatory Identifiers</text:p>
-          </table:table-cell>
-          <table:covered-table-cell/>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">duns</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Dun &amp; Bradstreet DUNS number for identifying an organization</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">leiCode</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Legal Entity Identifier as defined in ISO 17442</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">taxID</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Tax / Fiscal ID (e.g. TIN in the US, Steuernummer in Germany)</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">vatID</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Value-added Tax ID with national prefix (e.g. DE123456789)</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">isicV4</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">International Standard of Industrial Classification (ISIC) Revision 4 code</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">naics</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">North American Industry Classification System (NAICS) code</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">globalLocationNumber</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Global Location Number (GLN) — 13-digit identifier for parties and locations</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">iso6523Code</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">ISO 6523(-1) organization identifier. Format: XXXX:YYYYYY</text:p></table:table-cell>
-        </table:table-row>
-
-        <!-- GROUP: Certification -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.usec" table:number-columns-spanned="2">
-            <text:p text:style-name="Table Section">Certification</text:p>
-          </table:table-cell>
-          <table:covered-table-cell/>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">hasCertification</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Certification information: name, certificationIdentification, issuedBy, certificationStatus, validFrom, validThrough</text:p></table:table-cell>
-        </table:table-row>
-
-        <!-- GROUP: Schema.org Thing properties -->
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.usec" table:number-columns-spanned="2">
-            <text:p text:style-name="Table Section">Schema.org Thing Properties (advanced)</text:p>
-          </table:table-cell>
-          <table:covered-table-cell/>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">additionalType</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Additional type from an external vocabulary (Text or URL)</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">mainEntityOfPage</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Page (CreativeWork or URL) for which this thing is the main entity described</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">subjectOf</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">A CreativeWork or Event about this thing</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">potentialAction</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">A potential Action in which this thing plays an object role</text:p></table:table-cell>
-        </table:table-row>
-        <table:table-row table:style-name="row.data">
-          <table:table-cell table:style-name="cell.uf"><text:p text:style-name="Table Label">owner</text:p></table:table-cell>
-          <table:table-cell table:style-name="cell.ud"><text:p text:style-name="Table Contents">Person or organization who owns this thing</text:p></table:table-cell>
-        </table:table-row>
-
-      </table:table>
-
-    </office:text>
-  </office:body>
+  <meta:generator>Collabora_Office/25.04.3.4$Linux_X86_64 LibreOffice_project/2d5e9a9e0805ed05295a1bf43a2fff44e9b24617</meta:generator><dc:date>2026-08-16T09:23:56.789509602</dc:date><meta:editing-duration>PT2H14M32S</meta:editing-duration><meta:editing-cycles>3</meta:editing-cycles><meta:document-statistic meta:table-count="2" meta:image-count="0" meta:object-count="0" meta:page-count="5" meta:paragraph-count="251" meta:word-count="1215" meta:character-count="10295" meta:non-whitespace-character-count="9301"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="ViewAreaTop" config:type="long">2907</config:config-item>
+   <config:config-item config:name="ViewAreaLeft" config:type="long">1849</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">1383</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">870</config:config-item>
+   <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">2501</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">3000</config:config-item>
+     <config:config-item config:name="VisibleLeft" config:type="long">1849</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">2907</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">3230</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">3775</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
+     <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ZoomFactor" config:type="short">100</config:config-item>
+     <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="KeepRatio" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="LegacySingleLineFontwork" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ConnectorUseSnapRect" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IgnoreBreakAfterMultilineField" config:type="boolean">false</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintFaxName" config:type="string"/>
+   <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintEmptyPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="MsWordCompGridMetrics" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PaintHellOverHeaderFooter" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ApplyParagraphMarkFormatToEmptyLineAtEndOfParagraph" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="NoNumberingShowFollowBy" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MinRowHeightInclBorder" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="HyphenateURLs" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ImagePreferredDPI" config:type="int">0</config:config-item>
+   <config:config-item config:name="FootnoteInColumnToPageEnd" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="GutterAtTop" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ContinuousEndnotes" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordUlTrailSpace" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="FrameAutowidthWithMorePara" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TreatSingleColumnBreakAsPageBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabOverSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AutoFirstLineIndentDisregardLineSpace" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabOverMargin" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ApplyTextAttrToEmptyLineAtEndOfParagraph" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="NoClippingWithWrapPolygon" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddVerticalFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectBookmarks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TableRowKeep" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
+   <config:config-item config:name="JustifyLinesWithShrinking" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RsidRoot" config:type="int">815235</config:config-item>
+   <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
+   <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
+   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
+   <config:config-item config:name="UnbreakableNumberings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
+   <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="HeaderSpacingBelowLastPara" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="AddParaLineSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="UseVariableWidthNBSP" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectFields" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
+   <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="NoGapAfterNoteNumber" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IgnoreHiddenCharsForLineCalculation" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DropCapPunctuation" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
+   <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">928291</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Carlito" svg:font-family="Carlito" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Carlito1" svg:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Sans" svg:font-family="&apos;Noto Sans&apos;" style:font-family-generic="swiss"/>
+  <style:font-face style:name="Noto Sans SC Regular" svg:font-family="&apos;Noto Sans SC Regular&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Sans1" svg:font-family="&apos;Noto Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Serif SC" svg:font-family="&apos;Noto Serif SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="graphic">
+   <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.1181in" draw:shadow-offset-y="0.1181in" draw:start-line-spacing-horizontal="0.1114in" draw:start-line-spacing-vertical="0.1114in" draw:end-line-spacing-horizontal="0.1114in" draw:end-line-spacing-vertical="0.1114in" style:writing-mode="lr-tb" style:flow-with-text="false"/>
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0in" style:font-independent-line-spacing="false">
+    <style:tab-stops/>
+   </style:paragraph-properties>
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Carlito" fo:font-size="10pt" fo:language="en" fo:country="GB" style:letter-kerning="true" style:font-name-asian="Noto Serif SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Noto Sans1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <style:default-style style:family="paragraph">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.0591in" style:contextual-spacing="false" fo:hyphenation-ladder-count="no-limit" fo:hyphenation-keep="auto" loext:hyphenation-keep-type="column" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="0.4925in" style:writing-mode="lr-tb"/>
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Carlito" fo:font-size="10pt" fo:language="en" fo:country="GB" style:letter-kerning="true" style:font-name-asian="Noto Serif SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Noto Sans1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false" loext:hyphenation-no-last-word="false" loext:hyphenation-word-char-count="5" loext:hyphenation-zone="no-limit"/>
+  </style:default-style>
+  <style:default-style style:family="table">
+   <style:table-properties table:border-model="collapsing"/>
+  </style:default-style>
+  <style:default-style style:family="table-row">
+   <style:table-row-properties fo:keep-together="auto"/>
+  </style:default-style>
+  <style:style style:name="Standard" style:family="paragraph" style:class="text">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.0591in" style:contextual-spacing="false"/>
+   <style:text-properties fo:font-size="10pt"/>
+  </style:style>
+  <style:style style:name="Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="chapter">
+   <style:paragraph-properties fo:margin-top="0.1665in" fo:margin-bottom="0.0835in" style:contextual-spacing="false" fo:keep-with-next="always"/>
+   <style:text-properties style:font-name="Carlito1" fo:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="14pt" style:font-name-asian="Noto Sans SC Regular" style:font-family-asian="&apos;Noto Sans SC Regular&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="14pt" style:font-name-complex="Noto Sans1" style:font-family-complex="&apos;Noto Sans&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="Text_20_body" style:display-name="Text body" style:family="paragraph" style:parent-style-name="Standard" style:class="text">
+   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.0972in" style:contextual-spacing="false" fo:line-height="115%"/>
+  </style:style>
+  <style:style style:name="List" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="list">
+   <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Noto Sans" style:font-family-complex="&apos;Noto Sans&apos;" style:font-family-generic-complex="swiss"/>
+  </style:style>
+  <style:style style:name="Caption" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+   <style:paragraph-properties fo:margin-top="0.0835in" fo:margin-bottom="0.0835in" style:contextual-spacing="false" text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-name-complex="Noto Sans" style:font-family-complex="&apos;Noto Sans&apos;" style:font-family-generic-complex="swiss" style:font-size-complex="12pt" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="Index" style:family="paragraph" style:parent-style-name="Standard" style:class="index">
+   <style:paragraph-properties text:number-lines="false" text:line-number="0"/>
+   <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Noto Sans" style:font-family-complex="&apos;Noto Sans&apos;" style:font-family-generic-complex="swiss"/>
+  </style:style>
+  <style:style style:name="Heading_20_1" style:display-name="Heading 1" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Standard" style:class="chapter">
+   <style:paragraph-properties fo:margin-top="0.1965in" fo:margin-bottom="0.0984in" style:contextual-spacing="false" fo:keep-with-next="always"/>
+   <style:text-properties fo:color="#1a3a5c" loext:opacity="100%" fo:font-size="16pt" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Heading_20_2" style:display-name="Heading 2" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Standard" style:class="chapter">
+   <style:paragraph-properties fo:margin-top="0.1772in" fo:margin-bottom="0.0591in" style:contextual-spacing="false" fo:padding-left="0in" fo:padding-right="0in" fo:padding-top="0in" fo:padding-bottom="0.0311in" fo:border-left="none" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.99pt solid #2563a8" fo:keep-with-next="always"/>
+   <style:text-properties fo:color="#1a5276" loext:opacity="100%" fo:font-size="12pt" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Instruction_20_Box" style:display-name="Instruction Box" style:family="paragraph" style:parent-style-name="Standard">
+   <loext:graphic-properties draw:fill="solid" draw:fill-color="#ebf5fb" draw:opacity="100%"/>
+   <style:paragraph-properties fo:margin-top="0.0591in" fo:margin-bottom="0.1181in" style:contextual-spacing="false" fo:background-color="#ebf5fb" fo:padding="0.0783in" fo:border-left="3pt solid #2563a8" fo:border-right="0.51pt solid #93c5e0" fo:border-top="0.51pt solid #93c5e0" fo:border-bottom="0.51pt solid #93c5e0"/>
+   <style:text-properties fo:color="#1a5276" loext:opacity="100%" fo:font-size="9pt" fo:font-style="italic"/>
+  </style:style>
+  <style:style style:name="Table_20_Contents" style:display-name="Table Contents" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+   <style:paragraph-properties fo:margin-top="0.0161in" fo:margin-bottom="0.0161in" style:contextual-spacing="false"/>
+   <style:text-properties fo:font-size="9pt"/>
+  </style:style>
+  <style:style style:name="Table_20_Header" style:display-name="Table Header" style:family="paragraph" style:parent-style-name="Table_20_Contents" style:class="extra">
+   <style:text-properties fo:color="#ffffff" loext:opacity="100%" fo:font-size="9pt" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Table_20_Label" style:display-name="Table Label" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties fo:color="#1a3a5c" loext:opacity="100%" fo:font-size="8.5pt" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Table_20_Note" style:display-name="Table Note" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties fo:color="#888888" loext:opacity="100%" fo:font-size="7.5pt" fo:font-style="italic"/>
+  </style:style>
+  <style:style style:name="Table_20_Section" style:display-name="Table Section" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties fo:color="#1a5276" loext:opacity="100%" fo:font-size="8pt" fo:font-style="italic" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Emphasis" style:family="text">
+   <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="Internet_20_link" style:display-name="Internet link" style:family="text">
+   <style:text-properties fo:color="#000080" loext:opacity="100%" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color"/>
+  </style:style>
+  <text:outline-style style:name="Outline">
+   <text:outline-level-style text:level="1" loext:num-list-format="%1%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="2" loext:num-list-format="%2%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="3" loext:num-list-format="%3%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="4" loext:num-list-format="%4%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="5" loext:num-list-format="%5%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="6" loext:num-list-format="%6%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="7" loext:num-list-format="%7%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="8" loext:num-list-format="%8%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="9" loext:num-list-format="%9%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="10" loext:num-list-format="%10%" style:num-format="">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab"/>
+    </style:list-level-properties>
+   </text:outline-level-style>
+  </text:outline-style>
+  <text:notes-configuration text:note-class="footnote" style:num-format="1" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="document"/>
+  <text:notes-configuration text:note-class="endnote" style:num-format="i" text:start-value="0"/>
+  <text:linenumbering-configuration text:number-lines="false" text:offset="0.1965in" style:num-format="1" text:number-position="left" text:increment="5"/>
+  <loext:theme loext:name="Office">
+   <loext:theme-colors loext:name="LibreOffice">
+    <loext:color loext:name="dark1" loext:color="#000000"/>
+    <loext:color loext:name="light1" loext:color="#ffffff"/>
+    <loext:color loext:name="dark2" loext:color="#000000"/>
+    <loext:color loext:name="light2" loext:color="#ffffff"/>
+    <loext:color loext:name="accent1" loext:color="#18a303"/>
+    <loext:color loext:name="accent2" loext:color="#0369a3"/>
+    <loext:color loext:name="accent3" loext:color="#a33e03"/>
+    <loext:color loext:name="accent4" loext:color="#8e03a3"/>
+    <loext:color loext:name="accent5" loext:color="#c99c00"/>
+    <loext:color loext:name="accent6" loext:color="#c9211e"/>
+    <loext:color loext:name="hyperlink" loext:color="#0000ee"/>
+    <loext:color loext:name="followed-hyperlink" loext:color="#551a8b"/>
+   </loext:theme-colors>
+  </loext:theme>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="ActiveFields" style:family="table">
+   <style:table-properties style:width="6.4958in" fo:margin-top="0in" fo:margin-bottom="0.1965in" table:align="left"/>
+  </style:style>
+  <style:style style:name="ActiveFields.A" style:family="table-column">
+   <style:table-column-properties style:column-width="1.7736in"/>
+  </style:style>
+  <style:style style:name="ActiveFields.B" style:family="table-column">
+   <style:table-column-properties style:column-width="2.3604in"/>
+  </style:style>
+  <style:style style:name="ActiveFields.C" style:family="table-column">
+   <style:table-column-properties style:column-width="2.3618in"/>
+  </style:style>
+  <style:style style:name="ActiveFields.1" style:family="table-row">
+   <style:table-row-properties style:min-row-height="0.2757in"/>
+  </style:style>
+  <style:style style:name="ActiveFields.A1" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:background-color="#1a3a5c" fo:padding="0.0472in" fo:border="0.5pt solid #0d2137">
+    <style:background-image/>
+   </style:table-cell-properties>
+  </style:style>
+  <style:style style:name="ActiveFields.2" style:family="table-row">
+   <style:table-row-properties style:min-row-height="0.2167in"/>
+  </style:style>
+  <style:style style:name="ActiveFields.A2" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="top" fo:background-color="#dce8f4" fo:padding="0.0396in" fo:border="0.5pt solid #9ab8d0">
+    <style:background-image/>
+   </style:table-cell-properties>
+  </style:style>
+  <style:style style:name="ActiveFields.B2" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="top" fo:background-color="#ffffff" fo:padding="0.0472in" fo:border="0.5pt solid #9ab8d0">
+    <style:background-image/>
+   </style:table-cell-properties>
+  </style:style>
+  <style:style style:name="ActiveFields.C2" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="top" fo:background-color="#fffff8" fo:padding="0.0472in" fo:border="0.5pt solid #9ab8d0">
+    <style:background-image/>
+   </style:table-cell-properties>
+  </style:style>
+  <style:style style:name="UnusedFields" style:family="table">
+   <style:table-properties style:width="6.4958in" fo:margin-top="0in" fo:margin-bottom="0.1965in" table:align="left"/>
+  </style:style>
+  <style:style style:name="UnusedFields.A" style:family="table-column">
+   <style:table-column-properties style:column-width="1.7715in"/>
+  </style:style>
+  <style:style style:name="UnusedFields.B" style:family="table-column">
+   <style:table-column-properties style:column-width="4.7243in"/>
+  </style:style>
+  <style:style style:name="UnusedFields.1" style:family="table-row">
+   <style:table-row-properties style:min-row-height="0.2757in"/>
+  </style:style>
+  <style:style style:name="UnusedFields.A1" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:background-color="#555555" fo:padding="0.0396in" fo:border="0.5pt solid #555555">
+    <style:background-image/>
+   </style:table-cell-properties>
+  </style:style>
+  <style:style style:name="UnusedFields.2" style:family="table-row">
+   <style:table-row-properties style:min-row-height="0.2167in"/>
+  </style:style>
+  <style:style style:name="UnusedFields.A2" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:background-color="#e0e0e0" fo:padding="0.0278in" fo:border="0.5pt solid #aaaaaa">
+    <style:background-image/>
+   </style:table-cell-properties>
+  </style:style>
+  <style:style style:name="UnusedFields.A3" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="top" fo:background-color="#efefef" fo:padding="0.0396in" fo:border="0.5pt solid #cccccc">
+    <style:background-image/>
+   </style:table-cell-properties>
+  </style:style>
+  <style:style style:name="UnusedFields.B3" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="top" fo:background-color="#fafafa" fo:padding="0.0396in" fo:border="0.5pt solid #cccccc">
+    <style:background-image/>
+   </style:table-cell-properties>
+  </style:style>
+  <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties officeooo:paragraph-rsid="000cd729"/>
+  </style:style>
+  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties officeooo:paragraph-rsid="000d54a4"/>
+  </style:style>
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties officeooo:paragraph-rsid="000da137"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Table_20_Note">
+   <style:text-properties officeooo:paragraph-rsid="000da137"/>
+  </style:style>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties officeooo:paragraph-rsid="000e2a23"/>
+  </style:style>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Table_20_Label">
+   <style:text-properties officeooo:paragraph-rsid="000da137"/>
+  </style:style>
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-align="start" style:justify-single-word="false" fo:orphans="2" fo:widows="2" fo:text-indent="0in" style:auto-text-indent="false"/>
+  </style:style>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-align="start" style:justify-single-word="false" fo:orphans="2" fo:widows="2" fo:text-indent="0in" style:auto-text-indent="false"/>
+   <style:text-properties officeooo:paragraph-rsid="000da137"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Table_20_Label">
+   <style:text-properties officeooo:paragraph-rsid="000e2a23"/>
+  </style:style>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties fo:page-width="8.2681in" fo:page-height="11.6929in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.278in" style:layout-grid-ruby-height="0.139in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0in" loext:margin-gutter="0in">
+    <style:footnote-sep style:width="0.0071in" style:distance-before-sep="0.0398in" style:distance-after-sep="0.0398in" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style/>
+  </style:page-layout>
+  <style:style style:name="dp1" style:family="drawing-page">
+   <style:drawing-page-properties draw:background-size="full"/>
+  </style:style>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Standard" style:page-layout-name="pm1" draw:style-name="dp1"/>
+ </office:master-styles>
+ <office:body>
+  <office:text text:use-soft-page-breaks="true">
+   <text:sequence-decls>
+    <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
+   </text:sequence-decls>
+   <text:h text:style-name="Heading_20_1" text:outline-level="1">ResearchProject — Project Information Template</text:h>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2">Climate Knowledge Graph (ClimateKG)</text:h>
+   <text:p text:style-name="Instruction_20_Box">Instructions for non-technical editors: This document is the source of truth for all project information outputs (XML, HTML webpage, GitLab README, Wikidata entries, etc.). Fill in or update the English (EN) and German (DE) columns below. URLs, identifiers, and names that do not require translation — write &quot;(= EN)&quot; in the DE column. When done, pass the updated file to the technical team who will update the XML files and regenerate all outputs. Schema reference: https://schema.org/ResearchProject | DTD: ResearchProject.dtd</text:p>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2">Active Project Fields</text:h>
+   <table:table table:name="ActiveFields" table:style-name="ActiveFields">
+    <table:table-column table:style-name="ActiveFields.A"/>
+    <table:table-column table:style-name="ActiveFields.B"/>
+    <table:table-column table:style-name="ActiveFields.C"/>
+    <table:table-row table:style-name="ActiveFields.1">
+     <table:table-cell table:style-name="ActiveFields.A1" office:value-type="string">
+      <text:p text:style-name="Table_20_Header">Field (schema.org)</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.A1" office:value-type="string">
+      <text:p text:style-name="Table_20_Header">English (EN)</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.A1" office:value-type="string">
+      <text:p text:style-name="Table_20_Header">Deutsch (DE)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">name</text:p>
+      <text:p text:style-name="Table_20_Note">Project title</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Climate Knowledge Graph</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="P1">(= EN)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">alternateName</text:p>
+      <text:p text:style-name="Table_20_Note">Acronym / short name</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">ClimateKG</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">(= EN)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">disambiguatingDescription</text:p>
+      <text:p text:style-name="Table_20_Note">Strapline — one sentence for disambiguation</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">A community knowledge graph for literature on climate change science, intended for use by the public, policymakers, and scientists.</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Ein gemeinschaftlicher Wissensgraph zur Literatur über Klimawandelforschung, der sich an die Öffentlichkeit, politische Entscheidungsträger und Wissenschaftler richtet.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">description</text:p>
+      <text:p text:style-name="Table_20_Note">Full project description. Separate paragraphs with a blank line.</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">ClimateKG is a software research project for constructing a knowledge graph using the Intergovernmental Panel on Climate Change&apos;s <text:span text:style-name="T1">Sixth Assessment Report </text:span>with the Wikibase software platform. The FAIR Principles are being applied to publishing and are employed to enrich the report with granular cataloguing, document distribution, and data analysis. The knowledge graph is a &apos;community knowledge graph&apos; targeted at policymakers, scientists and the public, inviting contributions and engagement to increase the report&apos;s impact.</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="P2">ClimateKG ist ein Software-Forschungsprojekt zur Erstellung eines Wissensgraphen auf der Grundlage des Sechsten Sachstandsberichts des Zwischenstaatlichen Ausschusses für Klimawandel (IPCC) unter Verwendung der Softwareplattform Wikibase. Bei der Veröffentlichung werden die FAIR-Prinzipien angewendet, um den Bericht durch detaillierte Katalogisierung, Dokumentenverteilung und Datenanalyse anzureichern. Der Wissensgraph ist ein „Community-Wissensgraph“, der sich an politische Entscheidungsträger, Wissenschaftler und die Öffentlichkeit richtet und zu Beiträgen und Engagement einlädt, um die Wirkung des Berichts zu steigern.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">url</text:p>
+      <text:p text:style-name="Table_20_Note">Primary project URL</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">https://tibhannover.github.io/climate-knowledge-graph/</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">(= EN)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">sameAs</text:p>
+      <text:p text:style-name="Table_20_Note">Related authoritative URLs — one per line</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">https://github.com/TIBHannover/climate-knowledge-graph</text:p>
+      <text:p text:style-name="P3">https://github.com/TIBHannover/ClimateKG-Data-Bench</text:p>
+      <text:p text:style-name="P3">https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">(= EN)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">identifier</text:p>
+      <text:p text:style-name="Table_20_Note">Grant / project ID. Use propertyID attribute in XML.</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">TIB Innovation Fund</text:p>
+      <text:p text:style-name="P4">propertyID=&quot;GrantID&quot; value=&quot;TIB Innovation Fund&quot;</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="P5">(= EN)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <text:soft-page-break/>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">image → imageObject</text:p>
+      <text:p text:style-name="Table_20_Note">Partner logos. Format: Caption | URL</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">ClimateKG logo</text:p>
+      <text:p text:style-name="Table_20_Note">https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/climatekg-logo.png</text:p>
+      <text:p text:style-name="Table_20_Label">TIB – Leibniz Information Centre for Science and Technology logo</text:p>
+      <text:p text:style-name="Table_20_Note">https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/tib-logo.png</text:p>
+      <text:p text:style-name="P6">#semanticClimate logo</text:p>
+      <text:p text:style-name="P4">https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/semanticclimate-logo.jpg</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">URLs (= EN)</text:p>
+      <text:p text:style-name="Table_20_Contents"/>
+      <text:p text:style-name="Table_20_Label">DE captions:</text:p>
+      <text:p text:style-name="Table_20_Contents">ClimateKG-Logo</text:p>
+      <text:p text:style-name="Table_20_Contents">TIB – Leibniz-Informationszentrum Technik und Naturwissenschaften Logo</text:p>
+      <text:p text:style-name="P3">#semanticClimate-Logo</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">foundingDate / dissolutionDate</text:p>
+      <text:p text:style-name="Table_20_Note">ISO 8601 (YYYY-MM-DD or YYYY)</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Start: 2025-06-01</text:p>
+      <text:p text:style-name="Table_20_Contents">End: 2026</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">(= EN)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">parentOrganization</text:p>
+      <text:p text:style-name="Table_20_Note">Lead organisation. Include ROR ID as href.</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="P7">TIB – Leibniz Information Centre for Science and Technology and University Library</text:p>
+      <text:p text:style-name="Table_20_Note">ROR: http://ror.org/04aj4c181</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">TIB – Leibniz-Informationszentrum Technik und Naturwissenschaften und Universitätsbibliothek</text:p>
+      <text:p text:style-name="Table_20_Note">ROR: http://ror.org/04aj4c181</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">member</text:p>
+      <text:p text:style-name="Table_20_Note">Team members. Format: Name | ORCID iD</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Simon Worthington</text:p>
+      <text:p text:style-name="Table_20_Note">ORCID: 0000-0002-8579-9717</text:p>
+      <text:p text:style-name="Table_20_Contents">Laura‌ Oldenbourg</text:p>
+      <text:p text:style-name="Table_20_Note">ORCID: 0009-0003-5070-0099</text:p>
+      <text:p text:style-name="P3">Markus Stocker</text:p>
+      <text:p text:style-name="P4">ORCID: 0000-0001-5492-3212</text:p>
+      <text:p text:style-name="P3">Gitanjali Yadav</text:p>
+      <text:p text:style-name="P4">ORCID: 0000-0001-6591-9964</text:p>
+      <text:p text:style-name="P3">Peter Murray-Rust</text:p>
+      <text:p text:style-name="P4">ORCID: 0000-0003-3386-3972</text:p>
+      <text:p text:style-name="P3">Renu Kumari</text:p>
+      <text:p text:style-name="P4">ORCID: 0000-0002-9451-7814</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">(= EN)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">memberOf</text:p>
+      <text:p text:style-name="Table_20_Note">Partner organisations. Include ROR or URL as href.</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="P8">TIB – Leibniz Information Centre for Science and Technology and University Library</text:p>
+      <text:p text:style-name="P4">ROR: http://ror.org/04aj4c181</text:p>
+      <text:p text:style-name="P8">#semanticClimate</text:p>
+      <text:p text:style-name="P4">https://semanticclimate.github.io/p/en/</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="P3">TIB – Leibniz-Informationszentrum Technik und Naturwissenschaften und Universitätsbibliothek</text:p>
+      <text:p text:style-name="P4">ROR: http://ror.org/04aj4c181</text:p>
+      <text:p text:style-name="P8">#semanticClimate</text:p>
+      <text:p text:style-name="P4">https://semanticclimate.github.io/p/en/</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">funding</text:p>
+      <text:p text:style-name="Table_20_Note">Grant details: name | identifier | funder | url</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">Name:</text:p>
+      <text:p text:style-name="Table_20_Contents">Innovation Fund</text:p>
+      <text:p text:style-name="Table_20_Label">Grant ID:</text:p>
+      <text:p text:style-name="Table_20_Contents">2025-26</text:p>
+      <text:p text:style-name="Table_20_Label">Funder:</text:p>
+      <text:p text:style-name="P8">TIB – Leibniz Information Centre for Science and Technology and University Library</text:p>
+      <text:p text:style-name="Table_20_Label">URL:</text:p>
+      <text:p text:style-name="Table_20_Note">https://www.tib.eu/en</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">Name:</text:p>
+      <text:p text:style-name="Table_20_Contents">VEStOR</text:p>
+      <text:p text:style-name="Table_20_Label">Förderkennzeichen:</text:p>
+      <text:p text:style-name="Table_20_Contents">01PO23004A</text:p>
+      <text:p text:style-name="Table_20_Label">Förderer:</text:p>
+      <text:p text:style-name="Table_20_Contents">BMBFSFJ – Bundesministerium</text:p>
+      <text:p text:style-name="Table_20_Label">URL:</text:p>
+      <text:p text:style-name="Table_20_Note">https://www.fh-potsdam.de/forschung-transfer/projekte/vestor</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">keywords</text:p>
+      <text:p text:style-name="Table_20_Note">Comma-separated keyword list</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">IPCC, AR6, Sixth Assessment Report, Wikibase, MediaWiki, ER model, knowledge graph, climate change, semantic web, FAIR principles, document distribution, citizen science, metadata, data science, open science infrastructures, literature</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="P5">IPCC, AR6, Sixth Assessment Report, Wikibase, MediaWiki, ER-Modell, Wissensgraph, Klimawandel, Semantic Web, FAIR-Prinzipien, Dokumentenverteilung, Bürgerwissenschaft, Metadaten, Datenwissenschaft, Open-Science-Infrastrukturen, Literatur</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">knowsAbout</text:p>
+      <text:p text:style-name="Table_20_Note">Subject-area expertise — one topic per line</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Knowledge graph</text:p>
+      <text:p text:style-name="Table_20_Contents">semantic web</text:p>
+      <text:p text:style-name="Table_20_Contents">climate science literature</text:p>
+      <text:p text:style-name="Table_20_Contents">Wikibase</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:soft-page-break/>Mediawiki</text:p>
+      <text:p text:style-name="Table_20_Contents">document distribution</text:p>
+      <text:p text:style-name="Table_20_Contents">metadata</text:p>
+      <text:p text:style-name="Table_20_Contents">FAIR Principles</text:p>
+      <text:p text:style-name="Table_20_Contents">open-source software</text:p>
+      <text:p text:style-name="Table_20_Contents">publishing</text:p>
+      <text:p text:style-name="Table_20_Contents">citizen science</text:p>
+      <text:p text:style-name="Table_20_Contents">IPCC publishing</text:p>
+      <text:p text:style-name="Table_20_Contents">web scraping</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Wissensgraph&#x0d;</text:p>
+      <text:p text:style-name="Table_20_Contents">Semantisches Web&#x0d;</text:p>
+      <text:p text:style-name="Table_20_Contents">Literatur zur Klimawissenschaft&#x0d;</text:p>
+      <text:p text:style-name="Table_20_Contents">Wikibase&#x0d;</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:soft-page-break/>MediaWiki&#x0d;</text:p>
+      <text:p text:style-name="Table_20_Contents">Verbreitung von Dokumenten&#x0d;</text:p>
+      <text:p text:style-name="Table_20_Contents">Metadaten&#x0d;</text:p>
+      <text:p text:style-name="Table_20_Contents">FAIR-Prinzipien&#x0d;</text:p>
+      <text:p text:style-name="Table_20_Contents">Open-Source-Software&#x0d;</text:p>
+      <text:p text:style-name="Table_20_Contents">Veröffentlichung&#x0d;</text:p>
+      <text:p text:style-name="Table_20_Contents">Bürgerwissenschaft&#x0d;</text:p>
+      <text:p text:style-name="Table_20_Contents">IPCC-Veröffentlichungen&#x0d;</text:p>
+      <text:p text:style-name="Table_20_Contents">Web-Scraping</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">knowsLanguage</text:p>
+      <text:p text:style-name="Table_20_Note">IETF BCP 47 language codes</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">en (English)</text:p>
+      <text:p text:style-name="Table_20_Contents">de (German)</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">de (Deutsch)</text:p>
+      <text:p text:style-name="Table_20_Contents">en (Englisch)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ActiveFields.2">
+     <table:table-cell table:style-name="ActiveFields.A2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">hasCredential</text:p>
+      <text:p text:style-name="Table_20_Note">Licences and copyright. Format: Name | Description | URL</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
+      <text:p text:style-name="P9">GNU GENERAL PUBLIC LICENSE&#x0d; Version 3, 29 June 2007 (Code)</text:p>
+      <text:p text:style-name="P5">Code is released under the GNU GENERAL PUBLIC LICENSE&#x0d; Version 3 or another OSI-compliant open source licence. Copyright: The authors.</text:p>
+      <text:p text:style-name="Table_20_Note">https://fsf.org/</text:p>
+      <text:p text:style-name="Table_20_Contents"/>
+      <text:p text:style-name="Table_20_Label">CC BY-SA 4.0 (Content)</text:p>
+      <text:p text:style-name="Table_20_Contents">Content is licensed under Creative Commons Attribution-ShareAlike 4.0 International.</text:p>
+      <text:p text:style-name="Table_20_Note">https://creativecommons.org/licenses/by-sa/4.0/</text:p>
+      <text:p text:style-name="Table_20_Contents"/>
+      <text:p text:style-name="Table_20_Label">CC0 1.0 Universal (Metadata)</text:p>
+      <text:p text:style-name="Table_20_Contents">Metadata is dedicated to the public domain under Creative Commons Zero 1.0 Universal.</text:p>
+      <text:p text:style-name="Table_20_Note">https://creativecommons.org/publicdomain/zero/1.0/</text:p>
+      <text:p text:style-name="Table_20_Contents"/>
+      <text:p text:style-name="Table_20_Label">SIL Open Font Licence (Fonts)</text:p>
+      <text:p text:style-name="Table_20_Contents">Fonts are licensed under the SIL Open Font Licence or another open font licence.</text:p>
+      <text:p text:style-name="Table_20_Note">https://software.sil.org/oflt/</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">MIT-Lizenz (Code)</text:p>
+      <text:p text:style-name="P5">Der Code wird unter der GNU GENERAL PUBLIC LICENSE&#x0d; Version 3 oder einer anderen OSI-konformen Open-Source-Lizenz veröffentlicht. Urheberrecht: Die Autoren.</text:p>
+      <text:p text:style-name="Table_20_Note">https://fsf.org/</text:p>
+      <text:p text:style-name="Table_20_Contents"/>
+      <text:p text:style-name="Table_20_Label">CC BY-SA 4.0 (Inhalte)</text:p>
+      <text:p text:style-name="Table_20_Contents">Inhalte sind unter der Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International lizenziert.</text:p>
+      <text:p text:style-name="Table_20_Note">https://creativecommons.org/licenses/by-sa/4.0/deed.de</text:p>
+      <text:p text:style-name="Table_20_Contents"/>
+      <text:p text:style-name="Table_20_Label">CC0 1.0 Universal (Metadaten)</text:p>
+      <text:p text:style-name="Table_20_Contents">Metadaten sind unter Creative Commons Zero 1.0 Universal dem öffentlichen Bereich gewidmet.</text:p>
+      <text:p text:style-name="Table_20_Note">https://creativecommons.org/publicdomain/zero/1.0/deed.de</text:p>
+      <text:p text:style-name="Table_20_Contents"/>
+      <text:p text:style-name="Table_20_Label">SIL Open Font Licence (Schriften)</text:p>
+      <text:p text:style-name="Table_20_Contents">Schriften stehen unter der SIL Open Font Licence oder einer anderen offenen Schriftlizenz.</text:p>
+      <text:p text:style-name="Table_20_Note">https://software.sil.org/oflt/</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2">Unused DTD Fields (Reference)</text:h>
+   <text:p text:style-name="Instruction_20_Box">These fields are defined in ResearchProject.dtd but are not currently populated. They are listed here for reference. To activate a field, add the value in the table above and ask the technical team to add it to the XML instances.</text:p>
+   <table:table table:name="UnusedFields" table:style-name="UnusedFields">
+    <table:table-column table:style-name="UnusedFields.A"/>
+    <table:table-column table:style-name="UnusedFields.B"/>
+    <table:table-row table:style-name="UnusedFields.1">
+     <table:table-cell table:style-name="UnusedFields.A1" office:value-type="string">
+      <text:p text:style-name="Table_20_Header">Field (schema.org)</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.A1" office:value-type="string">
+      <text:p text:style-name="Table_20_Header">Description</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A2" table:number-columns-spanned="2" office:value-type="string">
+      <text:p text:style-name="Table_20_Section">Contact and Address</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">legalName</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Official registered name of the organization</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">address</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Physical address: streetAddress, addressLocality, addressRegion, postalCode, addressCountry</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">email</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Contact email address</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">telephone</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Telephone number</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">faxNumber</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Fax number</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <text:soft-page-break/>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">contactPoint</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Structured contact point: contactType, telephone, email, url, availableLanguage, areaServed</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">location</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Physical or virtual location: Place (with name, address, geo), PostalAddress, or VirtualLocation</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A2" table:number-columns-spanned="2" office:value-type="string">
+      <text:p text:style-name="Table_20_Section">People and Organisational Structure</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">founder</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Person or organization who founded this project/organization</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">employee</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Someone employed by this organization (use member for project team members)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">department</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">A department of this organization</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">subOrganization</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">A sub-organization of this one (inverse of parentOrganization)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">legalRepresentative</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Person(s) legally representing this organization (e.g. CEO, director)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">numberOfEmployees</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Number of employees (QuantitativeValue with optional min/max/unit)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A2" table:number-columns-spanned="2" office:value-type="string">
+      <text:p text:style-name="Table_20_Section">Identity and Branding</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">logo</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Primary organizational logo (ImageObject or URL). Currently using image* for partner logos.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">brand</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Brand or Organization associated with this item</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">award</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">An award won by or for this item</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">slogan</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">A slogan or motto associated with the item</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A2" table:number-columns-spanned="2" office:value-type="string">
+      <text:p text:style-name="Table_20_Section">Additional Funding and Support</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">funder (standalone)</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Top-level funder without a named grant. Currently funder is nested inside funding element.</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">sponsor</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Person or organization supporting through a pledge, promise, or financial contribution</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A2" table:number-columns-spanned="2" office:value-type="string">
+      <text:p text:style-name="Table_20_Section">Reviews and Events</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">review</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">A review of the item: reviewBody, reviewRating, author</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">event</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Upcoming or past event: name, startDate, endDate, location, url, description</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A2" table:number-columns-spanned="2" office:value-type="string">
+      <text:p text:style-name="Table_20_Section">Business and Regulatory Identifiers</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">duns</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Dun &amp; Bradstreet DUNS number for identifying an organization</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">leiCode</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Legal Entity Identifier as defined in ISO 17442</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">taxID</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Tax / Fiscal ID (e.g. TIN in the US, Steuernummer in Germany)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">vatID</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Value-added Tax ID with national prefix (e.g. DE123456789)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">isicV4</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">International Standard of Industrial Classification (ISIC) Revision 4 code</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">naics</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">North American Industry Classification System (NAICS) code</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">globalLocationNumber</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Global Location Number (GLN) — 13-digit identifier for parties and locations</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">iso6523Code</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">ISO 6523(-1) organization identifier. Format: XXXX:YYYYYY</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A2" table:number-columns-spanned="2" office:value-type="string">
+      <text:p text:style-name="Table_20_Section">Certification</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">hasCertification</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Certification information: name, certificationIdentification, issuedBy, certificationStatus, validFrom, validThrough</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A2" table:number-columns-spanned="2" office:value-type="string">
+      <text:p text:style-name="Table_20_Section">Schema.org Thing Properties (advanced)</text:p>
+     </table:table-cell>
+     <table:covered-table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">additionalType</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Additional type from an external vocabulary (Text or URL)</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">mainEntityOfPage</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Page (CreativeWork or URL) for which this thing is the main entity described</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">subjectOf</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">A CreativeWork or Event about this thing</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">potentialAction</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">A potential Action in which this thing plays an object role</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <text:soft-page-break/>
+    <table:table-row table:style-name="UnusedFields.2">
+     <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
+      <text:p text:style-name="Table_20_Label">owner</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents">Person or organization who owns this thing</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="Standard"/>
+  </office:text>
+ </office:body>
 </office:document>
