@@ -1,0 +1,308 @@
+﻿<html lang="en">
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A community knowledge graph for literature on climate change science, intended for use by the public, policymakers, and scientists.">
+    <meta name="keywords" content="IPCCAR6">
+    <title>Climate Knowledge Graph (ClimateKG)</title>
+    <style>
+/* ---- Reset ---- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ---- Base ---- */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #1a1a2e;
+  background: #f0f4f8;
+}
+a { color: #1a5276; text-decoration: none; }
+a:hover { color: #2e86c1; text-decoration: underline; }
+
+/* ---- Header ---- */
+header {
+  background: linear-gradient(135deg, #1a3a5c 0%, #1e5280 100%);
+  color: #fff;
+  padding: 2.5rem 3rem 2rem;
+}
+.header-logos {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.75rem;
+}
+.header-logos img {
+  height: 44px;
+  width: auto;
+  background: #fff;
+  padding: 4px 10px;
+  border-radius: 5px;
+  object-fit: contain;
+}
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.25;
+  margin-bottom: 0.4rem;
+}
+.acronym-badge {
+  display: inline-block;
+  background: #2e86c1;
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 2px 10px;
+  border-radius: 20px;
+  vertical-align: middle;
+  margin-left: 0.6rem;
+}
+.strapline {
+  margin-top: 0.6rem;
+  font-size: 1.05rem;
+  color: #a8cce8;
+  font-style: italic;
+}
+
+/* ---- Layout ---- */
+main {
+  max-width: 1080px;
+  margin: 2rem auto 3rem;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* ---- Cards ---- */
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.75rem 2rem;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.09);
+}
+.card h2 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #1a5276;
+  border-bottom: 2px solid #d6e8f8;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.1rem;
+}
+
+/* ---- Two-column grid ---- */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+@media (max-width: 680px) {
+  .two-col { grid-template-columns: 1fr; }
+  header { padding: 1.5rem; }
+  header h1 { font-size: 1.5rem; }
+}
+
+/* ---- Description ---- */
+.description p {
+  margin-bottom: 0.9rem;
+  color: #2c2c3e;
+}
+.description p:last-child { margin-bottom: 0; }
+
+/* ---- Definition list ---- */
+dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.3rem 1rem; }
+dt {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #6b7a99;
+  align-self: start;
+  padding-top: 0.15rem;
+  white-space: nowrap;
+}
+dd { color: #1a1a2e; word-break: break-word; }
+dd + dt { margin-top: 0.4rem; }
+dd a { word-break: break-all; }
+
+/* ---- Team ---- */
+.team-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.team-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #f0f4f8;
+  border-radius: 6px;
+  padding: 0.55rem 1rem;
+  border: 1px solid #d6e4f0;
+}
+.person-name {
+  font-weight: 600;
+  color: #1a3a5c;
+}
+.orcid-link {
+  display: inline-block;
+  background: #a6ce39;
+  color: #fff !important;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 1px 7px;
+  border-radius: 3px;
+  text-decoration: none !important;
+}
+.orcid-link:hover { background: #8ab830 !important; }
+
+/* ---- Tags / Keywords ---- */
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+.tag {
+  background: #dbeafe;
+  color: #1e3a6e;
+  padding: 3px 11px;
+  border-radius: 14px;
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+/* ---- Subject areas ---- */
+.topics {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+.topics li {
+  background: #d1fae5;
+  color: #064e3b;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  border-left: 3px solid #059669;
+}
+
+/* ---- Related links ---- */
+.link-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+.link-list li::before { content: "↗\00a0"; color: #2e86c1; }
+.link-list a { word-break: break-all; }
+
+/* ---- Licences ---- */
+.licence-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.licence-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem;
+  background: #faf5ff;
+  border-left: 3px solid #7c3aed;
+  padding: 0.55rem 1rem;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.9rem;
+}
+.licence-name { font-weight: 700; color: #4c1d95; }
+.licence-desc { color: #374151; }
+.licence-url {
+  font-size: 0.8rem;
+  color: #7c3aed;
+  word-break: break-all;
+}
+
+/* ---- Footer ---- */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #8896b0;
+  font-size: 0.82rem;
+  border-top: 1px solid #d6e4f0;
+}
+footer a { color: #2e86c1; }
+        </style>
+  </head>
+  <body vocab="https://schema.org/" typeof="ResearchProject"><header><div class="header-logos"><img src="https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/climatekg-logo.png" alt="ClimateKG logo"><img src="https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/tib-logo.png" alt="TIB – Leibniz Information Centre for Science and Technology logo"><img src="https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/semanticclimate-logo.jpg" alt="#semanticClimate logo"></div>
+      <h1><span property="name">Climate Knowledge Graph</span><span class="acronym-badge" property="alternateName">ClimateKG</span></h1>
+      <p class="strapline" property="disambiguatingDescription">A community knowledge graph for literature on climate change science, intended for use by the public, policymakers, and scientists.</p></header><main><section class="card" id="about"><h2>About the Project</h2>
+        <div class="description" property="description">
+          <p>ClimateKG is a software research project for constructing a knowledge graph using the Intergovernmental Panel on Climate Change's Sixth Assessment Report with the Wikibase software platform. The FAIR Principles are being applied to publishing and are employed to enrich the report with granular cataloguing, document distribution, and data analysis. The knowledge graph is a 'community knowledge graph' targeted at policymakers, scientists and the public, inviting contributions and engagement to increase the report's impact.</p>
+        </div></section><div class="two-col"><section class="card" id="details"><h2>Project Details</h2>
+          <dl>
+            <dt>Repository</dt>
+            <dd property="url"><a href="h">h</a></dd>
+            <dt>Period</dt>
+            <dd><span property="foundingDate">2025-06-01</span> – <span property="dissolutionDate">2026</span></dd>
+            <dt>Identifier</dt>
+            <dd property="identifier">TIB Innovation Fund</dd>
+            <dt>See also</dt>
+            <dd><a href="https://github.com/TIBHannover/climate-knowledge-graph" property="sameAs">https://github.com/TIBHannover/climate-knowledge-graph</a></dd>
+            <dt>See also</dt>
+            <dd><a href="https://github.com/TIBHannover/ClimateKG-Data-Bench" property="sameAs">https://github.com/TIBHannover/ClimateKG-Data-Bench</a></dd>
+            <dt>See also</dt>
+            <dd><a href="https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg" property="sameAs">https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg</a></dd>
+          </dl></section><section class="card" id="partners"><h2>Partners &amp; Funding</h2>
+          <dl>
+            <dt>Lead</dt>
+            <dd property="parentOrganization"><a href="http://ror.org/04aj4c181">TIB – Leibniz Information Centre for Science and Technology and University Library</a></dd>
+            <dt>Partner</dt>
+            <dd property="memberOf"><a href="http://ror.org/04aj4c181">TIB – Leibniz Information Centre for Science and Technology and University Library</a></dd>
+            <dt>Partner</dt>
+            <dd property="memberOf"><a href="https://semanticclimate.github.io/p/en/">#semanticClimate</a></dd>
+            <dt>Grant</dt>
+            <dd property="funding">Innovation Fund — TIB – Leibniz Information Centre for Science and Technology and University Library Grant ID 2025-26 (TIB – Leibniz Information Centre for Science and Technology and University Library) <a href="https://www.tib.eu/en" title="Grant details">↗</a></dd>
+          </dl></section></div><section class="card" id="team"><h2>Team</h2>
+        <ul class="team-list">
+          <li property="member" typeof="schema:Person"><span class="person-name" property="name">Simon Worthington</span><a class="orcid-link" href="https://orcid.org/0000-0002-8579-9717" property="url" title="View ORCID profile">ORCID</a></li>
+          <li property="member" typeof="schema:Person"><span class="person-name" property="name">Laura‌ Oldenbourg</span><a class="orcid-link" href="https://orcid.org/0009-0003-5070-0099" property="url" title="View ORCID profile">ORCID</a></li>
+          <li property="member" typeof="schema:Person"><span class="person-name" property="name">Markus Stocker</span><a class="orcid-link" href="https://orcid.org/0000-0001-5492-3212" property="url" title="View ORCID profile">ORCID</a></li>
+          <li property="member" typeof="schema:Person"><span class="person-name" property="name">Gitanjali Yadav</span><a class="orcid-link" href="https://orcid.org/0000-0001-6591-9964" property="url" title="View ORCID profile">ORCID</a></li>
+          <li property="member" typeof="schema:Person"><span class="person-name" property="name">Peter Murray-Rust</span><a class="orcid-link" href="https://orcid.org/0000-0003-3386-3972" property="url" title="View ORCID profile">ORCID</a></li>
+          <li property="member" typeof="schema:Person"><span class="person-name" property="name">Renu Kumari</span><a class="orcid-link" href="https://orcid.org/0000-0002-9451-7814" property="url" title="View ORCID profile">ORCID</a></li>
+        </ul></section><section class="card" id="keywords"><h2>Keywords</h2>
+        <div class="tag-cloud"><span class="tag">IPCCAR6</span></div></section><section class="card" id="subject-areas"><h2>Subject Areas</h2>
+        <ul class="topics">
+          <li property="knowsAbout">Knowledge graph</li>
+          <li property="knowsAbout">semantic web</li>
+          <li property="knowsAbout">climate science literature</li>
+          <li property="knowsAbout">Wikibase</li>
+          <li property="knowsAbout">Mediawiki</li>
+          <li property="knowsAbout">document distribution</li>
+          <li property="knowsAbout">metadata</li>
+          <li property="knowsAbout">FAIR Principles</li>
+          <li property="knowsAbout">open-source software</li>
+          <li property="knowsAbout">publishing</li>
+          <li property="knowsAbout">citizen science</li>
+          <li property="knowsAbout">IPCC publishing</li>
+          <li property="knowsAbout">web scraping</li>
+        </ul></section><section class="card" id="licences"><h2>Licences &amp; Copyright</h2>
+        <ul class="licence-list">
+          <li><span class="licence-name">GNU GENERAL PUBLIC LICENSE
+ Version 3, 29 June 2007 (Code)</span><span class="licence-desc">— Code is released under the GNU GENERAL PUBLIC LICENSE
+ Version 3 or another OSI-compliant open source licence. Copyright: The authors.</span><a class="licence-url" href="https://fsf.org/">https://fsf.org/</a></li>
+          <li><span class="licence-name">CC BY-SA 4.0 (Content)</span><span class="licence-desc">— Content is licensed under Creative Commons Attribution-ShareAlike 4.0 International.</span><a class="licence-url" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></li>
+          <li><span class="licence-name">CC0 1.0 Universal (Metadata)</span><span class="licence-desc">— Metadata is dedicated to the public domain under Creative Commons Zero 1.0 Universal.</span><a class="licence-url" href="https://creativecommons.org/publicdomain/zero/1.0/">https://creativecommons.org/publicdomain/zero/1.0/</a></li>
+          <li><span class="licence-name">SIL Open Font Licence (Fonts)</span><span class="licence-desc">— Fonts are licensed under the SIL Open Font Licence or another open font licence.</span><a class="licence-url" href="https://software.sil.org/oflt/">https://software.sil.org/oflt/</a></li>
+        </ul></section></main><footer><p>Structured as <a href="https://schema.org/ResearchProject">schema:ResearchProject</a> | Metadata: <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> | Content: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> | Code: MIT</p></footer></body>
+</html>

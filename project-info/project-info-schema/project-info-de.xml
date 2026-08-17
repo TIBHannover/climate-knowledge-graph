@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ResearchProject.xslt"?>
+<!DOCTYPE ResearchProject SYSTEM "ResearchProject.dtd">
+<ResearchProject xml:lang="de" typeof="schema:ResearchProject" vocab="https://schema.org/">
+
+    <name>C</name>
+
+    <description>ClimateKG ist ein Software-Forschungsprojekt zur Erstellung eines Wissensgraphen auf der Grundlage des Sechsten Sachstandsberichts des Zwischenstaatlichen Ausschusses für Klimawandel (IPCC) unter Verwendung der Softwareplattform Wikibase. Bei der Veröffentlichung werden die FAIR-Prinzipien angewendet, um den Bericht durch detaillierte Katalogisierung, Dokumentenverteilung und Datenanalyse anzureichern. Der Wissensgraph ist ein „Community-Wissensgraph“, der sich an politische Entscheidungsträger, Wissenschaftler und die Öffentlichkeit richtet und zu Beiträgen und Engagement einlädt, um die Wirkung des Berichts zu steigern.</description>
+
+    <alternateName>C</alternateName>
+
+    <url>h</url>
+
+    <sameAs>https://github.com/TIBHannover/climate-knowledge-graph</sameAs>
+    <sameAs>https://github.com/TIBHannover/ClimateKG-Data-Bench</sameAs>
+    <sameAs>https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg</sameAs>
+
+    <identifier propertyID="GrantID" value="TIB Innovation Fund">TIB Innovation Fund</identifier>
+
+    <image>
+        <imageObject>
+            <contentUrl>https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/climatekg-logo.png</contentUrl>
+            <caption xml:lang="de">ClimateKG-Logo</caption>
+        </imageObject>
+    </image>
+    <image>
+        <imageObject>
+            <contentUrl>https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/tib-logo.png</contentUrl>
+            <caption xml:lang="de">TIB – Leibniz-Informationszentrum Technik und Naturwissenschaften Logo</caption>
+        </imageObject>
+    </image>
+    <image>
+        <imageObject>
+            <contentUrl>https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/semanticclimate-logo.jpg</contentUrl>
+            <caption xml:lang="de">#semanticClimate-Logo</caption>
+        </imageObject>
+    </image>
+
+    <disambiguatingDescription xml:lang="de">E</disambiguatingDescription>
+
+    <foundingDate>2025-06-01</foundingDate>
+    <dissolutionDate>2026</dissolutionDate>
+
+    <member typeof="schema:Person" href="https://orcid.org/0000-0002-8579-9717">Simon Worthington</member>
+    <member typeof="schema:Person" href="https://orcid.org/0009-0003-5070-0099">Laura‌ Oldenbourg</member>
+    <member typeof="schema:Person" href="https://orcid.org/0000-0001-5492-3212">Markus Stocker</member>
+    <member typeof="schema:Person" href="https://orcid.org/0000-0001-6591-9964">Gitanjali Yadav</member>
+    <member typeof="schema:Person" href="https://orcid.org/0000-0003-3386-3972">Peter Murray-Rust</member>
+    <member typeof="schema:Person" href="https://orcid.org/0000-0002-9451-7814">Renu Kumari</member>
+
+    <memberOf typeof="schema:Organization" href="http://ror.org/04aj4c181">TIB – Leibniz-Informationszentrum Technik und Naturwissenschaften und Universitätsbibliothek</memberOf>
+    <memberOf typeof="schema:Organization" href="https://semanticclimate.github.io/p/en/">ROR: http://ror.org/04aj4c181</memberOf>
+
+    <parentOrganization href="http://ror.org/04aj4c181">TIB – Leibniz-Informationszentrum Technik und Naturwissenschaften und Universitätsbibliothek</parentOrganization>
+
+    <keywords xml:lang="de">I</keywords>
+
+    <funding>
+        <name>VEStOR</name>
+        <identifier propertyID="GrantID" value="01PO23004A">BMBFSFJ – Bundesministerium Förderkennzeichen 01PO23004A</identifier>
+        <funder typeof="schema:Organization">BMBFSFJ – Bundesministerium</funder>
+        <url>https://www.fh-potsdam.de/forschung-transfer/projekte/vestor</url>
+    </funding>
+
+    <knowsAbout xml:lang="de">Wissensgraph</knowsAbout>
+    <knowsAbout xml:lang="de">Semantisches Web</knowsAbout>
+    <knowsAbout xml:lang="de">Literatur zur Klimawissenschaft</knowsAbout>
+    <knowsAbout xml:lang="de">Wikibase</knowsAbout>
+    <knowsAbout xml:lang="de">MediaWiki</knowsAbout>
+    <knowsAbout xml:lang="de">Verbreitung von Dokumenten</knowsAbout>
+    <knowsAbout xml:lang="de">Metadaten</knowsAbout>
+    <knowsAbout xml:lang="de">FAIR-Prinzipien</knowsAbout>
+    <knowsAbout xml:lang="de">Open-Source-Software</knowsAbout>
+    <knowsAbout xml:lang="de">Veröffentlichung</knowsAbout>
+    <knowsAbout xml:lang="de">Bürgerwissenschaft</knowsAbout>
+    <knowsAbout xml:lang="de">IPCC-Veröffentlichungen</knowsAbout>
+    <knowsAbout xml:lang="de">Web-Scraping</knowsAbout>
+
+    <knowsLanguage languageCode="de">Deutsch</knowsLanguage>
+    <knowsLanguage languageCode="en">Englisch</knowsLanguage>
+
+    <hasCredential>
+        <name>MIT-Lizenz (Code)</name>
+        <description>Der Code wird unter der GNU GENERAL PUBLIC LICENSE Version 3 oder einer anderen OSI-konformen Open-Source-Lizenz veröffentlicht. Urheberrecht: Die Autoren.</description>
+        <url>https://fsf.org/</url>
+    </hasCredential>
+    <hasCredential>
+        <name>CC BY-SA 4.0 (Inhalte)</name>
+        <description>Inhalte sind unter der Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International lizenziert.</description>
+        <url>https://creativecommons.org/licenses/by-sa/4.0/deed.de</url>
+    </hasCredential>
+    <hasCredential>
+        <name>CC0 1.0 Universal (Metadaten)</name>
+        <description>Metadaten sind unter Creative Commons Zero 1.0 Universal dem öffentlichen Bereich gewidmet.</description>
+        <url>https://creativecommons.org/publicdomain/zero/1.0/deed.de</url>
+    </hasCredential>
+    <hasCredential>
+        <name>SIL Open Font Licence (Schriften)</name>
+        <description>Schriften stehen unter der SIL Open Font Licence oder einer anderen offenen Schriftlizenz.</description>
+        <url>https://software.sil.org/oflt/</url>
+    </hasCredential>
+
+</ResearchProject>

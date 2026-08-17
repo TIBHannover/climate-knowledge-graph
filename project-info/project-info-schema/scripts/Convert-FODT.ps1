@@ -74,7 +74,7 @@ $fodtPath = $LocalFodt
 
 if (-not $fodtPath) {
     $downloadUrl = $ShareUrl.TrimEnd('/') + '/download'
-    $fodtPath    = Join-Path ([System.IO.Path]::GetTempPath()) 'project-template-donotedit.fodt'
+    $fodtPath    = Join-Path ([System.IO.Path]::GetTempPath()) 'project-ckg.fodt'
     Write-Host "Downloading FODT from $downloadUrl ..."
     try {
         Invoke-WebRequest -Uri $downloadUrl -OutFile $fodtPath -ErrorAction Stop
