@@ -18,7 +18,7 @@ On the *IPCC Sixth Assessment Report*:
 
 ## IPCC report: From browsable website to dynamic data resource
 
-<img src="images/dia2-v1-make3.png" alt="IPCC Report: Knowledge transformation schematic" style="width:100%;max-width:100%;height:auto;">
+<img src="images/dia2-v1-schematic.png" alt="IPCC Report: Knowledge transformation schematic" style="width:100%;max-width:100%;height:auto;">
 
 ## How the knowledge graph is made
 
