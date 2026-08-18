@@ -11,7 +11,7 @@ webpage and a repository README — for ClimateKG, and reusably for any other re
 
 | Type | File |
 |---|---|
-| Source (`.fodt`) | [project-info-schema/project-ckg.fodt](project-info-schema/project-ckg.fodt) |
+| Source (`.fodt`) | [project-info-schema/project-ckg.fodt](project-info-schema/project-ckg.fodt) · [Nextcloud (view/edit)](https://tib.cloud/s/2j3A4Mjp7SdjDZa) |
 | XML | [project-info-en.xml](project-info-en.xml) · [project-info-de.xml](project-info-de.xml) |
 | HTML | [project-info-en.html](project-info-en.html) · [project-info-de.html](project-info-de.html) |
 | Output | [Repository README](../README.md) |
