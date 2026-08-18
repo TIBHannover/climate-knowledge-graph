@@ -18,7 +18,7 @@ On the *IPCC Sixth Assessment Report*:
 
 ## IPCC report: From browsable website to dynamic data resource
 
-<img src="images/dia2c.png" alt="IPCC Report: Knowledge transformation schematic" style="width:100%;max-width:100%;height:auto;">
+<img src="images/dia2-v1-make3.png" alt="IPCC Report: Knowledge transformation schematic" style="width:100%;max-width:100%;height:auto;">
 
 ## How the knowledge graph is made
 
@@ -198,6 +198,8 @@ Other design resources under respective open licences.
 <a href="https://www.tib.eu/en"><img src="images/tib-logo.png" alt="TIB – Leibniz Information Centre for Science and Technology" width="200"></a>
 
 <a href="https://semanticclimate.github.io/p/en/"><img src="images/semanticclimate-logo.jpg" alt="#semanticClimate" width="200"></a>
+
+---
 
 ## Project information as schema ResearchProject
 
