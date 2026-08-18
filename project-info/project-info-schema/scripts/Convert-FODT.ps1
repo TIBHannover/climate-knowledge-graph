@@ -27,10 +27,16 @@
     Output path for the German XML. Defaults to project-info-de.xml next to this script.
 
 .PARAMETER SaveFodt
-    If specified, saves the downloaded FODT to this path for local archiving.
+    Path to archive the downloaded FODT to. Defaults to
+    project-info-schema\project-ckg.fodt (next to this script's parent folder),
+    so the raw source stays committed alongside the generated XML and in sync
+    with it. Pass -NoSaveFodt to skip archiving.
+
+.PARAMETER NoSaveFodt
+    If specified, skips archiving the downloaded FODT into the repo.
 
 .EXAMPLE
-    # Fetch from Nextcloud and update both XML files
+    # Fetch from Nextcloud, update both XML files, and archive the FODT in-repo
     .\Convert-FODT.ps1 -ShareUrl https://tib.cloud/s/QFJHz4NZZLJKTe2
 
 .EXAMPLE
@@ -38,9 +44,8 @@
     .\Convert-FODT.ps1 -LocalFodt "C:\Downloads\project-template-2026.fodt"
 
 .EXAMPLE
-    # Fetch, save local copy, then convert
-    .\Convert-FODT.ps1 -ShareUrl https://tib.cloud/s/2j3A4Mjp7SdjDZa `
-                       -SaveFodt "C:\gitlab\opp\project-info\project-template-2026.fodt"
+    # Fetch and convert without archiving a copy in the repo
+    .\Convert-FODT.ps1 -ShareUrl https://tib.cloud/s/2j3A4Mjp7SdjDZa -NoSaveFodt
 
 .NOTES
     Part of the OPP project information pipeline.
@@ -56,16 +61,24 @@ param(
     [string] $LocalFodt,
     [string] $EnOut,
     [string] $DeOut,
-    [string] $SaveFodt
+    [string] $SaveFodt,
+    [switch] $NoSaveFodt
 )
 
 $scriptDir   = $PSScriptRoot
+$schemaDir   = Join-Path $scriptDir '..'
 $projectInfo = Join-Path $scriptDir '..\..'
 
 if (-not $EnOut) { $EnOut = Join-Path $projectInfo 'project-info-en.xml' }
 if (-not $DeOut) { $DeOut = Join-Path $projectInfo 'project-info-de.xml' }
 $EnOut = [System.IO.Path]::GetFullPath($EnOut)
 $DeOut = [System.IO.Path]::GetFullPath($DeOut)
+
+# Archive the downloaded FODT in the repo by default so the raw source stays
+# committed and in sync with the generated XML. -NoSaveFodt opts out.
+if (-not $SaveFodt -and -not $NoSaveFodt) {
+    $SaveFodt = Join-Path $schemaDir 'project-ckg.fodt'
+}
 
 # ============================================================
 # 1. Obtain the FODT
@@ -85,7 +98,7 @@ if (-not $fodtPath) {
     Write-Host "Downloaded: $fodtPath ($((Get-Item $fodtPath).Length) bytes)"
 }
 
-if ($SaveFodt) {
+if ($SaveFodt -and -not $NoSaveFodt) {
     $SaveFodt = [System.IO.Path]::GetFullPath($SaveFodt)
     Copy-Item $fodtPath $SaveFodt -Force
     Write-Host "Saved FODT copy: $SaveFodt"
@@ -204,10 +217,12 @@ function Build-XML([string]$lang) {
     }
 
     # ---- foundingDate / dissolutionDate ----
+    # Only capture a leading ISO 8601 date (YYYY or YYYY-MM-DD) and ignore any
+    # stray trailing text accidentally left in the source cell (e.g. ", keywords").
     $dateParas    = $fields['foundingDate / dissolutionDate'].EN
-    $foundingDate = ($dateParas | Where-Object { $_ -match '^Start:\s*(.+)' } |
+    $foundingDate = ($dateParas | Where-Object { $_ -match '^Start:\s*(\d{4}(?:-\d{2}-\d{2})?)' } |
                     ForEach-Object { $Matches[1] } | Select-Object -First 1)
-    $dissolution  = ($dateParas | Where-Object { $_ -match '^End:\s*(.+)' } |
+    $dissolution  = ($dateParas | Where-Object { $_ -match '^End:\s*(\d{4}(?:-\d{2}-\d{2})?)' } |
                     ForEach-Object { $Matches[1] } | Select-Object -First 1)
 
     # ---- parentOrganization ----
@@ -281,20 +296,38 @@ function Build-XML([string]$lang) {
         }
     }
 
-    # ---- hasCredential (groups: name, description, url, [blank]) ----
+    # ---- hasCredential (blank-line-separated groups of 1-3 paragraphs) ----
+    # Each item is a run of paragraphs bounded by blank paragraphs. A group can
+    # be just a name (1 paragraph), name + url or name + description
+    # (2 paragraphs), or name + description + url (3 paragraphs) — the source
+    # document isn't consistent about how many lines each credential uses.
+    function New-HcItem([string[]]$g) {
+        if ($g.Count -eq 0) { return $null }
+        $hcDesc = ''
+        $hcUrl  = ''
+        if ($g.Count -eq 2) {
+            if ($g[1] -match '^https?://') { $hcUrl = $g[1] } else { $hcDesc = $g[1] }
+        } elseif ($g.Count -ge 3) {
+            $hcDesc = $g[1]
+            $hcUrl  = $g[2]
+        }
+        [pscustomobject]@{ Name = $g[0]; Desc = $hcDesc; Url = $hcUrl }
+    }
+
     $hcParas = Resolve 'hasCredential'
     $hcItems = @()
-    $i = 0
-    while ($i -lt $hcParas.Count) {
-        if ([string]::IsNullOrEmpty($hcParas[$i])) { $i++; continue }
-        $hcName = $hcParas[$i]
-        $hcDesc = if (($i + 1) -lt $hcParas.Count) { $hcParas[$i + 1] } else { '' }
-        $hcUrl  = if (($i + 2) -lt $hcParas.Count) { $hcParas[$i + 2] } else { '' }
-        $hcItems += [pscustomobject]@{ Name = $hcName; Desc = $hcDesc; Url = $hcUrl }
-        $i += 3
-        # skip optional blank separator
-        if ($i -lt $hcParas.Count -and [string]::IsNullOrEmpty($hcParas[$i])) { $i++ }
+    $group   = @()
+    foreach ($p in $hcParas) {
+        if ([string]::IsNullOrEmpty($p)) {
+            $hcItem = New-HcItem $group
+            if ($hcItem) { $hcItems += $hcItem }
+            $group = @()
+        } else {
+            $group += $p
+        }
     }
+    $hcItem = New-HcItem $group
+    if ($hcItem) { $hcItems += $hcItem }
 
     # ============================================================
     # Emit XML
@@ -359,7 +392,9 @@ function Build-XML([string]$lang) {
     $null = $sb.Append("    <funding>$nl")
     $null = $sb.Append("        <name>$(X $fundName)</name>$nl")
     if ($fundGrantId) {
-        $idDisp = "$(X $fundFunder) $fundLabel $(X $fundGrantId)"
+        # Display text is just the label + grant ID — the funder name is emitted
+        # separately below (and rendered by the XSLT), so don't repeat it here.
+        $idDisp = "$fundLabel $(X $fundGrantId)"
         $null = $sb.Append("        <identifier propertyID=""GrantID"" value=""$(X $fundGrantId)"">$idDisp</identifier>$nl")
     }
     if ($fundFunder) {

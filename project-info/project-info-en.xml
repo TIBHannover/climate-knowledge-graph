@@ -39,7 +39,7 @@
     <disambiguatingDescription xml:lang="en">A community knowledge graph for literature on climate change science, intended for use by the public, policymakers, and scientists.</disambiguatingDescription>
 
     <foundingDate>2025-06-01</foundingDate>
-    <dissolutionDate>2026-06-30, keywords</dissolutionDate>
+    <dissolutionDate>2026-06-30</dissolutionDate>
 
     <member typeof="schema:Person" href="https://orcid.org/0000-0002-8579-9717">Simon Worthington</member>
     <member typeof="schema:Person" href="https://orcid.org/0009-0003-5070-0099">Laura‌ Oldenbourg</member>
@@ -56,7 +56,7 @@
 
     <funding>
         <name>TIB Innovation Fund</name>
-        <identifier propertyID="GrantID" value="2025-2026">TIB – Leibniz Information Centre for Science and Technology and University Library Grant ID 2025-2026</identifier>
+        <identifier propertyID="GrantID" value="2025-2026">Grant ID 2025-2026</identifier>
         <funder typeof="schema:Organization">TIB – Leibniz Information Centre for Science and Technology and University Library</funder>
         <url>https://www.tib.eu/en</url>
     </funding>
@@ -94,9 +94,14 @@
         <url>https://creativecommons.org/publicdomain/zero/1.0/</url>
     </hasCredential>
     <hasCredential>
-        <name>SIL Open Font Licence (Fonts)</name>
-        <description>Fonts are licensed under the SIL Open Font Licence or another open font licence.</description>
-        <url>https://software.sil.org/oflt/</url>
+        <name>Graphic design and fonts</name>
+        <description>Design assets are licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Other design resources under respective open licences. Fonts are licensed under the SIL Open Font Licence or another open font licence.</description>
+        <url>https://creativecommons.org/licenses/by-sa/4.0/</url>
+    </hasCredential>
+    <hasCredential>
+        <name>IPCC reports</name>
+        <description>The Climate Knowledge Graph imports content from the seven reports of the IPCC Sixth Assessment Report (AR6) cycle. Reports 1--6 are published by Cambridge University Press under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0). Report 7 (the Synthesis Report) is published by the IPCC directly with all rights reserved; short extracts may be reproduced with full source attribution. See also the IPCC copyright notice.</description>
+        <url>https://creativecommons.org/licenses/by-nc-nd/4.0/ </url>
     </hasCredential>
 
 </ResearchProject>

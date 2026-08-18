@@ -34,6 +34,12 @@
        ROOT TEMPLATE
   ============================================================== -->
   <xsl:template match="/ResearchProject">
+    <xsl:variable name="srcFile">
+      <xsl:choose>
+        <xsl:when test="@xml:lang='de'">project-info-de.xml</xsl:when>
+        <xsl:otherwise>project-info-en.xml</xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <html>
       <xsl:attribute name="lang">
         <xsl:choose>
@@ -537,6 +543,15 @@ footer a { color: #2e86c1; }
             <xsl:text>&#160;|&#160;Content: </xsl:text>
             <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
             <xsl:text>&#160;|&#160;Code: MIT</xsl:text>
+          </p>
+          <p class="generated-note">
+            <xsl:text>Generated from </xsl:text>
+            <a href="{$srcFile}"><xsl:value-of select="$srcFile"/></a>
+            <xsl:text> using </xsl:text>
+            <a href="project-info-schema/ResearchProject.xslt">ResearchProject.xslt</a>
+            <xsl:text>&#160;&#183;&#160;See </xsl:text>
+            <a href="README.md">project-info/README.md</a>
+            <xsl:text> for instructions on generating this page and reusing the pipeline in another repository.</xsl:text>
           </p>
         </footer>
 

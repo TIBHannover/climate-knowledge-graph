@@ -23,6 +23,9 @@
   ============================================================ -->
   <xsl:template match="/ResearchProject">
 
+    <!-- INFOBOX -->
+    <xsl:text>&gt; ℹ️ **Generated content** &#8212; from [`project-info/project-info-en.xml`](project-info/project-info-en.xml) using [`project-info/project-info-schema/ResearchProject-readme.xslt`](project-info/project-info-schema/ResearchProject-readme.xslt) &#183; Schema: [schema.org/ResearchProject](https://schema.org/ResearchProject). See [project-info/README.md](project-info/README.md) for the full pipeline documentation. Do not edit this section by hand &#8212; it is overwritten each time the pipeline runs.&#10;&#10;</xsl:text>
+
     <!-- TITLE -->
     <xsl:text># </xsl:text>
     <xsl:value-of select="name"/>
@@ -287,11 +290,6 @@
       </xsl:for-each>
       <xsl:text>&#10;</xsl:text>
     </xsl:if>
-
-    <!-- FOOTER -->
-    <xsl:text>---&#10;&#10;</xsl:text>
-    <xsl:text>*Generated from [`project-info/project-info-en.xml`](project-info/project-info-en.xml) using [`project-info/ResearchProject-readme.xslt`](project-info/ResearchProject-readme.xslt) &#183; Schema: [schema.org/ResearchProject](https://schema.org/ResearchProject)*&#10;&#10;</xsl:text>
-    <xsl:text>See [project-info/README.md](project-info/README.md) for the full pipeline documentation.&#10;</xsl:text>
 
   </xsl:template>
 
