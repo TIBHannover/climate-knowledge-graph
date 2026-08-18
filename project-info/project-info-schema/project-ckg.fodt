@@ -5,11 +5,11 @@
     <meta:creation-date>2026-06-11T00:00:00</meta:creation-date>
     <dc:title>ResearchProject Information Template – OpenRewi Publication Pipeline</dc:title>
     <dc:description>Bilingual EN/DE source-of-truth template. Fill in and pass to technical team to regenerate XML and HTML outputs.</dc:description>
-  <meta:generator>Collabora_Office/25.04.3.4$Linux_X86_64 LibreOffice_project/2d5e9a9e0805ed05295a1bf43a2fff44e9b24617</meta:generator><dc:date>2026-08-16T09:23:56.789509602</dc:date><meta:editing-duration>PT2H14M32S</meta:editing-duration><meta:editing-cycles>3</meta:editing-cycles><meta:document-statistic meta:table-count="2" meta:image-count="0" meta:object-count="0" meta:page-count="5" meta:paragraph-count="251" meta:word-count="1215" meta:character-count="10295" meta:non-whitespace-character-count="9301"/></office:meta>
+  <meta:generator>Collabora_Office/25.04.3.4$Linux_X86_64 LibreOffice_project/2d5e9a9e0805ed05295a1bf43a2fff44e9b24617</meta:generator><dc:date>2026-08-16T09:23:56.789509602</dc:date><meta:editing-duration>PT2H14M32S</meta:editing-duration><meta:editing-cycles>3</meta:editing-cycles><meta:document-statistic meta:table-count="2" meta:image-count="0" meta:object-count="0" meta:page-count="5" meta:paragraph-count="247" meta:word-count="1201" meta:character-count="10121" meta:non-whitespace-character-count="9142"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">2907</config:config-item>
-   <config:config-item config:name="ViewAreaLeft" config:type="long">1849</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">37917</config:config-item>
+   <config:config-item config:name="ViewAreaLeft" config:type="long">9257</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">1383</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">870</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
@@ -17,12 +17,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">2501</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">3000</config:config-item>
-     <config:config-item config:name="VisibleLeft" config:type="long">1849</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">2907</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">3230</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">3775</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">10627</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">38144</config:config-item>
+     <config:config-item config:name="VisibleLeft" config:type="long">9257</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">37917</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">10638</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">38784</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -149,7 +149,7 @@
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">928291</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">988561</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
@@ -171,7 +171,7 @@
  <office:styles>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.1181in" draw:shadow-offset-y="0.1181in" draw:start-line-spacing-horizontal="0.1114in" draw:start-line-spacing-vertical="0.1114in" draw:end-line-spacing-horizontal="0.1114in" draw:end-line-spacing-vertical="0.1114in" style:writing-mode="lr-tb" style:flow-with-text="false"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0in" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0in" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Carlito" fo:font-size="10pt" fo:language="en" fo:country="GB" style:letter-kerning="true" style:font-name-asian="Noto Serif SC" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Noto Sans1" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
@@ -242,6 +242,9 @@
   </style:style>
   <style:style style:name="Internet_20_link" style:display-name="Internet link" style:family="text">
    <style:text-properties fo:color="#000080" loext:opacity="100%" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color"/>
+  </style:style>
+  <style:style style:name="Visited_20_Internet_20_Link" style:display-name="Visited Internet Link" style:family="text">
+   <style:text-properties fo:color="#800000" loext:opacity="100%" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color"/>
   </style:style>
   <text:outline-style style:name="Outline">
    <text:outline-level-style text:level="1" loext:num-list-format="%1%" style:num-format="">
@@ -396,25 +399,31 @@
    <style:text-properties officeooo:paragraph-rsid="000d54a4"/>
   </style:style>
   <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:text-properties officeooo:paragraph-rsid="000f1591"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:text-properties officeooo:paragraph-rsid="000da137"/>
   </style:style>
-  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Table_20_Note">
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Table_20_Note">
    <style:text-properties officeooo:paragraph-rsid="000da137"/>
   </style:style>
-  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:text-properties officeooo:paragraph-rsid="000e2a23"/>
   </style:style>
-  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Table_20_Label">
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Table_20_Label">
    <style:text-properties officeooo:paragraph-rsid="000da137"/>
-  </style:style>
-  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Table_20_Contents">
-   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-align="start" style:justify-single-word="false" fo:orphans="2" fo:widows="2" fo:text-indent="0in" style:auto-text-indent="false"/>
   </style:style>
   <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-align="start" style:justify-single-word="false" fo:orphans="2" fo:widows="2" fo:text-indent="0in" style:auto-text-indent="false"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:margin-left="0in" fo:margin-right="0in" fo:text-align="start" style:justify-single-word="false" fo:orphans="2" fo:widows="2" fo:text-indent="0in" style:auto-text-indent="false"/>
    <style:text-properties officeooo:paragraph-rsid="000da137"/>
   </style:style>
-  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Table_20_Label">
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Table_20_Note">
+   <style:text-properties officeooo:paragraph-rsid="000f1591"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Table_20_Label">
    <style:text-properties officeooo:paragraph-rsid="000e2a23"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
@@ -516,7 +525,7 @@
       <text:p text:style-name="Table_20_Note">Primary project URL</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents">https://tibhannover.github.io/climate-knowledge-graph/</text:p>
+      <text:p text:style-name="P3">https://github.com/TIBHannover/climate-knowledge-graph</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
       <text:p text:style-name="Table_20_Contents">(= EN)</text:p>
@@ -528,9 +537,9 @@
       <text:p text:style-name="Table_20_Note">Related authoritative URLs — one per line</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents">https://github.com/TIBHannover/climate-knowledge-graph</text:p>
-      <text:p text:style-name="P3">https://github.com/TIBHannover/ClimateKG-Data-Bench</text:p>
-      <text:p text:style-name="P3">https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg</text:p>
+      <text:p text:style-name="P3">https://tibhannover.github.io/climate-knowledge-graph/</text:p>
+      <text:p text:style-name="P4">https://github.com/TIBHannover/ClimateKG-Data-Bench</text:p>
+      <text:p text:style-name="P4">https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
       <text:p text:style-name="Table_20_Contents">(= EN)</text:p>
@@ -543,10 +552,10 @@
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
       <text:p text:style-name="Table_20_Contents">TIB Innovation Fund</text:p>
-      <text:p text:style-name="P4">propertyID=&quot;GrantID&quot; value=&quot;TIB Innovation Fund&quot;</text:p>
+      <text:p text:style-name="P5">propertyID=&quot;GrantID&quot; value=&quot;TIB Innovation Fund&quot;</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
-      <text:p text:style-name="P5">(= EN)</text:p>
+      <text:p text:style-name="P6">(= EN)</text:p>
      </table:table-cell>
     </table:table-row>
     <text:soft-page-break/>
@@ -560,8 +569,8 @@
       <text:p text:style-name="Table_20_Note">https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/climatekg-logo.png</text:p>
       <text:p text:style-name="Table_20_Label">TIB – Leibniz Information Centre for Science and Technology logo</text:p>
       <text:p text:style-name="Table_20_Note">https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/tib-logo.png</text:p>
-      <text:p text:style-name="P6">#semanticClimate logo</text:p>
-      <text:p text:style-name="P4">https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/semanticclimate-logo.jpg</text:p>
+      <text:p text:style-name="P7">#semanticClimate logo</text:p>
+      <text:p text:style-name="P5">https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/semanticclimate-logo.jpg</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
       <text:p text:style-name="Table_20_Contents">URLs (= EN)</text:p>
@@ -569,7 +578,7 @@
       <text:p text:style-name="Table_20_Label">DE captions:</text:p>
       <text:p text:style-name="Table_20_Contents">ClimateKG-Logo</text:p>
       <text:p text:style-name="Table_20_Contents">TIB – Leibniz-Informationszentrum Technik und Naturwissenschaften Logo</text:p>
-      <text:p text:style-name="P3">#semanticClimate-Logo</text:p>
+      <text:p text:style-name="P4">#semanticClimate-Logo</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ActiveFields.2">
@@ -579,7 +588,7 @@
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
       <text:p text:style-name="Table_20_Contents">Start: 2025-06-01</text:p>
-      <text:p text:style-name="Table_20_Contents">End: 2026</text:p>
+      <text:p text:style-name="Table_20_Contents">End: 2026-06-30, keywords</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
       <text:p text:style-name="Table_20_Contents">(= EN)</text:p>
@@ -591,7 +600,7 @@
       <text:p text:style-name="Table_20_Note">Lead organisation. Include ROR ID as href.</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
-      <text:p text:style-name="P7">TIB – Leibniz Information Centre for Science and Technology and University Library</text:p>
+      <text:p text:style-name="P8">TIB – Leibniz Information Centre for Science and Technology and University Library</text:p>
       <text:p text:style-name="Table_20_Note">ROR: http://ror.org/04aj4c181</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
@@ -609,14 +618,14 @@
       <text:p text:style-name="Table_20_Note">ORCID: 0000-0002-8579-9717</text:p>
       <text:p text:style-name="Table_20_Contents">Laura‌ Oldenbourg</text:p>
       <text:p text:style-name="Table_20_Note">ORCID: 0009-0003-5070-0099</text:p>
-      <text:p text:style-name="P3">Markus Stocker</text:p>
-      <text:p text:style-name="P4">ORCID: 0000-0001-5492-3212</text:p>
-      <text:p text:style-name="P3">Gitanjali Yadav</text:p>
-      <text:p text:style-name="P4">ORCID: 0000-0001-6591-9964</text:p>
-      <text:p text:style-name="P3">Peter Murray-Rust</text:p>
-      <text:p text:style-name="P4">ORCID: 0000-0003-3386-3972</text:p>
-      <text:p text:style-name="P3">Renu Kumari</text:p>
-      <text:p text:style-name="P4">ORCID: 0000-0002-9451-7814</text:p>
+      <text:p text:style-name="P4">Markus Stocker</text:p>
+      <text:p text:style-name="P5">ORCID: 0000-0001-5492-3212</text:p>
+      <text:p text:style-name="P4">Gitanjali Yadav</text:p>
+      <text:p text:style-name="P5">ORCID: 0000-0001-6591-9964</text:p>
+      <text:p text:style-name="P4">Peter Murray-Rust</text:p>
+      <text:p text:style-name="P5">ORCID: 0000-0003-3386-3972</text:p>
+      <text:p text:style-name="P4">Renu Kumari</text:p>
+      <text:p text:style-name="P5">ORCID: 0000-0002-9451-7814</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
       <text:p text:style-name="Table_20_Contents">(= EN)</text:p>
@@ -628,16 +637,12 @@
       <text:p text:style-name="Table_20_Note">Partner organisations. Include ROR or URL as href.</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
-      <text:p text:style-name="P8">TIB – Leibniz Information Centre for Science and Technology and University Library</text:p>
-      <text:p text:style-name="P4">ROR: http://ror.org/04aj4c181</text:p>
-      <text:p text:style-name="P8">#semanticClimate</text:p>
-      <text:p text:style-name="P4">https://semanticclimate.github.io/p/en/</text:p>
+      <text:p text:style-name="P9">#semanticClimate</text:p>
+      <text:p text:style-name="P5">https://semanticclimate.github.io/p/en/</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
-      <text:p text:style-name="P3">TIB – Leibniz-Informationszentrum Technik und Naturwissenschaften und Universitätsbibliothek</text:p>
-      <text:p text:style-name="P4">ROR: http://ror.org/04aj4c181</text:p>
-      <text:p text:style-name="P8">#semanticClimate</text:p>
-      <text:p text:style-name="P4">https://semanticclimate.github.io/p/en/</text:p>
+      <text:p text:style-name="P9">#semanticClimate</text:p>
+      <text:p text:style-name="P5">https://semanticclimate.github.io/p/en/</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ActiveFields.2">
@@ -647,23 +652,23 @@
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
       <text:p text:style-name="Table_20_Label">Name:</text:p>
-      <text:p text:style-name="Table_20_Contents">Innovation Fund</text:p>
+      <text:p text:style-name="Table_20_Contents">TIB Innovation Fund</text:p>
       <text:p text:style-name="Table_20_Label">Grant ID:</text:p>
-      <text:p text:style-name="Table_20_Contents">2025-26</text:p>
+      <text:p text:style-name="Table_20_Contents">2025-2026</text:p>
       <text:p text:style-name="Table_20_Label">Funder:</text:p>
-      <text:p text:style-name="P8">TIB – Leibniz Information Centre for Science and Technology and University Library</text:p>
+      <text:p text:style-name="P9">TIB – Leibniz Information Centre for Science and Technology and University Library</text:p>
       <text:p text:style-name="Table_20_Label">URL:</text:p>
       <text:p text:style-name="Table_20_Note">https://www.tib.eu/en</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
       <text:p text:style-name="Table_20_Label">Name:</text:p>
-      <text:p text:style-name="Table_20_Contents">VEStOR</text:p>
+      <text:p text:style-name="Table_20_Contents">TIB Innovationsfonds</text:p>
       <text:p text:style-name="Table_20_Label">Förderkennzeichen:</text:p>
-      <text:p text:style-name="Table_20_Contents">01PO23004A</text:p>
+      <text:p text:style-name="P3">2025-2026</text:p>
       <text:p text:style-name="Table_20_Label">Förderer:</text:p>
-      <text:p text:style-name="Table_20_Contents">BMBFSFJ – Bundesministerium</text:p>
+      <text:p text:style-name="P3">TIB – Leibniz-Informationszentrum Technik und Naturwissenschaften und Universitätsbibliothek</text:p>
       <text:p text:style-name="Table_20_Label">URL:</text:p>
-      <text:p text:style-name="Table_20_Note">https://www.fh-potsdam.de/forschung-transfer/projekte/vestor</text:p>
+      <text:p text:style-name="P10">https://www.tib.eu/de</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ActiveFields.2">
@@ -675,7 +680,7 @@
       <text:p text:style-name="Table_20_Contents">IPCC, AR6, Sixth Assessment Report, Wikibase, MediaWiki, ER model, knowledge graph, climate change, semantic web, FAIR principles, document distribution, citizen science, metadata, data science, open science infrastructures, literature</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
-      <text:p text:style-name="P5">IPCC, AR6, Sixth Assessment Report, Wikibase, MediaWiki, ER-Modell, Wissensgraph, Klimawandel, Semantic Web, FAIR-Prinzipien, Dokumentenverteilung, Bürgerwissenschaft, Metadaten, Datenwissenschaft, Open-Science-Infrastrukturen, Literatur</text:p>
+      <text:p text:style-name="P6">IPCC, AR6, Sixth Assessment Report, Wikibase, MediaWiki, ER-Modell, Wissensgraph, Klimawandel, Semantic Web, FAIR-Prinzipien, Dokumentenverteilung, Bürgerwissenschaft, Metadaten, Datenwissenschaft, Open-Science-Infrastrukturen, Literatur</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ActiveFields.2">
@@ -688,9 +693,9 @@
       <text:p text:style-name="Table_20_Contents">semantic web</text:p>
       <text:p text:style-name="Table_20_Contents">climate science literature</text:p>
       <text:p text:style-name="Table_20_Contents">Wikibase</text:p>
-      <text:p text:style-name="Table_20_Contents"><text:soft-page-break/>Mediawiki</text:p>
+      <text:p text:style-name="Table_20_Contents">Mediawiki</text:p>
       <text:p text:style-name="Table_20_Contents">document distribution</text:p>
-      <text:p text:style-name="Table_20_Contents">metadata</text:p>
+      <text:p text:style-name="Table_20_Contents"><text:soft-page-break/>metadata</text:p>
       <text:p text:style-name="Table_20_Contents">FAIR Principles</text:p>
       <text:p text:style-name="Table_20_Contents">open-source software</text:p>
       <text:p text:style-name="Table_20_Contents">publishing</text:p>
@@ -699,18 +704,18 @@
       <text:p text:style-name="Table_20_Contents">web scraping</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents">Wissensgraph&#x0d;</text:p>
-      <text:p text:style-name="Table_20_Contents">Semantisches Web&#x0d;</text:p>
-      <text:p text:style-name="Table_20_Contents">Literatur zur Klimawissenschaft&#x0d;</text:p>
-      <text:p text:style-name="Table_20_Contents">Wikibase&#x0d;</text:p>
-      <text:p text:style-name="Table_20_Contents"><text:soft-page-break/>MediaWiki&#x0d;</text:p>
-      <text:p text:style-name="Table_20_Contents">Verbreitung von Dokumenten&#x0d;</text:p>
-      <text:p text:style-name="Table_20_Contents">Metadaten&#x0d;</text:p>
-      <text:p text:style-name="Table_20_Contents">FAIR-Prinzipien&#x0d;</text:p>
-      <text:p text:style-name="Table_20_Contents">Open-Source-Software&#x0d;</text:p>
-      <text:p text:style-name="Table_20_Contents">Veröffentlichung&#x0d;</text:p>
-      <text:p text:style-name="Table_20_Contents">Bürgerwissenschaft&#x0d;</text:p>
-      <text:p text:style-name="Table_20_Contents">IPCC-Veröffentlichungen&#x0d;</text:p>
+      <text:p text:style-name="Table_20_Contents">Wissensgraph </text:p>
+      <text:p text:style-name="Table_20_Contents">Semantisches Web </text:p>
+      <text:p text:style-name="Table_20_Contents">Literatur zur Klimawissenschaft </text:p>
+      <text:p text:style-name="Table_20_Contents">Wikibase </text:p>
+      <text:p text:style-name="Table_20_Contents">MediaWiki </text:p>
+      <text:p text:style-name="Table_20_Contents">Verbreitung von Dokumenten </text:p>
+      <text:p text:style-name="Table_20_Contents"><text:soft-page-break/>Metadaten </text:p>
+      <text:p text:style-name="Table_20_Contents">FAIR-Prinzipien </text:p>
+      <text:p text:style-name="Table_20_Contents">Open-Source-Software </text:p>
+      <text:p text:style-name="Table_20_Contents">Veröffentlichung </text:p>
+      <text:p text:style-name="Table_20_Contents">Bürgerwissenschaft </text:p>
+      <text:p text:style-name="Table_20_Contents">IPCC-Veröffentlichungen </text:p>
       <text:p text:style-name="Table_20_Contents">Web-Scraping</text:p>
      </table:table-cell>
     </table:table-row>
@@ -734,8 +739,8 @@
       <text:p text:style-name="Table_20_Note">Licences and copyright. Format: Name | Description | URL</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.B2" office:value-type="string">
-      <text:p text:style-name="P9">GNU GENERAL PUBLIC LICENSE&#x0d; Version 3, 29 June 2007 (Code)</text:p>
-      <text:p text:style-name="P5">Code is released under the GNU GENERAL PUBLIC LICENSE&#x0d; Version 3 or another OSI-compliant open source licence. Copyright: The authors.</text:p>
+      <text:p text:style-name="P11">GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 (Code)</text:p>
+      <text:p text:style-name="P6">Code is released under the GNU GENERAL PUBLIC LICENSE Version 3 or another OSI-compliant open source licence. Copyright: The authors.</text:p>
       <text:p text:style-name="Table_20_Note">https://fsf.org/</text:p>
       <text:p text:style-name="Table_20_Contents"/>
       <text:p text:style-name="Table_20_Label">CC BY-SA 4.0 (Content)</text:p>
@@ -752,7 +757,7 @@
      </table:table-cell>
      <table:table-cell table:style-name="ActiveFields.C2" office:value-type="string">
       <text:p text:style-name="Table_20_Label">MIT-Lizenz (Code)</text:p>
-      <text:p text:style-name="P5">Der Code wird unter der GNU GENERAL PUBLIC LICENSE&#x0d; Version 3 oder einer anderen OSI-konformen Open-Source-Lizenz veröffentlicht. Urheberrecht: Die Autoren.</text:p>
+      <text:p text:style-name="P6">Der Code wird unter der GNU GENERAL PUBLIC LICENSE Version 3 oder einer anderen OSI-konformen Open-Source-Lizenz veröffentlicht. Urheberrecht: Die Autoren.</text:p>
       <text:p text:style-name="Table_20_Note">https://fsf.org/</text:p>
       <text:p text:style-name="Table_20_Contents"/>
       <text:p text:style-name="Table_20_Label">CC BY-SA 4.0 (Inhalte)</text:p>
@@ -828,13 +833,12 @@
       <text:p text:style-name="Table_20_Contents">Fax number</text:p>
      </table:table-cell>
     </table:table-row>
-    <text:soft-page-break/>
     <table:table-row table:style-name="UnusedFields.2">
      <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
       <text:p text:style-name="Table_20_Label">contactPoint</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="UnusedFields.B3" office:value-type="string">
-      <text:p text:style-name="Table_20_Contents">Structured contact point: contactType, telephone, email, url, availableLanguage, areaServed</text:p>
+      <text:p text:style-name="Table_20_Contents">Structured contact point: contactType, telephone, email, url, availableLanguage, <text:soft-page-break/>areaServed</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="UnusedFields.2">
@@ -1103,7 +1107,6 @@
       <text:p text:style-name="Table_20_Contents">A potential Action in which this thing plays an object role</text:p>
      </table:table-cell>
     </table:table-row>
-    <text:soft-page-break/>
     <table:table-row table:style-name="UnusedFields.2">
      <table:table-cell table:style-name="UnusedFields.A3" office:value-type="string">
       <text:p text:style-name="Table_20_Label">owner</text:p>
@@ -1113,7 +1116,7 @@
      </table:table-cell>
     </table:table-row>
    </table:table>
-   <text:p text:style-name="Standard"/>
+   <text:p text:style-name="Standard"><text:soft-page-break/></text:p>
   </office:text>
  </office:body>
 </office:document>

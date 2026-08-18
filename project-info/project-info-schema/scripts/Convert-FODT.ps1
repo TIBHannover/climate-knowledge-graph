@@ -60,7 +60,7 @@ param(
 )
 
 $scriptDir   = $PSScriptRoot
-$projectInfo = Join-Path $scriptDir '..'
+$projectInfo = Join-Path $scriptDir '..\..'
 
 if (-not $EnOut) { $EnOut = Join-Path $projectInfo 'project-info-en.xml' }
 if (-not $DeOut) { $DeOut = Join-Path $projectInfo 'project-info-de.xml' }
@@ -136,8 +136,11 @@ $fields = @{}
 for ($i = 1; $i -lt $rows.Count; $i++) {
     $label = $rows[$i].SelectNodes("table:table-cell", $ns)[0].SelectNodes("text:p", $ns)[0].InnerText
     $fields[$label] = @{
-        EN = Get-Paras $rows[$i] 1
-        DE = Get-Paras $rows[$i] 2
+        # Force array context: a single-paragraph cell would otherwise collapse
+        # to a bare string, and later [0] indexing on a string returns a
+        # character instead of the full value.
+        EN = @(Get-Paras $rows[$i] 1)
+        DE = @(Get-Paras $rows[$i] 2)
     }
 }
 
@@ -297,8 +300,8 @@ function Build-XML([string]$lang) {
     $sb = [System.Text.StringBuilder]::new()
 
     $null = $sb.Append("<?xml version=""1.0"" encoding=""UTF-8""?>$nl")
-    $null = $sb.Append("<?xml-stylesheet type=""text/xsl"" href=""ResearchProject.xslt""?>$nl")
-    $null = $sb.Append("<!DOCTYPE ResearchProject SYSTEM ""ResearchProject.dtd"">$nl")
+    $null = $sb.Append("<?xml-stylesheet type=""text/xsl"" href=""project-info-schema/ResearchProject.xslt""?>$nl")
+    $null = $sb.Append("<!DOCTYPE ResearchProject SYSTEM ""project-info-schema/ResearchProject.dtd"">$nl")
     $null = $sb.Append("<ResearchProject xml:lang=""$lang"" typeof=""schema:ResearchProject"" vocab=""https://schema.org/"">$nl$nl")
 
     $null = $sb.Append("    <name>$(X $nameVal)</name>$nl$nl")

@@ -39,7 +39,7 @@ Then, an **entity-relationship model** is used to connect the data sets, forming
 
 * **ClimateKG:** Browse the full text and data, including full text, foundational datasets, and community data.
 
-* **ClimateKG Data Bench:** Data analysis and visualisation – A platform that enables the community to enrich the corpus, analyse the contents, share results and use AI LLMs and modern data science tools. 
+* **ClimateKG Data Bench:** Data analysis and visualisation – A platform that enables the community to enrich the corpus, analyse the contents, share results and use AI LLMs and modern data science tools.
 
 ### ClimateKG activities
 
@@ -49,4 +49,4 @@ Then, an **entity-relationship model** is used to connect the data sets, forming
 
 * **Citizen science:** ClimateKG collaborates with Youth Data Champions interns from the \#SemanticClimate organisation on a global scale.
 
-* **Data science community:** Contributors can enrich the corpus while maintaining the integrity of the original documents. 
+* **Data science community:** Contributors can enrich the corpus while maintaining the integrity of the original documents.

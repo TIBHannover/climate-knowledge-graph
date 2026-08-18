@@ -51,14 +51,14 @@ param(
 $scriptDir = $PSScriptRoot
 
 if (-not $Source) {
-    $Source = Join-Path $scriptDir "..\project-info-en.xml"
+    $Source = Join-Path $scriptDir "..\..\project-info-en.xml"
 }
 if (-not $Stylesheet) {
     $Stylesheet = Join-Path $scriptDir "..\ResearchProject.xslt"
 }
 if (-not $Output) {
     $baseName = [System.IO.Path]::GetFileNameWithoutExtension($Source)
-    $Output   = Join-Path $scriptDir "..\$baseName.html"
+    $Output   = Join-Path $scriptDir "..\..\$baseName.html"
 }
 
 # Resolve to absolute paths

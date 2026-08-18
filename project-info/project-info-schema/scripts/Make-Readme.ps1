@@ -16,10 +16,11 @@
     See project-info\pipeline.md for the full workflow description.
 #>
 
-$projectInfo = Join-Path $PSScriptRoot '..'
-$repoRoot    = Join-Path $PSScriptRoot '..\..'
+$schemaDir   = Join-Path $PSScriptRoot '..'
+$projectInfo = Join-Path $PSScriptRoot '..\..'
+$repoRoot    = Join-Path $PSScriptRoot '..\..\..'
 
 & (Join-Path $PSScriptRoot 'Apply-XSLT.ps1') `
     -Source      (Join-Path $projectInfo 'project-info-en.xml') `
-    -Stylesheet  (Join-Path $projectInfo 'ResearchProject-readme.xslt') `
+    -Stylesheet  (Join-Path $schemaDir   'ResearchProject-readme.xslt') `
     -Output      (Join-Path $repoRoot    'README.md')
