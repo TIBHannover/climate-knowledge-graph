@@ -154,10 +154,13 @@ function Build-XML([string]$lang) {
     $mlAttr = "xml:lang=""$lang"""
 
     # Resolve a field: return DE paras if available, else EN
+    # The leading comma prevents PowerShell from unrolling a single-element
+    # array back into a bare string as it passes through the return/pipeline
+    # (which would make a later [0] index return one character, not the value).
     function Resolve([string]$key) {
         $f = $fields[$key]
-        if ($isDE -and -not (Is-SameAsEN $f.DE)) { return $f.DE }
-        return $f.EN
+        if ($isDE -and -not (Is-SameAsEN $f.DE)) { return ,$f.DE }
+        return ,$f.EN
     }
 
     # ---- Simple text fields ----

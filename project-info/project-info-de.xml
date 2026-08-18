@@ -3,13 +3,13 @@
 <!DOCTYPE ResearchProject SYSTEM "project-info-schema/ResearchProject.dtd">
 <ResearchProject xml:lang="de" typeof="schema:ResearchProject" vocab="https://schema.org/">
 
-    <name>C</name>
+    <name>Climate Knowledge Graph</name>
 
     <description>ClimateKG ist ein Software-Forschungsprojekt zur Erstellung eines Wissensgraphen auf der Grundlage des Sechsten Sachstandsberichts des Zwischenstaatlichen Ausschusses für Klimawandel (IPCC) unter Verwendung der Softwareplattform Wikibase. Bei der Veröffentlichung werden die FAIR-Prinzipien angewendet, um den Bericht durch detaillierte Katalogisierung, Dokumentenverteilung und Datenanalyse anzureichern. Der Wissensgraph ist ein „Community-Wissensgraph“, der sich an politische Entscheidungsträger, Wissenschaftler und die Öffentlichkeit richtet und zu Beiträgen und Engagement einlädt, um die Wirkung des Berichts zu steigern.</description>
 
-    <alternateName>C</alternateName>
+    <alternateName>ClimateKG</alternateName>
 
-    <url>h</url>
+    <url>https://github.com/TIBHannover/climate-knowledge-graph</url>
 
     <sameAs>https://tibhannover.github.io/climate-knowledge-graph/</sameAs>
     <sameAs>https://github.com/TIBHannover/ClimateKG-Data-Bench</sameAs>
@@ -36,10 +36,10 @@
         </imageObject>
     </image>
 
-    <disambiguatingDescription xml:lang="de">E</disambiguatingDescription>
+    <disambiguatingDescription xml:lang="de">Ein gemeinschaftlicher Wissensgraph zur Literatur über Klimawandelforschung, der sich an die Öffentlichkeit, politische Entscheidungsträger und Wissenschaftler richtet.</disambiguatingDescription>
 
     <foundingDate>2025-06-01</foundingDate>
-    <dissolutionDate>2026</dissolutionDate>
+    <dissolutionDate>2026-06-30, keywords</dissolutionDate>
 
     <member typeof="schema:Person" href="https://orcid.org/0000-0002-8579-9717">Simon Worthington</member>
     <member typeof="schema:Person" href="https://orcid.org/0009-0003-5070-0099">Laura‌ Oldenbourg</member>
@@ -52,7 +52,7 @@
 
     <parentOrganization href="http://ror.org/04aj4c181">TIB – Leibniz-Informationszentrum Technik und Naturwissenschaften und Universitätsbibliothek</parentOrganization>
 
-    <keywords xml:lang="de">I</keywords>
+    <keywords xml:lang="de">IPCC, AR6, Sixth Assessment Report, Wikibase, MediaWiki, ER-Modell, Wissensgraph, Klimawandel, Semantic Web, FAIR-Prinzipien, Dokumentenverteilung, Bürgerwissenschaft, Metadaten, Datenwissenschaft, Open-Science-Infrastrukturen, Literatur</keywords>
 
     <funding>
         <name>TIB Innovationsfonds</name>

@@ -34,7 +34,7 @@ XML and HTML sit in `project-info/`; the README is written to the repo root.
 
 ## Using This Pipeline In Your Own Repository
 
-1. **Create a Nextcloud share** with a copy of `project-template-donotedit.fodt`,
+1. **Create a Nextcloud share** with a copy of `project-template-make-a-copy.fodt`,
    filled in with your project's details in the *Active Project Fields* table.
 2. **Copy the `project-info-schema/` folder** (scripts, XSLT, DTD) into your repo.
 3. **Generate XML** from your Nextcloud share:

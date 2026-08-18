@@ -1,6 +1,6 @@
-﻿# C (C)
+﻿# Climate Knowledge Graph (ClimateKG)
 
-> A
+> A community knowledge graph for literature on climate change science, intended for use by the public, policymakers, and scientists.
 
 <img src="https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/climatekg-logo.png" alt="ClimateKG logo" height="60">  <img src="https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/tib-logo.png" alt="TIB – Leibniz Information Centre for Science and Technology logo" height="60">  <img src="https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/semanticclimate-logo.jpg" alt="#semanticClimate logo" height="60">  
 
@@ -13,9 +13,9 @@ ClimateKG is a software research project for constructing a knowledge graph usin
 | | |
 |---|---|
 | **Lead** | [TIB – Leibniz Information Centre for Science and Technology and University Library](http://ror.org/04aj4c181) |
-| **Period** | 2025-06-01–2026 |
+| **Period** | 2025-06-01–2026-06-30, keywords |
 | **Grant** | TIB Innovation Fund (GrantID) |
-| **URL** | [h](h) |
+| **URL** | [https://github.com/TIBHannover/climate-knowledge-graph](https://github.com/TIBHannover/climate-knowledge-graph) |
 | **Also at** | [https://tibhannover.github.io/climate-knowledge-graph/](https://tibhannover.github.io/climate-knowledge-graph/) |
 | | [https://github.com/TIBHannover/ClimateKG-Data-Bench](https://github.com/TIBHannover/ClimateKG-Data-Bench) |
 | | [https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg](https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg) |
@@ -52,7 +52,7 @@ ClimateKG is a software research project for constructing a knowledge graph usin
 
 ## Keywords
 
-`I`
+`IPCC` `AR6` `Sixth Assessment Report` `Wikibase` `MediaWiki` `ER model` `knowledge graph` `climate change` `semantic web` `FAIR principles` `document distribution` `citizen science` `metadata` `data science` `open science infrastructures` `literature`
 
 ## Licences & Copyright
 
