@@ -522,9 +522,9 @@ footer a { color: #2e86c1; }
                     <xsl:if test="description">
                       <span class="licence-desc">&#8212; <xsl:value-of select="description"/></span>
                     </xsl:if>
-                    <xsl:if test="url">
-                      <a class="licence-url" href="{url}"><xsl:value-of select="url"/></a>
-                    </xsl:if>
+                    <xsl:for-each select="url">
+                      <a class="licence-url" href="{.}"><xsl:value-of select="."/></a>
+                    </xsl:for-each>
                   </li>
                 </xsl:for-each>
               </ul>

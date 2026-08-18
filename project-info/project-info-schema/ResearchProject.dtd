@@ -652,7 +652,7 @@
         verliehen wurde.
     Type: Credential
 -->
-<!ELEMENT hasCredential (name, description?, url?, validFrom?, validThrough?)>
+<!ELEMENT hasCredential (name, description?, url*, validFrom?, validThrough?)>
 
 
 <!-- =============================================================================

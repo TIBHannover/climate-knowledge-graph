@@ -269,23 +269,20 @@
     <xsl:if test="hasCredential">
       <xsl:text>## Licences &amp; Copyright&#10;&#10;</xsl:text>
       <xsl:for-each select="hasCredential">
-        <xsl:text>- </xsl:text>
-        <xsl:choose>
-          <xsl:when test="url">
-            <xsl:text>**[</xsl:text>
-            <xsl:value-of select="name"/>
-            <xsl:text>](</xsl:text>
-            <xsl:value-of select="url"/>
-            <xsl:text>)**</xsl:text>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:text>**</xsl:text>
-            <xsl:value-of select="name"/>
-            <xsl:text>**</xsl:text>
-          </xsl:otherwise>
-        </xsl:choose>
-        <xsl:text> &#8211; </xsl:text>
-        <xsl:value-of select="description"/>
+        <xsl:text>- **</xsl:text>
+        <xsl:value-of select="name"/>
+        <xsl:text>**</xsl:text>
+        <xsl:if test="description">
+          <xsl:text> &#8211; </xsl:text>
+          <xsl:value-of select="description"/>
+        </xsl:if>
+        <xsl:for-each select="url">
+          <xsl:text> [</xsl:text>
+          <xsl:value-of select="."/>
+          <xsl:text>](</xsl:text>
+          <xsl:value-of select="."/>
+          <xsl:text>)</xsl:text>
+        </xsl:for-each>
         <xsl:text>&#10;</xsl:text>
       </xsl:for-each>
       <xsl:text>&#10;</xsl:text>

@@ -100,8 +100,10 @@ if (-not $fodtPath) {
 
 if ($SaveFodt -and -not $NoSaveFodt) {
     $SaveFodt = [System.IO.Path]::GetFullPath($SaveFodt)
-    Copy-Item $fodtPath $SaveFodt -Force
-    Write-Host "Saved FODT copy: $SaveFodt"
+    if ($SaveFodt -ne [System.IO.Path]::GetFullPath($fodtPath)) {
+        Copy-Item $fodtPath $SaveFodt -Force
+        Write-Host "Saved FODT copy: $SaveFodt"
+    }
 }
 
 # ============================================================
@@ -296,22 +298,27 @@ function Build-XML([string]$lang) {
         }
     }
 
-    # ---- hasCredential (blank-line-separated groups of 1-3 paragraphs) ----
-    # Each item is a run of paragraphs bounded by blank paragraphs. A group can
-    # be just a name (1 paragraph), name + url or name + description
-    # (2 paragraphs), or name + description + url (3 paragraphs) — the source
-    # document isn't consistent about how many lines each credential uses.
+    # ---- hasCredential (blank-line-separated groups of paragraphs) ----
+    # Each item is a run of paragraphs bounded by blank paragraphs: a name,
+    # followed optionally by one description line and zero or more URL lines
+    # (some credentials cite two links, e.g. a CC licence and a copyright
+    # notice) — the source document isn't consistent about how many lines
+    # each credential uses, so URLs are recognised by the http(s):// prefix
+    # rather than by a fixed position.
     function New-HcItem([string[]]$g) {
         if ($g.Count -eq 0) { return $null }
         $hcDesc = ''
-        $hcUrl  = ''
-        if ($g.Count -eq 2) {
-            if ($g[1] -match '^https?://') { $hcUrl = $g[1] } else { $hcDesc = $g[1] }
-        } elseif ($g.Count -ge 3) {
-            $hcDesc = $g[1]
-            $hcUrl  = $g[2]
+        $hcUrls = @()
+        for ($k = 1; $k -lt $g.Count; $k++) {
+            if ($g[$k] -match '^https?://') {
+                $hcUrls += $g[$k].Trim()
+            } elseif ($hcDesc -eq '') {
+                $hcDesc = $g[$k]
+            } else {
+                $hcDesc = "$hcDesc $($g[$k])"
+            }
         }
-        [pscustomobject]@{ Name = $g[0]; Desc = $hcDesc; Url = $hcUrl }
+        [pscustomobject]@{ Name = $g[0]; Desc = $hcDesc; Urls = $hcUrls }
     }
 
     $hcParas = Resolve 'hasCredential'
@@ -419,7 +426,9 @@ function Build-XML([string]$lang) {
         $null = $sb.Append("    <hasCredential>$nl")
         $null = $sb.Append("        <name>$(X $hc.Name)</name>$nl")
         $null = $sb.Append("        <description>$(X $hc.Desc)</description>$nl")
-        $null = $sb.Append("        <url>$(X $hc.Url)</url>$nl")
+        foreach ($hcUrl in $hc.Urls) {
+            $null = $sb.Append("        <url>$(X $hcUrl)</url>$nl")
+        }
         $null = $sb.Append("    </hasCredential>$nl")
     }
 

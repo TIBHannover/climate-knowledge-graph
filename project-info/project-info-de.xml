@@ -97,11 +97,13 @@
         <name>Graphic design and fonts</name>
         <description>Design assets are licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Other design resources under respective open licences. Fonts are licensed under the SIL Open Font Licence or another open font licence.</description>
         <url>https://creativecommons.org/licenses/by-sa/4.0/</url>
+        <url>https://software.sil.org/oflt/</url>
     </hasCredential>
     <hasCredential>
         <name>IPCC reports</name>
         <description>The Climate Knowledge Graph imports content from the seven reports of the IPCC Sixth Assessment Report (AR6) cycle. Reports 1--6 are published by Cambridge University Press under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0). Report 7 (the Synthesis Report) is published by the IPCC directly with all rights reserved; short extracts may be reproduced with full source attribution. See also the IPCC copyright notice.</description>
-        <url>https://creativecommons.org/licenses/by-nc-nd/4.0/ </url>
+        <url>https://creativecommons.org/licenses/by-nc-nd/4.0/</url>
+        <url>https://www.ipcc.ch/copyright/</url>
     </hasCredential>
 
 </ResearchProject>
