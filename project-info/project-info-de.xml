@@ -5,15 +5,17 @@
 
     <name>Climate Knowledge Graph</name>
 
-    <description>ClimateKG ist ein Software-Forschungsprojekt zur Erstellung eines Wissensgraphen auf der Grundlage des Sechsten Sachstandsberichts des Zwischenstaatlichen Ausschusses für Klimawandel (IPCC) unter Verwendung der Softwareplattform Wikibase. Bei der Veröffentlichung werden die FAIR-Prinzipien angewendet, um den Bericht durch detaillierte Katalogisierung, Dokumentenverteilung und Datenanalyse anzureichern. Der Wissensgraph ist ein „Community-Wissensgraph“, der sich an politische Entscheidungsträger, Wissenschaftler und die Öffentlichkeit richtet und zu Beiträgen und Engagement einlädt, um die Wirkung des Berichts zu steigern.</description>
+    <dateModified>2026-08-31T15:15:14Z</dateModified>
+
+    <description>ClimateKG ist ein Software-Forschungsprojekt zur Erstellung eines Wissensgraphen auf der Grundlage des Sechsten Sachstandsberichts des Zwischenstaatlichen Ausschusses für Klimawandel (IPCC) unter Verwendung der Softwareplattform Wikibase. Bei der Veröffentlichung werden die FAIR-Prinzipien angewendet, um den Bericht durch detaillierte Katalogisierung, Dokumentenverteilung und Datenanalyse anzureichern. Der Wissensgraph ist ein „Community-Wissensgraph“, der sich an politische Entscheidungsträger, Bürgerwissenschaftsprojekte und Wissenschaftler richtet – er lädt zu Beiträgen und Engagement ein, um die Wirkung des Berichts zu steigern.</description>
 
     <alternateName>ClimateKG</alternateName>
 
-    <url>https://github.com/TIBHannover/climate-knowledge-graph</url>
+    <url>Repo - https://github.com/TIBHannover/climate-knowledge-graph</url>
 
-    <sameAs>https://tibhannover.github.io/climate-knowledge-graph/</sameAs>
-    <sameAs>https://github.com/TIBHannover/ClimateKG-Data-Bench</sameAs>
-    <sameAs>https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg</sameAs>
+    <sameAs>Docs - https://tibhannover.github.io/climate-knowledge-graph/</sameAs>
+    <sameAs>Data Bench - https://github.com/TIBHannover/ClimateKG-Data-Bench</sameAs>
+    <sameAs>Project profile - https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg</sameAs>
 
     <identifier propertyID="GrantID" value="TIB Innovation Fund">TIB Innovation Fund</identifier>
 
@@ -36,7 +38,7 @@
         </imageObject>
     </image>
 
-    <disambiguatingDescription xml:lang="de">Ein gemeinschaftlicher Wissensgraph zur Literatur über Klimawandelforschung, der sich an die Öffentlichkeit, politische Entscheidungsträger und Wissenschaftler richtet.</disambiguatingDescription>
+    <disambiguatingDescription xml:lang="de">Ein gemeinschaftlicher Wissensgraph zur Literatur über Klimawandelforschung, der für politische Entscheidungsträger, Bürgerwissenschaftsprojekte und Wissenschaftler bestimmt ist.</disambiguatingDescription>
 
     <foundingDate>2025-06-01</foundingDate>
     <dissolutionDate>2026-06-30</dissolutionDate>
@@ -95,7 +97,7 @@
     </hasCredential>
     <hasCredential>
         <name>Graphic design and fonts</name>
-        <description>Design assets are licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Other design resources under respective open licences. Fonts are licensed under the SIL Open Font Licence or another open font licence.</description>
+        <description>Design assets are licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Other design resources under respective open licences. Fonts are licensed under the SIL Open Font Licence or another open font licence.</description>
         <url>https://creativecommons.org/licenses/by-sa/4.0/</url>
         <url>https://software.sil.org/oflt/</url>
     </hasCredential>

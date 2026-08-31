@@ -26,6 +26,12 @@
     <!-- INFOBOX -->
     <xsl:text>&gt; ℹ️ **Generated content** &#8212; from [`project-info/project-info-en.xml`](project-info/project-info-en.xml) using [`project-info/project-info-schema/ResearchProject-readme.xslt`](project-info/project-info-schema/ResearchProject-readme.xslt) &#183; Schema: [schema.org/ResearchProject](https://schema.org/ResearchProject). See [project-info/README.md](project-info/README.md) for the full pipeline documentation. Do not edit this section by hand &#8212; it is overwritten each time the pipeline runs.&#10;&#10;</xsl:text>
 
+    <xsl:if test="dateModified">
+      <xsl:text>&gt; Last updated: `</xsl:text>
+      <xsl:value-of select="dateModified"/>
+      <xsl:text>`&#10;&#10;</xsl:text>
+    </xsl:if>
+
     <!-- TITLE -->
     <xsl:text># </xsl:text>
     <xsl:value-of select="name"/>

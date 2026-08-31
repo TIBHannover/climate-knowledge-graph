@@ -161,6 +161,9 @@ for ($i = 1; $i -lt $rows.Count; $i++) {
 
 Write-Host "Fields loaded: $($fields.Keys -join ', ')"
 
+# Single generation timestamp shared by both language outputs, so EN/DE stay in sync.
+$generatedAt = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
+
 # ============================================================
 # 3. Build XML for a language
 # ============================================================
@@ -348,6 +351,7 @@ function Build-XML([string]$lang) {
     $null = $sb.Append("<ResearchProject xml:lang=""$lang"" typeof=""schema:ResearchProject"" vocab=""https://schema.org/"">$nl$nl")
 
     $null = $sb.Append("    <name>$(X $nameVal)</name>$nl$nl")
+    $null = $sb.Append("    <dateModified>$(X $generatedAt)</dateModified>$nl$nl")
     $null = $sb.Append("    <description>$(X $descVal)</description>$nl$nl")
     $null = $sb.Append("    <alternateName>$(X $altName)</alternateName>$nl$nl")
     $null = $sb.Append("    <url>$(X $urlVal)</url>$nl$nl")

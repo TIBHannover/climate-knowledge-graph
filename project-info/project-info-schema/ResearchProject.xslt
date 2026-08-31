@@ -549,6 +549,10 @@ footer a { color: #2e86c1; }
             <a href="{$srcFile}"><xsl:value-of select="$srcFile"/></a>
             <xsl:text> using </xsl:text>
             <a href="project-info-schema/ResearchProject.xslt">ResearchProject.xslt</a>
+            <xsl:if test="dateModified">
+              <xsl:text>&#160;&#183;&#160;Last updated: </xsl:text>
+              <time datetime="{dateModified}"><xsl:value-of select="dateModified"/></time>
+            </xsl:if>
             <xsl:text>&#160;&#183;&#160;See </xsl:text>
             <a href="README.md">project-info/README.md</a>
             <xsl:text> for instructions on generating this page and reusing the pipeline in another repository.</xsl:text>

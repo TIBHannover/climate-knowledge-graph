@@ -205,13 +205,15 @@ Other design resources under respective open licences.
 
 > ℹ️ **Generated content** — from [`project-info/project-info-en.xml`](project-info/project-info-en.xml) using [`project-info/project-info-schema/ResearchProject-readme.xslt`](project-info/project-info-schema/ResearchProject-readme.xslt) · Schema: [schema.org/ResearchProject](https://schema.org/ResearchProject). See [project-info/README.md](project-info/README.md) for the full pipeline documentation. Do not edit this section by hand — it is overwritten each time the pipeline runs.
 
+> Last updated: `2026-08-31T15:15:14Z`
+
 # Climate Knowledge Graph (ClimateKG)
 
-> A community knowledge graph for literature on climate change science, intended for use by the public, policymakers, and scientists.
+> A community knowledge graph for literature on climate change science, intended for use by policymakers, citizen science projects, and scientists.
 
 <img src="https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/climatekg-logo.png" alt="ClimateKG logo" height="60">  <img src="https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/tib-logo.png" alt="TIB – Leibniz Information Centre for Science and Technology logo" height="60">  <img src="https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/semanticclimate-logo.jpg" alt="#semanticClimate logo" height="60">  
 
-ClimateKG is a software research project for constructing a knowledge graph using the Intergovernmental Panel on Climate Change's Sixth Assessment Report with the Wikibase software platform. The FAIR Principles are being applied to publishing and are employed to enrich the report with granular cataloguing, document distribution, and data analysis. The knowledge graph is a 'community knowledge graph' targeted at policymakers, scientists and the public, inviting contributions and engagement to increase the report's impact.
+ClimateKG is a software research project for constructing a knowledge graph using the Intergovernmental Panel on Climate Change's Sixth Assessment Report with the Wikibase software platform. The FAIR Principles are being applied to publishing and are employed to enrich the report with granular cataloguing, document distribution, and data analysis. The knowledge graph is a 'community knowledge graph' targeted at policymakers, citizen science projects, and scientists — inviting contributions and engagement to increase the report's impact.
 
 ---
 
@@ -222,10 +224,10 @@ ClimateKG is a software research project for constructing a knowledge graph usin
 | **Lead** | [TIB – Leibniz Information Centre for Science and Technology and University Library](http://ror.org/04aj4c181) |
 | **Period** | 2025-06-01–2026-06-30 |
 | **Grant** | TIB Innovation Fund (GrantID) |
-| **URL** | [https://github.com/TIBHannover/climate-knowledge-graph](https://github.com/TIBHannover/climate-knowledge-graph) |
-| **Also at** | [https://tibhannover.github.io/climate-knowledge-graph/](https://tibhannover.github.io/climate-knowledge-graph/) |
-| | [https://github.com/TIBHannover/ClimateKG-Data-Bench](https://github.com/TIBHannover/ClimateKG-Data-Bench) |
-| | [https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg](https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg) |
+| **URL** | [Repo - https://github.com/TIBHannover/climate-knowledge-graph](Repo - https://github.com/TIBHannover/climate-knowledge-graph) |
+| **Also at** | [Docs - https://tibhannover.github.io/climate-knowledge-graph/](Docs - https://tibhannover.github.io/climate-knowledge-graph/) |
+| | [Data Bench - https://github.com/TIBHannover/ClimateKG-Data-Bench](Data Bench - https://github.com/TIBHannover/ClimateKG-Data-Bench) |
+| | [Project profile - https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg](Project profile - https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg) |
 | **Languages** | English, German |
 
 ## Team
@@ -266,6 +268,5 @@ ClimateKG is a software research project for constructing a knowledge graph usin
 - **GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 (Code)** – Code is released under the GNU GENERAL PUBLIC LICENSE Version 3 or another OSI-compliant open source licence. Copyright: The authors. [https://fsf.org/](https://fsf.org/)
 - **CC BY-SA 4.0 (Content)** – Content is licensed under Creative Commons Attribution-ShareAlike 4.0 International. [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 - **CC0 1.0 Universal (Metadata)** – Metadata is dedicated to the public domain under Creative Commons Zero 1.0 Universal. [https://creativecommons.org/publicdomain/zero/1.0/](https://creativecommons.org/publicdomain/zero/1.0/)
-- **Graphic design and fonts** – Design assets are licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).
- Other design resources under respective open licences. Fonts are licensed under the SIL Open Font Licence or another open font licence. [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/) [https://software.sil.org/oflt/](https://software.sil.org/oflt/)
+- **Graphic design and fonts** – Design assets are licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Other design resources under respective open licences. Fonts are licensed under the SIL Open Font Licence or another open font licence. [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/) [https://software.sil.org/oflt/](https://software.sil.org/oflt/)
 - **IPCC reports** – The Climate Knowledge Graph imports content from the seven reports of the IPCC Sixth Assessment Report (AR6) cycle. Reports 1--6 are published by Cambridge University Press under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0). Report 7 (the Synthesis Report) is published by the IPCC directly with all rights reserved; short extracts may be reproduced with full source attribution. See also the IPCC copyright notice. [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/) [https://www.ipcc.ch/copyright/](https://www.ipcc.ch/copyright/)
