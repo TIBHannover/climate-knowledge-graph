@@ -1,8 +1,8 @@
 ﻿# Climate Knowledge Graph (ClimateKG)
 
-— A literature resource and community knowledge graph for climate change science
+—  A community knowledge graph for literature on climate change science, intended for use by policymakers, citizen science projects, and scientists.
 
-ClimateKG aims to helps create impact for climate science by improving its visibility. It is intended for use by the public, policymakers, and scientists. The project has built a knowledge graph to help users navigate these complex corpora — to answer questions, access documents, and use metadata.
+ClimateKG is a software research project for constructing a knowledge graph using the Intergovernmental Panel on Climate Change's Sixth Assessment Report with the Wikibase software platform. The FAIR Principles are being applied to publishing and are employed to enrich the report with granular cataloguing, document distribution, and data analysis. The knowledge graph is a 'community knowledge graph' targeted at policymakers, citizen science projects, and scientists — inviting contributions and engagement to increase the report's impact.
 
 As a starting point, ClimateKG has imported the main sections of the 10,000 page corpus [*IPCC Sixth Assessment Report*](https://www.ipcc.ch/assessment-report/ar6/) into the knowledge graph.
 
