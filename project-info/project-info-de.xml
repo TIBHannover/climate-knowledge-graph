@@ -5,9 +5,9 @@
 
     <name>Climate Knowledge Graph</name>
 
-    <dateModified>2026-08-31T15:15:14Z</dateModified>
+    <dateModified>2026-09-09T17:01:33Z</dateModified>
 
-    <description>ClimateKG ist ein Software-Forschungsprojekt zur Erstellung eines Wissensgraphen auf der Grundlage des Sechsten Sachstandsberichts des Zwischenstaatlichen Ausschusses für Klimawandel (IPCC) unter Verwendung der Softwareplattform Wikibase. Bei der Veröffentlichung werden die FAIR-Prinzipien angewendet, um den Bericht durch detaillierte Katalogisierung, Dokumentenverteilung und Datenanalyse anzureichern. Der Wissensgraph ist ein „Community-Wissensgraph“, der sich an politische Entscheidungsträger, Bürgerwissenschaftsprojekte und Wissenschaftler richtet – er lädt zu Beiträgen und Engagement ein, um die Wirkung des Berichts zu steigern.</description>
+    <description>ClimateKG ist ein Software-Forschungsprojekt zur Erstellung eines Wissensgraphen auf der Grundlage des Sechsten Sachstandsberichts des Zwischenstaatlichen Ausschusses für Klimawandel (IPCC) unter Verwendung der Softwareplattform Wikibase. Die FAIR-Prinzipien werden im Veröffentlichungsprozess angewendet, um den Bericht hinsichtlich detaillierterer Metadaten, der Verbreitung von Dokumenten und der Datenanalyse zu unterstützen. Der Wissensgraphen ist ein „Community-Wissensgraphen“, der sich an politische Entscheidungsträger, Bürgerwissenschaftsprojekte und Wissenschaftler richtet – er lädt zu Beiträgen und Engagement ein, um die Wirkung des Berichts zu steigern.</description>
 
     <alternateName>ClimateKG</alternateName>
 

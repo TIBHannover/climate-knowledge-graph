@@ -5,7 +5,8 @@ This is a way to maintain a single source project description using the
 then output content to any file type or location.
 
 This pipeline turns one bilingual, human-editable source document into a project
-webpage and a repository README — for ClimateKG, and reusably for any other repo.
+webpage, MediaWiki wikitext, and a repository README — for ClimateKG, and reusably
+for any other repo.
 
 ## ClimateKG Files
 
@@ -14,6 +15,7 @@ webpage and a repository README — for ClimateKG, and reusably for any other re
 | Source (`.fodt`) | [project-info-schema/project-ckg.fodt](project-info-schema/project-ckg.fodt) · [Nextcloud (view/edit)](https://tib.cloud/s/2j3A4Mjp7SdjDZa) |
 | XML | [project-info-en.xml](project-info-en.xml) · [project-info-de.xml](project-info-de.xml) |
 | HTML | [project-info-en.html](project-info-en.html) · [project-info-de.html](project-info-de.html) |
+| Wikitext | [project-info-en.wikitext](project-info-en.wikitext) |
 | Output | [Repository README](../README.md) |
 
 ---
@@ -24,11 +26,13 @@ webpage and a repository README — for ClimateKG, and reusably for any other re
 flowchart TD
     A[Nextcloud share<br/>project-template.fodt] -->|Convert-FODT.ps1| B[project-info-en.xml<br/>project-info-de.xml]
     B -->|Apply-XSLT.ps1| C[project-info-en.html<br/>project-info-de.html]
+   B -->|Make-Wikitext.ps1| E[project-info-en.wikitext<br/>project-info directory]
     B -->|Make-Readme.ps1| D[README.md<br/>repo root]
 ```
 
 The scripts, XSLT stylesheets and DTD live in `project-info-schema/`; the generated
-XML and HTML sit in `project-info/`; the README is written to the repo root.
+XML, HTML, and wikitext sit in `project-info/`; the README is written to the repo
+root.
 
 ---
 
@@ -38,19 +42,33 @@ XML and HTML sit in `project-info/`; the README is written to the repo root.
    filled in with your project's details in the *Active Project Fields* table.
 2. **Copy the `project-info-schema/` folder** (scripts, XSLT, DTD) into your repo.
 3. **Generate XML** from your Nextcloud share:
+
    ```powershell
    cd project-info-schema\scripts
    .\Convert-FODT.ps1 -ShareUrl https://your-nextcloud/s/yourshareid
    ```
+
 4. **Generate the HTML webpage:**
+
    ```powershell
    .\Apply-XSLT.ps1
    ```
-5. **Generate your repo's README:**
+
+5. **Generate MediaWiki wikitext output:**
+
+   ```powershell
+   .\Make-Wikitext.ps1
+   ```
+
+   This writes `project-info-en.wikitext` into `project-info/`. Image URLs are taken
+   from the current `image/imageObject/contentUrl` web sources in the XML.
+6. **Generate your repo's README:**
+
    ```powershell
    .\Make-Readme.ps1
    ```
-6. Whenever the FODT content changes, re-run steps 3–5.
+
+7. Whenever the FODT content changes, re-run steps 3–6.
 
 ---
 

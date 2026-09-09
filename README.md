@@ -205,7 +205,7 @@ Other design resources under respective open licences.
 
 > ℹ️ **Generated content** — from [`project-info/project-info-en.xml`](project-info/project-info-en.xml) using [`project-info/project-info-schema/ResearchProject-readme.xslt`](project-info/project-info-schema/ResearchProject-readme.xslt) · Schema: [schema.org/ResearchProject](https://schema.org/ResearchProject). See [project-info/README.md](project-info/README.md) for the full pipeline documentation. Do not edit this section by hand — it is overwritten each time the pipeline runs.
 
-> Last updated: `2026-08-31T15:15:14Z`
+> Last updated: `2026-09-09T17:01:33Z`
 
 # Climate Knowledge Graph (ClimateKG)
 
@@ -213,7 +213,7 @@ Other design resources under respective open licences.
 
 <img src="https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/climatekg-logo.png" alt="ClimateKG logo" height="60">  <img src="https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/tib-logo.png" alt="TIB – Leibniz Information Centre for Science and Technology logo" height="60">  <img src="https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/semanticclimate-logo.jpg" alt="#semanticClimate logo" height="60">  
 
-ClimateKG is a software research project for constructing a knowledge graph using the Intergovernmental Panel on Climate Change's Sixth Assessment Report with the Wikibase software platform. The FAIR Principles are being applied to publishing and are employed to enrich the report with granular cataloguing, document distribution, and data analysis. The knowledge graph is a 'community knowledge graph' targeted at policymakers, citizen science projects, and scientists — inviting contributions and engagement to increase the report's impact.
+ClimateKG is a software research project for constructing a knowledge graph using the Intergovernmental Panel on Climate Change's Sixth Assessment Report with the Wikibase software platform. The FAIR Principles are being applied to the publishing process to support the report in terms of more granular metadata, document distribution and data analysis. The knowledge graph is a 'community knowledge graph' targeted at policymakers, citizen science projects, and scientists — inviting contributions and engagement to increase the report's impact.
 
 ---
 

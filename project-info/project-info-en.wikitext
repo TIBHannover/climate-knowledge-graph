@@ -1,0 +1,100 @@
+﻿<!--
+Generated file. Do not edit by hand.
+Source: project-info/project-info-en.xml
+Stylesheet: project-info/project-info-schema/ResearchProject-wikitext.xslt
+-->
+
+= Climate Knowledge Graph (ClimateKG) =
+
+''Last updated: 2026-09-09T17:01:33Z''
+
+''A community knowledge graph for literature on climate change science, intended for use by policymakers, citizen science projects, and scientists.''
+
+ClimateKG is a software research project for constructing a knowledge graph using the Intergovernmental Panel on Climate Change's Sixth Assessment Report with the Wikibase software platform. The FAIR Principles are being applied to the publishing process to support the report in terms of more granular metadata, document distribution and data analysis. The knowledge graph is a 'community knowledge graph' targeted at policymakers, citizen science projects, and scientists — inviting contributions and engagement to increase the report's impact.
+
+== Project details ==
+{| class="wikitable"
+! Item !! Info
+|-
+| Lead || [http://ror.org/04aj4c181 TIB – Leibniz Information Centre for Science and Technology and University Library]
+|-
+| Period || 2025-06-01 - 2026-06-30
+|-
+| Grant || TIB Innovation Fund
+|-
+| URL || [https://github.com/TIBHannover/climate-knowledge-graph Repo]
+|-
+| Also at || [https://tibhannover.github.io/climate-knowledge-graph/ Docs]
+|-
+|  || [https://github.com/TIBHannover/ClimateKG-Data-Bench Data Bench]
+|-
+|  || [https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg Project profile]
+|-
+| Languages || English, German
+|}
+
+== Team ==
+{| class="wikitable"
+! Name !! ORCID
+|-
+| [https://orcid.org/0000-0002-8579-9717 Simon Worthington] || [https://orcid.org/0000-0002-8579-9717 0000-0002-8579-9717]
+|-
+| [https://orcid.org/0009-0003-5070-0099 Laura‌ Oldenbourg] || [https://orcid.org/0009-0003-5070-0099 0009-0003-5070-0099]
+|-
+| [https://orcid.org/0000-0001-5492-3212 Markus Stocker] || [https://orcid.org/0000-0001-5492-3212 0000-0001-5492-3212]
+|-
+| [https://orcid.org/0000-0001-6591-9964 Gitanjali Yadav] || [https://orcid.org/0000-0001-6591-9964 0000-0001-6591-9964]
+|-
+| [https://orcid.org/0000-0003-3386-3972 Peter Murray-Rust] || [https://orcid.org/0000-0003-3386-3972 0000-0003-3386-3972]
+|-
+| [https://orcid.org/0000-0002-9451-7814 Renu Kumari] || [https://orcid.org/0000-0002-9451-7814 0000-0002-9451-7814]
+|}
+
+== Partner organizations ==
+; Lead
+: [http://ror.org/04aj4c181 TIB – Leibniz Information Centre for Science and Technology and University Library]
+; Partners
+* [https://semanticclimate.github.io/p/en/ #semanticClimate]
+
+== Funding ==
+* '''TIB Innovation Fund''' - Grant ID: 2025-2026 - TIB – Leibniz Information Centre for Science and Technology and University Library - [https://www.tib.eu/en]
+
+== Subject areas ==
+* Knowledge graph
+* semantic web
+* climate science literature
+* Wikibase
+* Mediawiki
+* document distribution
+* metadata
+* FAIR Principles
+* open-source software
+* publishing
+* citizen science
+* IPCC publishing
+* web scraping
+
+== Keywords ==
+* IPCC
+* AR6
+* Sixth Assessment Report
+* Wikibase
+* MediaWiki
+* ER model
+* knowledge graph
+* climate change
+* semantic web
+* FAIR principles
+* document distribution
+* citizen science
+* metadata
+* data science
+* open science infrastructures
+* literature
+
+== Licences and copyright ==
+* '''GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 (Code)''' - Code is released under the GNU GENERAL PUBLIC LICENSE Version 3 or another OSI-compliant open source licence. Copyright: The authors. [https://fsf.org/]
+* '''CC BY-SA 4.0 (Content)''' - Content is licensed under Creative Commons Attribution-ShareAlike 4.0 International. [https://creativecommons.org/licenses/by-sa/4.0/]
+* '''CC0 1.0 Universal (Metadata)''' - Metadata is dedicated to the public domain under Creative Commons Zero 1.0 Universal. [https://creativecommons.org/publicdomain/zero/1.0/]
+* '''Graphic design and fonts''' - Design assets are licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Other design resources under respective open licences. Fonts are licensed under the SIL Open Font Licence or another open font licence. [https://creativecommons.org/licenses/by-sa/4.0/] [https://software.sil.org/oflt/]
+* '''IPCC reports''' - The Climate Knowledge Graph imports content from the seven reports of the IPCC Sixth Assessment Report (AR6) cycle. Reports 1--6 are published by Cambridge University Press under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0). Report 7 (the Synthesis Report) is published by the IPCC directly with all rights reserved; short extracts may be reproduced with full source attribution. See also the IPCC copyright notice. [https://creativecommons.org/licenses/by-nc-nd/4.0/] [https://www.ipcc.ch/copyright/]

@@ -5,9 +5,9 @@
 
     <name>Climate Knowledge Graph</name>
 
-    <dateModified>2026-08-31T15:15:14Z</dateModified>
+    <dateModified>2026-09-09T17:01:33Z</dateModified>
 
-    <description>ClimateKG is a software research project for constructing a knowledge graph using the Intergovernmental Panel on Climate Change&apos;s Sixth Assessment Report with the Wikibase software platform. The FAIR Principles are being applied to publishing and are employed to enrich the report with granular cataloguing, document distribution, and data analysis. The knowledge graph is a &apos;community knowledge graph&apos; targeted at policymakers, citizen science projects, and scientists — inviting contributions and engagement to increase the report&apos;s impact.</description>
+    <description>ClimateKG is a software research project for constructing a knowledge graph using the Intergovernmental Panel on Climate Change&apos;s Sixth Assessment Report with the Wikibase software platform. The FAIR Principles are being applied to the publishing process to support the report in terms of more granular metadata, document distribution and data analysis. The knowledge graph is a &apos;community knowledge graph&apos; targeted at policymakers, citizen science projects, and scientists — inviting contributions and engagement to increase the report&apos;s impact.</description>
 
     <alternateName>ClimateKG</alternateName>
 
