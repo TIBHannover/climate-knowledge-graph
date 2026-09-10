@@ -1,0 +1,34 @@
+<div class="climatekg-home-grid">
+
+<div class="climatekg-home-card">
+
+'''Policymakers'''
+
+IPCC AR6 is now browsable and machine-readable through APIs, open document formats, and structured access for evidence-based policy work.
+
+'''[[IPCC:AR6|Browse Full Text]]'''
+</div>
+
+<div class="climatekg-home-card">
+'''Citizen Science Projects'''
+
+Youth citizen science activities are led by #semanticClimate, with workshops, Wikidata curation, and public engagement across climate knowledge projects.
+
+'''[[Citizen-Science|Explore Projects]]'''
+</div>
+
+<div class="climatekg-home-card">
+'''Scientists'''
+
+AR6 datasets are available through SPARQL, APIs, and XML, enabling researchers to query, contribute, and extend the knowledge graph through Wikibase and Data Bench.
+
+'''[[IPCC-Data|Access Data]]'''
+</div>
+</div>
+
+<div class="climatekg-footer">
+* [[Data protection|Data protection]]
+* [[Terms of Use|Terms of Use]]
+* [[Imprint|Imprint]]
+* [[Copyright and Licenses|Copyright and Licenses]]
+</div>

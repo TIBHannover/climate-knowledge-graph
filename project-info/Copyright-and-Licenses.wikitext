@@ -1,0 +1,7 @@
+== Copyright and Licenses ==
+
+This is a placeholder page for the ClimateKG copyright and license information.
+
+The final version will explain the rights applying to project content, datasets, metadata, code, and derived materials, including any licensing terms that apply to reproduction and reuse.
+
+This page is currently a holding page while the formal licensing information is being prepared.

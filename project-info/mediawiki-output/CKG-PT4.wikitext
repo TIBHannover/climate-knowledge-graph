@@ -1,0 +1,86 @@
+<span id="info-sheet-climatekg"></span>
+== Info sheet: ClimateKG ==
+
+ClimateKG is a climate science literature resource for use by the public, policymakers and scientists. ClimateKG is a community knowledge graph, it provides a Linked Open Data foundation for depositing climate literature and supports data enrichment contributions from the scientific community.
+
+A '''knowledge graph''' is used to transform what was only a '''browsable website''' of the IPCC's Sixth Assessment Report (AR6) (IPCC 2023) into a '''dynamic data resource''' to be able to: access documents, distribute metadata, and answer questions.
+
+The '''knowledge graph''' is made from '''datasets''' and an '''entity-relationship model (ER model).'''
+
+The AR6 reports on the web are changed into '''basic foundational datasets''' to show its syntactic (structural) parts: Report series, report, text division, chapter, glossary terms, acronyms, authors, and more. Then, connections are made between the parts using an '''ER model'''[[File:image10.png]].
+
+'''''Figure 1:''' How datasets (Oldenbourg et al. 2026) are connected to one another using the ER model to form the knowledge graph.''
+
+<span id="foundational-datasets-corpus-syntactical-structure"></span>
+=== Foundational datasets (corpus syntactical structure) ===
+
+# Corpus full text &amp; structure – 7,524,958 Words, 2,153 Image files; 88 Chapters, 7 Reports
+# Bibliographic information – 95 DOIs
+# Glossary terms – 1,274
+# Acronyms – 1,910
+# Authors – 932
+
+<span id="entity-relationship-model"></span>
+=== Entity-relationship model ===
+
+ClimateKG connects these '''datasets''' using an '''ER model''', forming syntactic basis of the '''knowledge graph''' that can then have further semantification added:
+
+<pre>+- Corpus structure
+
++- 7 reports
+
++- REPORT
+
+| &lt;- Bibliographic information
+
+| &lt;- Glossary terms
+
+| &lt;- Acronyms
+
++- CHAPTER
+
+&lt;- Authors
+
+&lt;- Bibliographic information
+
+&lt;- Corpus full text
+</pre>
+'''Figure 2:''' ''ClimateKG ER model (Note: This is a simplified version of the ER model)''
+
+<span id="searching-the-knowledge-graph"></span>
+=== Searching the knowledge graph ===
+
+The connections that the knowledge graph creates allow for querying the data from the reports. As an example question:
+
+<blockquote>'''How many South American or Indian authors contributed to the report?'''
+</blockquote>
+The knowledge graph contains the answer, which can be computed and calculated dynamically rather than retrieved directly, to gather the relevant chapter texts:
+
+<blockquote>'''AR6 author distribution is 71 from South America and 43 from India.'''[[File:image20.png]][[File:image30.png]]
+</blockquote>
+'''Figure 3:''' ''[https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/gender-distribution-simple.html#author-geography-south-america-and-india <u>South American authors</u>], Total: 71 authors (7.6% of all 932 unique authors), and;'' '''Figure 4:''' ''[https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/gender-distribution-simple.html#author-geography-south-america-and-india <u>Authors from India</u>], 43 authors (4.6% of all 932 unique authors) (Worthington 2026)''
+
+<span id="the-climatekg-platform-and-activities"></span>
+=== The ClimateKG platform and activities ===
+
+'''Platforms:''' ClimateKG would have two websites. ClimateKG uses Wikibase software where the knowledge graph can be browsed and accessed via APIs and query interfaces. ClimateKG Data Bench uses data science tooling such as Quarto and Jupyter Notebooks as a work place to engage the community.
+
+* '''ClimateKG:''' Browse the full text, datasets, and community data.
+* '''ClimateKG Data Bench:''' Data analysis and visualisation – A platform that enables the community to enrich the corpus, analyse the contents, share results and use AI LLMs.
+
+'''Activities:''' These are the ongoing work of ClimateKG and will use the platforms provided.
+
+* '''Document distribution:''' The data provides a map of the internal structure of the corpus documents, enabling any section or piece of data to be retrieved and delivered to the user.
+* '''Extended metadata:''' Questions can be answered quickly and reliably. Metadata is distributed to library systems and the Data Commons on Wikidata.
+* '''Citizen science:''' ClimateKG collaborates with Youth Data Champions interns from the #SemanticClimate organisation on a global scale.
+* '''Data science community:''' Contributors can enrich the corpus while maintaining the integrity of the original documents.
+
+<span id="bibliography"></span>
+== Bibliography ==
+
+IPCC. 2023. ''IPCC Sixth Assessment Report''. Version 171. https://www.ipcc.ch/assessment-report/ar6/.
+
+Oldenbourg, Laura, Darron Broad, and Simon Worthington. 2026. ''CKG Data''. XML, RDF. Version 163. https://tibhannover.github.io/ClimateKG-Data-Bench/.
+
+Worthington, Simon. 2026. ‘IPCC AR6 Author Distribution’. Knowledge graph. Version 180. ClimateKG Data Bench, June 30. https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/gender-distribution-simple.html#author-geography-south-america-and-india.
+

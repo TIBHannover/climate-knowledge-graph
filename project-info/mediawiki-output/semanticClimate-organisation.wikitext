@@ -1,0 +1,31 @@
+
+== ClimateKG partnership projects ==
+
+ClimateKG works with &#35;semanticClimate on youth citizen science projects related to AR6 and climate knowledge.
+
+* '''A. Chapter Champions'''
+** Youth participants help review and annotate climate report chapters.
+** This supports better understanding of the structure of the report and the distribution of knowledge across it.
+
+* '''B. Adding metadata to Wikidata about AR6'''
+** Young contributors help enrich AR6-related metadata and links in open knowledge systems.
+** This improves discoverability and makes climate information easier to connect across datasets.
+
+* '''C. Creating encyclopedia entries based on AR6'''
+** Youth participants help produce accessible encyclopedia entries based on AR6 content.
+** This supports open education and public understanding of climate knowledge.
+
+=== About &#35;semanticClimate ===
+
+&#35;semanticClimate is a citizen science and open knowledge initiative that helps make climate research more open, understandable, and reusable.
+
+The organisation brings together researchers, students, volunteers, and developers to support climate education, public engagement, and open data work. It runs events, workshops, and collaborative projects that connect climate science with community participation.
+
+=== &#35;semanticClimate activities ===
+
+&#35;semanticClimate supports:
+
+* climate outreach and public engagement,
+* open access and semantic approaches to climate information,
+* workshops, hackathons, and community events,
+* youth involvement in climate knowledge work.

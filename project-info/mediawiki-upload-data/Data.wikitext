@@ -1,0 +1,53 @@
+[[File:image1.png]]
+
+'''''Figure 1:'' ‘'''''IPCC report: From browsable website to dynamic data resource’. The IPCC report is transformed by extending the metadata to map out the document internals. The metadata is then deposited in Open Science infrastructures as well as being accessible for searching using APIs and SPARQL interfaces via Wikibase.''
+
+The project goal is to produce a framework knowledge graph using Wikibase, with an attached full text of the reports using MediaWiki. The Wikibase / MediaWiki software framework is used and is supported by a robust hosting and data release infrastructure for quality control and scalability.
+
+The reports have been broken down into five foundational datasets which act as a syntactic (structural) base, as: The corpus full text and structure; bibliographic information; glossary terms; acronyms and; authors.
+
+The knowledge graph has two attached components designed for utilising the datasets:
+
+# A ''data workbench'' for data scientists and citizen science projects to analyse and enrich the reports, and
+# A distribution framework for documents and metadata to enable better and faster report access.
+
+The '''knowledge graph''' is made from '''datasets''' and an '''entity-relationship model (ER model).'''
+
+<span id="foundational-datasets-corpus-syntactical-structure"></span>
+==== Foundational datasets (corpus syntactical structure) ====
+
+# Corpus full text &amp; structure – 7,524,958 Words, 2,153 Image files; 88 Chapters, 7 Reports
+# Bibliographic information – 95 DOIs
+# Glossary terms – 1,274
+# Acronyms – 1,910
+# Authors – 932
+
+<span id="entity-relationship-model"></span>
+==== Entity-relationship model ====
+
+ClimateKG connects these '''datasets''' using an '''ER model''', forming syntactic basis of the '''knowledge graph''' that can then have further semantification added:
+
+<blockquote>+- Corpus structure
+
++- 7 reports
+
++- REPORT
+
+| &lt;- Bibliographic information
+
+| &lt;- Glossary terms
+
+| &lt;- Acronyms
+
++- CHAPTER
+
+&lt;- Authors
+
+&lt;- Bibliographic information
+
+&lt;- Corpus full text
+</blockquote>
+'''Figure 2:''' ''ClimateKG ER model (Note: This is a simplified version of the ER model)''
+
+
+
