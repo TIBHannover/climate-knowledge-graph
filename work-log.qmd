@@ -1,14 +1,70 @@
-# Work Log
+# Work log
 
-## Work packages
+Current work is tracked in the project’s public [GitHub issues](https://github.com/TIBHannover/climate-knowledge-graph/issues), which provide the most up-to-date view of ongoing tasks, discussions, and milestones.
 
-* IPCC Assement Report Six to Wikibase (AR62W)
-* Reporting / community (REP)
-* Publishing (PUB)
+This monthly diary is a reverse-chronological summary of the project’s work as recorded in the public GitHub issue tracker. The most recent month is expanded in more detail, while earlier work is retained as context. There is also a forward-looking section for milestones on the horizon.
 
-## Nov
+## October 2026
 
-* 24-28 Nov: Supporting data selection (in scope / out of scope) and prioritiesation https://github.com/TIBHannover/climate-knowledge-graph/issues/52 (AR62W)
-* 24-26 Nov: AR6 scrape data handover and protocol: Issue https://github.com/TIBHannover/climate-knowledge-graph/issues/58 Repo: https://github.com/TIBHannover/climate-knowledge-graph/issues/58 (AR62W)
-* 24 Nov: CSS ToC and Vivlio support (PUB)
-* 24 Nov: Project reports for review (REP)
+### Current focus
+
+- Finalisation of the roadmap and project narrative around the core infrastructure, publication, and data workstreams.
+- Consolidation of the issue backlog into a more stable development sequence for the next implementation phase.
+- Preparation of the project’s public-facing documentation and notice set in parallel with technical progress.
+
+### Detailed notes
+
+- The project roadmap is now centred on the issue-based milestones captured in [Issue #236](https://github.com/TIBHannover/climate-knowledge-graph/issues/236), with particular emphasis on locking down the ER model, common schemas, glossary terms, citations, and data coverage.
+- The project continues to operate as a structured publication and knowledge-infrastructure effort rather than a single linear software build.
+- Current work is focused on turning the early prototype work into a more coherent and stable delivery path.
+
+### On the horizon
+
+- Complete and stabilise the ER model.
+- Finish the remaining glossary and citation data.
+- Add the missing data sources and WG1 figure assets.
+- Progress from prototype publication workflows to a more production-ready deployment path.
+
+## September 2026
+
+- The roadmap and work planning process was reiterated around the milestone structure captured in [Issue #236](https://github.com/TIBHannover/climate-knowledge-graph/issues/236).
+- Project documentation and public notices were expanded to align with the project’s institutional and external-facing narrative.
+- The work progressed from prototype-driven development toward a clearer roadmap and publication-oriented structure.
+
+## 2025-07
+
+- 2025-07-02 — [Issue #11](https://github.com/TIBHannover/climate-knowledge-graph/issues/11): List the document parts of an IPCC report: for markup, for typesetting
+- 2025-07-02 — [Issue #12](https://github.com/TIBHannover/climate-knowledge-graph/issues/12): List the Paged Media CSS parts needed to typeset IPCC AR6 report parts
+- 2025-07-02 — [Issue #13](https://github.com/TIBHannover/climate-knowledge-graph/issues/13): List the reports that make up the IPCC AR6 report, and which parts are OA
+- 2025-07-02 — [Issue #14](https://github.com/TIBHannover/climate-knowledge-graph/issues/14): List what parts of AR6 are Open Access: the content for Climate Knowledge Graph (CKG)
+- 2025-07-02 — [Issue #15](https://github.com/TIBHannover/climate-knowledge-graph/issues/15): Create layout styles for all IPCC AR6 report styles
+
+## 2025-06
+
+- 2025-06-25 — [Issue #10](https://github.com/TIBHannover/climate-knowledge-graph/issues/10): Crowdsourcing review and validation tasks and procedures for the #semanticClimate community
+
+## 2025-03
+
+- 2025-03-03 — [Issue #6](https://github.com/TIBHannover/climate-knowledge-graph/issues/6): GraphVis of automated workflow and tech schematic
+- 2025-03-03 — [Issue #7](https://github.com/TIBHannover/climate-knowledge-graph/issues/7): IPCC reports — simple relationship model: document
+- 2025-03-03 — [Issue #8](https://github.com/TIBHannover/climate-knowledge-graph/issues/8): Status: Using Wikibase/data data model and automating data
+
+## 2025-02
+
+- 2025-02-11 — [Issue #1](https://github.com/TIBHannover/climate-knowledge-graph/issues/1): Literature and resources for knowledge graph design
+- 2025-02-11 — [Issue #2](https://github.com/TIBHannover/climate-knowledge-graph/issues/2): Examples of KGs made with Wikibase
+- 2025-02-11 — [Issue #3](https://github.com/TIBHannover/climate-knowledge-graph/issues/3): How can the students work contribute
+- 2025-02-11 — [Issue #4](https://github.com/TIBHannover/climate-knowledge-graph/issues/4): How do we move from HTML to Wikibase?
+- 2025-02-15 — [Issue #5](https://github.com/TIBHannover/climate-knowledge-graph/issues/5): Wikidata’s core Relationship P Numbers in Wikibase?
+
+## Horizon milestones
+
+- Lock down the ER model and common schemas.
+- Add missing glossary terms and citations for AR6 coverage.
+- Complete the remaining data ingest and WG1 figure coverage.
+- Expand the publication and data analysis workflows for the project community.
+- Move from prototype knowledge-graph publication to a more stable production-ready release path.
+
+## Summary
+
+The project began with architecture and design questions, moved into report-structure and schema work, and then shifted toward data enrichment, publication workflows, and roadmap planning. The reverse-chronological diary format keeps the current work in focus while preserving the earlier issue-based context that shaped the project.

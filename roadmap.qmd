@@ -1,80 +1,81 @@
 # Project Roadmap
 
-Status: Version 1.0 (Sept '25')
+Climate Knowledge Graph (ClimateKG)
 
-Climate Knowledge Graph roadmap
+Status: In progress
 
-## Summary {.unnumbered}
+## Mission
 
-Stage | Tech Stack | Status
--- | -- | --
-Harvest | CPS, #semanticClimate |  
-Structure | Wikibase, RDF, #semanticClimate | We are here (Sept ‘25)
-Annotation | #semanticClimate, Antelope, ORKG, ORKG reborn |  
-Distribution | Wikidata, ORKG, ORKG reborn |  
-Publishing | CPS |  
-Data access & analysis | #semanticClimate, Wikibase |  
+ClimateKG aims to turn the IPCC Sixth Assessment Report into a reusable, navigable, and FAIR knowledge graph. The project brings together report structure, bibliographic metadata, glossary terms, citations, and data into a semantic layer that supports search, analysis, and publication workflows for policy, research, and public engagement.
 
-## Done
+## Roadmap priorities
 
-1. Convert AR6 report corpora web source to normalised HTML (web scrape) - v1.0 Ready
-1. Locate supporting resources located: Authors, glossary, acronmys, figures, data, bibliographic, licence, published canonical sources, references - v1.0 Ready
-1. Knowledge graph data model - Alpha 
-1. LLM RAG workflow tests - Alpha
-1. Publishing pipeline from Wikibase - Beta 1.0 Ready - See python module: https://pypi.org/project/cps-impress/
-1. AR6 Report quantification - v1.0 Ready (repeat using TIB Grobi https://projects.tib.eu/grobi )
+The roadmap follows the priorities set out in issue #236 and the project report, with the following milestones:
 
-## Work in progress (WIP)
+1. Lock down the ER model
+2. Add common schemas
+3. Add missing IPCC glossary terms
+4. Release the question bank
+5. Add citations
+6. Add data
+7. Add WG1 figures to the data from GitHub
+8. Add front matter and back matter
 
-1. Wikibase infrastructure - WIP
-1. AR6 Report publication syntactic, semantic, and typesetting data structure analysis - WIP
-1. AR6 Report publication CSS Paged Media style - WIP
-1. Defining workflow and tech stack - WIP
-1. Wikibase maintenance and sysadmin - WIP
+## Current roadmap
 
-## Next
+### 1. Core model and schema stability
 
-1. AR6 WG1 section trial import into Wikibase for the purpose of Wikibase troubleshooting
-1. Wikibase text import module - A python module needs writing importing text using Wikibase and a storage method - Renate or/and Mediawiki. This would extend https://pypi.org/project/cps-wb/
-1. Refector AR6 web scrape - A python module needs extending. This module was made by CPS for an art collection https://pypi.org/project/cps-deckenmalerei/
-1. Import AR6 into Wikibase
-1. Harvest data: Python module needed. This would extend https://pypi.org/project/cps-wb/
-   - Authors
-   - Glossary
-   - Acronyms list
-   - References
-   - Bibliographic
-1. Import above data to Wikibase. Python module needed. This would extend https://pypi.org/project/cps-wb/
-1. Annotate report using above data
-1. Wikibase to Mediawiki report navigation mapping for report browsing
+- Finalise the entity-relationship model for the document corpus.
+- Consolidate common schemas for report structure, bibliographic metadata, author data, glossary entries, and references.
+- Stabilise the knowledge graph data model so the project can support community contributions without breaking the underlying structure.
 
-## To do
+### 2. IPCC content enrichment
 
-1. Define workflows and review processes for adding data to KG.
-1. LLM RAG proof of concept demo - using HTML corpora and Streamlit. This is meant as a throw away demonstration as the workflow has been tried out with #semanticClimate
-1. Community annotation (integrate #semanticClimate tooling): #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.
-1. Wikibase to Wikidata data mapping
-1. Wikibase data analysis and visualisations - using built in Wikidata tools
-1. Publications available as:
-  - REST API
-  - Command line 
-  - Jupyter Noteooks
-  - Python CMS (e.g., Wagtail)
-  - Graph RAG LLM 
-      - All of the above publishing channels use the following framework. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating in a 'Model View Controller' architecture. Paged Media CSS styles are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.
-7. Saving publications data back to the knowledge graph
-8. Making Renate DOI deposits of publications
-9. Knowledge Graph - FAIR linked open data, and semantic outputs from Wikibase:
-  - REST API
-  - RDF export
-  - Dokieli RDFa
-  - Wikidata export
+- Add the missing glossary terms and resolve gaps in terminology coverage.
+- Add citations and cross-reference data needed for reliable discovery and provenance.
+- Capture figure, dataset, and chapter-level metadata in a consistent model.
+- Extend coverage into front matter and back matter to complete the document structure.
 
----
+### 3. Data integration and publication
 
-## Key {.unnumbered}
+- Add the remaining data sources required for the report corpus, including structured data and supporting metadata.
+- Add WG1 figures and related data from the GitHub-based source material.
+- Integrate the question bank as a reusable access layer for research and community engagement.
+- Prepare publication outputs for multiple channels, including HTML, structured data, and reusable query-based access.
 
-  - AR6 - IPCC Sixth Assement Report 
-  - CPS - Computational Publishing Service
-  - #semanticClimate - project partner - open research group building software tools for climate knowledge liberation
+### 4. Research and community workflows
 
+- Support analysis workflows for data scientists and citizen science contributors.
+- Link project data to open scholarly infrastructures and metadata services.
+- Develop a clear review and contribution process for adding data to the knowledge graph.
+- Maintain compatibility with the publishing and data distribution objectives of the project.
+
+## Milestone summary
+
+### Completed or substantially underway
+
+- AR6 source material has been harvested and normalised.
+- Supporting metadata sources have been identified and structured.
+- The knowledge graph model has been prototyped and reviewed.
+- Publishing and distribution pathways have been explored with Wikibase and associated tooling.
+- The project has demonstrated document distribution and data-access workflows.
+
+### Priority next steps
+
+- Finalise the ER model and schema layer.
+- Complete missing glossary and citation data.
+- Add the remaining corpus data and WG1 figure assets.
+- Replace provisional structures with a stable public-facing deployment path.
+- Expand publication and analysis tooling for community use.
+
+## Project context
+
+The project builds from the IPCC Sixth Assessment Report and the surrounding metadata ecosystem to create a sample of a future climate knowledge infrastructure: structured, linked, and reusable. The roadmap therefore focuses on establishing a robust foundation for the report corpus first, then expanding community analysis, publication, and semantic distribution services on top of that foundation.
+
+## Key terms
+
+- AR6: IPCC Sixth Assessment Report
+- ER model: entity-relationship model for the document corpus
+- FAIR: findable, accessible, interoperable, reusable
+- Wikibase: structured data platform used for the knowledge graph
+- #semanticClimate: project partner and open research community contributing to the climate knowledge effort

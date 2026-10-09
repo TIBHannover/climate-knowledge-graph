@@ -1,59 +1,57 @@
-# CKG Dev Workflow
+# Workflow
 
-Status: Version 1.0 (Sept '25')
+The Climate Knowledge Graph (CKG) workflow turns an unstructured climate science corpus into structured, queryable, and publishable knowledge. Beginning with IPCC AR6 sources, the process moves through harvesting, knowledge modelling, Wikibase import, annotation, analysis, and publication outputs. The result is a FAIR, linked data environment that supports both research and publication-ready outputs.
 
-CKG - Knowledge graph and publishing system development workflow.
+## Schematic
 
-## Goal {.unnumbered}
+```mermaid
+flowchart LR
+    A[Identify AR6 sources<br/>authors, glossary, references] --> B[Harvest corpus<br/>web and PDF content]
+    B --> C[Create initial data model]
+    C --> D[Import structured data into Wikibase]
+    D --> E[Map report navigation<br/>MediaWiki categories and links]
+    E --> F[Enrich entities<br/>authors, glossary, acronyms, bibliographic data]
+    F --> G[Annotate and validate<br/>community review and linking]
+    G --> H[Analyse and visualise<br/>Wikibase data and graphs]
+    G --> I[Publish outputs<br/>API, HTML, PDF, notebooks, LLM interfaces]
+    H --> J[FAIR linked open data]
+    I --> K[Shareable publications and services]
+```
 
-The goal is to enable easier knowledge use of complex document corpus by using a knowledge graph to enable the following: 
+## Workflow summary
 
-1. Publishing of search results as multi-format publication, and 
-2. enable data analysis by providing FAIR linked open data.
+Working with the IPCC Sixth Assessment Report (AR6) corpus, the project follows a sequence of stages that convert source material into structured knowledge and reusable publication outputs.
 
-## Workflow
+1. Identify relevant report sources and metadata, including authors, glossary terms, acronyms, references, and bibliographic material.
+2. Harvest the report corpus from web and PDF sources.
+3. Design an initial knowledge graph data model suited to the report structure and research use cases.
+4. Import the data into Wikibase as the central knowledge graph store.
+5. Link the report content to media and navigation structures in MediaWiki for browsing and discovery.
+6. Harvest and import additional supporting data such as authors, glossary terms, acronyms, references, and bibliographic records.
+7. Annotate the report using the imported data and related entities.
+8. Support community annotation and review through established knowledge-sharing communities and linked-data workflows.
+9. Map relevant data to Wikidata and related knowledge structures where appropriate.
+10. Perform analysis, visualisation, and data exploration over the resulting graph.
+11. Generate publication outputs from the graph using computational publishing workflows.
+12. Deliver searchable, shareable, and machine-readable outputs such as REST APIs, RDF data, HTML publications, and LLM-ready knowledge services.
 
-The workflow represents the stages that go from harvesting an unstructured document corpus, web or PDF, and converting it to structured data. 
+## Main stages and outputs
 
-Wikibase is used for storage and knowledge graph creation to support the following features: 
+| Stage | Purpose | Outputs |
+| --- | --- | --- |
+| Source identification | Gather report materials and core metadata | Authors, glossary, acronyms, references, bibliographic fields |
+| Corpus harvesting | Collect raw report content from web and PDF inputs | Structured text and document corpus |
+| Knowledge modelling | Design the graph schema for report and entity relationships | Initial ER/data model |
+| Wikibase import | Load core entities and metadata into the knowledge graph | Structured graph data |
+| Navigation and linking | Connect report content to browsable structures | MediaWiki categories, report links, entity navigation |
+| Enrichment | Add supporting data and metadata | Glossary, author records, bibliographic details, references |
+| Annotation and review | Add semantic meaning and community validation | Linked report content, collaborative annotations |
+| Analysis and visualisation | Query and explore knowledge graph data | Graph analysis, summaries, figures, derived insights |
+| Publication | Turn graph content into shareable outputs | REST API, HTML, notebooks, PDF-like layouts, machine-readable data |
+| FAIR data services | Make knowledge reusable and interoperable | RDF export, API access, linked open data, publication services |
 
- - community annotation, 
- - search for outputting 'publication ready documents' including via LLMs, and for 
- - providing knowledge graph data services.
+## Publication model
 
-### Workflow steps (summary)
-
-Working with [*IPCC Sixth Assessment Report (AR6)*](https://www.ipcc.ch/assessment-report/ar6/) corpus.
-
-1. Locate AR6 report data sources - authors, glossary, acronyms list, etc.
-1. AR6 web scrape report texts (corpus harvest)
-1. Design initial knowledge graph data model 
-1. Wikibase AR6 import
-1. Wikibase to Mediawiki report navigation mapping to Mediawiki Categories for report browsing in Mediawiki
-1. Harvest data:
-   - Authors
-   - Glossary
-   - Acronyms list
-   - References
-   - Bibliographic
-   - etc.
-1. Import above AR6 data to Wikibase
-1. Annotate report using above AR6 data
-1. Community annotation: #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.
-1. Wikibase to Wikidata data mapping
-1. Wikibase data analysis and visualisations
-1. Publications generated from Wikibase of A& available as:
-  - REST API
-  - Command line 
-  - Jupyter Noteooks
-  - Python CMS (e.g., Wagtail)
-  - Graph RAG LLM 
-      - All of the above publishing channels use the following framework. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating in a 'Model View Controller' architecture. Paged Media CSS styles are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.
-
-13. Knowledge Graph - FAIR linked open data, and semantic outputs from Wikibase:
-  - REST API
-  - RDF export
-  - Dokieli RDFa
-  - Wikidata export
+The publication layer uses a computational publishing service that turns Wikibase content into HTML and other formats. This approach supports multi-format publishing, including PDF-like layouts via paged media CSS, while keeping the underlying knowledge in the graph so it can be reused for search, analysis, and machine-readable outputs.
 
 
