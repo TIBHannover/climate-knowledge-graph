@@ -1,29 +1,34 @@
 project:
-  type: book
+  type: website
   output-dir: docs
-
-book:
-  title: "Climate Knowledge Graph: Documentation"
-  author: 
-  -  name: Simon Worthington
-     orcid: 0000-0002-8579-9717
-     email: simon.worthington@tib.eu
-  -  name: Laura Oldenbourg
-     orcid: 0009-0003-5070-0099
-  date: today
-  chapters:
+  render:
     - index.qmd
+    - about.qmd
     - roadmap.qmd
     - work-log.qmd
     - workflow.qmd
-    - about.qmd
-  
-  repo-url: https://github.com/TIBHannover/climate-knowledge-graph
-  repo-actions: [edit, source, issue]
+
+website:
+  title: "ClimateKG: Documentation"
+  navbar:
+    left:
+      - text: "About"
+        href: about.qmd
+      - text: "Workflow"
+        href: workflow.qmd
+      - text: "Roadmap"
+        href: roadmap.qmd
+      - text: "Work log"
+        href: work-log.qmd
+    right:
+      - text: "GitHub"
+        href: https://github.com/TIBHannover/climate-knowledge-graph
 
 format:
   html:
     theme: cosmo
+    css: styles.css
+    include-after-body: custom-footer.html
 
 
 
