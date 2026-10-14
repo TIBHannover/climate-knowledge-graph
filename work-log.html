@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; Work Log – Docs &amp; Dev Log: Climate Knowledge Graph</title>
+<title>work-log – ClimateKG: Documentation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./workflow.html" rel="next">
-<link href="./roadmap.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -42,11 +40,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -70,169 +68,189 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./work-log.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Work Log</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">ClimateKG: Documentation</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./workflow.html"> 
+<span class="menu-text">Workflow</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./roadmap.html"> 
+<span class="menu-text">Roadmap</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./work-log.html" aria-current="page"> 
+<span class="menu-text">Work log</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/TIBHannover/climate-knowledge-graph"> 
+<span class="menu-text">GitHub</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Docs &amp; Dev Log: Climate Knowledge Graph</a> 
-        <div class="sidebar-tools-main">
-    <a href="https://github.com/TIBHannover/climate-knowledge-graph" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-</div>
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About 🌏🌍🌎</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./roadmap.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Project Roadmap</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./work-log.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Work Log</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./workflow.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">CKG Dev Workflow</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./reports.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">AR6 Quantification</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./styles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Publication Styles</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./datamodels.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Data Models</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./wikibase-import.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Wikibase Import</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./rfc.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">RfC</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./ar6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Browse AR6</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./data-imprint.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Protection and Imprint</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#work-packages" id="toc-work-packages" class="nav-link active" data-scroll-target="#work-packages"><span class="header-section-number">2.1</span> Work packages</a></li>
-  <li><a href="#nov" id="toc-nov" class="nav-link" data-scroll-target="#nov"><span class="header-section-number">2.2</span> Nov</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/edit/main/work-log.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/blob/main/work-log.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Work Log</span></h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="work-packages" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="work-packages"><span class="header-section-number">2.1</span> Work packages</h2>
+<section id="work-log" class="level1">
+<h1>Work log</h1>
+<p>Current work is tracked in the project’s public <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues">GitHub issues</a>, which provide the most up-to-date view of ongoing tasks, discussions, and milestones.</p>
+<p>This monthly diary is a reverse-chronological summary of the project’s work as recorded in the public GitHub issue tracker. The most recent month is expanded in more detail, while earlier work is retained as context. There is also a forward-looking section for milestones on the horizon.</p>
+<section id="october-2026" class="level2">
+<h2 class="anchored" data-anchor-id="october-2026">October 2026</h2>
+<section id="current-focus" class="level3">
+<h3 class="anchored" data-anchor-id="current-focus">Current focus</h3>
 <ul>
-<li>IPCC Assement Report Six to Wikibase (AR62W)</li>
-<li>Reporting / community (REP)</li>
-<li>Publishing (PUB)</li>
+<li>Finalisation of the roadmap and project narrative around the core infrastructure, publication, and data workstreams.</li>
+<li>Consolidation of the issue backlog into a more stable development sequence for the next implementation phase.</li>
+<li>Preparation of the project’s public-facing documentation and notice set in parallel with technical progress.</li>
 </ul>
 </section>
-<section id="nov" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="nov"><span class="header-section-number">2.2</span> Nov</h2>
+<section id="detailed-notes" class="level3">
+<h3 class="anchored" data-anchor-id="detailed-notes">Detailed notes</h3>
 <ul>
-<li>24-28 Nov: Supporting data selection (in scope / out of scope) and prioritiesation https://github.com/TIBHannover/climate-knowledge-graph/issues/52 (AR62W)</li>
-<li>24-26 Nov: AR6 scrape data handover and protocol: Issue https://github.com/TIBHannover/climate-knowledge-graph/issues/58 Repo: https://github.com/TIBHannover/climate-knowledge-graph/issues/58 (AR62W)</li>
-<li>24 Nov: CSS ToC and Vivlio support (PUB)</li>
-<li>24 Nov: Project reports for review (REP)</li>
+<li>The project roadmap is now centred on the issue-based milestones captured in <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/236">Issue #236</a>, with particular emphasis on locking down the ER model, common schemas, glossary terms, citations, and data coverage.</li>
+<li>The project continues to operate as a structured publication and knowledge-infrastructure effort rather than a single linear software build.</li>
+<li>Current work is focused on turning the early prototype work into a more coherent and stable delivery path.</li>
 </ul>
+</section>
+<section id="on-the-horizon" class="level3">
+<h3 class="anchored" data-anchor-id="on-the-horizon">On the horizon</h3>
+<ul>
+<li>Complete and stabilise the ER model.</li>
+<li>Finish the remaining glossary and citation data.</li>
+<li>Add the missing data sources and WG1 figure assets.</li>
+<li>Progress from prototype publication workflows to a more production-ready deployment path.</li>
+</ul>
+</section>
+</section>
+<section id="september-2026" class="level2">
+<h2 class="anchored" data-anchor-id="september-2026">September 2026</h2>
+<ul>
+<li>The roadmap and work planning process was reiterated around the milestone structure captured in <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/236">Issue #236</a>.</li>
+<li>Project documentation and public notices were expanded to align with the project’s institutional and external-facing narrative.</li>
+<li>The work progressed from prototype-driven development toward a clearer roadmap and publication-oriented structure.</li>
+</ul>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">2025-07</h2>
+<ul>
+<li>2025-07-02 — <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/11">Issue #11</a>: List the document parts of an IPCC report: for markup, for typesetting</li>
+<li>2025-07-02 — <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/12">Issue #12</a>: List the Paged Media CSS parts needed to typeset IPCC AR6 report parts</li>
+<li>2025-07-02 — <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/13">Issue #13</a>: List the reports that make up the IPCC AR6 report, and which parts are OA</li>
+<li>2025-07-02 — <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/14">Issue #14</a>: List what parts of AR6 are Open Access: the content for Climate Knowledge Graph (CKG)</li>
+<li>2025-07-02 — <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/15">Issue #15</a>: Create layout styles for all IPCC AR6 report styles</li>
+</ul>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2025-06</h2>
+<ul>
+<li>2025-06-25 — <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/10">Issue #10</a>: Crowdsourcing review and validation tasks and procedures for the #semanticClimate community</li>
+</ul>
+</section>
+<section id="section-2" class="level2">
+<h2 class="anchored" data-anchor-id="section-2">2025-03</h2>
+<ul>
+<li>2025-03-03 — <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/6">Issue #6</a>: GraphVis of automated workflow and tech schematic</li>
+<li>2025-03-03 — <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/7">Issue #7</a>: IPCC reports — simple relationship model: document</li>
+<li>2025-03-03 — <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/8">Issue #8</a>: Status: Using Wikibase/data data model and automating data</li>
+</ul>
+</section>
+<section id="section-3" class="level2">
+<h2 class="anchored" data-anchor-id="section-3">2025-02</h2>
+<ul>
+<li>2025-02-11 — <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/1">Issue #1</a>: Literature and resources for knowledge graph design</li>
+<li>2025-02-11 — <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/2">Issue #2</a>: Examples of KGs made with Wikibase</li>
+<li>2025-02-11 — <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/3">Issue #3</a>: How can the students work contribute</li>
+<li>2025-02-11 — <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/4">Issue #4</a>: How do we move from HTML to Wikibase?</li>
+<li>2025-02-15 — <a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/5">Issue #5</a>: Wikidata’s core Relationship P Numbers in Wikibase?</li>
+</ul>
+</section>
+<section id="horizon-milestones" class="level2">
+<h2 class="anchored" data-anchor-id="horizon-milestones">Horizon milestones</h2>
+<ul>
+<li>Lock down the ER model and common schemas.</li>
+<li>Add missing glossary terms and citations for AR6 coverage.</li>
+<li>Complete the remaining data ingest and WG1 figure coverage.</li>
+<li>Expand the publication and data analysis workflows for the project community.</li>
+<li>Move from prototype knowledge-graph publication to a more stable production-ready release path.</li>
+</ul>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>The project began with architecture and design questions, moved into report-structure and schema work, and then shifted toward data enrichment, publication workflows, and roadmap planning. The reverse-chronological diary format keeps the current work in focus while preserving the earlier issue-based context that shaped the project.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
+<footer class="site-footer">
+
+  <div class="site-footer__inner">
+
+    <p class="site-footer__lead">Climate Knowledge Graph is a research and development project from TIB.</p>
+
+    <nav class="site-footer__nav" aria-label="Footer navigation">
+
+      <a href="./about.html">About</a>
+
+      <a href="https://tibhannover.github.io/ClimateKG-Data-Bench/documentation/test-report-7/incite.html">Our publications</a>
+
+      <a href="./roadmap.html">Roadmap</a>
+
+      <a href="https://tibhannover.github.io/ClimateKG-Data-Bench/change-log.html">Change Log</a>
+
+      <a href="https://tibhannover.github.io/ClimateKG-Data-Bench/imprint.html">Imprint</a>
+
+      <a href="https://tibhannover.github.io/ClimateKG-Data-Bench/data-protection.html">Data protection</a>
+
+      <a href="https://tibhannover.github.io/ClimateKG-Data-Bench/terms-of-use.html">Terms of use</a>
+
+      <a href="https://tibhannover.github.io/ClimateKG-Data-Bench/accessibility.html">Accessibility</a>
+
+    </nav>
+
+  </div>
+
+</footer>
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -325,7 +343,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/TIBHannover\.github\.io\/climate-knowledge-graph\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -653,21 +671,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./roadmap.html" class="pagination-link" aria-label="Project Roadmap">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Project Roadmap</span></span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./workflow.html" class="pagination-link" aria-label="CKG Dev Workflow">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">CKG Dev Workflow</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/edit/main/work-log.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/blob/main/work-log.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+</body></html>

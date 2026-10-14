@@ -6,11 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Simon Worthington">
-<meta name="author" content="Laura Oldenbourg">
-<meta name="dcterms.date" content="2025-11-26">
 
-<title>Docs &amp; Dev Log: Climate Knowledge Graph</title>
+<title>ClimateKG: Documentation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,7 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./roadmap.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -44,11 +40,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -72,258 +68,400 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">About 🌏🌍🌎</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">ClimateKG: Documentation</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./workflow.html"> 
+<span class="menu-text">Workflow</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./roadmap.html"> 
+<span class="menu-text">Roadmap</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./work-log.html"> 
+<span class="menu-text">Work log</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/TIBHannover/climate-knowledge-graph"> 
+<span class="menu-text">GitHub</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Docs &amp; Dev Log: Climate Knowledge Graph</a> 
-        <div class="sidebar-tools-main">
-    <a href="https://github.com/TIBHannover/climate-knowledge-graph" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-</div>
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">About 🌏🌍🌎</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./roadmap.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Project Roadmap</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./work-log.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Work Log</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./workflow.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">CKG Dev Workflow</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./reports.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">AR6 Quantification</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./styles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Publication Styles</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./datamodels.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Data Models</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./wikibase-import.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Wikibase Import</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./rfc.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">RfC</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./ar6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Browse AR6</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./data-imprint.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Protection and Imprint</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About 🌏🌍🌎</a>
-  <ul class="collapse">
-  <li><a href="#goal" id="toc-goal" class="nav-link" data-scroll-target="#goal">Goal 🥨</a></li>
-  <li><a href="#about-us" id="toc-about-us" class="nav-link" data-scroll-target="#about-us">About us 👋</a></li>
-  <li><a href="#licensing" id="toc-licensing" class="nav-link" data-scroll-target="#licensing">Licensing</a></li>
-  </ul></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/blob/main/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Docs &amp; Dev Log: Climate Knowledge Graph</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Authors</div>
-    <div class="quarto-title-meta-contents">
-             <p>Simon Worthington <a href="mailto:simon.worthington@tib.eu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-8579-9717" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-             <p>Laura Oldenbourg <a href="https://orcid.org/0009-0003-5070-0099" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">November 26, 2025</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="about" class="level1 unnumbered">
-<h1 class="unnumbered">About 🌏🌍🌎</h1>
-<p>Project status: Pre-release. Alpha Knowledge graph ETA end of Q4 2025. (Updated Sept.&nbsp;’25)</p>
-<p>The Climate Knowledge Graph (CKG) is an R&amp;D project to make a <em>knowledge graph</em> of the open access parts of the 10,000 page <a href="https://www.ipcc.ch/assessment-report/ar6/"><em>IPCC Sixth Assessment Report (AR6)</em></a> corpus.</p>
-<p>Git repo: <a href="https://github.com/TIBHannover/climate-knowledge-graph">CKG</a></p>
-<section id="goal" class="level2">
-<h2 class="anchored" data-anchor-id="goal">Goal 🥨</h2>
-<p>The goal is to enable easier knowledge use from complex document corpus by:</p>
-<ol type="1">
-<li>Making corpus search results available as multi-format publications, and</li>
-<li>enabling corpus data analysis by providing FAIR linked open data resources.</li>
-</ol>
-<p>CKG uses open-source software and can be used on any document corpus.</p>
-<div class="cell" data-fig-height="4" data-layout-align="default">
-<div class="cell-output-display">
-<div id="ckg-system">
-<div>
-<svg width="672" height="384" viewbox="0.00 0.00 256.00 425.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 421)">
-<title>CKG</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-421 252,-421 252,4 -4,4"></polygon>
-<!-- a -->
-<g id="node1" class="node">
-<title>a</title>
-<ellipse fill="#a9ddd6" stroke="black" cx="123.5" cy="-359.5" rx="57.5" ry="57.5"></ellipse>
-<text text-anchor="middle" x="123.5" y="-364.9" font-family="Arial" font-size="18.00">IPCC </text>
-<text text-anchor="middle" x="123.5" y="-343.3" font-family="Arial" font-size="18.00">Report</text>
-</g>
-<!-- b -->
-<g id="node2" class="node">
-<title>b</title>
-<ellipse fill="#a9ddd6" stroke="black" cx="123.5" cy="-208.5" rx="57.5" ry="57.5"></ellipse>
-<text text-anchor="middle" x="123.5" y="-213.9" font-family="Arial" font-size="18.00">Knowledge </text>
-<text text-anchor="middle" x="123.5" y="-192.3" font-family="Arial" font-size="18.00">Graph</text>
-</g>
-<!-- a&#45;&gt;b -->
-<g id="edge1" class="edge">
-<title>a-&gt;b</title>
-<path fill="none" stroke="black" d="M123.5,-301.74C123.5,-293.44 123.5,-284.83 123.5,-276.35"></path>
-<polygon fill="black" stroke="black" points="127,-276.1 123.5,-266.1 120,-276.1 127,-276.1"></polygon>
-</g>
-<!-- c -->
-<g id="node3" class="node">
-<title>c</title>
-<ellipse fill="#a9ddd6" stroke="black" cx="57.5" cy="-57.5" rx="57.5" ry="57.5"></ellipse>
-<text text-anchor="middle" x="57.5" y="-62.9" font-family="Arial" font-size="18.00">Search &amp; </text>
-<text text-anchor="middle" x="57.5" y="-41.3" font-family="Arial" font-size="18.00">Publish</text>
-</g>
-<!-- b&#45;&gt;c -->
-<g id="edge2" class="edge">
-<title>b-&gt;c</title>
-<path fill="none" stroke="black" d="M96.26,-146C92.4,-137.3 88.44,-128.35 84.59,-119.65"></path>
-<polygon fill="black" stroke="black" points="93.17,-147.66 100.42,-155.39 99.57,-144.83 93.17,-147.66"></polygon>
-<polygon fill="black" stroke="black" points="87.71,-118.06 80.46,-110.33 81.31,-120.89 87.71,-118.06"></polygon>
-</g>
-<!-- d -->
-<g id="node4" class="node">
-<title>d</title>
-<ellipse fill="#a9ddd6" stroke="black" cx="190.5" cy="-57.5" rx="57.5" ry="57.5"></ellipse>
-<text text-anchor="middle" x="190.5" y="-62.9" font-family="Arial" font-size="18.00">Data </text>
-<text text-anchor="middle" x="190.5" y="-41.3" font-family="Arial" font-size="18.00">Analysis</text>
-</g>
-<!-- b&#45;&gt;d -->
-<g id="edge3" class="edge">
-<title>b-&gt;d</title>
-<path fill="none" stroke="black" d="M151,-146.35C154.99,-137.48 159.09,-128.34 163.08,-119.48"></path>
-<polygon fill="black" stroke="black" points="147.65,-145.25 146.75,-155.81 154.04,-148.12 147.65,-145.25"></polygon>
-<polygon fill="black" stroke="black" points="166.27,-120.91 167.18,-110.36 159.89,-118.04 166.27,-120.91"></polygon>
-</g>
-</g>
-</svg>
-</div>
-<p><i>Figure: Climate Knowledge Graph schematic</i></p>
-</div>
-</div>
-</div>
+<section id="about" class="level1">
+<h1>About</h1>
+<p>Climate Knowledge Graph (ClimateKG) is a community knowledge graph for literature on climate change science, intended for use by policymakers, citizen science projects, and scientists.</p>
+<p>ClimateKG is a software research project for constructing a knowledge graph using the Intergovernmental Panel on Climate Change’s Sixth Assessment Report with the Wikibase software platform. The FAIR Principles are being applied to publishing and are employed to enrich the report with granular cataloguing, document distribution, and data analysis. The knowledge graph is a ‘community knowledge graph’ targeted at policymakers, citizen science projects, and scientists — inviting contributions and engagement to increase the report’s impact.</p>
+<p>As a starting point, ClimateKG has imported the main sections of the 10,000 page corpus <a href="https://www.ipcc.ch/assessment-report/ar6/"><em>IPCC Sixth Assessment Report</em></a> into the knowledge graph.</p>
+<p>On the <em>IPCC Sixth Assessment Report</em>:</p>
+<blockquote class="blockquote">
+<p>It is a survival guide for humanity. As it shows, the 1.5-degree limit is achievable. <br> - <a href="https://media.un.org/avlibrary/en/asset/d302/d3022200#:~:text=In%20a%20video%20message%20to,1.5%2Ddegree%20limit%20is%20achievable">UN Secretary-General António Guterres</a> (2023)</p>
+</blockquote>
+<section id="climatekg-project-links" class="level2">
+<h2 class="anchored" data-anchor-id="climatekg-project-links">ClimateKG project links</h2>
+<ul>
+<li><a href="https://prod-climatekg.semanticclimate.org/">ClimateKG:</a> Browse the text and data</li>
+<li><a href="https://tibhannover.github.io/ClimateKG-Data-Bench/">ClimateKG Data Bench:</a> Data analysis and community contributions</li>
+<li><a href="https://tibhannover.github.io/climate-knowledge-graph/">Docs:</a> Documentation and development log</li>
+</ul>
 </section>
-<section id="about-us" class="level2">
-<h2 class="anchored" data-anchor-id="about-us">About us 👋</h2>
-<p>TIB project team: Simon Worthington, e-mail: <a href="mailto:simon.worthington@tib.eu">simon.worthington@tib.eu</a> (Lead: Publishing technologist), and; Laura Oldenbourg (data modeling and publishing specialist). With support from Markus Stocker, lead of Lab Knowledge Infrastructures.</p>
-<p>CKG is an R&amp;D project hosted at <a href="https://www.tib.eu/en">TIB</a> – Leibniz Information Centre for Science and Technology – Germany and organised in partnership with <a href="https://semanticclimate.github.io/p/en/">#semanticClimate</a> and the National Institute of Plant Genome Research <a href="https://nipgr.ac.in/nipgrv2/index.html">(NIPGR)</a> – India.</p>
-<p>CKG is funded by <a href="https://www.tib.eu/en">TIB</a> Innovationsfond.</p>
+<section id="ipcc-report-from-browsable-website-to-dynamic-data-resource" class="level2">
+<h2 class="anchored" data-anchor-id="ipcc-report-from-browsable-website-to-dynamic-data-resource">IPCC report: From browsable website to dynamic data resource</h2>
+<p><img src="images/dia2-v1-schematic.png" alt="IPCC Report: Knowledge transformation schematic" style="width:100%;max-width:100%;height:auto;"></p>
 </section>
-<section id="licensing" class="level2">
-<h2 class="anchored" data-anchor-id="licensing">Licensing</h2>
-<p>Sofware: All software is Open Source Initiative (OSI) open-source license compliant. Copyright the Authors.</p>
-<p>IPCC reports. This content is Open Access and distributed under the terms of the Creative Commons Attribution licence CC-BY-NC-ND 4.0 <a href="https://creativecommons.org/creativelicenses">https://creativecommons.org/creativelicenses</a>. Copyright Intergovernmental Panel on Climate Change.</p>
+<section id="how-the-knowledge-graph-is-made" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-knowledge-graph-is-made">How the knowledge graph is made</h2>
+<p>The objective is to add a data surface to what is already in the documents, making the knowledge usable and searchable.</p>
+<p>ClimateKG converts the <em>Sixth Assessment Report</em> from the web into basic <strong>foundational datasets</strong> to capture their main parts. It then connects these components using an <strong>entity-relationship model</strong>. The result is a <strong>knowledge graph</strong>: structured and connected data that can be searched directly.</p>
+<section id="foundational-datasets" class="level3">
+<h3 class="anchored" data-anchor-id="foundational-datasets">Foundational datasets</h3>
+<p>AR6 has been broken down into five foundational datasets:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dataset</th>
+<th>Data</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Corpus full text &amp; structure</td>
+<td>7 reports; 88 chapters; 7,524,958 words, and; 2,153 image files</td>
+</tr>
+<tr class="even">
+<td>2. Bibliographic information</td>
+<td>95 DOIs</td>
+</tr>
+<tr class="odd">
+<td>3. Glossary terms</td>
+<td>1,274 terms</td>
+</tr>
+<tr class="even">
+<td>4. Acronyms</td>
+<td>1,910</td>
+</tr>
+<tr class="odd">
+<td>5. Authors</td>
+<td>932</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="entity-relationship-model" class="level3">
+<h3 class="anchored" data-anchor-id="entity-relationship-model">Entity-relationship model</h3>
+<p>ClimateKG connects these datasets using an <strong>entity-relationship model</strong>, forming the <strong>knowledge graph</strong>:</p>
+<pre><code>+- Corpus structure
++- 7 reports
+   +- REPORT
+   |  &lt;- Bibliographic information
+   |  &lt;- Glossary terms
+   |  &lt;- Acronyms
+   +- CHAPTER
+         &lt;- Authors
+         &lt;- Bibliographic information
+         &lt;- Corpus full text</code></pre>
+</section>
+</section>
+<section id="using-the-knowledge-graph" class="level2">
+<h2 class="anchored" data-anchor-id="using-the-knowledge-graph">Using the knowledge graph</h2>
+<p>ClimateKG is a community knowledge graph that supports contributions from the scientific community and engagement from the wider public.</p>
+<section id="searching-the-knowledge-graph" class="level3">
+<h3 class="anchored" data-anchor-id="searching-the-knowledge-graph">Searching the knowledge graph</h3>
+<p>The connections that the knowledge graph creates allow for querying the data. For example, given the question:</p>
+<blockquote class="blockquote">
+<p>‘How many South American or Indian authors contributed to the report?’</p>
+</blockquote>
+<p>ClimateKG can retrieve the answer along with the relevant chapter texts:</p>
+<blockquote class="blockquote">
+<p>‘AR6 author distribution is 71 from South America and 43 from India.’</p>
+</blockquote>
+<table border="0">
+<tbody><tr>
+<td>
+<a href="https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/gender-distribution-simple.html#author-geography-south-america-and-india"><img src="images/samerica.png" alt="South America" width="350"></a>
+</td>
+<td>
+<a href="https://tibhannover.github.io/ClimateKG-Data-Bench/research_data/data-vis/gender-distribution-simple.html#author-geography-south-america-and-india"><img src="images/india.png" alt="India" width="350"></a>
+</td>
+</tr>
+</tbody></table>
+</section>
+<section id="planned-releases" class="level3">
+<h3 class="anchored" data-anchor-id="planned-releases">Planned releases</h3>
+<ul>
+<li><strong>Document distribution:</strong> The data provides a map of the internal structure of the corpus documents, enabling any section or piece of data to be retrieved and delivered to the user.</li>
+<li><strong>Extended metadata:</strong> Questions can be answered quickly and reliably. Metadata is distributed to library systems and the Data Commons on Wikidata.</li>
+<li><strong>Citizen science:</strong> ClimateKG collaborates with Youth Data Champions interns from the #SemanticClimate organisation on a global scale.</li>
+<li><strong>Data science community:</strong> Contributors can enrich the corpus while maintaining the integrity of the original documents.</li>
+</ul>
+</section>
+</section>
+<section id="the-climatekg-project" class="level2">
+<h2 class="anchored" data-anchor-id="the-climatekg-project">The ClimateKG project</h2>
+<p>Inspired by Tim Berners-Lee’s vision of the Semantic Web, ClimateKG is a software R&amp;D project that uses <strong>FAIR Principles</strong> and <strong>Open Science infrastructures</strong> to liberate literature on climate change science.</p>
+<section id="funding-and-support" class="level3">
+<h3 class="anchored" data-anchor-id="funding-and-support">Funding and support</h3>
+<p>ClimateKG has been funded by TIB Innovation fund, TIB — Leibniz Information Centre for Science and Technology and University Library of Hannover (ROR ID: <a href="https://ror.org/04aj4c181">ror.org/04aj4c181</a>)</p>
+<p>ClimateKG is an R&amp;D project hosted at <a href="https://www.tib.eu/en">TIB</a> — Leibniz Information Centre for Science and Technology and University Library — Germany, in partnership with <a href="https://semanticclimate.github.io/p/en/">#semanticClimate</a> and the National Institute of Plant Genome Research <a href="https://nipgr.ac.in/nipgrv2/index.html">(NIPGR)</a> — India.</p>
+</section>
+<section id="background" class="level3">
+<h3 class="anchored" data-anchor-id="background">Background</h3>
+<p>ClimateKG comes out of the #semanticClimate (#sC) open research group founded by Dr.&nbsp;Gitanjali Yadav of <a href="https://nipgr.ac.in/home/home.php">NIPGR</a>, Delhi, Dr Peter Murray-Rust of Cambridge University, and Simon Worthington (TIB). #semanticClimate supports an India-wide internship programme, hackathon series, and youth outreach programme. Web: <a href="https://semanticclimate.github.io/">https://semanticclimate.github.io/</a></p>
+<p>TIB is one of the largest science libraries in the world and a global hub for knowledge graph R&amp;D, especially the <a href="https://orkg.org/">Open Research Knowledge Graph</a> (ORKG). ClimateKG partners with Lab Knowledge Infrastructures led by Dr Markus Stocker, and draws on expertise from NFDI4Culture projects: <a href="https://nfdi4culture.de/services/details/wikibase4research.html">Wikibase4Research</a>, <a href="https://nfdi4culture.de/de/dienste/details/computational-publishing-service.html">Computational Publishing Service</a>, and <a href="https://service.tib.eu/annotation/">Antelope</a> (terminology service).</p>
+</section>
+<section id="team-team" class="level3">
+<h3 class="anchored" data-anchor-id="team-team">Team team</h3>
+<p>Project lead, Simon Worthington — #bookliberationist and publishing technologist <a href="mailto:simon.worthington@tib.eu">simon.worthington@tib.eu</a> ORCID iD: <a href="https://orcid.org/0000-0002-8579-9717">0000-0002-8579-9717</a> | Mastodon: <a href="https://openbiblio.social/@mrchristian"><span class="citation" data-cites="mrchristian">@mrchristian</span></a></p>
+<p>Laura Oldenbourg — data modeling and publishing specialist, ORCID iD: <a href="https://orcid.org/0009-0003-5070-0099">0009-0003-5070-0099</a>.</p>
+<p>With support from Markus Stocker, lead of Lab Knowledge Infrastructures.</p>
+<p>Thank you for support and contributions to TIB colleagues and #semanticClimate members, volunteers, interns, and hackathon participants.</p>
+</section>
+</section>
+<section id="copyright-and-licences" class="level2">
+<h2 class="anchored" data-anchor-id="copyright-and-licences">Copyright and licences</h2>
+<section id="ipcc-reports" class="level3">
+<h3 class="anchored" data-anchor-id="ipcc-reports">IPCC reports</h3>
+<p>The Climate Knowledge Graph imports content from the seven reports of the IPCC Sixth Assessment Report (AR6) cycle. Reports 1–6 are published by Cambridge University Press under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0)</a>. Report 7 (the Synthesis Report) is published by the IPCC directly with all rights reserved; short extracts may be reproduced with full source attribution. See also the <a href="https://www.ipcc.ch/copyright/">IPCC copyright notice</a>.</p>
+<hr>
+<p><strong>1. Global Warming of 1.5°C (SR15)</strong> Special Report on the impacts of global warming of 1.5°C above pre-industrial levels. Copyright © 2018 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> DOI: <a href="https://doi.org/10.1017/9781009157940">10.1017/9781009157940</a> | <a href="https://www.ipcc.ch/sr15/">Report</a></p>
+<hr>
+<p><strong>2. Climate Change and Land (SRCCL)</strong> Special Report on climate change, desertification, land degradation, sustainable land management, food security, and greenhouse gas fluxes in terrestrial ecosystems. Copyright © 2019 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> DOI: <a href="https://doi.org/10.1017/9781009157988">10.1017/9781009157988</a> | <a href="https://www.ipcc.ch/report/srccl/">Report</a></p>
+<hr>
+<p><strong>3. The Ocean and Cryosphere in a Changing Climate (SROCC)</strong> Special Report on observed and projected changes to the ocean and cryosphere and their impacts. Copyright © 2019 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> DOI: <a href="https://doi.org/10.1017/9781009157964">10.1017/9781009157964</a> | <a href="https://www.ipcc.ch/report/srocc/">Report</a></p>
+<hr>
+<p><strong>4. Climate Change 2021: The Physical Science Basis (AR6 WGI)</strong> Working Group I contribution to the Sixth Assessment Report. Copyright © 2021 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> DOI: <a href="https://doi.org/10.1017/9781009157896">10.1017/9781009157896</a> | <a href="https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/">Report</a></p>
+<hr>
+<p><strong>5. Climate Change 2022: Impacts, Adaptation and Vulnerability (AR6 WGII)</strong> Working Group II contribution to the Sixth Assessment Report. Copyright © 2022 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> DOI: <a href="https://doi.org/10.1017/9781009325844">10.1017/9781009325844</a> | <a href="https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/">Report</a></p>
+<hr>
+<p><strong>6. Climate Change 2022: Mitigation of Climate Change (AR6 WGIII)</strong> Working Group III contribution to the Sixth Assessment Report. Copyright © 2022 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> DOI: <a href="https://doi.org/10.1017/9781009157926">10.1017/9781009157926</a> | <a href="https://www.ipcc.ch/report/sixth-assessment-report-working-group-3/">Report</a></p>
+<hr>
+<p><strong>7. Climate Change 2023: Synthesis Report (AR6 SYR)</strong> Synthesis Report integrating findings from the three Working Group reports and three Special Reports. Copyright © Intergovernmental Panel on Climate Change, 2023. ISBN: 978-92-9169-164-7 Published by the IPCC. License: All rights reserved. The right of publication in print, electronic and any other form and in any language is reserved by the IPCC. Short extracts from this publication may be reproduced without authorization provided that the complete source is clearly indicated. Requests to publish, reproduce or translate should be addressed to: IPCC c/o WMO, 7bis avenue de la Paix, P.O. Box 2300, CH-1211 Geneva 2, Switzerland. E-mail: IPCC-Sec@wmo.int DOI: <a href="https://doi.org/10.59327/IPCC/AR6-9789291691647">10.59327/IPCC/AR6-9789291691647</a> | <a href="https://www.ipcc.ch/report/sixth-assessment-report-cycle/">Report</a></p>
+</section>
+<section id="climatekg-data" class="level3">
+<h3 class="anchored" data-anchor-id="climatekg-data">ClimateKG data</h3>
+<p>ClimateKG data is licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero v1.0 Universal (CC0 1.0)</a> — dedicated to the public domain.</p>
+</section>
+<section id="climatekg-code-open-source-software" class="level3">
+<h3 class="anchored" data-anchor-id="climatekg-code-open-source-software">ClimateKG code — Open-source software</h3>
+<p>Code in this repository is licensed under the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License v3.0 (GPL-3.0)</a>. See <a href="LICENSE">LICENSE</a>.</p>
+</section>
+<section id="climatekg-design-and-fonts" class="level3">
+<h3 class="anchored" data-anchor-id="climatekg-design-and-fonts">ClimateKG design and fonts</h3>
+<p>Fonts are licensed under the <a href="https://openfontlicense.org/">SIL Open Font License (OFL)</a>.</p>
+<p>Design assets are licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</a>.</p>
+<p>Other design resources under respective open licences.</p>
+<hr>
+<p><a href="https://www.tib.eu/en"><img src="images/tib-logo.png" alt="TIB – Leibniz Information Centre for Science and Technology" width="200"></a></p>
+<p><a href="https://semanticclimate.github.io/p/en/"><img src="images/semanticclimate-logo.jpg" alt="#semanticClimate" width="200"></a></p>
+<hr>
+</section>
+</section>
+<section id="project-information-as-schema-researchproject" class="level2">
+<h2 class="anchored" data-anchor-id="project-information-as-schema-researchproject">Project information as schema ResearchProject</h2>
+<blockquote class="blockquote">
+<p>ℹ️ <strong>Generated content</strong> — from <a href="project-info/project-info-en.xml"><code>project-info/project-info-en.xml</code></a> using <a href="project-info/project-info-schema/ResearchProject-readme.xslt"><code>project-info/project-info-schema/ResearchProject-readme.xslt</code></a> · Schema: <a href="https://schema.org/ResearchProject">schema.org/ResearchProject</a>. See <a href="project-info/README.md">project-info/README.md</a> for the full pipeline documentation. Do not edit this section by hand — it is overwritten each time the pipeline runs.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Last updated: <code>2026-09-09T17:01:33Z</code></p>
+</blockquote>
+</section>
+</section>
+<section id="climate-knowledge-graph-climatekg" class="level1">
+<h1>Climate Knowledge Graph (ClimateKG)</h1>
+<blockquote class="blockquote">
+<p>A community knowledge graph for literature on climate change science, intended for use by policymakers, citizen science projects, and scientists.</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/climatekg-logo.png" alt="ClimateKG logo" height="60"> <img src="https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/tib-logo.png" alt="TIB – Leibniz Information Centre for Science and Technology logo" height="60"> <img src="https://raw.githubusercontent.com/TIBHannover/climate-knowledge-graph/main/images/semanticclimate-logo.jpg" alt="#semanticClimate logo" height="60"></p>
+<p>ClimateKG is a software research project for constructing a knowledge graph using the Intergovernmental Panel on Climate Change’s Sixth Assessment Report with the Wikibase software platform. The FAIR Principles are being applied to the publishing process to support the report in terms of more granular metadata, document distribution and data analysis. The knowledge graph is a ‘community knowledge graph’ targeted at policymakers, citizen science projects, and scientists — inviting contributions and engagement to increase the report’s impact.</p>
+<hr>
+<section id="project-details" class="level2">
+<h2 class="anchored" data-anchor-id="project-details">Project Details</h2>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td><strong>Lead</strong></td>
+<td><a href="http://ror.org/04aj4c181">TIB – Leibniz Information Centre for Science and Technology and University Library</a></td>
+</tr>
+<tr class="even">
+<td><strong>Period</strong></td>
+<td>2025-06-01–2026-06-30</td>
+</tr>
+<tr class="odd">
+<td><strong>Grant</strong></td>
+<td>TIB Innovation Fund (GrantID)</td>
+</tr>
+<tr class="even">
+<td><strong>URL</strong></td>
+<td><a href="Repo - https://github.com/TIBHannover/climate-knowledge-graph">Repo - https://github.com/TIBHannover/climate-knowledge-graph</a></td>
+</tr>
+<tr class="odd">
+<td><strong>Also at</strong></td>
+<td><a href="Docs - https://tibhannover.github.io/climate-knowledge-graph/">Docs - https://tibhannover.github.io/climate-knowledge-graph/</a></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><a href="Data Bench - https://github.com/TIBHannover/ClimateKG-Data-Bench">Data Bench - https://github.com/TIBHannover/ClimateKG-Data-Bench</a></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><a href="Project profile - https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg">Project profile - https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg</a></td>
+</tr>
+<tr class="even">
+<td><strong>Languages</strong></td>
+<td>English, German</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="team" class="level2">
+<h2 class="anchored" data-anchor-id="team">Team</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>ORCID</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://orcid.org/0000-0002-8579-9717">Simon Worthington</a></td>
+<td><code>0000-0002-8579-9717</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://orcid.org/0009-0003-5070-0099">Laura‌ Oldenbourg</a></td>
+<td><code>0009-0003-5070-0099</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://orcid.org/0000-0001-5492-3212">Markus Stocker</a></td>
+<td><code>0000-0001-5492-3212</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://orcid.org/0000-0001-6591-9964">Gitanjali Yadav</a></td>
+<td><code>0000-0001-6591-9964</code></td>
+</tr>
+<tr class="odd">
+<td><a href="https://orcid.org/0000-0003-3386-3972">Peter Murray-Rust</a></td>
+<td><code>0000-0003-3386-3972</code></td>
+</tr>
+<tr class="even">
+<td><a href="https://orcid.org/0000-0002-9451-7814">Renu Kumari</a></td>
+<td><code>0000-0002-9451-7814</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="partner-organisations" class="level2">
+<h2 class="anchored" data-anchor-id="partner-organisations">Partner Organisations</h2>
+<p><strong>Lead</strong></p>
+<ul>
+<li><a href="http://ror.org/04aj4c181">TIB – Leibniz Information Centre for Science and Technology and University Library</a></li>
+</ul>
+<p><strong>Partners</strong></p>
+<ul>
+<li><a href="https://semanticclimate.github.io/p/en/">#semanticClimate</a></li>
+</ul>
+</section>
+<section id="funding" class="level2">
+<h2 class="anchored" data-anchor-id="funding">Funding</h2>
+<p><strong>TIB Innovation Fund</strong> – Grant ID: 2025-2026 – TIB – Leibniz Information Centre for Science and Technology and University Library – <a href="https://www.tib.eu/en">https://www.tib.eu/en</a></p>
+</section>
+<section id="subject-areas" class="level2">
+<h2 class="anchored" data-anchor-id="subject-areas">Subject Areas</h2>
+<p><code>Knowledge graph</code> <code>semantic web</code> <code>climate science literature</code> <code>Wikibase</code> <code>Mediawiki</code> <code>document distribution</code> <code>metadata</code> <code>FAIR Principles</code> <code>open-source software</code> <code>publishing</code> <code>citizen science</code> <code>IPCC publishing</code> <code>web scraping</code></p>
+</section>
+<section id="keywords" class="level2">
+<h2 class="anchored" data-anchor-id="keywords">Keywords</h2>
+<p><code>IPCC</code> <code>AR6</code> <code>Sixth Assessment Report</code> <code>Wikibase</code> <code>MediaWiki</code> <code>ER model</code> <code>knowledge graph</code> <code>climate change</code> <code>semantic web</code> <code>FAIR principles</code> <code>document distribution</code> <code>citizen science</code> <code>metadata</code> <code>data science</code> <code>open science infrastructures</code> <code>literature</code></p>
+</section>
+<section id="licences-copyright" class="level2">
+<h2 class="anchored" data-anchor-id="licences-copyright">Licences &amp; Copyright</h2>
+<ul>
+<li><strong>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 (Code)</strong> – Code is released under the GNU GENERAL PUBLIC LICENSE Version 3 or another OSI-compliant open source licence. Copyright: The authors. <a href="https://fsf.org/">https://fsf.org/</a></li>
+<li><strong>CC BY-SA 4.0 (Content)</strong> – Content is licensed under Creative Commons Attribution-ShareAlike 4.0 International. <a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></li>
+<li><strong>CC0 1.0 Universal (Metadata)</strong> – Metadata is dedicated to the public domain under Creative Commons Zero 1.0 Universal. <a href="https://creativecommons.org/publicdomain/zero/1.0/">https://creativecommons.org/publicdomain/zero/1.0/</a></li>
+<li><strong>Graphic design and fonts</strong> – Design assets are licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Other design resources under respective open licences. Fonts are licensed under the SIL Open Font Licence or another open font licence. <a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a> <a href="https://software.sil.org/oflt/">https://software.sil.org/oflt/</a></li>
+<li><strong>IPCC reports</strong> – The Climate Knowledge Graph imports content from the seven reports of the IPCC Sixth Assessment Report (AR6) cycle. Reports 1–6 are published by Cambridge University Press under&nbsp;Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0). Report 7 (the Synthesis Report) is published by the IPCC directly with all rights reserved; short extracts may be reproduced with full source attribution. See also the&nbsp;IPCC copyright notice. <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">https://creativecommons.org/licenses/by-nc-nd/4.0/</a> <a href="https://www.ipcc.ch/copyright/">https://www.ipcc.ch/copyright/</a></li>
+</ul>
 
 
 </section>
 </section>
 
 </main> <!-- /main -->
+<footer class="site-footer">
+
+  <div class="site-footer__inner">
+
+    <p class="site-footer__lead">Climate Knowledge Graph is a research and development project from TIB.</p>
+
+    <nav class="site-footer__nav" aria-label="Footer navigation">
+
+      <a href="./about.html">About</a>
+
+      <a href="https://tibhannover.github.io/ClimateKG-Data-Bench/documentation/test-report-7/incite.html">Our publications</a>
+
+      <a href="./roadmap.html">Roadmap</a>
+
+      <a href="https://tibhannover.github.io/ClimateKG-Data-Bench/change-log.html">Change Log</a>
+
+      <a href="https://tibhannover.github.io/ClimateKG-Data-Bench/imprint.html">Imprint</a>
+
+      <a href="https://tibhannover.github.io/ClimateKG-Data-Bench/data-protection.html">Data protection</a>
+
+      <a href="https://tibhannover.github.io/ClimateKG-Data-Bench/terms-of-use.html">Terms of use</a>
+
+      <a href="https://tibhannover.github.io/ClimateKG-Data-Bench/accessibility.html">Accessibility</a>
+
+    </nav>
+
+  </div>
+
+</footer>
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -416,7 +554,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/TIBHannover\.github\.io\/climate-knowledge-graph\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -744,18 +882,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./roadmap.html" class="pagination-link" aria-label="Project Roadmap">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Project Roadmap</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/blob/main/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/TIBHannover/climate-knowledge-graph/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+</body></html>

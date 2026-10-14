@@ -1,362 +1,254 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Docs & Dev Log: Climate Knowledge Graph",
+    "objectID": "workflow.html",
+    "href": "workflow.html",
+    "title": "Workflow",
     "section": "",
-    "text": "About 🌏🌍🌎\nProject status: Pre-release. Alpha Knowledge graph ETA end of Q4 2025. (Updated Sept. ’25)\nThe Climate Knowledge Graph (CKG) is an R&D project to make a knowledge graph of the open access parts of the 10,000 page IPCC Sixth Assessment Report (AR6) corpus.\nGit repo: CKG",
-    "crumbs": [
-      "About 🌏🌍🌎"
-    ]
+    "text": "The Climate Knowledge Graph (CKG) workflow turns an unstructured climate science corpus into structured, queryable, and publishable knowledge. Beginning with IPCC AR6 sources, the process moves through harvesting, knowledge modelling, Wikibase import, annotation, analysis, and publication outputs. The result is a FAIR, linked data environment that supports both research and publication-ready outputs.\n\n\nflowchart LR\n    A[Identify AR6 sources&lt;br/&gt;authors, glossary, references] --&gt; B[Harvest corpus&lt;br/&gt;web and PDF content]\n    B --&gt; C[Create initial data model]\n    C --&gt; D[Import structured data into Wikibase]\n    D --&gt; E[Map report navigation&lt;br/&gt;MediaWiki categories and links]\n    E --&gt; F[Enrich entities&lt;br/&gt;authors, glossary, acronyms, bibliographic data]\n    F --&gt; G[Annotate and validate&lt;br/&gt;community review and linking]\n    G --&gt; H[Analyse and visualise&lt;br/&gt;Wikibase data and graphs]\n    G --&gt; I[Publish outputs&lt;br/&gt;API, HTML, PDF, notebooks, LLM interfaces]\n    H --&gt; J[FAIR linked open data]\n    I --&gt; K[Shareable publications and services]\n\n\n\nWorking with the IPCC Sixth Assessment Report (AR6) corpus, the project follows a sequence of stages that convert source material into structured knowledge and reusable publication outputs.\n\nIdentify relevant report sources and metadata, including authors, glossary terms, acronyms, references, and bibliographic material.\nHarvest the report corpus from web and PDF sources.\nDesign an initial knowledge graph data model suited to the report structure and research use cases.\nImport the data into Wikibase as the central knowledge graph store.\nLink the report content to media and navigation structures in MediaWiki for browsing and discovery.\nHarvest and import additional supporting data such as authors, glossary terms, acronyms, references, and bibliographic records.\nAnnotate the report using the imported data and related entities.\nSupport community annotation and review through established knowledge-sharing communities and linked-data workflows.\nMap relevant data to Wikidata and related knowledge structures where appropriate.\nPerform analysis, visualisation, and data exploration over the resulting graph.\nGenerate publication outputs from the graph using computational publishing workflows.\nDeliver searchable, shareable, and machine-readable outputs such as REST APIs, RDF data, HTML publications, and LLM-ready knowledge services.\n\n\n\n\n\n\n\n\n\n\n\n\nStage\nPurpose\nOutputs\n\n\n\n\nSource identification\nGather report materials and core metadata\nAuthors, glossary, acronyms, references, bibliographic fields\n\n\nCorpus harvesting\nCollect raw report content from web and PDF inputs\nStructured text and document corpus\n\n\nKnowledge modelling\nDesign the graph schema for report and entity relationships\nInitial ER/data model\n\n\nWikibase import\nLoad core entities and metadata into the knowledge graph\nStructured graph data\n\n\nNavigation and linking\nConnect report content to browsable structures\nMediaWiki categories, report links, entity navigation\n\n\nEnrichment\nAdd supporting data and metadata\nGlossary, author records, bibliographic details, references\n\n\nAnnotation and review\nAdd semantic meaning and community validation\nLinked report content, collaborative annotations\n\n\nAnalysis and visualisation\nQuery and explore knowledge graph data\nGraph analysis, summaries, figures, derived insights\n\n\nPublication\nTurn graph content into shareable outputs\nREST API, HTML, notebooks, PDF-like layouts, machine-readable data\n\n\nFAIR data services\nMake knowledge reusable and interoperable\nRDF export, API access, linked open data, publication services\n\n\n\n\n\n\nThe publication layer uses a computational publishing service that turns Wikibase content into HTML and other formats. This approach supports multi-format publishing, including PDF-like layouts via paged media CSS, while keeping the underlying knowledge in the graph so it can be reused for search, analysis, and machine-readable outputs."
   },
   {
-    "objectID": "index.html#goal",
-    "href": "index.html#goal",
-    "title": "Docs & Dev Log: Climate Knowledge Graph",
-    "section": "Goal 🥨",
-    "text": "Goal 🥨\nThe goal is to enable easier knowledge use from complex document corpus by:\n\nMaking corpus search results available as multi-format publications, and\nenabling corpus data analysis by providing FAIR linked open data resources.\n\nCKG uses open-source software and can be used on any document corpus.\n\n\n\n\n\n\nCKG\n\n\n\na\n\nIPCC \nReport\n\n\n\nb\n\nKnowledge \nGraph\n\n\n\na-&gt;b\n\n\n\n\n\nc\n\nSearch & \nPublish\n\n\n\nb-&gt;c\n\n\n\n\n\n\nd\n\nData \nAnalysis\n\n\n\nb-&gt;d\n\n\n\n\n\n\n\nFigure: Climate Knowledge Graph schematic",
-    "crumbs": [
-      "About 🌏🌍🌎"
-    ]
+    "objectID": "workflow.html#schematic",
+    "href": "workflow.html#schematic",
+    "title": "Workflow",
+    "section": "",
+    "text": "flowchart LR\n    A[Identify AR6 sources&lt;br/&gt;authors, glossary, references] --&gt; B[Harvest corpus&lt;br/&gt;web and PDF content]\n    B --&gt; C[Create initial data model]\n    C --&gt; D[Import structured data into Wikibase]\n    D --&gt; E[Map report navigation&lt;br/&gt;MediaWiki categories and links]\n    E --&gt; F[Enrich entities&lt;br/&gt;authors, glossary, acronyms, bibliographic data]\n    F --&gt; G[Annotate and validate&lt;br/&gt;community review and linking]\n    G --&gt; H[Analyse and visualise&lt;br/&gt;Wikibase data and graphs]\n    G --&gt; I[Publish outputs&lt;br/&gt;API, HTML, PDF, notebooks, LLM interfaces]\n    H --&gt; J[FAIR linked open data]\n    I --&gt; K[Shareable publications and services]"
   },
   {
-    "objectID": "index.html#about-us",
-    "href": "index.html#about-us",
-    "title": "Docs & Dev Log: Climate Knowledge Graph",
-    "section": "About us 👋",
-    "text": "About us 👋\nTIB project team: Simon Worthington, e-mail: simon.worthington@tib.eu (Lead: Publishing technologist), and; Laura Oldenbourg (data modeling and publishing specialist). With support from Markus Stocker, lead of Lab Knowledge Infrastructures.\nCKG is an R&D project hosted at TIB – Leibniz Information Centre for Science and Technology – Germany and organised in partnership with #semanticClimate and the National Institute of Plant Genome Research (NIPGR) – India.\nCKG is funded by TIB Innovationsfond.",
-    "crumbs": [
-      "About 🌏🌍🌎"
-    ]
+    "objectID": "workflow.html#workflow-summary",
+    "href": "workflow.html#workflow-summary",
+    "title": "Workflow",
+    "section": "",
+    "text": "Working with the IPCC Sixth Assessment Report (AR6) corpus, the project follows a sequence of stages that convert source material into structured knowledge and reusable publication outputs.\n\nIdentify relevant report sources and metadata, including authors, glossary terms, acronyms, references, and bibliographic material.\nHarvest the report corpus from web and PDF sources.\nDesign an initial knowledge graph data model suited to the report structure and research use cases.\nImport the data into Wikibase as the central knowledge graph store.\nLink the report content to media and navigation structures in MediaWiki for browsing and discovery.\nHarvest and import additional supporting data such as authors, glossary terms, acronyms, references, and bibliographic records.\nAnnotate the report using the imported data and related entities.\nSupport community annotation and review through established knowledge-sharing communities and linked-data workflows.\nMap relevant data to Wikidata and related knowledge structures where appropriate.\nPerform analysis, visualisation, and data exploration over the resulting graph.\nGenerate publication outputs from the graph using computational publishing workflows.\nDeliver searchable, shareable, and machine-readable outputs such as REST APIs, RDF data, HTML publications, and LLM-ready knowledge services."
   },
   {
-    "objectID": "index.html#licensing",
-    "href": "index.html#licensing",
-    "title": "Docs & Dev Log: Climate Knowledge Graph",
-    "section": "Licensing",
-    "text": "Licensing\nSofware: All software is Open Source Initiative (OSI) open-source license compliant. Copyright the Authors.\nIPCC reports. This content is Open Access and distributed under the terms of the Creative Commons Attribution licence CC-BY-NC-ND 4.0 https://creativecommons.org/creativelicenses. Copyright Intergovernmental Panel on Climate Change.",
-    "crumbs": [
-      "About 🌏🌍🌎"
-    ]
+    "objectID": "workflow.html#main-stages-and-outputs",
+    "href": "workflow.html#main-stages-and-outputs",
+    "title": "Workflow",
+    "section": "",
+    "text": "Stage\nPurpose\nOutputs\n\n\n\n\nSource identification\nGather report materials and core metadata\nAuthors, glossary, acronyms, references, bibliographic fields\n\n\nCorpus harvesting\nCollect raw report content from web and PDF inputs\nStructured text and document corpus\n\n\nKnowledge modelling\nDesign the graph schema for report and entity relationships\nInitial ER/data model\n\n\nWikibase import\nLoad core entities and metadata into the knowledge graph\nStructured graph data\n\n\nNavigation and linking\nConnect report content to browsable structures\nMediaWiki categories, report links, entity navigation\n\n\nEnrichment\nAdd supporting data and metadata\nGlossary, author records, bibliographic details, references\n\n\nAnnotation and review\nAdd semantic meaning and community validation\nLinked report content, collaborative annotations\n\n\nAnalysis and visualisation\nQuery and explore knowledge graph data\nGraph analysis, summaries, figures, derived insights\n\n\nPublication\nTurn graph content into shareable outputs\nREST API, HTML, notebooks, PDF-like layouts, machine-readable data\n\n\nFAIR data services\nMake knowledge reusable and interoperable\nRDF export, API access, linked open data, publication services"
+  },
+  {
+    "objectID": "workflow.html#publication-model",
+    "href": "workflow.html#publication-model",
+    "title": "Workflow",
+    "section": "",
+    "text": "The publication layer uses a computational publishing service that turns Wikibase content into HTML and other formats. This approach supports multi-format publishing, including PDF-like layouts via paged media CSS, while keeping the underlying knowledge in the graph so it can be reused for search, analysis, and machine-readable outputs."
   },
   {
     "objectID": "roadmap.html",
     "href": "roadmap.html",
-    "title": "1  Project Roadmap",
+    "title": "Project Roadmap",
     "section": "",
-    "text": "Summary",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Roadmap</span>"
-    ]
+    "text": "Climate Knowledge Graph (ClimateKG)\nStatus: In progress\n\n\nClimateKG aims to turn the IPCC Sixth Assessment Report into a reusable, navigable, and FAIR knowledge graph. The project brings together report structure, bibliographic metadata, glossary terms, citations, and data into a semantic layer that supports search, analysis, and publication workflows for policy, research, and public engagement.\n\n\n\nThe roadmap follows the priorities set out in issue #236 and the project report, with the following milestones:\n\nLock down the ER model\nAdd common schemas\nAdd missing IPCC glossary terms\nRelease the question bank\nAdd citations\nAdd data\nAdd WG1 figures to the data from GitHub\nAdd front matter and back matter\n\n\n\n\n\n\n\nFinalise the entity-relationship model for the document corpus.\nConsolidate common schemas for report structure, bibliographic metadata, author data, glossary entries, and references.\nStabilise the knowledge graph data model so the project can support community contributions without breaking the underlying structure.\n\n\n\n\n\nAdd the missing glossary terms and resolve gaps in terminology coverage.\nAdd citations and cross-reference data needed for reliable discovery and provenance.\nCapture figure, dataset, and chapter-level metadata in a consistent model.\nExtend coverage into front matter and back matter to complete the document structure.\n\n\n\n\n\nAdd the remaining data sources required for the report corpus, including structured data and supporting metadata.\nAdd WG1 figures and related data from the GitHub-based source material.\nIntegrate the question bank as a reusable access layer for research and community engagement.\nPrepare publication outputs for multiple channels, including HTML, structured data, and reusable query-based access.\n\n\n\n\n\nSupport analysis workflows for data scientists and citizen science contributors.\nLink project data to open scholarly infrastructures and metadata services.\nDevelop a clear review and contribution process for adding data to the knowledge graph.\nMaintain compatibility with the publishing and data distribution objectives of the project.\n\n\n\n\n\n\n\n\nAR6 source material has been harvested and normalised.\nSupporting metadata sources have been identified and structured.\nThe knowledge graph model has been prototyped and reviewed.\nPublishing and distribution pathways have been explored with Wikibase and associated tooling.\nThe project has demonstrated document distribution and data-access workflows.\n\n\n\n\n\nFinalise the ER model and schema layer.\nComplete missing glossary and citation data.\nAdd the remaining corpus data and WG1 figure assets.\nReplace provisional structures with a stable public-facing deployment path.\nExpand publication and analysis tooling for community use.\n\n\n\n\n\nThe project builds from the IPCC Sixth Assessment Report and the surrounding metadata ecosystem to create a sample of a future climate knowledge infrastructure: structured, linked, and reusable. The roadmap therefore focuses on establishing a robust foundation for the report corpus first, then expanding community analysis, publication, and semantic distribution services on top of that foundation.\n\n\n\n\nAR6: IPCC Sixth Assessment Report\nER model: entity-relationship model for the document corpus\nFAIR: findable, accessible, interoperable, reusable\nWikibase: structured data platform used for the knowledge graph\n#semanticClimate: project partner and open research community contributing to the climate knowledge effort"
   },
   {
-    "objectID": "roadmap.html#summary",
-    "href": "roadmap.html#summary",
-    "title": "1  Project Roadmap",
+    "objectID": "roadmap.html#mission",
+    "href": "roadmap.html#mission",
+    "title": "Project Roadmap",
     "section": "",
-    "text": "Stage\nTech Stack\nStatus\n\n\n\n\nHarvest\nCPS, #semanticClimate\n \n\n\nStructure\nWikibase, RDF, #semanticClimate\nWe are here (Sept ’25)\n\n\nAnnotation\n#semanticClimate, Antelope, ORKG, ORKG reborn\n \n\n\nDistribution\nWikidata, ORKG, ORKG reborn\n \n\n\nPublishing\nCPS\n \n\n\nData access & analysis\n#semanticClimate, Wikibase",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Roadmap</span>"
-    ]
+    "text": "ClimateKG aims to turn the IPCC Sixth Assessment Report into a reusable, navigable, and FAIR knowledge graph. The project brings together report structure, bibliographic metadata, glossary terms, citations, and data into a semantic layer that supports search, analysis, and publication workflows for policy, research, and public engagement."
   },
   {
-    "objectID": "roadmap.html#done",
-    "href": "roadmap.html#done",
-    "title": "1  Project Roadmap",
-    "section": "1.1 Done",
-    "text": "1.1 Done\n\nConvert AR6 report corpora web source to normalised HTML (web scrape) - v1.0 Ready\nLocate supporting resources located: Authors, glossary, acronmys, figures, data, bibliographic, licence, published canonical sources, references - v1.0 Ready\nKnowledge graph data model - Alpha\nLLM RAG workflow tests - Alpha\nPublishing pipeline from Wikibase - Beta 1.0 Ready - See python module: https://pypi.org/project/cps-impress/\nAR6 Report quantification - v1.0 Ready (repeat using TIB Grobi https://projects.tib.eu/grobi )",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Roadmap</span>"
-    ]
+    "objectID": "roadmap.html#roadmap-priorities",
+    "href": "roadmap.html#roadmap-priorities",
+    "title": "Project Roadmap",
+    "section": "",
+    "text": "The roadmap follows the priorities set out in issue #236 and the project report, with the following milestones:\n\nLock down the ER model\nAdd common schemas\nAdd missing IPCC glossary terms\nRelease the question bank\nAdd citations\nAdd data\nAdd WG1 figures to the data from GitHub\nAdd front matter and back matter"
   },
   {
-    "objectID": "roadmap.html#work-in-progress-wip",
-    "href": "roadmap.html#work-in-progress-wip",
-    "title": "1  Project Roadmap",
-    "section": "1.2 Work in progress (WIP)",
-    "text": "1.2 Work in progress (WIP)\n\nWikibase infrastructure - WIP\nAR6 Report publication syntactic, semantic, and typesetting data structure analysis - WIP\nAR6 Report publication CSS Paged Media style - WIP\nDefining workflow and tech stack - WIP\nWikibase maintenance and sysadmin - WIP",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Roadmap</span>"
-    ]
+    "objectID": "roadmap.html#current-roadmap",
+    "href": "roadmap.html#current-roadmap",
+    "title": "Project Roadmap",
+    "section": "",
+    "text": "Finalise the entity-relationship model for the document corpus.\nConsolidate common schemas for report structure, bibliographic metadata, author data, glossary entries, and references.\nStabilise the knowledge graph data model so the project can support community contributions without breaking the underlying structure.\n\n\n\n\n\nAdd the missing glossary terms and resolve gaps in terminology coverage.\nAdd citations and cross-reference data needed for reliable discovery and provenance.\nCapture figure, dataset, and chapter-level metadata in a consistent model.\nExtend coverage into front matter and back matter to complete the document structure.\n\n\n\n\n\nAdd the remaining data sources required for the report corpus, including structured data and supporting metadata.\nAdd WG1 figures and related data from the GitHub-based source material.\nIntegrate the question bank as a reusable access layer for research and community engagement.\nPrepare publication outputs for multiple channels, including HTML, structured data, and reusable query-based access.\n\n\n\n\n\nSupport analysis workflows for data scientists and citizen science contributors.\nLink project data to open scholarly infrastructures and metadata services.\nDevelop a clear review and contribution process for adding data to the knowledge graph.\nMaintain compatibility with the publishing and data distribution objectives of the project."
   },
   {
-    "objectID": "roadmap.html#next",
-    "href": "roadmap.html#next",
-    "title": "1  Project Roadmap",
-    "section": "1.3 Next",
-    "text": "1.3 Next\n\nAR6 WG1 section trial import into Wikibase for the purpose of Wikibase troubleshooting\nWikibase text import module - A python module needs writing importing text using Wikibase and a storage method - Renate or/and Mediawiki. This would extend https://pypi.org/project/cps-wb/\nRefector AR6 web scrape - A python module needs extending. This module was made by CPS for an art collection https://pypi.org/project/cps-deckenmalerei/\nImport AR6 into Wikibase\nHarvest data: Python module needed. This would extend https://pypi.org/project/cps-wb/\n\nAuthors\nGlossary\nAcronyms list\nReferences\nBibliographic\n\nImport above data to Wikibase. Python module needed. This would extend https://pypi.org/project/cps-wb/\nAnnotate report using above data\nWikibase to Mediawiki report navigation mapping for report browsing",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Roadmap</span>"
-    ]
+    "objectID": "roadmap.html#milestone-summary",
+    "href": "roadmap.html#milestone-summary",
+    "title": "Project Roadmap",
+    "section": "",
+    "text": "AR6 source material has been harvested and normalised.\nSupporting metadata sources have been identified and structured.\nThe knowledge graph model has been prototyped and reviewed.\nPublishing and distribution pathways have been explored with Wikibase and associated tooling.\nThe project has demonstrated document distribution and data-access workflows.\n\n\n\n\n\nFinalise the ER model and schema layer.\nComplete missing glossary and citation data.\nAdd the remaining corpus data and WG1 figure assets.\nReplace provisional structures with a stable public-facing deployment path.\nExpand publication and analysis tooling for community use."
   },
   {
-    "objectID": "roadmap.html#to-do",
-    "href": "roadmap.html#to-do",
-    "title": "1  Project Roadmap",
-    "section": "1.4 To do",
-    "text": "1.4 To do\n\nDefine workflows and review processes for adding data to KG.\nLLM RAG proof of concept demo - using HTML corpora and Streamlit. This is meant as a throw away demonstration as the workflow has been tried out with #semanticClimate\nCommunity annotation (integrate #semanticClimate tooling): #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.\nWikibase to Wikidata data mapping\nWikibase data analysis and visualisations - using built in Wikidata tools\nPublications available as:\n\n\nREST API\nCommand line\nJupyter Noteooks\nPython CMS (e.g., Wagtail)\nGraph RAG LLM\n\nAll of the above publishing channels use the following framework. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating in a ‘Model View Controller’ architecture. Paged Media CSS styles are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.\n\n\n\nSaving publications data back to the knowledge graph\nMaking Renate DOI deposits of publications\nKnowledge Graph - FAIR linked open data, and semantic outputs from Wikibase:\n\n\nREST API\nRDF export\nDokieli RDFa\nWikidata export",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Roadmap</span>"
-    ]
+    "objectID": "roadmap.html#project-context",
+    "href": "roadmap.html#project-context",
+    "title": "Project Roadmap",
+    "section": "",
+    "text": "The project builds from the IPCC Sixth Assessment Report and the surrounding metadata ecosystem to create a sample of a future climate knowledge infrastructure: structured, linked, and reusable. The roadmap therefore focuses on establishing a robust foundation for the report corpus first, then expanding community analysis, publication, and semantic distribution services on top of that foundation."
   },
   {
-    "objectID": "roadmap.html#key",
-    "href": "roadmap.html#key",
-    "title": "1  Project Roadmap",
-    "section": "Key",
-    "text": "Key\n\nAR6 - IPCC Sixth Assement Report\nCPS - Computational Publishing Service\n#semanticClimate - project partner - open research group building software tools for climate knowledge liberation",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Roadmap</span>"
-    ]
+    "objectID": "roadmap.html#key-terms",
+    "href": "roadmap.html#key-terms",
+    "title": "Project Roadmap",
+    "section": "",
+    "text": "AR6: IPCC Sixth Assessment Report\nER model: entity-relationship model for the document corpus\nFAIR: findable, accessible, interoperable, reusable\nWikibase: structured data platform used for the knowledge graph\n#semanticClimate: project partner and open research community contributing to the climate knowledge effort"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "Climate Knowledge Graph (ClimateKG) is a community knowledge graph for literature on climate change science, intended for use by policymakers, citizen science projects, and scientists.\nClimateKG is a software research project for constructing a knowledge graph using the Intergovernmental Panel on Climate Change’s Sixth Assessment Report with the Wikibase software platform. The FAIR Principles are being applied to publishing and are employed to enrich the report with granular cataloguing, document distribution, and data analysis. The knowledge graph is a ‘community knowledge graph’ targeted at policymakers, citizen science projects, and scientists — inviting contributions and engagement to increase the report’s impact.\nAs a starting point, ClimateKG has imported the main sections of the 10,000 page corpus IPCC Sixth Assessment Report into the knowledge graph.\nOn the IPCC Sixth Assessment Report:\n\nIt is a survival guide for humanity. As it shows, the 1.5-degree limit is achievable.  - UN Secretary-General António Guterres (2023)\n\n\n\n\nClimateKG: Browse the text and data\nClimateKG Data Bench: Data analysis and community contributions\nDocs: Documentation and development log\n\n\n\n\n\n\n\n\nThe objective is to add a data surface to what is already in the documents, making the knowledge usable and searchable.\nClimateKG converts the Sixth Assessment Report from the web into basic foundational datasets to capture their main parts. It then connects these components using an entity-relationship model. The result is a knowledge graph: structured and connected data that can be searched directly.\n\n\nAR6 has been broken down into five foundational datasets:\n\n\n\n\n\n\n\nDataset\nData\n\n\n\n\n1. Corpus full text & structure\n7 reports; 88 chapters; 7,524,958 words, and; 2,153 image files\n\n\n2. Bibliographic information\n95 DOIs\n\n\n3. Glossary terms\n1,274 terms\n\n\n4. Acronyms\n1,910\n\n\n5. Authors\n932\n\n\n\n\n\n\nClimateKG connects these datasets using an entity-relationship model, forming the knowledge graph:\n+- Corpus structure\n+- 7 reports\n   +- REPORT\n   |  &lt;- Bibliographic information\n   |  &lt;- Glossary terms\n   |  &lt;- Acronyms\n   +- CHAPTER\n         &lt;- Authors\n         &lt;- Bibliographic information\n         &lt;- Corpus full text\n\n\n\n\nClimateKG is a community knowledge graph that supports contributions from the scientific community and engagement from the wider public.\n\n\nThe connections that the knowledge graph creates allow for querying the data. For example, given the question:\n\n‘How many South American or Indian authors contributed to the report?’\n\nClimateKG can retrieve the answer along with the relevant chapter texts:\n\n‘AR6 author distribution is 71 from South America and 43 from India.’\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocument distribution: The data provides a map of the internal structure of the corpus documents, enabling any section or piece of data to be retrieved and delivered to the user.\nExtended metadata: Questions can be answered quickly and reliably. Metadata is distributed to library systems and the Data Commons on Wikidata.\nCitizen science: ClimateKG collaborates with Youth Data Champions interns from the #SemanticClimate organisation on a global scale.\nData science community: Contributors can enrich the corpus while maintaining the integrity of the original documents.\n\n\n\n\n\nInspired by Tim Berners-Lee’s vision of the Semantic Web, ClimateKG is a software R&D project that uses FAIR Principles and Open Science infrastructures to liberate literature on climate change science.\n\n\nClimateKG has been funded by TIB Innovation fund, TIB — Leibniz Information Centre for Science and Technology and University Library of Hannover (ROR ID: ror.org/04aj4c181)\nClimateKG is an R&D project hosted at TIB — Leibniz Information Centre for Science and Technology and University Library — Germany, in partnership with #semanticClimate and the National Institute of Plant Genome Research (NIPGR) — India.\n\n\n\nClimateKG comes out of the #semanticClimate (#sC) open research group founded by Dr. Gitanjali Yadav of NIPGR, Delhi, Dr Peter Murray-Rust of Cambridge University, and Simon Worthington (TIB). #semanticClimate supports an India-wide internship programme, hackathon series, and youth outreach programme. Web: https://semanticclimate.github.io/\nTIB is one of the largest science libraries in the world and a global hub for knowledge graph R&D, especially the Open Research Knowledge Graph (ORKG). ClimateKG partners with Lab Knowledge Infrastructures led by Dr Markus Stocker, and draws on expertise from NFDI4Culture projects: Wikibase4Research, Computational Publishing Service, and Antelope (terminology service).\n\n\n\nProject lead, Simon Worthington — #bookliberationist and publishing technologist simon.worthington@tib.eu ORCID iD: 0000-0002-8579-9717 | Mastodon: @mrchristian\nLaura Oldenbourg — data modeling and publishing specialist, ORCID iD: 0009-0003-5070-0099.\nWith support from Markus Stocker, lead of Lab Knowledge Infrastructures.\nThank you for support and contributions to TIB colleagues and #semanticClimate members, volunteers, interns, and hackathon participants.\n\n\n\n\n\n\nThe Climate Knowledge Graph imports content from the seven reports of the IPCC Sixth Assessment Report (AR6) cycle. Reports 1–6 are published by Cambridge University Press under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0). Report 7 (the Synthesis Report) is published by the IPCC directly with all rights reserved; short extracts may be reproduced with full source attribution. See also the IPCC copyright notice.\n\n1. Global Warming of 1.5°C (SR15) Special Report on the impacts of global warming of 1.5°C above pre-industrial levels. Copyright © 2018 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: CC BY-NC-ND 4.0 DOI: 10.1017/9781009157940 | Report\n\n2. Climate Change and Land (SRCCL) Special Report on climate change, desertification, land degradation, sustainable land management, food security, and greenhouse gas fluxes in terrestrial ecosystems. Copyright © 2019 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: CC BY-NC-ND 4.0 DOI: 10.1017/9781009157988 | Report\n\n3. The Ocean and Cryosphere in a Changing Climate (SROCC) Special Report on observed and projected changes to the ocean and cryosphere and their impacts. Copyright © 2019 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: CC BY-NC-ND 4.0 DOI: 10.1017/9781009157964 | Report\n\n4. Climate Change 2021: The Physical Science Basis (AR6 WGI) Working Group I contribution to the Sixth Assessment Report. Copyright © 2021 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: CC BY-NC-ND 4.0 DOI: 10.1017/9781009157896 | Report\n\n5. Climate Change 2022: Impacts, Adaptation and Vulnerability (AR6 WGII) Working Group II contribution to the Sixth Assessment Report. Copyright © 2022 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: CC BY-NC-ND 4.0 DOI: 10.1017/9781009325844 | Report\n\n6. Climate Change 2022: Mitigation of Climate Change (AR6 WGIII) Working Group III contribution to the Sixth Assessment Report. Copyright © 2022 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: CC BY-NC-ND 4.0 DOI: 10.1017/9781009157926 | Report\n\n7. Climate Change 2023: Synthesis Report (AR6 SYR) Synthesis Report integrating findings from the three Working Group reports and three Special Reports. Copyright © Intergovernmental Panel on Climate Change, 2023. ISBN: 978-92-9169-164-7 Published by the IPCC. License: All rights reserved. The right of publication in print, electronic and any other form and in any language is reserved by the IPCC. Short extracts from this publication may be reproduced without authorization provided that the complete source is clearly indicated. Requests to publish, reproduce or translate should be addressed to: IPCC c/o WMO, 7bis avenue de la Paix, P.O. Box 2300, CH-1211 Geneva 2, Switzerland. E-mail: IPCC-Sec@wmo.int DOI: 10.59327/IPCC/AR6-9789291691647 | Report\n\n\n\nClimateKG data is licensed under Creative Commons Zero v1.0 Universal (CC0 1.0) — dedicated to the public domain.\n\n\n\nCode in this repository is licensed under the GNU General Public License v3.0 (GPL-3.0). See LICENSE.\n\n\n\nFonts are licensed under the SIL Open Font License (OFL).\nDesign assets are licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).\nOther design resources under respective open licences.\n\n\n\n\n\n\n\n\n\nℹ️ Generated content — from project-info/project-info-en.xml using project-info/project-info-schema/ResearchProject-readme.xslt · Schema: schema.org/ResearchProject. See project-info/README.md for the full pipeline documentation. Do not edit this section by hand — it is overwritten each time the pipeline runs.\n\n\nLast updated: 2026-09-09T17:01:33Z"
+  },
+  {
+    "objectID": "index.html#climatekg-project-links",
+    "href": "index.html#climatekg-project-links",
+    "title": "About",
+    "section": "",
+    "text": "ClimateKG: Browse the text and data\nClimateKG Data Bench: Data analysis and community contributions\nDocs: Documentation and development log"
+  },
+  {
+    "objectID": "index.html#how-the-knowledge-graph-is-made",
+    "href": "index.html#how-the-knowledge-graph-is-made",
+    "title": "About",
+    "section": "",
+    "text": "The objective is to add a data surface to what is already in the documents, making the knowledge usable and searchable.\nClimateKG converts the Sixth Assessment Report from the web into basic foundational datasets to capture their main parts. It then connects these components using an entity-relationship model. The result is a knowledge graph: structured and connected data that can be searched directly.\n\n\nAR6 has been broken down into five foundational datasets:\n\n\n\n\n\n\n\nDataset\nData\n\n\n\n\n1. Corpus full text & structure\n7 reports; 88 chapters; 7,524,958 words, and; 2,153 image files\n\n\n2. Bibliographic information\n95 DOIs\n\n\n3. Glossary terms\n1,274 terms\n\n\n4. Acronyms\n1,910\n\n\n5. Authors\n932\n\n\n\n\n\n\nClimateKG connects these datasets using an entity-relationship model, forming the knowledge graph:\n+- Corpus structure\n+- 7 reports\n   +- REPORT\n   |  &lt;- Bibliographic information\n   |  &lt;- Glossary terms\n   |  &lt;- Acronyms\n   +- CHAPTER\n         &lt;- Authors\n         &lt;- Bibliographic information\n         &lt;- Corpus full text"
+  },
+  {
+    "objectID": "index.html#using-the-knowledge-graph",
+    "href": "index.html#using-the-knowledge-graph",
+    "title": "About",
+    "section": "",
+    "text": "ClimateKG is a community knowledge graph that supports contributions from the scientific community and engagement from the wider public.\n\n\nThe connections that the knowledge graph creates allow for querying the data. For example, given the question:\n\n‘How many South American or Indian authors contributed to the report?’\n\nClimateKG can retrieve the answer along with the relevant chapter texts:\n\n‘AR6 author distribution is 71 from South America and 43 from India.’\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocument distribution: The data provides a map of the internal structure of the corpus documents, enabling any section or piece of data to be retrieved and delivered to the user.\nExtended metadata: Questions can be answered quickly and reliably. Metadata is distributed to library systems and the Data Commons on Wikidata.\nCitizen science: ClimateKG collaborates with Youth Data Champions interns from the #SemanticClimate organisation on a global scale.\nData science community: Contributors can enrich the corpus while maintaining the integrity of the original documents."
+  },
+  {
+    "objectID": "index.html#the-climatekg-project",
+    "href": "index.html#the-climatekg-project",
+    "title": "About",
+    "section": "",
+    "text": "Inspired by Tim Berners-Lee’s vision of the Semantic Web, ClimateKG is a software R&D project that uses FAIR Principles and Open Science infrastructures to liberate literature on climate change science.\n\n\nClimateKG has been funded by TIB Innovation fund, TIB — Leibniz Information Centre for Science and Technology and University Library of Hannover (ROR ID: ror.org/04aj4c181)\nClimateKG is an R&D project hosted at TIB — Leibniz Information Centre for Science and Technology and University Library — Germany, in partnership with #semanticClimate and the National Institute of Plant Genome Research (NIPGR) — India.\n\n\n\nClimateKG comes out of the #semanticClimate (#sC) open research group founded by Dr. Gitanjali Yadav of NIPGR, Delhi, Dr Peter Murray-Rust of Cambridge University, and Simon Worthington (TIB). #semanticClimate supports an India-wide internship programme, hackathon series, and youth outreach programme. Web: https://semanticclimate.github.io/\nTIB is one of the largest science libraries in the world and a global hub for knowledge graph R&D, especially the Open Research Knowledge Graph (ORKG). ClimateKG partners with Lab Knowledge Infrastructures led by Dr Markus Stocker, and draws on expertise from NFDI4Culture projects: Wikibase4Research, Computational Publishing Service, and Antelope (terminology service).\n\n\n\nProject lead, Simon Worthington — #bookliberationist and publishing technologist simon.worthington@tib.eu ORCID iD: 0000-0002-8579-9717 | Mastodon: @mrchristian\nLaura Oldenbourg — data modeling and publishing specialist, ORCID iD: 0009-0003-5070-0099.\nWith support from Markus Stocker, lead of Lab Knowledge Infrastructures.\nThank you for support and contributions to TIB colleagues and #semanticClimate members, volunteers, interns, and hackathon participants."
+  },
+  {
+    "objectID": "index.html#copyright-and-licences",
+    "href": "index.html#copyright-and-licences",
+    "title": "About",
+    "section": "",
+    "text": "The Climate Knowledge Graph imports content from the seven reports of the IPCC Sixth Assessment Report (AR6) cycle. Reports 1–6 are published by Cambridge University Press under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0). Report 7 (the Synthesis Report) is published by the IPCC directly with all rights reserved; short extracts may be reproduced with full source attribution. See also the IPCC copyright notice.\n\n1. Global Warming of 1.5°C (SR15) Special Report on the impacts of global warming of 1.5°C above pre-industrial levels. Copyright © 2018 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: CC BY-NC-ND 4.0 DOI: 10.1017/9781009157940 | Report\n\n2. Climate Change and Land (SRCCL) Special Report on climate change, desertification, land degradation, sustainable land management, food security, and greenhouse gas fluxes in terrestrial ecosystems. Copyright © 2019 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: CC BY-NC-ND 4.0 DOI: 10.1017/9781009157988 | Report\n\n3. The Ocean and Cryosphere in a Changing Climate (SROCC) Special Report on observed and projected changes to the ocean and cryosphere and their impacts. Copyright © 2019 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: CC BY-NC-ND 4.0 DOI: 10.1017/9781009157964 | Report\n\n4. Climate Change 2021: The Physical Science Basis (AR6 WGI) Working Group I contribution to the Sixth Assessment Report. Copyright © 2021 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: CC BY-NC-ND 4.0 DOI: 10.1017/9781009157896 | Report\n\n5. Climate Change 2022: Impacts, Adaptation and Vulnerability (AR6 WGII) Working Group II contribution to the Sixth Assessment Report. Copyright © 2022 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: CC BY-NC-ND 4.0 DOI: 10.1017/9781009325844 | Report\n\n6. Climate Change 2022: Mitigation of Climate Change (AR6 WGIII) Working Group III contribution to the Sixth Assessment Report. Copyright © 2022 Intergovernmental Panel on Climate Change (IPCC). Published by Cambridge University Press. License: CC BY-NC-ND 4.0 DOI: 10.1017/9781009157926 | Report\n\n7. Climate Change 2023: Synthesis Report (AR6 SYR) Synthesis Report integrating findings from the three Working Group reports and three Special Reports. Copyright © Intergovernmental Panel on Climate Change, 2023. ISBN: 978-92-9169-164-7 Published by the IPCC. License: All rights reserved. The right of publication in print, electronic and any other form and in any language is reserved by the IPCC. Short extracts from this publication may be reproduced without authorization provided that the complete source is clearly indicated. Requests to publish, reproduce or translate should be addressed to: IPCC c/o WMO, 7bis avenue de la Paix, P.O. Box 2300, CH-1211 Geneva 2, Switzerland. E-mail: IPCC-Sec@wmo.int DOI: 10.59327/IPCC/AR6-9789291691647 | Report\n\n\n\nClimateKG data is licensed under Creative Commons Zero v1.0 Universal (CC0 1.0) — dedicated to the public domain.\n\n\n\nCode in this repository is licensed under the GNU General Public License v3.0 (GPL-3.0). See LICENSE.\n\n\n\nFonts are licensed under the SIL Open Font License (OFL).\nDesign assets are licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).\nOther design resources under respective open licences."
+  },
+  {
+    "objectID": "index.html#project-information-as-schema-researchproject",
+    "href": "index.html#project-information-as-schema-researchproject",
+    "title": "About",
+    "section": "",
+    "text": "ℹ️ Generated content — from project-info/project-info-en.xml using project-info/project-info-schema/ResearchProject-readme.xslt · Schema: schema.org/ResearchProject. See project-info/README.md for the full pipeline documentation. Do not edit this section by hand — it is overwritten each time the pipeline runs.\n\n\nLast updated: 2026-09-09T17:01:33Z"
+  },
+  {
+    "objectID": "index.html#project-details",
+    "href": "index.html#project-details",
+    "title": "About",
+    "section": "Project Details",
+    "text": "Project Details\n\n\n\nLead\nTIB – Leibniz Information Centre for Science and Technology and University Library\n\n\nPeriod\n2025-06-01–2026-06-30\n\n\nGrant\nTIB Innovation Fund (GrantID)\n\n\nURL\nRepo - https://github.com/TIBHannover/climate-knowledge-graph\n\n\nAlso at\nDocs - https://tibhannover.github.io/climate-knowledge-graph/\n\n\n\nData Bench - https://github.com/TIBHannover/ClimateKG-Data-Bench\n\n\n\nProject profile - https://www.tib.eu/en/research-development/project-overview/project-summary/climatekg\n\n\nLanguages\nEnglish, German"
+  },
+  {
+    "objectID": "index.html#team",
+    "href": "index.html#team",
+    "title": "About",
+    "section": "Team",
+    "text": "Team\n\n\n\nName\nORCID\n\n\n\n\nSimon Worthington\n0000-0002-8579-9717\n\n\nLaura‌ Oldenbourg\n0009-0003-5070-0099\n\n\nMarkus Stocker\n0000-0001-5492-3212\n\n\nGitanjali Yadav\n0000-0001-6591-9964\n\n\nPeter Murray-Rust\n0000-0003-3386-3972\n\n\nRenu Kumari\n0000-0002-9451-7814"
+  },
+  {
+    "objectID": "index.html#partner-organisations",
+    "href": "index.html#partner-organisations",
+    "title": "About",
+    "section": "Partner Organisations",
+    "text": "Partner Organisations\nLead\n\nTIB – Leibniz Information Centre for Science and Technology and University Library\n\nPartners\n\n#semanticClimate"
+  },
+  {
+    "objectID": "index.html#funding",
+    "href": "index.html#funding",
+    "title": "About",
+    "section": "Funding",
+    "text": "Funding\nTIB Innovation Fund – Grant ID: 2025-2026 – TIB – Leibniz Information Centre for Science and Technology and University Library – https://www.tib.eu/en"
+  },
+  {
+    "objectID": "index.html#subject-areas",
+    "href": "index.html#subject-areas",
+    "title": "About",
+    "section": "Subject Areas",
+    "text": "Subject Areas\nKnowledge graph semantic web climate science literature Wikibase Mediawiki document distribution metadata FAIR Principles open-source software publishing citizen science IPCC publishing web scraping"
+  },
+  {
+    "objectID": "index.html#keywords",
+    "href": "index.html#keywords",
+    "title": "About",
+    "section": "Keywords",
+    "text": "Keywords\nIPCC AR6 Sixth Assessment Report Wikibase MediaWiki ER model knowledge graph climate change semantic web FAIR principles document distribution citizen science metadata data science open science infrastructures literature"
+  },
+  {
+    "objectID": "index.html#licences-copyright",
+    "href": "index.html#licences-copyright",
+    "title": "About",
+    "section": "Licences & Copyright",
+    "text": "Licences & Copyright\n\nGNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 (Code) – Code is released under the GNU GENERAL PUBLIC LICENSE Version 3 or another OSI-compliant open source licence. Copyright: The authors. https://fsf.org/\nCC BY-SA 4.0 (Content) – Content is licensed under Creative Commons Attribution-ShareAlike 4.0 International. https://creativecommons.org/licenses/by-sa/4.0/\nCC0 1.0 Universal (Metadata) – Metadata is dedicated to the public domain under Creative Commons Zero 1.0 Universal. https://creativecommons.org/publicdomain/zero/1.0/\nGraphic design and fonts – Design assets are licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Other design resources under respective open licences. Fonts are licensed under the SIL Open Font Licence or another open font licence. https://creativecommons.org/licenses/by-sa/4.0/ https://software.sil.org/oflt/\nIPCC reports – The Climate Knowledge Graph imports content from the seven reports of the IPCC Sixth Assessment Report (AR6) cycle. Reports 1–6 are published by Cambridge University Press under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 (CC BY-NC-ND 4.0). Report 7 (the Synthesis Report) is published by the IPCC directly with all rights reserved; short extracts may be reproduced with full source attribution. See also the IPCC copyright notice. https://creativecommons.org/licenses/by-nc-nd/4.0/ https://www.ipcc.ch/copyright/"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About us",
+    "section": "",
+    "text": "About us\nClimate Knowledge Graph (ClimateKG) is a community knowledge graph for literature on climate change science, intended for use by policymakers, citizen science projects, and scientists.\nClimateKG is a software research project for constructing a knowledge graph using the Intergovernmental Panel on Climate Change’s Sixth Assessment Report with the Wikibase software platform. The FAIR Principles are being applied to publishing and are employed to enrich the report with granular cataloguing, document distribution, and data analysis. The knowledge graph is a ‘community knowledge graph’ targeted at policymakers, citizen science projects, and scientists — inviting contributions and engagement to increase the report’s impact.\nAs a starting point, ClimateKG has imported the main sections of the 10,000 page corpus IPCC Sixth Assessment Report into the knowledge graph."
   },
   {
     "objectID": "work-log.html",
     "href": "work-log.html",
-    "title": "2  Work Log",
+    "title": "Work log",
     "section": "",
-    "text": "2.1 Work packages",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Work Log</span>"
-    ]
+    "text": "Current work is tracked in the project’s public GitHub issues, which provide the most up-to-date view of ongoing tasks, discussions, and milestones.\nThis monthly diary is a reverse-chronological summary of the project’s work as recorded in the public GitHub issue tracker. The most recent month is expanded in more detail, while earlier work is retained as context. There is also a forward-looking section for milestones on the horizon.\n\n\n\n\n\nFinalisation of the roadmap and project narrative around the core infrastructure, publication, and data workstreams.\nConsolidation of the issue backlog into a more stable development sequence for the next implementation phase.\nPreparation of the project’s public-facing documentation and notice set in parallel with technical progress.\n\n\n\n\n\nThe project roadmap is now centred on the issue-based milestones captured in Issue #236, with particular emphasis on locking down the ER model, common schemas, glossary terms, citations, and data coverage.\nThe project continues to operate as a structured publication and knowledge-infrastructure effort rather than a single linear software build.\nCurrent work is focused on turning the early prototype work into a more coherent and stable delivery path.\n\n\n\n\n\nComplete and stabilise the ER model.\nFinish the remaining glossary and citation data.\nAdd the missing data sources and WG1 figure assets.\nProgress from prototype publication workflows to a more production-ready deployment path.\n\n\n\n\n\n\nThe roadmap and work planning process was reiterated around the milestone structure captured in Issue #236.\nProject documentation and public notices were expanded to align with the project’s institutional and external-facing narrative.\nThe work progressed from prototype-driven development toward a clearer roadmap and publication-oriented structure.\n\n\n\n\n\n2025-07-02 — Issue #11: List the document parts of an IPCC report: for markup, for typesetting\n2025-07-02 — Issue #12: List the Paged Media CSS parts needed to typeset IPCC AR6 report parts\n2025-07-02 — Issue #13: List the reports that make up the IPCC AR6 report, and which parts are OA\n2025-07-02 — Issue #14: List what parts of AR6 are Open Access: the content for Climate Knowledge Graph (CKG)\n2025-07-02 — Issue #15: Create layout styles for all IPCC AR6 report styles\n\n\n\n\n\n2025-06-25 — Issue #10: Crowdsourcing review and validation tasks and procedures for the #semanticClimate community\n\n\n\n\n\n2025-03-03 — Issue #6: GraphVis of automated workflow and tech schematic\n2025-03-03 — Issue #7: IPCC reports — simple relationship model: document\n2025-03-03 — Issue #8: Status: Using Wikibase/data data model and automating data\n\n\n\n\n\n2025-02-11 — Issue #1: Literature and resources for knowledge graph design\n2025-02-11 — Issue #2: Examples of KGs made with Wikibase\n2025-02-11 — Issue #3: How can the students work contribute\n2025-02-11 — Issue #4: How do we move from HTML to Wikibase?\n2025-02-15 — Issue #5: Wikidata’s core Relationship P Numbers in Wikibase?\n\n\n\n\n\nLock down the ER model and common schemas.\nAdd missing glossary terms and citations for AR6 coverage.\nComplete the remaining data ingest and WG1 figure coverage.\nExpand the publication and data analysis workflows for the project community.\nMove from prototype knowledge-graph publication to a more stable production-ready release path.\n\n\n\n\nThe project began with architecture and design questions, moved into report-structure and schema work, and then shifted toward data enrichment, publication workflows, and roadmap planning. The reverse-chronological diary format keeps the current work in focus while preserving the earlier issue-based context that shaped the project."
   },
   {
-    "objectID": "work-log.html#work-packages",
-    "href": "work-log.html#work-packages",
-    "title": "2  Work Log",
+    "objectID": "work-log.html#october-2026",
+    "href": "work-log.html#october-2026",
+    "title": "Work log",
     "section": "",
-    "text": "IPCC Assement Report Six to Wikibase (AR62W)\nReporting / community (REP)\nPublishing (PUB)",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Work Log</span>"
-    ]
+    "text": "Finalisation of the roadmap and project narrative around the core infrastructure, publication, and data workstreams.\nConsolidation of the issue backlog into a more stable development sequence for the next implementation phase.\nPreparation of the project’s public-facing documentation and notice set in parallel with technical progress.\n\n\n\n\n\nThe project roadmap is now centred on the issue-based milestones captured in Issue #236, with particular emphasis on locking down the ER model, common schemas, glossary terms, citations, and data coverage.\nThe project continues to operate as a structured publication and knowledge-infrastructure effort rather than a single linear software build.\nCurrent work is focused on turning the early prototype work into a more coherent and stable delivery path.\n\n\n\n\n\nComplete and stabilise the ER model.\nFinish the remaining glossary and citation data.\nAdd the missing data sources and WG1 figure assets.\nProgress from prototype publication workflows to a more production-ready deployment path."
   },
   {
-    "objectID": "work-log.html#nov",
-    "href": "work-log.html#nov",
-    "title": "2  Work Log",
-    "section": "2.2 Nov",
-    "text": "2.2 Nov\n\n24-28 Nov: Supporting data selection (in scope / out of scope) and prioritiesation https://github.com/TIBHannover/climate-knowledge-graph/issues/52 (AR62W)\n24-26 Nov: AR6 scrape data handover and protocol: Issue https://github.com/TIBHannover/climate-knowledge-graph/issues/58 Repo: https://github.com/TIBHannover/climate-knowledge-graph/issues/58 (AR62W)\n24 Nov: CSS ToC and Vivlio support (PUB)\n24 Nov: Project reports for review (REP)",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Work Log</span>"
-    ]
-  },
-  {
-    "objectID": "workflow.html",
-    "href": "workflow.html",
-    "title": "3  CKG Dev Workflow",
+    "objectID": "work-log.html#september-2026",
+    "href": "work-log.html#september-2026",
+    "title": "Work log",
     "section": "",
-    "text": "Goal\nThe goal is to enable easier knowledge use of complex document corpus by using a knowledge graph to enable the following:",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>CKG Dev Workflow</span>"
-    ]
+    "text": "The roadmap and work planning process was reiterated around the milestone structure captured in Issue #236.\nProject documentation and public notices were expanded to align with the project’s institutional and external-facing narrative.\nThe work progressed from prototype-driven development toward a clearer roadmap and publication-oriented structure."
   },
   {
-    "objectID": "workflow.html#goal",
-    "href": "workflow.html#goal",
-    "title": "3  CKG Dev Workflow",
+    "objectID": "work-log.html#section",
+    "href": "work-log.html#section",
+    "title": "Work log",
     "section": "",
-    "text": "Publishing of search results as multi-format publication, and\nenable data analysis by providing FAIR linked open data.",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>CKG Dev Workflow</span>"
-    ]
+    "text": "2025-07-02 — Issue #11: List the document parts of an IPCC report: for markup, for typesetting\n2025-07-02 — Issue #12: List the Paged Media CSS parts needed to typeset IPCC AR6 report parts\n2025-07-02 — Issue #13: List the reports that make up the IPCC AR6 report, and which parts are OA\n2025-07-02 — Issue #14: List what parts of AR6 are Open Access: the content for Climate Knowledge Graph (CKG)\n2025-07-02 — Issue #15: Create layout styles for all IPCC AR6 report styles"
   },
   {
-    "objectID": "workflow.html#workflow",
-    "href": "workflow.html#workflow",
-    "title": "3  CKG Dev Workflow",
-    "section": "3.1 Workflow",
-    "text": "3.1 Workflow\nThe workflow represents the stages that go from harvesting an unstructured document corpus, web or PDF, and converting it to structured data.\nWikibase is used for storage and knowledge graph creation to support the following features:\n\ncommunity annotation,\nsearch for outputting ‘publication ready documents’ including via LLMs, and for\nproviding knowledge graph data services.\n\n\n3.1.1 Workflow steps (summary)\nWorking with IPCC Sixth Assessment Report (AR6) corpus.\n\nLocate AR6 report data sources - authors, glossary, acronyms list, etc.\nAR6 web scrape report texts (corpus harvest)\nDesign initial knowledge graph data model\nWikibase AR6 import\nWikibase to Mediawiki report navigation mapping to Mediawiki Categories for report browsing in Mediawiki\nHarvest data:\n\nAuthors\nGlossary\nAcronyms list\nReferences\nBibliographic\netc.\n\nImport above AR6 data to Wikibase\nAnnotate report using above AR6 data\nCommunity annotation: #semanticClimate, Stockholm Climate Institute (SEI), Potsdam Climate Institute (PIK), UNESCO, UNFCCC, etc.\nWikibase to Wikidata data mapping\nWikibase data analysis and visualisations\nPublications generated from Wikibase of A& available as:\n\n\nREST API\nCommand line\nJupyter Noteooks\nPython CMS (e.g., Wagtail)\nGraph RAG LLM\n\nAll of the above publishing channels use the following framework. Computational Publishing Service (CPS) using the publishing engine (CPS_Impress). CPS_Impress publishes from Wikibase to HTML using Jinja templating in a ‘Model View Controller’ architecture. Paged Media CSS styles are used to create PDF like layouts. Publications are saved back to the knowledge graph and online as sharable resources.\n\n\n\nKnowledge Graph - FAIR linked open data, and semantic outputs from Wikibase:\n\n\nREST API\nRDF export\nDokieli RDFa\nWikidata export",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>CKG Dev Workflow</span>"
-    ]
-  },
-  {
-    "objectID": "reports.html",
-    "href": "reports.html",
-    "title": "4  AR6 Quantification",
+    "objectID": "work-log.html#section-1",
+    "href": "work-log.html#section-1",
+    "title": "Work log",
     "section": "",
-    "text": "4.1 AR6 quantification - version 1.0 (manual count)",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>AR6 Quantification</span>"
-    ]
+    "text": "2025-06-25 — Issue #10: Crowdsourcing review and validation tasks and procedures for the #semanticClimate community"
   },
   {
-    "objectID": "reports.html#ar6-quantification---version-1.0-manual-count",
-    "href": "reports.html#ar6-quantification---version-1.0-manual-count",
-    "title": "4  AR6 Quantification",
+    "objectID": "work-log.html#section-2",
+    "href": "work-log.html#section-2",
+    "title": "Work log",
     "section": "",
-    "text": "A scoping literature review shows no comprehensive AR6 or IPCC Assement Reports quantification.\nWe believe what has been collected is the first attempt at such measurement.\nAn automated count will be carried out using TIB Grobi software in Q4 2025.\nData sources and data collection will take place in a follow up report.",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>AR6 Quantification</span>"
-    ]
+    "text": "2025-03-03 — Issue #6: GraphVis of automated workflow and tech schematic\n2025-03-03 — Issue #7: IPCC reports — simple relationship model: document\n2025-03-03 — Issue #8: Status: Using Wikibase/data data model and automating data"
   },
   {
-    "objectID": "reports.html#summary",
-    "href": "reports.html#summary",
-    "title": "4  AR6 Quantification",
-    "section": "4.2 Summary",
-    "text": "4.2 Summary\n\n\n\nItem\nCount\nStatus\n\n\n\n\nNumber of reports\n7\nDefinitive\n\n\nOpen access license\n6\nDefinitive\n\n\nReport DOIs (top level)\n7\nGood\n\n\nPage count\n10,047\nApprox.\n\n\nWord count\n8,047,000\nApprox.\n\n\nAuthors\n1,106\nApprox *\n\n\nReferences\n48,400\nApprox. *\n\n\nSYR Notes\n-\nTo be confirmed\n\n\nFigures\n1,672\nApprox.\n\n\nData\n66,834\nApprox. *\n\n\nGlossary terms\n925\nGood\n\n\nAcronyms\n3041\nApprox. *\n\n\nIndex terms\n5463\nApprox. *\n\n\nTranslations\nSee other table\n \n\n\nWikidata entries (report top level)\n13\nApprox.\n\n\nWikidata entries - data types\n-\nTo be confirmed\n\n\n\n* Contains duplicates",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>AR6 Quantification</span>"
-    ]
-  },
-  {
-    "objectID": "reports.html#data-full-stats-and-methods",
-    "href": "reports.html#data-full-stats-and-methods",
-    "title": "4  AR6 Quantification",
-    "section": "4.3 Data, full stats, and methods",
-    "text": "4.3 Data, full stats, and methods\nhttps://github.com/TIBHannover/climate-knowledge-graph/issues/18.",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>AR6 Quantification</span>"
-    ]
-  },
-  {
-    "objectID": "reports.html#what-is-the-ar6-report",
-    "href": "reports.html#what-is-the-ar6-report",
-    "title": "4  AR6 Quantification",
-    "section": "4.4 What is the AR6 report",
-    "text": "4.4 What is the AR6 report\nAR6 is comprised of seven reports:\n\nthe Synthesis Report (referred to as SYR)\nthe 3 Working group reports (referred to as WGI, WGII, WGIII)\nthe 3 Special reports (referred to as SR1.5, SRCCL, SROCC)\n\n\n\n\n\n\n\n\n\n\n\nReport\nFile name / source\nFile size in MB\nApprox. page count\nApprox. word count\n\n\n\n\nAR6 Synthesis Report: Climate Change 2023 (SYR)\nIPCC_AR6_SYR_FullVolume.pdf / https://www.ipcc.ch/report/ar6/syr/\n4.9\n186 + 14 pages\n~94.000\n\n\nClimate Change 2021: The Physical Science Basis (WG1)\nIPCC_AR6_WGI_FullReport.pdf / https://www.ipcc.ch/report/ar6/wg1/\n423.3\n2409 pages\n~1.925.000\n\n\nClimate Change 2022: Impacts, Adaptation and Vulnerability (WG2)\nIPCC_AR6_WGII_FullReport.pdf / https://www.ipcc.ch/report/ar6/wg2/\n396\n3068 + 12 pages\n~2.513.000\n\n\nClimate Change 2022: Mitigation of Climate Change (WG3)\nIPCC_AR6_WGIII_FullReport.pdf / https://www.ipcc.ch/report/ar6/wg3/\n68.8\n2042 + 11 pages\n~1.642.000\n\n\nSpecial Report: Global Warming of 1.5°C (2018) (SR1.5)\nSR15_Full_Report_HR.pdf / https://www.ipcc.ch/sr15/\n65\n631 pages\n~511.000\n\n\nSpecial Report: Climate Change and Land (2019) (SRCCL)\nSRCCL_Full_Report.pdf / https://www.ipcc.ch/srccl/\n44.9\n908 pages\n~735.000\n\n\nSpecial Report: The Ocean and Cryosphere in a Changing Climate (2019) (SROCC)\nSROCC_FullReport_FINAL.pdf / https://www.ipcc.ch/srocc/\n51.9\n766 pages\n~627.000\n\n\nTotal\n\n1054.8 MB\n10047 pages\n~8.047.000\n\n\n\n\n4.4.1 What has been counted\n\nNumber of reports\nPDF Page count, Word count\nPDF Licencing information and DOIs\nAR6 Citations / references: Bibtex downloads, reference count\nAR6 Authors count\nWikidata entries of AR6 reports\nAR6 Figures count\nAR6 Data count\nAR6 Glossary count\nAR 6 report translations\nAR6 Acronyms\nAR6 Index terms\n\n\n\n4.4.2 Translations\nApproximate.\n\n\n\n\n\n\n\n\n\nReport\nLanding page for translations\nTranslations count UN lang\nOther lang\n\n\n\n\nAR6 Synthesis Report: Climate Change 2023\nhttps://www.ipcc.ch/report/ar6/syr/resources/translations/\n5 in preparation\n2 x SPM\n\n\nClimate Change 2021: The Physical Science Basis (WGI)\nhttps://www.ipcc.ch/report/ar6/wg1/resources/translations/\n5\n2, partial\n\n\nClimate Change 2022: Impacts, Adaptation and Vulnerability (WG2)\nhttps://www.ipcc.ch/report/ar6/wg2/resources/translations/\n5\n3 x SPM\n\n\nClimate Change 2022: Mitigation of Climate Change (WG3)\nhttps://www.ipcc.ch/report/ar6/wg3/resources/translations/\n5\n1 x SPM\n\n\nSpecial Report: Global Warming of 1.5°C (2018) (SR1.5)\nSome translations here https://www.ipcc.ch/sr15/download/, “UN and other languages”\n5\n4 x SPM\n\n\nSpecial Report: Climate Change and Land (2019) (SRCCL)\nSome translations here https://www.ipcc.ch/srccl/download/ , “SPM in UN Languages”, “SPM in other languages”\n5 x SPM\n3 x SPM\n\n\nSpecial Report: The Ocean and Cryosphere in a Changing Climate (2019) (SROCC)\nSome translations here https://www.ipcc.ch/srocc/download/, “UN and other languages”\n5 x SPM\n5 x SPM",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>AR6 Quantification</span>"
-    ]
-  },
-  {
-    "objectID": "styles.html",
-    "href": "styles.html",
-    "title": "5  Publication Styles",
+    "objectID": "work-log.html#section-3",
+    "href": "work-log.html#section-3",
+    "title": "Work log",
     "section": "",
-    "text": "5.1 Synopsis\nThe goal is to create a typesetting facsimile of the AR6 reports using HTML and CSS / CSS Paged Media and to have a typesetting style for CKG publications. CKG publications are AR6 user search results made up of AR6 sections compiled into a report and saved in the knowledge graph.\nCSS Paged Media is used to replace the PDF as PDF high quality typesetting can be achieved while retaining structured and machine readable FAIR data.",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Publication Styles</span>"
-    ]
+    "text": "2025-02-11 — Issue #1: Literature and resources for knowledge graph design\n2025-02-11 — Issue #2: Examples of KGs made with Wikibase\n2025-02-11 — Issue #3: How can the students work contribute\n2025-02-11 — Issue #4: How do we move from HTML to Wikibase?\n2025-02-15 — Issue #5: Wikidata’s core Relationship P Numbers in Wikibase?"
   },
   {
-    "objectID": "styles.html#document-styles",
-    "href": "styles.html#document-styles",
-    "title": "5  Publication Styles",
-    "section": "5.2 Document styles",
-    "text": "5.2 Document styles\nTo recreate the design of the PDFs, the structural elements in the PDF are first examined and listed.\n\n5.2.1 Assess document header structure\n\nPDF templates: After a superficial examination of the syntactic logic of the PDFs, 5 levels of headings were found.\nHTML sources: &lt;h1&gt; to &lt;h5&gt;\n\n\n\n5.2.2 Assess document design elements\nInventory of which elements can be detected by leafing through the 7 reports:\nPage layout and specs\n\nPage dimensions: Pages of the report PDFs are approx. 8,5 inches x 11 inches.\nMargins: tbc\nFonts: There are many font family used in the PDF, some free, some proprietary.\n\nColours\n\nChapter colours\nSub-chapter colours\nFont colours\nBackground colours\n\nTable of contents\n\nToc styles\n\nPage decoration\n\nPage header (with section title)\nPage sides (with section title)\nPage footer (with page numbers)\n\nHeaders\n\nh1 - h5 (possibly h6)\n\nText styles\n\nParagraph (1 column, 2 columns)\nStatement paragraph (1 column, 2 columns)\nHighlighted statement paragraph\nTechnical summary statement paragraph\nTechnical Summary Section Summary\nReferences\nConfidence level reference\nChapter references\nFootnotes\n\nBox styles\n\nBox (grey, yellow, blue)\n50%-Box\n\nAnnex styles\n\nGlossary term and description\nGlossary sub-term\nAcronyms\nPublications\nPeople\nIndex entries\n\nFigures and tables\n\nFigure\nTable\nFigcaption\n\nSection openers\n\nTitle\nAuthors\nCitation suggestion",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Publication Styles</span>"
-    ]
-  },
-  {
-    "objectID": "styles.html#build-design-pattern-in-html-and-css",
-    "href": "styles.html#build-design-pattern-in-html-and-css",
-    "title": "5  Publication Styles",
-    "section": "5.3 Build design pattern in HTML and CSS",
-    "text": "5.3 Build design pattern in HTML and CSS\nTo create a facsimile of the report PDFs, a style guide is created with all the necessary HTML and CSS styles and elements. This style guide can then be applied to the HTML of the reports later.\nTo benefit from the full functionality of the CSS Paged Media module, the Vivliostyle Viewer is used. https://vivliostyle.org/",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Publication Styles</span>"
-    ]
-  },
-  {
-    "objectID": "styles.html#document-css-and-css-paged-media",
-    "href": "styles.html#document-css-and-css-paged-media",
-    "title": "5  Publication Styles",
-    "section": "5.4 Document CSS and CSS paged media",
-    "text": "5.4 Document CSS and CSS paged media\nDocument the parts of CSS and the CSS paged media module that are used and check their availability in Vivliostyle: https://docs.google.com/spreadsheets/d/1qWmnNQ-syLw8VotTaRIvVspAffnLLKMjItt3a_z1iNE/edit?gid=0#gid=0",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Publication Styles</span>"
-    ]
-  },
-  {
-    "objectID": "styles.html#apply-design-pattern-to-scraped-html",
-    "href": "styles.html#apply-design-pattern-to-scraped-html",
-    "title": "5  Publication Styles",
-    "section": "5.5 Apply design pattern to scraped HTML",
-    "text": "5.5 Apply design pattern to scraped HTML\nRepository for scraped HTML: https://github.com/petermr/amilib/tree/main/test/resources/ipcc/cleaned_content\nTests with applying the style guide to the HTML: tba",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Publication Styles</span>"
-    ]
-  },
-  {
-    "objectID": "datamodels.html",
-    "href": "datamodels.html",
-    "title": "6  Data Models",
+    "objectID": "work-log.html#horizon-milestones",
+    "href": "work-log.html#horizon-milestones",
+    "title": "Work log",
     "section": "",
-    "text": "6.1 AR6 sources\nCKG_data_model\n\n\n\nAR6_Organization\n\nAR6_Organization\n\n\n\nAR6\n\nAR6\n\n\n\nAR6_Organization--AR6\n\n\n\n\nReports\n\nReports\n\n\n\nAR6--Reports\n\n\n\n\nIPCC_website\n\nIPCC_website\n\n\n\nReport_translations\n\nReport_translations\n\n\n\nIPCC_website--Report_translations\n\n\n\n\nReport_PDFs\n\nReport_PDFs\n\n\n\nIPCC_website--Report_PDFs\n\n\n\n\nReport_HTML\n\nReport_HTML\n\n\n\nIPCC_website--Report_HTML\n\n\n\n\nFigures\n\nFigures\n\n\n\nIPCC_website--Figures\n\n\n\n\nReferences\n\nReferences\n\n\n\nIPCC_website--References\n\n\n\n\nGlossary\n\nGlossary\n\n\n\nIPCC_website--Glossary\n\n\n\n\nAuthors\n\nAuthors\n\n\n\nIPCC_website--Authors\n\n\n\n\nPublishers\n\nPublishers\n\n\n\nLicense_info\n\nLicense_info\n\n\n\nPublishers--License_info\n\n\n\n\nPublishers--Report_PDFs\n\n\n\n\nCrossref_DOIs\n\nCrossref_DOIs\n\n\n\nPublishers--Crossref_DOIs\n\n\n\n\nIndexes\n\nIndexes\n\n\n\nReport_PDFs--Indexes\n\n\n\n\nAcronyms\n\nAcronyms\n\n\n\nReport_PDFs--Acronyms\n\n\n\n\nNotes\n\nNotes\n\n\n\nReport_PDFs--Notes\n\n\n\n\nPage_numbers\n\nPage_numbers\n\n\n\nReport_PDFs--Page_numbers\n\n\n\n\nBibliographic_info\n\nBibliographic_info\n\n\n\nCrossref_DOIs--Bibliographic_info\n\n\n\n\nZenodo_DOIs\n\nZenodo_DOIs\n\n\n\nZenodo_DOIs--Bibliographic_info\n\n\n\n\nUN_Library\n\nUN_Library\n\n\n\nUN_Library--Bibliographic_info\n\n\n\n\nData\n\nData\n\n\n\nUN_Library--Data\n\n\n\n\nUN_Library--Figures\n\n\n\n\nNASA_Library\n\nNASA_Library\n\n\n\nNASA_Library--Bibliographic_info\n\n\n\n\nGitHub\n\nGitHub\n\n\n\nGitHub--Data\n\n\n\n\nGitHub--Figures\n\n\n\n\nReports--IPCC_website\n\n\n\n\nReports--Publishers",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Data Models</span>"
-    ]
+    "text": "Lock down the ER model and common schemas.\nAdd missing glossary terms and citations for AR6 coverage.\nComplete the remaining data ingest and WG1 figure coverage.\nExpand the publication and data analysis workflows for the project community.\nMove from prototype knowledge-graph publication to a more stable production-ready release path."
   },
   {
-    "objectID": "datamodels.html#data-models-to-be-created",
-    "href": "datamodels.html#data-models-to-be-created",
-    "title": "6  Data Models",
-    "section": "6.2 Data models to be created",
-    "text": "6.2 Data models to be created\n\n6.2.1 AR6 individual report publication structure (syntax and semantic)\nWIP: Google spreadsheet\n\n\n6.2.2 IPCC Qualifiers (Vocabulary)\nE.g, Confidence levels, Likelihoods, Special likelihoods, Ecosystems, Adverse outcomes, Regions, DPSIR (DPSIR is a causal framework used to describe the interactions between society and the environment)\n\n\n6.2.3 AR6 bibliographic information\nDerived from DOIs\n\n\n6.2.4 Authors and contributors\n\n\n6.2.5 Glossary, acronymes, and index\n\n\n6.2.6 References\n\n\n6.2.7 Community annotation and submissions review\n\n\n6.2.8 CKG Publications\nCKG publications are the user search reults (sections of AR6) that are compiled into a report publication (linked back to their source) and saved as part of CKG.",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Data Models</span>"
-    ]
-  },
-  {
-    "objectID": "wikibase-import.html",
-    "href": "wikibase-import.html",
-    "title": "7  Wikibase Import",
+    "objectID": "work-log.html#summary",
+    "href": "work-log.html#summary",
+    "title": "Work log",
     "section": "",
-    "text": "7.1 IPCC AR6 scrape and import work package",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Wikibase Import</span>"
-    ]
-  },
-  {
-    "objectID": "wikibase-import.html#ipcc-ar6-scrape-and-import-work-package",
-    "href": "wikibase-import.html#ipcc-ar6-scrape-and-import-work-package",
-    "title": "7  Wikibase Import",
-    "section": "",
-    "text": "7.1.1 Work package ‘AR62WB’ Nov 2025-Jan 2026 (2.5 months)\nIPCC AR6 web scrape import to MediaWiki/Wikibase for the purpose of a proof of concept of the CKG goals and to act as a showcase to raise funds for further work packages and a discovery process for further work packages.\n\n\n7.1.2 Goals: Work package (WP) ‘AR62WB’\n\nHave the AR6 report imported into MediaWiki\n\nHave the imported AR6 report mapped in Wikibase\n\nAllow user browsing of AR6 in MediaWiki\n\nEnable display of Infoboxes on Mediawiki pages using Wikibase entries: https://www.mediawiki.org/wiki/Infobox\n\nApply styling to Mediawiki. Skin https://www.mediawiki.org/wiki/Skin:Tweeki Bootstrap.\n\nEnable elastic search or faceted search in Mediawiki\n\nSupporting AR6 data imported into Wikibase and mapped to report: Authors, references, glossary, acronyms, IPCC qualifiers.\n\nSupport data analysis / enrichment community with strict quality control. Enable community members to download MediaWiki content using Wikibase SPARQL queries. Community members can then carry out their own data analysis and with permission submit updates to Wikibase.\n\nCreate an Entity Relationship Model (ERM) for the AR6 report.\n\nMap ERM in Wikibase to Wikidata and topic schemas.\n\nEnable interface similar to Scholia for the report. Likely to use Semantic MediaWiki plugin as it can allow interfaces which don’t interfere with MediaWiki or Wikibase.\n\nEnable export of content as HTML using CPS Impress to demonstrate content publishing via Quarto. This only needs to be on the command line and using CPS capabilities, Quarto has Pandoc libraries and can be used to convert MediaWiki Markup to HTML, Markdown etc, for Quarto outputting. Write a SPARQL query to allow for selection of sections or chapters based on Wikibase ERM.\n\n\n\n7.1.3 Tasks\n\n7.1.3.1 In scope\nIPCC web scrape import\n\nImport PMR scrape to MediaWiki\n\nPMR scrape https://github.com/petermr/amilib/tree/main/test/resources/ipcc/cleaned_content\n\nInformation about scrapes: https://github.com/TIBHannover/climate-knowledge-graph/issues/31\n\nNote not all sections listed need importing, e.g., Annex\n\n\nImport into MediaWiki and Wikibase to fit with CKG goals as outlined\n\nScrape system specifications input\n\nEstablish tooling used by PMR for scrape and give feedback for its improvement\n\nReport on design of a new scrape software system for future work packages. Including outline, effort/resources/cost/time scale required.\n\nMap MediaWiki to Wikibase\n\nWork on Entity Relationship Model: https://github.com/TIBHannover/climate-knowledge-graph/issues/48#issuecomment-3511931694\n\nSupport: Enable export of content as HTML using CPS Impress to demonstrate content publishing via Quarto\nEnable elastic search or faceted search in Mediawiki\nOther tasks\n\nAR6 data imported into Wikibase and mapped to report: Authors, references, glossary, acronyms, IPCC qualifiers.\n\nApply styling to Mediawiki\n\nMap ERM in Wikibase to Wikidata and topic schemas\n\nEnable interface similar to Scholia for the report using Semantic MediaWiki plugin\n\n\n\n\n7.1.4 Questions/issues:\nDemos\n\nLO/SW - will make demo of MediaWiki and Wikidata setup manually\n\nLO/SW - will add CPS Impress output demo\n\nLO/SW will enable a Semantic MediaWiki plugin demo - https://www.mediawiki.org/wiki/Extension:Semantic_MediaWiki\n\nUseful plugins\nLocal media plugin allows images to show in Wikidata - https://github.com/ProfessionalWiki/WikibaseLocalMedia\n\n\n7.1.5 Out of scope (work for further work packages)\n\nElements within the text will not be hyperlinked. Hyperlinks would be added in following development rounds, hence automation on the text and data import is needed\n\n\n7.1.5.1 Further planned work packages\n(not in order)\nCost, resources, duration needed:\n\nWP 2: Scrape software\n\nWP 3: Content markup and linking\n\nWP 4: MediaWiki search\n\nWP 5: Data analysis and enrichment workflow for data research community - e.g., Federated Search\n\nWP 6: Data transfer to Wikidata\n\nWP 7: CPS Impress UI: Search, publish, and deposit back to Wikibase\n\nWP 8: Improve Scholia like interface\n\nWP 9: Citizen Science project: Chapter Champion\n\nWP 10: Citizen Science project: Wikidata Project\n\nWP 11: AI SPARQL generator\n\nWP 12: AI LLM GraphRAG CPS Impress - search, review, publish, share, save,doi mint and deposit.\n\nWP 13: Schema alignment, mapping, and crosswalking\n\nWP 14: Wikibase/MediaWiki maintenance",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Wikibase Import</span>"
-    ]
-  },
-  {
-    "objectID": "rfc.html",
-    "href": "rfc.html",
-    "title": "8  RfC",
-    "section": "",
-    "text": "8.1 Request for Comment (RfC)",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>RfC</span>"
-    ]
-  },
-  {
-    "objectID": "rfc.html#request-for-comment-rfc",
-    "href": "rfc.html#request-for-comment-rfc",
-    "title": "8  RfC",
-    "section": "",
-    "text": "8.1.1 Software Architecture RfC\nWork in progress. To be published end of October 2025.\nRfC\nComments\n\n\n8.1.2 Knowledge Graph Construction Using Wikibase RfC\nWork in progress. To be published November 2025.\nRfC\nComments",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>RfC</span>"
-    ]
-  },
-  {
-    "objectID": "ar6.html",
-    "href": "ar6.html",
-    "title": "Browse AR6",
-    "section": "",
-    "text": "Structure of the IPCC AR6 Report\nBelow are all seven main reports that make up AR6. The links are to the sources on the IPCC website.\nipcc.ch/report/ar6/syr\nNote: As part of the AR6 Cycle there is a further report ‘2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories’, this is not included by the IPCC as part of the main AR6 reporting. The report has been listed at the bottom of the report lists for reference.\nNB: Attribution - thank you to Renu Kumari (NIPGR/#semanticClimate) for compiling the following list. Updated by Simon Worthington and Laura Oldenbourg.\n\nWorking Group 1: The Physical Science Basis\n\nIPCC/ar6/wg1 report with 12 chapters\n\nSummary for Policymakers\n\nTechnical Summary\n\nFrequently Asked Questions\n\nFact Sheets\n\nFull Report : 12 chapters\n\nChapter 1 : Framing, Context and Methods\n\nChapter 2 : Changing State of the Climate System\n\nChapter 3 : Human Influence on the Climate System\n\nChapter 4 : Future Global Climate: Scenario-based Projections and Near-term Information\n\nChapter 5 : Global Carbon and other Biogeochemical Cycles and Feedbacks\n\nChapter 6 : Short-lived Climate Forcers\n\nChapter 7 : The Earth’s Energy Budget, Climate Feedbacks, and Climate Sensitivity\n\nChapter 8 : Water Cycle Changes\n\nChapter 9 : Ocean, Cryosphere and Sea Level Change\n\nChapter 10 : Linking Global to Regional Climate Change\n\nChapter 11 : Weather and Climate Extreme Events in a Changing Climate\n\nChapter 12 : Climate Change Information for Regional Impact and for Risk Assessment\n\n\nAtlas\n\nFront Matter, Annexes, and Index\n\nFront Matter : Includes Foreword, Preface, Dedication, and Table of Contents\n\nAnnex I : Observational Products\n\nAnnex II : Models\n\nAnnex III : Radiative Forcing\n\nAnnex IV : Modes of Variability\n\nAnnex V : Monsoons\n\nAnnex VI : Climatic Impact-Drivers and Extreme Indices\n\nAnnex VII : Glossary\n\nAnnex IX : List of Contributors\n\nAnnex X : Expert Reviewers\n\n\n\n\nWorking Group 2 : Impacts, Adaptation and Vulnerability\n\nIPCC/ar6/wg2 report with 18 chapters\n\nSummary for Policymakers\n\nTechnical Summary\n\nFrequently Asked Questions\n\nFact Sheets\n\nGlobal to Regional Atlas\n\nFull Report : 18 Chapters and 7 Cross-Chapter Papers\n\nChapter 1 : Point of departure and key concepts\n\nChapter 2 : Terrestrial and freshwater ecosystems and their services\n\nChapter 3 : Ocean and coastal ecosystems and their services\n\nChapter 4 : Water\n\nChapter 5 : Food, fibre, and other ecosystem products\n\nChapter 6 : Cities, settlements and key infrastructure\n\nChapter 7 : Health, wellbeing and the changing structure of communities\n\nChapter 8 : Poverty, livelihoods and sustainable development\n\nChapter 9 : Africa\n\nChapter 10 : Asia\n\nChapter 11 : Australasia\n\nChapter 12 : Central and South America\n\nChapter 13 : Europe\n\nChapter 14 : North America\n\nChapter 15 : Small Islands\n\nChapter 16 : Key risks across sectors and regions\n\nChapter 17 : Decision-making options for managing risk\n\nChapter 18 : Climate resilient development pathways\n\n\nCross-Chapter Papers\n\nCross-Chapter Paper 1 : Biodiversity hotspots (land, coasts and oceans)\n\nCross-Chapter Paper 2 : Cities and settlements by the sea\n\nCross-Chapter Paper 3 : Deserts, semi-arid areas, and desertification\n\nCross-Chapter Paper 4 : Mediterranean region\n\nCross-Chapter Paper 5 : Mountains\n\nCross-Chapter Paper 6 : Polar regions\n\nCross-Chapter Paper 7 : Tropical forests\n\n\nAnnexes\n\nAnnex I : Global to Regional Atlas\n\nAnnex II : Glossary\n\nAnnex III : Acronyms\n\nAnnex IV : Contributors\n\nAnnex V : Expert Reviewers\n\n\n\n\nWorking Group 3: Mitigation of Climate Change\n\nIPCC/ar6/wg3 report with 17 chapters\n\nSummary for Policymakers\n\nTechnical Summary\n\nFrequently Asked Questions\n\nFact Sheets\n\nFull Report : 17 Chapters\n\nChapter 1 : Introduction and Framing\n\nChapter 2 : Emissions trends and drivers\n\nChapter 3 : Mitigation pathways compatible with long-term goals\n\nChapter 4 : Mitigation and development pathways in the near- to mid-term\n\nChapter 5 : Demand, services and social aspects of mitigation\n\nChapter 6 : Energy systems\n\nChapter 7 : Agriculture, Forestry, and Other Land Uses (AFOLU)\n\nChapter 8 : Urban systems and other settlements\n\nChapter 9 : Buildings\n\nChapter 10 : Transport\n\nChapter 11 : Industry\n\nChapter 12 : Cross sectoral perspectives\n\nChapter 13 : National and sub-national policies and institutions\n\nChapter 14 : International cooperation\n\nChapter 15 : Investment and finance\n\nChapter 16 : Innovation, technology development and transfer\n\nChapter 17 : Accelerating the transition in the context of sustainable development\n\n\nAnnexes\n\nANNEX I : Glossary\n\nANNEX II : Definitions, units and conventions\n\nANNEX III : Scenarios and modelling methods\n\nANNEX IV : Contributors to the IPCC WGIII Sixth Assessment Report\n\nANNEX V : Expert Reviewers of the IPCC WGIII Sixth Assessment Report\n\nANNEX VI : Acronyms\n\n\n\n\nAR6: Synthesis Report (syr)\n\nSummary for Policymakers\n\nSYR Longer Report\n\nAnnexes and Index\n\n\n\nsr15 : Global Warming of 1.5 ºC\n\nSPECIAL REPORT on Global Warming of 1.5 ºC\n\nSummary for Policymakers\n\nChapter 1 : Framing and Context\n\nChapter 2 : Mitigation pathways compatible with 1.5°C in the context of sustainable development\n\nChapter 3 : Impacts of 1.5ºC global warming on natural and human systems\n\nChapter 4 : Strengthening and implementing the global response\n\nChapter 5 : Sustainable Development, Poverty Eradication and Reducing Inequalities\n\nGlossary\n\n\n\nsrccl : Climate Change and Land\n\nSPECIAL REPORT on Climate Change and Land\n\nSummary for Policymakers\n\nTechnical Summary\n\nChapter 1: Framing and Context\n\nChapter 2 : Land–Climate interactions\n\nChapter 3 : Desertification\n\nChapter 4 : Land Degradation\n\nChapter 5 : Food Security\n\nChapter 6 : Interlinkages between desertification, land degradation, food security and GHG fluxes: synergies, trade-offs and integrated response options\n\nChapter 7 : Risk management and decision making in relation to sustainable development\n\nAnnex-I Glossary\n\nAnnex-II Acronyms\n\n\n\nsrocc : Special Report on the Ocean and Cryosphere in a Changing Climate\n\nSpecial Report on the Ocean and Cryosphere in a Changing Climate\n\nSummary for Policymakers\n\nTechnical Summary\n\nChapter 1: Framing and Context of the Report\n\nChapter 2: High Mountain Areas\n\nChapter 3: Polar regions\n\nChapter 4: Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities\n\nChapter 5: Changing Ocean, Marine Ecosystems, and Dependent Communities\n\nChapter 6: Extremes, Abrupt Changes and Managing Risks\n\nCross-Chapter Box 9: Integrative Cross-Chapter Box on Low-lying Islands and Coasts\n\nGlossary\n\n\n\n2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories Methodology report\n\nMethodology report: https://www.ipcc.ch/report/2019-refinement-to-the-2006-ipcc-guidelines-for-national-greenhouse-gas-inventories/ (not available as HTML, only PDF)\n\nVolumes: https://www.ipcc-nggip.iges.or.jp/public/2019rf/index.html\nComplete volume as ZIP archive: https://www.ipcc-nggip.iges.or.jp/public/2019rf/pdf/2019rf_all_in.zip",
-    "crumbs": [
-      "Browse AR6"
-    ]
-  },
-  {
-    "objectID": "data-imprint.html",
-    "href": "data-imprint.html",
-    "title": "Data Protection and Imprint",
-    "section": "",
-    "text": "Data protection\nhttps://www.tib.eu/en/data-protection",
-    "crumbs": [
-      "Data Protection and Imprint"
-    ]
-  },
-  {
-    "objectID": "data-imprint.html#imprint",
-    "href": "data-imprint.html#imprint",
-    "title": "Data Protection and Imprint",
-    "section": "Imprint",
-    "text": "Imprint\nhttps://www.tib.eu/en/imprint",
-    "crumbs": [
-      "Data Protection and Imprint"
-    ]
+    "text": "The project began with architecture and design questions, moved into report-structure and schema work, and then shifted toward data enrichment, publication workflows, and roadmap planning. The reverse-chronological diary format keeps the current work in focus while preserving the earlier issue-based context that shaped the project."
   }
 ]
